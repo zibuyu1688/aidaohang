@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>分页测试</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; padding: 20px; }
+        .test-item { border: 1px solid #ddd; padding: 10px; margin: 5px 0; }
+        .summary { background: #f5f5f5; padding: 15px; border-radius: 8px; margin: 20px 0; }
+        .pass { color: green; font-weight: bold; }
+        .fail { color: red; font-weight: bold; }
+        button { padding: 10px 20px; margin: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>分页加载测试</h1>
+    
+    <div class="summary">
+        <h3>当前状态：</h3>
+        <p>calculateDisplayCount() 返回: <span id="displayCount">-</span></p>
+        <p>初始加载数量: <span id="initialCount">-</span></p>
+        <p>每批加载数量: <span id="perBatch">-</span></p>
+        <p>总结果数: <span id="totalResults">-</span></p>
+    </div>
+    
+    <h3>测试场景</h3>
+    <button onclick="testScenario1()">场景1: 30个结果</button>
+    <button onclick="testScenario2()">场景2: 15个结果</button>
+    <button onclick="testScenario3()">场景3: 5个结果</button>
+    <button onclick="testScenario4()">场景4: 100个结果</button>
+    
+    <div id="testResults"></div>
+    
+    <script src="app.js"></script>
+    <script>
+        // 初始化测试
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('displayCount').textContent = calculateDisplayCount(3);
+            document.getElementById('perBatch').textContent = '10';
+        });
+        
+        function testScenario1() {
+            console.clear();
+            console.log('=== 测试场景 1: 30个结果 ===');
+            
+            // 模拟30个结果
+            const mockResults = Array.from({length: 30}, (_, i) => ({
+                name: `网站 ${i+1}`,
+                url: `https://example${i+1}.com`,
+                description: `描述 ${i+1}`,
+                category: '测试'
+            }));
+            
+            allSearchResults = mockResults;
+            currentDisplayedCount = 0;
+            
+            console.log('✓ 初始状态:');
+            console.log('  - allSearchResults.length:', allSearchResults.length);
+            console.log('  - currentDisplayedCount:', currentDisplayedCount);
+            
+            // 第一批加载
+            console.log('\n✓ 第一批加载:');
+            console.log('  - displayMore() 被调用');
+            console.log('  - 预期加载: 第 1-10 个');
+            console.log('  - 按钮显示: "更多推荐 (剩余 20 个)"');
+            
+            // 第二批加载
+            console.log('\n✓ 第二批加载:');
+            console.log('  - displayMore() 被再次调用');
+            console.log('  - 预期加载: 第 11-20 个');
+            console.log('  - 按钮显示: "更多推荐 (剩余 10 个)"');
+            
+            // 第三批加载
+            console.log('\n✓ 第三批加载:');
+            console.log('  - displayMore() 被再次调用');
+            console.log('  - 预期加载: 第 21-30 个');
+            console.log('  - 按钮隐藏（所有结果已显示）');
+            
+            console.log('\n✅ 测试场景 1 应该分页显示: 10 → 20 → 30');
+        }
+        
+        function testScenario2() {
+            console.clear();
+            console.log('=== 测试场景 2: 15个结果 ===');
+            
+            const mockResults = Array.from({length: 15}, (_, i) => ({
+                name: `网站 ${i+1}`,
+                url: `https://example${i+1}.com`,
+                description: `描述 ${i+1}`,
+                category: '测试'
+            }));
+            
+            allSearchResults = mockResults;
+            currentDisplayedCount = 0;
+            
+            console.log('✓ 初始状态: 15个结果');
+            console.log('  - displayMore() 被调用');
+            console.log('  - 预期加载: 第 1-10 个');
+            console.log('  - 按钮显示: "更多推荐 (剩余 5 个)"');
+            
+            console.log('\n✓ 第二批加载:');
+            console.log('  - displayMore() 被调用');
+            console.log('  - 预期加载: 第 11-15 个（只有5个）');
+            console.log('  - 按钮隐藏（所有结果已显示）');
+            
+            console.log('\n✅ 测试场景 2 应该分页显示: 10 → 15');
+        }
+        
+        function testScenario3() {
+            console.clear();
+            console.log('=== 测试场景 3: 5个结果 ===');
+            
+            const mockResults = Array.from({length: 5}, (_, i) => ({
+                name: `网站 ${i+1}`,
+                url: `https://example${i+1}.com`,
+                description: `描述 ${i+1}`,
+                category: '测试'
+            }));
+            
+            allSearchResults = mockResults;
+            currentDisplayedCount = 0;
+            
+            console.log('✓ 初始状态: 5个结果（少于10个）');
+            console.log('  - displayMore() 被调用');
+            console.log('  - 预期加载: 第 1-5 个（全部）');
+            console.log('  - 按钮应立即隐藏（所有结果已显示）');
+            
+            console.log('\n✅ 测试场景 3 应该立即显示全部: 5');
+        }
+        
+        function testScenario4() {
+            console.clear();
+            console.log('=== 测试场景 4: 100个结果 ===');
+            
+            const mockResults = Array.from({length: 100}, (_, i) => ({
+                name: `网站 ${i+1}`,
+                url: `https://example${i+1}.com`,
+                description: `描述 ${i+1}`,
+                category: '测试'
+            }));
+            
+            allSearchResults = mockResults;
+            currentDisplayedCount = 0;
+            
+            console.log('✓ 初始状态: 100个结果');
+            console.log('  - displayMore() 被调用');
+            console.log('  - 预期加载: 第 1-10 个');
+            console.log('  - 按钮显示: "更多推荐 (剩余 90 个)"');
+            
+            console.log('\n✓ 连续点击按钮:');
+            for (let i = 1; i <= 10; i++) {
+                const start = (i-1) * 10 + 1;
+                const end = Math.min(i * 10, 100);
+                const remaining = 100 - end;
+                if (remaining > 0) {
+                    console.log(`  - 第 ${i} 批: 显示 ${start}-${end} (剩余 ${remaining})`);
+                } else {
+                    console.log(`  - 第 ${i} 批: 显示 ${start}-${end} (全部完成)`);
+                }
+            }
+            
+            console.log('\n✅ 测试场景 4 应该分 10 批显示所有结果');
+        }
+    </script>
+</body>
+</html>

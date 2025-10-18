@@ -1,5 +1,6 @@
 // 本地网站数据库
 const websitesDatabase = [
+    // AI聊天助手
     {
         name: "ChatGPT",
         url: "https://chat.openai.com",
@@ -42,6 +43,8 @@ const websitesDatabase = [
         category: "AI聊天助手",
         tags: ["AI", "对话", "聊天", "字节", "豆包"]
     },
+    
+    // AI写作工具
     {
         name: "Notion AI",
         url: "https://www.notion.so/product/ai",
@@ -63,6 +66,8 @@ const websitesDatabase = [
         category: "AI写作工具",
         tags: ["AI", "写作", "文案", "营销"]
     },
+    
+    // AI图像工具
     {
         name: "Midjourney",
         url: "https://www.midjourney.com",
@@ -154,6 +159,8 @@ const websitesDatabase = [
         category: "AI图像工具",
         tags: ["AI", "绘画", "图片生成", "开源"]
     },
+    
+    // AI视频工具
     {
         name: "剪映",
         url: "https://www.capcut.cn",
@@ -203,6 +210,8 @@ const websitesDatabase = [
         category: "AI视频工具",
         tags: ["AI", "视频生成", "视频编辑"]
     },
+    
+    // AI音频工具
     {
         name: "Suno AI",
         url: "https://suno.ai",
@@ -245,6 +254,8 @@ const websitesDatabase = [
         category: "AI音频工具",
         tags: ["AI", "音乐生成", "作曲", "原创"]
     },
+    
+    // AI编程工具
     {
         name: "GitHub Copilot",
         url: "https://github.com/features/copilot",
@@ -294,6 +305,8 @@ const websitesDatabase = [
         category: "AI编程工具",
         tags: ["AI", "全栈", "Web开发", "快速开发"]
     },
+    
+    // AI设计工具
     {
         name: "Canva AI",
         url: "https://www.canva.com",
@@ -315,6 +328,8 @@ const websitesDatabase = [
         category: "AI设计工具",
         tags: ["AI", "UI设计", "原型", "协作", "国产"]
     },
+    
+    // AI办公工具
     {
         name: "WPS AI",
         url: "https://www.wps.cn",
@@ -357,6 +372,8 @@ const websitesDatabase = [
         category: "AI办公工具",
         tags: ["AI", "翻译", "网页翻译", "实时"]
     },
+    
+    // AI搜索引擎
     {
         name: "Perplexity",
         url: "https://www.perplexity.ai",
@@ -378,6 +395,8 @@ const websitesDatabase = [
         category: "AI搜索引擎",
         tags: ["AI", "搜索", "对话", "国产"]
     },
+    
+    // 搜索引擎
     {
         name: "百度",
         url: "https://www.baidu.com",
@@ -406,6 +425,8 @@ const websitesDatabase = [
         category: "搜索引擎",
         tags: ["搜索", "搜狗", "微信"]
     },
+    
+    // 在线办公
     {
         name: "石墨文档",
         url: "https://shimo.im",
@@ -441,6 +462,8 @@ const websitesDatabase = [
         category: "在线办公",
         tags: ["办公", "企业微信", "协作", "微信"]
     },
+    
+    // 设计与创意
     {
         name: "Canva",
         url: "https://www.canva.com",
@@ -497,6 +520,8 @@ const websitesDatabase = [
         category: "设计与创意",
         tags: ["设计", "采集", "灵感", "素材"]
     },
+    
+    // 程序开发
     {
         name: "GitHub",
         url: "https://github.com",
@@ -553,6 +578,8 @@ const websitesDatabase = [
         category: "程序开发",
         tags: ["在线编程", "IDE", "代码"]
     },
+    
+    // 产品与运营
     {
         name: "人人都是产品经理",
         url: "https://www.woshipm.com",
@@ -588,6 +615,8 @@ const websitesDatabase = [
         category: "产品与运营",
         tags: ["增长", "运营", "营销", "策略"]
     },
+    
+    // 学习与知识
     {
         name: "Coursera",
         url: "https://www.coursera.org",
@@ -644,6 +673,8 @@ const websitesDatabase = [
         category: "学习与知识",
         tags: ["读书", "电影", "音乐", "评分"]
     },
+    
+    // 效率工具
     {
         name: "Notion",
         url: "https://www.notion.so",
@@ -665,6 +696,8 @@ const websitesDatabase = [
         category: "效率工具",
         tags: ["PDF", "AI", "文档分析"]
     },
+    
+    // 电商工具
     {
         name: "淘宝",
         url: "https://www.taobao.com",
@@ -686,6 +719,8 @@ const websitesDatabase = [
         category: "电商工具",
         tags: ["京东", "购物", "电商", "自营"]
     },
+    
+    // ================== 亚马逊官方平台 ==================
     {
         name: "Amazon美国站",
         url: "https://www.amazon.com",
@@ -756,6 +791,8 @@ const websitesDatabase = [
         category: "亚马逊官方平台",
         tags: ["亚马逊", "品牌", "备案", "商标", "Amazon"]
     },
+    
+    // ================== 亚马逊卖家工具 ==================
     {
         name: "Jungle Scout",
         url: "https://www.junglescout.com",
@@ -798,6 +835,8 @@ const websitesDatabase = [
         category: "亚马逊卖家工具",
         tags: ["亚马逊", "竞品", "关键词", "分析", "Amazon"]
     },
+    
+    // ================== 传统电商平台 ==================
     {
         name: "速卖通",
         url: "https://www.aliexpress.com",
@@ -854,6 +893,8 @@ const websitesDatabase = [
         category: "电商工具",
         tags: ["抖音", "电商", "直播带货", "短视频"]
     },
+    
+    // 社交娱乐
     {
         name: "微信",
         url: "https://weixin.qq.com",
@@ -917,6 +958,8 @@ const websitesDatabase = [
         category: "社交娱乐",
         tags: ["视频", "影视", "电影", "综艺"]
     },
+    
+    // 生活服务
     {
         name: "美团",
         url: "https://www.meituan.com",
@@ -973,6 +1016,8 @@ const websitesDatabase = [
         category: "生活服务",
         tags: ["天气", "预报", "气象", "查询"]
     },
+    
+    // 新闻资讯
     {
         name: "新华网",
         url: "https://www.xinhuanet.com",
@@ -1015,6 +1060,8 @@ const websitesDatabase = [
         category: "新闻资讯",
         tags: ["新闻", "资讯", "网易", "热点"]
     },
+    
+    // 金融投资
     {
         name: "同花顺",
         url: "https://www.10jqka.com.cn",
@@ -1064,6 +1111,8 @@ const websitesDatabase = [
         category: "金融投资",
         tags: ["汇率", "外汇", "银行", "查询"]
     },
+
+    // 跨境电商-选品工具
     {
         name: "Google Trends",
         url: "https://trends.google.com",
@@ -1071,6 +1120,8 @@ const websitesDatabase = [
         category: "跨境选品工具",
         tags: ["谷歌", "趋势", "搜索", "分析", "选品"]
     },
+
+    // 跨境电商-关键词工具
     {
         name: "Ahrefs",
         url: "https://ahrefs.com",
@@ -1099,6 +1150,8 @@ const websitesDatabase = [
         category: "跨境关键词工具",
         tags: ["关键词", "谷歌", "长尾词", "建议"]
     },
+
+    // 跨境电商-广告平台
     {
         name: "Google Ads",
         url: "https://ads.google.com",
@@ -1127,6 +1180,8 @@ const websitesDatabase = [
         category: "跨境广告平台",
         tags: ["Pinterest", "广告", "视觉", "营销"]
     },
+
+    // 跨境电商-建站系统
     {
         name: "WooCommerce",
         url: "https://woocommerce.com",
@@ -1155,6 +1210,8 @@ const websitesDatabase = [
         category: "跨境建站系统",
         tags: ["电商", "开源", "企业级", "Magento"]
     },
+
+    // 跨境电商-支付收款
     {
         name: "PayPal",
         url: "https://www.paypal.com",
@@ -1190,6 +1247,8 @@ const websitesDatabase = [
         category: "跨境支付收款",
         tags: ["收款", "支付", "跨境", "电商"]
     },
+
+    // 跨境电商-物流服务
     {
         name: "递四方",
         url: "https://www.4px.com",
@@ -1225,6 +1284,8 @@ const websitesDatabase = [
         category: "跨境物流服务",
         tags: ["快递", "国际", "物流", "FedEx"]
     },
+
+    // 跨境电商-网红营销
     {
         name: "AspireIQ",
         url: "https://aspireiq.com",
@@ -1253,6 +1314,8 @@ const websitesDatabase = [
         category: "跨境网红营销",
         tags: ["YouTube", "网红", "数据", "分析"]
     },
+
+    // 跨境电商-数据分析
     {
         name: "SimilarWeb",
         url: "https://www.similarweb.com",
@@ -1281,6 +1344,8 @@ const websitesDatabase = [
         category: "跨境数据分析",
         tags: ["分析", "转化", "用户", "产品"]
     },
+
+    // 跨境电商-邮件营销
     {
         name: "Mailchimp",
         url: "https://mailchimp.com",
@@ -1309,6 +1374,8 @@ const websitesDatabase = [
         category: "跨境邮件营销",
         tags: ["邮件", "发送", "API", "营销"]
     },
+
+    // 跨境电商-货源平台
     {
         name: "义乌购",
         url: "https://www.yiwugo.com",
@@ -1337,6 +1404,8 @@ const websitesDatabase = [
         category: "跨境货源平台",
         tags: ["代发", "货源", "仓储", "物流"]
     },
+
+    // 跨境资讯媒体
     {
         name: "雨果跨境",
         url: "https://www.cifnews.com",
@@ -1352,12 +1421,21 @@ const websitesDatabase = [
         tags: ["亚马逊", "导航", "资讯", "工具"]
     },
     {
+        name: "AMZ520",
+        url: "https://amz520.com",
+        description: "亚马逊工具导航网站",
+        category: "跨境资讯媒体",
+        tags: ["亚马逊", "导航", "工具", "网站"]
+    },
+    {
         name: "跨境电商鹰熊汇",
         url: "https://www.yingxionghui.com",
         description: "跨境电商知识分享社区",
         category: "跨境资讯媒体",
         tags: ["跨境", "知识", "社区", "分享"]
     },
+
+    // 设计灵感网站
     {
         name: "Pinterest",
         url: "https://www.pinterest.com",
@@ -1379,6 +1457,8 @@ const websitesDatabase = [
         category: "设计灵感网站",
         tags: ["UI", "设计", "交流", "作品"]
     },
+
+    // 设计素材下载
     {
         name: "Freepik",
         url: "https://www.freepik.com",
@@ -1407,6 +1487,8 @@ const websitesDatabase = [
         category: "设计素材下载",
         tags: ["图标", "矢量", "中文", "免费"]
     },
+
+    // 配色工具
     {
         name: "Coolors",
         url: "https://coolors.co",
@@ -1442,6 +1524,8 @@ const websitesDatabase = [
         category: "设计配色工具",
         tags: ["渐变", "配色", "颜色", "UI"]
     },
+
+    // 在线设计工具
     {
         name: "稿定设计",
         url: "https://www.gaoding.com",
@@ -1456,6 +1540,8 @@ const websitesDatabase = [
         category: "在线设计工具",
         tags: ["原型", "设计", "协作", "标注"]
     },
+
+    // 字体资源
     {
         name: "Google Fonts",
         url: "https://fonts.google.com",
@@ -1484,6 +1570,8 @@ const websitesDatabase = [
         category: "设计字体资源",
         tags: ["字体", "英文", "免费", "下载"]
     },
+
+    // 设计工具软件
     {
         name: "Figma",
         url: "https://www.figma.com",
@@ -1505,6 +1593,8 @@ const websitesDatabase = [
         category: "设计软件工具",
         tags: ["协作", "标注", "设计", "团队"]
     },
+
+    // 设计学习平台
     {
         name: "虎课网",
         url: "https://huke88.com",
@@ -1526,6 +1616,8 @@ const websitesDatabase = [
         category: "设计学习平台",
         tags: ["设计", "教程", "资源", "分享"]
     },
+    
+    // AI检测工具
     {
         name: "GPTZero",
         url: "https://gptzero.me",
@@ -1547,6 +1639,8 @@ const websitesDatabase = [
         category: "AI检测工具",
         tags: ["AI检测", "抄袭检查", "原创性"]
     },
+    
+    // 提示词工程
     {
         name: "PromptBase",
         url: "https://promptbase.com",
@@ -1568,6 +1662,8 @@ const websitesDatabase = [
         category: "提示词工程",
         tags: ["提示词", "Prompt", "社区", "工具"]
     },
+    
+    // AI营销工具
     {
         name: "Jasper",
         url: "https://www.jasper.ai",
@@ -1589,6 +1685,8 @@ const websitesDatabase = [
         category: "AI营销工具",
         tags: ["AI", "营销", "设计", "多合一"]
     },
+    
+    // AI数据分析
     {
         name: "Julius AI",
         url: "https://julius.ai",
@@ -1610,6 +1708,8 @@ const websitesDatabase = [
         category: "AI数据分析",
         tags: ["数据可视化", "商业智能", "分析"]
     },
+    
+    // AI客服
     {
         name: "Tidio",
         url: "https://www.tidio.com",
@@ -1631,6 +1731,8 @@ const websitesDatabase = [
         category: "AI客服",
         tags: ["AI", "客服", "国产", "智能"]
     },
+    
+    // AI教育
     {
         name: "Khan Academy",
         url: "https://www.khanacademy.org",
@@ -1652,6 +1754,8 @@ const websitesDatabase = [
         category: "AI教育",
         tags: ["AI", "教育", "作业", "辅导"]
     },
+    
+    // 3D建模
     {
         name: "Meshy",
         url: "https://www.meshy.ai",
@@ -1673,6 +1777,8 @@ const websitesDatabase = [
         category: "3D建模",
         tags: ["AI", "3D", "扫描", "生成"]
     },
+
+    // 广告营销资讯
     {
         name: "数英",
         url: "https://www.digitaling.com",
@@ -1715,6 +1821,8 @@ const websitesDatabase = [
         category: "广告营销资讯",
         tags: ["广告", "营销", "品牌", "国际"]
     },
+
+    // 创意视频平台
     {
         name: "V电影",
         url: "https://www.vmovier.com",
@@ -1736,6 +1844,8 @@ const websitesDatabase = [
         category: "创意视频平台",
         tags: ["视频", "创意", "精选", "短片"]
     },
+
+    // 广告创意奖项
     {
         name: "戛纳国际创意节",
         url: "https://www.canneslions.com",
@@ -1757,6 +1867,8 @@ const websitesDatabase = [
         category: "广告创意奖项",
         tags: ["奖项", "设计", "广告", "黄铅笔"]
     },
+    
+    // 创意设计公司
     {
         name: "天与空",
         url: "http://www.tianyukong.com",
@@ -1967,6 +2079,8 @@ const websitesDatabase = [
         category: "创意设计公司",
         tags: ["设计", "艺术", "广告", "顾问"]
     },
+    
+    // 文案创作平台
     {
         name: "纽约客",
         url: "https://www.newyorker.com",
@@ -1974,6 +2088,22 @@ const websitesDatabase = [
         category: "文案创作平台",
         tags: ["文案", "杂志", "创意", "写作", "国际"]
     },
+    {
+        name: "Copy.ai",
+        url: "https://www.copy.ai",
+        description: "AI驱动的文案创作平台，能够生成各类营销文案和创意内容",
+        category: "文案创作平台",
+        tags: ["文案", "AI", "营销", "写作", "创意"]
+    },
+    {
+        name: "Jasper",
+        url: "https://www.jasper.ai",
+        description: "专业的AI文案写作助手，为营销团队提供高质量内容创作服务",
+        category: "文案创作平台",
+        tags: ["文案", "AI", "内容创作", "营销", "博客"]
+    },
+    
+    // 文案灵感网站
     {
         name: "It's Nice That",
         url: "https://www.itsnicethat.com",
@@ -2002,6 +2132,8 @@ const websitesDatabase = [
         category: "文案灵感网站",
         tags: ["文案", "创意", "灵感", "思维工具", "创新"]
     },
+    
+    // 文案学习资源
     {
         name: "Copyblogger",
         url: "https://copyblogger.com",
@@ -2023,6 +2155,8 @@ const websitesDatabase = [
         category: "文案学习资源",
         tags: ["文案", "学习", "营销", "认证", "免费"]
     },
+    
+    // 创意文案社区
     {
         name: "CARGO",
         url: "https://cargocollective.com",
@@ -2031,12 +2165,21 @@ const websitesDatabase = [
         tags: ["文案", "创意", "作品集", "展示", "社区"]
     },
     {
+        name: "Behance",
+        url: "https://www.behance.net/search/projects?search=%E6%96%87%E6%A1%88",
+        description: "展示和发现创意作品的平台，汇集了大量优秀文案案例",
+        category: "创意文案社区",
+        tags: ["文案", "创意", "设计", "案例", "作品集"]
+    },
+    {
         name: "文案狗",
         url: "http://wenangou.com",
         description: "专为文案工作者提供灵感和素材的资源网站",
         category: "创意文案社区",
         tags: ["文案", "广告", "营销", "写作", "中文"]
     },
+    
+    // 广告文案库
     {
         name: "Luerzer's Archive",
         url: "https://www.luerzersarchive.com",
@@ -2065,6 +2208,8 @@ const websitesDatabase = [
         category: "广告文案库",
         tags: ["文案", "广告", "合规", "禁用词", "审核"]
     },
+    
+    // 数字分析工具
     {
         name: "Google Analytics 4",
         url: "https://analytics.google.com",
@@ -2079,6 +2224,22 @@ const websitesDatabase = [
         category: "数字分析工具",
         tags: ["分析", "数据", "百度", "流量", "中文"]
     },
+    {
+        name: "Hotjar",
+        url: "https://www.hotjar.com",
+        description: "热图分析工具，可视化用户行为和浏览路径",
+        category: "数字分析工具",
+        tags: ["热图", "用户行为", "分析", "可视化", "体验"]
+    },
+    {
+        name: "Mixpanel",
+        url: "https://mixpanel.com",
+        description: "产品分析平台，专注用户行为分析和留存转化",
+        category: "数字分析工具",
+        tags: ["产品分析", "用户行为", "留存", "转化率", "漏斗"]
+    },
+    
+    // 社交媒体营销
     {
         name: "Buffer",
         url: "https://buffer.com",
@@ -2107,6 +2268,15 @@ const websitesDatabase = [
         category: "社交媒体营销",
         tags: ["新媒体", "内容", "管理", "排期", "多平台"]
     },
+    
+    // 邮件营销平台
+    {
+        name: "Mailchimp",
+        url: "https://mailchimp.com",
+        description: "全球知名邮件营销平台，支持自动化和数据分析",
+        category: "邮件营销平台",
+        tags: ["邮件", "营销", "自动化", "模板", "分析"]
+    },
     {
         name: "SendCloud",
         url: "https://www.sendcloud.net",
@@ -2121,6 +2291,22 @@ const websitesDatabase = [
         category: "邮件营销平台",
         tags: ["通讯", "订阅", "内容", "变现", "创作者"]
     },
+    
+    // SEO工具
+    {
+        name: "Ahrefs",
+        url: "https://ahrefs.com",
+        description: "专业SEO工具，提供网站分析、关键词研究和竞争对手分析",
+        category: "SEO工具",
+        tags: ["SEO", "关键词", "外链", "排名", "分析"]
+    },
+    {
+        name: "SEMrush",
+        url: "https://www.semrush.com",
+        description: "全方位营销工具套件，包含SEO、PPC、内容营销等功能",
+        category: "SEO工具",
+        tags: ["SEO", "营销", "关键词", "分析", "竞争"]
+    },
     {
         name: "站长工具",
         url: "https://tool.chinaz.com",
@@ -2128,6 +2314,8 @@ const websitesDatabase = [
         category: "SEO工具",
         tags: ["SEO", "站长", "工具", "查询", "中文"]
     },
+    
+    // 内容营销
     {
         name: "飞书妙记",
         url: "https://www.feishu.cn/product/minutes",
@@ -2142,6 +2330,8 @@ const websitesDatabase = [
         category: "内容营销",
         tags: ["原型", "设计", "协作", "产品", "交互"]
     },
+    
+    // 营销自动化
     {
         name: "HubSpot",
         url: "https://www.hubspot.com",
@@ -2156,6 +2346,8 @@ const websitesDatabase = [
         category: "营销自动化",
         tags: ["CRM", "营销", "自动化", "企业", "客户"]
     },
+    
+    // 流量获取
     {
         name: "知乎广告",
         url: "https://marketing.zhihu.com",
@@ -2170,6 +2362,8 @@ const websitesDatabase = [
         category: "流量获取",
         tags: ["广告", "抖音", "头条", "投放", "流量"]
     },
+    
+    // 用户增长
     {
         name: "GrowingIO",
         url: "https://www.growingio.com",
@@ -2184,6 +2378,8 @@ const websitesDatabase = [
         category: "用户增长",
         tags: ["数据", "用户", "分析", "增长", "行为"]
     },
+
+    // 裁判案例
     {
         name: "中国裁判文书网",
         url: "https://wenshu.court.gov.cn",
@@ -2282,6 +2478,8 @@ const websitesDatabase = [
         category: "裁判案例",
         tags: ["法规", "案例", "工商", "专家", "检索"]
     },
+
+    // 法律法规
     {
         name: "国家法律法规数据库",
         url: "https://flk.npc.gov.cn",
@@ -2338,6 +2536,8 @@ const websitesDatabase = [
         category: "法律法规",
         tags: ["环境", "标准", "生态", "解读", "文本"]
     },
+
+    // 市场主体信息
     {
         name: "国家企业信用信息公示系统",
         url: "https://www.gsxt.gov.cn",
@@ -2401,6 +2601,8 @@ const websitesDatabase = [
         category: "市场主体信息",
         tags: ["企业", "工商", "判决", "关联", "失信"]
     },
+
+    // 司法案件信息
     {
         name: "中国审判流程信息公开网",
         url: "https://splcgk.court.gov.cn",
@@ -2450,6 +2652,8 @@ const websitesDatabase = [
         category: "司法案件信息",
         tags: ["检察", "服务", "投诉", "举报", "查询"]
     },
+
+    // 网络司法拍卖
     {
         name: "人民法院诉讼资产网",
         url: "https://www.rmfysszc.gov.cn",
@@ -2492,6 +2696,8 @@ const websitesDatabase = [
         category: "网络司法拍卖",
         tags: ["北京", "产权", "交易", "司法", "拍卖"]
     },
+
+    // 知识产权业务
     {
         name: "国家知识产权局",
         url: "https://www.cnipa.gov.cn",
@@ -2541,6 +2747,8 @@ const websitesDatabase = [
         category: "知识产权业务",
         tags: ["版权", "登记", "软件", "作品", "保护"]
     },
+
+    // 资本证券
     {
         name: "北京证券交易所",
         url: "https://www.bse.cn",
@@ -2583,6 +2791,8 @@ const websitesDatabase = [
         category: "资本证券",
         tags: ["证券", "期货", "失信", "违法", "查询"]
     },
+
+    // 法律数据查询
     {
         name: "国家统计局及地方统计网站",
         url: "https://www.stats.gov.cn",
@@ -2611,6 +2821,7 @@ const websitesDatabase = [
         category: "法律数据查询",
         tags: ["诉讼费", "利息", "违约金", "计算", "工具"]
     },
+    // 财经门户
     {
         name: "东方财富网",
         url: "http://www.eastmoney.com",
@@ -2653,6 +2864,7 @@ const websitesDatabase = [
         category: "财经门户",
         tags: ["全球", "金融", "市场", "资讯", "华尔街"]
     },
+    // 财经媒体
     {
         name: "FT中文网",
         url: "http://www.ftchinese.com",
@@ -2695,6 +2907,14 @@ const websitesDatabase = [
         category: "财经媒体",
         tags: ["彭博", "全球", "商业", "金融", "资讯"]
     },
+    // 投资交流
+    {
+        name: "雪球",
+        url: "https://xueqiu.com",
+        description: "中国领先的投资者社交网络，用户可以交流投资想法、跟踪股票组合",
+        category: "投资交流",
+        tags: ["投资", "社交", "股票", "交流", "组合"]
+    },
     {
         name: "集思录",
         url: "https://www.jisilu.cn",
@@ -2723,6 +2943,7 @@ const websitesDatabase = [
         category: "投资交流",
         tags: ["股票", "讨论", "投资", "个股", "策略"]
     },
+    // 行业资讯
     {
         name: "钢铁网",
         url: "http://www.mysteel.com",
@@ -2758,6 +2979,7 @@ const websitesDatabase = [
         category: "行业资讯",
         tags: ["B2B", "电子商务", "行业", "交易", "信息"]
     },
+    // 期货交易
     {
         name: "英为财情",
         url: "https://cn.investing.com",
@@ -2786,6 +3008,7 @@ const websitesDatabase = [
         category: "期货交易",
         tags: ["期货", "市场", "新闻", "分析", "报道"]
     },
+    // 抖音验货
     {
         name: "飞如红人",
         url: "http://www.feelpro.cn",
@@ -2870,6 +3093,7 @@ const websitesDatabase = [
         category: "抖音验货",
         tags: ["抖音", "电商", "分析", "监控", "商品"]
     },
+    // 淘宝联盟
     {
         name: "淘宝联盟",
         url: "https://pub.alimama.com",
@@ -2926,6 +3150,7 @@ const websitesDatabase = [
         category: "淘宝联盟",
         tags: ["开发", "API", "联盟", "淘宝", "接口"]
     },
+    // 网红营销
     {
         name: "速推客",
         url: "https://www.stkfanli.com",
@@ -2976,6 +3201,13 @@ const websitesDatabase = [
         tags: ["带货", "佣金", "监控", "销量", "数据"]
     },
     {
+        name: "Remove.bg",
+        url: "https://www.remove.bg",
+        description: "AI智能去除图片背景，一键操作无需PS技能",
+        category: "图片处理与去水印",
+        tags: ["去背景", "去水印", "图片处理", "AI", "抠图"]
+    },
+    {
         name: "Inpaint",
         url: "https://inpaint.app",
         description: "在线图片编辑工具，智能擦除不需要的物体和水印",
@@ -2995,6 +3227,13 @@ const websitesDatabase = [
         description: "在线PS编辑器，支持图片处理、去水印、去背景等功能",
         category: "图片处理与去水印",
         tags: ["在线PS", "去水印", "图片编辑", "设计工具"]
+    },
+    {
+        name: "Photopea",
+        url: "https://www.photopea.com",
+        description: "高级在线图片编辑器，类似Photoshop，支持PSD格式",
+        category: "图片处理与去水印",
+        tags: ["在线PS", "图片编辑", "去水印", "设计"]
     },
     {
         name: "Fotor",
@@ -3027,4 +3266,3 @@ const hotWebsites = [
     "淘宝联盟",
     "飞瓜数据"
 ];
-

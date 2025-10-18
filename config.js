@@ -37,8 +37,14 @@ function getCache(query) {
     return null;
 }
 
-// 设置缓存
+// 设置缓存（只缓存非空结果）
 function setCache(query, results) {
+    // 只缓存有真实结果的查询
+    if (!results || results.length === 0) {
+        console.log('⏭️ 跳过缓存空结果');
+        return;
+    }
+    
     const cacheKey = `search_cache_${query.toLowerCase()}`;
     const data = {
         timestamp: Date.now(),
@@ -47,10 +53,18 @@ function setCache(query, results) {
     
     try {
         localStorage.setItem(cacheKey, JSON.stringify(data));
+        console.log('💾 缓存已保存:', query, `(${results.length} 个结果)`);
     } catch (e) {
         // 缓存满了，清理旧缓存
         clearOldCache();
     }
+}
+
+// 清除特定查询的缓存
+function clearCache(query) {
+    const cacheKey = `search_cache_${query.toLowerCase()}`;
+    localStorage.removeItem(cacheKey);
+    console.log('🗑️ 已清除缓存:', query);
 }
 
 // 清理旧缓存

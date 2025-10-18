@@ -62,6 +62,28 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     
+    // 模型选择器事件
+    const deepseekBtn = document.getElementById('deepseekBtn');
+    const qwenBtn = document.getElementById('qwenBtn');
+    
+    deepseekBtn.addEventListener('click', () => {
+        switchAIProvider('deepseek');
+        deepseekBtn.classList.add('active');
+        qwenBtn.classList.remove('active');
+        console.log('✅ 已切换到 DeepSeek 模型');
+    });
+    
+    qwenBtn.addEventListener('click', () => {
+        switchAIProvider('qwen');
+        qwenBtn.classList.add('active');
+        deepseekBtn.classList.remove('active');
+        console.log('✅ 已切换到 Qwen 模型');
+    });
+    
+    // 下载按钮事件
+    const downloadBtn = document.getElementById('downloadBtn');
+    downloadBtn.addEventListener('click', downloadAsExcel);
+    
     // 加载更多按钮事件
     loadMoreBtn.addEventListener('click', handleLoadMore);
     
@@ -147,6 +169,7 @@ async function handleSearch() {
         aiSearchComplete = false;
         
         const apiKey = getApiKey();
+        const provider = getCurrentProvider();
         
         // 1️⃣ 立即执行本地搜索
         console.log('1️⃣ 执行本地搜索...');
@@ -156,18 +179,19 @@ async function handleSearch() {
         // 2️⃣ 立即显示本地结果（不等 AI）
         loading.classList.add('hidden');
         results.classList.remove('hidden');
-        resultsTitle.textContent = `为你找到 "${query}" 相关网站`;
+        resultsTitle.textContent = '';
         allSearchResults = localResults.map(r => ({...r, source: 'local'}));
         currentDisplayedCount = 0;
         resultsList.innerHTML = '';
         displayMore();
         
         // 3️⃣ 后台异步获取 AI 推荐（如果有 API Key）
-        if (apiKey && localResults.length < 20) {
+        console.log(`🔑 API Key 检查 - 提供商: ${provider}, Key 存在: ${!!apiKey}, Key 前缀: ${apiKey ? apiKey.substring(0, 10) : '无'}`);
+        if (apiKey && apiKey.trim() && localResults.length < 20) {
             console.log('🌐 后台加载 AI 推荐...');
             loadAIRecommendationsAsync(query, apiKey);
         } else {
-            console.log('⏭️  跳过 AI 搜索（无 API 或本地结果充足）');
+            console.log('⏭️  跳过 AI 搜索（无 API 或本地结果充足）', {hasKey: !!apiKey, keyValid: apiKey && apiKey.trim().length > 0, localCount: localResults.length});
             aiSearchComplete = true;
         }
         
@@ -360,145 +384,54 @@ function searchLocalDatabase(query) {
 // AI理解用户意图
 async function analyzeIntent(query, apiKey) {
     try {
-        console.log('📡 调用 DeepSeek API 分析意图...');
+        const apiConfig = getAPIConfig();
+        console.log(`📡 调用 ${apiConfig.provider.toUpperCase()} API 分析意图...`);
         
-        const response = await fetch(CONFIG.DEEPSEEK_API_URL, {
+        const systemPrompt = '你是网站导航助手，分析用户意图。返回JSON格式：{userIntent, category, keywords[], intent, isBrandSearch}';
+        
+        const response = await fetch(apiConfig.apiUrl, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${apiKey}`
             },
             body: JSON.stringify({
-                model: CONFIG.DEEPSEEK_MODEL,
+                model: apiConfig.model,
                 messages: [{
                     role: "system",
-                    content: `你是一个精准的网站导航助手。你的核心职责是：
-1. **深入分析用户意图** - 不仅理解表面搜索词，还要挖掘用户的真实需求
-2. **识别品牌搜索** - 当用户搜索品牌名时，直接返回该品牌的官网和相关平台
-3. **精准分类匹配** - 将用户需求映射到最相关的网站分类
-4. **推荐高质量资源** - 只推荐公认的、专业的、直接服务于用户意图的网站
-
-【品牌名识别】
-如果用户搜索的是品牌名（如亚马逊、Amazon、沃尔玛、eBay等），应该：
-- 直接识别为"品牌搜索"意图
-- 返回该品牌的官方网站和官方平台
-- 推荐该品牌的买家服务和卖家平台
-- 避免推荐竞争对手或无关平台
-
-【品牌分类示例】
-- 亚马逊 / Amazon：亚马逊官方平台、各国站点、买家服务、卖家中央、卖家工具
-- eBay / ebay：eBay官方平台
-- Shopify：Shopify官方平台
-- 沃尔玛 / Walmart：沃尔玛官方平台
-- 速卖通 / AliExpress：速卖通官方平台
-- Wish：Wish官方平台
-
-【用户意图分类】
-必须首先判断用户的搜索属于以下哪一类：
-- **品牌搜索**: 搜索特定品牌的官网、平台、服务
-- **获取信息**: 查找新闻、资讯、数据、行业报告等信息类内容
-- **学习教程**: 学习技能、获取培训课程、教学资源
-- **使用工具**: 寻找在线工具、软件、应用程序
-- **购买商品**: 寻找产品、商城、交易平台
-- **社区交流**: 寻找论坛、社群、讨论社区
-- **其他需求**: 其他特定用途（如数据分析、业务合作等）
-
-【网站筛选标准】
-推荐的网站必须满足以下条件：
-✓ 公认的高质量资源 - 业界认可、用户众多
-✓ 直接服务用户意图 - 专业针对用户的具体需求
-✓ 避免推荐泛滥的门户网站 - 不推荐过于宽泛的综合型网站
-✓ 避免推荐不相关的链接 - 确保完全匹配用户需求
-✓ 优先推荐专业化网站 - 深度服务优于广泛覆盖
-✓ 品牌搜索时，优先官方渠道 - 避免推荐竞争对手
-
-【返回格式】
-返回JSON格式（不要markdown代码块）：
-{
-    "userIntent": "品牌搜索|获取信息|学习教程|使用工具|购买商品|社区交流|其他",
-    "category": "最相关的分类",
-    "keywords": ["关键词1", "关键词2", "关键词3"],
-    "intent": "用户想做什么的简短描述",
-    "isBrandSearch": true|false
-}
-
-【可能的分类及推荐场景】
-【亚马逊相关】亚马逊官方平台、亚马逊买家服务、亚马逊卖家中央、亚马逊卖家工具、亚马逊品牌备案
-【eBay相关】eBay官方平台、eBay卖家平台、eBay买家服务
-【Shopify相关】Shopify官方平台、Shopify模板市场、Shopify应用
-【速卖通相关】速卖通官方平台、速卖通卖家平台
-【Wish相关】Wish官方平台、Wish卖家平台
-【AI工具】AI聊天助手、AI写作工具、AI图像工具、AI视频工具、AI音频工具、AI编程工具、AI设计工具、AI办公工具、AI搜索引擎、AI开发平台、AI学习网站、AI检测工具、提示词工程、AI营销工具、AI数据分析、AI客服、AI教育、3D建模
-【跨境电商】跨境选品工具、跨境关键词工具、跨境广告平台、跨境建站系统、跨境支付收款、跨境物流服务、跨境网红营销、跨境数据分析、跨境邮件营销、跨境货源平台、跨境资讯媒体
-【设计师工具】设计灵感网站、设计素材下载、设计配色工具、在线设计工具、设计字体资源、设计软件工具、设计学习平台
-【广告营销】广告营销资讯、创意视频平台、广告创意奖项、创意设计公司
-【创意文案】文案创作平台、文案灵感网站、文案学习资源、创意文案社区、广告文案库
-【数字营销】数字分析工具、社交媒体营销、邮件营销平台、SEO工具、内容营销、营销自动化、流量获取、用户增长
-【法律资源】裁判案例、法律法规、市场主体信息、司法案件信息、网络司法拍卖、知识产权、资本证券、法律数据查询
-【财经资讯】财经门户、财经媒体、投资交流、行业资讯、期货交易
-【淘宝客】抖音验货、淘宝联盟、网红营销
-【常用工具】搜索引擎、在线办公、设计与创意、程序开发、产品与运营、学习与知识、效率工具、电商工具、营销工具、社交娱乐、生活服务、新闻资讯、金融投资
-
-【意图分析示例】
-- 查询"亚马逊"
-  用户意图: 品牌搜索 | 分类: 亚马逊官方平台 | 推荐亚马逊美国站、英国站、日本站、卖家中央、买家服务等官方渠道，不推荐Wish、速卖通等竞争平台
-  
-- 查询"Amazon开店"
-  用户意图: 品牌搜索 | 分类: 亚马逊官方平台 | 推荐亚马逊全球开店、卖家中央等官方卖家渠道
-  
-- 查询"亚马逊选品工具"
-  用户意图: 使用工具 | 分类: 亚马逊卖家工具 | 推荐Jungle Scout、Helium 10、卖家精灵等专业工具
-  
-- 查询"AI绘画工具"
-  用户意图: 使用工具 | 分类: AI图像工具 | 推荐Midjourney、Stable Diffusion等专业AI绘画平台而非通用AI平台
-  
-- 查询"跨境电商入门教程"
-  用户意图: 学习教程 | 分类: 跨境电商 | 推荐专业培训机构、官方学院而非普通资讯站
-  
-- 查询"最新财经新闻"
-  用户意图: 获取信息 | 分类: 财经媒体 | 推荐财新、第一财经等专业财经媒体而非综合新闻网站
-  
-- 查询"SEO优化社区"
-  用户意图: 社区交流 | 分类: SEO工具 | 推荐专业SEO论坛、社区而非通用讨论平台
-
-【关键提示】
-- 始终优先推荐垂直领域的专业平台而不是综合性门户
-- 理解用户的真实需求，而不是字面意思
-- 为不同用户意图提供最合适的资源类型
-- 避免"万能"推荐，每个推荐都应该是精准的
-- **品牌搜索时，严格只推荐该品牌的官方和相关正式渠道**
-- **绝对避免在品牌搜索中推荐竞争对手**`
+                    content: systemPrompt
                 }, {
                     role: "user",
-                    content: query
+                    content: `分析用户搜索意图："${query}"，返回JSON格式`
                 }],
-                temperature: 0.3
+                temperature: 0.3,
+                max_tokens: 500
             })
         });
         
+        console.log(`✅ Fetch 已完成加载：${apiConfig.provider.toUpperCase()} API`);
+        
         if (!response.ok) {
-            throw new Error(`API 状态错误: ${response.status} ${response.statusText}`);
+            throw new Error(`API 状态错误: ${response.status}`);
         }
         
         const data = await response.json();
-        
-        if (!data.choices || !data.choices[0] || !data.choices[0].message) {
-            throw new Error('API 响应格式错误：缺少必需字段');
-        }
-        
         const content = data.choices[0].message.content;
-        
-        // 清理可能的markdown代码块
         const jsonStr = content.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+        const intent = JSON.parse(jsonStr);
         
-        const parsed = JSON.parse(jsonStr);
-        console.log('✅ 意图分析成功:', parsed);
-        return parsed;
+        console.log('✅ 意图分析成功:', intent);
+        return intent;
         
     } catch (error) {
         console.error('❌ 意图分析失败:', error.message);
-        console.error('📋 详细错误:', error);
-        throw error;
+        return {
+            userIntent: '其他',
+            category: '常用工具',
+            keywords: [query],
+            intent: `搜索${query}相关内容`,
+            isBrandSearch: false
+        };
     }
 }
 
@@ -554,15 +487,16 @@ function matchLocalDatabase(intent, originalQuery) {
 async function getAIRecommendations(intent, query, existingResults, apiKey) {
     const existingNames = existingResults.map(r => r.name).join('、');
     const isBrandSearch = intent.isBrandSearch === true;
+    const apiConfig = getAPIConfig();
     
-    const response = await fetch(CONFIG.DEEPSEEK_API_URL, {
+    const response = await fetch(apiConfig.apiUrl, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${apiKey}`
         },
         body: JSON.stringify({
-            model: CONFIG.DEEPSEEK_MODEL,
+            model: apiConfig.model,
             messages: [{
                 role: "system",
                 content: `你是一个全面的网站推荐专家。你的核心职责是：
@@ -866,7 +800,7 @@ function displayResults(searchResults, query) {
     
     // 显示初始结果
     results.classList.remove('hidden');
-    resultsTitle.textContent = `为你找到 "${query}" 相关网站`;
+    resultsTitle.textContent = '';
     resultsCount.textContent = `${searchResults.length} 个结果`;
     
     // 显示第一批结果
@@ -1024,4 +958,77 @@ function createResultElement(site) {
     });
     
     return div;
+}
+
+// 下载搜索结果为 Excel
+function downloadAsExcel() {
+    if (allSearchResults.length === 0) {
+        alert('没有搜索结果可下载！');
+        return;
+    }
+    
+    // 检查 XLSX 库是否已加载
+    if (typeof XLSX === 'undefined') {
+        console.warn('⚠️  XLSX 库尚未加载，正在重新加载...');
+        // 动态加载 XLSX
+        const script = document.createElement('script');
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';
+        script.onload = () => {
+            console.log('✅ XLSX 库加载成功，重试下载...');
+            downloadAsExcelInternal();
+        };
+        script.onerror = () => {
+            console.error('❌ 无法加载 XLSX 库');
+            alert('下载库加载失败，请检查网络连接后重试！');
+        };
+        document.head.appendChild(script);
+        return;
+    }
+    
+    downloadAsExcelInternal();
+}
+
+// 实际的下载逻辑
+function downloadAsExcelInternal() {
+    try {
+        // 准备数据
+        const data = allSearchResults.map((site, index) => ({
+            '序号': index + 1,
+            '网站名称': site.name || '',
+            '网站链接': site.url || '',
+            '描述': site.description || '',
+            '分类': site.category || '',
+            '来源': site.source === 'ai' ? 'AI 推荐' : '本地结果'
+        }));
+        
+        // 创建工作簿
+        const ws = XLSX.utils.json_to_sheet(data);
+        const wb = XLSX.utils.book_new();
+        XLSX.utils.book_append_sheet(wb, ws, '搜索结果');
+        
+        // 设置列宽
+        const colWidths = [
+            { wch: 8 },      // 序号
+            { wch: 20 },     // 网站名称
+            { wch: 40 },     // 网站链接
+            { wch: 30 },     // 描述
+            { wch: 15 },     // 分类
+            { wch: 12 }      // 来源
+        ];
+        ws['!cols'] = colWidths;
+        
+        // 生成文件名（包含搜索词和时间戳）
+        const timestamp = new Date().toLocaleString('zh-CN').replace(/[/:]/g, '-');
+        const query = searchInput.value || '搜索结果';
+        const fileName = `${query}_${timestamp}.xlsx`;
+        
+        // 下载文件
+        XLSX.writeFile(wb, fileName);
+        
+        console.log(`✅ 已下载 Excel 文件: ${fileName}，共 ${allSearchResults.length} 条结果`);
+        
+    } catch (error) {
+        console.error('❌ 下载失败:', error);
+        alert('下载失败，请重试！');
+    }
 }

@@ -38,6 +38,17 @@
             </button>
         </div>
 
+        <!-- AI 模型选择器 -->
+        <div class="model-selector">
+            <span class="model-label">AI 模型：</span>
+            <button id="deepseekBtn" class="model-btn active" data-model="deepseek">
+                <span class="model-icon">⚡</span> DeepSeek
+            </button>
+            <button id="qwenBtn" class="model-btn" data-model="qwen">
+                <span class="model-icon">🤖</span> Qwen
+            </button>
+        </div>
+
         <!-- 加载动画 -->
         <div id="loading" class="loading hidden">
             <div class="spinner"></div>
@@ -47,8 +58,18 @@
         <!-- 搜索结果 -->
         <div id="results" class="results hidden">
             <div class="results-header">
-                <h2 id="resultsTitle">为你找到以下网站</h2>
-                <span id="resultsCount"></span>
+                <div class="results-title-section">
+                    <h2 id="resultsTitle">为你找到以下网站</h2>
+                    <span id="resultsCount"></span>
+                </div>
+                <button id="downloadBtn" class="download-btn" title="下载搜索结果为 Excel">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    <span>下载 Excel</span>
+                </button>
             </div>
             <div id="resultsList" class="results-list"></div>
             <!-- 加载更多容器 -->
@@ -70,6 +91,9 @@
         </div>
     </div>
 
+    <!-- 第三方库 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <!-- 本地脚本 -->
     <script src="config.js"></script>
     <script src="websites.js"></script>
     <script src="app.js"></script>

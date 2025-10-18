@@ -10,8 +10,16 @@
     <div class="container">
         <!-- Logo区域 -->
         <div class="logo">
-            <h1>智搜</h1>
-            <p class="subtitle">AI 驱动 精准导航</p>
+            <h1 class="logo-title">
+                <span class="logo-text">
+                    <span class="chinese-z">智</span><span class="chinese-s">搜</span>
+                </span>
+                <span class="logo-pinyin">
+                    <span class="pinyin-z">Z</span><span class="pinyin-h">h</span><span class="pinyin-i">i</span>
+                    <span class="pinyin-s">S</span><span class="pinyin-o">o</span><span class="pinyin-u">u</span>
+                </span>
+            </h1>
+            <p class="subtitle">AI 驱动&nbsp;&nbsp;新一代的智能导航网站</p>
         </div>
 
         <!-- 搜索框 -->
@@ -43,6 +51,16 @@
                 <span id="resultsCount"></span>
             </div>
             <div id="resultsList" class="results-list"></div>
+            <!-- 加载更多容器 -->
+            <div id="loadMoreContainer" class="load-more-container hidden">
+                <button id="loadMoreBtn" class="load-more-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <polyline points="19 12 12 19 5 12"></polyline>
+                    </svg>
+                    <span id="loadMoreText">更多推荐</span>
+                </button>
+            </div>
         </div>
 
         <!-- 热门推荐 -->

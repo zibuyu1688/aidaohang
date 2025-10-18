@@ -8,6 +8,23 @@ const resultsTitle = document.getElementById('resultsTitle');
 const resultsCount = document.getElementById('resultsCount');
 const hotSites = document.getElementById('hotSites');
 const hotList = document.getElementById('hotList');
+const loadMoreContainer = document.getElementById('loadMoreContainer');
+const loadMoreBtn = document.getElementById('loadMoreBtn');
+const loadMoreText = document.getElementById('loadMoreText');
+
+// 全局状态
+let allSearchResults = [];
+let currentDisplayedCount = 0;
+let columnsPerRow = 3;
+
+// 计算每行显示的列数
+function getColumnsPerRow() {
+    const width = window.innerWidth;
+    if (width < 480) return 1;
+    if (width < 768) return 2;
+    if (width < 1200) return 3;
+    return 3;  // 默认3列
+}
 
 // 初始化
 document.addEventListener('DOMContentLoaded', () => {
@@ -28,6 +45,16 @@ document.addEventListener('DOMContentLoaded', () => {
             handleSearch();
         }
     });
+    
+    // 加载更多按钮事件
+    loadMoreBtn.addEventListener('click', handleLoadMore);
+    
+    // 监听窗口大小变化
+    window.addEventListener('resize', () => {
+        columnsPerRow = getColumnsPerRow();
+    });
+    
+    columnsPerRow = getColumnsPerRow();
 });
 
 // 加载热门网站
@@ -397,19 +424,72 @@ function displayResults(searchResults, query) {
         resultsTitle.textContent = '😢 没有找到相关网站';
         resultsCount.textContent = '';
         resultsList.innerHTML = '<p style="text-align:center;color:#666;padding:40px;">试试其他关键词吧<br><br>💡 试试搜索："抠图"、"去水印"、"AI绘画"</p>';
+        loadMoreContainer.classList.add('hidden');
         return;
     }
     
-    // 显示结果
+    // 保存所有搜索结果
+    allSearchResults = searchResults;
+    currentDisplayedCount = 0;
+    
+    // 显示初始结果
     results.classList.remove('hidden');
     resultsTitle.textContent = `为你找到 "${query}" 相关网站`;
     resultsCount.textContent = `${searchResults.length} 个结果`;
     
-    resultsList.innerHTML = '';
-    searchResults.forEach(site => {
+    // 显示第一批结果
+    displayMore();
+}
+
+// 计算要显示的数量（确保是列数的倍数）
+function calculateDisplayCount(columnsPerRow) {
+    // 确保显示的数量是列数的倍数
+    // 3列显示9个，12个等（3的倍数）
+    // 4列显示12个，16个等（4的倍数）
+    // 2列显示8个，10个等（2的倍数）
+    // 1列显示任意数量
+    
+    if (columnsPerRow === 1) return 10;
+    return Math.ceil(10 / columnsPerRow) * columnsPerRow;
+}
+
+// 显示更多结果
+function handleLoadMore() {
+    loadMoreBtn.disabled = true;
+    loadMoreText.textContent = '加载中...';
+    
+    // 模拟异步加载
+    setTimeout(() => {
+        displayMore();
+        loadMoreBtn.disabled = false;
+    }, 300);
+}
+
+// 执行显示更多逻辑
+function displayMore() {
+    const toAdd = calculateDisplayCount(columnsPerRow);
+    const startIndex = currentDisplayedCount;
+    const endIndex = Math.min(currentDisplayedCount + toAdd, allSearchResults.length);
+    
+    // 将新结果添加到列表
+    for (let i = startIndex; i < endIndex; i++) {
+        const site = allSearchResults[i];
         const item = createResultElement(site);
         resultsList.appendChild(item);
-    });
+    }
+    
+    currentDisplayedCount = endIndex;
+    
+    // 更新结果计数
+    resultsCount.textContent = `${currentDisplayedCount}/${allSearchResults.length} 个结果`;
+    
+    // 检查是否还有更多结果
+    if (currentDisplayedCount >= allSearchResults.length) {
+        loadMoreContainer.classList.add('hidden');
+    } else {
+        loadMoreContainer.classList.remove('hidden');
+        loadMoreText.textContent = `更多推荐 (剩余 ${allSearchResults.length - currentDisplayedCount} 个)`;
+    }
 }
 
 // 创建结果元素

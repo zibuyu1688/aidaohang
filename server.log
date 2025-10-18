@@ -1,19 +1,5 @@
-Traceback (most recent call last):
-  File "<frozen runpy>", line 198, in _run_module_as_main
-  File "<frozen runpy>", line 88, in _run_code
-  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/server.py", line 1314, in <module>
-    test(
-  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/server.py", line 1261, in test
-    with ServerClass(addr, HandlerClass) as httpd:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socketserver.py", line 457, in __init__
-    self.server_bind()
-  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/server.py", line 1308, in server_bind
-    return super().server_bind()
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/Library/Framework::1 - - [18/Oct/2025 19:40:19] "GET / HTTP/1.1" 200 -
-::1 - - [18/Oct/2025 19:40:22] "GET / HTTP/1.1" 200 -
-CPServer.server_bind(self)
-  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socketserver.py", line 473, in server_bind
-    self.socket.bind(self.server_address)
-OSError: [Errno 48] Address already in use
+::1 - - [18/Oct/2025 19:57:21] "GET /index.html HTTP/1.1" 200 -
+::1 - - [18/Oct/2025 19:57:31] "GET /style.css HTTP/1.1" 200 -
+::1 - - [18/Oct/2025 19:58:05] "GET / HTTP/1.1" 200 -
+::1 - - [18/Oct/2025 19:58:05] "GET /style.css HTTP/1.1" 200 -
+::1 - - [18/Oct/2025 19:58:05] "GET /app.js HTTP/1.1" 304 -

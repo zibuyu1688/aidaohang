@@ -2737,6 +2737,385 @@ const websitesDatabase = [
         description: "计算诉讼费、LPR利息、违约金、迟延履行利息、民间借贷利息、日期期间等",
         category: "法律数据查询",
         tags: ["诉讼费", "利息", "违约金", "计算", "工具"]
+    },
+    // 财经门户
+    {
+        name: "东方财富网",
+        url: "http://www.eastmoney.com",
+        description: "中国领先的互联网金融服务平台，提供财经资讯、证券行情、数据分析等服务",
+        category: "财经门户",
+        tags: ["财经", "股票", "行情", "证券", "投资"]
+    },
+    {
+        name: "新浪财经",
+        url: "http://finance.sina.com.cn",
+        description: "新浪财经频道，提供全球财经新闻和金融证券行情数据",
+        category: "财经门户",
+        tags: ["财经", "新闻", "股票", "行情", "数据"]
+    },
+    {
+        name: "凤凰财经",
+        url: "http://finance.ifeng.com",
+        description: "凤凰网旗下财经频道，关注全球经济动态、市场行情和投资机会",
+        category: "财经门户",
+        tags: ["财经", "全球", "市场", "投资", "经济"]
+    },
+    {
+        name: "和讯网",
+        url: "http://www.hexun.com",
+        description: "中国最大财经门户之一，提供实时行情、财经资讯、理财服务和互动社区",
+        category: "财经门户",
+        tags: ["财经", "行情", "资讯", "理财", "投资"]
+    },
+    {
+        name: "金融界",
+        url: "http://www.jrj.com.cn",
+        description: "中国知名财经网站，提供金融资讯、股票、基金、期货等投资信息",
+        category: "财经门户",
+        tags: ["金融", "股票", "基金", "期货", "投资"]
+    },
+    {
+        name: "华尔街见闻",
+        url: "http://wallstreetcn.com",
+        description: "专业的财经新媒体，专注于全球资讯，提供专业、实时、深度的全球金融市场资讯",
+        category: "财经门户",
+        tags: ["全球", "金融", "市场", "资讯", "华尔街"]
+    },
+    // 财经媒体
+    {
+        name: "FT中文网",
+        url: "http://www.ftchinese.com",
+        description: "英国《金融时报》集团旗下的中文商业财经网站，提供全球财经资讯",
+        category: "财经媒体",
+        tags: ["金融时报", "全球", "商业", "财经", "资讯"]
+    },
+    {
+        name: "财新网",
+        url: "http://www.caixin.com",
+        description: "中国最有影响力的财经媒体之一，提供深度财经新闻与分析",
+        category: "财经媒体",
+        tags: ["财经", "新闻", "分析", "经济", "深度"]
+    },
+    {
+        name: "21世纪经济报道",
+        url: "https://www.21jingji.com",
+        description: "专注于经济、产业与管理的财经媒体，提供专业财经新闻报道",
+        category: "财经媒体",
+        tags: ["财经", "经济", "产业", "管理", "报道"]
+    },
+    {
+        name: "第一财经",
+        url: "http://www.yicai.com",
+        description: "上海文广新闻传媒集团旗下的财经媒体，提供实时财经新闻",
+        category: "财经媒体",
+        tags: ["财经", "新闻", "资讯", "实时", "经济"]
+    },
+    {
+        name: "华尔街日报中文网",
+        url: "http://cn.wsj.com/gb",
+        description: "美国著名财经媒体《华尔街日报》的中文网站，关注全球财经动态",
+        category: "财经媒体",
+        tags: ["华尔街", "全球", "财经", "美国", "国际"]
+    },
+    {
+        name: "彭博中文网",
+        url: "https://www.bloombergchina.com",
+        description: "全球知名商业和金融信息提供商彭博社的中文网站",
+        category: "财经媒体",
+        tags: ["彭博", "全球", "商业", "金融", "资讯"]
+    },
+    // 投资交流
+    {
+        name: "雪球",
+        url: "https://xueqiu.com",
+        description: "中国领先的投资者社交网络，用户可以交流投资想法、跟踪股票组合",
+        category: "投资交流",
+        tags: ["投资", "社交", "股票", "交流", "组合"]
+    },
+    {
+        name: "集思录",
+        url: "https://www.jisilu.cn",
+        description: "专注于债券、基金等固定收益投资的社区，提供数据分析和用户交流",
+        category: "投资交流",
+        tags: ["债券", "基金", "固定收益", "投资", "分析"]
+    },
+    {
+        name: "淘股吧",
+        url: "https://www.taoguba.com.cn",
+        description: "活跃的股票投资者交流社区，提供股票讨论、大户动态和投资观点",
+        category: "投资交流",
+        tags: ["股票", "投资", "交流", "讨论", "观点"]
+    },
+    {
+        name: "人大经济论坛",
+        url: "http://bbs.pinggu.org",
+        description: "中国知名的经济、金融和统计学术交流平台，提供专业讨论和资料分享",
+        category: "投资交流",
+        tags: ["经济", "金融", "统计", "学术", "交流"]
+    },
+    {
+        name: "股吧",
+        url: "http://guba.eastmoney.com",
+        description: "东方财富网旗下的股票讨论社区，用户可以讨论个股、大盘和投资策略",
+        category: "投资交流",
+        tags: ["股票", "讨论", "投资", "个股", "策略"]
+    },
+    // 行业资讯
+    {
+        name: "钢铁网",
+        url: "http://www.mysteel.com",
+        description: "国内专业的钢铁信息服务平台，提供钢材价格、资讯和数据分析",
+        category: "行业资讯",
+        tags: ["钢铁", "价格", "行情", "资讯", "分析"]
+    },
+    {
+        name: "生意社",
+        url: "http://www.100ppi.com",
+        description: "商品行情服务平台，提供大宗商品价格、行情分析和供求信息",
+        category: "行业资讯",
+        tags: ["商品", "价格", "行情", "分析", "大宗"]
+    },
+    {
+        name: "中国化工网",
+        url: "http://china.chemnet.com",
+        description: "化工行业门户网站，提供化工产品、价格行情和供求信息",
+        category: "行业资讯",
+        tags: ["化工", "产品", "行情", "价格", "供求"]
+    },
+    {
+        name: "中国能源网",
+        url: "http://www.china5e.com",
+        description: "能源行业门户网站，提供能源政策、市场分析和行业动态",
+        category: "行业资讯",
+        tags: ["能源", "政策", "市场", "分析", "动态"]
+    },
+    {
+        name: "慧聪网",
+        url: "http://www.hc360.com",
+        description: "B2B电子商务平台，覆盖多个行业的商业信息和产品交易",
+        category: "行业资讯",
+        tags: ["B2B", "电子商务", "行业", "交易", "信息"]
+    },
+    // 期货交易
+    {
+        name: "英为财情",
+        url: "https://cn.investing.com",
+        description: "全球金融门户网站，提供股票、期货、外汇等多元化行情数据",
+        category: "期货交易",
+        tags: ["全球", "金融", "期货", "行情", "数据"]
+    },
+    {
+        name: "和讯期货",
+        url: "http://futures.hexun.com",
+        description: "和讯网旗下期货频道，提供期货行情、资讯和分析工具",
+        category: "期货交易",
+        tags: ["期货", "行情", "资讯", "分析", "工具"]
+    },
+    {
+        name: "99期货",
+        url: "http://www.99qh.com",
+        description: "期货门户网站，提供期货行情、价格走势和市场分析",
+        category: "期货交易",
+        tags: ["期货", "行情", "价格", "走势", "分析"]
+    },
+    {
+        name: "期货日报",
+        url: "http://www.qhrb.com.cn",
+        description: "中国期货业权威媒体，提供期货市场新闻和分析报道",
+        category: "期货交易",
+        tags: ["期货", "市场", "新闻", "分析", "报道"]
+    },
+    // 抖音验货
+    {
+        name: "飞如红人",
+        url: "http://www.feelpro.cn",
+        description: "为商家和网红达人提供高效资源对接平台，精选全球高佣好物，提供优质的选品渠道，专注为短视频、直播达人提供优质高佣商品",
+        category: "抖音验货",
+        tags: ["抖音", "短视频", "带货", "红人", "验货"]
+    },
+    {
+        name: "种草之家",
+        url: "https://www.zhongcao.cn",
+        description: "种草之家的抖音验货平台，抖音热门商品都在这里，欢迎抖音带货达人挑选商品，商家免费赠送样品",
+        category: "抖音验货",
+        tags: ["抖音", "种草", "验货", "样品", "带货"]
+    },
+    {
+        name: "搜淘客",
+        url: "http://www.tkw1688.com/trill/index.html",
+        description: "商家提供高佣金，推广周期长的产品，每个产品提供多份样品给抖音淘客，抖音淘客免费领取，赚取佣金的验货平台",
+        category: "抖音验货",
+        tags: ["淘客", "抖音", "样品", "佣金", "验货"]
+    },
+    {
+        name: "达人推",
+        url: "https://www.darentui.com",
+        description: "专业的短视频带货平台，专注优质商品内容打造，为达人提供优质的选品渠道，并有大量优质商家dou+支持",
+        category: "抖音验货",
+        tags: ["短视频", "带货", "达人", "选品", "dou+"]
+    },
+    {
+        name: "AK抖客联盟",
+        url: "http://daren.akdklm.com",
+        description: "抖音淘客，致力于商家抖音带货，抖音淘客种草达人原创视频生产,视频生产者变现平台，颠覆传统抖音带货模式",
+        category: "抖音验货",
+        tags: ["抖客", "联盟", "短视频", "带货", "变现"]
+    },
+    {
+        name: "带货网",
+        url: "http://www.daihw.com/material",
+        description: "抖音快手达人带货，免费拿样品，短视频分发平台",
+        category: "抖音验货",
+        tags: ["带货", "样品", "达人", "短视频", "抖音"]
+    },
+    {
+        name: "嘀嘀红人",
+        url: "https://www.ddhongren.com",
+        description: "短视频网红商家自动派单带货平台，10000个网红全天在线选品，纯佣金带货，抖音、快手、小红书全渠道网红帮你卖货",
+        category: "抖音验货",
+        tags: ["红人", "带货", "网红", "短视频", "佣金"]
+    },
+    {
+        name: "带货圈",
+        url: "https://www.daihuo360.com",
+        description: "专注为抖音短视频、直播达人提供优质高佣商品，免费提供验货样品并发放视频创作补贴",
+        category: "抖音验货",
+        tags: ["带货", "抖音", "样品", "补贴", "短视频"]
+    },
+    {
+        name: "全五分",
+        url: "http://www.quan5fen.com",
+        description: "专业的短视频数据分析平台，抖音验货产品有很多，但是像全五分这样的靠谱抖音验货平台却不多见",
+        category: "抖音验货",
+        tags: ["短视频", "数据分析", "抖音", "验货", "产品"]
+    },
+    {
+        name: "悟空带货",
+        url: "https://www.daihuo.com",
+        description: "抖音数据实时检测分分析淘客推广、流量变现、一站式解决方案，各行业类型的热门、飙升榜单，实时数据监测",
+        category: "抖音验货",
+        tags: ["抖音", "数据", "淘客", "推广", "变现"]
+    },
+    {
+        name: "飞瓜数据",
+        url: "https://dy.feigua.cn",
+        description: "致力提供专业的实时抖音直播与商品带货数据，热门主播排行榜，热门抖音音乐与视频排行，抖音小店排行",
+        category: "抖音验货",
+        tags: ["飞瓜", "数据", "抖音", "直播", "带货"]
+    },
+    {
+        name: "抖商眼",
+        url: "https://doushangyan.com",
+        description: "专业的抖音电商工具分析工具，提供抖音热门商品排行榜，抖音热门预测，达人与商品的监控分析等功能",
+        category: "抖音验货",
+        tags: ["抖音", "电商", "分析", "监控", "商品"]
+    },
+    // 淘宝联盟
+    {
+        name: "淘宝联盟",
+        url: "https://pub.alimama.com",
+        description: "淘宝联盟官方网站，阿里巴巴集团旗下淘宝客推广平台，连接商家与内容创作者的桥梁",
+        category: "淘宝联盟",
+        tags: ["淘宝", "联盟", "淘客", "推广", "佣金"]
+    },
+    {
+        name: "淘宝联盟规则中心",
+        url: "https://rule.alimama.com",
+        description: "淘宝联盟常见规则，淘宝推广必须遵守的各项规章制度和政策",
+        category: "淘宝联盟",
+        tags: ["规则", "淘宝", "联盟", "政策", "推广"]
+    },
+    {
+        name: "阿里创作平台",
+        url: "https://we.taobao.com/creator/login-intro",
+        description: "在人工智能将替代一切的未来，唯有内容的创作无可替代，阿里巴巴提供的内容创作平台",
+        category: "淘宝联盟",
+        tags: ["创作", "内容", "平台", "淘宝", "推广"]
+    },
+    {
+        name: "淘宝联盟官方论坛",
+        url: "https://market.m.taobao.com/app/qn/toutiao-new/index-pc.html",
+        description: "淘宝联盟官方千牛号，面向广大淘宝客伙伴们，进行各种信息的互动平台",
+        category: "淘宝联盟",
+        tags: ["论坛", "淘宝", "联盟", "互动", "交流"]
+    },
+    {
+        name: "联盟学院",
+        url: "https://pub.alimama.com/fourth/school/index.htm",
+        description: "淘宝联盟官方学院，汇集各类淘客课程，大佬分享，帮助淘宝客提升推广技巧",
+        category: "淘宝联盟",
+        tags: ["学院", "淘宝", "联盟", "课程", "淘客"]
+    },
+    {
+        name: "万堂书院",
+        url: "https://shuyuan.taobao.com",
+        description: "阿里妈妈万堂书院小二讲解直钻淘产品功能动向以及内容运营玩法，行业小二带来的不同类目推广技巧",
+        category: "淘宝联盟",
+        tags: ["书院", "阿里", "妈妈", "推广", "运营"]
+    },
+    {
+        name: "联盟商家中心",
+        url: "https://ad.alimama.com/index.htm",
+        description: "淘宝客官方动态发布，商家管理推广计划的平台",
+        category: "淘宝联盟",
+        tags: ["商家", "联盟", "淘宝", "推广", "计划"]
+    },
+    {
+        name: "淘宝联盟开发者中心",
+        url: "https://open.alimama.com",
+        description: "淘宝联盟电商生态开发者服务平台，提供API接口和开发文档",
+        category: "淘宝联盟",
+        tags: ["开发", "API", "联盟", "淘宝", "接口"]
+    },
+    // 网红营销
+    {
+        name: "速推客",
+        url: "https://www.stkfanli.com",
+        description: "速推客返利机器人 – 集淘宝、京东、拼多多、唯品会、抖音多合一的返利机器人",
+        category: "网红营销",
+        tags: ["返利", "机器人", "淘宝客", "推广", "佣金"]
+    },
+    {
+        name: "腾促",
+        url: "http://www.tengcu.com/home/goods",
+        description: "腾促抖音达人，快手达人，免费拿样品验货平台，连接商家与网红",
+        category: "网红营销",
+        tags: ["抖音", "达人", "快手", "样品", "验货"]
+    },
+    {
+        name: "大淘客抖音验货",
+        url: "http://dh.dataoke.com/rank_goods",
+        description: "大淘客联盟旗下带货短视频专业数据分析平台，让短视频带货更轻松",
+        category: "网红营销",
+        tags: ["大淘客", "抖音", "验货", "短视频", "数据"]
+    },
+    {
+        name: "顶咖网",
+        url: "http://www.dingka.com/trillInspection/caicai",
+        description: "专注为电商人创业提供一站式的企业服务，在淘宝、天猫网店的转让交易服务领域深耕多年",
+        category: "网红营销",
+        tags: ["电商", "创业", "淘宝", "网店", "交易"]
+    },
+    {
+        name: "打榜社区",
+        url: "http://wangwuhaoping.com/dabang/daihuoindex",
+        description: "依托打榜参谋大数据及人工智能技术，为品牌客户提供基于短视频生态的创作和投放服务",
+        category: "网红营销",
+        tags: ["打榜", "短视频", "创作", "投放", "数据"]
+    },
+    {
+        name: "抖老板",
+        url: "https://www.doulaoban.com",
+        description: "集联盟订单同步，抖音带货数据分析，抖音运营团队管理于一体的一站式数据管理平台",
+        category: "网红营销",
+        tags: ["抖音", "带货", "数据", "运营", "管理"]
+    },
+    {
+        name: "带货助手",
+        url: "https://tools.daihuo.com",
+        description: "实时监控商品的佣金计划，更有图表展示商品30天佣金走势、商品销量情况等",
+        category: "网红营销",
+        tags: ["带货", "佣金", "监控", "销量", "数据"]
     }
 ];
 
@@ -2750,6 +3129,8 @@ const hotWebsites = [
     "Runway",
     "Google Analytics 4",
     "Ahrefs",
-    "中国裁判文书网",
-    "国家法律法规数据库"
+    "东方财富网",
+    "雪球",
+    "淘宝联盟",
+    "飞瓜数据"
 ];

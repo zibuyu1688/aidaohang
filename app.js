@@ -34,11 +34,18 @@ document.addEventListener('DOMContentLoaded', () => {
 function loadHotSites() {
     hotList.innerHTML = '';
     
+    // 最多显示6个热门网站
+    const maxHotSites = 6;
+    let count = 0;
+    
     hotWebsites.forEach(siteName => {
+        if (count >= maxHotSites) return;
+        
         const site = websitesDatabase.find(s => s.name === siteName);
         if (site) {
             const item = createHotSiteElement(site);
             hotList.appendChild(item);
+            count++;
         }
     });
 }
@@ -220,6 +227,14 @@ async function analyzeIntent(query, apiKey) {
 - 用户输入"法律法规" → category: "法律法规", keywords: ["法律", "法规", "规定", "条例"], intent: "查询法律法规条文"
 - 用户输入"司法拍卖" → category: "网络司法拍卖", keywords: ["拍卖", "司法", "竞买", "资产"], intent: "参与司法拍卖活动"
 - 用户输入"企业信息" → category: "市场主体信息", keywords: ["企业", "工商", "信用", "主体"], intent: "查询市场主体信息"
+- 用户输入"股票资讯" → category: "财经门户", keywords: ["股票", "财经", "金融", "证券"], intent: "查看股票财经资讯"
+- 用户输入"财经报道" → category: "财经媒体", keywords: ["财经", "新闻", "资讯", "报道"], intent: "了解财经新闻动态"
+- 用户输入"行业研究" → category: "行业资讯", keywords: ["行业", "研究", "报告", "分析"], intent: "获取行业研究资料"
+- 用户输入"投资社区" → category: "投资交流", keywords: ["投资", "社区", "交流", "股票"], intent: "参与投资讨论"
+- 用户输入"期货行情" → category: "期货交易", keywords: ["期货", "行情", "交易", "商品"], intent: "查看期货市场行情"
+- 用户输入"抖音带货" → category: "抖音验货", keywords: ["抖音", "验货", "带货", "样品"], intent: "寻找抖音带货平台"
+- 用户输入"淘宝客" → category: "淘宝联盟", keywords: ["淘宝客", "联盟", "推广", "佣金"], intent: "了解淘宝客推广渠道"
+- 用户输入"网红带货" → category: "网红营销", keywords: ["网红", "带货", "短视频", "直播"], intent: "寻找网红带货合作"
 - 用户输入"百度" → category: "搜索引擎", keywords: ["搜索", "百度", "查找"], intent: "搜索信息"`
             }, {
                 role: "user",

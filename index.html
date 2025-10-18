@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI导航 - 智能网站搜索</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo区域 -->
+        <div class="logo">
+            <h1>AI导航</h1>
+            <p class="subtitle">智能理解你的需求</p>
+        </div>
+
+        <!-- 搜索框 -->
+        <div class="search-box">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="搜索网站或描述你的需求，如：抠图、去水印..."
+                autocomplete="off"
+            >
+            <button id="searchBtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- 加载动画 -->
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>AI正在理解你的需求...</p>
+        </div>
+
+        <!-- 搜索结果 -->
+        <div id="results" class="results hidden">
+            <div class="results-header">
+                <h2 id="resultsTitle">为你找到以下网站</h2>
+                <span id="resultsCount"></span>
+            </div>
+            <div id="resultsList" class="results-list"></div>
+        </div>
+
+        <!-- 热门推荐 -->
+        <div id="hotSites" class="hot-sites">
+            <h3>热门工具</h3>
+            <div class="hot-list" id="hotList"></div>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="websites.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

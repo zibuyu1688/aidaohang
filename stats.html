@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站统计 - AI导航</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .stat-card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+            transition: all 0.3s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 32px rgba(0,0,0,0.2);
+        }
+        
+        .stat-card h2 {
+            color: #667eea;
+            font-size: 16px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .stat-card .number {
+            font-size: 48px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .stat-card .label {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .category-list {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+        }
+        
+        .category-list h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .category-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .category-item:last-child {
+            border-bottom: none;
+        }
+        
+        .category-name {
+            font-size: 16px;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .category-count {
+            background: #667eea;
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 12px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 30px;
+            transition: all 0.3s;
+        }
+        
+        .back-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255,255,255,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 网站统计</h1>
+            <p>AI导航收录的优质网站数据</p>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h2>总网站数</h2>
+                <div class="number" id="totalCount">0</div>
+                <div class="label">个精选网站</div>
+            </div>
+            
+            <div class="stat-card">
+                <h2>分类数量</h2>
+                <div class="number" id="categoryCount">0</div>
+                <div class="label">个主要分类</div>
+            </div>
+            
+            <div class="stat-card">
+                <h2>热门推荐</h2>
+                <div class="number" id="hotCount">0</div>
+                <div class="label">个首页展示</div>
+            </div>
+            
+            <div class="stat-card">
+                <h2>最大分类</h2>
+                <div class="number" id="maxCategory">-</div>
+                <div class="label" id="maxCategoryLabel">加载中...</div>
+            </div>
+        </div>
+        
+        <div class="category-list">
+            <h2>📁 分类详情</h2>
+            <div id="categoryDetails"></div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="/" class="back-btn">🏠 返回首页</a>
+        </div>
+    </div>
+    
+    <script src="websites.js"></script>
+    <script>
+        // 统计数据
+        const totalCount = websitesDatabase.length;
+        const categories = {};
+        
+        // 按分类统计
+        websitesDatabase.forEach(site => {
+            if (!categories[site.category]) {
+                categories[site.category] = 0;
+            }
+            categories[site.category]++;
+        });
+        
+        const categoryCount = Object.keys(categories).length;
+        const hotCount = hotWebsites.length;
+        
+        // 找出最大分类
+        let maxCat = '';
+        let maxCount = 0;
+        for (const [cat, count] of Object.entries(categories)) {
+            if (count > maxCount) {
+                maxCount = count;
+                maxCat = cat;
+            }
+        }
+        
+        // 显示统计数据
+        document.getElementById('totalCount').textContent = totalCount;
+        document.getElementById('categoryCount').textContent = categoryCount;
+        document.getElementById('hotCount').textContent = hotCount;
+        document.getElementById('maxCategory').textContent = maxCount;
+        document.getElementById('maxCategoryLabel').textContent = `${maxCat}分类`;
+        
+        // 显示分类详情（按数量排序）
+        const sortedCategories = Object.entries(categories)
+            .sort((a, b) => b[1] - a[1]);
+        
+        const detailsHtml = sortedCategories.map(([cat, count]) => `
+            <div class="category-item">
+                <span class="category-name">${cat}</span>
+                <span class="category-count">${count} 个</span>
+            </div>
+        `).join('');
+        
+        document.getElementById('categoryDetails').innerHTML = detailsHtml;
+        
+        // 在控制台输出详细信息
+        console.log('=== 网站数据统计 ===');
+        console.log('总网站数:', totalCount);
+        console.log('分类数:', categoryCount);
+        console.log('热门推荐:', hotCount);
+        console.log('\n分类详情:');
+        sortedCategories.forEach(([cat, count]) => {
+            console.log(`  ${cat}: ${count}个`);
+        });
+    </script>
+</body>
+</html>

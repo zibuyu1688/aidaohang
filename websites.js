@@ -806,6 +806,384 @@ const websitesDatabase = [
         tags: ["速卖通", "跨境电商", "电商平台", "阿里巴巴", "全球开店"]
     },
     {
+        name: "速卖通卖家后台",
+        url: "https://gsp.aliexpress.com",
+        description: "速卖通官方卖家后台管理系统，提供店铺管理、商品发布、订单处理、数据分析等核心功能",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "卖家后台", "店铺管理", "订单处理", "跨境电商"]
+    },
+    {
+        name: "速卖通大学",
+        url: "https://university.aliexpress.com",
+        description: "速卖通官方学习平台，提供卖家培训课程、运营技巧、政策解读等教育资源",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "卖家培训", "运营技巧", "政策解读", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家论坛",
+        url: "https://seller.aliexpress.com",
+        description: "速卖通官方卖家社区，卖家可以交流经验、获取最新政策信息、参与官方活动",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "卖家社区", "经验交流", "政策信息", "跨境电商"]
+    },
+    {
+        name: "速卖通规则中心",
+        url: "https://rule.aliexpress.com",
+        description: "速卖通官方规则平台，发布平台政策、交易规则、违规处罚等规范性文件",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "平台规则", "交易规则", "违规处罚", "跨境电商"]
+    },
+    {
+        name: "速卖通数据纵横",
+        url: "https://dataview.aliexpress.com",
+        description: "速卖通官方数据分析工具，提供店铺数据、行业趋势、关键词分析等数据服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "数据分析", "行业趋势", "关键词分析", "跨境电商"]
+    },
+    {
+        name: "速卖通营销中心",
+        url: "https://promotion.aliexpress.com",
+        description: "速卖通官方营销平台，提供店铺促销、优惠券、联盟营销等营销工具",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "营销工具", "店铺促销", "优惠券", "跨境电商"]
+    },
+    {
+        name: "速卖通物流服务",
+        url: "https://shipping.aliexpress.com",
+        description: "速卖通官方物流平台，提供线上发货、物流跟踪、运费模板等物流服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "物流服务", "线上发货", "物流跟踪", "跨境电商"]
+    },
+    {
+        name: "速卖通客户服务",
+        url: "https://cs.aliexpress.com",
+        description: "速卖通官方客服中心，提供卖家咨询、问题反馈、纠纷处理等客户服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "客户服务", "问题反馈", "纠纷处理", "跨境电商"]
+    },
+    {
+        name: "速卖通招商平台",
+        url: "https://business.aliexpress.com",
+        description: "速卖通官方招商平台，提供品牌入驻、招商政策、品牌合作等服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "品牌入驻", "招商政策", "品牌合作", "跨境电商"]
+    },
+    {
+        name: "速卖通全球开店",
+        url: "https://gsp.aliexpress.com/apps/seller/entry",
+        description: "速卖通全球开店入口，提供新卖家注册、店铺开通、资质审核等服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "全球开店", "卖家注册", "店铺开通", "跨境电商"]
+    },
+    {
+        name: "AliExpress Seller App",
+        url: "https://seller.aliexpress.com/mobile",
+        description: "速卖通卖家移动端应用，支持手机端店铺管理、订单处理、数据查看等功能",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "移动应用", "店铺管理", "订单处理", "跨境电商"]
+    },
+    {
+        name: "速卖通API文档",
+        url: "https://developers.aliexpress.com",
+        description: "速卖通开放平台API文档，为开发者提供接口说明、SDK下载、技术支持",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "API文档", "开发者", "接口", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家工具市场",
+        url: "https://apps.aliexpress.com",
+        description: "速卖通官方应用市场，提供第三方卖家工具、ERP系统、营销软件等应用",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "卖家工具", "ERP系统", "应用市场", "跨境电商"]
+    },
+    {
+        name: "速卖通新闻中心",
+        url: "https://news.aliexpress.com",
+        description: "速卖通官方新闻发布平台，提供平台动态、政策更新、活动通知等资讯",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "平台动态", "政策更新", "活动通知", "跨境电商"]
+    },
+    {
+        name: "速卖通帮助中心",
+        url: "https://help.aliexpress.com",
+        description: "速卖通官方帮助文档，提供操作指南、常见问题解答、故障排除等支持",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "帮助文档", "操作指南", "问题解答", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家成长计划",
+        url: "https://gsp.aliexpress.com/apps/seller/growth",
+        description: "速卖通卖家成长体系，提供店铺评级、成长任务、权益奖励等激励计划",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "卖家成长", "店铺评级", "激励计划", "跨境电商"]
+    },
+    {
+        name: "速卖通品牌保护",
+        url: "https://ipp.aliexpress.com",
+        description: "速卖通知识产权保护平台，提供侵权投诉、品牌备案、维权服务等功能",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "知识产权", "品牌保护", "侵权投诉", "跨境电商"]
+    },
+    {
+        name: "速卖通金融服务",
+        url: "https://finance.aliexpress.com",
+        description: "速卖通金融服务平台，提供贷款服务、资金管理、保险服务等金融产品",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "金融服务", "贷款", "资金管理", "跨境电商"]
+    },
+    {
+        name: "速卖通直播中心",
+        url: "https://live.aliexpress.com",
+        description: "速卖通直播带货平台，提供直播工具、流量支持、主播培训等直播服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "直播带货", "主播培训", "直播工具", "跨境电商"]
+    },
+    {
+        name: "速卖通内容营销",
+        url: "https://content.aliexpress.com",
+        description: "速卖通内容营销平台，提供图文内容、视频营销、达人合作等内容服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "内容营销", "视频营销", "达人合作", "跨境电商"]
+    },
+    {
+        name: "速卖通联盟营销",
+        url: "https://affiliate.aliexpress.com",
+        description: "速卖通联盟推广平台，提供佣金计划、推广工具、数据报表等联盟服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "联盟营销", "佣金计划", "推广工具", "跨境电商"]
+    },
+    {
+        name: "速卖通店铺装修",
+        url: "https://decoration.aliexpress.com",
+        description: "速卖通店铺装修工具，提供模板库、装修编辑器、视觉设计等店铺美化服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "店铺装修", "模板库", "视觉设计", "跨境电商"]
+    },
+    {
+        name: "速卖通商品发布",
+        url: "https://gsp.aliexpress.com/apps/product/publish",
+        description: "速卖通商品发布系统，提供商品上传、类目选择、属性设置等发布功能",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "商品发布", "属性设置", "类目选择", "跨境电商"]
+    },
+    {
+        name: "速卖通订单管理",
+        url: "https://gsp.aliexpress.com/apps/order/list",
+        description: "速卖通订单管理系统，提供订单查询、批量处理、发货管理等订单操作功能",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "订单管理", "批量处理", "发货管理", "跨境电商"]
+    },
+    {
+        name: "速卖通数据报表",
+        url: "https://gsp.aliexpress.com/apps/data/report",
+        description: "速卖通数据报表系统，提供销售报表、流量分析、转化率统计等数据分析功能",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "数据报表", "销售分析", "流量分析", "跨境电商"]
+    },
+    {
+        name: "速卖通店铺诊断",
+        url: "https://gsp.aliexpress.com/apps/store/diagnosis",
+        description: "速卖通店铺诊断工具，提供店铺健康度检查、问题识别、优化建议等诊断服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "店铺诊断", "健康度检查", "优化建议", "跨境电商"]
+    },
+    {
+        name: "速卖通关键词工具",
+        url: "https://gsp.aliexpress.com/apps/keyword/tool",
+        description: "速卖通关键词分析工具，提供热搜词查询、竞争分析、标题优化等关键词服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "关键词分析", "热搜词", "标题优化", "跨境电商"]
+    },
+    {
+        name: "速卖通直通车",
+        url: "https://gsp.aliexpress.com/apps/p4p/dashboard",
+        description: "速卖通付费推广工具，提供关键词竞价、精准投放、效果分析等广告服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "付费推广", "关键词竞价", "精准投放", "跨境电商"]
+    },
+    {
+        name: "速卖通超级推荐",
+        url: "https://gsp.aliexpress.com/apps/superrecommend/dashboard",
+        description: "速卖通信息流广告工具，提供商品推荐、人群定向、智能出价等推广服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "信息流广告", "人群定向", "智能出价", "跨境电商"]
+    },
+    {
+        name: "速卖通店铺活动",
+        url: "https://gsp.aliexpress.com/apps/promotion/activity",
+        description: "速卖通店铺活动管理，提供限时折扣、满减优惠、优惠券等促销活动设置",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "店铺活动", "限时折扣", "优惠券", "跨境电商"]
+    },
+    {
+        name: "速卖通会员管理",
+        url: "https://gsp.aliexpress.com/apps/member/manage",
+        description: "速卖通会员管理系统，提供会员等级、积分体系、专属优惠等会员服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "会员管理", "等级体系", "专属优惠", "跨境电商"]
+    },
+    {
+        name: "速卖通评价管理",
+        url: "https://gsp.aliexpress.com/apps/feedback/manage",
+        description: "速卖通评价管理系统，提供评价查看、回复管理、纠纷处理等评价服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "评价管理", "回复", "纠纷处理", "跨境电商"]
+    },
+    {
+        name: "速卖通纠纷管理",
+        url: "https://gsp.aliexpress.com/apps/dispute/manage",
+        description: "速卖通纠纷处理系统，提供纠纷申请、协商处理、平台介入等纠纷解决功能",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "纠纷处理", "协商处理", "平台介入", "跨境电商"]
+    },
+    {
+        name: "速卖通退款管理",
+        url: "https://gsp.aliexpress.com/apps/refund/manage",
+        description: "速卖通退款管理系统，提供退款申请、审核处理、资金退回等退款服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "退款管理", "审核处理", "资金退回", "跨境电商"]
+    },
+    {
+        name: "速卖通库存管理",
+        url: "https://gsp.aliexpress.com/apps/inventory/manage",
+        description: "速卖通库存管理系统，提供库存查询、预警设置、批量修改等库存管理功能",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "库存管理", "库存预警", "批量修改", "跨境电商"]
+    },
+    {
+        name: "速卖通运费模板",
+        url: "https://gsp.aliexpress.com/apps/shipping/template",
+        description: "速卖通运费模板设置，提供运费计算、区域设置、物流方式选择等运费管理",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "运费模板", "运费计算", "区域设置", "跨境电商"]
+    },
+    {
+        name: "速卖通商品分组",
+        url: "https://gsp.aliexpress.com/apps/product/group",
+        description: "速卖通商品分组管理，提供分类设置、分组展示、排序调整等商品组织功能",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "商品分组", "分类设置", "排序调整", "跨境电商"]
+    },
+    {
+        name: "速卖通店铺装修市场",
+        url: "https://market.aliexpress.com/store/decoration",
+        description: "速卖通店铺装修模板市场，提供专业装修模板、设计服务、装修工具等资源",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "装修模板", "设计服务", "装修工具", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家服务中心",
+        url: "https://service.aliexpress.com",
+        description: "速卖通卖家综合服务中心，提供一站式卖家服务、问题解决、业务咨询等支持",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "卖家服务", "问题解决", "业务咨询", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家成长中心",
+        url: "https://growth.aliexpress.com",
+        description: "速卖通卖家成长支持平台，提供成长路径、技能培训、资源对接等成长服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "卖家成长", "技能培训", "资源对接", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家数据银行",
+        url: "https://databank.aliexpress.com",
+        description: "速卖通卖家数据服务平台，提供大数据分析、用户画像、市场洞察等数据服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "数据分析", "用户画像", "市场洞察", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家运营中心",
+        url: "https://operation.aliexpress.com",
+        description: "速卖通卖家运营支持平台，提供运营指导、活动策划、资源协调等运营服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "运营支持", "活动策划", "资源协调", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家培训中心",
+        url: "https://training.aliexpress.com",
+        description: "速卖通卖家专业培训平台，提供系统课程、实操演练、认证考核等培训服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "卖家培训", "系统课程", "认证考核", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家资源中心",
+        url: "https://resource.aliexpress.com",
+        description: "速卖通卖家资源整合平台，提供工具下载、模板库、素材资源等卖家资源",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "卖家资源", "工具下载", "模板库", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家合作平台",
+        url: "https://cooperation.aliexpress.com",
+        description: "速卖通卖家合作对接平台，提供供应链合作、服务商对接、资源互换等服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "卖家合作", "供应链", "服务商", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家创新中心",
+        url: "https://innovation.aliexpress.com",
+        description: "速卖通卖家创新支持平台，提供新功能测试、产品反馈、创新项目等创新服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "卖家创新", "功能测试", "创新项目", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家质量中心",
+        url: "https://quality.aliexpress.com",
+        description: "速卖通卖家质量管理平台，提供质量标准、质量检测、质量改进等质量服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "质量管理", "质量标准", "质量改进", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家合规中心",
+        url: "https://compliance.aliexpress.com",
+        description: "速卖通卖家合规管理平台，提供合规检查、政策解读、风险预警等合规服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "合规管理", "政策解读", "风险预警", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家安全中心",
+        url: "https://security.aliexpress.com",
+        description: "速卖通卖家安全保障平台，提供账户安全、交易安全、数据保护等安全服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "安全保障", "账户安全", "数据保护", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家技术中心",
+        url: "https://tech.aliexpress.com",
+        description: "速卖通卖家技术支持平台，提供技术文档、API支持、系统集成等技术服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "技术支持", "API", "系统集成", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家体验中心",
+        url: "https://experience.aliexpress.com",
+        description: "速卖通卖家体验优化平台，提供用户体验反馈、界面优化、功能改进等服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "用户体验", "界面优化", "功能改进", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家支持中心",
+        url: "https://support.aliexpress.com",
+        description: "速卖通卖家综合支持平台，提供技术支持、业务咨询、问题解决等全方位支持",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "卖家支持", "技术支持", "业务咨询", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家发展中心",
+        url: "https://development.aliexpress.com",
+        description: "速卖通卖家发展规划平台，提供发展战略、业务拓展、市场开拓等发展服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "发展规划", "业务拓展", "市场开拓", "跨境电商"]
+    },
+    {
+        name: "速卖通卖家优化中心",
+        url: "https://optimization.aliexpress.com",
+        description: "速卖通卖家运营优化平台，提供性能优化、效率提升、成本控制等优化服务",
+        category: "速卖通卖家工具",
+        tags: ["速卖通", "运营优化", "效率提升", "成本控制", "跨境电商"]
+    },
+    {
         name: "Shopify",
         url: "https://www.shopify.com",
         description: "全球领先的独立站建站平台，轻松搭建电商网站",
@@ -3009,6 +3387,1052 @@ const websitesDatabase = [
         description: "视频水印移除工具，可快速去除视频和图片的水印",
         category: "图片处理与去水印",
         tags: ["去水印", "视频处理", "视频编辑", "在线工具"]
+    },
+    // AIGCRank 全球 AI 网站排行榜
+    {
+        name: "Gemini",
+        url: "https://gemini.google.com",
+        description: "谷歌新一代 AI 模型，多模态理解和生成能力强大",
+        category: "AI聊天助手",
+        tags: ["AI", "谷歌", "多模态", "对话"]
+    },
+    {
+        name: "DeepSeek",
+        url: "https://www.deepseek.com",
+        description: "国内顶级 AI 推理模型，性能优异",
+        category: "AI聊天助手",
+        tags: ["AI", "推理", "深度学习", "国内"]
+    },
+    {
+        name: "DeepL",
+        url: "https://www.deepl.com",
+        description: "AI 翻译工具，翻译质量高，支持多语言",
+        category: "AI翻译工具",
+        tags: ["翻译", "多语言", "AI", "文本"]
+    },
+    {
+        name: "Character.AI",
+        url: "https://character.ai",
+        description: "虚拟角色生成平台，可创建和聊天互动",
+        category: "AI角色生成",
+        tags: ["虚拟角色", "聊天", "互动", "创意"]
+    },
+    {
+        name: "Grok",
+        url: "https://www.grok.com",
+        description: "X 公司开发的 AI 模型，实时信息获取能力强",
+        category: "AI聊天助手",
+        tags: ["AI", "推理", "实时", "X"]
+    },
+    {
+        name: "Perplexity",
+        url: "https://www.perplexity.ai",
+        description: "AI 搜索引擎，实时网络搜索加 AI 分析",
+        category: "AI搜索工具",
+        tags: ["搜索", "AI", "分析", "实时"]
+    },
+    {
+        name: "Janitor AI",
+        url: "https://janitorai.com",
+        description: "AI 角色扮演平台，创建自定义 AI 角色",
+        category: "AI角色生成",
+        tags: ["角色", "聊天", "创意", "虚拟"]
+    },
+    {
+        name: "Copilot",
+        url: "https://copilot.microsoft.com",
+        description: "微软 AI 助手，集成 GPT-4 和必应搜索",
+        category: "AI聊天助手",
+        tags: ["微软", "AI", "对话", "搜索"]
+    },
+    {
+        name: "Google AI Studio",
+        url: "https://aistudio.google.com",
+        description: "谷歌 AI 开发平台，可用 Gemini 模型",
+        category: "AI开发工具",
+        tags: ["开发", "API", "谷歌", "Gemini"]
+    },
+    {
+        name: "Remove.bg",
+        url: "https://www.remove.bg",
+        description: "AI 图片背景移除工具，一键抠图",
+        category: "图片处理与去水印",
+        tags: ["抠图", "背景移除", "图片编辑", "AI"]
+    },
+    {
+        name: "Sora ChatGPT",
+        url: "https://sora.chatgpt.com",
+        description: "OpenAI Sora 视频生成模型，文字转视频",
+        category: "AI视频生成",
+        tags: ["视频生成", "文字转视频", "创意", "OpenAI"]
+    },
+    {
+        name: "HubSpot",
+        url: "https://www.hubspot.com",
+        description: "营销自动化平台，集成 AI 分析功能",
+        category: "营销自动化",
+        tags: ["营销", "自动化", "CRM", "分析"]
+    },
+    {
+        name: "Lovable",
+        url: "https://lovable.dev",
+        description: "AI 代码生成工具，快速生成 Web 应用",
+        category: "AI开发工具",
+        tags: ["代码生成", "开发", "Web", "AI"]
+    },
+    {
+        name: "Miro",
+        url: "https://www.miro.com",
+        description: "协作白板工具，支持 AI 辅助创意",
+        category: "创意协作工具",
+        tags: ["协作", "白板", "创意", "团队"]
+    },
+    {
+        name: "Gamma",
+        url: "https://gamma.app",
+        description: "AI 演示文稿生成工具，一键生成专业幻灯片",
+        category: "AI演示生成",
+        tags: ["演示", "幻灯片", "生成", "专业"]
+    },
+    {
+        name: "百度 AI 搜索",
+        url: "https://chat.baidu.com",
+        description: "百度搜索加 AI 回答，结合搜索和生成能力",
+        category: "AI搜索工具",
+        tags: ["百度", "搜索", "AI", "中文"]
+    },
+    // AIGCRank 中国 AI 网站排行榜
+    {
+        name: "豆包",
+        url: "https://www.doubao.com",
+        description: "字节跳动 AI 助手，智能对话和创作",
+        category: "AI聊天助手",
+        tags: ["字节", "AI", "对话", "创作"]
+    },
+    {
+        name: "通义",
+        url: "https://tongyi.aliyun.com",
+        description: "阿里云通义千问，支持代码生成和深度分析",
+        category: "AI聊天助手",
+        tags: ["阿里", "AI", "代码", "分析"]
+    },
+    {
+        name: "百度飞桨 AI 平台",
+        url: "https://chat.baidu.com",
+        description: "百度 AI 搜索引擎",
+        category: "AI搜索工具",
+        tags: ["百度", "搜索", "AI"]
+    },
+    {
+        name: "腾讯混元",
+        url: "https://hunyuan.tencent.com",
+        description: "腾讯大模型，多模态能力强",
+        category: "AI聊天助手",
+        tags: ["腾讯", "AI", "大模型", "多模态"]
+    },
+    {
+        name: "讯飞星火",
+        url: "https://xinghuo.xfyun.cn",
+        description: "科大讯飞 AI 模型，语音识别和文本生成",
+        category: "AI聊天助手",
+        tags: ["讯飞", "AI", "语音", "文本"]
+    },
+    {
+        name: "法律咨询 AI",
+        url: "https://ailegal.baidu.com",
+        description: "百度法律 AI，智能法律咨询服务",
+        category: "AI法律工具",
+        tags: ["法律", "咨询", "AI", "服务"]
+    },
+    {
+        name: "HIMI",
+        url: "https://kimi.moonshot.cn",
+        description: "月之暗面 AI，长文本处理能力强",
+        category: "AI聊天助手",
+        tags: ["长文本", "AI", "对话"]
+    },
+    {
+        name: "一起元 AI 搜索",
+        url: "https://meta50.cn",
+        description: "元宇宙 AI 搜索工具",
+        category: "AI搜索工具",
+        tags: ["搜索", "AI", "元宇宙"]
+    },
+    {
+        name: "知乎智选",
+        url: "https://zhida.zhihu.com",
+        description: "知乎 AI 智能回答，基于知识库",
+        category: "AI知识工具",
+        tags: ["知乎", "AI", "问答", "知识"]
+    },
+    {
+        name: "和予香音",
+        url: "https://yuanbaotcent.com",
+        description: "腾讯音乐 AI，智能作曲和音乐生成",
+        category: "AI音乐生成",
+        tags: ["音乐", "生成", "AI", "腾讯"]
+    },
+    // AIGCRank 出海 AI 网站排行榜
+    {
+        name: "Qwen",
+        url: "https://qwen.aliyun.com",
+        description: "阿里云 Qwen 模型，支持国际访问",
+        category: "AI聊天助手",
+        tags: ["阿里", "出海", "多语言", "强大"]
+    },
+    {
+        name: "CushOn",
+        url: "https://cushon.ai",
+        description: "虚拟助手平台，支持多语言交互",
+        category: "AI助手工具",
+        tags: ["虚拟助手", "多语言", "出海"]
+    },
+    {
+        name: "Serart AI",
+        url: "https://seaart.ai",
+        description: "AI 艺术生成平台，支持全球访问",
+        category: "AI艺术生成",
+        tags: ["艺术", "图像生成", "全球", "创意"]
+    },
+    {
+        name: "Kling AI",
+        url: "https://klingi.com",
+        description: "短视频生成 AI，文字转视频",
+        category: "AI视频生成",
+        tags: ["视频", "生成", "短视频", "创意"]
+    },
+    {
+        name: "Manus",
+        url: "https://manus.im",
+        description: "智能机械手臂控制系统",
+        category: "AI机器人",
+        tags: ["机器人", "控制", "智能", "硬件"]
+    },
+    {
+        name: "Hailiuo AI",
+        url: "https://hailiuo.video",
+        description: "视频编辑 AI 工具，智能剪辑",
+        category: "AI视频编辑",
+        tags: ["视频编辑", "剪辑", "AI", "自动化"]
+    },
+    {
+        name: "Fotor",
+        url: "https://fotor.com",
+        description: "在线图片编辑工具，支持 AI 功能",
+        category: "图片处理与去水印",
+        tags: ["图片编辑", "AI", "全球", "工具"]
+    },
+    {
+        name: "Cutout Pro",
+        url: "https://www.cutout.pro",
+        description: "AI 图片编辑工具，自动去背景",
+        category: "图片处理与去水印",
+        tags: ["图片编辑", "背景移除", "抠图", "AI"]
+    },
+    {
+        name: "Monica",
+        url: "https://monica.im",
+        description: "AI 对话浏览器插件，全球可用",
+        category: "AI浏览器工具",
+        tags: ["插件", "聊天", "全球", "浏览器"]
+    },
+    {
+        name: "Gauth",
+        url: "https://gauthmath.com",
+        description: "数学求解 AI，智能解题助手",
+        category: "教育学习",
+        tags: ["数学", "教育", "AI", "求解"]
+    },
+    {
+        name: "Zeemo",
+        url: "https://zeemo.ai",
+        description: "视频翻译工具，支持多语言字幕",
+        category: "AI翻译工具",
+        tags: ["翻译", "视频", "字幕", "多语言"]
+    },
+    {
+        name: "Pixverse",
+        url: "https://pixverse.ai",
+        description: "视频生成平台，文字转视频",
+        category: "AI视频生成",
+        tags: ["视频", "生成", "创意", "文字转视频"]
+    },
+    {
+        name: "PixAI",
+        url: "https://pixai.art",
+        description: "AI 艺术生成平台，支持二次元创作",
+        category: "AI艺术生成",
+        tags: ["艺术", "二次元", "创作", "生成"]
+    },
+    {
+        name: "Genspark",
+        url: "https://genspark.ai",
+        description: "AI 搜索引擎，实时网络信息整合",
+        category: "AI搜索工具",
+        tags: ["搜索", "AI", "实时", "信息"]
+    },
+    {
+        name: "HeyGen",
+        url: "https://heygen.com",
+        description: "AI 虚拟人物生成，支持多语言视频",
+        category: "AI视频生成",
+        tags: ["虚拟人物", "视频", "多语言", "创意"]
+    },
+    {
+        name: "TensorArt",
+        url: "https://tensor.art",
+        description: "AI 艺术创作平台，支持多种风格生成",
+        category: "AI艺术生成",
+        tags: ["艺术", "创作", "生成", "风格"]
+    },
+    {
+        name: "Joyland",
+        url: "https://joyland.ai",
+        description: "虚拟伴侣平台，AI 角色交互",
+        category: "AI角色生成",
+        tags: ["虚拟伴侣", "角色", "交互", "AI"]
+    },
+    {
+        name: "Talkie",
+        url: "https://talkie-ai.com",
+        description: "语音交互 AI 平台",
+        category: "AI语音工具",
+        tags: ["语音", "交互", "AI", "对话"]
+    },
+    {
+        name: "Dreamina",
+        url: "https://dreamina.capcut.com",
+        description: "CapCut 推出的图像生成 AI",
+        category: "AI图像生成",
+        tags: ["图像", "生成", "CapCut", "创意"]
+    },
+    {
+        name: "OpenArt",
+        url: "https://openart.ai",
+        description: "AI 艺术创作平台，支持 Stable Diffusion",
+        category: "AI艺术生成",
+        tags: ["艺术", "生成", "Diffusion", "创意"]
+    },
+    {
+        name: "PicWish",
+        url: "https://picwish.com",
+        description: "在线图片编辑工具，支持 AI 功能",
+        category: "图片处理与去水印",
+        tags: ["图片编辑", "AI", "在线工具"]
+    },
+    {
+        name: "PicLumen",
+        url: "https://piclumen.com",
+        description: "AI 图片增强工具，支持超分辨率",
+        category: "图片处理与去水印",
+        tags: ["图片增强", "超分辨率", "AI"]
+    },
+    {
+        name: "OpusClip",
+        url: "https://opus.pro",
+        description: "视频剪辑 AI，自动生成短视频",
+        category: "AI视频编辑",
+        tags: ["视频剪辑", "短视频", "自动化", "AI"]
+    },
+    {
+        name: "Media.io",
+        url: "https://media.io",
+        description: "在线媒体处理工具，支持 AI 功能",
+        category: "AI视频编辑",
+        tags: ["媒体处理", "转换", "编辑", "AI"]
+    },
+    {
+        name: "Yeschat",
+        url: "https://yeschat.ai",
+        description: "免费 AI 聊天平台，支持多个模型",
+        category: "AI聊天助手",
+        tags: ["聊天", "多模型", "免费", "AI"]
+    },
+    {
+        name: "Wondershare",
+        url: "https://wondershare.net",
+        description: "万兴公司，提供多种 AI 创意工具",
+        category: "AI创意工具",
+        tags: ["创意", "工具", "多功能", "全球"]
+    },
+    {
+        name: "Notta",
+        url: "https://notta.ai",
+        description: "AI 会议记录工具，支持实时转录",
+        category: "AI录音工具",
+        tags: ["会议", "转录", "记录", "AI"]
+    },
+    {
+        name: "InsMind",
+        url: "https://inmind.com",
+        description: "思维导图 AI 助手，智能思维整理",
+        category: "生产力工具",
+        tags: ["思维导图", "整理", "AI", "生产力"]
+    },
+    {
+        name: "Toolify",
+        url: "https://toolify.ai",
+        description: "AI 工具集合平台，发现和使用 AI 工具",
+        category: "AI工具导航",
+        tags: ["工具", "导航", "AI", "发现"]
+    },
+    {
+        name: "HIX AI",
+        url: "https://hix.ai",
+        description: "AI 写作工具，支持多种创意写作",
+        category: "AI写作工具",
+        tags: ["写作", "创意", "内容", "AI"]
+    },
+    {
+        name: "奇克",
+        url: "https://qikeai.com",
+        description: "中国AI应用排行榜第1名，通用AI助手",
+        category: "AI聊天助手",
+        tags: ["AI", "聊天", "对话", "排行榜"]
+    },
+    {
+        name: "腾讯元宝",
+        url: "https://hunyuan.tencent.com",
+        description: "腾讯AI助手，混元大模型",
+        category: "AI聊天助手",
+        tags: ["AI", "聊天", "腾讯", "混元"]
+    },
+    {
+        name: "小鹿AI",
+        url: "https://xiaolusmart.com",
+        description: "智能AI助手",
+        category: "AI聊天助手",
+        tags: ["AI", "聊天", "小鹿"]
+    },
+    {
+        name: "快对AI",
+        url: "https://kuaiduiai.com",
+        description: "快对AI教育助手",
+        category: "AI教育工具",
+        tags: ["AI", "教育", "学习", "快对"]
+    },
+    {
+        name: "讯飞星火",
+        url: "https://xinghuo.xfyun.cn",
+        description: "科大讯飞AI大模型，智能对话",
+        category: "AI聊天助手",
+        tags: ["AI", "讯飞", "对话", "星火"]
+    },
+    {
+        name: "即梦AI",
+        url: "https://jimengai.com",
+        description: "即梦AI视频生成创意工具",
+        category: "AI视频生成",
+        tags: ["视频生成", "创意", "AI"]
+    },
+    {
+        name: "可灵AI",
+        url: "https://keling.ai",
+        description: "可灵AI视频生成工具",
+        category: "AI视频生成",
+        tags: ["视频生成", "AI", "可灵"]
+    },
+    {
+        name: "美图设计室",
+        url: "https://design.meitu.com",
+        description: "美图AI设计工具",
+        category: "AI艺术生成",
+        tags: ["设计", "AI", "美图"]
+    },
+    {
+        name: "开拍",
+        url: "https://kaipai.me",
+        description: "AI视频创意平台",
+        category: "AI视频生成",
+        tags: ["视频生成", "创意", "AI"]
+    },
+    {
+        name: "FacePlay秀脸",
+        url: "https://faceplay.xyz",
+        description: "FacePlay AI数字人生成工具",
+        category: "AI数字人",
+        tags: ["数字人", "生成", "AI"]
+    },
+    {
+        name: "稿定",
+        url: "https://www.gaoding.com",
+        description: "稿定AI设计工具",
+        category: "AI设计工具",
+        tags: ["设计", "AI", "稿定"]
+    },
+    {
+        name: "闪剪AI数字人",
+        url: "https://shanjian.qq.com",
+        description: "腾讯闪剪AI数字人生成",
+        category: "AI数字人",
+        tags: ["数字人", "腾讯", "AI"]
+    },
+    {
+        name: "脸猫",
+        url: "https://lianmao.ai",
+        description: "脸猫AI虚拟形象生成",
+        category: "AI数字人",
+        tags: ["虚拟形象", "AI"]
+    },
+    {
+        name: "星绘",
+        url: "https://xinghui.ai",
+        description: "星绘AI艺术生成工具",
+        category: "AI艺术生成",
+        tags: ["艺术生成", "AI"]
+    },
+    {
+        name: "妙鸭相机",
+        url: "https://miaoyu.app",
+        description: "妙鸭相机AI头像生成",
+        category: "AI虚拟形象",
+        tags: ["头像生成", "AI", "妙鸭"]
+    },
+    {
+        name: "Lovart",
+        url: "https://lovart.ai",
+        description: "Lovart AI数字人热度榜第1名",
+        category: "AI数字人",
+        tags: ["数字人", "Agent", "AI"]
+    },
+    {
+        name: "Manus",
+        url: "https://www.manus.bio",
+        description: "Manus AI Agent工具",
+        category: "AI机器人",
+        tags: ["Agent", "机器人", "AI"]
+    },
+    {
+        name: "Flowith",
+        url: "https://flowith.io",
+        description: "Flowith AI工作流工具",
+        category: "AI工作流",
+        tags: ["工作流", "自动化", "AI"]
+    },
+    {
+        name: "智谱清言",
+        url: "https://chatglm.cn",
+        description: "智谱AI大模型对话",
+        category: "AI聊天助手",
+        tags: ["AI", "对话", "清言"]
+    },
+    {
+        name: "Gemini",
+        url: "https://gemini.google.com",
+        description: "Google Gemini AI助手",
+        category: "AI聊天助手",
+        tags: ["AI", "Google", "Gemini"]
+    },
+    {
+        name: "Character.AI",
+        url: "https://character.ai",
+        description: "Character AI角色扮演对话平台",
+        category: "AI角色生成",
+        tags: ["AI", "角色", "对话"]
+    },
+    {
+        name: "Grok",
+        url: "https://grok.com",
+        description: "Grok AI实时信息检索助手",
+        category: "AI搜索引擎",
+        tags: ["AI", "搜索", "实时"]
+    },
+    {
+        name: "亚马逊美国站",
+        url: "https://www.amazon.com",
+        description: "亚马逊全球最大的电商平台，提供丰富的商品选择和Prime会员服务",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "美国"]
+    },
+    {
+        name: "亚马逊英国站",
+        url: "https://www.amazon.co.uk",
+        description: "英国地区亚马逊官网，提供本地化商品和配送服务",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "英国"]
+    },
+    {
+        name: "亚马逊德国站",
+        url: "https://www.amazon.de",
+        description: "德国亚马逊官网，支持德语购物和本地配送",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "德国"]
+    },
+    {
+        name: "亚马逊日本站",
+        url: "https://www.amazon.co.jp",
+        description: "日本亚马逊官网，提供日文界面和本地化商品服务",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "日本"]
+    },
+    {
+        name: "亚马逊法国站",
+        url: "https://www.amazon.fr",
+        description: "法国亚马逊官网，支持法语购物和本地配送服务",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "法国"]
+    },
+    {
+        name: "亚马逊加拿大站",
+        url: "https://www.amazon.ca",
+        description: "加拿大亚马逊官网，提供英语和法语购物体验",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "加拿大"]
+    },
+    {
+        name: "亚马逊墨西哥站",
+        url: "https://www.amazon.com.mx",
+        description: "墨西哥亚马逊官网，支持西班牙语购物",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "墨西哥"]
+    },
+    {
+        name: "亚马逊意大利站",
+        url: "https://www.amazon.it",
+        description: "意大利亚马逊官网，提供意大利语购物服务",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "意大利"]
+    },
+    {
+        name: "亚马逊西班牙站",
+        url: "https://www.amazon.es",
+        description: "西班牙亚马逊官网，支持西班牙语购物和本地配送",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "西班牙"]
+    },
+    {
+        name: "亚马逊澳大利亚站",
+        url: "https://www.amazon.com.au",
+        description: "澳大利亚亚马逊官网，提供本地商品和配送服务",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "澳大利亚"]
+    },
+    {
+        name: "亚马逊印度站",
+        url: "https://www.amazon.in",
+        description: "印度亚马逊官网，支持本地语言和支付方式",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "印度"]
+    },
+    {
+        name: "亚马逊中东站",
+        url: "https://www.amazon.ae",
+        description: "中东地区亚马逊官网，支持阿拉伯语购物",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "中东"]
+    },
+    {
+        name: "亚马逊波兰站",
+        url: "https://www.amazon.pl",
+        description: "波兰亚马逊官网，提供波兰语购物服务",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "波兰"]
+    },
+    {
+        name: "亚马逊荷兰站",
+        url: "https://www.amazon.nl",
+        description: "荷兰亚马逊官网，支持荷兰语购物和配送",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "荷兰"]
+    },
+    {
+        name: "亚马逊瑞典站",
+        url: "https://www.amazon.se",
+        description: "瑞典亚马逊官网，提供瑞典语购物体验",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "瑞典"]
+    },
+    {
+        name: "亚马逊挪威站",
+        url: "https://www.amazon.no",
+        description: "挪威亚马逊官网，支持挪威语购物服务",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "挪威"]
+    },
+    {
+        name: "亚马逊芬兰站",
+        url: "https://www.amazon.fi",
+        description: "芬兰亚马逊官网，提供芬兰语购物服务",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "芬兰"]
+    },
+    {
+        name: "亚马逊比利时站",
+        url: "https://www.amazon.be",
+        description: "比利时亚马逊官网，支持荷兰语和法语购物",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "比利时"]
+    },
+    {
+        name: "亚马逊奥地利站",
+        url: "https://www.amazon.at",
+        description: "奥地利亚马逊官网，提供德语购物服务",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "奥地利"]
+    },
+    {
+        name: "亚马逊瑞士站",
+        url: "https://www.amazon.ch",
+        description: "瑞士亚马逊官网，支持德语、法语和意大利语购物",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "瑞士"]
+    },
+    {
+        name: "亚马逊中国站",
+        url: "https://www.amazon.cn",
+        description: "中国亚马逊官网，提供中文购物和本地配送服务",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "中国"]
+    },
+    {
+        name: "亚马逊全球购",
+        url: "https://www.amazon.com/gc",
+        description: "亚马逊全球购平台，支持从海外站点直邮中国",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "全球购"]
+    },
+    {
+        name: "亚马逊卖家中心",
+        url: "https://sellercentral.amazon.com",
+        description: "亚马逊卖家平台，提供店铺管理、广告投放和数据分析服务",
+        category: "跨境电商工具",
+        tags: ["电商", "卖家", "工具", "店铺管理"]
+    },
+    {
+        name: "亚马逊企业购",
+        url: "https://www.amazon.com/business",
+        description: "亚马逊企业采购平台，为企业客户提供批量采购服务",
+        category: "企业服务",
+        tags: ["电商", "企业", "采购", "批量"]
+    },
+    {
+        name: "亚马逊Kindle商店",
+        url: "https://www.amazon.com/kindle",
+        description: "亚马逊电子书平台，提供Kindle电子书和有声书服务",
+        category: "数字内容",
+        tags: ["电商", "电子书", "Kindle", "阅读"]
+    },
+    {
+        name: "亚马逊Prime会员服务",
+        url: "https://www.amazon.com/prime",
+        description: "亚马逊Prime会员服务，提供免费配送、视频和音乐等权益",
+        category: "会员服务",
+        tags: ["电商", "Prime", "会员", "福利"]
+    },
+    {
+        name: "Jungle Scout",
+        url: "https://www.junglescout.com",
+        description: "亚马逊卖家工具，提供市场分析、产品研究和竞品监控服务",
+        category: "跨境电商工具",
+        tags: ["电商", "卖家", "分析", "选品"]
+    },
+    {
+        name: "Helium 10",
+        url: "https://www.helium10.com",
+        description: "亚马逊卖家必备工具，提供关键词研究、产品监控和广告优化功能",
+        category: "跨境电商工具",
+        tags: ["电商", "卖家", "工具", "优化"]
+    },
+    {
+        name: "SellerApp",
+        url: "https://www.sellerapp.com",
+        description: "亚马逊卖家数据分析平台，提供销售追踪和广告优化服务",
+        category: "跨境电商工具",
+        tags: ["电商", "卖家", "分析", "数据"]
+    },
+    {
+        name: "Keepa",
+        url: "https://keepa.com",
+        description: "亚马逊价格追踪工具，提供历史价格走势和库存监控",
+        category: "跨境电商工具",
+        tags: ["电商", "价格", "监控", "历史数据"]
+    },
+    {
+        name: "CamelCamelCamel",
+        url: "https://camelcamelcamel.com",
+        description: "亚马逊价格监控网站，可追踪商品历史价格和降价提醒",
+        category: "跨境电商工具",
+        tags: ["电商", "价格", "监控", "历史数据"]
+    },
+    {
+        name: "Wish",
+        url: "https://www.wish.com",
+        description: "美国跨境电商平台，主打低价商品和移动端购物体验",
+        category: "跨境电商",
+        tags: ["电商", "购物", "跨境", "低价"]
+    },
+    {
+        name: "BigCommerce",
+        url: "https://www.bigcommerce.com",
+        description: "企业级电商建站平台，支持多渠道销售和全球化运营",
+        category: "电商建站",
+        tags: ["电商", "建站", "企业", "多渠道"]
+    },
+    {
+        name: "Feedvisor",
+        url: "https://www.feedvisor.com",
+        description: "亚马逊广告优化平台，提供自动竞价和广告策略服务",
+        category: "跨境电商工具",
+        tags: ["电商", "广告", "优化", "亚马逊"]
+    },
+    {
+        name: "Amazon Ads",
+        url: "https://advertising.amazon.com",
+        description: "亚马逊官方广告平台，支持商品推广和品牌营销",
+        category: "电商营销",
+        tags: ["电商", "广告", "推广", "品牌"]
+    },
+    {
+        name: "Amazon FBA",
+        url: "https://sellercentral.amazon.com/fba",
+        description: "亚马逊物流服务，帮助卖家实现仓储和配送自动化",
+        category: "跨境物流",
+        tags: ["电商", "物流", "FBA", "仓储"]
+    },
+    {
+        name: "Amazon Business",
+        url: "https://www.amazon.com/business",
+        description: "企业采购平台，提供批量采购和企业账户管理服务",
+        category: "企业服务",
+        tags: ["电商", "企业", "采购", "管理"]
+    },
+    {
+        name: "Amazon Fresh",
+        url: "https://www.amazon.com/fresh",
+        description: "亚马逊生鲜配送服务，提供新鲜食品和日用品配送",
+        category: "生鲜电商",
+        tags: ["电商", "生鲜", "配送", "食品"]
+    },
+    {
+        name: "Amazon Prime Video",
+        url: "https://www.primevideo.com",
+        description: "亚马逊视频流媒体平台，提供电影、电视剧和原创内容",
+        category: "视频流媒体",
+        tags: ["电商", "视频", "流媒体", "影视"]
+    },
+    {
+        name: "Amazon Music",
+        url: "https://music.amazon.com",
+        description: "亚马逊音乐流媒体服务，提供海量音乐和个性化推荐",
+        category: "音乐流媒体",
+        tags: ["电商", "音乐", "流媒体", "推荐"]
+    },
+    {
+        name: "Amazon Audible",
+        url: "https://www.audible.com",
+        description: "亚马逊有声书平台，提供海量有声读物和播客内容",
+        category: "有声读物",
+        tags: ["电商", "有声书", "播客", "阅读"]
+    },
+    {
+        name: "Amazon Alexa",
+        url: "https://www.amazon.com/alexa",
+        description: "亚马逊智能语音助手平台，支持智能家居和语音控制",
+        category: "智能家居",
+        tags: ["电商", "语音", "智能", "家居"]
+    },
+    {
+        name: "Amazon Web Services",
+        url: "https://aws.amazon.com",
+        description: "亚马逊云计算服务，提供全球领先的云基础设施",
+        category: "云计算",
+        tags: ["电商", "云服务", "服务器", "基础设施"]
+    },
+    {
+        name: "Futurepedia",
+        url: "https://www.futurepedia.io/",
+        description: "全球最大、最知名的AI工具导航站之一，更新极快，分类详尽，有每日精选和排行榜",
+        category: "AI产品导航",
+        tags: ["AI", "导航", "排行榜", "工具集", "国外"]
+    },
+    {
+        name: "There's An AI For That",
+        url: "https://theresanaiforthat.com/",
+        description: "另一个巨型AI工具库，收录了海量AI产品，通过强大的搜索引擎帮你找到专门做某事的AI",
+        category: "AI产品导航",
+        tags: ["AI", "导航", "工具库", "搜索", "国外"]
+    },
+    {
+        name: "AI Tools Directory",
+        url: "https://www.producthunt.com/topics/ai-tools",
+        description: "Product Hunt旗下的AI产品目录，结合了社区投票，可以看到热门产品",
+        category: "AI产品导航",
+        tags: ["AI", "导航", "社区", "投票", "Product Hunt"]
+    },
+    {
+        name: "TopAI.tools",
+        url: "https://topai.tools/",
+        description: "功能强大的AI工具发现平台，提供详细的筛选、比较和排名功能，更新频繁",
+        category: "AI产品导航",
+        tags: ["AI", "导航", "比较", "筛选", "排名"]
+    },
+    {
+        name: "FutureTools",
+        url: "https://www.futuretools.io/",
+        description: "由知名AI博主Matt Wolfe创建，汇集了他认为最实用、最前沿的AI工具，并有视频演示",
+        category: "AI产品导航",
+        tags: ["AI", "导航", "工具", "视频演示", "前沿"]
+    },
+    {
+        name: "AI导航网",
+        url: "https://www.ainav.cn/",
+        description: "国内非常全面的AI导航站，分类清晰，包含工具、模型、教程、行业动态等",
+        category: "AI产品导航",
+        tags: ["AI", "导航", "中文", "工具", "国内"]
+    },
+    {
+        name: "AI应用导航",
+        url: "https://ai.nancheng.fun/",
+        description: "界面简洁，收录了丰富的AI应用，特别是针对中文环境的工具",
+        category: "AI产品导航",
+        tags: ["AI", "导航", "中文", "应用", "国内"]
+    },
+    {
+        name: "Awesome-AITools",
+        url: "https://github.com/sindresorhus/awesome-ai-tools",
+        description: "更多是开发者导向的GitHub项目，但也是一个非常全面的AI工具列表",
+        category: "AI产品导航",
+        tags: ["AI", "开发者", "GitHub", "工具列表", "技术"]
+    },
+    {
+        name: "SaaSGenius",
+        url: "https://www.saasgenius.com/top-ai-tools",
+        description: "专注于SaaS软件的评测和排名，其AI工具分类下的排行榜非常专业和详细",
+        category: "AI产品排行榜",
+        tags: ["AI", "SaaS", "评测", "排名", "专业"]
+    },
+    {
+        name: "AI.城市",
+        url: "https://www.aicity.ai/",
+        description: "国内团队开发，提供了非常清晰的分类和直达体验，无需翻墙即可访问众多AI工具",
+        category: "AI产品导航",
+        tags: ["AI", "导航", "中文", "分类", "国内"]
+    },
+    {
+        name: "Toolify AI",
+        url: "https://www.toolify.ai/",
+        description: "将AI工具按Chat、写作、图像、代码等类别整理，并提供了AI商店的概念",
+        category: "AI产品导航",
+        tags: ["AI", "导航", "分类", "AI商店", "工具"]
+    },
+    {
+        name: "Facebook",
+        url: "https://www.facebook.com",
+        description: "全球最大的社交网络，自媒体人可以通过个人主页、小组和公共主页功能建立粉丝社群和进行内容分发",
+        category: "社交媒体平台",
+        tags: ["社交", "自媒体", "粉丝社群", "内容分发"]
+    },
+    {
+        name: "Twitter (X)",
+        url: "https://x.com",
+        description: "以短消息和实时讨论为核心的平台，是新闻、观点、科技领域自媒体人士的必备工具",
+        category: "社交媒体平台",
+        tags: ["社交", "短消息", "新闻", "观点分享"]
+    },
+    {
+        name: "Instagram",
+        url: "https://www.instagram.com",
+        description: "Meta旗下的图片和短视频分享平台，强视觉化，适合时尚、生活、旅游、美食、摄影等领域的自媒体",
+        category: "社交媒体平台",
+        tags: ["社交", "图片分享", "短视频", "时尚", "生活"]
+    },
+    {
+        name: "Threads",
+        url: "https://www.threads.net",
+        description: "Meta旗下基于Instagram账号体系的文字对话平台，被视为Twitter的竞争对手",
+        category: "社交媒体平台",
+        tags: ["社交", "文字对话", "Meta", "Instagram"]
+    },
+    {
+        name: "YouTube",
+        url: "https://www.youtube.com",
+        description: "全球最大的长视频平台，是视频创作者进行内容沉淀和变现的首选",
+        category: "视频平台",
+        tags: ["视频", "创作者", "内容变现", "长视频"]
+    },
+    {
+        name: "TikTok",
+        url: "https://www.tiktok.com",
+        description: "全球领先的短视频平台，以其算法推荐和病毒式传播著称，是快速获取流量的关键渠道",
+        category: "短视频平台",
+        tags: ["短视频", "算法推荐", "流量获取", "创作者"]
+    },
+    {
+        name: "哔哩哔哩",
+        url: "https://www.bilibili.com",
+        description: "中国年轻世代高度聚集的文化社区和视频平台，以弹幕文化和高互动性著称，内容涵盖ACG、知识、生活等",
+        category: "视频平台",
+        tags: ["视频", "弹幕", "二次元", "知识分享"]
+    },
+    {
+        name: "Medium",
+        url: "https://medium.com",
+        description: "全球最知名的轻量级内容发布平台，聚集了大量作家、思考者和专业人士，适合发布深度文章和观点",
+        category: "内容创作平台",
+        tags: ["内容创作", "写作", "深度文章", "专业内容"]
+    },
+    {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com",
+        description: "全球领先的职业社交平台，其文章和动态发布功能，使其成为B2B、职场、行业专家类自媒体的重要阵地",
+        category: "职场社交平台",
+        tags: ["职场", "社交", "B2B", "专业内容"]
+    },
+    {
+        name: "微信公众号",
+        url: "https://mp.weixin.qq.com",
+        description: "在中国大陆具有极高渗透率的内容发布和粉丝运营工具，是中文领域自媒体商业化的核心载体之一",
+        category: "内容创作平台",
+        tags: ["自媒体", "内容创作", "粉丝运营", "内容变现"]
+    },
+    {
+        name: "Reddit",
+        url: "https://www.reddit.com",
+        description: "基于兴趣社区的论坛集合，被称为互联网首页。通过在特定版块(subreddit)成为关键意见者，可以建立影响力",
+        category: "社区论坛",
+        tags: ["社区", "论坛", "兴趣", "意见领袖"]
+    },
+    {
+        name: "DeviantArt",
+        url: "https://www.deviantart.com",
+        description: "全球最大的在线艺术社区之一，聚集了大量的数字艺术家、传统画家和摄影爱好者",
+        category: "艺术社区",
+        tags: ["艺术", "创作", "插画", "社区"]
+    },
+    {
+        name: "Spotify",
+        url: "https://www.spotify.com",
+        description: "全球最大的音乐和音频流媒体平台，其播客板块极其重要，是播客创作者必须覆盖的分发渠道",
+        category: "音频平台",
+        tags: ["音乐", "音频", "播客", "流媒体"]
+    },
+    {
+        name: "Apple Podcasts",
+        url: "https://podcasts.apple.com",
+        description: "苹果设备内置的播客应用，是iOS生态用户收听播客的主要入口，具有极高的市场占有率",
+        category: "音频平台",
+        tags: ["播客", "音频", "苹果", "内容分发"]
+    },
+    {
+        name: "Anchor",
+        url: "https://anchor.fm",
+        description: "由Spotify拥有的免费播客创建和分发平台，提供从录制、托管到变现的一站式服务",
+        category: "音频平台",
+        tags: ["播客", "录制", "托管", "变现"]
+    },
+    {
+        name: "WordPress",
+        url: "https://wordpress.com",
+        description: "全球最流行的博客和网站建设平台，提供从免费托管到付费高级功能的多种服务",
+        category: "建站平台",
+        tags: ["博客", "网站建设", "内容管理", "CMS"]
+    },
+    {
+        name: "Ghost",
+        url: "https://ghost.org",
+        description: "一个专门为专业出版设计的开源平台，专注于博客和Newsletter，体验纯粹",
+        category: "内容创作平台",
+        tags: ["博客", "Newsletter", "出版", "开源"]
     }
 ];
 
@@ -3016,15 +4440,23 @@ const websitesDatabase = [
 const hotWebsites = [
     "ChatGPT",
     "Claude",
-    "Midjourney",
-    "Suno AI",
-    "HeyGen",
-    "Runway",
+    "Gemini",
+    "DeepSeek",
+    "Instagram",
+    "YouTube",
+    "TikTok",
+    "哔哩哔哩",
+    "速卖通卖家后台",
+    "速卖通数据纵横",
+    "速卖通直通车",
+    "速卖通订单管理",
+    "速卖通店铺诊断",
+    "LinkedIn",
+    "知乎",
+    "微信",
+    "Medium",
+    "DeepL",
     "Google Analytics 4",
-    "Ahrefs",
-    "东方财富网",
-    "雪球",
-    "淘宝联盟",
-    "飞瓜数据"
+    "Ahrefs"
 ];
 

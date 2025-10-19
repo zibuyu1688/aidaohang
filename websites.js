@@ -3855,6 +3855,702 @@ const websitesDatabase = [
         description: "用户共享的提示词库，含评分系统",
         category: "AI提示词工具",
         tags: ["用户共享", "提示词库", "评分系统"]
+    },
+    {
+        name: "Base44",
+        description: "让我们现在就让你的梦想成真。 (Original: Let's make your dream a reality. Right now.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/base44.svg?height=207",
+        url: "https://base44.pxf.io/c/6560143/2477538/25619?trafcat=hp",
+        category: "Vibe Coding",
+        tags: ["AI", "开发", "梦想实现", "快速"]
+    },
+    {
+        name: "Jason AI",
+        description: "AI驱动的B2B销售外联助手。 (Original: AI-powered assistant for B2B sales outreach)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/jason-ai.png?height=207",
+        url: "https://jasonai.tech/",
+        category: "销售",
+        tags: ["AI", "销售", "B2B", "外联"]
+    },
+    {
+        name: "Speechmatics | AI Voice Agents",
+        description: "使用最佳语音识别技术构建更智能的AI语音代理。 (Original: Build smarter AI voice agents with the best speech recognition technology)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/speechmatics-ai-voice-agents.svg?height=207",
+        url: "https://www.speechmatics.com/use-cases/ai-voice-agents/",
+        category: "语音代理",
+        tags: ["AI", "语音", "代理", "识别"]
+    },
+    {
+        name: "CodeRabbit",
+        description: "增强代码审查以改善工作流程和质量。 (Original: Enhanced code review for improved workflow and quality.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/coderabbit.svg?height=207",
+        url: "https://coderabbit.ai/",
+        category: "代码审查",
+        tags: ["代码", "审查", "工作流程", "质量"]
+    },
+    {
+        name: "Averi AI",
+        description: "AI营销工作空间：策略、内容、团队一体。 (Original: The AI Marketing Workspace: Strategy, Content, Team in One)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/averi-ai.png?height=207",
+        url: "https://www.averi.ai/",
+        category: "营销",
+        tags: ["AI", "营销", "策略", "内容"]
+    },
+    {
+        name: "Kick",
+        description: "为你完成工作的会计软件。 (Original: Accounting software that does the work for you)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/kick-co.svg?height=207",
+        url: "https://kick.co/",
+        category: "会计",
+        tags: ["会计", "软件", "自动化"]
+    },
+    {
+        name: "BodhiGPT | Podcasts",
+        description: "你的个性化播客播放器，带有AI洞察。 (Original: Your personalized podcast player with AI insights.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/bodhigpt-podcasts.svg?height=207",
+        url: "https://www.bodhigpt.com/tools/podcasts",
+        category: "播客摘要",
+        tags: ["播客", "AI", "个性化", "洞察"]
+    },
+    {
+        name: "Support Flow",
+        description: "AI助手主动提供最佳技术内容、数据和行动。 (Original: AI assistant that proactively surfaces the best technical content, data, and actions.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/pixiebrix-support-flow.svg?height=207",
+        url: "https://www.pixiebrix.com/product/support-flow-taaft/",
+        category: "商业",
+        tags: ["AI", "助手", "技术支持", "数据"]
+    },
+    {
+        name: "Remove Background by Picsart",
+        description: "即时移除背景，获得干净、透明的图像——完美用于产品、设计和创意。 (Original: Instantly remove backgrounds for clean, transparent images—perfect for products, designs, and creative)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/picsart-s-remove-background-api.svg?height=207",
+        url: "https://picsart.io/remove-background/?gclid=taaft_ppc_rbg",
+        category: "背景移除",
+        tags: ["图像", "背景移除", "编辑"]
+    },
+    {
+        name: "TheLibrarian.io",
+        description: "使用WhatsApp AI助手增强你的日常生活。 (Original: Supercharge your day with a WhatsApp AI Assistant)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/the-librarian.svg?height=207",
+        url: "https://thelibrarian.io/",
+        category: "生产力",
+        tags: ["AI", "助手", "WhatsApp", "日常"]
+    },
+    {
+        name: "Fundraising with Evalyze Ai",
+        description: "AI自动化初创公司筹资，从推销到投资者匹配。 (Original: AI automates startup fundraising from pitch to investor match.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/evalyze.png?height=207",
+        url: "https://www.evalyze.ai/",
+        category: "筹资",
+        tags: ["AI", "筹资", "初创", "自动化"]
+    },
+    {
+        name: "Candidate Screening - AI-Powered Hiring & Assessment Platform",
+        description: "AI驱动的候选人筛选，即时结果。 (Original: AI-powered candidate screening with instant results.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/candidate-screenings.svg?height=207",
+        url: "https://candidatescreenings.com/",
+        category: "候选人筛选",
+        tags: ["AI", "招聘", "筛选", "评估"]
+    },
+    {
+        name: "Atai - Automated Testing AI",
+        description: "AI驱动的基于视觉的自动化测试编写。 (Original: AI-powered vision-based automated test writing.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/atai-automated-testing.svg?height=207",
+        url: "https://automatedtesting.ai/",
+        category: "测试自动化",
+        tags: ["AI", "测试", "自动化", "视觉"]
+    },
+    {
+        name: "Thinkfill AI – AI Procurement Platform",
+        description: "更快实施正确的AI。 (Original: Implement the Right AI, Faster.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/thinkfill-ai.svg?height=207",
+        url: "https://thinkfill.ai/",
+        category: "采购",
+        tags: ["AI", "采购", "平台", "实施"]
+    },
+    {
+        name: "Decory AI",
+        description: "艺术遇见算法 - 你的空间，重新定义！ (Original: Art Meets Algorithm - Your Space, Redefined!)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/decory-ai.svg?height=207",
+        url: "https://www.decory.ai/",
+        category: "室内设计",
+        tags: ["AI", "室内设计", "艺术", "算法"]
+    },
+    {
+        name: "BriefNest",
+        description: "用于策略、创意和内容简报的AI工具，支持英文和西班牙文。 (Original: AI tool for strategic, creative, and content briefs in English & Spanish)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/briefnest.svg?height=207",
+        url: "https://briefnest-ai.up.railway.app/",
+        category: "生产力",
+        tags: ["AI", "简报", "策略", "创意"]
+    },
+    {
+        name: "Whimsey: The AI Shared Inbox for Your Business",
+        description: "将你的共享收件箱转变为自动化收入引擎。 (Original: Turn your shared inbox into an automated revenue engine)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/whimsey.svg?height=207",
+        url: "https://whimsey.ai/",
+        category: "电子邮件管理",
+        tags: ["AI", "电子邮件", "共享", "自动化"]
+    },
+    {
+        name: "illumi",
+        description: "上下文感知的AI团队白板。 (Original: Context-aware AI whiteboard for teams.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/illumi-one.svg?height=207",
+        url: "https://www.illumi.one/",
+        category: "团队协作",
+        tags: ["AI", "白板", "团队", "上下文"]
+    },
+    {
+        name: "FirstSign AI",
+        description: "自动生成的访谈 + 你今天可以行动的ICP。 (Original: Auto-generated interviews + ICPs you can act on today.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/firstsign-ai.png?height=207",
+        url: "https://firstsign.ai/",
+        category: "商业",
+        tags: ["AI", "访谈", "ICP", "自动生成"]
+    },
+    {
+        name: "Tecmate",
+        description: "数字转型工作流的AI推荐。 (Original: AI recommendations for digital transformation workflows.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/tecmate.svg?height=207",
+        url: "https://tecmate.lovable.app/",
+        category: "软件推荐",
+        tags: ["AI", "推荐", "数字转型", "工作流"]
+    },
+    {
+        name: "CoeFont Interpreter",
+        description: "AI驱动的多语言团队语音解释。 (Original: AI-powered voice interpretation for multilingual teams)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/coefont-interpreter.svg?height=207",
+        url: "https://coefont.cloud/cir/en",
+        category: "实时翻译",
+        tags: ["AI", "语音", "解释", "多语言"]
+    },
+    {
+        name: "RambleFix",
+        description: "⚡ 通过大声思考写作 - 电子邮件、笔记、文章，以你的风格。 (Original: ⚡ Write by thinking aloud - emails, notes, articles, in your style.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/ramblefix.png?height=207",
+        url: "https://ramblefix.com/",
+        category: "转录",
+        tags: ["写作", "转录", "电子邮件", "笔记"]
+    },
+    {
+        name: "remio: Your Personal AI Assistant",
+        description: "你的AI驱动的个人知识中心，适用于专业人士。 (Original: Your AI-powered personal knowledge hub for professionals.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/remio.svg?height=207",
+        url: "https://www.remio.ai/",
+        category: "笔记",
+        tags: ["AI", "助手", "知识", "专业"]
+    },
+    {
+        name: "ForumScout - Free social listening tool",
+        description: "使用AI驱动的社交监听免费跟踪在线品牌提及。 (Original: Track online brand mentions with AI-powered social listening, for free.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/forumscout.svg?height=207",
+        url: "https://forumscout.app/",
+        category: "品牌监控",
+        tags: ["社交监听", "品牌", "跟踪", "免费"]
+    },
+    {
+        name: "Radiant",
+        description: "从每次对话中获得不可阻挡的动力。 (Original: Unstoppable momentum from every conversation)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/radiant-app.svg?height=207",
+        url: "https://radiantapp.com/",
+        category: "生产力",
+        tags: ["对话", "动力", "生产力"]
+    },
+    {
+        name: "Hyperbrowser",
+        description: "AI代理和应用的云浏览器。 (Original: Cloud browsers for AI agents and apps.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/hyperbrowser.svg?height=207",
+        url: "https://www.hyperbrowser.ai/",
+        category: "网页浏览",
+        tags: ["云浏览器", "AI代理", "应用"]
+    },
+    {
+        name: "Nebius AI Studio",
+        description: "托管开源模型以实现更快、更便宜的AI推理。 (Original: Host open-source models for faster, cheaper AI inference.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/nebius-ai-studio.svg?height=207",
+        url: "https://nebius.com/services/studio-inference-service",
+        category: "AI推理",
+        tags: ["AI", "推理", "开源", "托管"]
+    },
+    {
+        name: "Explee",
+        description: "使用完整网页数据和AI丰富找到3倍多的B2B潜在客户。 (Original: Find 3X more B2B leads with full web data and AI enrichment)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/explee.svg?height=207",
+        url: "https://explee.com/",
+        category: "潜在客户开发",
+        tags: ["B2B", "潜在客户", "数据", "AI"]
+    },
+    {
+        name: "NewPic.io",
+        description: "一键专业照片编辑。 (Original: Professional photo editing in one click.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/newpic-io.svg?height=207",
+        url: "https://newpic.io/",
+        category: "图像编辑",
+        tags: ["照片", "编辑", "专业", "一键"]
+    },
+    {
+        name: "Clientli",
+        description: "使用你的提案副驾驶10倍你的客户；针对数字转型顾问。 (Original: 10X Your Clients with Your Proposal Copilot; for digital transformation consultants)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/clientli.png?height=207",
+        url: "https://clientli.lovable.app/",
+        category: "客户提案",
+        tags: ["提案", "顾问", "数字转型"]
+    },
+    {
+        name: "Changify",
+        description: "使用你的变更管理副驾驶10倍AI采用；针对数字转型顾问。 (Original: 10X AI Adoption with Your Change Management Copilot; for digital transformation consultants)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/changify-app.png?height=207",
+        url: "https://changify.lovable.app/",
+        category: "变更管理",
+        tags: ["变更管理", "AI采用", "顾问"]
+    },
+    {
+        name: "Stackify",
+        description: "优化你的SaaS堆栈的AI副驾驶。 (Original: AI copilot that optimizes your SaaS stack.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/stackify-app.png?height=207",
+        url: "https://stackify.lovable.app/",
+        category: "SaaS管理",
+        tags: ["SaaS", "优化", "AI副驾驶"]
+    },
+    {
+        name: "Leanify.app",
+        description: "即时优化你的操作的AI副驾驶。 (Original: AI Co-Pilot that optimizes your operations instantly.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/leanify-app.png?height=207",
+        url: "https://leanify.lovable.app/",
+        category: "业务分析",
+        tags: ["操作优化", "AI副驾驶", "即时"]
+    },
+    {
+        name: "AutoFlo",
+        description: "发现要自动化的内容，即时部署。 (Original: Discover what to automate, deploy instantly.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/autoflo.svg?height=207",
+        url: "https://autoflo.lovable.app/",
+        category: "流程自动化",
+        tags: ["自动化", "部署", "发现"]
+    },
+    {
+        name: "Creative Arena by Contra",
+        description: "比较。投票。推进创意AI。 (Original: Compare. Vote. Advance Creative AI.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/contra-creative-arena.svg?height=207",
+        url: "https://contra.com/creative-arena",
+        category: "LLM比较",
+        tags: ["创意AI", "比较", "投票"]
+    },
+    {
+        name: "Apex - X Reply AI",
+        description: "在几分钟内构建品牌，而不是几小时。 (Original: Build brand in minutes, not hours.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/apex-x-reply-ai.svg?height=207",
+        url: "https://www.apexagents.ai/",
+        category: "推特",
+        tags: ["品牌构建", "快速", "AI"]
+    },
+    {
+        name: "Thea",
+        description: "AI学习工具，帮助掌握材料，而不仅仅是记忆。 (Original: AI study tools to master material, not just memorize it.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/thea.png?height=207",
+        url: "https://www.theastudy.com/home?referralCode=taaft-ppc",
+        category: "学习",
+        tags: ["AI", "学习", "掌握", "工具"]
+    },
+    {
+        name: "Cimphony AI",
+        description: "为中小企业和初创公司提供法律服务、建议、文件起草和合同。 (Original: Legal services, advice, documents drafting, & contracts for SMBs and startups)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/cimphony.svg?height=207",
+        url: "https://www.cimphony.ai/",
+        category: "法律咨询",
+        tags: ["法律", "服务", "中小企业", "初创"]
+    },
+    {
+        name: "KinesteX AI Personal Trainer in your Digital Health Platform",
+        description: "你的AI驱动的个人健身教练。 (Original: Your AI-powered personal fitness trainer.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/kinestex.png?height=207",
+        url: "https://www.kinestex.com/",
+        category: "物理疗法",
+        tags: ["AI", "健身", "教练", "健康"]
+    },
+    {
+        name: "Discord NotesBot",
+        description: "记录、转录和AI总结Discord通话。 (Original: Record, Transcribe, and AI Summarize Discord Calls)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/notesbot.svg?height=207",
+        url: "https://www.notesbot.io/",
+        category: "会议笔记",
+        tags: ["Discord", "转录", "总结", "记录"]
+    },
+    {
+        name: "Organize with AI",
+        description: "说你的语言的AI照片组织器。 (Original: AI photo organizer that speaks your language)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/organize-with-ai.svg?height=207",
+        url: "https://organizewith.ai/",
+        category: "图像组织",
+        tags: ["AI", "照片", "组织", "语言"]
+    },
+    {
+        name: "Verify by TaiLR Made AI",
+        description: "不要因为更好的骗子而失去伟大的雇员！ (Original: Don't loose a great hire to a better liar!)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/verify-by-tailr-made-ai.svg?height=207",
+        url: "https://tailrmadeai.com/verify-spot-resume-red-flags-before-the-interview-seeksuite/",
+        category: "简历分析",
+        tags: ["验证", "简历", "招聘", "红旗"]
+    },
+    {
+        name: "Rendera AI",
+        description: "用AI在几秒钟内重新设计任何空间。 (Original: Redesign Any Space with AI in Seconds)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/rendera-ai.svg?height=207",
+        url: "https://www.rendera.ai/",
+        category: "室内设计",
+        tags: ["AI", "重新设计", "空间", "快速"]
+    },
+    {
+        name: "Yooz AI",
+        description: "根据顶级创作者训练的AI LinkedIn帖子生成器。 (Original: AI LinkedIn post generator trained on top creators.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/yooz-ai.svg?height=207",
+        url: "https://www.yooz.ai/",
+        category: "LinkedIn",
+        tags: ["AI", "LinkedIn", "帖子", "生成器"]
+    },
+    {
+        name: "AI Phone Number | ChatOdyssey",
+        description: "唯一可以拨打和接听的AI电话号码。 (Original: The only AI phone number that can call and pick up.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/chat-odyssey-ai-phone-number.svg?height=207",
+        url: "https://www.chatodyssey.com/ai-phone-number",
+        category: "通话",
+        tags: ["AI", "电话", "拨打", "接听"]
+    },
+    {
+        name: "byliner.ai",
+        description: "记者的不公平优势。 (Original: The Unfair Advantage for Journalists.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/byliner-ai.svg?height=207",
+        url: "https://byliner.ai/",
+        category: "日志记录",
+        tags: ["记者", "优势", "AI"]
+    },
+    {
+        name: "devlo",
+        description: "AI软件平台。 (Original: AI Software Platform)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/devlo.png?height=207",
+        url: "https://devlo.ai/",
+        category: "氛围编码",
+        tags: ["AI", "软件", "平台"]
+    },
+    {
+        name: "Nano Banana.org",
+        description: "通过自然聊天对话创建和编辑图像。 (Original: Create and edit images through natural chat conversations.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/nano-banana-ai-image-generator.svg?height=207",
+        url: "https://nanobanana.org/",
+        category: "图像编辑",
+        tags: ["图像", "创建", "编辑", "聊天"]
+    },
+    {
+        name: "CodeAsk",
+        description: "AI读取你的代码，回答团队问题。 (Original: AI reads your code, answers team questions.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/codeask.svg?height=207",
+        url: "https://www.codeask.ai/",
+        category: "代码解释",
+        tags: ["代码", "AI", "问题", "团队"]
+    },
+    {
+        name: "dbrief",
+        description: "大规模自动化专家访谈用于内容。 (Original: Automate expert interviews for content at scale.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/dbrief.svg?height=207",
+        url: "https://www.dbrief.io/",
+        category: "中小企业访谈",
+        tags: ["访谈", "自动化", "内容", "规模"]
+    },
+    {
+        name: "Fortellar | Cybersecurity Compliance Assessment",
+        description: "赋能组织实现合规准备。 (Original: Empowering Organizations to Achieve Compliance Readiness)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/fortellar-cybersecurity-compliance-assessment.svg?height=207",
+        url: "https://assessment.fortellar.com/",
+        category: "合规",
+        tags: ["网络安全", "合规", "评估"]
+    },
+    {
+        name: "Talo",
+        description: "使用实时AI翻译打破视频通话中的语言障碍。 (Original: Break language barriers in video calls with real-time AI translation.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/talo.svg?height=207",
+        url: "https://www.taloai.com/",
+        category: "实时翻译",
+        tags: ["翻译", "视频通话", "语言障碍"]
+    },
+    {
+        name: "Questie AI",
+        description: "使用语音聊天和实时屏幕共享创建自定义AI游戏伴侣。 (Original: Create custom AI gaming companions with voice chat and live screenshare.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/questie-ai.svg?height=207",
+        url: "https://www.questie.ai/",
+        category: "虚拟伴侣",
+        tags: ["AI", "游戏", "伴侣", "语音"]
+    },
+    {
+        name: "MyCareerKarma",
+        description: "你的AI驱动的更好职业指南。 (Original: Your AI-Powered Guide to a Better Career.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/mycareerkarma.png?height=207",
+        url: "https://mycareerkarma.app/",
+        category: "职业",
+        tags: ["AI", "职业", "指南"]
+    },
+    {
+        name: "one.email",
+        description: "使用AI将电子邮件混乱转变为清晰。 (Original: Turn email chaos into clarity with AI)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/one-email.svg?height=207",
+        url: "https://www.one.email/",
+        category: "电子邮件管理",
+        tags: ["电子邮件", "AI", "清晰", "管理"]
+    },
+    {
+        name: "PhoneCaseAI",
+        description: "使用AI即时将你的想法转变为惊人的自定义手机壳。 (Original: Turn your ideas into stunning, custom phone cases - instantly, with AI.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/phonecaseai.svg?height=207",
+        url: "https://phonecaseai.com/",
+        category: "手机壳设计",
+        tags: ["手机壳", "设计", "AI", "自定义"]
+    },
+    {
+        name: "Polymer Runtime Data Security",
+        description: "使用实时风险管理防止AI数据泄露。 (Original: Prevent AI data breaches with real-time risk management.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/polymer-dspm-for-ai.png?height=207",
+        url: "https://www.polymerhq.io/",
+        category: "网络安全",
+        tags: ["数据安全", "AI", "风险管理"]
+    },
+    {
+        name: "Marblism",
+        description: "为你的业务工作的AI员工。 (Original: AI Employees who Work for Your Business)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/marblism.png?height=207",
+        url: "https://www.marblism.com/",
+        category: "虚拟员工",
+        tags: ["AI", "员工", "业务"]
+    },
+    {
+        name: "LiftKit",
+        description: "将ChatGPT转变为你的整个营销团队。 (Original: Turn ChatGPT into your entire marketing team.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/liftkit.svg?height=207",
+        url: "https://www.getliftkit.com/",
+        category: "营销",
+        tags: ["ChatGPT", "营销", "团队"]
+    },
+    {
+        name: "Wizardly",
+        description: "神奇地为销售代表创建AI驱动的入职向导。 (Original: Magically create AI-powered onboarding wizards for sales reps.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/wizardly.svg?height=207",
+        url: "https://trywizardly.com/",
+        category: "入职教程",
+        tags: ["AI", "入职", "向导", "销售"]
+    },
+    {
+        name: "Overcut.ai",
+        description: "使用连续AI构建你的自治团队。 (Original: Build your autonomous team with continuous AI)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/overcut-ai.svg?height=207",
+        url: "https://overcut.ai/",
+        category: "工作流",
+        tags: ["AI", "团队", "自治", "连续"]
+    },
+    {
+        name: "LPagery AI Rank Tracker",
+        description: "在AI聊天机器人中跟踪你的业务排名。 (Original: Track your business rankings in AI chatbots.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/lpagery-ai-rank-tracker.svg?height=207",
+        url: "https://lpagery.io/tools/ai-rank-tracker/",
+        category: "答案引擎优化",
+        tags: ["排名跟踪", "AI聊天", "业务"]
+    },
+    {
+        name: "Stunning",
+        description: "在几秒钟内构建AI驱动的网站。 (Original: Build AI-powered websites in seconds)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/stunning.svg?height=207",
+        url: "https://www.stunning.so/",
+        category: "网站",
+        tags: ["AI", "网站构建", "快速"]
+    },
+    {
+        name: "ChatFeatured",
+        description: "在ChatGPT和AI搜索结果中被突出显示。 (Original: Get featured in ChatGPT & AI search results.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/chatfeatured.svg?height=207",
+        url: "https://chatfeatured.com/",
+        category: "答案引擎优化",
+        tags: ["ChatGPT", "AI搜索", "突出"]
+    },
+    {
+        name: "Guideless",
+        description: "在几分钟内将任何浏览器工作流转变为精炼的、AI叙述的视频指南。 (Original: Turn any browser workflow into a polished, AI-narrated video guide in minutes.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/guideless-ai.svg?height=207",
+        url: "https://guideless.ai/",
+        category: "指南",
+        tags: ["浏览器", "工作流", "视频指南", "AI"]
+    },
+    {
+        name: "Oh My Images",
+        description: "使用AI即时创建惊人的Nano banana图像。 (Original: Create stunning Nano banana images instantly with AI.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/oh-my-images.svg?height=207",
+        url: "https://ohmyimages.com/",
+        category: "图像",
+        tags: ["图像创建", "AI", "即时"]
+    },
+    {
+        name: "ChatNode",
+        description: "感觉像人类的客户服务AI代理。 (Original: AI Agents for customer service that feel human)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/chatnode.png?height=207",
+        url: "https://www.chatnode.ai/",
+        category: "代理",
+        tags: ["AI代理", "客户服务", "人性化"]
+    },
+    {
+        name: "AutoQA",
+        description: "用纯英语描述测试，在真实浏览器中执行它们。 (Original: Describe Tests in Plain English, Execute Them in Real Browsers)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/autoqa-io.svg?height=207",
+        url: "https://auto-qa.io/",
+        category: "测试自动化",
+        tags: ["测试", "自动化", "浏览器", "英语"]
+    },
+    {
+        name: "ACE ESSAY",
+        description: "以学术严谨性创作个人、引人入胜的文章。 (Original: Craft personal, engaging essays with academic rigor.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/ace-essay.svg?height=207",
+        url: "https://aceessay.ai/essay-humanizer",
+        category: "AI文本人性化",
+        tags: ["文章", "创作", "学术", "引人入胜"]
+    },
+    {
+        name: "Limecube",
+        description: "使用AI改变网站创建的方式。 (Original: Transforming the way websites are created with AI.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/limecube.svg?height=207",
+        url: "https://limecube.co/",
+        category: "网站",
+        tags: ["AI", "网站创建", "转变"]
+    },
+    {
+        name: "Social Intents",
+        description: "通过消息平台提供实时支持和销售。 (Original: Real-time support & sales via messaging platforms.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/social-intents.png?height=207",
+        url: "https://www.socialintents.com/",
+        category: "客户支持聊天机器人",
+        tags: ["支持", "销售", "消息平台"]
+    },
+    {
+        name: "Model Playground AI",
+        description: "并排比较AI模型，无麻烦。 (Original: Compare AI models side by side, hassle-free.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/model-playground-ai.svg?height=207",
+        url: "https://modelplayground.ai/",
+        category: "内容",
+        tags: ["AI模型", "比较", "无麻烦"]
+    },
+    {
+        name: "APOB",
+        description: "通过创建自己的个性化AI影响者赚钱。 (Original: Earn money by creating your own personalized AI influencer.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/apob.svg?height=207",
+        url: "https://mega.apob.ai/taaftp",
+        category: "视频",
+        tags: ["AI影响者", "赚钱", "个性化"]
+    },
+    {
+        name: "Canopy API",
+        description: "通过直观的API访问实时亚马逊数据。 (Original: Access real-time Amazon data through intuitive APIs)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/canopy-api.svg?height=207",
+        url: "https://www.canopyapi.co/",
+        category: "亚马逊数据提取",
+        tags: ["亚马逊", "数据", "API", "实时"]
+    },
+    {
+        name: "Amino: Supplement Scanner",
+        description: "扫描、分析和跟踪补充剂的安全性。 (Original: Scan, analyze, and track supplements for safety.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/amino-supplement-scanner.svg?height=207",
+        url: "https://apps.apple.com/us/app/supplement-scanner-amino/id6744544982",
+        category: "补充剂扫描",
+        tags: ["补充剂", "扫描", "分析", "安全"]
+    },
+    {
+        name: "Nano-Banana.com",
+        description: "使用AI在几秒钟内创建和编辑图像。 (Original: Create and edit images in seconds with AI.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/nano-banana-com.svg?height=207",
+        url: "https://www.nano-banana.com/",
+        category: "图像编辑",
+        tags: ["图像", "创建", "编辑", "AI"]
+    },
+    {
+        name: "TextMusic.net",
+        description: "即时将文本转变为美丽的音乐。 (Original: Transform text into beautiful music instantly.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/textmusic-net.svg?height=207",
+        url: "https://www.textmusic.net/",
+        category: "音乐",
+        tags: ["文本转音乐", "即时", "美丽"]
+    },
+    {
+        name: "PACT | Free Compliance Audit",
+        description: "100%免费的AI驱动网站合规审计，在几分钟内完成。 (Original: 100% Free AI-powered website compliance audits in minutes.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/ai-pact.png?height=207",
+        url: "https://ai-pact.com/",
+        category: "网站合规",
+        tags: ["合规审计", "网站", "免费", "AI"]
+    },
+    {
+        name: "AI Humanizer Text",
+        description: "将机器人AI文本转变为自然写作。 (Original: Transform robotic AI text into natural writing.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/ai-humanizer-text.svg?height=207",
+        url: "https://aihumanizertext.com/",
+        category: "文本人性化",
+        tags: ["AI文本", "人性化", "自然写作"]
+    },
+    {
+        name: "eBookColoring",
+        description: "使用AI创建美丽的着色书。 (Original: Create Beautiful Coloring Books with AI)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/ebookcoloring.svg?height=207",
+        url: "https://ebookcoloring.com/",
+        category: "着色页",
+        tags: ["着色书", "AI", "创建"]
+    },
+    {
+        name: "AIVideoMaker - Free AI Video Maker",
+        description: "即时将静态图像转变为动画视频。 (Original: Transform static images into animated videos instantly.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/aivideomaker-free-ai-video-maker.svg?height=207",
+        url: "https://aivideomaker.ai/image-to-video",
+        category: "图像转视频",
+        tags: ["图像", "视频", "动画", "免费"]
+    },
+    {
+        name: "RemoveMark",
+        description: "在线即时移除Sora水印。 (Original: Remove Sora watermarks instantly online.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/sora-watermark-remover.svg?height=207",
+        url: "https://removemark.io/",
+        category: "水印移除",
+        tags: ["水印", "移除", "在线", "即时"]
+    },
+    {
+        name: "IconCraft",
+        description: "在几秒钟内生成设计师级应用图标。 (Original: Generate designer-grade app icons in seconds)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/iconcraft-1760686821.svg?height=207",
+        url: "https://iconcraft.app/",
+        category: "图标",
+        tags: ["图标生成", "应用", "设计师级"]
+    },
+    {
+        name: "Banana AI.org",
+        description: "使用AI轻松编辑、重塑、转换和重新创建图像。 (Original: Edit, restyle, transform, and recreate images effortlessly with AI.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/banana-ai-org.png?height=207",
+        url: "https://banana-ai.org/",
+        category: "图像编辑",
+        tags: ["图像", "编辑", "AI", "轻松"]
+    },
+    {
+        name: "Slidely AI",
+        description: "使用AI一键创建惊人的、符合品牌的幻灯片。 (Original: Create stunning, on-brand slides in one click with AI)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/slidely-ai.svg?height=207",
+        url: "https://slidely.ai/",
+        category: "演示文稿",
+        tags: ["幻灯片", "AI", "一键", "品牌"]
+    },
+    {
+        name: "Oh My Images",
+        description: "使用AI即时创建惊人的Nano banana图像。 (Original: Create stunning Nano banana images instantly with AI.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/oh-my-images.svg?height=207",
+        url: "https://ohmyimages.com/",
+        category: "图像",
+        tags: ["图像创建", "AI", "Nano banana"]
+    },
+    {
+        name: "Banana Nano AI",
+        description: "使用AI驱动的生成转变图像。 (Original: Transform images with AI-powered generation.)",
+        iconUrl: "https://media.theresanaiforthat.com/icons/banana-nano-ai.svg?height=207",
+        url: "https://bananananoai.net/ai-image-to-image-generator",
+        category: "图像编辑",
+        tags: ["图像转变", "AI", "生成"]
     }
 ];
 

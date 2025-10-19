@@ -38,13 +38,13 @@ body {
 .logo-title {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0;
     justify-content: center;
 }
 
 .logo-text {
-    font-size: 56px;
-    font-weight: 700;
+    font-size: 60px;
+    font-weight: 800;
     letter-spacing: -1px;
     display: flex;
     gap: 0px;
@@ -56,18 +56,36 @@ body {
 
 .logo-pinyin {
     display: flex;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 1px;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    padding: 2px 0;
+    margin-left: 10px;
+    align-items: center;
+    transition: all 0.3s ease;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+}
+
+.logo-pinyin:hover {
+    transform: translateY(-2px);
+}
+
+.pinyin-space {
+    margin: 0 8px;
+    display: inline-block;
 }
 
 /* 彩色拼音字母 - Google 风格 */
-.pinyin-z { color: #4285F4; }  /* 蓝色 */
-.pinyin-h { color: #EA4335; }  /* 红色 */
-.pinyin-i { color: #FBBC04; }  /* 黄色 */
-.pinyin-s { color: #4285F4; }  /* 蓝色 */
-.pinyin-o { color: #34A853; }  /* 绿色 */
-.pinyin-u { color: #EA4335; }  /* 红色 */
+/* AI 部分 */
+.pinyin-a { color: #4285F4; }  /* 蓝色 A */
+.pinyin-i { color: #EA4335; }  /* 红色 I */
+
+/* Search 部分 */
+.pinyin-s { color: #FBBC04; }  /* 黄色 S */
+.pinyin-e { color: #34A853; }  /* 绿色 e */
+.pinyin-r { color: #4285F4; }  /* 蓝色 a */
+.pinyin-c { color: #EA4335; }  /* 红色 r */
+.pinyin-h { color: #FBBC04; }  /* 黄色 c */
 
 .logo .subtitle {
     font-size: 15px;

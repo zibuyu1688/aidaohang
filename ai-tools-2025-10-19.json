@@ -1,0 +1,2332 @@
+{
+  "exportDate": "2025-10-19T10:55:49.790Z",
+  "totalCount": 332,
+  "source": "theresanaiforthat.com",
+  "description": "提取的AI工具数据，包含名称、描述、图标和真实网址",
+  "tools": [
+    {
+      "name": "Base44",
+      "description": "Let’s make your dream a reality. Right now.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/base44.svg?height=207",
+      "url": "https://base44.pxf.io/c/6560143/2477538/25619?trafcat=hp",
+      "category": "Vibe Coding"
+    },
+    {
+      "name": "Jason AI",
+      "description": "AI-powered assistant for B2B sales outreach",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/jason-ai.png?height=207",
+      "url": "https://jasonai.tech/",
+      "category": "Sales"
+    },
+    {
+      "name": "Speechmatics | AI Voice Agents",
+      "description": "Build smarter AI voice agents with the best speech recognition technology",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/speechmatics-ai-voice-agents.svg?height=207",
+      "url": "https://www.speechmatics.com/use-cases/ai-voice-agents/",
+      "category": "Voice agents"
+    },
+    {
+      "name": "CodeRabbit",
+      "description": "Enhanced code review for improved workflow and quality.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/coderabbit.svg?height=207",
+      "url": "https://coderabbit.ai/",
+      "category": "Code reviews"
+    },
+    {
+      "name": "Averi AI",
+      "description": "The AI Marketing Workspace: Strategy, Content, Team in One",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/averi-ai.png?height=207",
+      "url": "https://www.averi.ai/",
+      "category": "Marketing"
+    },
+    {
+      "name": "Kick",
+      "description": "Accounting software that does the work for you",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/kick-co.svg?height=207",
+      "url": "https://kick.co/",
+      "category": "Accounting"
+    },
+    {
+      "name": "BodhiGPT | Podcasts",
+      "description": "Your personalized podcast player with AI insights.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/bodhigpt-podcasts.svg?height=207",
+      "url": "https://www.bodhigpt.com/tools/podcasts",
+      "category": "Podcast summaries"
+    },
+    {
+      "name": "Support Flow",
+      "description": "AI assistant that proactively surfaces the best technical content, data, and actions.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/pixiebrix-support-flow.svg?height=207",
+      "url": "https://www.pixiebrix.com/product/support-flow-taaft/",
+      "category": "Business"
+    },
+    {
+      "name": "Remove Background by Picsart",
+      "description": "Instantly remove backgrounds for clean, transparent images—perfect for products, designs, and creative",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/picsart-s-remove-background-api.svg?height=207",
+      "url": "https://picsart.io/remove-background/?gclid=taaft_ppc_rbg",
+      "category": "Background removal"
+    },
+    {
+      "name": "TheLibrarian.io",
+      "description": "Supercharge your day with a WhatsApp AI Assistant",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/the-librarian.svg?height=207",
+      "url": "https://thelibrarian.io/",
+      "category": "Productivity"
+    },
+    {
+      "name": "Fundraising with Evalyze Ai",
+      "description": "AI automates startup fundraising from pitch to investor match.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/evalyze.png?height=207",
+      "url": "https://www.evalyze.ai/",
+      "category": "Fundraising"
+    },
+    {
+      "name": "Candidate Screening - AI-Powered Hiring & Assessment Platform",
+      "description": "AI-powered candidate screening with instant results.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/candidate-screenings.svg?height=207",
+      "url": "https://candidatescreenings.com/",
+      "category": "Candidate screening"
+    },
+    {
+      "name": "Atai - Automated Testing AI",
+      "description": "AI-powered vision-based automated test writing.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/atai-automated-testing.svg?height=207",
+      "url": "https://automatedtesting.ai/",
+      "category": "Test automation"
+    },
+    {
+      "name": "Thinkfill AI – AI Procurement Platform",
+      "description": "Implement the Right AI, Faster.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/thinkfill-ai.svg?height=207",
+      "url": "https://thinkfill.ai/",
+      "category": "Procurement"
+    },
+    {
+      "name": "Decory AI",
+      "description": "Art Meets Algorithm - Your Space, Redefined!",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/decory-ai.svg?height=207",
+      "url": "https://www.decory.ai/",
+      "category": "Interior design"
+    },
+    {
+      "name": "BriefNest",
+      "description": "AI tool for strategic, creative, and content briefs in English & Spanish",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/briefnest.svg?height=207",
+      "url": "https://briefnest-ai.up.railway.app/",
+      "category": "Productivity"
+    },
+    {
+      "name": "Whimsey: The AI Shared Inbox for Your Business",
+      "description": "Turn your shared inbox into an automated revenue engine",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/whimsey.svg?height=207",
+      "url": "https://whimsey.ai/",
+      "category": "Email management"
+    },
+    {
+      "name": "illumi",
+      "description": "Context-aware AI whiteboard for teams.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/illumi-one.svg?height=207",
+      "url": "https://www.illumi.one/",
+      "category": "Team collaboration"
+    },
+    {
+      "name": "FirstSign AI",
+      "description": "Auto-generated interviews + ICPs you can act on today.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/firstsign-ai.png?height=207",
+      "url": "https://firstsign.ai/",
+      "category": "Business"
+    },
+    {
+      "name": "Tecmate",
+      "description": "AI recommendations for digital transformation workflows.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/tecmate.svg?height=207",
+      "url": "https://tecmate.lovable.app/",
+      "category": "Software recommendations"
+    },
+    {
+      "name": "CoeFont Interpreter",
+      "description": "AI-powered voice interpretation for multilingual teams",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/coefont-interpreter.svg?height=207",
+      "url": "https://coefont.cloud/cir/en",
+      "category": "Live translations"
+    },
+    {
+      "name": "RambleFix",
+      "description": "⚡ Write by thinking aloud - emails, notes, articles, in your style.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ramblefix.png?height=207",
+      "url": "https://ramblefix.com/",
+      "category": "Transcription"
+    },
+    {
+      "name": "remio: Your Personal AI Assistant",
+      "description": "Your AI-powered personal knowledge hub for professionals.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/remio.svg?height=207",
+      "url": "https://www.remio.ai/",
+      "category": "Notes"
+    },
+    {
+      "name": "ForumScout - Free social listening tool",
+      "description": "Track online brand mentions with AI-powered social listening, for free.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/forumscout.svg?height=207",
+      "url": "https://forumscout.app/",
+      "category": "Brand monitoring"
+    },
+    {
+      "name": "Radiant",
+      "description": "Unstoppable momentum from every conversation",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/radiant-app.svg?height=207",
+      "url": "https://radiantapp.com/",
+      "category": "Productivity"
+    },
+    {
+      "name": "Hyperbrowser",
+      "description": "Cloud browsers for AI agents and apps.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/hyperbrowser.svg?height=207",
+      "url": "https://www.hyperbrowser.ai/",
+      "category": "Web browsing"
+    },
+    {
+      "name": "Nebius AI Studio",
+      "description": "Host open-source models for faster, cheaper AI inference.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/nebius-ai-studio.svg?height=207",
+      "url": "https://nebius.com/services/studio-inference-service",
+      "category": "AI inference"
+    },
+    {
+      "name": "Explee",
+      "description": "Find 3X more B2B leads with full web data and AI enrichment",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/explee.svg?height=207",
+      "url": "https://explee.com/",
+      "category": "Prospecting"
+    },
+    {
+      "name": "NewPic.io",
+      "description": "Professional photo editing in one click.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/newpic-io.svg?height=207",
+      "url": "https://newpic.io/",
+      "category": "Image editing"
+    },
+    {
+      "name": "Clientli",
+      "description": "10X Your Clients with Your Proposal Copilot; for digital transformation consultants",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/clientli.png?height=207",
+      "url": "https://clientli.lovable.app/",
+      "category": "Client proposals"
+    },
+    {
+      "name": "Changify",
+      "description": "10X AI Adoption with Your Change Management Copilot; for digital transformation consultants",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/changify-app.png?height=207",
+      "url": "https://changify.lovable.app/",
+      "category": "Change management"
+    },
+    {
+      "name": "Stackify",
+      "description": "AI copilot that optimizes your SaaS stack.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/stackify-app.png?height=207",
+      "url": "https://stackify.lovable.app/",
+      "category": "SaaS management"
+    },
+    {
+      "name": "Leanify.app",
+      "description": "AI Co-Pilot that optimizes your operations instantly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/leanify-app.png?height=207",
+      "url": "https://leanify.lovable.app/",
+      "category": "Business analysis"
+    },
+    {
+      "name": "AutoFlo",
+      "description": "Discover what to automate, deploy instantly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/autoflo.svg?height=207",
+      "url": "https://autoflo.lovable.app/",
+      "category": "Process automations"
+    },
+    {
+      "name": "Creative Arena by Contra",
+      "description": "Compare. Vote. Advance Creative AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/contra-creative-arena.svg?height=207",
+      "url": "https://contra.com/creative-arena",
+      "category": "LLM comparison"
+    },
+    {
+      "name": "Apex - X Reply AI",
+      "description": "Build brand in minutes, not hours.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/apex-x-reply-ai.svg?height=207",
+      "url": "https://www.apexagents.ai/",
+      "category": "Twitter"
+    },
+    {
+      "name": "Thea",
+      "description": "AI study tools to master material, not just memorize it.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/thea.png?height=207",
+      "url": "https://www.theastudy.com/home?referralCode=taaft-ppc",
+      "category": "Studying"
+    },
+    {
+      "name": "Cimphony AI",
+      "description": "Legal services, advice, documents drafting, & contracts for SMBs and startups",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/cimphony.svg?height=207",
+      "url": "https://www.cimphony.ai/",
+      "category": "Legal advice"
+    },
+    {
+      "name": "KinesteX AI Personal Trainer in your Digital Health Platform",
+      "description": "Your AI-powered personal fitness trainer.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/kinestex.png?height=207",
+      "url": "https://www.kinestex.com/",
+      "category": "Physiotherapy"
+    },
+    {
+      "name": "Discord NotesBot",
+      "description": "Record, Transcribe, and AI Summarize Discord Calls",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/notesbot.svg?height=207",
+      "url": "https://www.notesbot.io/",
+      "category": "Meeting notes"
+    },
+    {
+      "name": "Organize with AI",
+      "description": "AI photo organizer that speaks your language",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/organize-with-ai.svg?height=207",
+      "url": "https://organizewith.ai/",
+      "category": "Image organization"
+    },
+    {
+      "name": "Verify by TaiLR Made AI",
+      "description": "Don't loose a great hire to a better liar!",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/verify-by-tailr-made-ai.svg?height=207",
+      "url": "https://tailrmadeai.com/verify-spot-resume-red-flags-before-the-interview-seeksuite/",
+      "category": "Resume analysis"
+    },
+    {
+      "name": "Rendera AI",
+      "description": "Redesign Any Space with AI in Seconds",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/rendera-ai.svg?height=207",
+      "url": "https://www.rendera.ai/",
+      "category": "Interior design"
+    },
+    {
+      "name": "Yooz AI",
+      "description": "AI LinkedIn post generator trained on top creators.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/yooz-ai.svg?height=207",
+      "url": "https://www.yooz.ai/",
+      "category": "LinkedIn"
+    },
+    {
+      "name": "AI Phone Number | ChatOdyssey",
+      "description": "The only AI phone number that can call and pick up.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/chat-odyssey-ai-phone-number.svg?height=207",
+      "url": "https://www.chatodyssey.com/ai-phone-number",
+      "category": "Calls"
+    },
+    {
+      "name": "byliner.ai",
+      "description": "The Unfair Advantage for Journalists.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/byliner-ai.svg?height=207",
+      "url": "https://byliner.ai/",
+      "category": "Journaling"
+    },
+    {
+      "name": "devlo",
+      "description": "AI Software Platform",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/devlo.png?height=207",
+      "url": "https://devlo.ai/",
+      "category": "Vibe coding"
+    },
+    {
+      "name": "Nano Banana.org",
+      "description": "Create and edit images through natural chat conversations.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/nano-banana-ai-image-generator.svg?height=207",
+      "url": "https://nanobanana.org/",
+      "category": "Image editing"
+    },
+    {
+      "name": "CodeAsk",
+      "description": "AI reads your code, answers team questions.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/codeask.svg?height=207",
+      "url": "https://www.codeask.ai/",
+      "category": "Code explanations"
+    },
+    {
+      "name": "dbrief",
+      "description": "Automate expert interviews for content at scale.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/dbrief.svg?height=207",
+      "url": "https://www.dbrief.io/",
+      "category": "SME interviews"
+    },
+    {
+      "name": "Fortellar | Cybersecurity Compliance Assessment",
+      "description": "Empowering Organizations to Achieve Compliance Readiness",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/fortellar-cybersecurity-compliance-assessment.svg?height=207",
+      "url": "https://assessment.fortellar.com/",
+      "category": "Compliance"
+    },
+    {
+      "name": "Talo",
+      "description": "Break language barriers in video calls with real-time AI translation.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/talo.svg?height=207",
+      "url": "https://www.taloai.com/",
+      "category": "Live translations"
+    },
+    {
+      "name": "Questie AI",
+      "description": "Create custom AI gaming companions with voice chat and live screenshare.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/questie-ai.svg?height=207",
+      "url": "https://www.questie.ai/",
+      "category": "Virtual companions"
+    },
+    {
+      "name": "MyCareerKarma",
+      "description": "Your AI-Powered Guide to a Better Career.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/mycareerkarma.png?height=207",
+      "url": "https://mycareerkarma.app/",
+      "category": "Career"
+    },
+    {
+      "name": "one.email",
+      "description": "Turn email chaos into clarity with AI",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/one-email.svg?height=207",
+      "url": "https://www.one.email/",
+      "category": "Email management"
+    },
+    {
+      "name": "PhoneCaseAI",
+      "description": "Turn your ideas into stunning, custom phone cases - instantly, with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/phonecaseai.svg?height=207",
+      "url": "https://phonecaseai.com/",
+      "category": "Phone case designs"
+    },
+    {
+      "name": "Polymer Runtime Data Security",
+      "description": "Prevent AI data breaches with real-time risk management.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/polymer-dspm-for-ai.png?height=207",
+      "url": "https://www.polymerhq.io/",
+      "category": "Cybersecurity"
+    },
+    {
+      "name": "Marblism",
+      "description": "AI Employees who Work for Your Business",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/marblism.png?height=207",
+      "url": "https://www.marblism.com/",
+      "category": "Virtual Employees"
+    },
+    {
+      "name": "LiftKit",
+      "description": "Turn ChatGPT into your entire marketing team.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/liftkit.svg?height=207",
+      "url": "https://www.getliftkit.com/",
+      "category": "Marketing"
+    },
+    {
+      "name": "Wizardly",
+      "description": "Magically create AI-powered onboarding wizards for sales reps.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/wizardly.svg?height=207",
+      "url": "https://trywizardly.com/",
+      "category": "Onboarding tutorials"
+    },
+    {
+      "name": "Overcut.ai",
+      "description": "Build your autonomous team with continuous AI",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/overcut-ai.svg?height=207",
+      "url": "https://overcut.ai/",
+      "category": "Workflows"
+    },
+    {
+      "name": "LPagery AI Rank Tracker",
+      "description": "Track your business rankings in AI chatbots.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/lpagery-ai-rank-tracker.svg?height=207",
+      "url": "https://lpagery.io/tools/ai-rank-tracker/",
+      "category": "Answer engine optimization"
+    },
+    {
+      "name": "Stunning",
+      "description": "Build AI-powered websites in seconds",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/stunning.svg?height=207",
+      "url": "https://www.stunning.so/",
+      "category": "Websites"
+    },
+    {
+      "name": "ChatFeatured",
+      "description": "Get featured in ChatGPT & AI search results.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/chatfeatured.svg?height=207",
+      "url": "https://chatfeatured.com/",
+      "category": "Answer Engine Optimization"
+    },
+    {
+      "name": "Guideless",
+      "description": "Turn any browser workflow into a polished, AI-narrated video guide in minutes.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/guideless-ai.svg?height=207",
+      "url": "https://guideless.ai/",
+      "category": "Guides"
+    },
+    {
+      "name": "Oh My Images",
+      "description": "Create stunning Nano banana images instantly with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/oh-my-images.svg?height=207",
+      "url": "https://ohmyimages.com/",
+      "category": "Images"
+    },
+    {
+      "name": "ChatNode",
+      "description": "AI Agents for customer service that feel human",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/chatnode.png?height=207",
+      "url": "https://www.chatnode.ai/",
+      "category": "Agents"
+    },
+    {
+      "name": "AutoQA",
+      "description": "Describe Tests in Plain English, Execute Them in Real Browsers",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/autoqa-io.svg?height=207",
+      "url": "https://auto-qa.io/",
+      "category": "Test automation"
+    },
+    {
+      "name": "ACE ESSAY",
+      "description": "Craft personal, engaging essays with academic rigor.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ace-essay.svg?height=207",
+      "url": "https://aceessay.ai/essay-humanizer",
+      "category": "Humanizing AI text"
+    },
+    {
+      "name": "Limecube",
+      "description": "Transforming the way websites are created with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/limecube.svg?height=207",
+      "url": "https://limecube.co/",
+      "category": "Websites"
+    },
+    {
+      "name": "Social Intents",
+      "description": "Real-time support & sales via messaging platforms.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/social-intents.png?height=207",
+      "url": "https://www.socialintents.com/",
+      "category": "Customer support chatbot"
+    },
+    {
+      "name": "Model Playground AI",
+      "description": "Compare AI models side by side, hassle-free.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/model-playground-ai.svg?height=207",
+      "url": "https://modelplayground.ai/",
+      "category": "Content"
+    },
+    {
+      "name": "APOB",
+      "description": "Earn money by creating your own personalized AI influencer.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/apob.svg?height=207",
+      "url": "https://mega.apob.ai/taaftp",
+      "category": "Videos"
+    },
+    {
+      "name": "Canopy API",
+      "description": "Access real-time Amazon data through intuitive APIs",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/canopy-api.svg?height=207",
+      "url": "https://www.canopyapi.co/",
+      "category": "Amazon data extraction"
+    },
+    {
+      "name": "Amino: Supplement Scanner",
+      "description": "Scan, analyze, and track supplements for safety.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/amino-supplement-scanner.svg?height=207",
+      "url": "https://apps.apple.com/us/app/supplement-scanner-amino/id6744544982",
+      "category": "Supplement scanning"
+    },
+    {
+      "name": "Nano-Banana.com",
+      "description": "Create and edit images in seconds with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/nano-banana-com.svg?height=207",
+      "url": "https://www.nano-banana.com/",
+      "category": "Image editing"
+    },
+    {
+      "name": "TextMusic.net",
+      "description": "Transform text into beautiful music instantly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/textmusic-net.svg?height=207",
+      "url": "https://www.textmusic.net/",
+      "category": "Music"
+    },
+    {
+      "name": "PACT | Free Compliance Audit",
+      "description": "100% Free AI-powered website compliance audits in minutes.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ai-pact.png?height=207",
+      "url": "https://ai-pact.com/",
+      "category": "Website compliance"
+    },
+    {
+      "name": "AI Humanizer Text",
+      "description": "Transform robotic AI text into natural writing.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ai-humanizer-text.svg?height=207",
+      "url": "https://aihumanizertext.com/",
+      "category": "Text humanization"
+    },
+    {
+      "name": "eBookColoring",
+      "description": "Create Beautiful Coloring Books with AI",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ebookcoloring.svg?height=207",
+      "url": "https://ebookcoloring.com/",
+      "category": "Coloring pages"
+    },
+    {
+      "name": "AIVideoMaker - Free AI Video Maker",
+      "description": "Transform static images into animated videos instantly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/aivideomaker-free-ai-video-maker.svg?height=207",
+      "url": "https://aivideomaker.ai/image-to-video",
+      "category": "Image to video"
+    },
+    {
+      "name": "RemoveMark",
+      "description": "Remove Sora watermarks instantly online.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/sora-watermark-remover.svg?height=207",
+      "url": "https://removemark.io/",
+      "category": "Watermark removal"
+    },
+    {
+      "name": "IconCraft",
+      "description": "Generate designer-grade app icons in seconds",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/iconcraft-1760686821.svg?height=207",
+      "url": "https://iconcraft.app/",
+      "category": "Icons"
+    },
+    {
+      "name": "Banana AI.org",
+      "description": "Edit, restyle, transform, and recreate images effortlessly with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/banana-ai-org.png?height=207",
+      "url": "https://banana-ai.org/",
+      "category": "Image editing"
+    },
+    {
+      "name": "Slidely AI",
+      "description": "Create stunning, on-brand slides in one click with AI",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/slidely-ai.svg?height=207",
+      "url": "https://slidely.ai/",
+      "category": "Presentations"
+    },
+    {
+      "name": "Oh My Images",
+      "description": "Create stunning Nano banana images instantly with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/oh-my-images.svg?height=207",
+      "url": "https://ohmyimages.com/",
+      "category": "Images"
+    },
+    {
+      "name": "Banana Nano AI",
+      "description": "Transform images with AI-powered generation.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/banana-nano-ai.svg?height=207",
+      "url": "https://bananananoai.net/ai-image-to-image-generator",
+      "category": "Image editing"
+    },
+    {
+      "name": "MusicGeneratorAI",
+      "description": "Transform inspiration into melodies without musical skills.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/musicgeneratorai.svg?height=207",
+      "url": "https://musicgeneratorai.io/",
+      "category": "Music"
+    },
+    {
+      "name": "Transor",
+      "description": "Break language barriers with one click.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/transor.svg?height=207",
+      "url": "https://transor.ai/",
+      "category": "Translations"
+    },
+    {
+      "name": "Cambir: Voice AI + Chat for High-Value Leads",
+      "description": "Your Visitors Can Talk to Your Website. AI Answers Instantly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/regula-lead-flow-magic.svg?height=207",
+      "url": "https://cambir.com/",
+      "category": "Lead generation"
+    },
+    {
+      "name": "TextMusic.net",
+      "description": "Transform text into beautiful music instantly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/textmusic-net.svg?height=207",
+      "url": "https://www.textmusic.net/",
+      "category": "Music"
+    },
+    {
+      "name": "BibleSpark",
+      "description": "Discover God's Word like never before.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/biblespark.svg?height=207",
+      "url": "https://play.google.com/store/apps/details?id=com.biblespark.app",
+      "category": "Bible study"
+    },
+    {
+      "name": "Image Extender by Picsman",
+      "description": "Expand images with AI without distortion.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/image-extender-by-picsman.svg?height=207",
+      "url": "https://www.picsman.ai/tools/ai-enlarge-image",
+      "category": "Image expansion"
+    },
+    {
+      "name": "FastHeadshot",
+      "description": "Studio-quality professional headshots in seconds.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/fastheadshot.svg?height=207",
+      "url": "https://fastheadshot.com/",
+      "category": "Professional avatars"
+    },
+    {
+      "name": "ImageTranslate.AI",
+      "description": "Translate image text instantly across 130+ languages.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/imagetranslate-ai.svg?height=207",
+      "url": "https://imagetranslate.ai/",
+      "category": "Image to text"
+    },
+    {
+      "name": "CodeAsk",
+      "description": "AI reads your code, answers team questions.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/codeask.svg?height=207",
+      "url": "https://www.codeask.ai/",
+      "category": "Code explanations"
+    },
+    {
+      "name": "DayStart AI",
+      "description": "Your personal morning podcast powered by AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/daystart-ai.svg?height=207",
+      "url": "https://daystartai.app/",
+      "category": "Morning briefings"
+    },
+    {
+      "name": "Hooked",
+      "description": "Create viral TikTok videos with AI avatars instantly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/hooked.svg?height=207",
+      "url": "https://www.tryhooked.ai/",
+      "category": "Short videos"
+    },
+    {
+      "name": "Nano Banana.org",
+      "description": "Create and edit images through natural chat conversations.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/nano-banana-ai-image-generator.svg?height=207",
+      "url": "https://nanobanana.org/",
+      "category": "Image editing"
+    },
+    {
+      "name": "Scraib.app",
+      "description": "AI writing partner in every Mac app.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/scraib.png?height=207",
+      "url": "https://scraib.app/",
+      "category": "Text rewriting"
+    },
+    {
+      "name": "NanoChat",
+      "description": "Micro conversations, macro impact.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/nanochat.svg?height=207",
+      "url": "https://nanochat.karpathy.ai/",
+      "category": "Chatting"
+    },
+    {
+      "name": "Transcriptik",
+      "description": "Turn any TikTok video to transcript for free.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/tiktok-transcript-generator.svg?height=207",
+      "url": "https://transcriptik.com/",
+      "category": "Video transcription"
+    },
+    {
+      "name": "Demodesk",
+      "description": "AI Sales Agents automate tasks and boost revenue.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/demodesk.svg?height=207",
+      "url": "https://demodesk.com/",
+      "category": "Sales"
+    },
+    {
+      "name": "Baseqore AI Contract Generator",
+      "description": "Generate high-converting legal contracts in seconds.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/baseqore-ai-contract-generator.svg?height=207",
+      "url": "https://start.baseqore.com/ai-contract-generator/",
+      "category": "Contracts"
+    },
+    {
+      "name": "AI Video Enhancer | Picsman AI",
+      "description": "Enhance video quality to 4K with AI",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ai-video-enhancer-picsman-ai.svg?height=207",
+      "url": "https://www.picsman.ai/tools/ai-video-enhancer",
+      "category": "Video enhancement"
+    },
+    {
+      "name": "AI Watermark Remover | Picsman AI",
+      "description": "Remove watermarks from photos with one click.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ai-watermark-remover-picsman-ai.svg?height=207",
+      "url": "https://www.picsman.ai/tools/watermark-remover",
+      "category": "Watermark removal"
+    },
+    {
+      "name": "Lexica AI.net",
+      "description": "Generate images with AI for free.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/lexica-ai-net.svg?height=207",
+      "url": "https://lexicaai.net/",
+      "category": "Images"
+    },
+    {
+      "name": "Voice Cleaner AI",
+      "description": "Remove background noise from audio instantly with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/voice-cleaner-ai.svg?height=207",
+      "url": "https://voicecleaner.ai/",
+      "category": "Audio enhancement"
+    },
+    {
+      "name": "GoMim",
+      "description": "Your personal math AI tutor.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/gomim.svg?height=207",
+      "url": "https://gomim.com/",
+      "category": "Math"
+    },
+    {
+      "name": "Soniq",
+      "description": "AI-powered complete song creation platform.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/soniq-chat.svg?height=207",
+      "url": "https://soniq.chat/",
+      "category": "Music"
+    },
+    {
+      "name": "Prompt Sloth Write Better AI Prompts",
+      "description": "Chrome extension that turns lazy prompts into pro-level instructions.",
+      "iconUrl": "https://media.theresanaiforthat.com/assets/ai-default.svg?height=207",
+      "url": "https://promptsloth.com/",
+      "category": "Prompt optimization"
+    },
+    {
+      "name": "Photodot AI",
+      "description": "AI-driven photo editing online for free.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/photodot-ai.svg?height=207",
+      "url": "https://www.photodot.ai/",
+      "category": "Image editing"
+    },
+    {
+      "name": "Photo to Video AI.io",
+      "description": "Turn photos into cinematic videos instantly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/photo-to-video-ai-io.svg?height=207",
+      "url": "https://phototovideoai.io/",
+      "category": "Videos"
+    },
+    {
+      "name": "CloneViral AI",
+      "description": "Clone and create viral videos with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/cloneviral-ai.svg?height=207",
+      "url": "https://www.cloneviral.ai/",
+      "category": "Videos"
+    },
+    {
+      "name": "Dreamega AI | Image Effects",
+      "description": "Transform photos with AI-powered effects and filters.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/dreamega-ai-image-effects.svg?height=207",
+      "url": "https://www.dreamega.ai/image/template",
+      "category": "Image editing"
+    },
+    {
+      "name": "ColorMe.ai",
+      "description": "Turn photos and text into printable coloring pages.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/colorme-ai.svg?height=207",
+      "url": "http://colorme.ai/",
+      "category": "Coloring pages"
+    },
+    {
+      "name": "Sentence Rewriter.cc",
+      "description": "Rewrite sentences with AI-powered elegance.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/sentence-rewriter-cc.svg?height=207",
+      "url": "https://sentencerewriter.cc/",
+      "category": "Text rewriting"
+    },
+    {
+      "name": "Grammar Checker.cc",
+      "description": "Instantly correct grammar, punctuation, and spelling mistakes.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/grammar-checker-cc.svg?height=207",
+      "url": "https://grammarchecker.cc/",
+      "category": "Grammar"
+    },
+    {
+      "name": "Image Editor Online",
+      "description": "Transform images with AI prompts instantly online.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/image-editor-online.svg?height=207",
+      "url": "https://imageeditor.online/",
+      "category": "Image editing"
+    },
+    {
+      "name": "Photo to Cartoon.co",
+      "description": "Turn your photos into cartoons in seconds",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/photo-to-cartoon-co.svg?height=207",
+      "url": "https://www.phototocartoon.co/",
+      "category": "Cartoon images"
+    },
+    {
+      "name": "isFake.ai",
+      "description": "Detect AI-generated text, images, video, and audio.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/isfake-ai.svg?height=207",
+      "url": "https://isfake.ai/",
+      "category": "AI content detection"
+    },
+    {
+      "name": "Video Compress AI",
+      "description": "Instant compression, zero restrictions  just fast, free, and flawless.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/video-compress-ai.svg?height=207",
+      "url": "https://videocompress.ai/",
+      "category": "Video compression"
+    },
+    {
+      "name": "Dechecker AI",
+      "description": "Instantly detects AI-generated content from ChatGPT, Claude, and Gemini.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/dechecker-ai.svg?height=207",
+      "url": "https://dechecker.ai/",
+      "category": "AI content detection"
+    },
+    {
+      "name": "Content Dreamer AI",
+      "description": "Generate fresh content ideas from your product daily.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/content-dreamer-ai.svg?height=207",
+      "url": "https://contentdreamer.ai/",
+      "category": "Content ideas"
+    },
+    {
+      "name": "Turbo-Learn",
+      "description": "Learn Smarter. Understand Faster.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/turbo-learn.svg?height=207",
+      "url": "https://turbo-learn.com/",
+      "category": "Studying"
+    },
+    {
+      "name": "TattooCoverUp.AI",
+      "description": "Transform unwanted tattoos with AI-generated cover-up designs.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/tattoocoverup-ai.svg?height=207",
+      "url": "https://tattoocoverup.ai/",
+      "category": "Tattoo cover-ups"
+    },
+    {
+      "name": "Humaniser",
+      "description": "Transform AI text into undetectable human writing.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/humaniser.svg?height=207",
+      "url": "https://humaniser.com/",
+      "category": "Text humanization"
+    },
+    {
+      "name": "Hire22.ai",
+      "description": "India’s First Anonymous AI Job Platform with Instant HR CoNCT",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/hire22-ai.svg?height=207",
+      "url": "https://www.hire22.ai/",
+      "category": "Recruiting"
+    },
+    {
+      "name": "Unblur Img AI",
+      "description": "Unblur images in seconds with AI for free.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/unblur-img-ai.svg?height=207",
+      "url": "https://unblurimg.ai/",
+      "category": "Blur removal"
+    },
+    {
+      "name": "Text2Visual.com",
+      "description": "Transform text into stunning visuals with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/text2visual-com.png?height=207",
+      "url": "https://text2visual.com/",
+      "category": "Text visualization"
+    },
+    {
+      "name": "WriteDoc.ai",
+      "description": "Generate beautiful documents with AI",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/writedoc-ai.svg?height=207",
+      "url": "https://writedoc.ai/",
+      "category": "Document writing"
+    },
+    {
+      "name": "CZero Engine",
+      "description": "Your privacy-first personal AI that never leaves your computer.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/czero.svg?height=207",
+      "url": "https://app.czero.cc/dashboard",
+      "category": "Private conversations"
+    },
+    {
+      "name": "ScoutUX",
+      "description": "Catch UX issues before your users do",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/scoutux.svg?height=207",
+      "url": "https://www.scoutux.io/",
+      "category": "UX testing"
+    },
+    {
+      "name": "Littlebird",
+      "description": "Your AI Digital Twin",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/littlebird.svg?height=207",
+      "url": "https://littlebird.ai/",
+      "category": "Personal assistant"
+    },
+    {
+      "name": "ToDo.is",
+      "description": "Efficient project management with generated tasks",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/todo-is.svg?height=207",
+      "url": "https://todo.is/",
+      "category": "To Do lists"
+    },
+    {
+      "name": "Format Magic",
+      "description": "Format plain text into professional documents instantly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/format-magic.svg?height=207",
+      "url": "https://formatmagic.ai/",
+      "category": "Document formatting"
+    },
+    {
+      "name": "Paraspeech",
+      "description": "AI powered voice to text. Fully offline.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/paraspeech.svg?height=207",
+      "url": "https://paraspeech.com/",
+      "category": "Transcription"
+    },
+    {
+      "name": "Who Codes Best?",
+      "description": "Compare AI coding agents so you don't have to.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/who-codes-best.svg?height=207",
+      "url": "https://www.whocodesbest.com/",
+      "category": "Coding"
+    },
+    {
+      "name": "Automateed",
+      "description": "Create eBooks effortlessly with Automateed, the AI-powered writing tool.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/automateed.svg?height=207",
+      "url": "https://automateed.com/",
+      "category": "eBooks"
+    },
+    {
+      "name": "Fefi",
+      "description": "Your AI powered financial dashboard",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/fefi.svg?height=207",
+      "url": "https://www.fefi.ai/",
+      "category": "Financial analysis"
+    },
+    {
+      "name": "PoddyHost.com",
+      "description": "AI-driven podcasts: effortlessly enhance your brand.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/poddyhost-com.svg?height=207",
+      "url": "https://www.poddyhost.com/",
+      "category": "Podcasts"
+    },
+    {
+      "name": "Groops.com",
+      "description": "AI-powered landing pages for supercharged lead generation",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/groops-com.svg?height=207",
+      "url": "https://www.groops.com/",
+      "category": "Landing pages"
+    },
+    {
+      "name": "Memoir Maker",
+      "description": "Immortalize your life story with AI-powered memoirs.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/memoir-maker.svg?height=207",
+      "url": "https://www.memoirmaker.ai/",
+      "category": "Memoirs writing"
+    },
+    {
+      "name": "AI Travel Planner by Planify",
+      "description": "AI-powered trip planning made effortless and fun.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ai-travel-planner-by-planify.png?height=207",
+      "url": "https://apps.apple.com/mz/app/ai-travel-planner-by-planify/id6682106032",
+      "category": "Travel plans"
+    },
+    {
+      "name": "AI Dubbing by Captions",
+      "description": "AI dubbing to expand your video's global reach.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ai-dubbing-by-captions.svg?height=207",
+      "url": "https://dubs.io/ai-video-dubbing",
+      "category": "Video dubbing"
+    },
+    {
+      "name": "Airial Travel",
+      "description": "Instantly craft dream trips with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/airial-travel.svg?height=207",
+      "url": "https://airial.travel/",
+      "category": "Travel itineraries"
+    },
+    {
+      "name": "LangWatch",
+      "description": "Optimize LLM performance with one click.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/langwatch.svg?height=207",
+      "url": "https://langwatch.ai/",
+      "category": "AI"
+    },
+    {
+      "name": "AuthorVoices.ai",
+      "description": "Create audiobooks fast and cheap with AI narration.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/authorvoices-ai.svg?height=207",
+      "url": "https://www.authorvoices.ai/",
+      "category": "Audiobooks"
+    },
+    {
+      "name": "Twig AI",
+      "description": "AI analyzes docs to answer customer questions",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/twig-ai.png?height=207",
+      "url": "https://www.twig.so/",
+      "category": "Customer support"
+    },
+    {
+      "name": "Conversed.ai",
+      "description": "Optimize AI agents for customer service, sales and satisfaction",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/conversed-ai.svg?height=207",
+      "url": "https://conversed.ai/",
+      "category": "Agents"
+    },
+    {
+      "name": "Investing.com - WarrenAI",
+      "description": "AI-powered financial analyst from Investing.com delivering market insights and research",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/warrenai.svg?height=207",
+      "url": "https://www.investing.com/warrenai/login",
+      "category": "Stocks"
+    },
+    {
+      "name": "Revoldiv",
+      "description": "Convert video/audio to editable text instantly",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/revoldiv.svg?height=207",
+      "url": "https://revoldiv.com/",
+      "category": "Transcription"
+    },
+    {
+      "name": "Stud.AI",
+      "description": "AI-powered study assistant for personalized practice",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/stud-ai.png?height=207",
+      "url": "https://play.google.com/store/apps/details?id=com.itisiya.studai",
+      "category": "Studying"
+    },
+    {
+      "name": "Networker.ai",
+      "description": "Generate personalized LinkedIn messages",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/networker-ai.png?height=207",
+      "url": "https://chromewebstore.google.com/detail/networkerai/innhhchcboconofndjjlonpckbkljjim",
+      "category": "Linkedin outreach"
+    },
+    {
+      "name": "Kaption",
+      "description": "Create and customize subtitles effortlessly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/kaption.png?height=207",
+      "url": "https://apps.apple.com/es/app/captions-video-subtitles/id6504444101",
+      "category": "Video captions"
+    },
+    {
+      "name": "Vozard",
+      "description": "Transform your voice with AI-powered effects",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/vozard.svg?height=207",
+      "url": "https://www.imobie.com/vozard/",
+      "category": "Voice changing"
+    },
+    {
+      "name": "FocuSee",
+      "description": "Auto-polish screen recordings with smart zoom effects.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/focusee.svg?height=207",
+      "url": "https://focusee.imobie.com/",
+      "category": "Screen recordings"
+    },
+    {
+      "name": "Sidejot",
+      "description": "AI-powered task planner for focused productivity.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/sidejot.svg?height=207",
+      "url": "https://sidejot.com/",
+      "category": "Task management"
+    },
+    {
+      "name": "Resume Studio",
+      "description": "Generate optimized resumes for any job in seconds.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/resume-studio-1736240706.svg?height=207",
+      "url": "https://resumestudio.ai/",
+      "category": "Resume optimization"
+    },
+    {
+      "name": "FineVoice",
+      "description": "Create videos and voiceovers with your favorite voice and sound effects.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/finevoice.png?height=207",
+      "url": "https://www.fineshare.com/finevoice/",
+      "category": "Voiceovers"
+    },
+    {
+      "name": "Cool Coloring Pages",
+      "description": "Create cool AI coloring pages instantly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/cool-coloring-pages.svg?height=207",
+      "url": "https://www.coolcoloringpages.com/",
+      "category": "Coloring pages"
+    },
+    {
+      "name": "Lucidic.AI",
+      "description": "The engine for AI agent analytics and simulation.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/lucidic-ai.svg?height=207",
+      "url": "https://lucidic.ai/",
+      "category": "Agent management"
+    },
+    {
+      "name": "QualiTime.ai - Kid's Companion",
+      "description": "AI-powered companion for kids' fun and learning",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/qualitime-ai-kid-s-companion.png?height=207",
+      "url": "https://apps.apple.com/us/app/qualitime-ai-kids-companion/id6737403785",
+      "category": "Children's learning"
+    },
+    {
+      "name": "AI Voice Cloning - AnyVoice",
+      "description": "Clone any voice in 3 seconds with AI technology.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ai-voice-cloning-anyvoice.svg?height=207",
+      "url": "https://anyvoice.net/ai-voice-cloning",
+      "category": "Voice cloning"
+    },
+    {
+      "name": "Deep Sequencer",
+      "description": "Sequence your ideas into creative waves.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/deep-sequencer.png?height=207",
+      "url": "https://deepsequencer.netlify.app/",
+      "category": "Content"
+    },
+    {
+      "name": "Informly Idea Validator",
+      "description": "Validate and grow your business idea with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/informly-idea-validator.svg?height=207",
+      "url": "https://validator.informly.ai/",
+      "category": "Startup ideas"
+    },
+    {
+      "name": "Fixkey",
+      "description": "Fix grammar in any app with AI-powered typing.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/fixkey.svg?height=207",
+      "url": "https://www.fixkey.ai/",
+      "category": "Grammar"
+    },
+    {
+      "name": "AskVids.com",
+      "description": "Get instant insights from YouTube videos.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/askvids-com.svg?height=207",
+      "url": "https://www.askvids.com/",
+      "category": "Video Q&A"
+    },
+    {
+      "name": "AimDash",
+      "description": "Transform your goals into reality with intuitive tracking.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/aimdash.svg?height=207",
+      "url": "https://aimdash.app/",
+      "category": "Goals"
+    },
+    {
+      "name": "mockvox: Text to Speech",
+      "description": "Quick AI voiceovers for 'good enough' narration.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/mockvox-text-to-speech.png?height=207",
+      "url": "https://apps.apple.com/us/app/mockvox-text-to-speech/id6740292775",
+      "category": "Text to speech"
+    },
+    {
+      "name": "Assessment Idea Generator from Blueye",
+      "description": "Generate creative assessments for any subject and grade.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/assessment-idea-generator-from-blueye.svg?height=207",
+      "url": "https://blueye.org/tools/assessment-ideas",
+      "category": "School subjects"
+    },
+    {
+      "name": "Portraitmaker",
+      "description": "Create stunning AI headshots in minutes.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/portraitmaker.svg?height=207",
+      "url": "https://www.portraitmaker.ai/",
+      "category": "Professional avatars"
+    },
+    {
+      "name": "Codebuff",
+      "description": "Code faster with AI",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/codebuff.svg?height=207",
+      "url": "https://www.codebuff.com/",
+      "category": "Coding"
+    },
+    {
+      "name": "Swiftnotes.ai",
+      "description": "YouTube videos to AI notes in seconds",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/swiftnotes-ai.svg?height=207",
+      "url": "https://swiftnotes.ai/",
+      "category": "Video notes"
+    },
+    {
+      "name": "ExamGenie AI",
+      "description": "AI-powered exam preparation tool",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/examgenie-ai.png?height=207",
+      "url": "https://play.google.com/store/apps/details?id=com.divyansh.examgenie",
+      "category": "Exam preparation"
+    },
+    {
+      "name": "Go Legal AI",
+      "description": "AI-powered legal solutions for efficiency and accuracy",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/go-legal-ai.svg?height=207",
+      "url": "https://go-legal.ai/",
+      "category": "Legal advice"
+    },
+    {
+      "name": "Tatship AI Tattoo Generator",
+      "description": "Generate high-quality, artistic AI tattoos for free.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/tatship-ai-tattoo-generator.svg?height=207",
+      "url": "https://tatship.com/en-US/ai-tattoo-generator",
+      "category": "Tattoos"
+    },
+    {
+      "name": "Innhold.ai",
+      "description": "Simplify academic writing with AI assistance.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/innhold-ai.svg?height=207",
+      "url": "https://innhold.ai/",
+      "category": "Academic writing"
+    },
+    {
+      "name": "Chat Recap AI",
+      "description": "Transform chats into deep insights.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/chat-recap-ai.svg?height=207",
+      "url": "https://chatrecapai.org/",
+      "category": "Conversation analysis"
+    },
+    {
+      "name": "Brand.dev",
+      "description": "Get brand assets from any domain via API in seconds",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/brand-dev.svg?height=207",
+      "url": "https://brand.dev/",
+      "category": "Brand management"
+    },
+    {
+      "name": "S2V",
+      "description": "Create custom character AI videos instantly",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/s2v.svg?height=207",
+      "url": "https://s2v.ai/",
+      "category": "Image to video"
+    },
+    {
+      "name": "Prepair.dev",
+      "description": "AI-powered hiring and interview prep platform.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/prepair-dev.png?height=207",
+      "url": "https://prepair.dev/",
+      "category": "Interview preparation"
+    },
+    {
+      "name": "Image to Prompt Generator",
+      "description": "Convert images to prompts for AI art generation.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/imageprompt-org-s-image-to-prompt-generator.svg?height=207",
+      "url": "https://imageprompt.org/image-to-prompt",
+      "category": "Image to prompt"
+    },
+    {
+      "name": "Postdio Image Generation",
+      "description": "Create, Customize, and Organize with AI-Driven Creativity",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/postdio-image-generation.svg?height=207",
+      "url": "https://www.postdio.com/generate",
+      "category": "Images"
+    },
+    {
+      "name": "SpeedStudy",
+      "description": "Ace exams with AI-powered study tools.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/speedstudy.svg?height=207",
+      "url": "https://speedstudy.ai/",
+      "category": "Exam preparation"
+    },
+    {
+      "name": "GitPodcast",
+      "description": "Turn GitHub repos into engaging podcasts instantly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/gitpodcast.svg?height=207",
+      "url": "https://www.gitpodcast.com/",
+      "category": "Repository to podcast"
+    },
+    {
+      "name": "NoteX: AI Note Taker, AI Notebook",
+      "description": "Transform lengthy content into smart insights",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/notex-ai-note-taker.png?height=207",
+      "url": "https://notexapp.com/home",
+      "category": "Notes"
+    },
+    {
+      "name": "AI Prompt Generator by God of Prompt",
+      "description": "Generate powerful AI prompts in one click",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ai-prompt-generator-by-god-of-prompt.svg?height=207",
+      "url": "https://www.godofprompt.ai/ai-prompt-generator",
+      "category": "Prompts"
+    },
+    {
+      "name": "Prompt Engine",
+      "description": "Get the perfect prompt for any AI task",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/prompt-engine.svg?height=207",
+      "url": "https://www.promptengine.cc/",
+      "category": "Prompts"
+    },
+    {
+      "name": "RollSummary",
+      "description": "AI-powered RPG session transcriber and summarizer",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/rollsummary.svg?height=207",
+      "url": "https://rollsummary.com/",
+      "category": "RPG summaries"
+    },
+    {
+      "name": "Zivy",
+      "description": "Turn chaotic workplace chat into calm collaboration.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/zivy.svg?height=207",
+      "url": "https://www.zivy.app/",
+      "category": "Communication"
+    },
+    {
+      "name": "MemoAnki",
+      "description": "Learn languages with simple, smart flashcards.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/memoanki.png?height=207",
+      "url": "https://memoanki.com/en/home",
+      "category": "Language learning"
+    },
+    {
+      "name": "Doctor Droid",
+      "description": "Simplify Kubernetes management with AI-powered tools",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/doctor-droid.png?height=207",
+      "url": "https://drdroid.io/investigate-kubernetes-issues",
+      "category": "Kubernetes management"
+    },
+    {
+      "name": "SecureGenie AI",
+      "description": "Privacy-first AI extension for automated web tasks",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/securegenie-ai.png?height=207",
+      "url": "https://chromewebstore.google.com/detail/securegenie-ai/nineodnoejclcbppiadeoofcabdkdndi",
+      "category": "Productivity"
+    },
+    {
+      "name": "Qurate: Elevate your writing, speeches, and presentations with impactful quotes",
+      "description": "Qurate is an AI-powered quote discovery platform that helps you find the",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/qurate.svg?height=207",
+      "url": "https://qurate.appcradle.net/",
+      "category": "Writing"
+    },
+    {
+      "name": "Multi Search & Multi AI",
+      "description": "Supercharge productivity with multi-search and AI chat",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/multi-search-multi-ai.svg?height=207",
+      "url": "https://multisearchai.carrd.co/",
+      "category": "Multimodal search"
+    },
+    {
+      "name": "AI Music Generator",
+      "description": "Create original songs in minutes with AI",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ai-music-generator-1737355382.svg?height=207",
+      "url": "https://musicgeneratorai.com/",
+      "category": "Music"
+    },
+    {
+      "name": "DatingKiller",
+      "description": "Slay your online dating game with AI",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/datingkiller.svg?height=207",
+      "url": "https://datingkiller.com/",
+      "category": "Dating advice"
+    },
+    {
+      "name": "AIGLOT",
+      "description": "Write Once, Reach 100 Markets Instantly",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/aiglot.png?height=207",
+      "url": "https://aiglot.com/en/",
+      "category": "Multilingual Blog Creation"
+    },
+    {
+      "name": "Menu Explain",
+      "description": "Snap, translate, and visualize any menu instantly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/menu-explain.svg?height=207",
+      "url": "https://www.menuexplain.com/",
+      "category": "Menu translation"
+    },
+    {
+      "name": "PreCheck.ai",
+      "description": "AI-powered facial recognition for privacy and fraud prevention.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/precheck-ai.svg?height=207",
+      "url": "https://precheck.ai?taaft",
+      "category": "Identity verification"
+    },
+    {
+      "name": "NowKnow",
+      "description": "Get market insights in minutes, not weeks.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/nowknow.svg?height=207",
+      "url": "https://nowknow.ai/",
+      "category": "Market research"
+    },
+    {
+      "name": "Napkin",
+      "description": "Bring your ideas to life with a visual copilot",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/napkin.svg?height=207",
+      "url": "https://napkin.ai/",
+      "category": "Charts"
+    },
+    {
+      "name": "Learn Earth",
+      "description": "AI-First Adaptive Learning Platform",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/learn-earth.svg?height=207",
+      "url": "https://www.learn.earth/",
+      "category": "Learning"
+    },
+    {
+      "name": "Visihero",
+      "description": "Skyrocket your online reputation with AI-powered review management.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/visihero.svg?height=207",
+      "url": "https://visihero.com/",
+      "category": "Review management"
+    },
+    {
+      "name": "Sonar by Perplexity",
+      "description": "Build AI-powered products with Sonar's fast, affordable answer engine.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/sonar-by-perplexity.svg?height=207",
+      "url": "https://sonar.perplexity.ai/",
+      "category": "Search"
+    },
+    {
+      "name": "PodLM",
+      "description": "Transform URLs into professional podcasts effortlessly",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/podlm.svg?height=207",
+      "url": "https://podlm.ai/en-US/ai-podcast-generator/url-to-podcast",
+      "category": "Podcasts"
+    },
+    {
+      "name": "Snipit App",
+      "description": "Your AI-powered news and lifestyle companion.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/snipit-app.png?height=207",
+      "url": "https://apps.apple.com/gb/app/snipit-app/id6450784018",
+      "category": "News summaries"
+    },
+    {
+      "name": "Deja-Vu",
+      "description": "AI-powered productivity tool for Chrome",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/deja-vu.png?height=207",
+      "url": "https://chromewebstore.google.com/detail/deja-vu-ai-powerd-tool/fhhpmicpjmegopoolojoofmkokajplfc",
+      "category": "Bookmarking"
+    },
+    {
+      "name": "HumNod - Offline AI Assistant",
+      "description": "Secure offline AI for writing, coding, and productivity",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/humnod-offline-ai-assistant.png?height=207",
+      "url": "https://play.google.com/store/apps/details?id=ai.humnod.genai.app",
+      "category": "Productivity"
+    },
+    {
+      "name": "Dinsky Art",
+      "description": "Simple sketches to stunning AI art.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/dinsky-art.png?height=207",
+      "url": "https://play.google.com/store/apps/details?id=art.dinsky.app",
+      "category": "Sketch to image"
+    },
+    {
+      "name": "Creative APIs by Picsart",
+      "description": "Transforming creativity and automation with AI-powered image, video, and content editing tools",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/picsart-creative-apis.svg?height=207",
+      "url": "https://picsart.io/",
+      "category": "Content editing"
+    },
+    {
+      "name": "WP AI Writer",
+      "description": "Automate WordPress content creation and publishing with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/wp-ai-writer.svg?height=207",
+      "url": "https://wpaiwriter.com/",
+      "category": "Wordpress content"
+    },
+    {
+      "name": "My Kitchen - Suggest Recipes",
+      "description": "Turn your fridge into a feast",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/my-kitchen-suggest-recipes.png?height=207",
+      "url": "https://apps.apple.com/us/app/my-kitchen-suggest-recipes/id6739953756",
+      "category": "Recipes"
+    },
+    {
+      "name": "ShoppingScraper",
+      "description": "Transform pricing strategy with real-time insights.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/shoppingscraper.svg?height=207",
+      "url": "https://shoppingscraper.com/",
+      "category": "Price analysis"
+    },
+    {
+      "name": "Polychat",
+      "description": "Unleash AI's power through an intuitive interface.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/polychat.svg?height=207",
+      "url": "https://polychat.co/",
+      "category": "Productivity"
+    },
+    {
+      "name": "TripOffice.com",
+      "description": "Find a workspace in 200k hotel rooms - LOGIN NOT REQUIRED",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/tripoffice.svg?height=207",
+      "url": "https://www.tripoffice.com/",
+      "category": "Travel itineraries"
+    },
+    {
+      "name": "Mega SEO",
+      "description": "Your autonomous SEO team that delivers clicks faster.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/mega-seo.svg?height=207",
+      "url": "https://www.megaseo.ai/",
+      "category": "SEO"
+    },
+    {
+      "name": "Grasp AI Summarizer Tool",
+      "description": "Transform lengthy content into concise, purpose-driven summaries.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/grasp-ai-summarizer-tool.svg?height=207",
+      "url": "https://grasp.info/tools/ai-summarizer",
+      "category": "Summaries"
+    },
+    {
+      "name": "Course Generator Pro",
+      "description": "The #1 AI Course Creation Tool",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/course-generator-pro.png?height=207",
+      "url": "https://coursegenerator.pro/",
+      "category": "Courses"
+    },
+    {
+      "name": "Vdraw's AI Flowchart Generator",
+      "description": "Create stunning hand-drawn flowcharts from text instantly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/vdraw-s-ai-flowchart-generator.svg?height=207",
+      "url": "https://vdraw.ai/ai-flowchart-generator",
+      "category": "Flowcharts"
+    },
+    {
+      "name": "NeckFit",
+      "description": "AI-powered posture and flexibility improvement app",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/neckfit.png?height=207",
+      "url": "https://apps.apple.com/th/app/ai-posture-exercise-neckfit/id6670690205",
+      "category": "Posture correction"
+    },
+    {
+      "name": "AIMusicGen.ai",
+      "description": "Transform ideas into instant AI-generated songs",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/aimusicgen-ai.svg?height=207",
+      "url": "https://aimusicgen.ai/",
+      "category": "Music"
+    },
+    {
+      "name": "Informly",
+      "description": "Empower decisions with fast, AI-driven insights.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/informly.svg?height=207",
+      "url": "https://businesses.informly.ai/",
+      "category": "Market research"
+    },
+    {
+      "name": "OneOver.com",
+      "description": "All your favorite AI tools, unified.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/oneover-com.svg?height=207",
+      "url": "https://chat.oneover.com/prod/thread/3123",
+      "category": "Productivity"
+    },
+    {
+      "name": "NoteGuru - AI Note Taker",
+      "description": "AI note-taker for meetings, lectures, and more",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/noteguru-ai-note-taker.svg?height=207",
+      "url": "https://apps.apple.com/us/app/noteguru-ai-note-taker/id6739133260",
+      "category": "Note summaries"
+    },
+    {
+      "name": "Mealify: Weekly Meal Planner",
+      "description": "Your ultimate tool for fitness and weight loss goals.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/mealify-weekly-meal-planner.png?height=207",
+      "url": "https://apps.apple.com/us/app/mealify-weekly-meal-planner/id6738502841",
+      "category": "Meal plans"
+    },
+    {
+      "name": "Alicia: AI Lecture Assistant",
+      "description": "AI-powered lecture assistant for effective studying",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/alicia-ai-lecture-assistant.png?height=207",
+      "url": "https://apps.apple.com/us/app/alicia-ai-lecture-assistant/id6739475142",
+      "category": "Study notes"
+    },
+    {
+      "name": "Cognee",
+      "description": "Turn data into reliable LLM outputs",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/cognee.svg?height=207",
+      "url": "https://www.cognee.ai/",
+      "category": "LLM development"
+    },
+    {
+      "name": "Qybala: AI Tarot Card Readings",
+      "description": "Qybala - private AI-powered psychological tarot app with original art & writing",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/qybala-ai-tarot-card-readings.png?height=207",
+      "url": "https://apps.apple.com/ch/app/qybala-ai-tarot-card-readings/id6705135581?l=en-GB",
+      "category": "Tarot card readings"
+    },
+    {
+      "name": "Reflect Webchat",
+      "description": "AI-powered chat for any webpage",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/reflect-webchat.png?height=207",
+      "url": "https://chromewebstore.google.com/detail/reflect-webchat/amoekpgbakdaigpkdmpgjmdmodkjcfgp",
+      "category": "Website Q&A"
+    },
+    {
+      "name": "K2G BOX",
+      "description": "Actuarial, Actuary, Insurance, Insurtech, Underwriter, Underwriting, Loss Ratio, Portfoli Analysis, Claim, Mispricing,Profitability",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/box-solution.svg?height=207",
+      "url": "https://demo.box.k2g.ai/models/",
+      "category": "Insurance analysis"
+    },
+    {
+      "name": "MyLog.food",
+      "description": "AI-powered nutrition and fitness tracking made easy.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/mylog-food.svg?height=207",
+      "url": "https://mylog.food/",
+      "category": "Dieting"
+    },
+    {
+      "name": "PDF Guru - AI PDF Summarizer",
+      "description": "Summarize PDFs quickly with AI-powered insights.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/pdg-guru-ai-pdf-summarizer.svg?height=207",
+      "url": "https://pdfguru.com/ai-pdf-summarizer",
+      "category": "PDF summaries"
+    },
+    {
+      "name": "Magai",
+      "description": "All-in-one AI Platform",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/magai.svg?height=207",
+      "url": "https://magai.co/",
+      "category": "Content"
+    },
+    {
+      "name": "Lexicon - Word Flashcards",
+      "description": "Expand your vocabulary with personalized flashcards",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/lexicon-word-flashcards.png?height=207",
+      "url": "https://apps.apple.com/gb/app/lexicon-word-flashcards/id6474918860",
+      "category": "Language learning"
+    },
+    {
+      "name": "Clariti - Private AI Assistant",
+      "description": "Private AI assistant for sensitive work, offline.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/clariti-private-ai-assistant.png?height=207",
+      "url": "https://apps.apple.com/us/app/clariti-private-ai-assistant/id6739746682",
+      "category": "Offline assistant"
+    },
+    {
+      "name": "High5",
+      "description": "Unlock insights from reviews with AI-powered analysis.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/high5.svg?height=207",
+      "url": "https://get-high5.com/en/",
+      "category": "Reviews analysis"
+    },
+    {
+      "name": "Groops.com",
+      "description": "AI-powered landing pages for supercharged lead generation",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/groops-com.svg?height=207",
+      "url": "https://www.groops.com/",
+      "category": "Landing pages"
+    },
+    {
+      "name": "Synexa",
+      "description": "Deploy AI models with one line of code.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/synexa.svg?height=207",
+      "url": "https://synexa.ai/",
+      "category": "Ai integration"
+    },
+    {
+      "name": "LockedIn AI",
+      "description": "AI copilot for interviews and meetings",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/lockedin-ai.svg?height=207",
+      "url": "https://www.lockedinai.com/ai-copilot",
+      "category": "Job interviews"
+    },
+    {
+      "name": "Vogent",
+      "description": "Build humanlike voice AI agents fast.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/vogent.svg?height=207",
+      "url": "https://www.vogent.ai/",
+      "category": "Voice agents"
+    },
+    {
+      "name": "Minimum Viable Brand (MVB)",
+      "description": "Transform your brand from idea to unstoppable forcefast.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/mvb-com.svg?height=207",
+      "url": "https://mvb.cool/",
+      "category": "Brand development"
+    },
+    {
+      "name": "Oner AI",
+      "description": "Transform ideas into stunning AI-generated videos.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/oner-ai.svg?height=207",
+      "url": "https://www.useoner.ai/",
+      "category": "Videos"
+    },
+    {
+      "name": "Fliz",
+      "description": "URLs transformed into captivating videos.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/fliz.svg?height=207",
+      "url": "https://fliz.ai/",
+      "category": "Videos"
+    },
+    {
+      "name": "MagicTrips",
+      "description": "Generate custom travel itineraries in seconds.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/magictrips.svg?height=207",
+      "url": "https://magictrips.ai/",
+      "category": "Travel itineraries"
+    },
+    {
+      "name": "Shivon AI",
+      "description": "AI-powered insights for decision makers.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/shivon-ai.svg?height=207",
+      "url": "https://www.shivonai.com/",
+      "category": "Recruiting"
+    },
+    {
+      "name": "Insightly",
+      "description": "Turn app reviews into actionable insights—quickly and efficiently",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/insightly.svg?height=207",
+      "url": "https://insightly.top/",
+      "category": "App performance analysis"
+    },
+    {
+      "name": "BlogSEO",
+      "description": "Rank #1 on Google & ChatGPT on Autopilot",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/blogseo.svg?height=207",
+      "url": "https://www.blogseo.io/",
+      "category": "SEO content"
+    },
+    {
+      "name": "ComputerX",
+      "description": "Your smart agent that handles your computer work",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/computer-x.png?height=207",
+      "url": "https://computerx.ai/",
+      "category": "Productivity"
+    },
+    {
+      "name": "CASi Scout by Cntent",
+      "description": "News-driven topic briefs for content writers",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/casi-scout.svg?height=207",
+      "url": "https://scout.cntent.ai/",
+      "category": "Content"
+    },
+    {
+      "name": "Marketing Assistant (Elsa AI)",
+      "description": "Define your ideal customers and craft a winning marketing strategy with Elsa.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/m1-project.svg?height=207",
+      "url": "https://www.m1-project.com/",
+      "category": "Marketing strategies"
+    },
+    {
+      "name": "Cuue AI",
+      "description": "AI-powered influencer search for instant results",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/cuue-ai.svg?height=207",
+      "url": "https://cuue.ai/",
+      "category": "Influencer discovery"
+    },
+    {
+      "name": "Tarotify",
+      "description": "AI Tarot Readings: Tarot Card Scanner & Digital Readings",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/tarotify.svg?height=207",
+      "url": "https://www.tarotify.ai/",
+      "category": "Tarot card readings"
+    },
+    {
+      "name": "SopCreator",
+      "description": "Generate your Statement of Purpose in 15 minutes",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/sopcreator.svg?height=207",
+      "url": "https://www.sopcreator.com/",
+      "category": "SOPs"
+    },
+    {
+      "name": "Tattoo AI Design",
+      "description": "Create unique AI-generated tattoo designs.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/tattoo-ai-design.svg?height=207",
+      "url": "https://www.tattooai.design/",
+      "category": "Tattoos"
+    },
+    {
+      "name": "Hexoloop",
+      "description": "AI support that takes action, not just talks.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/hexoloop.svg?height=207",
+      "url": "https://www.hexoloop.com/",
+      "category": "Customer support"
+    },
+    {
+      "name": "Flect",
+      "description": "Find the exact podcast moments you remember—instantly",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/flect.svg?height=207",
+      "url": "https://flectai.com/",
+      "category": "Podcast search"
+    },
+    {
+      "name": "Ravenna",
+      "description": "AI-powered Slack helpdesk for stellar employee support.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ravenna.svg?height=207",
+      "url": "https://ravenna.ai/",
+      "category": "Tech support"
+    },
+    {
+      "name": "Pinster AI",
+      "description": "AI-powered bookmarks: save, organize, and explore.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/pinster.svg?height=207",
+      "url": "https://pinster.io/",
+      "category": "Bookmarking"
+    },
+    {
+      "name": "Lutia",
+      "description": "Your generative AI toolkit without costly subscriptions.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/lutia.svg?height=207",
+      "url": "https://lutia.ai/",
+      "category": "Productivity"
+    },
+    {
+      "name": "LocalIQ",
+      "description": "Scalable, Secure, and High-Performance LLM Inference for Enterprise AI",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/localiq.svg?height=207",
+      "url": "https://localiq.ai/",
+      "category": "Local inference"
+    },
+    {
+      "name": "AI Auto Blogger",
+      "description": "Generate endless blog posts effortlessly with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ai-auto-blogger.svg?height=207",
+      "url": "https://ai-autoblogger.com/",
+      "category": "Blogging"
+    },
+    {
+      "name": "MockMe.ai",
+      "description": "Speak. Draw. Get Feedback. The Complete Interview Simulator.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/mockme-ai.svg?height=207",
+      "url": "https://mockme.ai/",
+      "category": "System design interviews"
+    },
+    {
+      "name": "GibsonAI",
+      "description": "AI database engineer: Design, deploy, scale in minutes.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/gibsonai.png?height=207",
+      "url": "https://www.gibsonai.com/taaft",
+      "category": "Database design"
+    },
+    {
+      "name": "Rezon8AI",
+      "description": "Transform customer feedback into growth opportunities",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/rezon8ai.svg?height=207",
+      "url": "https://rezon8ai.com",
+      "category": "Reputation Management"
+    },
+    {
+      "name": "PhonePi MCP",
+      "description": "Automate productivity workflows on your phone using MCP!",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/phonepi-mcp.png?height=207",
+      "url": "https://www.phonepimcp.com/",
+      "category": "AI integration"
+    },
+    {
+      "name": "DigiDish",
+      "description": "AI-powered recipes for smarter cooking.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/digidish.svg?height=207",
+      "url": "https://digidish.net/",
+      "category": "Recipes"
+    },
+    {
+      "name": "MetaMonster",
+      "description": "The SEO crawler that fixes issues for you.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/metamonster.svg?height=207",
+      "url": "https://metamonster.ai/",
+      "category": "Meta descriptions"
+    },
+    {
+      "name": "ProfilelyAI",
+      "description": "Turn market data into actionable strategies.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/profilelyai.svg?height=207",
+      "url": "https://profilelyai.com/",
+      "category": "Market research"
+    },
+    {
+      "name": "ChatComparison AI",
+      "description": "Compare top AI models in one place.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/chatcomparison-ai.svg?height=207",
+      "url": "https://www.chatcomparison.ai/",
+      "category": "AI model comparison"
+    },
+    {
+      "name": "Backsy.ai",
+      "description": "Turn raw feedback into actionable insights instantly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/backsy-ai.png?height=207",
+      "url": "https://www.backsy.ai/",
+      "category": "Customer feedback analysis"
+    },
+    {
+      "name": "Agentfuel",
+      "description": "Automated social media marketing for real estate professionals.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/agentfuel.png?height=207",
+      "url": "https://bit.ly/4cZknYg",
+      "category": "Real estate content"
+    },
+    {
+      "name": "BrowseWiz",
+      "description": "No-code/Low-code AI Agents in Your Browser’s Side Panel",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/browsewiz.svg?height=207",
+      "url": "https://browsewiz.com/",
+      "category": "Productivity"
+    },
+    {
+      "name": "Nexi - AI Co‑Host for Twitch & YouTube Streamers",
+      "description": "Your AI stream companion that entertains chat and boosts tips",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/nexi-ai-streamer.png?height=207",
+      "url": "https://kudos.tv/products/nexi-ai-streamer",
+      "category": "Interactive Streaming"
+    },
+    {
+      "name": "askCHAD.io",
+      "description": "Level Up Your Sex Life with CHAD",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/askchad-io.png?height=207",
+      "url": "https://askchad.io/",
+      "category": "Personal development"
+    },
+    {
+      "name": "OctoComics",
+      "description": "AI-powered anime and comics made easy—create, customize, and share your stories effortlessly",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/octocomics.png?height=207",
+      "url": "https://www.octocomics.com/home",
+      "category": "Images"
+    },
+    {
+      "name": "Strawberry Antler",
+      "description": "Custom AI agents for small business success",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/strawberry-antler.svg?height=207",
+      "url": "https://www.strawberryantler.com/",
+      "category": "Insurance"
+    },
+    {
+      "name": "Tars",
+      "description": "Build powerful AI agents without code",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/tars-1746533282.svg?height=207",
+      "url": "https://hellotars.com/",
+      "category": "Agents"
+    },
+    {
+      "name": "Berean.ai",
+      "description": "Unlock biblical wisdom with AI-powered theology.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/berean-ai.svg?height=207",
+      "url": "https://berean.ai/",
+      "category": "Bible advice"
+    },
+    {
+      "name": "Email Genius",
+      "description": "Personalize every email with AI for higher conversions",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/email-genius.png?height=207",
+      "url": "https://www.geniusemail.ai/",
+      "category": "Email marketing"
+    },
+    {
+      "name": "Tarot Seer",
+      "description": "AI-powered Tarot predictions for your future",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/tarot-seer.svg?height=207",
+      "url": "https://tarotseer.net/",
+      "category": "Tarot card readings"
+    },
+    {
+      "name": "Notis",
+      "description": "Meet your first AI employee — right from WhatsApp, Telegram or emails",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/notis-ai.png?height=207",
+      "url": "https://notis.ai/",
+      "category": "Personal assistant"
+    },
+    {
+      "name": "Edraw.AI",
+      "description": "AI-powered diagramming and visualization tool",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/edraw-ai.svg?height=207",
+      "url": "https://www.edraw.ai/app/aitool/mindmap?_gl=1*1h0gzip*_up*MQ..*_ga*MTczMzMxOTg3MS4xNzM4NDI3OTIy*_ga_24WTSJBD5B*MTczODQyNzkyMS4xLjAuMTczODQyNzkyMS4wLjAuMTYzMzIxNTc5MQ..",
+      "category": "Mind maps"
+    },
+    {
+      "name": "BGNix",
+      "description": "Remove backgrounds instantly, free and private.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/bgnix.svg?height=207",
+      "url": "https://www.bgnix.com/",
+      "category": "Background removal"
+    },
+    {
+      "name": "Text to API",
+      "description": "Build AI-powered APIs in seconds",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/text-to-api.svg?height=207",
+      "url": "https://www.text-to-api.ai/",
+      "category": "APIs"
+    },
+    {
+      "name": "SeekMyDomain",
+      "description": "AI-powered domain finder for your business idea",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/seekmydomain.svg?height=207",
+      "url": "https://seekmydomain.com/",
+      "category": "Domain name ideas"
+    },
+    {
+      "name": "GrowthGrid",
+      "description": "Create winning business plans effortlessly with AI",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/growthgrid.svg?height=207",
+      "url": "https://growth-grid.ai/",
+      "category": "Business plans"
+    },
+    {
+      "name": "Newtn",
+      "description": "Supercharge your content marketing strategy",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/newtn.svg?height=207",
+      "url": "https://www.newtn.io/",
+      "category": "SEO content"
+    },
+    {
+      "name": "Medio AI",
+      "description": "AI-powered video editing for global marketing",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/medio-ai.svg?height=207",
+      "url": "https://www.medio.cool/en/",
+      "category": "Video localization"
+    },
+    {
+      "name": "Factful: Integrated AI Writing Assistant",
+      "description": "Elevate your writing with AI-powered assistance.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/factful-integrated-ai-writing-assistant.png?height=207",
+      "url": "https://chromewebstore.google.com/detail/factful-integrated-ai-wri/aednjdbgffaoaacjlbnjobkfahpjhdhd",
+      "category": "Writing"
+    },
+    {
+      "name": "Anonysis",
+      "description": "Customizable Anonymous Feedback Groups and AI Analysis",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/anonysis.png?height=207",
+      "url": "https://www.anonysis.io/",
+      "category": "Surveys"
+    },
+    {
+      "name": "Fable",
+      "description": "Create stunning interactive demos with an AI powered copilot",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/fable.svg?height=207",
+      "url": "https://www.sharefable.com/",
+      "category": "Demo videos"
+    },
+    {
+      "name": "Private AI Assistant",
+      "description": "Chat with AI privately in your browser, no internet needed.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/private-ai-assistant.png?height=207",
+      "url": "https://chromewebstore.google.com/detail/private-ai-assistant-runn/jojlpeliekadmokfnikappfadbjiaghp",
+      "category": "Personal assistant"
+    },
+    {
+      "name": "ShortPix AI: Your WhatsApp AI Artist",
+      "description": "Generate AI photos of yourself on WhatsApp instantly.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/shortpix-ai.svg?height=207",
+      "url": "https://app.shortpix.ai/en",
+      "category": "Avatars"
+    },
+    {
+      "name": "Love AI: Relationship Analysis",
+      "description": "Turn deep conversations into fun, heartwarming experiences",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/love-ai-relationship-analysis.png?height=207",
+      "url": "https://apps.apple.com/sg/app/love-ai-relationship-analysis/id6740852973",
+      "category": "Relationship advice"
+    },
+    {
+      "name": "SEObot",
+      "description": "The Ultimate AI SEO Solution for Busy Makers",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/seobot.svg?height=207",
+      "url": "https://seobotai.com/",
+      "category": "SEO content"
+    },
+    {
+      "name": "Interview Coder",
+      "description": "Invisible AI for acing technical interviews",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/interview-coder.svg?height=207",
+      "url": "https://www.interviewcoder.net/",
+      "category": "Coding interviews"
+    },
+    {
+      "name": "EnglishPractice.io",
+      "description": "Perfect your English pronunciation with AI feedback.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/englishpractice-io.svg?height=207",
+      "url": "https://englishpractice.io/translate-now",
+      "category": "English pronunciation lessons"
+    },
+    {
+      "name": "AI Product Title Generator",
+      "description": "Generate catchy, SEO-friendly titles to boost sales.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ai-product-title-generator.png?height=207",
+      "url": "https://www.consumableai.com/tools/product-title-generator/",
+      "category": "Product descriptions"
+    },
+    {
+      "name": "LumenWriter.ai - AI Dissertation Writer",
+      "description": "Write your dissertation in seconds with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/lumenwriter-ai-ai-dissertation-writer.svg?height=207",
+      "url": "https://lumenwriter.ai/ai-dissertation-writer/",
+      "category": "Dissertation assistance"
+    },
+    {
+      "name": "ChromaForgeAI",
+      "description": "Create pro websites in minutes with AI magic",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/chromaforgeai.svg?height=207",
+      "url": "https://chromaforgeai.com/",
+      "category": "Websites"
+    },
+    {
+      "name": "Hypertxt",
+      "description": "Your new favorite AI article writing tool",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/hypertxt.png?height=207",
+      "url": "https://hypertxt.ai/",
+      "category": "SEO content"
+    },
+    {
+      "name": "Lenormand",
+      "description": "Unlock your future with AI-powered Lenormand reading",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/lenormand.svg?height=207",
+      "url": "https://lenormand.life/",
+      "category": "Lenormand readings"
+    },
+    {
+      "name": "Hair-style.ai",
+      "description": "Preview new hairstyles instantly with AI",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/hair-style-ai.svg?height=207",
+      "url": "https://hair-style.ai/",
+      "category": "Hairstyles"
+    },
+    {
+      "name": "Concierge AI",
+      "description": "Your AI Second Brain",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/concierge-ai.svg?height=207",
+      "url": "https://askconcierge.ai/",
+      "category": "Productivity"
+    },
+    {
+      "name": "myNameGenius",
+      "description": "Beyond baby names: Discover, decide, and monitor reputation with myNameGenius",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/mynamegenius.svg?height=207",
+      "url": "https://www.mynamegenius.com/name-ideas",
+      "category": "Name suggestions"
+    },
+    {
+      "name": "AI Diagram Generator",
+      "description": "Create diagrams effortlessly with AI",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ai-diagram-generator.png?height=207",
+      "url": "https://chromewebstore.google.com/detail/ai-diagram-generator/ngopmehdeepldffjaccolpdkcmiggijb",
+      "category": "Diagrams"
+    },
+    {
+      "name": "FilterX",
+      "description": "AI-powered innovation at your fingertips.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/filterx.svg?height=207",
+      "url": "https://filterx.vercel.app/",
+      "category": "Content moderation"
+    },
+    {
+      "name": "HolyTextAI",
+      "description": "AI-powered spiritual guidance for Bible exploration.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/holytextai.svg?height=207",
+      "url": "https://holytextai.com/",
+      "category": "Spiritual guidance"
+    },
+    {
+      "name": "Le Chat by Mistral AI",
+      "description": "Your AI assistant for life and work",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/le-chat-by-mistral-ai.png?height=207",
+      "url": "https://mistral.ai/en/products/le-chat",
+      "category": "Productivity"
+    },
+    {
+      "name": "FoodTrack - Calorie Tracker",
+      "description": "Snap meals for instant nutritional insights",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/foodtrack-calorie-tracker.png?height=207",
+      "url": "https://apps.apple.com/us/app/foodtrack-calorie-tracker/id6738472579",
+      "category": "Calorie tracking"
+    },
+    {
+      "name": "AutoResearch.pro",
+      "description": "AI-powered insights to instant presentations.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/autoresearch-pro.svg?height=207",
+      "url": "https://autoresearch.pro/",
+      "category": "Research"
+    },
+    {
+      "name": "Surf.new",
+      "description": "Test web agents that surf like humans",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/surf-new.svg?height=207",
+      "url": "https://surf.new/",
+      "category": "Agent testing"
+    },
+    {
+      "name": "Quizz Light Year",
+      "description": "Generate engaging quizzes instantly with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/quizz-light-year.svg?height=207",
+      "url": "https://quizlightyear.vercel.app/",
+      "category": "Quizzes"
+    },
+    {
+      "name": "Coderview",
+      "description": "AI Tools to Help Anyone Applying or Hiring for Tech Roles",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/coderview.svg?height=207",
+      "url": "https://www.coderview-ai.com/cover-letter",
+      "category": "Recruitment assistance"
+    },
+    {
+      "name": "Hashtag AI",
+      "description": "AI-powered hashtag generator for images.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/hashtag-ai.svg?height=207",
+      "url": "https://ht.pgaleone.eu/",
+      "category": "Hashtags"
+    },
+    {
+      "name": "Ocal AI",
+      "description": "AI-powered scheduling to reclaim your time.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ocal-ai.svg?height=207",
+      "url": "https://www.ocal.ai/",
+      "category": "Study schedules"
+    },
+    {
+      "name": "Chatty",
+      "description": "AI-powered English writing coach for daily communication",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/chatty-1739130726.svg?height=207",
+      "url": "https://chatty.wastu.net/",
+      "category": "Text analysis"
+    },
+    {
+      "name": "Figma AI Assistant",
+      "description": "Ask Figma docs, get instant answers.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/figma-ai-assistant.svg?height=207",
+      "url": "https://figma-ai-agent.vercel.app/",
+      "category": "Figma development advice"
+    },
+    {
+      "name": "AI Kissing Video Generator",
+      "description": "Create romantic kissing videos from photos with AI magic",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ai-kissing-video-generator.svg?height=207",
+      "url": "https://aikissingvideogenerator.online/",
+      "category": "Kissing videos"
+    },
+    {
+      "name": "Reggi",
+      "description": "Decode restaurant DNA with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/reggi.svg?height=207",
+      "url": "https://chatgpt.com/g/g-6793ad8bdde48191afdbe1a4f9cc9f18-reggi",
+      "category": "Restaurant recommendations"
+    },
+    {
+      "name": "Mupt",
+      "description": "AI sports podcast tailored to your interests",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/mupt.png?height=207",
+      "url": "https://apps.apple.com/us/app/mupt/id6741462224",
+      "category": "Sports podcasts"
+    },
+    {
+      "name": "Email Agent",
+      "description": "Voice-powered AI email assistant for your inbox.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/email-agent.png?height=207",
+      "url": "https://apps.apple.com/us/app/email-agent/id6740051485",
+      "category": "Email management"
+    },
+    {
+      "name": "GitPage AI Website Builder",
+      "description": "Build a website in minutes, not days.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/gitpage-ai-website-builder.png?height=207",
+      "url": "https://www.gitpage.site/landing-store",
+      "category": "Websites"
+    },
+    {
+      "name": "Xtract",
+      "description": "Extract text, analyze data, and unlock insights with AI.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/xtract.png?height=207",
+      "url": "https://chromewebstore.google.com/detail/xtract-extract-text-analy/gffpgogeokibdieebkhajmpoclhedanm",
+      "category": "Text analysis"
+    },
+    {
+      "name": "AI Song Generator",
+      "description": "Create unique songs with AI in minutes",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/ai-song-generator-1739380442.svg?height=207",
+      "url": "https://ai-song.ai/",
+      "category": "Music"
+    },
+    {
+      "name": "Electe",
+      "description": "Illuminate the future of your business with AI data analysis",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/electe-1739439002.svg?height=207",
+      "url": "https://www.electe.net/",
+      "category": "Data analysis"
+    },
+    {
+      "name": "Henna Designs",
+      "description": "Create beautiful henna designs with AI in seconds.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/henna-designs.svg?height=207",
+      "url": "https://hennadesigns.net/",
+      "category": "Henna tattoos"
+    },
+    {
+      "name": "Rork",
+      "description": "Turns descriptions into production-ready mobile apps.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/rork.png?height=207",
+      "url": "https://rork.app/",
+      "category": "Vibe coding"
+    },
+    {
+      "name": "Hana Newsletters",
+      "description": "Use AI to build sector-specific newsletters in seconds with editing suite",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/hana.svg?height=207",
+      "url": "https://hana.news/",
+      "category": "Newsletters"
+    },
+    {
+      "name": "Pollo AI's Consistent Character Video Generator",
+      "description": "Create videos with consistent characters and scenes.",
+      "iconUrl": "https://media.theresanaiforthat.com/icons/pollo-ai-s-consistent-character-video-generator.svg?height=207",
+      "url": "https://pollo.ai/consistent-character-video",
+      "category": "Character videos"
+    }
+  ]
+}

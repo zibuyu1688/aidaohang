@@ -20560,6 +20560,1332 @@ const websitesDatabase = [
             "12K分辨率",
             "Mejorar Imagen"
         ]
+    },
+    {
+        "name": "Cutout.Pro老照片上色",
+        "description": "Cutout.Pro推出的黑白图片上色",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564746Cutout.Pro%E8%80%81%E7%85%A7%E7%89%87%E4%B8%8A%E8%89%B2.png",
+        "url": "https://www.cutout.pro/zh-CN/photo-colorizer-black-and-white",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "老照片上色",
+            "黑白上色",
+            "Cutout.Pro"
+        ]
+    },
+    {
+        "name": "Relight",
+        "description": "ClipDrop推出的AI图片图像打光工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564746Relight.png",
+        "url": "https://clipdrop.co/relight",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "图像打光",
+            "光照优化",
+            "ClipDrop"
+        ]
+    },
+    {
+        "name": "Palette",
+        "description": "AI图片调色上色",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564746Palette.png",
+        "url": "https://palette.fm",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "调色",
+            "上色",
+            "Palette"
+        ]
+    },
+    {
+        "name": "Playground AI",
+        "description": "AI图片生成和修图",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564746Playground%20AI.png",
+        "url": "https://playgroundai.com",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "AI修图",
+            "图片生成",
+            "Playground AI"
+        ]
+    },
+    {
+        "name": "Restorephoto",
+        "description": "用AI修复旧的人像照片",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494100Restorephoto.png",
+        "url": "https://www.restorephotos.io/",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "老照片修复",
+            "人像修复",
+            "Restorephoto"
+        ]
+    },
+    {
+        "name": "妙话AI",
+        "description": "支持AI修复图片、人像变清晰、去除背景、在线抠图",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711617799512260_%E5%A6%99%E8%AF%9DAI.jpg",
+        "url": "https://imiaohua.com/",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "人像清晰",
+            "去背景",
+            "在线抠图",
+            "妙话AI"
+        ]
+    },
+    {
+        "name": "Remini",
+        "description": "AI智能将模糊照片变高清的图像修复工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721186814307712_Remini.png",
+        "url": "https://remini.ai/?ref=ai-bot.cn",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "照片增强",
+            "变清晰",
+            "Remini"
+        ]
+    },
+    {
+        "name": "Facet",
+        "description": "AI图片修图和优化工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721186878976395_fact.png",
+        "url": "https://facet.ai/",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "AI修图",
+            "图片优化",
+            "Facet"
+        ]
+    },
+    {
+        "name": "咻图AI",
+        "description": "面向影楼的摄影后期AI修图软件",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721889400815954_%E5%92%BB%E5%9B%BEAI.png",
+        "url": "https://www.aixtsy.com/",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "AI修图",
+            "摄影后期",
+            "咻图AI"
+        ]
+    },
+    {
+        "name": "像素蛋糕PixCake",
+        "description": "简单易用的AI图像精修工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721889509148425_%E5%83%8F%E7%B4%A0%E8%9B%8B%E7%B3%95PixCake.png",
+        "url": "https://www.pixcakeai.com/",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "图像精修",
+            "易用工具",
+            "PixCake"
+        ]
+    },
+    {
+        "name": "美图云修",
+        "description": "美图秀秀推出的一站式AI智能修图软件",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721889590442161_%E7%BE%8E%E5%9B%BE%E4%BA%91%E4%BF%AE.png",
+        "url": "https://yunxiu.meitu.com/home",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "AI修图",
+            "一站式",
+            "美图云修",
+            "美图"
+        ]
+    },
+    {
+        "name": "jpgHD",
+        "description": "一键修复，让您的老照片变新照片",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721101211364009_jpgHD.png",
+        "url": "https://jpghd.com/",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "老照片修复",
+            "照片增强",
+            "jpgHD"
+        ]
+    },
+    {
+        "name": "PicMa Studio",
+        "description": "AI一键批量增强、修复、彩色化你的照片",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724915523543989_PicMaStudio.png",
+        "url": "https://picma.magictiger.ai/",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "批量增强",
+            "批量修复",
+            "彩色化",
+            "PicMa"
+        ]
+    },
+    {
+        "name": "腾讯ARC",
+        "description": "免费AI修复、抠图、图像识别",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202506/1749201290458037_tengxunarc.png",
+        "url": "https://arc.tencent.com/zh/login",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "AI修复",
+            "抠图",
+            "图像识别",
+            "腾讯ARC"
+        ]
+    },
+    {
+        "name": "Bg Eraser",
+        "description": "图片物体抹除和清理",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564746Bg%20Eraser.png",
+        "url": "https://bgeraser.com",
+        "category": "物体抹除",
+        "tags": [
+            "物体抹除",
+            "清理",
+            "去除物体",
+            "Bg Eraser"
+        ]
+    },
+    {
+        "name": "SnapEdit",
+        "description": "AI移除图片中的任何物体",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564746SnapEdit.png",
+        "url": "https://snapedit.app",
+        "category": "物体抹除",
+        "tags": [
+            "物体抹除",
+            "去除物体",
+            "SnapEdit"
+        ]
+    },
+    {
+        "name": "Cleanup.pictures",
+        "description": "智能移除图片中的物体、文本、污迹、人物或任何不想要的东西",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564746Cleanup.pictures.png",
+        "url": "https://cleanup.pictures",
+        "category": "物体抹除",
+        "tags": [
+            "物体抹除",
+            "文本去除",
+            "污迹去除",
+            "人物去除",
+            "Cleanup.pictures"
+        ]
+    },
+    {
+        "name": "Cutout.Pro Retouch",
+        "description": "Cutout.Pro推出的AI图片物体涂抹去除工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564746Cutout.Pro%20Retouch.png",
+        "url": "https://www.cutout.pro/zh-CN/image-retouch-remove-unwanted-objects",
+        "category": "物体抹除",
+        "tags": [
+            "物体抹除",
+            "涂抹去除",
+            "Cutout.Pro"
+        ]
+    },
+    {
+        "name": "Hama",
+        "description": "AI图片对象智能抹除",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564746Hama.png",
+        "url": "https://www.hama.app/zh",
+        "category": "物体抹除",
+        "tags": [
+            "物体抹除",
+            "对象抹除",
+            "Hama"
+        ]
+    },
+    {
+        "name": "Magic Eraser",
+        "description": "AI移除图片中不想要的物体",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721890269930044_MagicEraser.png",
+        "url": "https://magicstudio.com/zh/magiceraser",
+        "category": "物体抹除",
+        "tags": [
+            "物体抹除",
+            "去除物体",
+            "Magic Eraser",
+            "MagicStudio"
+        ]
+    },
+    {
+        "name": "Inpaint-web",
+        "description": "生成效果飞快！超智能的AI涂抹工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721108701137004_Inpaint-web.jpg",
+        "url": "https://inpaintweb.lxfater.com/",
+        "category": "物体抹除",
+        "tags": [
+            "物体抹除",
+            "涂抹工具",
+            "Inpaint",
+            "Inpaint-web"
+        ]
+    },
+    {
+        "name": "WatermarkRemover",
+        "description": "AI智能删除照片中的水印",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721890303147461_WatermarkRemover.png",
+        "url": "https://www.watermarkremover.io/zh",
+        "category": "物体抹除",
+        "tags": [
+            "物体抹除",
+            "去水印",
+            "WatermarkRemover"
+        ]
+    },
+    {
+        "name": "lOPaint",
+        "description": "免费开源的AI图像擦除、修复和处理工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721187204955232_iopaint.png",
+        "url": "https://www.iopaint.com/",
+        "category": "物体抹除",
+        "tags": [
+            "物体抹除",
+            "开源",
+            "图像擦除",
+            "lOPaint"
+        ]
+    },
+    {
+        "name": "蜜蜂剪辑",
+        "description": "AI去水印工具，支持图片和30+流行短视频平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202409/1726813582964292_%E8%9C%9C%E8%9C%82%E5%89%AA%E8%BE%91.png",
+        "url": "https://beecut.cn/",
+        "category": "物体抹除",
+        "tags": [
+            "物体抹除",
+            "去水印",
+            "短视频平台",
+            "蜜蜂剪辑"
+        ]
+    },
+    {
+        "name": "HitPaw Watermark Remover",
+        "description": "AI图片和视频去水印工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202409/1726813864873000_HitPawWatermarkRemover.png",
+        "url": "https://www.hitpaw.com/",
+        "category": "物体抹除",
+        "tags": [
+            "物体抹除",
+            "去水印",
+            "图片去水印",
+            "视频去水印",
+            "HitPaw"
+        ]
+    },
+    {
+        "name": "Chatdoc",
+        "description": "免费的AI文件阅读工具，可以快速解析、定位和总结上传的pdf文件内容",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711422043954084_chatdoc.png",
+        "url": "https://cas.chatdoc.site/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "PDF解析",
+            "内容定位",
+            "自动总结",
+            "Chatdoc"
+        ]
+    },
+    {
+        "name": "Cubox",
+        "description": "一款阅读器应用程序，可通过 AI 摘要、突出显示和洞察力帮助您更快、更智能地阅读",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711434342722310_Cubox.jpg",
+        "url": "https://cubox.cc/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "AI摘要",
+            "高亮标注",
+            "阅读洞察",
+            "Cubox"
+        ]
+    },
+    {
+        "name": "ChatPDF",
+        "description": "最先进的 AI 聊天机器人构建器，可让您制作一个个性化的 GPT 聊天机器人来理解您的 PDF 文件",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711435880123246_chatpdf.jpg",
+        "url": "https://pdf.chat/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "PDF理解",
+            "聊天机器人",
+            "ChatPDF"
+        ]
+    },
+    {
+        "name": "小绿鲸",
+        "description": "小绿鲸是一款集翻译、笔记、文献管理、文献汇报、写作功能于一体的云端英文文献阅读器",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202510/1760339440418807_lQLPJwRP-YnF7UvM2MzYsKEAkkkDlSHvCMi3ok9MLwA_216_216.webp",
+        "url": "https://www.xljsci.com",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "文献阅读",
+            "翻译",
+            "笔记",
+            "文献管理",
+            "小绿鲸"
+        ]
+    },
+    {
+        "name": "Scholarcy",
+        "description": "利用AI技术提高科研效率的阅读工具，支持自动划出文献重点、链接背景概念、导出参考文献等功能",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711422794543399_Scholarcy.jpg",
+        "url": "https://www.scholarcy.com/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "科研效率",
+            "重点划出",
+            "参考文献",
+            "Scholarcy"
+        ]
+    },
+    {
+        "name": "Scispace",
+        "description": "通过主页上传文献PDF、搜索栏搜索对应文献关键词来分析目标文献",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711432099809610_scispace-square.png",
+        "url": "https://scispace.com/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "文献分析",
+            "PDF上传",
+            "关键词搜索",
+            "Scispace"
+        ]
+    },
+    {
+        "name": "Paperdigest",
+        "description": "人工智能搜索文献的网站，可以生成英文文献综述和改写综述，还可以提炼文献的研究内容和结果",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711431868495060_paperdigest.png",
+        "url": "https://www.paperdigest.org/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "文献搜索",
+            "综述生成",
+            "结果提炼",
+            "Paperdigest"
+        ]
+    },
+    {
+        "name": "Docalysis",
+        "description": "通过划线帮你总结文献段落大意，也支持提问问答，基于提交的文献帮你了解文献的具体内容",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711432541996161_Docalysis.jpg",
+        "url": "https://docalysis.com/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "段落总结",
+            "问答",
+            "Docalysis"
+        ]
+    },
+    {
+        "name": "网易有道速读",
+        "description": "支持快速从文档中提取、定位、汇总信息，为你一站式  解决文档翻译、文档解析、文档QA方面的问题",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711441357486564_%E6%9C%89%E9%81%93%E9%80%9F%E8%AF%BB.png",
+        "url": "https://read.youdao.com/#/home",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "信息提取",
+            "文档解析",
+            "文档翻译",
+            "文档QA",
+            "有道速读"
+        ]
+    },
+    {
+        "name": "BookAI",
+        "description": "人工智能驱动的阅读工具，通过聊天界面与书籍互动，为用户提供了全新的阅读体验",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711433253594311_bookai.jpg",
+        "url": "https://www.bookai.chat/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "书籍对话",
+            "阅读体验",
+            "BookAI"
+        ]
+    },
+    {
+        "name": "Clearly阅读器",
+        "description": "AI文章阅读浏览器插件",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711434106895276_clearlyreader.svg",
+        "url": "https://clearlyreader.com/zh",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "浏览器插件",
+            "文章阅读",
+            "Clearly"
+        ]
+    },
+    {
+        "name": "风声雨声",
+        "description": "能够提供高质量的中英文对照翻译，支持多种文件格式和语言，适用于书籍、手册、字幕等多种场景",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711434532480922_%E9%A3%8E%E9%9B%A8%E9%A3%8E%E5%A3%B0.jpg",
+        "url": "https://fsys.app/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "双语对照",
+            "多格式支持",
+            "翻译",
+            "风声雨声"
+        ]
+    },
+    {
+        "name": "哔哔终结者",
+        "description": "一键总结视频中的语音字幕内容，支持多种平台和格式",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711435126250213_%E5%93%94%E5%93%94%E7%BB%88%E7%BB%93%E8%80%85.jpg",
+        "url": "https://bibigpt.co/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "视频摘要",
+            "字幕总结",
+            "哔哔终结者"
+        ]
+    },
+    {
+        "name": "Monica",
+        "description": "基于ChatGPT的谷歌浏览器插件，可以帮你聊天、翻译、写作、总结、解释等",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711435636153031_monica.jpg",
+        "url": "https://monica.im/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "浏览器插件",
+            "总结",
+            "翻译",
+            "Monica"
+        ]
+    },
+    {
+        "name": "OpenRead",
+        "description": "提供科研文献阅读、摘要、笔记、语音等功能的平台，旨在帮助科研人员提高阅读效率和质量",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711436332579681_openread.png",
+        "url": "https://www.openread.academy/zh",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "科研平台",
+            "摘要笔记",
+            "OpenRead"
+        ]
+    },
+    {
+        "name": "MyGPTReader",
+        "description": "阅读和总结任何网页、文档（包括电子书），甚至是来自 YouTube 的视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711436509938286_MyGPTReader.jpg",
+        "url": "https://www.myreader.io/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "网页总结",
+            "电子书",
+            "视频总结",
+            "MyGPTReader"
+        ]
+    },
+    {
+        "name": "AskYourPDF",
+        "description": "用来整理分析、检索论文、会议记录等，对阅读PDF格式的文档非常有用",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711436647564165_askyourpdf.svg",
+        "url": "https://askyourpdf.com/zh",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "PDF检索",
+            "文档分析",
+            "AskYourPDF"
+        ]
+    },
+    {
+        "name": "Humata",
+        "description": "基于ChatGPT API的AI工具，可以帮助用户快速分析、撰写、阅读各种文档，如论文、报告、技术文档等",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711437006073470_Humata.jpg",
+        "url": "https://www.humata.ai/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "文档分析",
+            "撰写",
+            "阅读",
+            "Humata"
+        ]
+    },
+    {
+        "name": "Glarity",
+        "description": "利用 ChatGPT 生成中文版本的网页内容摘要的浏览器插件，可以快速总结 Google、百度、YouTube、B站等网站或视频的结果和精华",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711437406510293_glarity.png",
+        "url": "https://glarity.app/zh-CN",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "摘要插件",
+            "视频摘要",
+            "Glarity"
+        ]
+    },
+    {
+        "name": "Wiseone",
+        "description": "由人工智能驱动的浏览器扩展，通过节省时间、提升生产力和拓展知识的方式，为您提供一种全新的网络搜索和在线阅读方式。",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711437707803353_Wiseone.jpg",
+        "url": "https://wiseone.io/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "阅读插件",
+            "效率提升",
+            "Wiseone"
+        ]
+    },
+    {
+        "name": "包阅AI",
+        "description": " 支持多种文档格式，如PDF、DOCX、扫描文件等； 提供全文概述、分章节总结、智能导读； 多语言AI翻译； 跨文档查询",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711438280111423_%E5%8C%85%E9%98%85.jpg",
+        "url": "https://baoyueai.com/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "多格式支持",
+            "智能导读",
+            "跨文档查询",
+            "包阅AI"
+        ]
+    },
+    {
+        "name": "Walles AI",
+        "description": "一款集成了多种AI阅读场景的全能AI阅读工具，可以对网页、视频、PDF等内容进行摘要、解释、翻译等操作",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711438544617134_walles-ai.jpg",
+        "url": "https://walles.ai/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "全能阅读",
+            "摘要翻译",
+            "Walles AI"
+        ]
+    },
+    {
+        "name": "司马阅",
+        "description": "高效应用于工作、学习场景，如读行业市场报告、产品手册、法律文档、论文文献、电子书等",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711439740593330_%E5%8F%B8%E9%A9%AC%E9%98%85.jpg",
+        "url": "https://smartread.cc/",
+        "category": "阅读AI",
+        "tags": [
+            "阅读AI",
+            "行业报告",
+            "法律文档",
+            "电子书",
+            "司马阅"
+        ]
+    },
+    {
+        "name": "Jasper",
+        "description": "AI文字内容创作工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564733Jasper.png",
+        "url": "https://www.jasper.ai",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "内容创作",
+            "Jasper"
+        ]
+    },
+    {
+        "name": "Notion AI",
+        "description": "Notion旗下的AI内容创作助手",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564734Notion%20AI.png",
+        "url": "https://www.notion.so/product/ai",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "内容助手",
+            "Notion"
+        ]
+    },
+    {
+        "name": "Rytr",
+        "description": "AI内容生成和写作助手",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564734Rytr.png",
+        "url": "https://rytr.me",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "内容生成",
+            "Rytr"
+        ]
+    },
+    {
+        "name": "Writesonic",
+        "description": "写作+搜索+绘画三位一体",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494103Writesonic.png",
+        "url": "https://writesonic.com/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "多功能",
+            "Writesonic"
+        ]
+    },
+    {
+        "name": "Copy.ai",
+        "description": "AI社交营销文案写作助手",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494103Copy%20AI.png",
+        "url": "https://www.copy.ai/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "营销文案",
+            "Copy.ai"
+        ]
+    },
+    {
+        "name": "WPS智能写作",
+        "description": "WPS旗下在线智能写作工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564736WPS%E6%99%BA%E8%83%BD%E5%86%99%E4%BD%9C.png",
+        "url": "https://aiwrite.wps.cn",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "办公写作",
+            "WPS"
+        ]
+    },
+    {
+        "name": "DeepL Write",
+        "description": "DeepL推出的AI驱动的写作助手",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564734DeepL%20Write.png",
+        "url": "https://www.deepl.com/write",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "润色",
+            "DeepL"
+        ]
+    },
+    {
+        "name": "秘塔写作猫",
+        "description": "AI写作，文章自成",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564735%E7%A7%98%E5%A1%94%E5%86%99%E4%BD%9C%E7%8C%AB.png",
+        "url": "https://xiezuocat.com",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "中文写作",
+            "秘塔"
+        ]
+    },
+    {
+        "name": "Novelist AI",
+        "description": "AI辅助你创建自己的小说",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494104Novelist%20AI.png",
+        "url": "https://novelistai.com/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "小说创作",
+            "Novelist"
+        ]
+    },
+    {
+        "name": "QuillBot",
+        "description": "AI写作润色工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564734QuillBot.png",
+        "url": "https://quillbot.com",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "改写润色",
+            "QuillBot"
+        ]
+    },
+    {
+        "name": "据意查句",
+        "description": "清华出品！AI 神器让你的文案立马变高级",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1728894569440293_%E6%8D%AE%E6%84%8F%E6%9F%A5%E5%8F%A5.png",
+        "url": "https://wantquotes.net/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "措辞优化",
+            "清华"
+        ]
+    },
+    {
+        "name": "创作王",
+        "description": "全能型智能创作平台，可以智能回答、智能创作、智能编写、智能翻译、智能写代码等",
+        "iconUrl": "https://img.amz123.com/image_cloud/202304/1681207862389_%E5%88%9B%E4%BD%9C%E7%8E%8B.png",
+        "url": "https://aiapp.cc/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "多场景",
+            "创作王"
+        ]
+    },
+    {
+        "name": "笔灵AI写作",
+        "description": "专业AI写作工具，提供多场景AI创作服务",
+        "iconUrl": "https://img.amz123.com/image_cloud/202310/1696670844329_ff803bbac20ec915d9f830546424b10.png",
+        "url": "https://ibiling.cn/?from=amz123",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "多场景写作",
+            "笔灵"
+        ]
+    },
+    {
+        "name": "宣小二新媒体",
+        "description": "新媒体平台，媒体发稿平台，自媒体宣发平台，网红短视频分发平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202504/1743581283154177_%E5%AE%A3%E5%B0%8F%E4%BA%8C.png",
+        "url": "https://www.xuanxiaoer.com?spid=1424",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "新媒体",
+            "宣小二"
+        ]
+    },
+    {
+        "name": "晓语台",
+        "description": "先进的AI点击式文本创作平台",
+        "iconUrl": "https://img.amz123.com/image_cloud/202309/1695113696735_lQLPJwhu_RqQKizNEADNEAGws3RPRbbjQGEE_Mbc_z_nAA_4097_4096.png",
+        "url": "https://www.xiaoyutai.com/?share_code=XYT68545054",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "点击式创作",
+            "晓语台"
+        ]
+    },
+    {
+        "name": "AIPaperPass",
+        "description": "优质AI论文平台，千字大纲免费，3万字10分钟",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202312/1703492789533025_20b4c9c1439b0608db36863ae9b6800.jpeg",
+        "url": "https://www.aipaperpass.com?pic=LLrg",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "论文生成",
+            "PaperPass"
+        ]
+    },
+    {
+        "name": "学境思源-Academicideas",
+        "description": "AI原创论文，10分钟内完美解决论文写作难题",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202402/1708329127859619_lQLPJxRe5AhldL_MuczJsD01YQ-VvbpeBcG0Mk4HdgA_201_185.png",
+        "url": "https://academicideas.cn/?ic=EOxI",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "学术论文",
+            "Academicideas"
+        ]
+    },
+    {
+        "name": "Adwrite智能写作工具",
+        "description": "交互式中英文写作平台，营销文案/邮件/网站文案/纠错改写/续写/配图",
+        "iconUrl": "https://img.amz123.com/image_cloud/202304/1682324926282_0ecef856d396fb7dddbe43fa0c9bffe.jpg",
+        "url": "https://aigcdeep.com/?utm-source=AMZ123&utm-keyword=?02",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "营销文案",
+            "改写润色",
+            "Adwrite"
+        ]
+    },
+    {
+        "name": "万彩AI",
+        "description": "全能型AI内容和文案创作助手",
+        "iconUrl": "https://img.amz123.com/image_cloud/202306/1687246372837_%E4%B8%87%E5%BD%A9AI.jpg",
+        "url": "https://ai.kezhan365.com/inviteCode/AUCr4a",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "文案助手",
+            "万彩AI"
+        ]
+    },
+    {
+        "name": "开放猫AI",
+        "description": "AI聊天、AI绘图、AI写作、AI润色简历、AI修改论文等",
+        "iconUrl": "https://img.amz123.com/image_cloud/202307/1689648476611_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230718104724.jpg",
+        "url": "https://openmao.panchuang.net/#/?inviteCode=G7ETDZ",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "多功能",
+            "开放猫"
+        ]
+    },
+    {
+        "name": "怪兽AI知识库大模型",
+        "description": "大模型，知识库，问答回复，AI写作，智能客服",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202404/1713167223048075_5035786f7d7f4cc5a8f3b58866e71e2a.png",
+        "url": "https://www.guaishouai.net",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "知识库",
+            "客服"
+        ]
+    },
+    {
+        "name": "梅子AI论文",
+        "description": "无限免费生成千字论文大纲，AI自动生成论文",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202405/1716281068658468_6606dcfc07096e46fd46c2642b9d6734.png",
+        "url": "https://www.meizilunwen.com/AI_A2B21BA",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "论文大纲",
+            "梅子AI"
+        ]
+    },
+    {
+        "name": "Magic Write",
+        "description": "Canva旗下AI文案生成器",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721894807434504_MagicWrite.jpg",
+        "url": "https://www.canva.com/magic-write",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "Canva",
+            "文案生成"
+        ]
+    },
+    {
+        "name": "笔灵AI小说",
+        "description": "200+小说生成器，爆款小说一键拆解，助力网文写作",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202412/1733132621735192_lQLPJwivkAS4kynNAS3NAS2wkh5Tckgh2oYHM008Uz_FAA_301_301.png",
+        "url": "https://ibiling.cn/novel-workbench/?from=amznovel",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "小说写作",
+            "笔灵"
+        ]
+    },
+    {
+        "name": "免费论文降AI",
+        "description": "一键降低85%的AI痕迹，将论文重复率降至5%",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202504/1744359376470618_%E5%85%8D%E8%B4%B9%E8%AE%BA%E6%96%87%E9%99%8DAI.png",
+        "url": "https://sourl.cn/w4UnWH",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "降AI",
+            "论文降重"
+        ]
+    },
+    {
+        "name": "抖云猫论文AI助手",
+        "description": "基于自研抖云猫大模型的论文写作AI产品",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202509/1757497549219290_lQLPKGpSqlaQy2XMyMzIsOLQBLzLQD2fCJ5c2jKxfwA_200_200.webp",
+        "url": "https://www.douyunmao.com/?fromId=WdHuiWqY",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "论文写作",
+            "抖云猫"
+        ]
+    },
+    {
+        "name": "猫眼课题宝",
+        "description": "5分钟定创新选题，3步生成高质量标书",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202510/1760339717059979_lQLPJxL9GPNrgsvMkMyQsPtS3VPWk1HFCMi4ZWFRkgA_144_144.webp",
+        "url": "https://www.myketi.com/ai-topic-release?passageCode=AIgongjuxiangdaohang",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "课题标书",
+            "选题"
+        ]
+    },
+    {
+        "name": "笔目鱼SCI写作器",
+        "description": "云端英文论文写作器：翻译、润色、改写、例句、参考文献管理",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202510/1760339717059979_lQLPJxNE8musfosgILCq--9zn1lohgjIuI1eOrQA_32_32.webp",
+        "url": "https://www.bmysci.com/?channelCode=amz123",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "SCI论文",
+            "英文写作"
+        ]
+    },
+    {
+        "name": "MagicPen",
+        "description": "在线AI英语写作助手",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494104MagicPen.png",
+        "url": "https://magickpen.com/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "英文写作",
+            "MagicPen"
+        ]
+    },
+    {
+        "name": "字语智能",
+        "description": "企业AI办公助手，智能文案创作神器",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494103%E5%AD%97%E8%AF%AD%E6%99%BA%E8%83%BD.png",
+        "url": "https://getgetai.com/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "企业文案",
+            "字语智能"
+        ]
+    },
+    {
+        "name": "editGPT",
+        "description": "让ChatGPT修改英语文章",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494103editGPT.png",
+        "url": "https://www.editgpt.app/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "英文润色",
+            "editGPT"
+        ]
+    },
+    {
+        "name": "jenni",
+        "description": "面向作家的AI协作助手",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494104jenni.png",
+        "url": "https://jenni.ai/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "协作写作",
+            "jenni"
+        ]
+    },
+    {
+        "name": "Effidit写作助手",
+        "description": "腾讯AI Lab开发的AI写作助手，轻松高效完成写作",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494104Effidit%E5%86%99%E4%BD%9C%E5%8A%A9%E6%89%8B.png",
+        "url": "https://effidit.qq.com/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "腾讯",
+            "Effidit"
+        ]
+    },
+    {
+        "name": "Co Writer",
+        "description": "AI驱动的营销内容优化工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564765Co%20Writer.png",
+        "url": "https://cowriter.org/login",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "营销内容",
+            "CoWriter"
+        ]
+    },
+    {
+        "name": "墨鱼Aigc",
+        "description": "AI文案写作工具，支持营销广告、文案、原创文章自动写作",
+        "iconUrl": "https://img.amz123.com/image_cloud/202306/1686812965818_%E5%A2%A8%E9%B1%BCAigc.png",
+        "url": "http://www.moyuai.cn/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "文案写作",
+            "墨鱼AIGC"
+        ]
+    },
+    {
+        "name": "YYW.AI",
+        "description": "YYW.AI确实比chatgpt更懂你",
+        "iconUrl": "https://img.amz123.com/image_cloud/202307/1688355503629_YYW.AI.png",
+        "url": "https://yyw.ai",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "写作助手",
+            "YYW.AI"
+        ]
+    },
+    {
+        "name": "笔尖AI写作",
+        "description": "AI智能写作，轻松原创的在线生成器",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202404/1711952690558245_lQLPKc9nEV7FhS3NASzNASywVgV0y_vaXa8F97NE2pqCAA_300_300.png",
+        "url": "https://www.bijianxiezuo.com/AI_A285EAB",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "原创写作",
+            "笔尖"
+        ]
+    },
+    {
+        "name": "Paperpal",
+        "description": "面向科研人员的AI写作工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721890439055361_Paperpal.png",
+        "url": "https://www.editage.cn/paperpal",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "科研写作",
+            "Paperpal"
+        ]
+    },
+    {
+        "name": "星火网文助手",
+        "description": "免费AI小说网文写作工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721187489408371_%E6%98%9F%E7%81%AB%E7%BD%91%E6%96%87.png",
+        "url": "https://writersdesk.net/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "网文写作",
+            "星火网文"
+        ]
+    },
+    {
+        "name": "光速写作",
+        "description": "作业帮旗下推出的AI写作工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721892584905984_%E5%85%89%E9%80%9F%E5%86%99%E4%BD%9C.png",
+        "url": "https://guangsuxie.com/static/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "作业帮",
+            "光速写作"
+        ]
+    },
+    {
+        "name": "新华妙笔",
+        "description": "新华社推出的AI公文写作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721890606983836_%E6%96%B0%E5%8D%8E%E5%A6%99%E7%AC%94.png",
+        "url": "https://miaobi.xinhuaskl.com/?channel=shuzhi",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "公文写作",
+            "新华"
+        ]
+    },
+    {
+        "name": "万能小in",
+        "description": "AI写作助手，3分钟5万字论文 初稿一键生成",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721890701117084_%E4%B8%87%E8%83%BD%E5%B0%8Fin.png",
+        "url": "https://xiaoin.cn/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "论文生成",
+            "小in"
+        ]
+    },
+    {
+        "name": "讯飞公文写作助手",
+        "description": "国产大模型AI公文写作工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721890763665346_%E8%AE%AF%E9%A3%9E%E5%85%AC%E6%96%87%E5%86%99%E4%BD%9C%E5%8A%A9%E6%89%8B.png",
+        "url": "https://gw.iflydocs.com/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "公文写作",
+            "讯飞"
+        ]
+    },
+    {
+        "name": "FlowUs AI",
+        "description": "在线文档平台息流推出的AI创作助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721891026284569_FlowUsAI.png",
+        "url": "https://flowus.cn/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "在线文档",
+            "FlowUs"
+        ]
+    },
+    {
+        "name": "Bearly",
+        "description": "英文阅读写作效率提高10倍",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724897066991082_Bearly.png",
+        "url": "https://bearly.ai/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "效率工具",
+            "Bearly"
+        ]
+    },
+    {
+        "name": "爱改写",
+        "description": "科研工作者的AI文字生产力工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724897157828587_%E7%88%B1%E6%94%B9%E5%86%99.png",
+        "url": "https://www.aigaixie.com/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "改写工具",
+            "科研"
+        ]
+    },
+    {
+        "name": "ClosersCopy",
+        "description": "AI文案写作机器人",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202409/1726818961690488_ClosersCopy.png",
+        "url": "https://www.closerscopy.com/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "文案机器人",
+            "ClosersCopy"
+        ]
+    },
+    {
+        "name": "Smodin Al Research Paper",
+        "description": "Smodin推出的AI研究论文写作工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202409/1726819089916921_SmodinAlResearchPaper.png",
+        "url": "https://smodin.io/zh-cn/%E4%BD%9C%E5%AE%B6/%E7%A0%94%E7%A9%B6%E8%AE%BA%E6%96%87",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "研究论文",
+            "Smodin"
+        ]
+    },
+    {
+        "name": "Elephas",
+        "description": "与Mac、iPhone、iPad集成的个人写作助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202409/1726819322148256_Elephas.png",
+        "url": "https://elephas.com/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "多端集成",
+            "Elephas"
+        ]
+    },
+    {
+        "name": "PaperBetter Al",
+        "description": "AI论文写作工具，一键生成万字初稿",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202409/1726819451147907_PaperBetterAl.png",
+        "url": "http://www.ai.paperbetter.com/?f=9",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "论文初稿",
+            "PaperBetter"
+        ]
+    },
+    {
+        "name": "千笔AI论文",
+        "description": "全网首家论文无限改稿平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202412/1735203670472416_%E5%8D%83%E7%AC%94ai%E8%AE%BA%E6%96%87.png",
+        "url": "https://www.aipaperpass.com/?pic=g5DP",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "改稿平台",
+            "千笔AI"
+        ]
+    },
+    {
+        "name": "讯飞AI免费写作",
+        "description": "通用文章5分钟生成，深度稿件编辑效率翻番",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202312/1702368965124892_355513f1227e7bada3517c3d2ac8d39.png",
+        "url": "https://turbodesk.xfyun.cn/?channelid=gj18",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "快速生成",
+            "讯飞"
+        ]
+    },
+    {
+        "name": "AI新媒体文章",
+        "description": "夸克出品，适合新媒体AI生文",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202506/1749200122695105_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250606165511.png",
+        "url": "https://vt.quark.cn/blm/creator-773/index",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "新媒体写作",
+            "夸克"
+        ]
+    },
+    {
+        "name": "讯飞AI文书",
+        "description": "讯飞旗下，AI写办公材料、文书",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202506/1749200284525026_%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20250606165756.jpeg",
+        "url": "https://gw.iflydocs.com/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "文书",
+            "讯飞"
+        ]
+    },
+    {
+        "name": "凹凸工坊",
+        "description": "一键生成手写文稿",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202507/1752629751063463_autohanding-logo.webp",
+        "url": "www.autohanding.com",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "手写生成",
+            "凹凸工坊"
+        ]
+    },
+    {
+        "name": "智写流程",
+        "description": "自动捕捉网页操作生成清晰图文教程的AI工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202508/1755157600954062_igenflow-icon.webp",
+        "url": "https://www.igenflow.com/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "流程文档",
+            "操作指南"
+        ]
+    },
+    {
+        "name": "掌桥科研AI论文",
+        "description": "依托3亿+真实文献库的AI论文写作工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202508/1755157600954062_zhangqiaokeyan-logo.webp",
+        "url": "https://www.zhangqiaokeyan.com/ai/journalthesis.html?from=19-003-aiqkxz",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "文献库",
+            "掌桥科研"
+        ]
     }
 ];
 // 热门推荐（首页展示）

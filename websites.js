@@ -367,18 +367,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "剪映语音",
-        "description": "AI文字转语音，多种音色选择",
-        "url": "https://www.capcut.cn",
-        "category": "AI音频工具",
-        "tags": [
-            "AI",
-            "语音合成",
-            "配音",
-            "TTS"
-        ]
-    },
-    {
         "name": "讯飞语音",
         "description": "科大讯飞语音识别和合成平台",
         "url": "https://www.xfyun.cn",
@@ -760,18 +748,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "Canva",
-        "description": "简单易用的在线设计工具，海量模板",
-        "url": "https://www.canva.com",
-        "category": "设计与创意",
-        "tags": [
-            "设计",
-            "海报",
-            "模板",
-            "作图"
-        ]
-    },
-    {
         "name": "创客贴",
         "description": "国内优秀的平面设计工具，丰富模板",
         "url": "https://www.chuangkit.com",
@@ -935,17 +911,6 @@ const websitesDatabase = [
             "刷题",
             "面试",
             "编程"
-        ]
-    },
-    {
-        "name": "Replit",
-        "description": "在线编程IDE，支持多种语言",
-        "url": "https://replit.com",
-        "category": "程序开发",
-        "tags": [
-            "在线编程",
-            "IDE",
-            "代码"
         ]
     },
     {
@@ -2286,18 +2251,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "AliExpress",
-        "description": "速卖通，一件代发货源",
-        "url": "https://www.aliexpress.com",
-        "category": "跨境货源平台",
-        "tags": [
-            "速卖通",
-            "代发",
-            "货源",
-            "零售"
-        ]
-    },
-    {
         "name": "CJ Dropshipping",
         "description": "专业代发货平台",
         "url": "https://cjdropshipping.com",
@@ -2562,18 +2515,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "Figma",
-        "description": "协作式界面设计工具",
-        "url": "https://www.figma.com",
-        "category": "设计软件工具",
-        "tags": [
-            "设计",
-            "协作",
-            "UI",
-            "原型"
-        ]
-    },
-    {
         "name": "Sketch",
         "description": "Mac平台专业UI设计工具",
         "url": "https://www.sketch.com",
@@ -2700,18 +2641,6 @@ const websitesDatabase = [
             "Prompt",
             "社区",
             "工具"
-        ]
-    },
-    {
-        "name": "Jasper",
-        "description": "AI营销文案生成工具",
-        "url": "https://www.jasper.ai",
-        "category": "AI营销工具",
-        "tags": [
-            "AI",
-            "营销",
-            "文案",
-            "广告"
         ]
     },
     {
@@ -3568,19 +3497,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "Google Analytics 4",
-        "description": "谷歌全新一代数据分析工具，支持跨平台分析",
-        "url": "https://analytics.google.com",
-        "category": "数字分析工具",
-        "tags": [
-            "分析",
-            "数据",
-            "谷歌",
-            "流量",
-            "指标"
-        ]
-    },
-    {
         "name": "百度统计",
         "description": "百度提供的网站流量分析工具，适合中文网站",
         "url": "https://tongji.baidu.com",
@@ -3693,18 +3609,6 @@ const websitesDatabase = [
             "关键词研究",
             "搜索量",
             "难度分析"
-        ]
-    },
-    {
-        "name": "Keyword Tool Dominator",
-        "description": "基于Google、YouTube等平台的关键词挖掘工具，适合内容策划。",
-        "url": "https://keywordtool.io",
-        "category": "SEO工具",
-        "tags": [
-            "关键词挖掘",
-            "Google",
-            "YouTube",
-            "内容策划"
         ]
     },
     {
@@ -7337,18 +7241,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "Semrush",
-        "description": "综合性SEO和数字营销工具，支持关键词研究、竞争对手分析和网站审计。",
-        "url": "https://www.semrush.com",
-        "category": "SEO工具",
-        "tags": [
-            "SEO",
-            "数字营销",
-            "竞争分析",
-            "网站审计"
-        ]
-    },
-    {
         "name": "Moz",
         "description": "提供SEO工具、教程和博客，涵盖关键词排名、链接建设、网站健康度分析等。",
         "url": "https://moz.com",
@@ -7382,18 +7274,6 @@ const websitesDatabase = [
             "Bing",
             "搜索引擎",
             "索引"
-        ]
-    },
-    {
-        "name": "Screaming Frog SEO Spider",
-        "description": "桌面级网站爬虫工具，用于分析网站结构、元标签和内部链接。",
-        "url": "https://www.screamingfrog.co.uk/seo-spider/",
-        "category": "SEO工具",
-        "tags": [
-            "网站爬虫",
-            "结构分析",
-            "元标签",
-            "内部链接"
         ]
     },
     {
@@ -7930,18 +7810,6 @@ const websitesDatabase = [
             "电商素材",
             "优质正版",
             "专用"
-        ]
-    },
-    {
-        "name": "包图网",
-        "description": "专注原创可商用设计图片下载，1.5亿设计素材图库",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875612%E5%8C%85%E5%9B%BE%E7%BD%91.png",
-        "url": "https://ibaotu.com/",
-        "category": "付费图库",
-        "tags": [
-            "原创设计",
-            "商用图片",
-            "设计素材"
         ]
     },
     {
@@ -9109,19 +8977,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "花瓣",
-        "description": "采集你喜欢的美好事物，发现新知，启发设计灵感",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875650%E8%8A%B1%E7%93%A3.png",
-        "url": "https://huaban.com",
-        "category": "灵感创意",
-        "tags": [
-            "采集",
-            "美好事物",
-            "设计灵感",
-            "发现新知"
-        ]
-    },
-    {
         "name": "Dribbble",
         "description": "国际知名设计站点！资深设计师必备",
         "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875650Dribbble.png",
@@ -9929,19 +9784,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "ColorHunt",
-        "description": "一个免费开放的色彩灵感平台",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875583ColorHunt.png",
-        "url": "https://colorhunt.co/",
-        "category": "配色方案",
-        "tags": [
-            "免费开放",
-            "色彩灵感",
-            "调色板",
-            "配色"
-        ]
-    },
-    {
         "name": "AdobeColor",
         "description": "可以轻松地创建和发现可访问的独特颜色主题,将其用于所有创意项目中",
         "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875583AdobeColor.png",
@@ -10007,32 +9849,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "色彩搭配",
-        "description": "推荐色彩搭配方案",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875584%E8%89%B2%E5%BD%A9%E6%90%AD%E9%85%8D.png",
-        "url": "https://colorhunt.co/",
-        "category": "配色方案",
-        "tags": [
-            "色彩搭配",
-            "推荐方案",
-            "配色参考",
-            "设计"
-        ]
-    },
-    {
-        "name": "DopelyColors",
-        "description": "超级在线调色板神器，一组渐变色彩配色方案",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875584DopelyColors.png",
-        "url": "https://colorhunt.co/",
-        "category": "配色方案",
-        "tags": [
-            "调色板神器",
-            "渐变色彩",
-            "配色方案",
-            "在线工具"
-        ]
-    },
-    {
         "name": "MaterialUI",
         "description": "能快速选到配色方案",
         "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875584MaterialUI.png",
@@ -10069,19 +9885,6 @@ const websitesDatabase = [
             "时尚趋势",
             "颜色搭配",
             "年度流行"
-        ]
-    },
-    {
-        "name": "好看的背景渐变色",
-        "description": "一个集合180种免费的线性渐变网站，可在任何网站使用",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875584%E5%A5%BD%E7%9C%8B%E7%9A%84%E8%83%8C%E6%99%AF%E6%B8%90%E5%8F%98%E8%89%B2.png",
-        "url": "https://colorhunt.co/",
-        "category": "配色方案",
-        "tags": [
-            "背景渐变",
-            "180种",
-            "免费",
-            "线性渐变"
         ]
     },
     {
@@ -11101,20 +10904,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "DS Quick View",
-        "description": "（免费，必备）好处是不需要点到Listing中就能查看排名",
-        "iconUrl": "https://img.amz123.com/upload/index_icon/20201203/5fc8faef823dc.jpg/icon52",
-        "url": "https://chrome.google.com/webstore/detail/ds-amazon-quick-view/jkompbllimaoekaogchhkmkdogpkhojg",
-        "category": "浏览器插件",
-        "tags": [
-            "排名查看",
-            "免费",
-            "必备",
-            "亚马逊",
-            "快速查看"
-        ]
-    },
-    {
         "name": "ReviewMeta",
         "description": "亚马逊评论分析插件",
         "iconUrl": "https://img.amz123.com/image_cloud/202302/1675328866155_fe5a044caac380f3b41547e73.png",
@@ -11380,19 +11169,6 @@ const websitesDatabase = [
         "description": "美国测评网站",
         "iconUrl": "https://img.amz123.com/upload/index_icon/20201218/5fdc47d00d321.jpeg/icon52",
         "url": "http://gold-leaf-group.com/",
-        "category": "Deals平台",
-        "tags": [
-            "美国",
-            "测评网站",
-            "产品测评",
-            "免费试用"
-        ]
-    },
-    {
-        "name": "iLoveToReview",
-        "description": "美国测评网站",
-        "iconUrl": "https://img.amz123.com/upload/index_icon/20201218/5fdc47358dac4.png/icon52",
-        "url": "https://www.ilovetoreview.com/",
         "category": "Deals平台",
         "tags": [
             "美国",
@@ -15175,20 +14951,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "ProxyRack",
-        "description": "IP代理，获得可靠、快速、高质量的代理。",
-        "iconUrl": "https://img.amz123.com/image_cloud/202304/1680759594822_proxyrack.png",
-        "url": "https://www.proxyrack.com/",
-        "category": "代理IP",
-        "tags": [
-            "IP代理",
-            "可靠",
-            "快速",
-            "高质量",
-            "ProxyRack"
-        ]
-    },
-    {
         "name": "Froxy",
         "description": "完全匿名,可靠的全球代理网络,拥有超过800万个白色IP地址,在一定时期内自动旋转IP地址。",
         "iconUrl": "https://img.amz123.com/image_cloud/202304/1680832444577_froxy.png",
@@ -16038,18 +15800,6 @@ const websitesDatabase = [
             "中央电视台",
             "官方视频网站",
             "CCTV"
-        ]
-    },
-    {
-        "name": "哔哩哔哩",
-        "description": "国内知名的视频弹幕网站。",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/hao/202303/1678457516%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.svg",
-        "url": "https://www.bilibili.com",
-        "category": "视频音乐",
-        "tags": [
-            "国内知名",
-            "视频弹幕网站",
-            "哔哩哔哩"
         ]
     },
     {
@@ -17052,18 +16802,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "pixiv",
-        "description": "来自全世界的插画师、绘画爱好者作品交流平",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/hao/202303/1678457567pixiv.png",
-        "url": "https://www.pixiv.net/",
-        "category": "动漫网站",
-        "tags": [
-            "来自全世界的插画师",
-            "绘画爱好者作品交流平",
-            "pixiv"
-        ]
-    },
-    {
         "name": "快递100",
         "description": "查快递,寄快递,上快递100",
         "iconUrl": "https://img.amz123.com/upload/diy_page/hao/202303/1678457526%E5%BF%AB%E9%80%92100.png",
@@ -17194,17 +16932,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "美团网",
-        "description": "中国最大的团购网站",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/hao/202303/1678457527%E7%BE%8E%E5%9B%A2%E7%BD%91.svg",
-        "url": "https://www.meituan.com",
-        "category": "生活必备",
-        "tags": [
-            "中国最大的团购网站",
-            "美团网"
-        ]
-    },
-    {
         "name": "Mtime时光网",
         "description": "让电影遇见生活",
         "iconUrl": "https://img.amz123.com/upload/diy_page/hao/202303/1678457528Mtime%E6%97%B6%E5%85%89%E7%BD%91.png",
@@ -17294,19 +17021,6 @@ const websitesDatabase = [
             "多模态理解",
             "多语言支持",
             "通义千问"
-        ]
-    },
-    {
-        "name": "Bing必应",
-        "description": "微软推出的新版结合了ChatGPT功能的必应",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564754Bing%E6%96%B0%E5%BF%85%E5%BA%94.png",
-        "url": "https://www.bing.com",
-        "category": "聊天AI",
-        "tags": [
-            "微软",
-            "结合了ChatGPT功能",
-            "必应",
-            "Bing必应"
         ]
     },
     {
@@ -17839,20 +17553,6 @@ const websitesDatabase = [
             "商汤科技",
             "免费AI聊天助手",
             "商量SenseChat"
-        ]
-    },
-    {
-        "name": "应事AI",
-        "description": "可帮助高 效写作、激发灵感、获取知识、做出决策",
-        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721122047882161_%E5%BA%94%E4%BA%8Bai.png",
-        "url": "https://hailuoai.com/",
-        "category": "聊天AI",
-        "tags": [
-            "高效写作",
-            "激发灵感",
-            "获取知识",
-            "做出决策",
-            "应事AI"
         ]
     },
     {
@@ -19071,20 +18771,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "Tiger AI指纹浏览器",
-        "description": "唯一一家完全通过AI技术实现自动养号的防关联浏览器",
-        "iconUrl": "https://img.amz123.com/image_cloud/202310/1696838985219_f2bb871a4b213edf2d15daedec17c67.jpg",
-        "url": "https://www.tiger.top/register.html?code=001",
-        "category": "跨境AI",
-        "tags": [
-            "Tiger AI",
-            "指纹浏览器",
-            "自动养号",
-            "防关联",
-            "AI技术"
-        ]
-    },
-    {
         "name": "匠紫AI设计",
         "description": "一站式AI高效设计工具，跨境电商营销快捷键",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202503/1742893091303595_%E5%8C%A0%E7%B4%ABAI%E8%AE%BE%E8%AE%A1.png",
@@ -19253,20 +18939,6 @@ const websitesDatabase = [
             "图像增强",
             "ARC Lab",
             "腾讯"
-        ]
-    },
-    {
-        "name": "文心一格",
-        "description": "AI艺术和创意辅助平台",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564740%E6%96%87%E5%BF%83%E4%B8%80%E6%A0%BC.png",
-        "url": "https://yige.baidu.com",
-        "category": "图像AI",
-        "tags": [
-            "图像AI",
-            "AI艺术",
-            "创意辅助",
-            "文心一格",
-            "百度"
         ]
     },
     {
@@ -19626,19 +19298,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "Generated Photos",
-        "description": "AI人脸头像生成工具",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564741Generated%20Photos.png",
-        "url": "https://generated.photos",
-        "category": "图像AI",
-        "tags": [
-            "图像AI",
-            "AI人脸生成",
-            "头像生成",
-            "Generated Photos"
-        ]
-    },
-    {
         "name": "Picsart",
         "description": "Picsart推出的AI图片生成器",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564741Picsart.png",
@@ -19947,19 +19606,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "PhotoScissors",
-        "description": "免费自动图片背景去除",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564744PhotoScissors.png",
-        "url": "https://photoscissors.com",
-        "category": "背景移除",
-        "tags": [
-            "背景移除",
-            "AI抠图",
-            "免费工具",
-            "PhotoScissors"
-        ]
-    },
-    {
         "name": "一键抠图",
         "description": "在线一键抠图换背景",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564744%E4%B8%80%E9%94%AE%E6%8A%A0%E5%9B%BE.png",
@@ -20161,19 +19807,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "PicWish",
-        "description": "AI图片编辑和背景移除",
-        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721186014449401_PicWish.png",
-        "url": "https://picwish.com/",
-        "category": "背景移除",
-        "tags": [
-            "背景移除",
-            "AI抠图",
-            "图片编辑",
-            "PicWish"
-        ]
-    },
-    {
         "name": "干图设计室AI助手",
         "description": "AI绘画抠图工具集",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721888869336902_%E5%B9%B2%E5%9B%BE%E8%AE%BE%E8%AE%A1%E5%AE%A4AI%E5%8A%A9%E6%89%8B.png",
@@ -20270,19 +19903,6 @@ const websitesDatabase = [
             "免费工具",
             "智能抠图",
             "美间AI抠图"
-        ]
-    },
-    {
-        "name": "BigJPG",
-        "description": "AI人工智能图片无损放大",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564744BigJPG.png",
-        "url": "https://bigjpg.com",
-        "category": "无损调整",
-        "tags": [
-            "无损调整",
-            "AI图片放大",
-            "无损放大",
-            "BigJPG"
         ]
     },
     {
@@ -20506,34 +20126,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "Nero lmage Upscaler",
-        "description": "免费图片无损放大",
-        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721186503545956_NerolmageUpscaler.png",
-        "url": "https://ai.nero.com/image-upscaler",
-        "category": "无损调整",
-        "tags": [
-            "无损调整",
-            "AI图片放大",
-            "免费工具",
-            "Nero"
-        ]
-    },
-    {
-        "name": "GoProd",
-        "description": "Icons8推出的智能图片背景移除和无损放大二合-Mac应用",
-        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721207449874801_goprod.png",
-        "url": "https://icons8.com/",
-        "category": "无损调整",
-        "tags": [
-            "无损调整",
-            "AI图片放大",
-            "背景移除",
-            "Mac应用",
-            "GoProd",
-            "Icons8"
-        ]
-    },
-    {
         "name": "Upscayl",
         "description": "免费开源的AI图片无损放大工具",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724915175492541_Upscayl.png",
@@ -20707,19 +20299,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "jpgHD",
-        "description": "一键修复，让您的老照片变新照片",
-        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721101211364009_jpgHD.png",
-        "url": "https://jpghd.com/",
-        "category": "优化修复",
-        "tags": [
-            "优化修复",
-            "老照片修复",
-            "照片增强",
-            "jpgHD"
-        ]
-    },
-    {
         "name": "PicMa Studio",
         "description": "AI一键批量增强、修复、彩色化你的照片",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724915523543989_PicMaStudio.png",
@@ -20770,20 +20349,6 @@ const websitesDatabase = [
             "物体抹除",
             "去除物体",
             "SnapEdit"
-        ]
-    },
-    {
-        "name": "Cleanup.pictures",
-        "description": "智能移除图片中的物体、文本、污迹、人物或任何不想要的东西",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564746Cleanup.pictures.png",
-        "url": "https://cleanup.pictures",
-        "category": "物体抹除",
-        "tags": [
-            "物体抹除",
-            "文本去除",
-            "污迹去除",
-            "人物去除",
-            "Cleanup.pictures"
         ]
     },
     {
@@ -21203,30 +20768,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "Jasper",
-        "description": "AI文字内容创作工具",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564733Jasper.png",
-        "url": "https://www.jasper.ai",
-        "category": "写作AI",
-        "tags": [
-            "写作AI",
-            "内容创作",
-            "Jasper"
-        ]
-    },
-    {
-        "name": "Notion AI",
-        "description": "Notion旗下的AI内容创作助手",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564734Notion%20AI.png",
-        "url": "https://www.notion.so/product/ai",
-        "category": "写作AI",
-        "tags": [
-            "写作AI",
-            "内容助手",
-            "Notion"
-        ]
-    },
-    {
         "name": "Rytr",
         "description": "AI内容生成和写作助手",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564734Rytr.png",
@@ -21284,18 +20825,6 @@ const websitesDatabase = [
             "写作AI",
             "润色",
             "DeepL"
-        ]
-    },
-    {
-        "name": "秘塔写作猫",
-        "description": "AI写作，文章自成",
-        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564735%E7%A7%98%E5%A1%94%E5%86%99%E4%BD%9C%E7%8C%AB.png",
-        "url": "https://xiezuocat.com",
-        "category": "写作AI",
-        "tags": [
-            "写作AI",
-            "中文写作",
-            "秘塔"
         ]
     },
     {
@@ -21840,18 +21369,6 @@ const websitesDatabase = [
         ]
     },
     {
-        "name": "讯飞AI文书",
-        "description": "讯飞旗下，AI写办公材料、文书",
-        "iconUrl": "https://img.amz123.com/upload/image_cloud/202506/1749200284525026_%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20250606165756.jpeg",
-        "url": "https://gw.iflydocs.com/",
-        "category": "写作AI",
-        "tags": [
-            "写作AI",
-            "文书",
-            "讯飞"
-        ]
-    },
-    {
         "name": "凹凸工坊",
         "description": "一键生成手写文稿",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202507/1752629751063463_autohanding-logo.webp",
@@ -21886,8 +21403,7 @@ const websitesDatabase = [
             "文献库",
             "掌桥科研"
         ]
-    }
-,
+    },
     {
         "name": "Galileo AI",
         "description": "AI生成可编辑的UI界面",
@@ -21895,11 +21411,11 @@ const websitesDatabase = [
         "url": "https://www.usegalileo.ai/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "UI设计",
-        "界面生成"
-    ]
+            "设计AI",
+            "AI",
+            "UI设计",
+            "界面生成"
+        ]
     },
     {
         "name": "Uizard",
@@ -21908,11 +21424,11 @@ const websitesDatabase = [
         "url": "https://uizard.io/autodesigner/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "UI设计",
-        "界面生成"
-    ]
+            "设计AI",
+            "AI",
+            "UI设计",
+            "界面生成"
+        ]
     },
     {
         "name": "Designs.ai",
@@ -21921,10 +21437,10 @@ const websitesDatabase = [
         "url": "https://designs.ai/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "设计工具"
-    ]
+            "设计AI",
+            "AI",
+            "设计工具"
+        ]
     },
     {
         "name": "IconifyAI",
@@ -21933,11 +21449,11 @@ const websitesDatabase = [
         "url": "https://www.iconifyai.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "图标生成",
-        "App图标"
-    ]
+            "设计AI",
+            "AI",
+            "图标生成",
+            "App图标"
+        ]
     },
     {
         "name": "Looka",
@@ -21946,11 +21462,11 @@ const websitesDatabase = [
         "url": "https://looka.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "Logo设计",
-        "品牌设计"
-    ]
+            "设计AI",
+            "AI",
+            "Logo设计",
+            "品牌设计"
+        ]
     },
     {
         "name": "Noya",
@@ -21959,11 +21475,11 @@ const websitesDatabase = [
         "url": "https://www.noya.io/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "线框图",
-        "高保真设计"
-    ]
+            "设计AI",
+            "AI",
+            "线框图",
+            "高保真设计"
+        ]
     },
     {
         "name": "PLUG AI",
@@ -21972,11 +21488,11 @@ const websitesDatabase = [
         "url": "https://hp.package-ai.jp/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "包装设计",
-        "分析评估"
-    ]
+            "设计AI",
+            "AI",
+            "包装设计",
+            "分析评估"
+        ]
     },
     {
         "name": "Huemint",
@@ -21985,11 +21501,11 @@ const websitesDatabase = [
         "url": "https://huemint.com/brand-intersection/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "配色",
-        "和谐配色"
-    ]
+            "设计AI",
+            "AI",
+            "配色",
+            "和谐配色"
+        ]
     },
     {
         "name": "青椒云",
@@ -21998,11 +21514,11 @@ const websitesDatabase = [
         "url": "http://account.qingjiaocloud.com/signin?inviteCode=PAUWIO4S",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "云桌面",
-        "设计平台"
-    ]
+            "设计AI",
+            "AI",
+            "云桌面",
+            "设计平台"
+        ]
     },
     {
         "name": "燕雀光年AiLogo设计",
@@ -22011,11 +21527,11 @@ const websitesDatabase = [
         "url": "https://www.yanqueai.com/?source=amz123&keyword=amz123",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "Logo设计",
-        "品牌设计"
-    ]
+            "设计AI",
+            "AI",
+            "Logo设计",
+            "品牌设计"
+        ]
     },
     {
         "name": "Superflow",
@@ -22024,11 +21540,11 @@ const websitesDatabase = [
         "url": "https://www.usesuperflow.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "网站设计",
-        "协作设计"
-    ]
+            "设计AI",
+            "AI",
+            "网站设计",
+            "协作设计"
+        ]
     },
     {
         "name": "Digram",
@@ -22037,11 +21553,11 @@ const websitesDatabase = [
         "url": "https://diagram.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "Figma",
-        "设计工具"
-    ]
+            "设计AI",
+            "AI",
+            "Figma",
+            "设计工具"
+        ]
     },
     {
         "name": "Logoai",
@@ -22050,11 +21566,11 @@ const websitesDatabase = [
         "url": "https://www.logoai.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "Logo设计",
-        "品牌设计"
-    ]
+            "设计AI",
+            "AI",
+            "Logo设计",
+            "品牌设计"
+        ]
     },
     {
         "name": "Daft Art",
@@ -22063,11 +21579,11 @@ const websitesDatabase = [
         "url": "https://www.daftart.ai/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "专辑封面",
-        "图片生成"
-    ]
+            "设计AI",
+            "AI",
+            "专辑封面",
+            "图片生成"
+        ]
     },
     {
         "name": "Palette",
@@ -22076,10 +21592,10 @@ const websitesDatabase = [
         "url": "https://palette.tone-row.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "UI调色板",
-        "配色工具"
-    ]
+            "设计AI",
+            "UI调色板",
+            "配色工具"
+        ]
     },
     {
         "name": "Color Wheel",
@@ -22088,11 +21604,11 @@ const websitesDatabase = [
         "url": "https://brandmark.io/color-wheel",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "上色工具",
-        "Logo上色"
-    ]
+            "设计AI",
+            "AI",
+            "上色工具",
+            "Logo上色"
+        ]
     },
     {
         "name": "ColorMagic",
@@ -22101,11 +21617,11 @@ const websitesDatabase = [
         "url": "https://www.obviously.ai/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "调色板",
-        "配色工具"
-    ]
+            "设计AI",
+            "AI",
+            "调色板",
+            "配色工具"
+        ]
     },
     {
         "name": "Logomaster.ai",
@@ -22114,11 +21630,11 @@ const websitesDatabase = [
         "url": "https://logomaster.ai/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "Logo生成",
-        "设计工具"
-    ]
+            "设计AI",
+            "AI",
+            "Logo生成",
+            "设计工具"
+        ]
     },
     {
         "name": "Creatie.ai",
@@ -22127,11 +21643,11 @@ const websitesDatabase = [
         "url": "https://creatie.ai/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "UI设计",
-        "界面生成"
-    ]
+            "设计AI",
+            "AI",
+            "UI设计",
+            "界面生成"
+        ]
     },
     {
         "name": "Makereal Tldraw",
@@ -22140,11 +21656,11 @@ const websitesDatabase = [
         "url": "https://github.com/tldraw/make-real",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "草图生成",
-        "UI界面"
-    ]
+            "设计AI",
+            "AI",
+            "草图生成",
+            "UI界面"
+        ]
     },
     {
         "name": "UI Sketcher",
@@ -22153,11 +21669,11 @@ const websitesDatabase = [
         "url": "https://github.com/pAIrprogio/vscode-ui-sketcher",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "VSCode插件",
-        "界面设计"
-    ]
+            "设计AI",
+            "AI",
+            "VSCode插件",
+            "界面设计"
+        ]
     },
     {
         "name": "QoQo",
@@ -22166,11 +21682,11 @@ const websitesDatabase = [
         "url": "https://qoqo.ai/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "用户旅程",
-        "地图设计"
-    ]
+            "设计AI",
+            "AI",
+            "用户旅程",
+            "地图设计"
+        ]
     },
     {
         "name": "Visily",
@@ -22179,11 +21695,11 @@ const websitesDatabase = [
         "url": "https://www.visily.ai/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "线框转换",
-        "高保真设计"
-    ]
+            "设计AI",
+            "AI",
+            "线框转换",
+            "高保真设计"
+        ]
     },
     {
         "name": "美间AI",
@@ -22192,11 +21708,11 @@ const websitesDatabase = [
         "url": "https://www.meijian.com/e-commerce?utm_source=dsdhaibot",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "设计工具",
-        "海报生成"
-    ]
+            "设计AI",
+            "AI",
+            "设计工具",
+            "海报生成"
+        ]
     },
     {
         "name": "Figma Al",
@@ -22205,11 +21721,11 @@ const websitesDatabase = [
         "url": "https://www.figma.com/ai/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "Figma",
-        "视觉搜索"
-    ]
+            "设计AI",
+            "AI",
+            "Figma",
+            "视觉搜索"
+        ]
     },
     {
         "name": "Microsoft Designer",
@@ -22218,11 +21734,11 @@ const websitesDatabase = [
         "url": "https://designer.microsoft.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "图像设计",
-        "设计工具"
-    ]
+            "设计AI",
+            "AI",
+            "图像设计",
+            "设计工具"
+        ]
     },
     {
         "name": "Magic Design",
@@ -22231,11 +21747,11 @@ const websitesDatabase = [
         "url": "https://www.canva.com/magic-design/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "Canva",
-        "设计工具"
-    ]
+            "设计AI",
+            "AI",
+            "Canva",
+            "设计工具"
+        ]
     },
     {
         "name": "135 AI排版",
@@ -22244,11 +21760,11 @@ const websitesDatabase = [
         "url": "https://www.135editor.com/ai_editor/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "排版工具",
-        "文案生成"
-    ]
+            "设计AI",
+            "AI",
+            "排版工具",
+            "文案生成"
+        ]
     },
     {
         "name": "Wegic",
@@ -22257,11 +21773,11 @@ const websitesDatabase = [
         "url": "https://wegic.ai/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "网页设计",
-        "建站工具"
-    ]
+            "设计AI",
+            "AI",
+            "网页设计",
+            "建站工具"
+        ]
     },
     {
         "name": "Stylar",
@@ -22270,11 +21786,11 @@ const websitesDatabase = [
         "url": "https://www.stylar.ai/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "图像编辑",
-        "设计工具"
-    ]
+            "设计AI",
+            "AI",
+            "图像编辑",
+            "设计工具"
+        ]
     },
     {
         "name": "Pictographic",
@@ -22283,11 +21799,11 @@ const websitesDatabase = [
         "url": "https://pictographic.io/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "插图",
-        "资源库"
-    ]
+            "设计AI",
+            "AI",
+            "插图",
+            "资源库"
+        ]
     },
     {
         "name": "Collov AI",
@@ -22296,11 +21812,11 @@ const websitesDatabase = [
         "url": "https://collov.cn/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "室内设计",
-        "家居设计"
-    ]
+            "设计AI",
+            "AI",
+            "室内设计",
+            "家居设计"
+        ]
     },
     {
         "name": "Kittl",
@@ -22309,11 +21825,11 @@ const websitesDatabase = [
         "url": "https://www.kittl.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "平面设计",
-        "图形设计"
-    ]
+            "设计AI",
+            "AI",
+            "平面设计",
+            "图形设计"
+        ]
     },
     {
         "name": "Krea Al",
@@ -22322,11 +21838,11 @@ const websitesDatabase = [
         "url": "https://www.krea.ai/home",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "创意设计",
-        "图像生成"
-    ]
+            "设计AI",
+            "AI",
+            "创意设计",
+            "图像生成"
+        ]
     },
     {
         "name": "Pixso AI",
@@ -22335,11 +21851,11 @@ const websitesDatabase = [
         "url": "https://pixso.cn/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "Pixso",
-        "设计助手"
-    ]
+            "设计AI",
+            "AI",
+            "Pixso",
+            "设计助手"
+        ]
     },
     {
         "name": "MasterGo Al",
@@ -22348,11 +21864,11 @@ const websitesDatabase = [
         "url": "https://mastergo.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "MasterGo",
-        "UI设计"
-    ]
+            "设计AI",
+            "AI",
+            "MasterGo",
+            "UI设计"
+        ]
     },
     {
         "name": "智绘设计",
@@ -22361,10 +21877,10 @@ const websitesDatabase = [
         "url": "https://taishan.qq.com/brand/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "智能",
-        "腾讯"
-    ]
+            "设计AI",
+            "智能",
+            "腾讯"
+        ]
     },
     {
         "name": "鹿班",
@@ -22373,10 +21889,10 @@ const websitesDatabase = [
         "url": "https://luban.aliyun.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "智能",
-        "阿里"
-    ]
+            "设计AI",
+            "智能",
+            "阿里"
+        ]
     },
     {
         "name": "墨刀AI",
@@ -22385,11 +21901,11 @@ const websitesDatabase = [
         "url": "https://modao.cc/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "墨刀",
-        "原型设计"
-    ]
+            "设计AI",
+            "AI",
+            "墨刀",
+            "原型设计"
+        ]
     },
     {
         "name": "即时AI",
@@ -22398,11 +21914,11 @@ const websitesDatabase = [
         "url": "https://jsai.cc/ai/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "即时设计",
-        "原型设计"
-    ]
+            "设计AI",
+            "AI",
+            "即时设计",
+            "原型设计"
+        ]
     },
     {
         "name": "酷家乐AI",
@@ -22411,11 +21927,11 @@ const websitesDatabase = [
         "url": "https://www.kujiale.cn/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "家居设计",
-        "设计软件"
-    ]
+            "设计AI",
+            "AI",
+            "家居设计",
+            "设计软件"
+        ]
     },
     {
         "name": "Framer Al",
@@ -22424,11 +21940,11 @@ const websitesDatabase = [
         "url": "https://www.framer.com/features/ai",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "Framer",
-        "网站设计"
-    ]
+            "设计AI",
+            "AI",
+            "Framer",
+            "网站设计"
+        ]
     },
     {
         "name": "Motiff 妙多",
@@ -22437,11 +21953,11 @@ const websitesDatabase = [
         "url": "https://motiff.cn/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "界面设计",
-        "设计工具"
-    ]
+            "设计AI",
+            "AI",
+            "界面设计",
+            "设计工具"
+        ]
     },
     {
         "name": "Pimento",
@@ -22450,10 +21966,10 @@ const websitesDatabase = [
         "url": "https://www.pimento.design/?ref_id=TU7BJC0X4",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "智能",
-        "设计创意"
-    ]
+            "设计AI",
+            "智能",
+            "设计创意"
+        ]
     },
     {
         "name": "Logo Diffusion",
@@ -22462,11 +21978,11 @@ const websitesDatabase = [
         "url": "https://logodiffusion.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "Logo生成",
-        "标志设计"
-    ]
+            "设计AI",
+            "AI",
+            "Logo生成",
+            "标志设计"
+        ]
     },
     {
         "name": "LogoliveryAl",
@@ -22475,11 +21991,11 @@ const websitesDatabase = [
         "url": "https://logolivery.ai/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "Logo生成",
-        "SVG"
-    ]
+            "设计AI",
+            "AI",
+            "Logo生成",
+            "SVG"
+        ]
     },
     {
         "name": "千图设计室AI海报",
@@ -22488,11 +22004,11 @@ const websitesDatabase = [
         "url": "https://hihaibao.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "海报生成",
-        "批量生成"
-    ]
+            "设计AI",
+            "AI",
+            "海报生成",
+            "批量生成"
+        ]
     },
     {
         "name": "标小智",
@@ -22501,11 +22017,11 @@ const websitesDatabase = [
         "url": "https://www.logosc.cn/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "Logo设计",
-        "智能设计"
-    ]
+            "设计AI",
+            "AI",
+            "Logo设计",
+            "智能设计"
+        ]
     },
     {
         "name": "字体家AI神笔",
@@ -22514,11 +22030,11 @@ const websitesDatabase = [
         "url": "https://www.ai.zitijia.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "字体生成",
-        "中文字库"
-    ]
+            "设计AI",
+            "AI",
+            "字体生成",
+            "中文字库"
+        ]
     },
     {
         "name": "AIcolors",
@@ -22527,11 +22043,11 @@ const websitesDatabase = [
         "url": "https://aicolors.co/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "调色板",
-        "配色参考"
-    ]
+            "设计AI",
+            "AI",
+            "调色板",
+            "配色参考"
+        ]
     },
     {
         "name": "ImgCreator",
@@ -22540,11 +22056,11 @@ const websitesDatabase = [
         "url": "https://imgcreator.ai/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "背景生成",
-        "海报生成"
-    ]
+            "设计AI",
+            "AI",
+            "背景生成",
+            "海报生成"
+        ]
     },
     {
         "name": "ImageCreator",
@@ -22553,11 +22069,11 @@ const websitesDatabase = [
         "url": "https://imagecreator.alkaidvision.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "PS插件",
-        "SD插件"
-    ]
+            "设计AI",
+            "AI",
+            "PS插件",
+            "SD插件"
+        ]
     },
     {
         "name": "Alpaca",
@@ -22566,11 +22082,11 @@ const websitesDatabase = [
         "url": "https://www.alpacaml.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "PS插件",
-        "绘画工具"
-    ]
+            "设计AI",
+            "AI",
+            "PS插件",
+            "绘画工具"
+        ]
     },
     {
         "name": "Flair AI",
@@ -22579,11 +22095,11 @@ const websitesDatabase = [
         "url": "https://flair.ai/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "产品照片",
-        "设计师"
-    ]
+            "设计AI",
+            "AI",
+            "产品照片",
+            "设计师"
+        ]
     },
     {
         "name": "Fabrie Al",
@@ -22592,10 +22108,10 @@ const websitesDatabase = [
         "url": "https://www.fabrie.cn/ai/imagine?utm_source=AI%E5%B7%A5%E5%85%B7%E9%9B%86&utm_content=fabrie%20Ai%20%E8%90%BD%E5%9C%B0%E9%A1%B5&_channel_track_key=uQ6fKV6j",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "文档",
-        "情绪板"
-    ]
+            "设计AI",
+            "文档",
+            "情绪板"
+        ]
     },
     {
         "name": "羚珑",
@@ -22604,10 +22120,10 @@ const websitesDatabase = [
         "url": "https://ling.jd.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "工具",
-        "智能"
-    ]
+            "设计AI",
+            "工具",
+            "智能"
+        ]
     },
     {
         "name": "匠紫",
@@ -22616,10 +22132,10 @@ const websitesDatabase = [
         "url": "https://jiangziai.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "工具"
-    ]
+            "设计AI",
+            "AI",
+            "工具"
+        ]
     },
     {
         "name": "包图网AI素材库",
@@ -22628,10 +22144,10 @@ const websitesDatabase = [
         "url": "https://ibaotu.com/tupian/shuziyishu.html?spm=aibot1",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "素材库"
-    ]
+            "设计AI",
+            "AI",
+            "素材库"
+        ]
     },
     {
         "name": "图宇宙",
@@ -22640,10 +22156,10 @@ const websitesDatabase = [
         "url": "https://www.nolibox.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "智能"
-    ]
+            "设计AI",
+            "AI",
+            "智能"
+        ]
     },
     {
         "name": "灵动AI",
@@ -22652,10 +22168,10 @@ const websitesDatabase = [
         "url": "https://www.redoon.cn/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "商品图"
-    ]
+            "设计AI",
+            "AI",
+            "商品图"
+        ]
     },
     {
         "name": "PhotoMagic",
@@ -22664,10 +22180,10 @@ const websitesDatabase = [
         "url": "https://www.photomagic.cn/?utm_source=aigongjuji",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "商拍图片"
-    ]
+            "设计AI",
+            "AI",
+            "商拍图片"
+        ]
     },
     {
         "name": "笔格AI设计",
@@ -22676,10 +22192,10 @@ const websitesDatabase = [
         "url": "https://bigesj.com/?hmmd=aibot&hmsr=bigeai",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "设计工具"
-    ]
+            "设计AI",
+            "AI",
+            "设计工具"
+        ]
     },
     {
         "name": "简单设计",
@@ -22688,9 +22204,9 @@ const websitesDatabase = [
         "url": "https://jiandan.link/?rel=DB2V2320",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "工具"
-    ]
+            "设计AI",
+            "工具"
+        ]
     },
     {
         "name": "居然设计家",
@@ -22699,10 +22215,10 @@ const websitesDatabase = [
         "url": "https://www.shejijia.com/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI",
-        "家装设计"
-    ]
+            "设计AI",
+            "AI",
+            "家装设计"
+        ]
     },
     {
         "name": "Pippit",
@@ -22711,9 +22227,9 @@ const websitesDatabase = [
         "url": "https://www.capcut.cn/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "工具"
-    ]
+            "设计AI",
+            "工具"
+        ]
     },
     {
         "name": "Holopix AI",
@@ -22722,9 +22238,9 @@ const websitesDatabase = [
         "url": "https://holopix.cn/",
         "category": "设计AI",
         "tags": [
-        "设计AI",
-        "AI"
-    ]
+            "设计AI",
+            "AI"
+        ]
     },
     {
         "name": "Point-e",
@@ -22733,10 +22249,10 @@ const websitesDatabase = [
         "url": "https://openai.com/research/point-e",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "AI",
-        "3D模型"
-    ]
+            "3D AI",
+            "AI",
+            "3D模型"
+        ]
     },
     {
         "name": "GET3D",
@@ -22745,9 +22261,9 @@ const websitesDatabase = [
         "url": "https://nv-tlabs.github.io/GET3D/",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "2D转3D"
-    ]
+            "3D AI",
+            "2D转3D"
+        ]
     },
     {
         "name": "3DFY AI",
@@ -22756,9 +22272,9 @@ const websitesDatabase = [
         "url": "https://3dfy.ai/",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "3D资产"
-    ]
+            "3D AI",
+            "3D资产"
+        ]
     },
     {
         "name": "Sloyd",
@@ -22767,9 +22283,9 @@ const websitesDatabase = [
         "url": "https://www.sloyd.ai/",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "游戏资产"
-    ]
+            "3D AI",
+            "游戏资产"
+        ]
     },
     {
         "name": "Luma Labs",
@@ -22778,9 +22294,9 @@ const websitesDatabase = [
         "url": "https://lumalabs.ai/",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "视频转3D"
-    ]
+            "3D AI",
+            "视频转3D"
+        ]
     },
     {
         "name": "DreamFusion",
@@ -22789,9 +22305,9 @@ const websitesDatabase = [
         "url": "https://dreamfusion3d.github.io/",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "文本转3D"
-    ]
+            "3D AI",
+            "文本转3D"
+        ]
     },
     {
         "name": "Ponzu",
@@ -22800,9 +22316,9 @@ const websitesDatabase = [
         "url": "https://www.ponzu.gg/",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "贴图纹理"
-    ]
+            "3D AI",
+            "贴图纹理"
+        ]
     },
     {
         "name": "Text to Skybox",
@@ -22811,9 +22327,9 @@ const websitesDatabase = [
         "url": "https://skybox.blockadelabs.com/",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "Skybox"
-    ]
+            "3D AI",
+            "Skybox"
+        ]
     },
     {
         "name": "Poly",
@@ -22822,9 +22338,9 @@ const websitesDatabase = [
         "url": "https://withpoly.com/browse/textures",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "3D材质"
-    ]
+            "3D AI",
+            "3D材质"
+        ]
     },
     {
         "name": "Plasmo",
@@ -22833,9 +22349,9 @@ const websitesDatabase = [
         "url": "https://www.plasmo.ai/",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "草图转3D"
-    ]
+            "3D AI",
+            "草图转3D"
+        ]
     },
     {
         "name": "Cascadeur",
@@ -22844,9 +22360,9 @@ const websitesDatabase = [
         "url": "https://cascadeur.com/",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "关键帧动画"
-    ]
+            "3D AI",
+            "关键帧动画"
+        ]
     },
     {
         "name": "KAEDIM",
@@ -22855,10 +22371,10 @@ const websitesDatabase = [
         "url": "https://www.kaedim3d.com/",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "3D模型",
-        "纹理"
-    ]
+            "3D AI",
+            "3D模型",
+            "纹理"
+        ]
     },
     {
         "name": "Plask",
@@ -22867,9 +22383,9 @@ const websitesDatabase = [
         "url": "https://plask.ai/",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "动捕"
-    ]
+            "3D AI",
+            "动捕"
+        ]
     },
     {
         "name": "DeepMotion",
@@ -22878,10 +22394,10 @@ const websitesDatabase = [
         "url": "https://www.deepmotion.com/",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "动捕",
-        "身体跟踪"
-    ]
+            "3D AI",
+            "动捕",
+            "身体跟踪"
+        ]
     },
     {
         "name": "Rokoko",
@@ -22890,9 +22406,9 @@ const websitesDatabase = [
         "url": "https://www.rokoko.com/",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "视频转3D"
-    ]
+            "3D AI",
+            "视频转3D"
+        ]
     },
     {
         "name": "Move.AI",
@@ -22901,9 +22417,9 @@ const websitesDatabase = [
         "url": "https://www.move.ai/",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "动捕"
-    ]
+            "3D AI",
+            "动捕"
+        ]
     },
     {
         "name": "Shape-e",
@@ -22912,9 +22428,9 @@ const websitesDatabase = [
         "url": "https://lablab.ai/tech/openai/shap-e",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "文本转3D"
-    ]
+            "3D AI",
+            "文本转3D"
+        ]
     },
     {
         "name": "Spline Al",
@@ -22923,9 +22439,9 @@ const websitesDatabase = [
         "url": "https://spline.design/ai-generate",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "3D编辑器"
-    ]
+            "3D AI",
+            "3D编辑器"
+        ]
     },
     {
         "name": "Meshy",
@@ -22934,12 +22450,5280 @@ const websitesDatabase = [
         "url": "https://www.meshy.ai/",
         "category": "3D AI",
         "tags": [
-        "3D AI",
-        "文本转3D",
-        "图像转3D"
+            "3D AI",
+            "文本转3D",
+            "图像转3D"
+        ]
+    },
+    {
+        "name": "LALAL.AI",
+        "description": "AI人声乐器分离和提取",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564747LALAL.AI.png",
+        "url": "https://www.lalal.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Audo Studio",
+        "description": "AI音频清洗工具（噪音消除、声音平衡、音量调节）",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564747Audo%20Studio.png",
+        "url": "https://audo.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Krisp",
+        "description": "AI噪音消除工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564748Krisp.png",
+        "url": "https://krisp.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "网易天音",
+        "description": "网易出品！一站式AI编曲渲染导出，零基础写歌",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494104%E7%BD%91%E6%98%93%E5%A4%A9%E9%9F%B3.png",
+        "url": "https://tianyin.163.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Riffusion",
+        "description": "AI生成不同风格的音乐",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564747Riffusion.png",
+        "url": "https://www.riffusion.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "讯飞智作",
+        "description": "科大讯飞推出的AI转语音和配音工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564747%E8%AE%AF%E9%A3%9E%E6%99%BA%E4%BD%9C.png",
+        "url": "https://peiyin.xunfei.cn/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Voice.ai",
+        "description": "可以创建和修改任何声音的在线人工智能语音转换器",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564749Voice.ai.png",
+        "url": "https://voice.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "Soundraw",
+        "description": "用AI制作免费的音乐",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494105Soundraw.png",
+        "url": "https://soundraw.io/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "微软文字转语音",
+        "description": "微软文本转语音，支持选择多种语音风格，可调节语速",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564774%E5%BE%AE%E8%BD%AF%E6%96%87%E5%AD%97%E8%BD%AC%E8%AF%AD%E9%9F%B3.png",
+        "url": "https://azure.microsoft.com/zh-cn/products/cognitive-services/text-to-speech",
+        "category": "音频AI",
+        "tags": [
+            "音频AI"
+        ]
+    },
+    {
+        "name": "AI Song Maker",
+        "description": "AI音乐生成器轻松生成歌曲和创作音乐",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202507/1751615171424352_AISongMaker.png",
+        "url": "https://www.aisongmaker.io/?utm_source=amz123.com",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Resemble.ai",
+        "description": "AI人声生成工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564747Resemble.ai.png",
+        "url": "https://www.resemble.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "IBM Watson文字转语音",
+        "description": "IBM Watson文字转语音",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564747IBM%20Watson%E6%96%87%E5%AD%97%E8%BD%AC%E8%AF%AD%E9%9F%B3.png",
+        "url": "https://www.ibm.com/cloud/watson-text-to-speech",
+        "category": "音频AI",
+        "tags": [
+            "音频AI"
+        ]
+    },
+    {
+        "name": "FakeYou",
+        "description": "Deep Fake文本转语音，可以生成多种语言和声音的音频剪辑",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564747FakeYou.png",
+        "url": "https://fakeyou.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI"
+        ]
+    },
+    {
+        "name": "AssemblyAI",
+        "description": "转录和理解语音的AI模型",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564747AssemblyAI.png",
+        "url": "https://www.assemblyai.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "NaturalReader",
+        "description": "AI文本转语音工具，支持 99+ 种语言",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564747NaturalReader.png",
+        "url": "https://www.naturalreaders.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Murf AI",
+        "description": "AI文本转语音生成工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564748Murf%20AI.png",
+        "url": "https://murf.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Lemonaid",
+        "description": "为音乐人提供音乐灵感的AI生成工具网站",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564748Lemonaid.png",
+        "url": "https://lemonaid.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Boomy",
+        "description": "使用人工智能技术帮助用户快速创建和分享音乐",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564748Boomy.png",
+        "url": "https://boomy.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "LOVO AI",
+        "description": "可为 100 种语言提供逼真的 AI 语音，适用于各种用例，例如营销、教育、游戏等",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564748LOVO%20AI.png",
+        "url": "https://lovo.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Typecast",
+        "description": "在线AI文字转语音生成工具，一款简单易用的人工智能音频和视频转换器，可提供卓越的准确性、速度和高级功能",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564748Typecast.png",
+        "url": "https://typecast.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具",
+            "智能"
+        ]
+    },
+    {
+        "name": "Veed AI Voice Generator",
+        "description": "Veed推出的AI语音生成器",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564748Veed%20AI%20Voice%20Generator.png",
+        "url": "https://www.veed.io/tools/text-to-speech-video/ai-voice-generator",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Clipchamp AI旁白生成器",
+        "description": "Clipchamp的文字转语音生成器",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564748Clipchamp%20AI%E6%97%81%E7%99%BD%E7%94%9F%E6%88%90%E5%99%A8.png",
+        "url": "https://clipchamp.com/zh-hans/features/ai-voice-over-generator",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "MetaVoice",
+        "description": "用AI人工智能新型技术，实现超逼真声音呈现",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564748MetaVoice.png",
+        "url": "https://themetavoice.xyz/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "Speechify",
+        "description": "超2000万人都在用的文字转语音朗读器",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564749Speechify.png",
+        "url": "https://speechify.com/zh-hans",
+        "category": "音频AI",
+        "tags": [
+            "音频AI"
+        ]
+    },
+    {
+        "name": "Voicemaker",
+        "description": "可以使用文本到语音转换器和人工智能技术，为您的视频、音频、游戏等内容创建自然的配音",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564749Voicemaker.png",
+        "url": "https://voicemaker.in/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "Listnr",
+        "description": "拥有一个包含900多种语言和方言的声音库，使用户可以轻松地将文本转换为逼真的AI语音",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564749Listnr.png",
+        "url": "https://www.listnr.tech/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Voicemod",
+        "description": "免费的实时语音变换器和声音板，适用于Windows和macOS",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564749Voicemod.png",
+        "url": "https://www.voicemod.net/ai-voices",
+        "category": "音频AI",
+        "tags": [
+            "音频AI"
+        ]
+    },
+    {
+        "name": "WellSaid Labs",
+        "description": "可在几秒钟内将文本转换为画外音，提供 50 多种高质量合成语音",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564749WellSaid%20Labs.png",
+        "url": "https://wellsaidlabs.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI"
+        ]
+    },
+    {
+        "name": "Play",
+        "description": "根据文本生成多种逼真的语音",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494105Play.png",
+        "url": "https://play.ht/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI"
+        ]
+    },
+    {
+        "name": "BeatBot",
+        "description": "AI音乐制作工具，可以帮助用户创作个性化的音乐",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494104BeatBot.png",
+        "url": "https://beatbot.fm/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Mubert",
+        "description": "1分钟内生成AI背景音乐",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722246141542717_Mubert.png",
+        "url": "https://mubert.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Uberduck",
+        "description": "开源的AI语音生成平台",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494105uberduck.png",
+        "url": "https://uberduck.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "TTSMaker",
+        "description": "TTSMaker是一个免费的文本转语音工具，提供语音合成服务，支持多种语言。",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564774TTSMaker.png",
+        "url": "https://ttsmaker.com/zh-cn",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "ElevenLabs",
+        "description": "十一实验室-语音人工智能，使用最先进的多用途AI 语音工具，以任何声音和风格生成高质量的语音音频。",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564774ElevenLabs.png",
+        "url": "https://beta.elevenlabs.io/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具",
+            "智能"
+        ]
+    },
+    {
+        "name": "Ondoku",
+        "description": "语音朗读软件Ondoku。这是一种无需安装，任何人都可以免费使用的语音朗读服务。",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564774Ondoku.png",
+        "url": "https://ondoku3.com/zh-hans",
+        "category": "音频AI",
+        "tags": [
+            "音频AI"
+        ]
+    },
+    {
+        "name": "koolio.ai",
+        "description": "koolio.ai可以让你在几分钟内把一个概念变成一个完整的播客。我们帮助您编辑播客，轻松制作优质内容。无论是转录音频，与他人合作，根据上下文自动选择音效或音乐来增强播客。",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564775koolio.ai.png",
+        "url": "https://www.koolio.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI"
+        ]
+    },
+    {
+        "name": "人声去除",
+        "description": "用强大的人工智能算法将声音从音乐中分离出来",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564774%E4%BA%BA%E5%A3%B0%E5%8E%BB%E9%99%A4.png",
+        "url": "https://vocalremover.org/zh",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "Stable Audio",
+        "description": "Stability Al最新推出的音乐生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722237772418109_StableAudio.png",
+        "url": "https://www.stableaudio.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Speaking AI",
+        "description": "一键克隆！效果真实的文本转语音神器",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721115365975625_SpeakingAI.jpg",
+        "url": "https://speaking.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "海绵音乐",
+        "description": "字节跳动推出的免费AI音乐创作和发现平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721200997558621_%E6%B5%B7%E7%BB%B5%E9%9F%B3%E4%B9%90.png",
+        "url": "https://www.haimian.com/featured",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "TME Studio",
+        "description": "腾讯音乐推出的智能音乐创作助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722237714000290_TMEStudio.png",
+        "url": "https://y.qq.com/tme_studio/index.html#/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "智能",
+            "助手"
+        ]
+    },
+    {
+        "name": "Wondercraft",
+        "description": "AI音频内容生成工具，可创建播客有声书等",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721208529151685_Wondercraft.png",
+        "url": "https://www.wondercraft.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Suno",
+        "description": "高质量的AI音乐创作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721984259958575_Suno%E9%9F%B3%E9%A2%91.png",
+        "url": "https://www.suno.cn/home/?from=Bing02&msclkid=f39d05f1293a17454fb3629f486aa12e#/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Udio",
+        "description": "免费的AI音乐创作工具，每月可生成1200首歌曲",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722237647900242_Udio.png",
+        "url": "https://www.udio.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "琅琅配音",
+        "description": "智能文本转语音工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722237850804310_%E7%90%85%E7%90%85%E9%85%8D%E9%9F%B3.png",
+        "url": "https://lang123.top/?rmd=64546",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "工具",
+            "智能"
+        ]
+    },
+    {
+        "name": "Sonauto",
+        "description": "免费的AI音乐生成和歌曲创作工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722238349063936_Sonauto.png",
+        "url": "https://sonauto.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "天工SkyMusic",
+        "description": "昆仑万维发布的国内首个AI音乐生成大模型",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722238617596455_%E5%A4%A9%E5%B7%A5SkyMusic.png",
+        "url": "https://music.tiangong.cn/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "魔音工坊",
+        "description": "AI配音软件，轻松配出媲美真人的声音",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722238980024553_%E9%AD%94%E9%9F%B3%E5%B7%A5%E5%9D%8A.png",
+        "url": "https://www.moyin.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "大饼AI变声",
+        "description": "免费专业的AI变声软件，一键实时语音变声",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722239225327253_%E5%A4%A7%E9%A5%BCAI%E5%8F%98%E5%A3%B0.png",
+        "url": "https://dubbing.tech/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Supertone Shift",
+        "description": "AI驱动的实时语音变换软件",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722239760567578_SupertoneShift.png",
+        "url": "https://product.supertone.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Adobe Podcast",
+        "description": "Adobe推出的在线AI音频录制和编辑工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722239955407898_AdobePodcast.png",
+        "url": "https://podcast.adobe.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "网易云音乐·X Studio",
+        "description": "网易云音乐与小冰智能联合推出的免费AI歌手音乐创作软件",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722240050178914_%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%C2%B7XStudio.png",
+        "url": "https://xstudio.music.163.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "听脑AI",
+        "description": "人工智能语音录音记录助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722243275394374_%E5%90%AC%E8%84%91AI.png",
+        "url": "https://itingnao.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "智能",
+            "助手"
+        ]
+    },
+    {
+        "name": "Voicenotes",
+        "description": "AI驱动的语音笔记工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722240776216759_Voicenotes.png",
+        "url": "https://voicenotes.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "OptimizerAl",
+        "description": "AI声音效果生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722241073845858_OptimizerAl.png",
+        "url": "https://www.optimizerai.xyz/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "ACE Studio",
+        "description": "AI歌声合成工具，输入歌词与旋律即可生成宛如真人的歌声",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722242931266033_ACEStudio.png",
+        "url": "https://ace-studio.timedomain.cn/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "蓝藻AI",
+        "description": "云知声旗下的AI配音和声音克隆平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722243237443200_%E8%93%9D%E8%97%BBAI.png",
+        "url": "https://aigc.unisound.com/home",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Reecho睿声",
+        "description": "超拟真的中英文AI语音克隆/生成平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722243412645167_Reecho%E7%9D%BF%E5%A3%B0.png",
+        "url": "https://www.reecho.cn/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Deepgram",
+        "description": "快速低成本的AI语音文本互转API平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722243629614083_Deepgram.png",
+        "url": "https://deepgram.com/?ps_partner_key=ZG9uYWxkY29vcGVyNjk1OA&ps_xid=rvSpd4ihNp8JhD&gsxid=rvSpd4ihNp8JhD&gspk=ZG9uYWxkY29vcGVyNjk1OA",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Audiobox",
+        "description": "Meta推出的免费开源的AI语音和声音生成模型",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722243847723652_Audiobox.png",
+        "url": "https://audiobox.metademolab.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "BGM猫",
+        "description": "灵动音科技推出的AI智能生成BGM音乐",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722245788776412_BGM%E7%8C%AB.png",
+        "url": "https://bgmcat.com/home",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "快转字幕",
+        "description": "AI语音视频转文字和字幕的工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722245929631938_%E5%BF%AB%E8%BD%AC%E5%AD%97%E5%B9%95.png",
+        "url": "https://www.kzzimu.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "悦音配音",
+        "description": "AI智能在线配音语音合成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722246027115158_%E6%82%A6%E9%9F%B3%E9%85%8D%E9%9F%B3.png",
+        "url": "https://yueyin.zhipianbang.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具",
+            "智能"
+        ]
+    },
+    {
+        "name": "Beatoven.ai",
+        "description": "免版税AI音乐创建平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722246258234720_Beatoven.ai.png",
+        "url": "https://www.beatoven.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "通义听悟",
+        "description": "聚焦音视频内容的工作学习AI助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1725008961841953_%E9%80%9A%E4%B9%89%E5%90%AC%E6%82%9F.png",
+        "url": "https://tingwu.aliyun.com/home",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "助手"
+        ]
+    },
+    {
+        "name": "Notta",
+        "description": "AI在线将语音转换成文字",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1725009064414678_Notta.png",
+        "url": "https://www.notta.ai/en",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "音虫",
+        "description": "用于音乐编曲和录音的软件， 致力于帮助更多的音乐爱好者体会音乐创作的乐趣",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202409/1726821476655287_%E9%9F%B3%E8%99%AB.png",
+        "url": "https://www.soundbug.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI"
+        ]
+    },
+    {
+        "name": "音疯",
+        "description": "昆仑万维推出的AI音乐创作平台，一键生成原创歌曲",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202409/1726821680899623_%E9%9F%B3%E7%96%AF.png",
+        "url": "https://www.yinfeng.cn/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Memo Al",
+        "description": "免费的AI语音转文字工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729157179185604_MemoAl.png",
+        "url": "https://memo.ac/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Fryderyk",
+        "description": "AI音乐创作工具，集成了多种乐器声音",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729157795027669_Fryderyk.png",
+        "url": "https://fryderyk.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "刺鸟配音",
+        "description": "刺鸟科技推出的专业AI配音工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729157871873574_%E5%88%BA%E9%B8%9F%E9%85%8D%E9%9F%B3.png",
+        "url": "https://www.icnpy.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "TextToSpeech",
+        "description": "完全免费的AI文字转语音工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729157958521289_TextToSpeech.png",
+        "url": "https://texttospeech.im/zh-CN",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Lyrics Into Song Al",
+        "description": "在线AI音乐创作工具，输入歌词创建个性化歌曲",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729158028990491_LyricsIntoSongAl.png",
+        "url": "https://lyricsintosong.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Rask",
+        "description": "领先的AI视频本地化和配音工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721116014184584_Rask.jpg",
+        "url": "https://zh.rask.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "MiniMax Audio",
+        "description": "MiniMax推出的AI语音合成工具，支持声音克隆",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202503/1743065460776183_MiniMax-logo.png",
+        "url": "https://www.minimax.io/audio",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Mureka",
+        "description": "昆仑万维推出的 AI 音乐商用创作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202503/1743065759384026_Mureka-logo.png",
+        "url": "https://www.mureka.ai/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Noiz Al",
+        "description": "AI配音工具，支持文本转语音和声音克隆",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202504/1744960949208613_Noiz-AI-logo.png",
+        "url": "https://noiz.ai/landing",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Synthesia",
+        "description": "AI视频生成平台",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564750Synthesia.png",
+        "url": "https://www.synthesia.io/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "SoraBox",
+        "description": "创意视频和提示词，每日更新官方和用户生成的视频&提示词",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1710294905289773_iwEcAqNqcGcDAQTRAc0F0QHNBrA0RbADhJgayAXe_zE_mSQAB9InDBVoCAAJomltCgAL0Ti-.jpg_720x720q90.jpeg",
+        "url": "https://sorabox.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI"
+        ]
+    },
+    {
+        "name": "Lumen5",
+        "description": "AI将博客文章转换成视频",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564749Lumen5.png",
+        "url": "https://lumen5.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Pictory",
+        "description": "AI视频制作工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564751Pictory.png",
+        "url": "https://pictory.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Veed Video Background Remover",
+        "description": "Veed推出的AI视频背景移除工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564750Veed%20Video%20Background%20Remover.png",
+        "url": "https://www.veed.io/zh-CN/tools/video-background-remover",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Fliki",
+        "description": "高效帮用户创建视频，具有文本转语音功能",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494105Fliki.png",
+        "url": "https://fliki.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI"
+        ]
+    },
+    {
+        "name": "D-ID",
+        "description": "告别昂贵的传统视频创作!在几分钟内从纯文本创建视频!易于使用，价格低廉，可扩展。",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564775D-ID.png",
+        "url": "https://www.d-id.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI"
+        ]
+    },
+    {
+        "name": "Runway",
+        "description": "最强AI视频工具，绿幕抠除、视频生成、动态捕捉等",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564749Runway.png",
+        "url": "https://runwayml.com/green-screen",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "DeepBrain",
+        "description": "AI视频生成工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564749DeepBrain.png",
+        "url": "https://www.deepbrain.io/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "腾讯智影",
+        "description": "腾讯推出的在线智能视频创作平台",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564750%E8%85%BE%E8%AE%AF%E6%99%BA%E5%BD%B1.png",
+        "url": "https://zenvideo.qq.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "闪剪AI数字人",
+        "description": "AI数字人短视频营销创作工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1709881226269484_lQLPKdGk9YyFuAvNAz7NAz6wTjqmBsK9QSIF2NRLjjt3AA_830_830.png",
+        "url": "https://shanjian.tv/?inviteId=65e98097ae6461003b3e77e7",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "AIGC工具一帧秒创",
+        "description": "一键图文转视频，生成AI数字人，零门槛创作",
+        "iconUrl": "https://img.amz123.com/image_cloud/202309/1695719315137_7c03aa4283cb5c67c24d8ed95c3bf2b.png",
+        "url": "https://aigc.yizhentv.com/?_f=amz123",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "VidAU AI",
+        "description": "视频换脸、视频翻译、AI数字人、字幕翻译",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202404/1714096853672857_1714096807546.png",
+        "url": "https://www.vidau.ai/?p_invite_code=semqCU17",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "翻译"
+        ]
+    },
+    {
+        "name": "AIMIX智剪",
+        "description": "AIGC电商内容生成平台，集混剪、文案、字幕、语音合成等功能，助力短电商运营",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202401/1705910326656230_lQLPJwaN3byqTDPMyMzIsMVUGSyFU4N7BZ2pYFe7HwA_200_200.png",
+        "url": "https://www.aimix.pro/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "电商",
+            "运营"
+        ]
+    },
+    {
+        "name": "怪兽AI数字人",
+        "description": "实时交互数字人直播，数字人短视频创作",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202402/1709175905297919_lQLPJwC5Yno3XcPMyMzIsN-9c24OT-zQBc5SbZBqJgA_200_200.png",
+        "url": "https://www.guaishouai.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "快创3D秀",
+        "description": "高效易用的AI三维动画制作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202311/1700105179452867_cfd05ac4e92c329aa5abc269d3fbffa.jpg",
+        "url": "https://www.quick3dshow.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "万兴播爆（AI数字人）",
+        "description": "3分钟完成一条出海营销视频",
+        "iconUrl": "https://img.amz123.com/image_cloud/202308/1691129179591_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230804140538.jpg",
+        "url": "https://virbo.wondershare.cn/?channeltype=bd&utm_source=other_media_sites&utm_medium=referral&utm_campaign=amzai&utm_content=link_21038719_2023-08-04",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Unscreen",
+        "description": "AI智能视频背景移除工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564749Unscreen.png",
+        "url": "https://www.unscreen.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具",
+            "智能"
+        ]
+    },
+    {
+        "name": "有言3D视频",
+        "description": "一站式AI视频创作和3D数字人生成平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202405/1716280948333993_267620d4452727540763ff8ca92e0b03.png",
+        "url": "https://youyan.xyz/platform/home/prime?from=amz123",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "千面视频动捕",
+        "description": "上传一段视频生成3D动作数据",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724916520467164_afc4fc7a1ff3efedef44fede635d809d.png",
+        "url": "https://www.qmai.vip/register?code=AMZ",
+        "category": "视频AI",
+        "tags": [
+            "视频AI"
+        ]
+    },
+    {
+        "name": "万彩AI-短视频",
+        "description": "只需文案，自动生成动画短视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202505/1747815313262742_%E4%B8%87%E5%BD%A9AI-%E7%9F%AD%E8%A7%86%E9%A2%91.png",
+        "url": "https://ai.kezhan365.com/?utm_code=zmz123-zjc-dhl-062",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "DreamFace",
+        "description": "让图片动起来的AI工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564749DreamFace.png",
+        "url": "https://dreamfaceapp.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Rephrase.ai",
+        "description": "AI文字到视频生成",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564750Rephrase.ai.png",
+        "url": "https://www.rephrase.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Synthesys",
+        "description": "AI虚拟人出镜讲解",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564750Synthesys.png",
+        "url": "https://synthesys.io/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Hour One",
+        "description": "人工智能文字到视频生成",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564750Hour%20One.png",
+        "url": "https://hourone.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "BgRem",
+        "description": "无水印AI视频背景移除",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564750BgRem.png",
+        "url": "https://bgrem.deelvin.com/zh/remove_video_bg/?params=start",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Colourlab.ai",
+        "description": "好莱坞也在用的AI视频颜色分级工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564750Colourlab.ai.png",
+        "url": "https://colourlab.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Cutout.Pro",
+        "description": "AI一键视频背景移除",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564750Cutout.Pro.png",
+        "url": "https://www.cutout.pro/zh-CN/remove-video-background",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Colossyan",
+        "description": "AI虚拟人出镜视频生成",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564750Colossyan.png",
+        "url": "https://www.colossyan.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "AVCLabs",
+        "description": "AI自动移除视频背景",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564750AVCLabs.png",
+        "url": "https://app.avclabs.com/#",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Movio",
+        "description": "AI真人出镜视频讲解",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564751Movio.png",
+        "url": "https://www.movio.la/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Elai.io",
+        "description": "AI文本到视频生成工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564751Elai.io.png",
+        "url": "https://elai.io/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "SteveAI",
+        "description": "Animaker旗下AI在线视频制作工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564751SteveAI.png",
+        "url": "https://www.steve.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Wonder Studio",
+        "description": "真人表演自动转换为CG",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494104Wonder%20Studio.png",
+        "url": "https://wonderdynamics.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI"
+        ]
+    },
+    {
+        "name": "Chat YouTube",
+        "description": "Chat with anyYouTube video",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564777Chat%20YouTube.png",
+        "url": "https://chatyoutube.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI"
+        ]
+    },
+    {
+        "name": "BibiGPT",
+        "description": "一键总结B站音视频内容",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494104BibiGPT.png",
+        "url": "https://b.jimmylv.cn/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "总结"
+        ]
+    },
+    {
+        "name": "鬼手剪辑GhostCut",
+        "description": "AI视频翻译&字幕擦除工具",
+        "iconUrl": "https://img.amz123.com/image_cloud/202306/1686814190327_%E9%AC%BC%E6%89%8B%E5%89%AA%E8%BE%91GhostCut.jpg",
+        "url": "https://cn.jollytoday.com/home/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具",
+            "翻译"
+        ]
+    },
+    {
+        "name": "必剪Studio",
+        "description": "B站推出的免费AI数字分身定制和视频创作工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721202112367442_%E5%BF%85%E5%89%AA.png",
+        "url": "https://bcut.bilibili.cn/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Noisee Al",
+        "description": "月之暗面旗下推出的AI音乐视频MV生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721202369515796_NoiseeAl.jpg",
+        "url": "https://noisee.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Hedra",
+        "description": "AI对口型视频生成工具，单次可免费生成30秒的视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721202993481579_Hedra.png",
+        "url": "https://www.hedra.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "KreadoAl",
+        "description": "AI数字人视频营销创作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721203251098018_KreadoAl.png",
+        "url": "https://kreadoai.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "WinkStudio",
+        "description": "美图推出的桌面端AI视频剪辑工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721272678845231_WinkStudio.png",
+        "url": "https://wink.meitu.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "快剪辑",
+        "description": "360旗下的AI视频剪辑工具，AI成片、AI数字人、智能添加字幕、去水印",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721274866593172_%E5%BF%AB%E5%89%AA%E8%BE%91.png",
+        "url": "https://www.kuaijianji.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具",
+            "智能"
+        ]
+    },
+    {
+        "name": "Stable Video",
+        "description": "Stability Al上线的AI视频生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721267616280318_StableVideo.png",
+        "url": "https://www.stablevideo.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Sora",
+        "description": "OpenAl推出的AI文本到视频生成模型",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721268882246437_Sora.png",
+        "url": "https://openai.com/index/sora/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "即创",
+        "description": "抖音推出的一站式智能创作平台，支持视频、图文和直播创作",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721268948437441_%E5%8D%B3%E5%88%9B.png",
+        "url": "https://aic.oceanengine.com/login",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "度加创作工具",
+        "description": "百度官方出品的AIGC创作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721269517564944_%E5%BA%A6%E5%8A%A0%E5%88%9B%E4%BD%9C%E5%B7%A5%E5%85%B7.png",
+        "url": "https://aigc.baidu.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "可灵大模型",
+        "description": "快手推出的视频生成大模型，可生成2分钟的视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721269676131382_%E5%8F%AF%E7%81%B5%E5%A4%A7%E6%A8%A1%E5%9E%8B.png",
+        "url": "https://kling.kuaishou.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI"
+        ]
+    },
+    {
+        "name": "Viva",
+        "description": "免费的AI视频生成和图像创作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721270186770719_viva.png",
+        "url": "https://vivago.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "曦灵",
+        "description": "百度推出的AI数字人和视频创作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721270606396883_%E6%9B%A6%E7%81%B5.png",
+        "url": "https://xiling.cloud.baidu.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "寻光",
+        "description": "阿里达摩院推出的全流程AI视频创作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721270743113400_%E5%AF%BB%E5%85%89.png",
+        "url": "https://xunguang.damo-vision.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Duix",
+        "description": "硅基智能推出的AI数字人生成平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721271118485137_Duix.png",
+        "url": "https://www.duix.ai/duix-app-landing-page/#/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "MOKI",
+        "description": "美图推出的AI视频短片创作工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721271207954171_MOKI.png",
+        "url": "https://www.moki.cn/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Vimi",
+        "description": "商汤科技推出的可控人物视频生成AI模型",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721272029259042_vimi.png",
+        "url": "https://www.sensetime.com/cn/product-detail?categoryId=51134571&gioNav=1",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Viggle",
+        "description": "AI生成角色动态视频的工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721272257488156_Viggle.png",
+        "url": "https://viggle.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Spikes Studio",
+        "description": "AI自动将长视频切片剪辑为短视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721272429170661_SpikesStudio.png",
+        "url": "https://www.spikes.studio/?ref=uS3c5lzVrr",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Google Vids",
+        "description": "谷歌推出的AI视频创作工具",
+        "iconUrl": "https://img.amz123.com/image_cloud/202304/1681351205912_%E8%B0%B7%E6%AD%8C.jpg",
+        "url": "https://workspace.google.com/products/vids/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "HeyGen",
+        "description": "专业的AI数字人视频生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721115108796595_Heygen.jpg",
+        "url": "https://heygen.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "DomoAl",
+        "description": "一键将照片和视频动漫化的AI工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721274229862125_DomoAl.png",
+        "url": "https://domoai.app/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Gatekeep",
+        "description": "AI教学视频生成工具，可生成数学物理问题解释视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721274387643756_Gatekeep.png",
+        "url": "https://gatekeep.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Morph Studio",
+        "description": "高质量的AI文本到视频生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721274469129912_MorphStudio.png",
+        "url": "https://www.morphstudio.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Haiper",
+        "description": "AI视频生成和重绘工具，支持文本/图像转视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721274569569146_Haiper.png",
+        "url": "https://haiper.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "星火绘镜",
+        "description": "科大讯飞推出的AI短视频创作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729150232257349_%E6%98%9F%E7%81%AB%E7%BB%98%E9%95%9C.png",
+        "url": "https://typemovie.art/#/dashboard",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Showrunner",
+        "description": "AI动画视频剧集生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724920957914596_Showrunner.png",
+        "url": "https://www.showrunner.xyz/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "即构数智人",
+        "description": "即构科技推出的AI数字人创作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721274792848431_%E5%8D%B3%E6%9E%84%E6%95%B0%E6%99%BA%E4%BA%BA.png",
+        "url": "https://aigc.zego.im/#/MyHome",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "蝉镜",
+        "description": "AI数字人视频生成平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721274959100250_%E8%9D%89%E9%95%9C.png",
+        "url": "https://www.chanjing.cc/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Pika",
+        "description": "Pika Labs推出的AI视频生成和编辑工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721275069182000_Pika.png",
+        "url": "https://pika.art/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Magicam",
+        "description": "实时的AI直播/视频换脸工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721275191602128_Magicam.png",
+        "url": "https://magicam.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "智谱清影",
+        "description": "智谱AI最新推出的AI视频生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724916365229435_%E6%99%BA%E8%B0%B1%E6%B8%85%E5%BD%B1.png",
+        "url": "https://chatglm.cn/main/alltoolsdetail?lang=zh",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "即梦AI",
+        "description": "一站式AI创作平台，支持AI图片和视频生成",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724916459141529_%E5%8D%B3%E6%A2%A6AI.png",
+        "url": "https://jimeng.jianying.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "PixVerse",
+        "description": "爱诗科技推出的AI视频生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724916583341832_PixVerse.png",
+        "url": "https://pixverse.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Vidu",
+        "description": "生数科技与清华大学联合发布的AI视频大模型",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724917088502382_Vidu.png",
+        "url": "https://www.vidu.studio/zh",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Vozo",
+        "description": "集一键重写脚本、配音、对口型、翻译于一体的AI视频编辑工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724917380623632_Vozo.png",
+        "url": "https://www.vozo.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具",
+            "翻译"
+        ]
+    },
+    {
+        "name": "Tavus",
+        "description": "AI视频生成平台，支持数字人克隆和实时对话",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724917482481749_Tavus.png",
+        "url": "https://www.tavus.io/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "SkyReels",
+        "description": "昆仑万维推出的全球首个AI短剧创作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724917738762186_SkyReels.png",
+        "url": "https://skyreels.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Vizard",
+        "description": "将长视频转换为社交短视频片段的AI视频工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724917832746367_Vizard.png",
+        "url": "https://vizard.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Hotshot",
+        "description": "AI视频生成工具，将文本转为3秒逼真视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724918387941709_Hotshot.png",
+        "url": "https://hotshot.co/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Adsdog",
+        "description": "专为跨境电商卖家设计的AI营销工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724919020945292_Adsdog.png",
+        "url": "https://ai-bot.cn/sites/16965.html",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具",
+            "跨境",
+            "电商"
+        ]
+    },
+    {
+        "name": "YoYo",
+        "description": "专注于动漫垂类的AIGC创作工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724919225953996_YoYo.png",
+        "url": "https://avolutionai.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Pixfun",
+        "description": "一站式动画故事AI视频生成平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724919368582503_Pixfun.png",
+        "url": "https://pixfun.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Opus Clip",
+        "description": "人工智能视频剪辑工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724919518943129_OpusClip.png",
+        "url": "https://www.opus.pro/not-available",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "工具",
+            "智能"
+        ]
+    },
+    {
+        "name": "Filmora",
+        "description": "一款简单的视频编辑器，可让您在 Windows 和 Mac 上编辑视频和音频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724920056563432_Filmora.png",
+        "url": "https://filmora.wondershare.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI"
+        ]
+    },
+    {
+        "name": "巨日禄",
+        "description": "一款强大的文本转视频生成神器，帮助用户将文字内容快速转换为令人惊艳的视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724920164627859_%E5%B7%A8%E6%97%A5%E7%A6%84.png",
+        "url": "https://ai.jurilu.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI"
+        ]
+    },
+    {
+        "name": "Descript",
+        "description": "一款由人工智能驱动、功能齐全的端到端视频编辑器",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724920243511335_Descript.png",
+        "url": "https://www.descript.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "开拍",
+        "description": "用AI制作口播视频的生产力工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724920398003976_%E5%BC%80%E6%8B%8D.png",
+        "url": "https://www.kaipai.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "场辞",
+        "description": "新片场推出的AI视频字幕制作工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724920507766850_%E5%9C%BA%E8%BE%9E.png",
+        "url": "https://trans.xinpianchang.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "一起剪",
+        "description": "AI短视频创作平台，图文一键成片",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724920645629247_%E4%B8%80%E8%B5%B7%E5%89%AA.png",
+        "url": "https://www.yiqijian.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "LTX Studio",
+        "description": "AI电影制作和视频短片生成平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724922327954752_LTXStudio.png",
+        "url": "https://ltx.studio/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Clipfly",
+        "description": "一站式AI长视频制作和编辑平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724922565818938_Clipfly.png",
+        "url": "https://www.clipfly.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Captions",
+        "description": "AI驱动的视频剪辑和制作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724922818243394_Captions.png",
+        "url": "https://www.captions.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Capsule",
+        "description": "A驱动的在线视频剪辑工具，个人和小团队免费",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724922935388216_Capsule.png",
+        "url": "https://capsule.video/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "EbSynth",
+        "description": "A将真人视频转化为油画风动画",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724923053239422_EbSynth.png",
+        "url": "https://ebsynth.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI"
+        ]
+    },
+    {
+        "name": "InVideo Al",
+        "description": "人工智能视频创作和剪辑工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724923130668713_InVideoAl.png",
+        "url": "https://invideo.io/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "工具",
+            "智能"
+        ]
+    },
+    {
+        "name": "GoEnhance",
+        "description": "A1视频风格转换和画质增强工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724923190422008_GoEnhance.png",
+        "url": "https://www.goenhance.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Artflow",
+        "description": "AI创建生成视频动画",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724923284115509_Artflow.png",
+        "url": "https://app.artflow.ai/character-builder?feature=actors",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Gencraft",
+        "description": "AI艺术画视频生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729150520657406_Gencraft.png",
+        "url": "https://gencraft.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "模力视频",
+        "description": "AI驱动的视频编辑平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724923803592137_%E6%A8%A1%E5%8A%9B%E8%A7%86%E9%A2%91.png",
+        "url": "https://www.mooliv.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "团队快剪",
+        "description": "闪剪智能专为团队带货打造的AI视频工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724923945953186_%E5%9B%A2%E9%98%9F%E5%BF%AB%E5%89%AA.png",
+        "url": "https://teamcut.shanjian.tv/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具",
+            "智能"
+        ]
+    },
+    {
+        "name": "录咖",
+        "description": "一站式AI音视频总结和转录处理工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724924046478342_%E5%BD%95%E5%92%96.png",
+        "url": "https://reccloud.cn/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具",
+            "总结"
+        ]
+    },
+    {
+        "name": "Kaiber",
+        "description": "图片文字转视频的AI引擎",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724924128383708_Kaiber.png",
+        "url": "https://kaiber.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Typeframes",
+        "description": "AI快速生成高质量的产品介绍视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724924231235967_Typeframes.png",
+        "url": "https://www.typeframes.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Mootion",
+        "description": "AI原生3D动画创作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724924290401842_Mootion.png",
+        "url": "https://mootion.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "来画",
+        "description": "动画和数字人智能生成平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724924362040812_%E6%9D%A5%E7%94%BB.png",
+        "url": "https://www.laihua.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "奇妙元",
+        "description": "AI数字人视频生成平台，由出门问问推出",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724924479274184_%E5%A5%87%E5%A6%99%E5%85%83.png",
+        "url": "https://weta365.com/conduct",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "绘影字幕",
+        "description": "一键智能在线自动为视频加字幕",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724924543655489_%E7%BB%98%E5%BD%B1%E5%AD%97%E5%B9%95.png",
+        "url": "https://huiyingzimu.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "Genmo",
+        "description": "更具创造性！使用文本指令编辑图像和视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721115464295531_Genmo.png",
+        "url": "https://www.genmo.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI"
+        ]
+    },
+    {
+        "name": "Rask",
+        "description": "AI视频本地化解决方案",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724923402262034_Rask.png",
+        "url": "https://www.rask.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "通义万相AI视频",
+        "description": "阿里推出的一款完全免费的AI视频生成工具，支持文生视频和图生视频两种方式",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721382261481433_%E9%80%9A%E4%B9%89%E4%B8%87%E7%9B%B8.png",
+        "url": "https://tongyi.aliyun.com/wanxiang/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "白日梦",
+        "description": "AI视频创作平台，最长可生成六分钟的视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729146750321493_%E7%99%BD%E6%97%A5%E6%A2%A6.png",
+        "url": "https://aibrm.com/signup?code=dh_aibot",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "神笔马良",
+        "description": "首个面向长剧本解析的动态故事板AI生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729147753496916_%E7%A5%9E%E7%AC%94%E9%A9%AC%E8%89%AF.png",
+        "url": "https://shenbi.maoyan.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Flow studio",
+        "description": "AI视频生成工具，一键生成电影级质量的3分钟长视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729147929176705_Flowstudio.png",
+        "url": "https://flowgpt.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Video Ocean",
+        "description": "潞晨科技推出的多功能AI视频生成平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729148380341704_VideoOcean.png",
+        "url": "https://video.luchentech.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "LensGo",
+        "description": "AI视频创作工具，支持视频转动漫，替换3D人物",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729148866420371_LensGo.png",
+        "url": "https://lensgo.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "讯飞虚拟人",
+        "description": "科大讯飞推出的全栈式AI虚拟人应用服务平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729149443083558_%E8%AE%AF%E9%A3%9E%E8%99%9A%E6%8B%9F%E4%BA%BA.png",
+        "url": "https://virtual-man.xfyun.cn/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Video Studio",
+        "description": "在线AI视频制作工具，零编辑技能制作专业视频内容",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729149670396385_VideoStudio.png",
+        "url": "https://www.vidustudio.net/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Decohere",
+        "description": "AI视频生成平台，支持音频同步功能",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729149785004537_Decohere.png",
+        "url": "https://www.decohere.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "万彩微影",
+        "description": "AI智能自动生成动画短视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729150727787638_%E4%B8%87%E5%BD%A9%E5%BE%AE%E5%BD%B1.png",
+        "url": "https://www.animiz.cn/microvideo/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "飞影数字人",
+        "description": "AI数字人创作平台，支持免费定制数字人",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729150812092820_%E9%A3%9E%E5%BD%B1%E6%95%B0%E5%AD%97%E4%BA%BA.png",
+        "url": "https://www.flyworks.live/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "艺映AI",
+        "description": "AI视频创作工具，支持文生视频、因图生视频及视频转浸画功能",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202411/1731566854666522_%E8%89%BA%E6%98%A0.png",
+        "url": "https://www.artink.art/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "OneStory",
+        "description": "AI故事生成助手，创作故事和视频变得像说话一样简单",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202411/1731568148898313_OneStory.png",
+        "url": "https://onestory.art/dashboard",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "助手"
+        ]
+    },
+    {
+        "name": "Etna",
+        "description": "七火山科技推出的AI文生视频工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202411/1731568402717721_Etna.png",
+        "url": "https://etna.7volcanoes.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "VMagic",
+        "description": "AI视频处理平台，提供视频风格转换、换脸、照片舞蹈等功能",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202411/1731568809406498_VMagic.png",
+        "url": "https://www.vmagic.app/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "腾讯混元文生视频",
+        "description": "腾讯推出的AI视频生成模型，能根据文本提示生成相应的视频内容",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202412/1735200786932812_th.png",
+        "url": "https://video.hunyuan.tencent.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "绘蛙AI视频",
+        "description": "AI图生视频工具，一键将模特图变成动态视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721289375221121_%E7%BB%98%E8%9B%99.png",
+        "url": "https://www.ihuiwa.com/workspace/ai-video/from-image?huiwaInviteCode=EMRCAL",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "SoundView",
+        "description": "AI视频本地化工具，支持视频配音和翻译",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202412/1735636161822280_SoundView.png",
+        "url": "https://soundviewai.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具",
+            "翻译"
+        ]
+    },
+    {
+        "name": "跃问视频",
+        "description": "阶跃星辰推出的AI视频生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721121505197647_%E8%B7%83%E9%97%AE.png",
+        "url": "https://yuewen.cn/videos",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "元镜",
+        "description": "AI视频生成工具，支持从创意灵感到成品视频实现高效创作",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202503/1741155426822890_%E5%85%83%E9%95%9C%E5%94%89.jpg",
+        "url": "https://yuanjing.zeelin.cn/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "JoyPix",
+        "description": "AI数字人创作工具，支持声音克隆",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202503/1743066022364858_JoyPix-logo.png",
+        "url": "https://www.joypix.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Medeo",
+        "description": "AI视频创作平台，一句话生成完整视频",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202505/1748310419333342_Medeo-logo.jpg",
+        "url": "https://www.medeo.app/?utm_source",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Boba",
+        "description": "AI动漫视频创作工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202508/1755157970977258_Boba-logo.webp",
+        "url": "https://www.boba.video/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Microsoft 365 Copilot",
+        "description": "暂未开放！内置GPT-4的微软Office",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494105Microsoft%20365%20Copilot.png",
+        "url": "https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI"
+        ]
+    },
+    {
+        "name": "酷表ChatExcel",
+        "description": "北大团队开发的通过聊天来操作Excel表格的AI工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564756%E9%85%B7%E8%A1%A8ChatExcel.png",
+        "url": "https://chatexcel.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Decktopus AI",
+        "description": "高质量AI演示文稿生成工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564755Decktopus%20AI.png",
+        "url": "https://www.decktopus.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Powerpresent AI",
+        "description": "AI创建精美的演示稿",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564756Powerpresent%20AI.png",
+        "url": "https://present.yaara.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Beautiful.ai",
+        "description": "AI创建展示幻灯片",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564756beautiful.ai.png",
+        "url": "https://www.beautiful.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Presentations.AI",
+        "description": "演示文档版的ChatGPT",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564756Presentations.AI.png",
+        "url": "https://www.presentations.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "文档"
+        ]
+    },
+    {
+        "name": "ProcessOn",
+        "description": "AI一站式绘图平台，轻松创建思维导图流程图",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202312/1702367171222970_a4bdeef55ba72e1aed44fa0896cb470.png",
+        "url": "https://www.processon.com/?utm_source=amz123",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "比格AI PPT",
+        "description": "AI一键智能生成PPT",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202404/1712718250266036_lQDPKGoSF2vfswHNBNrNBNqwS07dm6MasqkGAxuGwKxmAA_1242_1242.jpg",
+        "url": "https://bigesj.com/ai-ppt/?hmmd=amz123",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "Tome",
+        "description": "先进的AI智能PPT制作工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494105Tome.png",
+        "url": "https://beta.tome.app/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具",
+            "智能"
+        ]
+    },
+    {
+        "name": "Glimmer Ai",
+        "description": "热门！基于GPT-3和DALL·E2的AI PPT知名工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494105Glimmer%20Ai.png",
+        "url": "https://glimmerai.tech/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "WordAi",
+        "description": "10倍速AI内容输出！创建读者喜爱的优质内容",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494105WordAi.png",
+        "url": "https://wordai.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Timely",
+        "description": "一款AI时间管理工具！可以帮助你更有效地管理时间",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494106Timely.png",
+        "url": "https://timelyapp.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "ChatBA",
+        "description": "AI幻灯片生成工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564755ChatBA.png",
+        "url": "https://www.chatba.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Whimsical",
+        "description": "Whimsical推出的AI思维导图工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564755Whimsical.gif",
+        "url": "https://whimsical.com/ai-mind-maps",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "讯飞听见",
+        "description": "科大讯飞推出的AI智能会议系统，实时字幕、实时翻译、自动生成会议记录",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564756%E8%AE%AF%E9%A3%9E%E5%90%AC%E8%A7%81.png",
+        "url": "https://meeting.iflyrec.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "智能",
+            "翻译"
+        ]
+    },
+    {
+        "name": "Ajelix",
+        "description": "处理Excel和GoogleSheets表格的AI工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564756Ajelix.png",
+        "url": "https://ajelix.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Sheet+",
+        "description": "Excel和GoogleSheets表格AI处理工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564756Sheet+.png",
+        "url": "https://sheetplus.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "ExcelFormulaBot",
+        "description": "AI将指令转换成Excel的函数公式",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564756ExcelFormulaBot.png",
+        "url": "https://excelformulabot.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Fireflies.ai",
+        "description": "AI会议转录和会议纪要生成工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564756Fireflies.ai.png",
+        "url": "https://fireflies.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Otter.ai",
+        "description": "AI会议内容生成和实时转录",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564757Otter.ai.png",
+        "url": "https://otter.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Taskade",
+        "description": "高颜值AI大纲和思维导图生成",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564757Taskade.png",
+        "url": "https://www.taskade.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "FormX.ai",
+        "description": "AI自动从表格和文档中提取数据",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564757FormX.ai.png",
+        "url": "https://www.formx.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "文档"
+        ]
+    },
+    {
+        "name": "Rossum.ai",
+        "description": "现代化的AI文档处理工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564757Rossum.ai.png",
+        "url": "https://rossum.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "文档",
+            "工具"
+        ]
+    },
+    {
+        "name": "百度AI创作工具箱",
+        "description": "百度大脑智能创作平台",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564731%E7%99%BE%E5%BA%A6AI%E5%88%9B%E4%BD%9C%E5%B7%A5%E5%85%B7%E7%AE%B1.png",
+        "url": "https://ai.baidu.com/creativity/main/workbench",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具",
+            "智能"
+        ]
+    },
+    {
+        "name": "万兴智演",
+        "description": "万兴智演是AIGC软件A股上市公司万兴科技旗下泛知识AI视频演示工具",
+        "iconUrl": "https://img.amz123.com/image_cloud/202310/1697006791834_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231011111251.jpg",
+        "url": "https://zhiyan.wondershare.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Zapier AI",
+        "description": "赞！Zapier推出的AI自动化集成功能",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721122777389816_ZapierAI.png",
+        "url": "https://zapier.com/ai",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Noty AI",
+        "description": "推荐！ChatGPT驱动的AI会议转录工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721122833657931_NotyAI.png",
+        "url": "https://noty.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "笔灵AIPPT",
+        "description": "一键生成PPT和千字演讲稿",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721201912810250_%E7%AC%94%E7%81%B5.png",
+        "url": "https://ibiling.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "AiPPT",
+        "description": "AI快速生成高质量PPT",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721203844250147_aippt.png",
+        "url": "https://www.aippt.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Coda Al",
+        "description": "在线协作平台Coda推出的AI写作和文档助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721203950274163_coda.png",
+        "url": "https://coda.io/product/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "文档",
+            "助手"
+        ]
+    },
+    {
+        "name": "灵办AI",
+        "description": "全能型AI浏览器扩展插件，集成了AI对话、翻译、写作、阅读、搜索和绘图等多功能",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721204077357696_%E7%81%B5%E5%8A%9E.png",
+        "url": "https://ilingban.com/?from=aibootgjj",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "阅读",
+            "翻译"
+        ]
+    },
+    {
+        "name": "Zoom Workplace",
+        "description": "Zoom推出的AI办公协作和交流沟通平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721204141311471_zoom.png",
+        "url": "https://www.zoom.com/zh-cn/products/collaboration-tools/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "iSlide Al",
+        "description": "PPT一键生成+AI个性化编辑",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721276517975795_iSlideAl.png",
+        "url": "https://www.islide.cc/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "美图AI PPT",
+        "description": "美图秀秀推出的免费在线AI生成PPT设计工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721281476876994_%E7%BE%8E%E5%9B%BE.png",
+        "url": "https://www.designkit.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "博思AI PPT",
+        "description": "博思云创推出的在线AI生成PPT工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721281605688032_%E5%8D%9A%E6%80%9DAIPPT.png",
+        "url": "https://pptgo.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Gamma App",
+        "description": "AI幻灯片演示生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721281788597128_GammaApp.png",
+        "url": "https://gamma.app/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "讯飞智文",
+        "description": "科大讯飞推出的免费AIPPT生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721281926711001_%E8%AE%AF%E9%A3%9E%E6%99%BA%E6%96%87.png",
+        "url": "https://zhiwen.xfyun.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "轻竹办公",
+        "description": "在线智能生成和设计PPT的AI工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721282093388415_%E8%BD%BB%E7%AB%B9%E5%8A%9E%E5%85%AC.png",
+        "url": "https://www.qzoffice.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具",
+            "智能"
+        ]
+    },
+    {
+        "name": "Chronicle",
+        "description": "AI高颜值演示文稿创建",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721282186327243_Chronicle.png",
+        "url": "https://chroniclehq.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "万知",
+        "description": "零一万物推出的一站式AI文档阅读和PPT创作工作台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721282478180893_%E4%B8%87%E7%9F%A5.png",
+        "url": "https://www.wanzhi.com/home",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "阅读",
+            "文档"
+        ]
+    },
+    {
+        "name": "Slides Al",
+        "description": "AI快速创建演示幻灯片",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721282575060595_SlidesAl.png",
+        "url": "https://www.slidesai.io/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "歌者AI",
+        "description": "彩漩PPT推出的AIPPT生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721282874632750_%E6%AD%8C%E8%80%85aippt.png",
+        "url": "https://gezhe.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Auxi",
+        "description": "功能强大的PowerPoint Al插件",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721283101994136_Auxi.png",
+        "url": "https://www.auxi.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI"
+        ]
+    },
+    {
+        "name": "MindShow",
+        "description": "国内独立开发者开发的输入内容自动生成演示工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721283235023704_MindShow.png",
+        "url": "https://www.mindshow.fun/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Vika维格云",
+        "description": "智能多维表格和数据生产力平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721283335934586_Vika%E7%BB%B4%E6%A0%BC%E4%BA%91.png",
+        "url": "https://vika.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "Rows",
+        "description": "集成了AI功能的在线表格处理工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721283550011016_Rows.png",
+        "url": "https://rows.com/mysterio-432cd5bb/my-spreadsheets/untitled-1-1NZgTPJGBSbrY5olcQU3tE/b4630305-d4fd-454f-85fa-bb5a2ba26ecf/edit#table1",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "SheetGod",
+        "description": "BoloForms推出的AI Excel公式生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721283667272466_SheetGod.png",
+        "url": "https://www.boloforms.com/sheetgod/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Excel Formularizer",
+        "description": "AI将文本输入转换为Excel公式处理",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721283808140540_ExcelFormularizer.png",
+        "url": "https://formularizer.com/home",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Acrobat Al Assistant",
+        "description": "Adobe推出的Acrobat PDF文档AI助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721284675658207_AcrobatAlAssistant.png",
+        "url": "https://www.adobe.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "PDF",
+            "文档",
+            "助手"
+        ]
+    },
+    {
+        "name": "Cubox",
+        "description": "高效的AI阅读学习助手和信息收集管理工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721284812641083_Cubox.png",
+        "url": "https://cubox.pro/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "阅读",
+            "工具",
+            "助手"
+        ]
+    },
+    {
+        "name": "腾讯文档智能助手",
+        "description": "腾讯推出的AI文档生成和辅助工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721284937318163_%E8%85%BE%E8%AE%AF%E6%96%87%E6%A1%A3%E6%99%BA%E8%83%BD%E5%8A%A9%E6%89%8B.png",
+        "url": "https://docs.qq.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "文档",
+            "工具",
+            "智能",
+            "助手"
+        ]
+    },
+    {
+        "name": "WPS AI",
+        "description": "WPS推出的AI办公助手，已免费开放",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721285175661282_wpsai.png",
+        "url": "https://ai.wps.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "助手"
+        ]
+    },
+    {
+        "name": "通义智文",
+        "description": "基于通义大模型的AI阅读助手，可智能阅读网页、论文、图书和文档",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721180940638457_%E9%80%9A%E4%B9%89.png",
+        "url": "https://tongyi.aliyun.com/zhiwen#/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "阅读",
+            "文档",
+            "智能",
+            "助手"
+        ]
+    },
+    {
+        "name": "百度文库AI助手",
+        "description": "基于文心一言的一站式智能文档助手",
+        "iconUrl": "https://img.amz123.com/image_cloud/202308/1693215709135_%E7%99%BE%E5%BA%A6.jpg",
+        "url": "https://wenku.baidu.com/?_wkts_=1735285069693",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "文档",
+            "智能",
+            "助手"
+        ]
+    },
+    {
+        "name": "字语智能",
+        "description": "一站式智能Office内容创作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721285435795952_%E5%AD%97%E8%AF%AD%E6%99%BA%E8%83%BD.png",
+        "url": "https://getgetai.com/?from=AIGJDH",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "星火文档问答",
+        "description": "基于讯飞星火大模型的AI文档和知识库问答助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721285579372273_%E6%98%9F%E7%81%AB%E6%96%87%E6%A1%A3%E9%97%AE%E7%AD%94.png",
+        "url": "https://chatdoc.xfyun.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "文档",
+            "助手"
+        ]
+    },
+    {
+        "name": "PMAI",
+        "description": "面向产品经理的AI助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721285651334090_PMAI.png",
+        "url": "https://www.pm-ai.cn/?utm_source=NoKVb4O",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "助手"
+        ]
+    },
+    {
+        "name": "PDF.ai",
+        "description": "AI PDF文档阅读工具，智能文档总结摘要",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721285785029867_PDF.ai.png",
+        "url": "https://pdf.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "阅读",
+            "PDF",
+            "文档",
+            "工具",
+            "智能",
+            "总结"
+        ]
+    },
+    {
+        "name": "知我AI",
+        "description": "智能阅读机器人，AI总结文档、网页、视频、播客等",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721285933012844_%E7%9F%A5%E6%88%91AI.png",
+        "url": "https://knowme.xiaoduoai.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "阅读",
+            "文档",
+            "智能",
+            "总结"
+        ]
+    },
+    {
+        "name": "星火科研助手",
+        "description": "提供文献成果调研、论文研读和学术 写作等科学研究助手功能",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721286031424722_%E6%98%9F%E7%81%AB%E7%A7%91%E7%A0%94%E5%8A%A9%E6%89%8B.png",
+        "url": "https://paperlogin.iflytek.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "助手"
+        ]
+    },
+    {
+        "name": "印象AI",
+        "description": "印象笔记推出的AI知识和信息管理功能",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721286137642121_%E5%8D%B0%E8%B1%A1ai.png",
+        "url": "https://www.yinxiang.com/about/yxai-yxbj/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Craft Al Assistant",
+        "description": "在线文档工县Craft推出的AI文档和创作助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721286298814445_CraftAlAssistant.png",
+        "url": "https://www.craft.do/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "文档",
+            "助手"
+        ]
+    },
+    {
+        "name": "Super Al",
+        "description": "AI复杂文档自动识别处理转换",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721286545784988_SuperAl.png",
+        "url": "https://super.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "文档"
+        ]
+    },
+    {
+        "name": "云一朵",
+        "description": "度网盘最新推出的智能助理",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721286674406523_%E4%BA%91%E4%B8%80%E6%9C%B5.png",
+        "url": "https://pan.baidu.com/aipan/welcome?_at_=1721286582943",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "亿图脑图",
+        "description": "亿图脑图AI思维导图助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721286805800082_%E4%BA%BF%E5%9B%BE%E8%84%91%E5%9B%BE.png",
+        "url": "https://www.edrawsoft.cn/mindmaster/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "助手"
+        ]
+    },
+    {
+        "name": "TreeMind树图",
+        "description": "新一代AI智能思维导图",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721286909660340_TreeMind%E6%A0%91%E5%9B%BE.png",
+        "url": "https://shutu.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "Mapify",
+        "description": "Xmind推出的AI思维导图生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721287005990656_Mapify.png",
+        "url": "https://mapify.so/cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "小画桌",
+        "description": "在线协作白板工具，内置AIGC功能",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721287113890421_%E5%B0%8F%E7%94%BB%E6%A1%8C.png",
+        "url": "https://www.xiaohuazhuo.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "知犀AI",
+        "description": "知犀推出的AI思维导图生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721287204852852_%E7%9F%A5%E7%8A%80AI.png",
+        "url": "https://www.swdt.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Xmind Copilot",
+        "description": "Xmind Al思维导图助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721287287926013_XmindCopilot.png",
+        "url": "https://xmind.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "助手"
+        ]
+    },
+    {
+        "name": "妙办AI画图工具",
+        "description": "免费一键生成流程图、思维导图",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721287595505291_%E5%A6%99%E5%8A%9EAI%E7%94%BB%E5%9B%BE%E5%B7%A5%E5%85%B7.png",
+        "url": "https://imiaoban.com/work/AIht?source=35261",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "GitMind思乎",
+        "description": "免费思维导图工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721287736133739_GitMind%E6%80%9D%E4%B9%8E.png",
+        "url": "https://gitmind.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "AmyMind",
+        "description": "开箱即用的在线AI思维导图工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721287979482343_AmyMind.png",
+        "url": "https://amymind.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Miro Al",
+        "description": "在线白板协作工具推出的AI功能",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721288203642459_MiroAl.png",
+        "url": "https://miro.com/mind-map/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "博思AI白板",
+        "description": "AI自动生成文字和思维导图",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721288289558235_%E5%8D%9A%E6%80%9DAI%E7%99%BD%E6%9D%BF.png",
+        "url": "https://boardmix.cn/ai-whiteboard/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "腾讯会议AI小助手",
+        "description": "腾讯会议推出的AI会议内容助理",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721288448575589_%E8%85%BE%E8%AE%AF%E4%BC%9A%E8%AE%AEAI%E5%B0%8F%E5%8A%A9%E6%89%8B.png",
+        "url": "https://meeting.tencent.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "助手"
+        ]
+    },
+    {
+        "name": "麦耳会记",
+        "description": "思必驰推出的AI会议助手，语音转文字、字幕同传、AI摘要",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721288614636672_%E9%BA%A6%E8%80%B3%E4%BC%9A%E8%AE%B0.png",
+        "url": "https://work.duiopen.com/#/home",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "助手"
+        ]
+    },
+    {
+        "name": "Glif",
+        "description": "无代码的AI小工具构建平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721289048929436_Glif.png",
+        "url": "https://glif.app/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "BetterYeah Al",
+        "description": "企业AI应用和助手构建平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721289135612009_BetterYeahAl.png",
+        "url": "https://www.betteryeah.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "助手"
+        ]
+    },
+    {
+        "name": "绘蛙",
+        "description": "阿里推出的AI电商营销工具，可生成图片和文案",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721289375221121_%E7%BB%98%E8%9B%99.png",
+        "url": "https://www.ihuiwa.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具",
+            "电商"
+        ]
+    },
+    {
+        "name": "影刀AI Power",
+        "description": "面向企业的无代码AI开发和集成平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721289454654417_%E5%BD%B1%E5%88%80AIPower.png",
+        "url": "https://www.yingdao.com/ai-power/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Anakin.ai",
+        "description": "一站式无代码AI应用构建平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721289564018005_Anakin.ai.png",
+        "url": "https://anakin.ai/zh-cn",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Merlin",
+        "description": "基于ChatGPT的Chrome浏览器扩展，浏览任意网页时利用GPT",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721289700846246_Merlin.png",
+        "url": "https://www.getmerlin.in/zh-CN",
+        "category": "办公AI",
+        "tags": [
+            "办公AI"
+        ]
+    },
+    {
+        "name": "Raycast Al",
+        "description": "Raycast推出的Mac AI助手，智能写作、编程、回答问题等",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721289766138729_RaycastAl.png",
+        "url": "https://www.raycast.com/pro",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "智能",
+            "助手"
+        ]
+    },
+    {
+        "name": "Einstein Copilot",
+        "description": "Salesforce推出的CRM系统AI对话助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721289924268248_EinsteinCopilot.png",
+        "url": "https://www.salesforce.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "助手"
+        ]
+    },
+    {
+        "name": "靠谱AI",
+        "description": "无代码AI机器人创建平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721290140396093_%E9%9D%A0%E8%B0%B1AI.png",
+        "url": "https://www.kaopuai.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "通答AI",
+        "description": "企业AI数字员工生成平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721290229037531_%E9%80%9A%E7%AD%94AI.png",
+        "url": "https://www.tongdaai.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "奇妙问",
+        "description": "企业AI数字员工生成平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721290319129393_%E5%A5%87%E5%A6%99%E9%97%AE.png",
+        "url": "https://aiask365.com/#/index/home",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "职徒简历",
+        "description": "智能简历制作软件，基于GPT的简历优化和简历代写",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721290390311480_%E8%81%8C%E5%BE%92%E7%AE%80%E5%8E%86.png",
+        "url": "https://www.52cv.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "Napkin",
+        "description": "将文本内容快速转换成演示图像的AI办公工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724997862083212_Napkin.png",
+        "url": "https://www.napkin.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "ChatPPT",
+        "description": "AI一键对话生成PPT，智能排版美化",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724998026767614_ChatPPT.png",
+        "url": "https://www.chat-ppt.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "AI灵感PPT",
+        "description": "免费高效的AIPPT生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724998122232600_AI%E7%81%B5%E6%84%9FPPT.png",
+        "url": "https://www.lgppt.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "百度GBI",
+        "description": "百度推出的全球商业智能平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724998228137718_%E7%99%BE%E5%BA%A6GBI.png",
+        "url": "https://gbi.cloud.baidu.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "轻云图",
+        "description": "轻量化3D文字词云图在线生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724998353068081_%E8%BD%BB%E4%BA%91%E5%9B%BE.png",
+        "url": "https://cloud.yoo-ai.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "北极九章",
+        "description": "新一代AI对话式数据分析平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724999636958158_%E5%8C%97%E6%9E%81%E4%B9%9D%E7%AB%A0.png",
+        "url": "https://datarc.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "分析"
+        ]
+    },
+    {
+        "name": "Ayoa Ultimate",
+        "description": "AI思维导图和头脑风暴工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1725000191003189_AyoaUltimate.png",
+        "url": "https://www.ayoa.com/ultimate/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "WPS灵犀",
+        "description": "WPS推出的AI智能助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1725004445000160_WPS%E7%81%B5%E7%8A%80.png",
+        "url": "https://lingxi.wps.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "智能",
+            "助手"
+        ]
+    },
+    {
+        "name": "奇觅",
+        "description": "游戏广告AI制作与投放平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1725004767642114_%E5%A5%87%E8%A7%85.png",
+        "url": "https://qimi.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "Hoarder",
+        "description": "可自托管的书签应用程序",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1725005520414319_Hoarder.png",
+        "url": "https://hoarder.app/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI"
+        ]
+    },
+    {
+        "name": "司马诸葛",
+        "description": "企业级AI数字员工平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202409/1726822896184455_%E5%8F%B8%E9%A9%AC%E8%AF%B8%E8%91%9B.png",
+        "url": "https://smartchoose.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "YOO简历",
+        "description": "必优科技推出的AI简历生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202409/1726823115632557_yoo%E7%AE%80%E5%8E%86.png",
+        "url": "https://www.yoojober.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "通义晓蜜",
+        "description": "阿里推出的企业智能服务解决方案",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1725008961841953_%E9%80%9A%E4%B9%89%E5%90%AC%E6%82%9F.png",
+        "url": "https://tongyi.aliyun.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "ChatMind",
+        "description": "与AI对话生成思维导图",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729151092450667_ChatMind.png",
+        "url": "https://mapify.so/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "文多多AIPPT",
+        "description": "AI一键生成PPT，支持AI配图和智能资料整合",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729151280061310_%E6%96%87%E5%A4%9A%E5%A4%9A.png",
+        "url": "https://docmee.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "麦当秀Mindshow",
+        "description": "AI在线PPT制作工具，支持Markdown等多种格式",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729151496085533_%E9%BA%A6%E5%BD%93%E7%A7%80Mindshow.png",
+        "url": "https://www.mindshow.vip/workstation/#/home_page",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "熊猫办公",
+        "description": "AI办公服务平台，提供PPT模板、Excel模板、Word模板等资源",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729152371509202_%E7%86%8A%E7%8C%AB%E5%8A%9E%E5%85%AC.png",
+        "url": "https://www.tukuppt.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "怪兽AI知识库",
+        "description": "企业知识库大模型 +智能AI问答机器人",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729152441872165_%E6%80%AA%E5%85%BDAI%E7%9F%A5%E8%AF%86%E5%BA%93.png",
+        "url": "https://www.guaishouai.net/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "NotebookLM",
+        "description": "谷歌推出的AI笔记应用，5分钟生成一段对话播客",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729152597436138_NotebookLM.png",
+        "url": "https://notebooklm.google/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "苏打办公",
+        "description": "360公司推出的一站式AI办公工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729152639961684_%E8%8B%8F%E6%89%93%E5%8A%9E%E5%85%AC.png",
+        "url": "https://bangong.360.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "希沃白板",
+        "description": "专为互动教学设计的AI课件生成器",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202411/1731572759671854_%E5%B8%8C%E6%B2%83.png",
+        "url": "https://easinote.seewo.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "GAIPPT",
+        "description": "AI智能美化PPT工具，上传PPT一键美化",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202411/1731572959690011_GAIPPT.png",
+        "url": "https://www.gaippt.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具",
+            "智能"
+        ]
+    },
+    {
+        "name": "秒出PPT",
+        "description": "一键生成PPT，智能辅助编辑",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202411/1731573052580324_%E7%A7%92%E5%87%BAPPT.png",
+        "url": "https://10sppt.com/pptx/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "智能"
+        ]
+    },
+    {
+        "name": "蓝字典AI求职",
+        "description": "AI求职工具，提供AI简历生成、AI模拟面试服务",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202411/1731574343242199_%E8%93%9D%E5%AD%97%E5%85%B8.png",
+        "url": "https://www.lanzidian.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "神笔简历",
+        "description": "AI简历云平台，专为求职者提供一站式求职服务",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202411/1731574429832083_%E7%A5%9E%E7%AC%94.png",
+        "url": "https://jianli.jiuyeqiao.cn/#/index/index",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "小易AI",
+        "description": "易企秀推出的AI办公工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202411/1731574538138683_%E5%B0%8F%E6%98%93.png",
+        "url": "https://ai.eqxiu.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "自由画布",
+        "description": "百度文库和百度网盘联合推出的AI万能白板",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202502/1739347419132891_%E8%87%AA%E7%94%B1%E7%94%BB%E5%B8%83.jpg",
+        "url": "https://wenku.baidu.co/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "匡优AI",
+        "description": "AI出题工具，快速生成各类考试题目",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202502/1739348021198155_%E5%8C%A1%E4%BC%98AI.png",
+        "url": "https://ai.kyou.ltd/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "飞书多维表格",
+        "description": "表格形态的 AI 工作流搭建工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202503/1743065060438374_feishu-ai-register-logo.png",
+        "url": "https://www.feishu.cn/paid/ai-register?",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "咔片PPT",
+        "description": "AI PPT制作工具，设计美化全流程自动化",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202503/1743066229837713_cappt-logo-1.png",
+        "url": "https://www.cappt.cc/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "无阶未来",
+        "description": "AI应用与弹性算网平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202505/1748310419333342_aivinla-logo.png",
+        "url": "https://www.aivinla.com/spaces",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "UP简历",
+        "description": "AI聊天搞定简历",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202507/1752629751063463_upcv-logo.webp",
+        "url": "https://www.upcv.tech/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI"
+        ]
+    },
+    {
+        "name": "爱图表",
+        "description": "镝数科技推出的A数据可视化和分析工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202508/1755157600954062_aitubiao-logo.webp",
+        "url": "https://aitubiao.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "工具",
+            "分析"
+        ]
+    },
+    {
+        "name": "Shortcut",
+        "description": "AI Excel 超级智能体，处理复杂 Excel 任务",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202508/1755157600954062_Shortcut-logo.webp",
+        "url": "https://www.tryshortcut.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "智能"
+        ]
+    }
+,
+    {
+        "name": "Codeium",
+        "description": "Codeium提供一流的人工智能代码完成和搜索",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564778Codeium.png",
+        "url": "https://codeium.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "智能"
+    ]
+    },
+    {
+        "name": "GitFluence",
+        "description": "GitFluence是人工智能驱动的解决方案，可帮助您快速找到正确的命令。立即开始使用Git命令生成器，节省时间。",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564778GitFluence.png",
+        "url": "https://www.gitfluence.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "智能"
+    ]
+    },
+    {
+        "name": "Tabnine",
+        "description": "AI代码自动补全编程助手",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564753Tabnine.png",
+        "url": "https://www.tabnine.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "Zion",
+        "description": "内置大语言模型，可视化创建属于自己的AI应用",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202312/1701410567738217_fdc85f173a6c18257d2489399fd384d.jpeg",
+        "url": "https://functorz.com/?utm_source=ad&utm_medium=AMZ123business",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "AirOps",
+        "description": "AI SQL语句生成和修改",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564753AirOps.png",
+        "url": "https://www.airops.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "MarsX",
+        "description": "AI无代码软件开发",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564753MarsX.png",
+        "url": "https://www.marsx.dev/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "Warp",
+        "description": "21世纪的终端工具（内置AI命令搜索）",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564753Warp.png",
+        "url": "https://www.warp.dev/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "Fig",
+        "description": "下一代命令行工具（内置AI终端命令自动补全）",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564753Fig.png",
+        "url": "https://fig.io/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "CodeSnippets",
+        "description": "AI代码生成、补全、分析、重构和调试",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564753CodeSnippets.png",
+        "url": "https://codesnippets.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "分析"
+    ]
+    },
+    {
+        "name": "HTTPie AI",
+        "description": "AI API开发工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564753HTTPie%20AI.gif",
+        "url": "https://httpie.io/ai",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "AI Code Reviewer",
+        "description": "AI代码检查",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564753AI%20Code%20Reviewer.png",
+        "url": "https://ai-code-reviewer.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "Visual Studio IntelliCode",
+        "description": "Visual StudioAI辅助开发",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564754Visual%20Studio%20IntelliCode.png",
+        "url": "https://visualstudio.microsoft.com/zh-hans/services/intellicode",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "bloop",
+        "description": "使用GPT-4了解代码库和语义代码搜索",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564777bloop.png",
+        "url": "https://bloop.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI"
+    ]
+    },
+    {
+        "name": "Cursor",
+        "description": "使用GPT-4轻松重构、理解和编写代码。",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564778Cursor.png",
+        "url": "https://www.cursor.so/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI"
+    ]
+    },
+    {
+        "name": "Programming Helper",
+        "description": "AI代码生成器只需键入一个文本说明.AI会为你创建代码。帮助您完成各种任务的工具。",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564778Programming-helper.png",
+        "url": "https://www.programming-helper.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "Ghostwriter",
+        "description": "知名在线编程IDE Replit推出的AI编程助手",
+        "iconUrl": "https://img.amz123.com/image_cloud/202303/1679676256270_310540615_555283116506964_3176690160126397239_n.jpeg",
+        "url": "https://replit.com/site/ghostwriter",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "Safurai",
+        "description": "基于 AI 的 IDE 扩展，旨在帮助开发人员进行编码、调试和重构",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711593046506965_safurai.png",
+        "url": "https://www.safurai.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "Cron AI",
+        "description": "可以使用 AI 基于文本生成 Cron 表达式，也可以将 Cron 表达式翻译成人类可读的描述",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711594414782220_CronAI.jpg",
+        "url": "https://cronai.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "翻译"
+    ]
+    },
+    {
+        "name": "Bito",
+        "description": "根据开发人员的需求生成代码、解释代码、生成测试用例、生成注释等",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711596173924175_Bito.jpg",
+        "url": "https://bito.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI"
+    ]
+    },
+    {
+        "name": "Duino Code Generator",
+        "description": "可以自动生成适用于任何兼容Arduino的开发板的代码",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711596561882981_DuinoCodeGenerator.png",
+        "url": "https://www.duinocodegenerator.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI"
+    ]
+    },
+    {
+        "name": "Hacker AI",
+        "description": "由人工智能驱动的代码审计工具，可以识别和修复源代码中潜在的安全漏洞",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711596963157291_HackerAI.jpg",
+        "url": "https://hacker-ai.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具",
+        "智能"
+    ]
+    },
+    {
+        "name": "Airtest",
+        "description": "帮助开发者优化代码、生成文档、创建单元测试等，提高开发效率",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711597263603414_Airtest.jpg",
+        "url": "https://refraction.dev/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "文档",
+        "效率"
+    ]
+    },
+    {
+        "name": "CodeGeeX",
+        "description": "拥有 130 亿参数的大规模多语言代码生成模型，在超过 20 种编程语言的大型代码语料库上进行预训练",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711597613947535_CodeGeeX.jpg",
+        "url": "https://codegeex.cn/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI"
+    ]
+    },
+    {
+        "name": "CodeAssist",
+        "description": "强大的IntelliJ IDEs插件，为开发者提供智能代码辅助功能",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711598020548278_CodeAssist.jpg",
+        "url": "https://plugins.jetbrains.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "智能"
+    ]
+    },
+    {
+        "name": "AI Code Mentor",
+        "description": "一款基于人工智能的代码优化、重构和审查工具，帮助开发人员提高代码质量和效率",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711604747849986_AICodeMentor.jpg",
+        "url": "https://code-mentor.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具",
+        "效率",
+        "智能"
+    ]
+    },
+    {
+        "name": "Unakin",
+        "description": "专注于游戏工作室的AI代理技术公司",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711604881660944_unakin.png",
+        "url": "https://www.unakin.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "CodeConvert AI",
+        "description": "代码转换工具，可以帮助用户将代码从一种编程语言转换为另一种编程语言",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711605102208124_CodeConvertAI.jpg",
+        "url": "https://www.codeconvert.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "Codacy",
+        "description": "代码质量管理工具，它能够自动检测代码中的问题，并提供修复建议",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711605314933676_Codacy.jpg",
+        "url": "https://ai.codacy.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "Spark Engine",
+        "description": "能够阅读、写作、构建组件、创建动画和构建网站，能够修复 40 多种语言的编码错误",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711605634295162_SparkEngine.jpg",
+        "url": "https://sparkengine.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "阅读"
+    ]
+    },
+    {
+        "name": "Gitwit",
+        "description": "通过AI代码生成来加速您的编码过程，帮助您在几分钟内构建和发布Web应用程序",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711605900304947_Gitwit.jpg",
+        "url": "https://gitwit.dev/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "AskCodi",
+        "description": "AskCodi上可以帮助你完成任何编码工作",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721123858755730_AskCodi.png",
+        "url": "https://www.askcodi.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI"
+    ]
+    },
+    {
+        "name": "Fronty",
+        "description": "支持图像到 HTML CSS 转换器",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721123949316033_Fronty.png",
+        "url": "https://fronty.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI"
+    ]
+    },
+    {
+        "name": "Mutable AI",
+        "description": "一款更全面的 GitHub Copilot 替代品",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721124025461375_MutableAI.png",
+        "url": "https://mutable.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "Theculturedao",
+        "description": "技术优势！快速打造 AI的迪士尼漫画、游戏、电影和 Gepetto",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721188259498243_Theculturedao.jpg",
+        "url": "https://www.theculturedao.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "Ludo AI",
+        "description": "推荐！快速帮助游戏开发者进行创造过程",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721188376514330_LudoAI.jpg",
+        "url": "https://ludo.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "AI Dungeon",
+        "description": "拥有更流畅的体验，更快的模型，堪比免费版本的Steam平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721194519837664_AIDungeon.jpg",
+        "url": "https://play.aidungeon.io/main/home",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "Charisma",
+        "description": "轻松连接到 Unreal Engine、Unity、移动设备和 metaverses",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721194909272709_Charisma.jpg",
+        "url": "https://charisma.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI"
+    ]
+    },
+    {
+        "name": "Hidden Door",
+        "description": "热门！小说作品生成在线社交角色扮演游戏",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721195207678145_HiddenDoor.jpg",
+        "url": "https://www.hiddendoor.co/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI"
+    ]
+    },
+    {
+        "name": "Latitude",
+        "description": "Latitude将成为人们访问人工智能驱动体验的唯一场所 AI研究机构",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721195361107182_Latitude.jpg",
+        "url": "https://latitude.io/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "智能"
+    ]
+    },
+    {
+        "name": "Cody",
+        "description": "Sourcegraph推出的免费AI编程工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721204425352553_cody.png",
+        "url": "https://sourcegraph.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "Augment",
+        "description": "AI编程辅助工具，专为大型代 码库设计",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721204810599341_Augment.png",
+        "url": "https://www.augmentcode.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "CodeRabbit",
+        "description": "GitLab推出的AI编程助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721204880186243_CodeRabbit.png",
+        "url": "https://coderabbit.ai/?utm_source=ai-bot.cn",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "JamGPT",
+        "description": "Al Debug调试助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721204968447714_JamGPT.png",
+        "url": "https://jam.dev/jamgpt",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "Devin",
+        "description": "首个全自主的AI软件工程师智能体",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721205144998872_Devin.png",
+        "url": "https://preview.devin.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "智能"
+    ]
+    },
+    {
+        "name": "BLACKBOX AI",
+        "description": "黑箱AI编程助理，快速代码生成",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721205216778966_BLACKBOX.png",
+        "url": "https://www.blackbox.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "代码小浣熊Raccoon",
+        "description": "商汤科技推出的免费AI编程助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721291170938677_%E4%BB%A3%E7%A0%81%E5%B0%8F%E6%B5%A3%E7%86%8ARaccoon.png",
+        "url": "https://raccoon.sensetime.com/code?utm_source=bljuly01",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "讯飞星火4.0 API",
+        "description": "讯飞星火4.0 Ultra 免费领取 500万Tokens",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721291251490385_%E8%AE%AF%E9%A3%9E%E6%98%9F%E7%81%AB.png",
+        "url": "https://xinghuo.xfyun.cn/sparkapi?ch=xh_srx_jU9t",
+        "category": "编程AI",
+        "tags": [
+        "编程AI"
+    ]
+    },
+    {
+        "name": "豆包MarsCode",
+        "description": "字节旗下推出的免费AI编程助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721291563571559_%E8%B1%86%E5%8C%85MarsCode.png",
+        "url": "https://www.marscode.cn/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "Project IDX",
+        "description": "谷歌推出的AI云端开发和代码编辑器",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721291886726313_ProjectIDX.png",
+        "url": "https://idx.dev/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "DevChat",
+        "description": "开源的支持多款大模型的AI编程助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721292316437531_DevChat.png",
+        "url": "https://www.devchat.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "腾讯云AI代码助手",
+        "description": "腾讯推出的AI编程辅助工具",
+        "iconUrl": "https://img.amz123.com/image_cloud/202303/1679294670308_%E8%85%BE%E8%AE%AF%E4%BA%91.jpg",
+        "url": "https://cloud.tencent.com/product/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具",
+        "助手"
+    ]
+    },
+    {
+        "name": "CodeFuse",
+        "description": "蚂蚁集团推出的AI代码编程助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721292527377229_CodeFuse.png",
+        "url": "https://codefuse.alipay.com/welcome/product",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "Tabby",
+        "description": "免费开源的自托管AI编程助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721292620774861_Tabby.png",
+        "url": "https://tabby.tabbyml.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "iFlyCode",
+        "description": "科大讯飞推出的智能编程助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721292715577659_iFlyCode.png",
+        "url": "https://iflycode.xfyun.cn/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "智能",
+        "助手"
+    ]
+    },
+    {
+        "name": "C知道",
+        "description": "CSDN推出的AI技术问答工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721293599411643_C%E7%9F%A5%E9%81%93.png",
+        "url": "https://so.csdn.net/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "驭码CodeRider",
+        "description": "极狐GitLab推出的AI编程与软件智能研发助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721293696117197_%E9%A9%AD%E7%A0%81CodeRider.png",
+        "url": "https://coderider.gitlab.cn/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "智能",
+        "助手"
+    ]
+    },
+    {
+        "name": "Plandex",
+        "description": "免费开源的基于终端的AI编程引擎",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721293789610121_Plandex.png",
+        "url": "https://plandex.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "Fitten Code",
+        "description": "非十科技推出的免费AI代码助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721293869106245_FittenCode.png",
+        "url": "https://code.fittentech.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "Solo",
+        "description": "Mozia推出的零编程无代码AI网站建设工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721293975250577_Solo.png",
+        "url": "https://soloist.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "Comate",
+        "description": "百度推出的AI编程助手，基于文心大模型",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721294129138024_Comate.png",
+        "url": "https://comate.baidu.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "JetBrains Al",
+        "description": "JetBrains推出的AI编程开发助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721294237448903_JetBrainsAl.png",
+        "url": "https://www.jetbrains.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "CodeArts Snap",
+        "description": "华为云推出的智能编程助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721294307559329_CodeArtsSnap.png",
+        "url": "https://www.huaweicloud.com/product/codeartside/snap.html",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "智能",
+        "助手"
+    ]
+    },
+    {
+        "name": "ChatDev",
+        "description": "面壁智能推出的AI智能体软件开发平台，使用自然语言即可创建软件",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721294393020178_ChatDev.png",
+        "url": "https://chatdev.modelbest.cn/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "智能"
+    ]
+    },
+    {
+        "name": "V0.dev",
+        "description": "AI生成前端React/UI组件",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721294827398994_V0.dev.png",
+        "url": "https://v0.dev/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "Boxy",
+        "description": "CodeSandbox推出的AI编程助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721294894714849_Boxy.png",
+        "url": "https://codesandbox.io/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "天工智码Skycode",
+        "description": "AI智能编程助手，轻松生成各种代码",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721295041297675_%E5%A4%A9%E5%B7%A5%E6%99%BA%E7%A0%81Skycode.png",
+        "url": "https://sky-code.singularity-ai.com/index.html#/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "智能",
+        "助手"
+    ]
+    },
+    {
+        "name": "AiXcoder",
+        "description": "自然语言到代码的方法级代码生成，以及多行智能代码补全",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721295287295433_AiXcoder.png",
+        "url": "https://www.aixcoder.com/#/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "智能"
+    ]
+    },
+    {
+        "name": "Deco",
+        "description": "京东推出的设计稿一键生成多端代码工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721295473089549_Deco.png",
+        "url": "https://ling-deco.jd.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "Hocoos",
+        "description": "无代码AI智能在线快速创建网站",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1725009312964311_Hocoos.png",
+        "url": "https://hocoos.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "智能"
+    ]
+    },
+    {
+        "name": "BigModel",
+        "description": "智谱AI推出的大模型开发平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729156097870536_BigModel.png",
+        "url": "https://bigmodel.cn/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "文心快码",
+        "description": "百度推出的AI编程助手，基于文心大模型",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729156237573395_%E6%96%87%E5%BF%83%E5%BF%AB%E7%A0%81.png",
+        "url": "https://comate.baidu.com/zh",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "Genie",
+        "description": "Cosine Al推出的AI编程助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729156360035927_Genie.png",
+        "url": "https://cosine.sh/genie",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "Bolt.new",
+        "description": "AI全栈Web编程工具，自动写代码、运行、部署",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729156634471075_bolt.png",
+        "url": "https://bolt.new/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "Twinny",
+        "description": "专为 VS Code 设计的AI代码补全插件",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729156883435284_Twinny.png",
+        "url": "https://twinny.dev/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "Duo Chat",
+        "description": "GitLab推出的AI编程助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729156941088211_DuoChat.png",
+        "url": "https://about.gitlab.com/gitlab-duo/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "Trae",
+        "description": "字节跳动推出的免费AI编程工具，基于Claude模型",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202502/1739345623640887_trae.png",
+        "url": "https://www.trae.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "Lovable",
+        "description": "AI编程工具，用自然对话快速构建网站和Web应用",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202502/1739348301276154_Lovable.jpg",
+        "url": "https://lovable.dev/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "码上飞",
+        "description": "AI软件开发平台，一句话自动生成端到端应用",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202502/1739348644625267_%E7%A0%81%E4%B8%8A%E9%A3%9E.jpg",
+        "url": "https://www.codeflying.net/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "Firebase Studio",
+        "description": "谷歌推出的AI编程工具，一站式开发全栈应用",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202504/1744960949208613_Firebase-Studio-logo.png",
+        "url": "https://firebase.studio/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "MGX",
+        "description": "基于MetaGPT框架的AI编程工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202504/1744960949208613_MGX-logo.png",
+        "url": "https://mgx.dev/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "Qodo",
+        "description": "免费AI代码测试、分析",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202506/1749202321544277_%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20250606173151.png",
+        "url": "https://www.qodo.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "分析"
+    ]
+    },
+    {
+        "name": "Kiro",
+        "description": "亚马逊公司推出的 AI IDE",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202507/1752629595015504_Kiro-logo.webp",
+        "url": "https://kiro.dev/?utm_source",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
     ]
     }
-];
+,
+    {
+        "name": "Winston AI",
+        "description": "强大的AI内容检测解决方案",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564758Winston%20AI.png",
+        "url": "https://gowinston.ai/",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "Originality.AI",
+        "description": "原创度和AI内容检测",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564758Originality.AI.png",
+        "url": "https://originality.ai/",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "CopyLeaks",
+        "description": "AI内容检测和分级",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564758CopyLeaks.png",
+        "url": "https://copyleaks.com/",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "GPTZero",
+        "description": "超过百万人都在用的AI内容检测工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564758GPTZero.png",
+        "url": "https://gptzero.me/",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "Sapling AI Content Detector",
+        "description": "Sapling.ai推出的免费在线AI内容检测工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564757Sapling%20AI%20Content%20Detector.png",
+        "url": "https://sapling.ai/utilities/ai-content-detector",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "CheckforAI",
+        "description": "免费在线检测AI内容",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564757CheckforAI.png",
+        "url": "https://checkforai.com/",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "宣小二新媒体",
+        "description": "新媒体平台，媒体发稿平台，自媒体宣发平台，网红短视频分发平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202504/1743581283154177_%E5%AE%A3%E5%B0%8F%E4%BA%8C.png",
+        "url": "https://www.xuanxiaoer.com/?spid=1424",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI"
+    ]
+    },
+    {
+        "name": "StudyCorgi ChatGPT Detector",
+        "description": "StudyCorgi推出的帮助学生检测ChatGPT的工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564757StudyCorgi%20ChatGPT%20Detector.png",
+        "url": "https://studycorgi.com/free-writing-tools/chat-gpt-detector",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "AISEO AI Content Detector",
+        "description": "AISEO推出的AI内容检测器",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564757AISEO%20AI%20Content%20Detector.png",
+        "url": "https://aiseo.ai/tools/ai-content-detector.html",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "Writecream AI Content Detector",
+        "description": "Writecream推出的AI内容检测工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564757Writecream%20AI%20Content%20Detector.png",
+        "url": "https://www.writecream.com/ai-content-detector",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "Smodin AI Content Detector",
+        "description": "多语种AI内容检测工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564757Smodin%20AI%20Content%20Detector.png",
+        "url": "https://smodin.io/ai-content-detector",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "GPT Detector",
+        "description": "在线检查文本是否由GPT-3或ChatGPT生成",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564758GPT%20Detector.png",
+        "url": "https://x.writefull.com/gpt-detector",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI"
+    ]
+    },
+    {
+        "name": "AI Content Detector",
+        "description": "Writer推出的AI内容检测工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564758AI%20Content%20Detector.png",
+        "url": "https://writer.com/ai-content-detector",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "Proofig",
+        "description": "AI检测科研图像是否造假抄袭",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721205641235954_Proofig.png",
+        "url": "https://www.proofig.com/",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "Mitata Al",
+        "description": "专业的AI文章检测",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729235928502230_MitataAl.png",
+        "url": "https://www.copyleaks.top/",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "朱雀AI检测",
+        "description": "腾讯推出的AI图像和文本鉴别工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202502/1739345300813567_%E6%9C%B1%E9%9B%80ai%E6%A3%80%E6%B5%8B.png",
+        "url": "https://matrix.tencent.com/",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "飞桨PaddlePaddle",
+        "description": "开源深度学习平台",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564761%E9%A3%9E%E6%A1%A8PaddlePaddle.png",
+        "url": "https://www.paddlepaddle.org.cn/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架"
+    ]
+    },
+    {
+        "name": "TensorFlow",
+        "description": "Google推出的机器学习和人工智能开源库",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564760TensorFlow.png",
+        "url": "https://www.tensorflow.org/?hl=zh-cn",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "智能"
+    ]
+    },
+    {
+        "name": "PyTorch",
+        "description": "开源机器学习框架",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564760PyTorch.png",
+        "url": "https://pytorch.org/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架"
+    ]
+    },
+    {
+        "name": "Keras",
+        "description": "Python版本的TensorFlow深度学习API",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564761Keras.png",
+        "url": "https://keras.io/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架"
+    ]
+    },
+    {
+        "name": "Caffe",
+        "description": "UC伯克利研究推出的深度学习框架",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564761Caffe.png",
+        "url": "https://caffe.berkeleyvision.org/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架"
+    ]
+    },
+    {
+        "name": "Apache MXNet",
+        "description": "免费开源的深度学习框架",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564761Apache%20MXNet.png",
+        "url": "https://mxnet.apache.org/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架"
+    ]
+    },
+    {
+        "name": "MindSpore",
+        "description": "华为推出的全场景 AI 计算框架",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711609876591929_MindSpore.jpg",
+        "url": "https://www.mindspore.cn/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "AI"
+    ]
+    },
+    {
+        "name": "Scikit-learn",
+        "description": "Python机器学习库",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564761Scikit-learn.png",
+        "url": "https://scikit-learn.org/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架"
+    ]
+    },
+    {
+        "name": "NumPy",
+        "description": "Python科学计算必备的包",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564761NumPy.png",
+        "url": "https://numpy.org/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架"
+    ]
+    },
+    {
+        "name": "LangChain",
+        "description": "一个专为使用语言模型构建应用而设计的开源框架",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711609073848271_LangChain.jpg",
+        "url": "https://www.langchain.com/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架"
+    ]
+    },
+    {
+        "name": "LlamaIndex",
+        "description": "一个高级编排框架，旨在增强像GPT-4这样的LLM的功能",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711609339040273_LlamaIndex.jpg",
+        "url": "https://www.llamaindex.ai/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架"
+    ]
+    },
+    {
+        "name": "Haystack",
+        "description": "用于构建由各种NLP技术驱动的应用程序，包括但不限于生成式人工智能",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711609593273172_Haystack.jpg",
+        "url": "https://haystack.deepset.ai/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "智能"
+    ]
+    },
+    {
+        "name": "Lightning Al",
+        "description": "快速训练、部署和开发人工智能产品的深度学习框架，由Pytorch Lightning团队推出",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721205961674762_Lightning.png",
+        "url": "https://lightning.ai/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "智能"
+    ]
+    },
+    {
+        "name": "NLTK",
+        "description": "Python自然语言处理工具包",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721206024236455_NLTK.png",
+        "url": "https://www.nltk.org/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "工具"
+    ]
+    },
+    {
+        "name": "JAX",
+        "description": "Google推出的用于变换数值函数的机器学习框架",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721206131874445_JAX.png",
+        "url": "https://jax.readthedocs.io/en/latest/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架"
+    ]
+    },
+    {
+        "name": "DL4J",
+        "description": "开源的使用IVM部署和训练深度学习模型的套件",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721206246153963_DL4J.png",
+        "url": "https://deeplearning4j.konduit.ai/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架"
+    ]
+    },
+    {
+        "name": "Vercel AI SDK",
+        "description": "SDK Vercel开源的搭建AI聊天机器人的开发套件，支持React/Svelte/Vue等框 架",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721206333574276_Vercel.png",
+        "url": "https://sdk.vercel.ai/docs/introduction?utm_source",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "AI"
+    ]
+    },
+    {
+        "name": "文心智能体平台",
+        "description": "百度推出的智能体构建平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721294129138024_Comate.png",
+        "url": "https://agents.baidu.com/center",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "智能"
+    ]
+    },
+    {
+        "name": "MLX",
+        "description": "苹果推出的开源机器学习框架，专为Apple silicon芯片设计",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721295814275554_MLX.png",
+        "url": "https://ml-explore.github.io/mlx/build/html/index.html",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架"
+    ]
+    },
+    {
+        "name": "Label Studio",
+        "description": "免费开源的数据标注工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721295996969614_LabelStudio.png",
+        "url": "https://labelstud.io/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "工具"
+    ]
+    },
+    {
+        "name": "Leap",
+        "description": "将AI快速集成到你自己的应用中",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721296222358956_Leap.png",
+        "url": "https://www.tryleap.ai/?utm_source",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "AI"
+    ]
+    },
+    {
+        "name": "芝士饼",
+        "description": "可以提供一站式 AI 原生应用的开发平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1725010741135333_%E8%8A%9D%E5%A3%AB%E9%A5%BC.png",
+        "url": "https://knowledgepie.cloud.alipay.com/about",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "AI"
+    ]
+    },
+    {
+        "name": "Wordware",
+        "description": "使用自然语言构建 AI 代理的 IDE 平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1725010803800314_Wordware.png",
+        "url": "https://www.wordware.ai/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "AI"
+    ]
+    },
+    {
+        "name": "Coze",
+        "description": "字节推出的AI机器人和智能体创建平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1725010971893235_Coze.png",
+        "url": "https://www.coze.com/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "AI",
+        "智能"
+    ]
+    },
+    {
+        "name": "言犀智能体平台",
+        "description": "京东推出的一站式AI智能体开发平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1725011058196253_%E8%A8%80%E7%8A%80%E6%99%BA%E8%83%BD%E4%BD%93%E5%B9%B3%E5%8F%B0.png",
+        "url": "https://yanxi.jd.com/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "AI",
+        "智能"
+    ]
+    },
+    {
+        "name": "无问芯穹",
+        "description": "AI大模型服务平台，提供从算力、模型到应用一站式服务",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202412/1735200962645626_%E6%97%A0%E5%BF%83.png",
+        "url": "https://cloud.infini-ai.com/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "AI"
+    ]
+    },
+    {
+        "name": "魔乐社区",
+        "description": "天翼云联合华为推出的AI开发者社区",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202502/1739346194181379_%E9%AD%94%E4%B9%90%E7%A4%BE%E5%8C%BA.png",
+        "url": "https://modelers.c/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "AI"
+    ]
+    },
+    {
+        "name": "百宝箱Tbox",
+        "description": "蚂蚁集团推出的一站式 A原生应用开发平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202502/1739346897721087_%E7%99%BE%E5%AE%9D%E7%AE%B1.jpg",
+        "url": "https://tbox.alipay.com/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架"
+    ]
+    },
+    {
+        "name": "NoCode",
+        "description": "美团推出的零代码AI应用开发平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202505/1748310419333342_nocode-logo.png",
+        "url": "https://nocode.cn/",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "AI"
+    ]
+    },
+    {
+        "name": "Skywork",
+        "description": "昆仑万维面向全球推出的天工超级智能体",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202505/1748310419333342_Skywork-logo.png",
+        "url": "https://skywork.ai/home",
+        "category": "AI开发框架",
+        "tags": [
+        "AI开发框架",
+        "智能"
+    ]
+    }
+]
+
 // 热门推荐（首页展示）
 const hotWebsites = [
     "ChatGPT",

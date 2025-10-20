@@ -8378,6 +8378,19 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "连连支付",
+        "description": "AMZ收款0～0.4%，绑店和入账都可享免费提现额度，换汇返现最高5000元，更多收单、贷款免额等你领取",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20201203/5fc8faf39ca3f.jpg/icon52",
+        "url": "https://global.lianlianpay.com/register?invitecode=3C20HW",
+        "category": "收款支付",
+        "tags": [
+            "AMZ收款",
+            "免费提现",
+            "换汇返现",
+            "收单贷款"
+        ]
+    },
+    {
         "name": "Payoneer派安盈",
         "description": "本地账号免汇损，多币种转换，灵活银行提现，采购费随心付",
         "iconUrl": "https://img.amz123.com/upload/index_icon/20220308/6227204bf1078.png/icon52",
@@ -8388,6 +8401,19 @@ const websitesDatabase = [
             "免汇损",
             "多币种",
             "灵活提现"
+        ]
+    },
+    {
+        "name": "卖家精灵",
+        "description": "覆盖多维度选品视角，挖掘隐藏机会市场",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202412/1735175268947245_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241226090713.jpg",
+        "url": "https://www.sellersprite.com/?utm_source=amz123&utm_medium=xuanpinfenxi",
+        "category": "选品分析",
+        "tags": [
+            "多维度选品",
+            "机会市场",
+            "数据分析",
+            "专业工具"
         ]
     },
     {
@@ -8620,6 +8646,19 @@ const websitesDatabase = [
         "tags": [
             "百万图片",
             "高清",
+            "可商用",
+            "无版权"
+        ]
+    },
+    {
+        "name": "Unsplash",
+        "description": "免费高质量照片下载网站，可商用，每日更新十张图（无版权）",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875645Unsplash.png",
+        "url": "https://unsplash.com/",
+        "category": "免费图库",
+        "tags": [
+            "高质量",
+            "每日更新",
             "可商用",
             "无版权"
         ]
@@ -8938,6 +8977,32 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "Dribbble",
+        "description": "国际知名设计站点！资深设计师必备",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875650Dribbble.png",
+        "url": "https://dribbble.com/",
+        "category": "灵感创意",
+        "tags": [
+            "国际知名",
+            "设计站点",
+            "资深设计师",
+            "必备"
+        ]
+    },
+    {
+        "name": "Behance",
+        "description": "全球领先的创意设计类聚合平台",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875650Behance.png",
+        "url": "https://www.behance.net/",
+        "category": "灵感创意",
+        "tags": [
+            "全球领先",
+            "创意设计",
+            "聚合平台",
+            "Adobe"
+        ]
+    },
+    {
         "name": "堆糖",
         "description": "美图壁纸兴趣社区",
         "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875651%E5%A0%86%E7%B3%96.png",
@@ -8951,6 +9016,19 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "站酷",
+        "description": "综合性设计分享网站，原创设计交流平台",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875651%E7%AB%99%E9%85%B7.png",
+        "url": "https://www.zcool.com.cn/",
+        "category": "灵感创意",
+        "tags": [
+            "设计分享",
+            "原创设计",
+            "交流平台",
+            "综合性"
+        ]
+    },
+    {
         "name": "全画作",
         "description": "强烈推荐！几十万张超高分辨率艺术作品欣赏",
         "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875651%E5%85%A8%E7%94%BB%E4%BD%9C.png",
@@ -8961,6 +9039,19 @@ const websitesDatabase = [
             "超高分辨率",
             "几十万张",
             "强烈推荐"
+        ]
+    },
+    {
+        "name": "UI中国",
+        "description": "中国最专业的UI设计交流平台",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875651UI%E4%B8%AD%E5%9B%BD.png",
+        "url": "https://www.ui.cn/list.html",
+        "category": "灵感创意",
+        "tags": [
+            "UI设计",
+            "最专业",
+            "交流平台",
+            "中国"
         ]
     },
     {
@@ -9145,6 +9236,19 @@ const websitesDatabase = [
             "插画摄影",
             "时尚",
             "艺术"
+        ]
+    },
+    {
+        "name": "Product Hunt",
+        "description": "每天发现有趣的创新产品，离硅谷最近的眼睛",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ui/202303/1678281582Product%20Hunt.png",
+        "url": "https://www.producthunt.com/",
+        "category": "灵感创意",
+        "tags": [
+            "创新产品",
+            "硅谷",
+            "每天发现",
+            "有趣"
         ]
     },
     {
@@ -9706,6 +9810,19 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "Coolors",
+        "description": "一个在线生成数千种配色方案的调色板",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875583Coolors.jpg",
+        "url": "https://coolors.co/browser/latest/1",
+        "category": "配色方案",
+        "tags": [
+            "在线生成",
+            "数千种",
+            "配色方案",
+            "调色板"
+        ]
+    },
+    {
         "name": "漂亮的渐变颜色",
         "description": "渐变色，可转成CSS代码",
         "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875584%E6%BC%82%E4%BA%AE%E7%9A%84%E6%B8%90%E5%8F%98%E9%A2%9C%E8%89%B2.png",
@@ -9903,6 +10020,19 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "阿里图标库",
+        "description": "国内功能很强大且图标内容很丰富的矢量图标库",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875585%E9%98%BF%E9%87%8C%E5%9B%BE%E6%A0%87%E5%BA%93.png",
+        "url": "http://www.iconfont.cn",
+        "category": "图标下载",
+        "tags": [
+            "阿里",
+            "矢量图标",
+            "功能强大",
+            "内容丰富"
+        ]
+    },
+    {
         "name": "IconPark",
         "description": "字节跳动旗下开源图标库收录超过1400个图标",
         "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875627IconPark.png",
@@ -9913,6 +10043,36 @@ const websitesDatabase = [
             "开源",
             "1400个图标",
             "图标库"
+        ]
+    },
+    {
+        "name": "Flaticon",
+        "description": "提供SVG，PSD，PNG，EPS和图标字体,数千个免费图标",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875628Free%20icons.png",
+        "url": "https://www.flaticon.com/",
+        "category": "图标下载",
+        "tags": [
+            "SVG",
+            "PSD",
+            "PNG",
+            "EPS",
+            "图标字体",
+            "免费"
+        ]
+    },
+    {
+        "name": "Iconfinder",
+        "description": "矢量图标搜索引擎SVG、PNG、CSH和AI格式",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875585Iconfinder.png",
+        "url": "https://www.iconfinder.com/",
+        "category": "图标下载",
+        "tags": [
+            "矢量图标",
+            "搜索引擎",
+            "SVG",
+            "PNG",
+            "CSH",
+            "AI格式"
         ]
     },
     {
@@ -9952,6 +10112,19 @@ const websitesDatabase = [
             "SVG图标集",
             "字体图标",
             "自定义"
+        ]
+    },
+    {
+        "name": "FreeImages",
+        "description": "图标搜索引擎，可帮助您找到免费的图标",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875628findicons.png",
+        "url": "https://www.freeimages.com/icon?ref=findicons",
+        "category": "图标下载",
+        "tags": [
+            "图标搜索",
+            "免费图标",
+            "搜索引擎",
+            "帮助查找"
         ]
     },
     {
@@ -10125,6 +10298,19 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "稿定设计",
+        "description": "30w高质量可商用模版，9000万海量版权资源",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875617%E7%A8%BF%E5%AE%9A%E8%AE%BE%E8%AE%A1.png",
+        "url": "https://www.gaoding.com/",
+        "category": "在线设计",
+        "tags": [
+            "30万模版",
+            "高质量",
+            "可商用",
+            "9000万资源"
+        ]
+    },
+    {
         "name": "图怪兽",
         "description": "一个极简的在线做图工具，搞定设计不求人",
         "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875617%E5%9B%BE%E6%80%AA%E5%85%BD.png",
@@ -10135,6 +10321,19 @@ const websitesDatabase = [
             "在线做图",
             "设计工具",
             "不求人"
+        ]
+    },
+    {
+        "name": "创客贴",
+        "description": "海量设计模板，分分钟搞定美图设计",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875617%E5%88%9B%E5%AE%A2%E8%B4%B4.png",
+        "url": "https://www.chuangkit.com/",
+        "category": "在线设计",
+        "tags": [
+            "海量模板",
+            "美图设计",
+            "分分钟",
+            "设计工具"
         ]
     },
     {
@@ -10162,6 +10361,32 @@ const websitesDatabase = [
             "构图",
             "版式",
             "高效设计"
+        ]
+    },
+    {
+        "name": "Photopea",
+        "description": "免费还用的在线PS工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875618Photopea.png",
+        "url": "https://www.photopea.com/",
+        "category": "在线设计",
+        "tags": [
+            "免费",
+            "在线PS",
+            "图像处理",
+            "专业工具"
+        ]
+    },
+    {
+        "name": "即时设计",
+        "description": "专业级UI设计工具，可云端协作的Sketch",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/tk/202303/1678875618%E5%8D%B3%E6%97%B6%E8%AE%BE%E8%AE%A1.png",
+        "url": "https://js.design/",
+        "category": "在线设计",
+        "tags": [
+            "专业级",
+            "UI设计",
+            "云端协作",
+            "Sketch"
         ]
     },
     {
@@ -10464,6 +10689,34 @@ const websitesDatabase = [
             "标签管理",
             "浏览器优化",
             "效率工具"
+        ]
+    },
+    {
+        "name": "AMZScout",
+        "description": "amzscout 插件终身版279$(官网原价299$) ,包月版 34.99 $(官网原价44.99$) ",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20201203/5fc8f87e3eb04.png/icon52",
+        "url": "https://amzscout.idevaffiliate.com/idevaffiliate.php?id=658&url=1135",
+        "category": "浏览器插件",
+        "tags": [
+            "亚马逊",
+            "产品分析",
+            "市场研究",
+            "选品工具",
+            "付费"
+        ]
+    },
+    {
+        "name": "Helium 10",
+        "description": "功能强大的一款产品分析插件",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1709607290259462_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240305105430.jpg",
+        "url": "https://crushtrk.com/?a=6843&c=284&p=r&s4=CNDIA1YAMZ&s5=PURL-001901",
+        "category": "浏览器插件",
+        "tags": [
+            "产品分析",
+            "亚马逊",
+            "功能强大",
+            "选品工具",
+            "付费"
         ]
     },
     {
@@ -11057,6 +11310,20 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "Payoneer派安盈",
+        "description": "Payoneer派安盈的创新型跨境支付解决方案专为全球创业者、跨境商务企业及专业人士设计，让您无论身在何处，都能如同人在当地一般轻松收，随心付，安心盈，加油赚。",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aff/202303/1678798561Payoneer%E6%B4%BE%E5%AE%89%E7%9B%88.jpg",
+        "url": "http://tracking.payoneer.com/SH3ze",
+        "category": "虚拟信用卡",
+        "tags": [
+            "跨境支付",
+            "全球创业者",
+            "跨境商务",
+            "专业人士",
+            "轻松收付"
+        ]
+    },
+    {
         "name": "Virtualcards",
         "description": "50美元起充,支持支付宝充值",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aff/202303/1678798561Virtualcards.png",
@@ -11407,6 +11674,19 @@ const websitesDatabase = [
             "跨地域",
             "跨平台",
             "国际汇款"
+        ]
+    },
+    {
+        "name": "网易支付",
+        "description": "网易官方出品，亚马逊收款首选，0汇损所见所得",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20201230/5fec488114623.png/icon52",
+        "url": "https://globalpay.163.com/customhome?promotional_id=26146&utm_source=AMZ123&utm_campaign=渠道定制页&utm_medium=支付板块&utm_content=点击&utm_term=PC&inviteCode=7130",
+        "category": "虚拟信用卡",
+        "tags": [
+            "网易官方",
+            "亚马逊收款",
+            "0汇损",
+            "所见所得"
         ]
     },
     {
@@ -13167,6 +13447,20 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "临时邮箱",
+        "description": "免费获得完全匿名的临时邮箱/10分钟邮箱/24小时邮箱/一次性邮箱",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aff/202303/1678798568%E4%B8%B4%E6%97%B6%E9%82%AE%E7%AE%B1.png",
+        "url": "https://www.linshiyouxiang.net/",
+        "category": "临时邮箱",
+        "tags": [
+            "免费",
+            "完全匿名",
+            "10分钟邮箱",
+            "24小时邮箱",
+            "一次性邮箱"
+        ]
+    },
+    {
         "name": "24小时邮箱",
         "description": "不需要注册，邮箱持续24小时，可以任意设置邮箱名，随时更换邮箱",
         "iconUrl": "https://img.amz123.com/image_cloud/202304/1681109618198_1681109585618.jpg",
@@ -13256,6 +13550,19 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "临时邮箱",
+        "description": "临时地址接收电子邮件的服务，该地址在经过一定时间后自行销毁",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/tt1/202303/1679493591%E4%B8%B4%E6%97%B6%E9%82%AE%E7%AE%B1.png",
+        "url": "https://mail.cx/zh/",
+        "category": "临时邮箱",
+        "tags": [
+            "临时地址",
+            "接收电子邮件",
+            "一定时间后",
+            "自行销毁"
+        ]
+    },
+    {
         "name": "Guerrillamail",
         "description": "Guerrilla临时邮箱，有限时间60分钟",
         "iconUrl": "https://img.amz123.com/upload/diy_page/tt1/202303/1679493591Guerrillamail.png",
@@ -13307,6 +13614,21 @@ const websitesDatabase = [
             "短信工作流程",
             "完整运行",
             "Mailinator"
+        ]
+    },
+    {
+        "name": "临时邮箱",
+        "description": "临时email提供临时、安全、匿名、免费的一次性电子邮件地址",
+        "iconUrl": "https://img.amz123.com/image_cloud/202304/1680772000233_%E4%B8%B4%E6%97%B6%E9%82%AE%E4%BB%B6.jpg",
+        "url": "https://www.linshi-email.com/",
+        "category": "临时邮箱",
+        "tags": [
+            "临时email",
+            "安全",
+            "匿名",
+            "免费",
+            "一次性",
+            "电子邮件地址"
         ]
     },
     {
@@ -13602,6 +13924,33 @@ const websitesDatabase = [
             "生成器",
             "查名字占用",
             "用户名"
+        ]
+    },
+    {
+        "name": "虚拟身份生成器",
+        "description": "用户身份、账户和配置文件生成器",
+        "iconUrl": "https://img.amz123.com/image_cloud/202304/1681113223593_1681113196592.jpg",
+        "url": "https://www.fakepersongenerator.com/",
+        "category": "虚拟资料",
+        "tags": [
+            "用户身份",
+            "账户",
+            "配置文件",
+            "生成器"
+        ]
+    },
+    {
+        "name": "美国虚拟信息生成",
+        "description": "世界各国虚拟身份信息、地址、信用卡生成",
+        "iconUrl": "https://img.amz123.com/image_cloud/202304/1681089647091_1681089538495(1).jpg",
+        "url": "http://meiguodizhi.com",
+        "category": "虚拟资料",
+        "tags": [
+            "世界各国",
+            "虚拟身份信息",
+            "地址",
+            "信用卡生成",
+            "美国"
         ]
     },
     {
@@ -15122,6 +15471,17 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "FT中文网",
+        "description": "全球财经精粹",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/hao/202303/1678457523FT%E4%B8%AD%E6%96%87%E7%BD%91.ico",
+        "url": "https://www.ftchinese.com",
+        "category": "新闻资讯",
+        "tags": [
+            "全球财经精粹",
+            "FT中文网"
+        ]
+    },
+    {
         "name": "观察者",
         "description": "中国关怀 全球视野",
         "iconUrl": "https://img.amz123.com/upload/diy_page/hao/202303/1678457533%E8%A7%82%E5%AF%9F%E8%80%85.png",
@@ -15250,6 +15610,18 @@ const websitesDatabase = [
         "tags": [
             "创作你的创作",
             "简书"
+        ]
+    },
+    {
+        "name": "财新网",
+        "description": "原创财经新媒体",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/hao/202303/1678457525%E8%B4%A2%E6%96%B0%E7%BD%91.png",
+        "url": "https://www.caixin.com",
+        "category": "新闻资讯",
+        "tags": [
+            "原创",
+            "财经新媒体",
+            "财新网"
         ]
     },
     {
@@ -15567,6 +15939,18 @@ const websitesDatabase = [
             "天生爱玩",
             "游戏至上",
             "战旗直播"
+        ]
+    },
+    {
+        "name": "网易云音乐",
+        "description": "网易旗下的高品质音乐播放器",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/hao/202303/1678457518%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90.svg",
+        "url": "https://music.163.com/",
+        "category": "视频音乐",
+        "tags": [
+            "网易",
+            "高品质音乐播放器",
+            "网易云音乐"
         ]
     },
     {
@@ -16407,6 +16791,17 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "AcFun",
+        "description": "认真你就输啦(・ω・)ノ- ( ゜- ゜)つロ",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/hao/202303/1678457567AcFun.svg",
+        "url": "https://www.acfun.cn/",
+        "category": "动漫网站",
+        "tags": [
+            "认真你就输啦",
+            "AcFun"
+        ]
+    },
+    {
         "name": "快递100",
         "description": "查快递,寄快递,上快递100",
         "iconUrl": "https://img.amz123.com/upload/diy_page/hao/202303/1678457526%E5%BF%AB%E9%80%92100.png",
@@ -16416,6 +16811,18 @@ const websitesDatabase = [
             "查快递",
             "寄快递",
             "上快递100"
+        ]
+    },
+    {
+        "name": "天气预报",
+        "description": "中国天气网专业天气预报平台",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/hao/202303/1678457526%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5.png",
+        "url": "https://www.weather.com.cn/weather/101190101.shtml",
+        "category": "生活必备",
+        "tags": [
+            "中国天气网",
+            "专业天气预报平台",
+            "天气预报"
         ]
     },
     {
@@ -16454,6 +16861,30 @@ const websitesDatabase = [
             "教练陪练",
             "模拟考试",
             "驾校一点通"
+        ]
+    },
+    {
+        "name": "百度地图",
+        "description": "百度旗下地图服务",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/hao/202303/1678457527%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE.svg",
+        "url": "https://map.baidu.com/",
+        "category": "生活必备",
+        "tags": [
+            "百度",
+            "地图服务",
+            "百度地图"
+        ]
+    },
+    {
+        "name": "高德地图",
+        "description": "阿里旗下高德地图官网",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/hao/202303/1678457527%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE.ico",
+        "url": "https://www.amap.com/",
+        "category": "生活必备",
+        "tags": [
+            "阿里",
+            "高德地图官网",
+            "高德地图"
         ]
     },
     {
@@ -16576,6 +17007,23 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "通义千问",
+        "description": "阿里云推出的一个超大规模的语言模型，功能包括多轮对话、文案创作、逻辑推理、多模态理解、多语言支持",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202401/1705038528038194_1705038509029.jpg",
+        "url": "https://tongyi.aliyun.com/qianwen/",
+        "category": "聊天AI",
+        "tags": [
+            "阿里云",
+            "超大规模语言模型",
+            "多轮对话",
+            "文案创作",
+            "逻辑推理",
+            "多模态理解",
+            "多语言支持",
+            "通义千问"
+        ]
+    },
+    {
         "name": "Chat123 跨境AI助手",
         "description": "跨境智能聊天机器人，轻松解决各种出海难题",
         "iconUrl": "https://img.amz123.com/image_cloud/202310/1698109851238_chat1231.png",
@@ -16586,6 +17034,19 @@ const websitesDatabase = [
             "出海难题",
             "Chat123",
             "跨境AI助手"
+        ]
+    },
+    {
+        "name": "豆包",
+        "description": "抖音旗下AI工具，你的智能助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202405/1716279284471973_0bdcab3f7b6108f3880aa876d219b364.jpg",
+        "url": "https://www.doubao.com?channel=AIdaohang&source=hw_db_123dh",
+        "category": "聊天AI",
+        "tags": [
+            "抖音",
+            "AI工具",
+            "智能助手",
+            "豆包"
         ]
     },
     {
@@ -16825,6 +17286,18 @@ const websitesDatabase = [
             "Anthropic",
             "与ChatGPT竞争",
             "聊天机器人"
+        ]
+    },
+    {
+        "name": "Perplexity",
+        "description": "智能总结并展示信息源",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494099Perplexity.png",
+        "url": "https://www.perplexity.ai/",
+        "category": "聊天AI",
+        "tags": [
+            "智能总结",
+            "展示信息源",
+            "Perplexity"
         ]
     },
     {
@@ -17221,6 +17694,19 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "问小白",
+        "description": "元石科技(基于自研元石大模型)推出的AI智能助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721380759558714_%E9%97%AE%E5%B0%8F%E7%99%BD.png",
+        "url": "https://www.wenxiaobai.com/",
+        "category": "聊天AI",
+        "tags": [
+            "元石科技",
+            "自研元石大模型",
+            "AI智能助手",
+            "问小白"
+        ]
+    },
+    {
         "name": "Wanderboat",
         "description": "硅谷初创公司UTA AI推出的AI旅行助手",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721381037900649_Wanderboat.png",
@@ -17451,6 +17937,18 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "Midjourney",
+        "description": "目前最强的AI绘画工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494096Midjourney%20.png",
+        "url": "https://www.midjourney.com/",
+        "category": "绘画AI",
+        "tags": [
+            "目前最强",
+            "AI绘画工具",
+            "Midjourney"
+        ]
+    },
+    {
         "name": "Adobe Firefly",
         "description": "Adobe最新推出的AI图像生成和编辑工具",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564740Adobe%20Firefly.png",
@@ -17461,6 +17959,30 @@ const websitesDatabase = [
             "AI图像生成",
             "编辑工具",
             "Adobe Firefly"
+        ]
+    },
+    {
+        "name": "Stable Diffusion",
+        "description": "最强开源AI绘画工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494097Stable%20Diffusion.png",
+        "url": "https://stability.ai/",
+        "category": "绘画AI",
+        "tags": [
+            "最强开源",
+            "AI绘画工具",
+            "Stable Diffusion"
+        ]
+    },
+    {
+        "name": "文心一格",
+        "description": "百度出品的AI绘画工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494097%E6%96%87%E5%BF%83%E4%B8%80%E6%A0%BC.png",
+        "url": "https://yige.baidu.com/",
+        "category": "绘画AI",
+        "tags": [
+            "百度",
+            "AI绘画工具",
+            "文心一格"
         ]
     },
     {
@@ -18065,6 +18587,20 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "Chat123 跨境AI助手",
+        "description": "更适合跨境人的AI助手，让您高效运营工作效率成倍提升",
+        "iconUrl": "https://img.amz123.com/image_cloud/202310/1697773173817_1697773152845.jpg",
+        "url": "https://www.chat123.ai?form=kjai",
+        "category": "跨境AI",
+        "tags": [
+            "跨境AI",
+            "AI助手",
+            "跨境电商",
+            "运营效率",
+            "Chat123"
+        ]
+    },
+    {
         "name": "Linkfox",
         "description": "免费的跨境电商聚合服务工具，接入了GPT-4",
         "iconUrl": "https://img.amz123.com/image_cloud/202306/1688096209333_linkfox.png",
@@ -18459,6 +18995,32 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "NightCafe",
+        "description": "只需要输入文本提示，等待30秒，便能得到高质量的AI绘图作品",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202403/1711520593054880_nightcafe.png",
+        "url": "https://nightcafe.studio/",
+        "category": "图像AI",
+        "tags": [
+            "图像AI",
+            "AI绘图",
+            "文本提示",
+            "高质量绘图",
+            "NightCafe"
+        ]
+    },
+    {
+        "name": "Fotor",
+        "description": "FotorAI图片生成工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564739Fotor.png",
+        "url": "https://www.fotor.com/features/ai-image-generator",
+        "category": "图像AI",
+        "tags": [
+            "图像AI",
+            "AI图片生成",
+            "Fotor"
+        ]
+    },
+    {
         "name": "Craiyon",
         "description": "免费在线文本到图像生成",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564741Craiyon.png",
@@ -18640,6 +19202,19 @@ const websitesDatabase = [
             "插画",
             "艺术",
             "Stockimg AI"
+        ]
+    },
+    {
+        "name": "Canva AI",
+        "description": "CanvaAI文本到图像生成工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564740Canva%20AI%E5%9B%BE%E5%83%8F%E7%94%9F%E6%88%90.png",
+        "url": "https://www.canva.com/features/ai-image-generator",
+        "category": "图像AI",
+        "tags": [
+            "图像AI",
+            "文本到图像",
+            "AI图像生成",
+            "Canva AI"
         ]
     },
     {
@@ -18826,6 +19401,19 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "Remove.bg",
+        "description": "AI在线抠图软件，图片去除背景",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564742remove.bg.png",
+        "url": "https://www.remove.bg/zh",
+        "category": "背景移除",
+        "tags": [
+            "背景移除",
+            "AI抠图",
+            "在线工具",
+            "Remove.bg"
+        ]
+    },
+    {
         "name": "ClippingMagic",
         "description": "魔术般地去除图片背景",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564744ClippingMagic.png",
@@ -18888,6 +19476,31 @@ const websitesDatabase = [
             "背景添加",
             "免费工具",
             "PhotoRoom"
+        ]
+    },
+    {
+        "name": "Pixlr",
+        "description": "删除图片背景，只需几秒钟即可自动和免费删除图像背景！",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564772Pixlr.png",
+        "url": "https://pixlr.com/tw/remove-background",
+        "category": "背景移除",
+        "tags": [
+            "背景移除",
+            "AI抠图",
+            "免费工具",
+            "Pixlr"
+        ]
+    },
+    {
+        "name": "稿定抠图",
+        "description": "AI自动消除图片背景",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564743%E7%A8%BF%E5%AE%9A%E6%8A%A0%E5%9B%BE.png",
+        "url": "https://koutu.gaoding.com",
+        "category": "背景移除",
+        "tags": [
+            "背景移除",
+            "AI抠图",
+            "稿定抠图"
         ]
     },
     {
@@ -19238,6 +19851,20 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "Pixelcut.ai",
+        "description": "AI产品背景移除和替换",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721889209521568_Pixelcut.ai.png",
+        "url": "https://www.pixelcut.ai/",
+        "category": "背景移除",
+        "tags": [
+            "背景移除",
+            "AI抠图",
+            "产品背景移除",
+            "背景替换",
+            "Pixelcut.ai"
+        ]
+    },
+    {
         "name": "Pixian Al",
         "description": "免费的AI图片背景抠除工具",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721101321489407_PixianAI.jpg",
@@ -19553,6 +20180,19 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "Palette",
+        "description": "AI图片调色上色",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564746Palette.png",
+        "url": "https://palette.fm",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "调色",
+            "上色",
+            "Palette"
+        ]
+    },
+    {
         "name": "Playground AI",
         "description": "AI图片生成和修图",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564746Playground%20AI.png",
@@ -19645,6 +20285,20 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "美图云修",
+        "description": "美图秀秀推出的一站式AI智能修图软件",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721889590442161_%E7%BE%8E%E5%9B%BE%E4%BA%91%E4%BF%AE.png",
+        "url": "https://yunxiu.meitu.com/home",
+        "category": "优化修复",
+        "tags": [
+            "优化修复",
+            "AI修图",
+            "一站式",
+            "美图云修",
+            "美图"
+        ]
+    },
+    {
         "name": "PicMa Studio",
         "description": "AI一键批量增强、修复、彩色化你的照片",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724915523543989_PicMaStudio.png",
@@ -19719,6 +20373,19 @@ const websitesDatabase = [
             "物体抹除",
             "对象抹除",
             "Hama"
+        ]
+    },
+    {
+        "name": "Magic Eraser",
+        "description": "AI移除图片中不想要的物体",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721890269930044_MagicEraser.png",
+        "url": "https://magicstudio.com/zh/magiceraser",
+        "category": "物体抹除",
+        "tags": [
+            "物体抹除",
+            "去除物体",
+            "Magic Eraser",
+            "MagicStudio"
         ]
     },
     {
@@ -20122,6 +20789,18 @@ const websitesDatabase = [
             "写作AI",
             "多功能",
             "Writesonic"
+        ]
+    },
+    {
+        "name": "Copy.ai",
+        "description": "AI社交营销文案写作助手",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494103Copy%20AI.png",
+        "url": "https://www.copy.ai/",
+        "category": "写作AI",
+        "tags": [
+            "写作AI",
+            "营销文案",
+            "Copy.ai"
         ]
     },
     {
@@ -20764,6 +21443,19 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "IconifyAI",
+        "description": "AI App图标生成器",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564752IconifyAI.png",
+        "url": "https://www.iconifyai.com/",
+        "category": "设计AI",
+        "tags": [
+            "设计AI",
+            "AI",
+            "图标生成",
+            "App图标"
+        ]
+    },
+    {
         "name": "Looka",
         "description": "AI辅助logo和品牌设计",
         "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494103Looka.png",
@@ -20894,6 +21586,18 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "Palette",
+        "description": "生成整套UI调色板",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/ai/202303/1679494103Palette.png",
+        "url": "https://palette.tone-row.com/",
+        "category": "设计AI",
+        "tags": [
+            "设计AI",
+            "UI调色板",
+            "配色工具"
+        ]
+    },
+    {
         "name": "Color Wheel",
         "description": "AI灰度logo或插画上色工具",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564751Color%20Wheel.png",
@@ -20904,6 +21608,19 @@ const websitesDatabase = [
             "AI",
             "上色工具",
             "Logo上色"
+        ]
+    },
+    {
+        "name": "ColorMagic",
+        "description": "AI调色板生成工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564752ColorMagic.png",
+        "url": "https://www.obviously.ai/",
+        "category": "设计AI",
+        "tags": [
+            "设计AI",
+            "AI",
+            "调色板",
+            "配色工具"
         ]
     },
     {
@@ -21037,6 +21754,32 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "135 AI排版",
+        "description": "公众号AI图文排版和智能文案生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721978920728133_135.png",
+        "url": "https://www.135editor.com/ai_editor/",
+        "category": "设计AI",
+        "tags": [
+            "设计AI",
+            "AI",
+            "排版工具",
+            "文案生成"
+        ]
+    },
+    {
+        "name": "Wegic",
+        "description": "AI网页设计和建站开发工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721979470294913_Wegic.png",
+        "url": "https://wegic.ai/",
+        "category": "设计AI",
+        "tags": [
+            "设计AI",
+            "AI",
+            "网页设计",
+            "建站工具"
+        ]
+    },
+    {
         "name": "Stylar",
         "description": "一站式AI图像编辑和设计工具",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721979746855849_Stylar.png",
@@ -21047,6 +21790,32 @@ const websitesDatabase = [
             "AI",
             "图像编辑",
             "设计工具"
+        ]
+    },
+    {
+        "name": "Pictographic",
+        "description": "AI插图资源库和生成平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721979928096451_Pictographic.png",
+        "url": "https://pictographic.io/",
+        "category": "设计AI",
+        "tags": [
+            "设计AI",
+            "AI",
+            "插图",
+            "资源库"
+        ]
+    },
+    {
+        "name": "Collov AI",
+        "description": "AI室内家居设计生成平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721199297160540_CollovAI.png",
+        "url": "https://collov.cn/",
+        "category": "设计AI",
+        "tags": [
+            "设计AI",
+            "AI",
+            "室内设计",
+            "家居设计"
         ]
     },
     {
@@ -21152,6 +21921,19 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "酷家乐AI",
+        "description": "功能强大的AI家居设计软件",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721981118536046_%E9%85%B7%E5%AE%B6%E4%B9%90AI.png",
+        "url": "https://www.kujiale.cn/",
+        "category": "设计AI",
+        "tags": [
+            "设计AI",
+            "AI",
+            "家居设计",
+            "设计软件"
+        ]
+    },
+    {
         "name": "Framer Al",
         "description": "Framer推出的AI网站自动设计、生成和上线",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721981960589749_FramerAl.png",
@@ -21162,6 +21944,31 @@ const websitesDatabase = [
             "AI",
             "Framer",
             "网站设计"
+        ]
+    },
+    {
+        "name": "Motiff 妙多",
+        "description": "猿辅导旗下推出的AI界面设计工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721982108703932_Motiff%E5%A6%99%E5%A4%9A.png",
+        "url": "https://motiff.cn/",
+        "category": "设计AI",
+        "tags": [
+            "设计AI",
+            "AI",
+            "界面设计",
+            "设计工具"
+        ]
+    },
+    {
+        "name": "Pimento",
+        "description": "人工智能驱动的设计创意和视觉参考平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721982536610392_Pimento.png",
+        "url": "https://www.pimento.design/?ref_id=TU7BJC0X4",
+        "category": "设计AI",
+        "tags": [
+            "设计AI",
+            "智能",
+            "设计创意"
         ]
     },
     {
@@ -21331,6 +22138,18 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "包图网AI素材库",
+        "description": "包图网提供的特色图库服务",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202409/1726820200494866_%E5%8C%85%E5%9B%BE%E7%BD%91AI%E7%B4%A0%E6%9D%90%E5%BA%93.png",
+        "url": "https://ibaotu.com/tupian/shuziyishu.html?spm=aibot1",
+        "category": "设计AI",
+        "tags": [
+            "设计AI",
+            "AI",
+            "素材库"
+        ]
+    },
+    {
         "name": "图宇宙",
         "description": "高品质AI智能设计平台",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202409/1726820789624789_%E5%9B%BE%E5%AE%87%E5%AE%99.png",
@@ -21376,6 +22195,17 @@ const websitesDatabase = [
             "设计AI",
             "AI",
             "设计工具"
+        ]
+    },
+    {
+        "name": "简单设计",
+        "description": "免费的在线设计、图片处理工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729153938275157_%E7%AE%80%E5%8D%95%E8%AE%BE%E8%AE%A1.png",
+        "url": "https://jiandan.link/?rel=DB2V2320",
+        "category": "设计AI",
+        "tags": [
+            "设计AI",
+            "工具"
         ]
     },
     {
@@ -21614,6 +22444,18 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "Meshy",
+        "description": "AI快速从文本或图像生成3D模型",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1725005873673981_Meshy.png",
+        "url": "https://www.meshy.ai/",
+        "category": "3D AI",
+        "tags": [
+            "3D AI",
+            "文本转3D",
+            "图像转3D"
+        ]
+    },
+    {
         "name": "LALAL.AI",
         "description": "AI人声乐器分离和提取",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564747LALAL.AI.png",
@@ -21773,6 +22615,18 @@ const websitesDatabase = [
         "description": "AI文本转语音工具，支持 99+ 种语言",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564747NaturalReader.png",
         "url": "https://www.naturalreaders.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "Murf AI",
+        "description": "AI文本转语音生成工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564748Murf%20AI.png",
+        "url": "https://murf.ai/",
         "category": "音频AI",
         "tags": [
             "音频AI",
@@ -22078,6 +22932,18 @@ const websitesDatabase = [
         "tags": [
             "音频AI",
             "AI"
+        ]
+    },
+    {
+        "name": "Udio",
+        "description": "免费的AI音乐创作工具，每月可生成1200首歌曲",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1722237647900242_Udio.png",
+        "url": "https://www.udio.com/",
+        "category": "音频AI",
+        "tags": [
+            "音频AI",
+            "AI",
+            "工具"
         ]
     },
     {
@@ -22531,6 +23397,28 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "D-ID",
+        "description": "告别昂贵的传统视频创作!在几分钟内从纯文本创建视频!易于使用，价格低廉，可扩展。",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564775D-ID.png",
+        "url": "https://www.d-id.com/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI"
+        ]
+    },
+    {
+        "name": "Runway",
+        "description": "最强AI视频工具，绿幕抠除、视频生成、动态捕捉等",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564749Runway.png",
+        "url": "https://runwayml.com/green-screen",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
         "name": "DeepBrain",
         "description": "AI视频生成工具",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564749DeepBrain.png",
@@ -22945,6 +23833,17 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "Sora",
+        "description": "OpenAl推出的AI文本到视频生成模型",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721268882246437_Sora.png",
+        "url": "https://openai.com/index/sora/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
         "name": "即创",
         "description": "抖音推出的一站式智能创作平台，支持视频、图文和直播创作",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721268948437441_%E5%8D%B3%E5%88%9B.png",
@@ -23073,6 +23972,18 @@ const websitesDatabase = [
         "description": "谷歌推出的AI视频创作工具",
         "iconUrl": "https://img.amz123.com/image_cloud/202304/1681351205912_%E8%B0%B7%E6%AD%8C.jpg",
         "url": "https://workspace.google.com/products/vids/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI",
+            "工具"
+        ]
+    },
+    {
+        "name": "HeyGen",
+        "description": "专业的AI数字人视频生成工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721115108796595_Heygen.jpg",
+        "url": "https://heygen.com/",
         "category": "视频AI",
         "tags": [
             "视频AI",
@@ -23631,6 +24542,17 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "Rask",
+        "description": "AI视频本地化解决方案",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724923402262034_Rask.png",
+        "url": "https://www.rask.ai/",
+        "category": "视频AI",
+        "tags": [
+            "视频AI",
+            "AI"
+        ]
+    },
+    {
         "name": "通义万相AI视频",
         "description": "阿里推出的一款完全免费的AI视频生成工具，支持文生视频和图生视频两种方式",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721382261481433_%E9%80%9A%E4%B9%89%E4%B8%87%E7%9B%B8.png",
@@ -24063,6 +24985,19 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "讯飞听见",
+        "description": "科大讯飞推出的AI智能会议系统，实时字幕、实时翻译、自动生成会议记录",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564756%E8%AE%AF%E9%A3%9E%E5%90%AC%E8%A7%81.png",
+        "url": "https://meeting.iflyrec.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "智能",
+            "翻译"
+        ]
+    },
+    {
         "name": "Ajelix",
         "description": "处理Excel和GoogleSheets表格的AI工具",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564756Ajelix.png",
@@ -24464,6 +25399,20 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "Cubox",
+        "description": "高效的AI阅读学习助手和信息收集管理工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721284812641083_Cubox.png",
+        "url": "https://cubox.pro/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "阅读",
+            "工具",
+            "助手"
+        ]
+    },
+    {
         "name": "腾讯文档智能助手",
         "description": "腾讯推出的AI文档生成和辅助工具",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721284937318163_%E8%85%BE%E8%AE%AF%E6%96%87%E6%A1%A3%E6%99%BA%E8%83%BD%E5%8A%A9%E6%89%8B.png",
@@ -24475,6 +25424,18 @@ const websitesDatabase = [
             "文档",
             "工具",
             "智能",
+            "助手"
+        ]
+    },
+    {
+        "name": "WPS AI",
+        "description": "WPS推出的AI办公助手，已免费开放",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721285175661282_wpsai.png",
+        "url": "https://ai.wps.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
             "助手"
         ]
     },
@@ -24508,6 +25469,17 @@ const websitesDatabase = [
         ]
     },
     {
+        "name": "字语智能",
+        "description": "一站式智能Office内容创作平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721285435795952_%E5%AD%97%E8%AF%AD%E6%99%BA%E8%83%BD.png",
+        "url": "https://getgetai.com/?from=AIGJDH",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "智能"
+        ]
+    },
+    {
         "name": "星火文档问答",
         "description": "基于讯飞星火大模型的AI文档和知识库问答助手",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721285579372273_%E6%98%9F%E7%81%AB%E6%96%87%E6%A1%A3%E9%97%AE%E7%AD%94.png",
@@ -24530,6 +25502,23 @@ const websitesDatabase = [
             "办公AI",
             "AI",
             "助手"
+        ]
+    },
+    {
+        "name": "PDF.ai",
+        "description": "AI PDF文档阅读工具，智能文档总结摘要",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721285785029867_PDF.ai.png",
+        "url": "https://pdf.ai/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "阅读",
+            "PDF",
+            "文档",
+            "工具",
+            "智能",
+            "总结"
         ]
     },
     {
@@ -24615,6 +25604,18 @@ const websitesDatabase = [
             "办公AI",
             "AI",
             "助手"
+        ]
+    },
+    {
+        "name": "TreeMind树图",
+        "description": "新一代AI智能思维导图",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721286909660340_TreeMind%E6%A0%91%E5%9B%BE.png",
+        "url": "https://shutu.cn/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "智能"
         ]
     },
     {
@@ -24894,6 +25895,18 @@ const websitesDatabase = [
             "办公AI",
             "AI",
             "工具"
+        ]
+    },
+    {
+        "name": "ChatPPT",
+        "description": "AI一键对话生成PPT，智能排版美化",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724998026767614_ChatPPT.png",
+        "url": "https://www.chat-ppt.com/",
+        "category": "办公AI",
+        "tags": [
+            "办公AI",
+            "AI",
+            "智能"
         ]
     },
     {
@@ -25265,6 +26278,18 @@ const websitesDatabase = [
             "AI",
             "智能"
         ]
+    }
+,
+    {
+        "name": "Codeium",
+        "description": "Codeium提供一流的人工智能代码完成和搜索",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564778Codeium.png",
+        "url": "https://codeium.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "智能"
+    ]
     },
     {
         "name": "GitFluence",
@@ -25273,9 +26298,21 @@ const websitesDatabase = [
         "url": "https://www.gitfluence.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "智能"
-        ]
+        "编程AI",
+        "智能"
+    ]
+    },
+    {
+        "name": "Tabnine",
+        "description": "AI代码自动补全编程助手",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564753Tabnine.png",
+        "url": "https://www.tabnine.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
     },
     {
         "name": "Zion",
@@ -25284,9 +26321,9 @@ const websitesDatabase = [
         "url": "https://functorz.com/?utm_source=ad&utm_medium=AMZ123business",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "AirOps",
@@ -25295,9 +26332,20 @@ const websitesDatabase = [
         "url": "https://www.airops.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
+        "编程AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "MarsX",
+        "description": "AI无代码软件开发",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564753MarsX.png",
+        "url": "https://www.marsx.dev/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "Warp",
@@ -25306,10 +26354,10 @@ const websitesDatabase = [
         "url": "https://www.warp.dev/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "工具"
-        ]
+        "编程AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "Fig",
@@ -25318,10 +26366,10 @@ const websitesDatabase = [
         "url": "https://fig.io/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "工具"
-        ]
+        "编程AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "CodeSnippets",
@@ -25330,10 +26378,10 @@ const websitesDatabase = [
         "url": "https://codesnippets.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "分析"
-        ]
+        "编程AI",
+        "AI",
+        "分析"
+    ]
     },
     {
         "name": "HTTPie AI",
@@ -25342,10 +26390,10 @@ const websitesDatabase = [
         "url": "https://httpie.io/ai",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "工具"
-        ]
+        "编程AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "AI Code Reviewer",
@@ -25354,9 +26402,9 @@ const websitesDatabase = [
         "url": "https://ai-code-reviewer.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "Visual Studio IntelliCode",
@@ -25365,9 +26413,9 @@ const websitesDatabase = [
         "url": "https://visualstudio.microsoft.com/zh-hans/services/intellicode",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "bloop",
@@ -25376,8 +26424,18 @@ const websitesDatabase = [
         "url": "https://bloop.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI"
-        ]
+        "编程AI"
+    ]
+    },
+    {
+        "name": "Cursor",
+        "description": "使用GPT-4轻松重构、理解和编写代码。",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564778Cursor.png",
+        "url": "https://www.cursor.so/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI"
+    ]
     },
     {
         "name": "Programming Helper",
@@ -25386,10 +26444,10 @@ const websitesDatabase = [
         "url": "https://www.programming-helper.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "工具"
-        ]
+        "编程AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "Ghostwriter",
@@ -25398,10 +26456,10 @@ const websitesDatabase = [
         "url": "https://replit.com/site/ghostwriter",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "助手"
-        ]
+        "编程AI",
+        "AI",
+        "助手"
+    ]
     },
     {
         "name": "Safurai",
@@ -25410,9 +26468,9 @@ const websitesDatabase = [
         "url": "https://www.safurai.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "Cron AI",
@@ -25421,10 +26479,10 @@ const websitesDatabase = [
         "url": "https://cronai.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "翻译"
-        ]
+        "编程AI",
+        "AI",
+        "翻译"
+    ]
     },
     {
         "name": "Bito",
@@ -25433,8 +26491,8 @@ const websitesDatabase = [
         "url": "https://bito.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI"
-        ]
+        "编程AI"
+    ]
     },
     {
         "name": "Duino Code Generator",
@@ -25443,8 +26501,8 @@ const websitesDatabase = [
         "url": "https://www.duinocodegenerator.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI"
-        ]
+        "编程AI"
+    ]
     },
     {
         "name": "Hacker AI",
@@ -25453,11 +26511,11 @@ const websitesDatabase = [
         "url": "https://hacker-ai.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "工具",
-            "智能"
-        ]
+        "编程AI",
+        "AI",
+        "工具",
+        "智能"
+    ]
     },
     {
         "name": "Airtest",
@@ -25466,10 +26524,10 @@ const websitesDatabase = [
         "url": "https://refraction.dev/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "文档",
-            "效率"
-        ]
+        "编程AI",
+        "文档",
+        "效率"
+    ]
     },
     {
         "name": "CodeGeeX",
@@ -25478,8 +26536,8 @@ const websitesDatabase = [
         "url": "https://codegeex.cn/",
         "category": "编程AI",
         "tags": [
-            "编程AI"
-        ]
+        "编程AI"
+    ]
     },
     {
         "name": "CodeAssist",
@@ -25488,9 +26546,9 @@ const websitesDatabase = [
         "url": "https://plugins.jetbrains.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "智能"
-        ]
+        "编程AI",
+        "智能"
+    ]
     },
     {
         "name": "AI Code Mentor",
@@ -25499,12 +26557,12 @@ const websitesDatabase = [
         "url": "https://code-mentor.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "工具",
-            "效率",
-            "智能"
-        ]
+        "编程AI",
+        "AI",
+        "工具",
+        "效率",
+        "智能"
+    ]
     },
     {
         "name": "Unakin",
@@ -25513,9 +26571,9 @@ const websitesDatabase = [
         "url": "https://www.unakin.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "CodeConvert AI",
@@ -25524,10 +26582,10 @@ const websitesDatabase = [
         "url": "https://www.codeconvert.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "工具"
-        ]
+        "编程AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "Codacy",
@@ -25536,9 +26594,9 @@ const websitesDatabase = [
         "url": "https://ai.codacy.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "工具"
-        ]
+        "编程AI",
+        "工具"
+    ]
     },
     {
         "name": "Spark Engine",
@@ -25547,9 +26605,9 @@ const websitesDatabase = [
         "url": "https://sparkengine.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "阅读"
-        ]
+        "编程AI",
+        "阅读"
+    ]
     },
     {
         "name": "Gitwit",
@@ -25558,9 +26616,9 @@ const websitesDatabase = [
         "url": "https://gitwit.dev/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "AskCodi",
@@ -25569,8 +26627,8 @@ const websitesDatabase = [
         "url": "https://www.askcodi.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI"
-        ]
+        "编程AI"
+    ]
     },
     {
         "name": "Fronty",
@@ -25579,8 +26637,8 @@ const websitesDatabase = [
         "url": "https://fronty.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI"
-        ]
+        "编程AI"
+    ]
     },
     {
         "name": "Mutable AI",
@@ -25589,9 +26647,9 @@ const websitesDatabase = [
         "url": "https://mutable.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "Theculturedao",
@@ -25600,9 +26658,9 @@ const websitesDatabase = [
         "url": "https://www.theculturedao.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "Ludo AI",
@@ -25611,9 +26669,9 @@ const websitesDatabase = [
         "url": "https://ludo.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "AI Dungeon",
@@ -25622,9 +26680,9 @@ const websitesDatabase = [
         "url": "https://play.aidungeon.io/main/home",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "Charisma",
@@ -25633,8 +26691,8 @@ const websitesDatabase = [
         "url": "https://charisma.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI"
-        ]
+        "编程AI"
+    ]
     },
     {
         "name": "Hidden Door",
@@ -25643,8 +26701,8 @@ const websitesDatabase = [
         "url": "https://www.hiddendoor.co/",
         "category": "编程AI",
         "tags": [
-            "编程AI"
-        ]
+        "编程AI"
+    ]
     },
     {
         "name": "Latitude",
@@ -25653,10 +26711,10 @@ const websitesDatabase = [
         "url": "https://latitude.io/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "智能"
-        ]
+        "编程AI",
+        "AI",
+        "智能"
+    ]
     },
     {
         "name": "Cody",
@@ -25665,10 +26723,10 @@ const websitesDatabase = [
         "url": "https://sourcegraph.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "工具"
-        ]
+        "编程AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "Augment",
@@ -25677,10 +26735,22 @@ const websitesDatabase = [
         "url": "https://www.augmentcode.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "工具"
-        ]
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "CodeRabbit",
+        "description": "GitLab推出的AI编程助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721204880186243_CodeRabbit.png",
+        "url": "https://coderabbit.ai/?utm_source=ai-bot.cn",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
     },
     {
         "name": "JamGPT",
@@ -25689,9 +26759,21 @@ const websitesDatabase = [
         "url": "https://jam.dev/jamgpt",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "助手"
-        ]
+        "编程AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "Devin",
+        "description": "首个全自主的AI软件工程师智能体",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721205144998872_Devin.png",
+        "url": "https://preview.devin.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "智能"
+    ]
     },
     {
         "name": "BLACKBOX AI",
@@ -25700,9 +26782,9 @@ const websitesDatabase = [
         "url": "https://www.blackbox.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "代码小浣熊Raccoon",
@@ -25711,10 +26793,10 @@ const websitesDatabase = [
         "url": "https://raccoon.sensetime.com/code?utm_source=bljuly01",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "助手"
-        ]
+        "编程AI",
+        "AI",
+        "助手"
+    ]
     },
     {
         "name": "讯飞星火4.0 API",
@@ -25723,8 +26805,31 @@ const websitesDatabase = [
         "url": "https://xinghuo.xfyun.cn/sparkapi?ch=xh_srx_jU9t",
         "category": "编程AI",
         "tags": [
-            "编程AI"
-        ]
+        "编程AI"
+    ]
+    },
+    {
+        "name": "豆包MarsCode",
+        "description": "字节旗下推出的免费AI编程助手",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721291563571559_%E8%B1%86%E5%8C%85MarsCode.png",
+        "url": "https://www.marscode.cn/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "Project IDX",
+        "description": "谷歌推出的AI云端开发和代码编辑器",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721291886726313_ProjectIDX.png",
+        "url": "https://idx.dev/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "DevChat",
@@ -25733,10 +26838,10 @@ const websitesDatabase = [
         "url": "https://www.devchat.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "助手"
-        ]
+        "编程AI",
+        "AI",
+        "助手"
+    ]
     },
     {
         "name": "腾讯云AI代码助手",
@@ -25745,11 +26850,11 @@ const websitesDatabase = [
         "url": "https://cloud.tencent.com/product/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "工具",
-            "助手"
-        ]
+        "编程AI",
+        "AI",
+        "工具",
+        "助手"
+    ]
     },
     {
         "name": "CodeFuse",
@@ -25758,10 +26863,10 @@ const websitesDatabase = [
         "url": "https://codefuse.alipay.com/welcome/product",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "助手"
-        ]
+        "编程AI",
+        "AI",
+        "助手"
+    ]
     },
     {
         "name": "Tabby",
@@ -25770,10 +26875,10 @@ const websitesDatabase = [
         "url": "https://tabby.tabbyml.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "助手"
-        ]
+        "编程AI",
+        "AI",
+        "助手"
+    ]
     },
     {
         "name": "iFlyCode",
@@ -25782,10 +26887,10 @@ const websitesDatabase = [
         "url": "https://iflycode.xfyun.cn/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "智能",
-            "助手"
-        ]
+        "编程AI",
+        "智能",
+        "助手"
+    ]
     },
     {
         "name": "C知道",
@@ -25794,10 +26899,10 @@ const websitesDatabase = [
         "url": "https://so.csdn.net/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "工具"
-        ]
+        "编程AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "驭码CodeRider",
@@ -25806,11 +26911,22 @@ const websitesDatabase = [
         "url": "https://coderider.gitlab.cn/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "智能",
-            "助手"
-        ]
+        "编程AI",
+        "AI",
+        "智能",
+        "助手"
+    ]
+    },
+    {
+        "name": "Plandex",
+        "description": "免费开源的基于终端的AI编程引擎",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721293789610121_Plandex.png",
+        "url": "https://plandex.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "Fitten Code",
@@ -25819,10 +26935,22 @@ const websitesDatabase = [
         "url": "https://code.fittentech.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "助手"
-        ]
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "Solo",
+        "description": "Mozia推出的零编程无代码AI网站建设工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721293975250577_Solo.png",
+        "url": "https://soloist.ai/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "Comate",
@@ -25831,10 +26959,10 @@ const websitesDatabase = [
         "url": "https://comate.baidu.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "助手"
-        ]
+        "编程AI",
+        "AI",
+        "助手"
+    ]
     },
     {
         "name": "JetBrains Al",
@@ -25843,10 +26971,10 @@ const websitesDatabase = [
         "url": "https://www.jetbrains.com/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "助手"
-        ]
+        "编程AI",
+        "AI",
+        "助手"
+    ]
     },
     {
         "name": "CodeArts Snap",
@@ -25855,10 +26983,10 @@ const websitesDatabase = [
         "url": "https://www.huaweicloud.com/product/codeartside/snap.html",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "智能",
-            "助手"
-        ]
+        "编程AI",
+        "智能",
+        "助手"
+    ]
     },
     {
         "name": "ChatDev",
@@ -25867,10 +26995,10 @@ const websitesDatabase = [
         "url": "https://chatdev.modelbest.cn/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "智能"
-        ]
+        "编程AI",
+        "AI",
+        "智能"
+    ]
     },
     {
         "name": "V0.dev",
@@ -25879,9 +27007,9 @@ const websitesDatabase = [
         "url": "https://v0.dev/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "Boxy",
@@ -25890,10 +27018,10 @@ const websitesDatabase = [
         "url": "https://codesandbox.io/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "助手"
-        ]
+        "编程AI",
+        "AI",
+        "助手"
+    ]
     },
     {
         "name": "天工智码Skycode",
@@ -25902,11 +27030,11 @@ const websitesDatabase = [
         "url": "https://sky-code.singularity-ai.com/index.html#/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "智能",
-            "助手"
-        ]
+        "编程AI",
+        "AI",
+        "智能",
+        "助手"
+    ]
     },
     {
         "name": "AiXcoder",
@@ -25915,9 +27043,32 @@ const websitesDatabase = [
         "url": "https://www.aixcoder.com/#/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "智能"
-        ]
+        "编程AI",
+        "智能"
+    ]
+    },
+    {
+        "name": "Deco",
+        "description": "京东推出的设计稿一键生成多端代码工具",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721295473089549_Deco.png",
+        "url": "https://ling-deco.jd.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "Hocoos",
+        "description": "无代码AI智能在线快速创建网站",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1725009312964311_Hocoos.png",
+        "url": "https://hocoos.com/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "智能"
+    ]
     },
     {
         "name": "BigModel",
@@ -25926,9 +27077,9 @@ const websitesDatabase = [
         "url": "https://bigmodel.cn/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "文心快码",
@@ -25937,10 +27088,10 @@ const websitesDatabase = [
         "url": "https://comate.baidu.com/zh",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "助手"
-        ]
+        "编程AI",
+        "AI",
+        "助手"
+    ]
     },
     {
         "name": "Genie",
@@ -25949,10 +27100,22 @@ const websitesDatabase = [
         "url": "https://cosine.sh/genie",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "助手"
-        ]
+        "编程AI",
+        "AI",
+        "助手"
+    ]
+    },
+    {
+        "name": "Bolt.new",
+        "description": "AI全栈Web编程工具，自动写代码、运行、部署",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729156634471075_bolt.png",
+        "url": "https://bolt.new/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "Twinny",
@@ -25961,9 +27124,9 @@ const websitesDatabase = [
         "url": "https://twinny.dev/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "Duo Chat",
@@ -25972,10 +27135,10 @@ const websitesDatabase = [
         "url": "https://about.gitlab.com/gitlab-duo/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "助手"
-        ]
+        "编程AI",
+        "AI",
+        "助手"
+    ]
     },
     {
         "name": "Trae",
@@ -25984,10 +27147,33 @@ const websitesDatabase = [
         "url": "https://www.trae.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "工具"
-        ]
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "Lovable",
+        "description": "AI编程工具，用自然对话快速构建网站和Web应用",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202502/1739348301276154_Lovable.jpg",
+        "url": "https://lovable.dev/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI",
+        "工具"
+    ]
+    },
+    {
+        "name": "码上飞",
+        "description": "AI软件开发平台，一句话自动生成端到端应用",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202502/1739348644625267_%E7%A0%81%E4%B8%8A%E9%A3%9E.jpg",
+        "url": "https://www.codeflying.net/",
+        "category": "编程AI",
+        "tags": [
+        "编程AI",
+        "AI"
+    ]
     },
     {
         "name": "Firebase Studio",
@@ -25996,10 +27182,10 @@ const websitesDatabase = [
         "url": "https://firebase.studio/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "工具"
-        ]
+        "编程AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "MGX",
@@ -26008,10 +27194,10 @@ const websitesDatabase = [
         "url": "https://mgx.dev/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "工具"
-        ]
+        "编程AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "Qodo",
@@ -26020,10 +27206,10 @@ const websitesDatabase = [
         "url": "https://www.qodo.ai/",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI",
-            "分析"
-        ]
+        "编程AI",
+        "AI",
+        "分析"
+    ]
     },
     {
         "name": "Kiro",
@@ -26032,10 +27218,11 @@ const websitesDatabase = [
         "url": "https://kiro.dev/?utm_source",
         "category": "编程AI",
         "tags": [
-            "编程AI",
-            "AI"
-        ]
-    },
+        "编程AI",
+        "AI"
+    ]
+    }
+,
     {
         "name": "Winston AI",
         "description": "强大的AI内容检测解决方案",
@@ -26043,9 +27230,9 @@ const websitesDatabase = [
         "url": "https://gowinston.ai/",
         "category": "内容检测AI",
         "tags": [
-            "内容检测AI",
-            "AI"
-        ]
+        "内容检测AI",
+        "AI"
+    ]
     },
     {
         "name": "Originality.AI",
@@ -26054,9 +27241,9 @@ const websitesDatabase = [
         "url": "https://originality.ai/",
         "category": "内容检测AI",
         "tags": [
-            "内容检测AI",
-            "AI"
-        ]
+        "内容检测AI",
+        "AI"
+    ]
     },
     {
         "name": "CopyLeaks",
@@ -26065,9 +27252,21 @@ const websitesDatabase = [
         "url": "https://copyleaks.com/",
         "category": "内容检测AI",
         "tags": [
-            "内容检测AI",
-            "AI"
-        ]
+        "内容检测AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "GPTZero",
+        "description": "超过百万人都在用的AI内容检测工具",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/aibeiyong/202303/1679564758GPTZero.png",
+        "url": "https://gptzero.me/",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "Sapling AI Content Detector",
@@ -26076,10 +27275,10 @@ const websitesDatabase = [
         "url": "https://sapling.ai/utilities/ai-content-detector",
         "category": "内容检测AI",
         "tags": [
-            "内容检测AI",
-            "AI",
-            "工具"
-        ]
+        "内容检测AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "CheckforAI",
@@ -26088,9 +27287,19 @@ const websitesDatabase = [
         "url": "https://checkforai.com/",
         "category": "内容检测AI",
         "tags": [
-            "内容检测AI",
-            "AI"
-        ]
+        "内容检测AI",
+        "AI"
+    ]
+    },
+    {
+        "name": "宣小二新媒体",
+        "description": "新媒体平台，媒体发稿平台，自媒体宣发平台，网红短视频分发平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202504/1743581283154177_%E5%AE%A3%E5%B0%8F%E4%BA%8C.png",
+        "url": "https://www.xuanxiaoer.com/?spid=1424",
+        "category": "内容检测AI",
+        "tags": [
+        "内容检测AI"
+    ]
     },
     {
         "name": "StudyCorgi ChatGPT Detector",
@@ -26099,9 +27308,9 @@ const websitesDatabase = [
         "url": "https://studycorgi.com/free-writing-tools/chat-gpt-detector",
         "category": "内容检测AI",
         "tags": [
-            "内容检测AI",
-            "工具"
-        ]
+        "内容检测AI",
+        "工具"
+    ]
     },
     {
         "name": "AISEO AI Content Detector",
@@ -26110,9 +27319,9 @@ const websitesDatabase = [
         "url": "https://aiseo.ai/tools/ai-content-detector.html",
         "category": "内容检测AI",
         "tags": [
-            "内容检测AI",
-            "AI"
-        ]
+        "内容检测AI",
+        "AI"
+    ]
     },
     {
         "name": "Writecream AI Content Detector",
@@ -26121,10 +27330,10 @@ const websitesDatabase = [
         "url": "https://www.writecream.com/ai-content-detector",
         "category": "内容检测AI",
         "tags": [
-            "内容检测AI",
-            "AI",
-            "工具"
-        ]
+        "内容检测AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "Smodin AI Content Detector",
@@ -26133,10 +27342,10 @@ const websitesDatabase = [
         "url": "https://smodin.io/ai-content-detector",
         "category": "内容检测AI",
         "tags": [
-            "内容检测AI",
-            "AI",
-            "工具"
-        ]
+        "内容检测AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "GPT Detector",
@@ -26145,8 +27354,8 @@ const websitesDatabase = [
         "url": "https://x.writefull.com/gpt-detector",
         "category": "内容检测AI",
         "tags": [
-            "内容检测AI"
-        ]
+        "内容检测AI"
+    ]
     },
     {
         "name": "AI Content Detector",
@@ -26155,10 +27364,10 @@ const websitesDatabase = [
         "url": "https://writer.com/ai-content-detector",
         "category": "内容检测AI",
         "tags": [
-            "内容检测AI",
-            "AI",
-            "工具"
-        ]
+        "内容检测AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "Proofig",
@@ -26167,9 +27376,9 @@ const websitesDatabase = [
         "url": "https://www.proofig.com/",
         "category": "内容检测AI",
         "tags": [
-            "内容检测AI",
-            "AI"
-        ]
+        "内容检测AI",
+        "AI"
+    ]
     },
     {
         "name": "Mitata Al",
@@ -26178,9 +27387,9 @@ const websitesDatabase = [
         "url": "https://www.copyleaks.top/",
         "category": "内容检测AI",
         "tags": [
-            "内容检测AI",
-            "AI"
-        ]
+        "内容检测AI",
+        "AI"
+    ]
     },
     {
         "name": "朱雀AI检测",
@@ -26189,10 +27398,10 @@ const websitesDatabase = [
         "url": "https://matrix.tencent.com/",
         "category": "内容检测AI",
         "tags": [
-            "内容检测AI",
-            "AI",
-            "工具"
-        ]
+        "内容检测AI",
+        "AI",
+        "工具"
+    ]
     },
     {
         "name": "飞桨PaddlePaddle",
@@ -26201,8 +27410,8 @@ const websitesDatabase = [
         "url": "https://www.paddlepaddle.org.cn/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架"
-        ]
+        "AI开发框架"
+    ]
     },
     {
         "name": "TensorFlow",
@@ -26211,9 +27420,9 @@ const websitesDatabase = [
         "url": "https://www.tensorflow.org/?hl=zh-cn",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "智能"
-        ]
+        "AI开发框架",
+        "智能"
+    ]
     },
     {
         "name": "PyTorch",
@@ -26222,8 +27431,8 @@ const websitesDatabase = [
         "url": "https://pytorch.org/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架"
-        ]
+        "AI开发框架"
+    ]
     },
     {
         "name": "Keras",
@@ -26232,8 +27441,8 @@ const websitesDatabase = [
         "url": "https://keras.io/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架"
-        ]
+        "AI开发框架"
+    ]
     },
     {
         "name": "Caffe",
@@ -26242,8 +27451,8 @@ const websitesDatabase = [
         "url": "https://caffe.berkeleyvision.org/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架"
-        ]
+        "AI开发框架"
+    ]
     },
     {
         "name": "Apache MXNet",
@@ -26252,8 +27461,8 @@ const websitesDatabase = [
         "url": "https://mxnet.apache.org/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架"
-        ]
+        "AI开发框架"
+    ]
     },
     {
         "name": "MindSpore",
@@ -26262,9 +27471,9 @@ const websitesDatabase = [
         "url": "https://www.mindspore.cn/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "AI"
-        ]
+        "AI开发框架",
+        "AI"
+    ]
     },
     {
         "name": "Scikit-learn",
@@ -26273,8 +27482,8 @@ const websitesDatabase = [
         "url": "https://scikit-learn.org/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架"
-        ]
+        "AI开发框架"
+    ]
     },
     {
         "name": "NumPy",
@@ -26283,8 +27492,8 @@ const websitesDatabase = [
         "url": "https://numpy.org/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架"
-        ]
+        "AI开发框架"
+    ]
     },
     {
         "name": "LangChain",
@@ -26293,8 +27502,8 @@ const websitesDatabase = [
         "url": "https://www.langchain.com/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架"
-        ]
+        "AI开发框架"
+    ]
     },
     {
         "name": "LlamaIndex",
@@ -26303,8 +27512,8 @@ const websitesDatabase = [
         "url": "https://www.llamaindex.ai/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架"
-        ]
+        "AI开发框架"
+    ]
     },
     {
         "name": "Haystack",
@@ -26313,9 +27522,9 @@ const websitesDatabase = [
         "url": "https://haystack.deepset.ai/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "智能"
-        ]
+        "AI开发框架",
+        "智能"
+    ]
     },
     {
         "name": "Lightning Al",
@@ -26324,9 +27533,9 @@ const websitesDatabase = [
         "url": "https://lightning.ai/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "智能"
-        ]
+        "AI开发框架",
+        "智能"
+    ]
     },
     {
         "name": "NLTK",
@@ -26335,9 +27544,9 @@ const websitesDatabase = [
         "url": "https://www.nltk.org/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "工具"
-        ]
+        "AI开发框架",
+        "工具"
+    ]
     },
     {
         "name": "JAX",
@@ -26346,8 +27555,8 @@ const websitesDatabase = [
         "url": "https://jax.readthedocs.io/en/latest/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架"
-        ]
+        "AI开发框架"
+    ]
     },
     {
         "name": "DL4J",
@@ -26356,8 +27565,8 @@ const websitesDatabase = [
         "url": "https://deeplearning4j.konduit.ai/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架"
-        ]
+        "AI开发框架"
+    ]
     },
     {
         "name": "Vercel AI SDK",
@@ -26366,9 +27575,9 @@ const websitesDatabase = [
         "url": "https://sdk.vercel.ai/docs/introduction?utm_source",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "AI"
-        ]
+        "AI开发框架",
+        "AI"
+    ]
     },
     {
         "name": "文心智能体平台",
@@ -26377,9 +27586,9 @@ const websitesDatabase = [
         "url": "https://agents.baidu.com/center",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "智能"
-        ]
+        "AI开发框架",
+        "智能"
+    ]
     },
     {
         "name": "MLX",
@@ -26388,8 +27597,8 @@ const websitesDatabase = [
         "url": "https://ml-explore.github.io/mlx/build/html/index.html",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架"
-        ]
+        "AI开发框架"
+    ]
     },
     {
         "name": "Label Studio",
@@ -26398,9 +27607,9 @@ const websitesDatabase = [
         "url": "https://labelstud.io/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "工具"
-        ]
+        "AI开发框架",
+        "工具"
+    ]
     },
     {
         "name": "Leap",
@@ -26409,9 +27618,9 @@ const websitesDatabase = [
         "url": "https://www.tryleap.ai/?utm_source",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "AI"
-        ]
+        "AI开发框架",
+        "AI"
+    ]
     },
     {
         "name": "芝士饼",
@@ -26420,9 +27629,9 @@ const websitesDatabase = [
         "url": "https://knowledgepie.cloud.alipay.com/about",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "AI"
-        ]
+        "AI开发框架",
+        "AI"
+    ]
     },
     {
         "name": "Wordware",
@@ -26431,9 +27640,9 @@ const websitesDatabase = [
         "url": "https://www.wordware.ai/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "AI"
-        ]
+        "AI开发框架",
+        "AI"
+    ]
     },
     {
         "name": "Coze",
@@ -26442,10 +27651,10 @@ const websitesDatabase = [
         "url": "https://www.coze.com/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "AI",
-            "智能"
-        ]
+        "AI开发框架",
+        "AI",
+        "智能"
+    ]
     },
     {
         "name": "言犀智能体平台",
@@ -26454,10 +27663,10 @@ const websitesDatabase = [
         "url": "https://yanxi.jd.com/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "AI",
-            "智能"
-        ]
+        "AI开发框架",
+        "AI",
+        "智能"
+    ]
     },
     {
         "name": "无问芯穹",
@@ -26466,9 +27675,9 @@ const websitesDatabase = [
         "url": "https://cloud.infini-ai.com/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "AI"
-        ]
+        "AI开发框架",
+        "AI"
+    ]
     },
     {
         "name": "魔乐社区",
@@ -26477,9 +27686,9 @@ const websitesDatabase = [
         "url": "https://modelers.c/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "AI"
-        ]
+        "AI开发框架",
+        "AI"
+    ]
     },
     {
         "name": "百宝箱Tbox",
@@ -26488,8 +27697,8 @@ const websitesDatabase = [
         "url": "https://tbox.alipay.com/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架"
-        ]
+        "AI开发框架"
+    ]
     },
     {
         "name": "NoCode",
@@ -26498,9 +27707,9 @@ const websitesDatabase = [
         "url": "https://nocode.cn/",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "AI"
-        ]
+        "AI开发框架",
+        "AI"
+    ]
     },
     {
         "name": "Skywork",
@@ -26509,12 +27718,11 @@ const websitesDatabase = [
         "url": "https://skywork.ai/home",
         "category": "AI开发框架",
         "tags": [
-            "AI开发框架",
-            "智能"
-        ]
+        "AI开发框架",
+        "智能"
+    ]
     }
 ]
-
 
 // 热门推荐（首页展示）
 const hotWebsites = [

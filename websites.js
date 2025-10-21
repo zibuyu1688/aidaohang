@@ -7621,7 +7621,7 @@ const websitesDatabase = [
         "name": "卓特视觉",
         "description": "Adobe Stock正版商用素材库，低至6元",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202406/1717379409248258_lQLPKGbpjO9LGJXMyMzIsBao3h0Tg4mYBkiPeyCF6QA_200_200.png",
-        "url": "https://www.droitstock.com/?utm_source=amz123&utm_term=gqtk-gw-droitstock",
+        "url": "https://www.droitstock.com/",
         "category": "付费图库",
         "tags": [
             "正版素材",
@@ -8251,7 +8251,7 @@ const websitesDatabase = [
         "name": "Airwallex空中云汇",
         "description": "120天电商收款提现0费率",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1724377127655439_logo%E9%8D%A5%E7%82%AC%E7%88%A3%E7%81%9E%E6%9B%A0%E3%81%9A200x200_%E9%90%A2%E7%BB%98%E6%BE%981%E9%8D%93%EE%88%9B%E6%B9%B0.jpg",
-        "url": "https://www.airwallex.com/cn/2023landingpage/gtpn?utm_source=affiliate_direct&utm_medium=affiliates&utm_campaign=v01_cn_cn_ib_dg_prtmk_bofu_2025_amz123_online_shoukuanzhifu",
+        "url": "https://www.airwallex.com/cn/2023landingpage/gtpn",
         "category": "收款支付",
         "tags": [
             "跨境收款",
@@ -8277,7 +8277,7 @@ const websitesDatabase = [
         "name": "万里汇WorldFirst",
         "description": "蚂蚁集团品牌，费率千三封顶，闪速到账！",
         "iconUrl": "https://img.amz123.com/upload/index_icon/20201203/5fc8f87f729c8.jpeg/icon52",
-        "url": "https://www.worldfirst.com.cn/cn/?affiliate_id=3493&utm_medium=partnership&utm_source=amz123&utm_term=frontpage",
+        "url": "https://www.worldfirst.com.cn/cn/?affiliate_id=3493",
         "category": "收款支付",
         "tags": [
             "蚂蚁集团",
@@ -8316,7 +8316,7 @@ const websitesDatabase = [
         "name": "PhotonPay光子易",
         "description": "领先的全球支付平台及数字金融基础设施提供商",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202504/1745310868595998_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250422163301.png",
-        "url": "https://www.photonpay.com/hk/?utm_source=amz123&utm_medium=partner&utm_campaign=tools&utm_term=20250110",
+        "url": "https://www.photonpay.com/hk/",
         "category": "收款支付",
         "tags": [
             "全球支付",
@@ -8329,7 +8329,7 @@ const websitesDatabase = [
         "name": "亚马逊卖家钱包",
         "description": "灵活收付，自由掌控，0费率以美元支付美国当地供应商，付款无需换汇",
         "iconUrl": "https://img.amz123.com/image_cloud/202307/1689038176063_%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%8D%96%E5%AE%B6%E9%92%B1%E5%8C%85.png",
-        "url": "https://sellercentral.amazon.com/sellerwallet?ref=amz123us_sw_3pp_all_pgp",
+        "url": "https://sellercentral.amazon.com/sellerwallet",
         "category": "收款支付",
         "tags": [
             "亚马逊官方",
@@ -10363,7 +10363,7 @@ const websitesDatabase = [
         "name": "卖家精灵插件",
         "description": "日用户10万+的亚马逊插件，替代Keepa、查产品销量、关键词",
         "iconUrl": "https://img.amz123.com/upload/index_icon/20201231/5fed724e2be8a.png/icon52",
-        "url": "https://www.sellersprite.com/?utm_source=amz123&utm_medium=tuijianchajian",
+        "url": "https://www.sellersprite.com/",
         "category": "浏览器插件",
         "tags": [
             "亚马逊",
@@ -11114,7 +11114,7 @@ const websitesDatabase = [
         "name": "芥末卡",
         "description": "支付管理解决方案，为你提供你所需要的信贷和管理软件，免费使用",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aff/202303/1678798010Divvy.png",
-        "url": "https://wasabicard.com/zh-CN/signup?ref=gaaf7nn1c0",
+        "url": "https://wasabicard.com/zh-CN/signup",
         "category": "虚拟信用卡",
         "tags": [
             "支付管理",
@@ -11327,7 +11327,7 @@ const websitesDatabase = [
         "name": "e.pn",
         "description": "致力于为跨境从业者提供优质的国内外Card",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aff/202303/1678798560%E6%80%AA%E7%9F%B3%E6%B5%B7%E5%A4%96%E5%95%86%E5%8A%A1Card.png",
-        "url": "https://e.pn/?ref=86aoEE8Q",
+        "url": "https://e.pn/",
         "category": "虚拟信用卡",
         "tags": [
             "跨境从业者",
@@ -11413,7 +11413,7 @@ const websitesDatabase = [
         "name": "Worldfirst万里汇",
         "description": "蚂蚁集团旗下，费率0.3%封顶，支持提款至支付宝",
         "iconUrl": "https://img.amz123.com/upload/index_icon/20201203/5fc8f87f729c8.jpeg/icon52",
-        "url": "https://www.worldfirst.com.cn/cn/?ID=3493&utm_medium=mkt3rdparty&utm_source=amz123&utm_term=frontpage",
+        "url": "https://www.worldfirst.com.cn/cn/?ID=3493",
         "category": "虚拟信用卡",
         "tags": [
             "蚂蚁集团",
@@ -11746,7 +11746,7 @@ const websitesDatabase = [
         "name": "飞跨浏览器",
         "description": "多品牌运营工具/账密安全/加速访问/团队协同",
         "iconUrl": "https://img.amz123.com/image_cloud/202307/1689123813356_64d5c1e395d5e721f23e57edf9c9057.png",
-        "url": "https://www.feikua.net/?source=AMZ123&keyword=AMZ123",
+        "url": "https://www.feikua.net/?keyword=AMZ123",
         "category": "指纹浏览器",
         "tags": [
             "多品牌运营",
@@ -12136,7 +12136,7 @@ const websitesDatabase = [
         "name": "Indigo Browser",
         "description": "可用于管理多个帐户,而不会被检测到的多个环境窗口的浏览器之一,使用此浏览器,您可以高效地为每个帐户设置单独的浏览环境。",
         "iconUrl": "https://img.amz123.com/image_cloud/202304/1680759429535_indigobrowser.png",
-        "url": "https://indigobrowser.com/?ref=xasolazy88",
+        "url": "https://indigobrowser.com/",
         "category": "指纹浏览器",
         "tags": [
             "多帐户管理",
@@ -13875,7 +13875,7 @@ const websitesDatabase = [
         "name": "芝麻代理",
         "description": "企业HTTP代理IP服务提供商，安全、稳定、快速、海量、便捷，1w个免费测试IP",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aff/202303/1678798535%E8%8A%9D%E9%BA%BB%E4%BB%A3%E7%90%86.png",
-        "url": "http://www.zmhttp.com/?utm-source=wxwx&utm-keyword=?008",
+        "url": "http://www.zmhttp.com/",
         "category": "代理IP",
         "tags": [
             "企业HTTP代理IP",
@@ -13892,7 +13892,7 @@ const websitesDatabase = [
         "name": "IPv4web",
         "description": "静态/动态住宅IP服务商，高性价比，支持测试",
         "iconUrl": "https://img.amz123.com/upload/diy_page/aff/202303/1678798535IPv4web.png",
-        "url": "https://ipv4web.com/?code=fbRZh26DFEgHnqLr&utm_source=aff",
+        "url": "https://ipv4web.com/?code=fbRZh26DFEgHnqLr",
         "category": "代理IP",
         "tags": [
             "静态住宅IP",
@@ -14810,7 +14810,7 @@ const websitesDatabase = [
         "name": "922 S5 Proxy",
         "description": "2億+真實住宅IP，覆蓋190+國家，低至$0.045/IP",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1722570716678449_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240802115130.jpg",
-        "url": "https://www.922proxy.com/meal?utm-source=zjy&utm-keyword=?Amz",
+        "url": "https://www.922proxy.com/meal",
         "category": "代理IP",
         "tags": [
             "2億+",
@@ -16742,7 +16742,7 @@ const websitesDatabase = [
         "name": "AI品类分析",
         "description": "免费品类消费洞察",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202508/1755505196574944_AI%E5%93%81%E7%B1%BB%E5%88%86%E6%9E%90.webp",
-        "url": "https://www.voc.ai/cn/voc-for-channel?utm_source=amz123",
+        "url": "https://www.voc.ai/cn/voc-for-channel",
         "category": "聊天AI",
         "tags": [
             "免费品类消费洞察",
@@ -16805,7 +16805,7 @@ const websitesDatabase = [
         "name": "问小白",
         "description": "一键自动生成问小白ppt,行业深度调教模型,AI+专业保障效率和内容精品",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202506/1750389371184225_%E9%97%AE%E5%B0%8F%E7%99%BD.png",
-        "url": "https://www.wenxiaobai.com/?forceLogin=true&source=cooco&ad_source=cooco",
+        "url": "https://www.wenxiaobai.com/?forceLogin=true&ad_source=cooco",
         "category": "聊天AI",
         "tags": [
             "一键自动生成",
@@ -17608,7 +17608,7 @@ const websitesDatabase = [
         "name": "即时灵感",
         "description": "免费不限次数的国产AI绘画",
         "iconUrl": "https://img.amz123.com/image_cloud/202307/1689647642085_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230718102509.png",
-        "url": "https://js.design/ai-muses/gallery?source=amz123",
+        "url": "https://js.design/ai-muses/gallery",
         "category": "绘画AI",
         "tags": [
             "免费不限次数",
@@ -18224,7 +18224,7 @@ const websitesDatabase = [
         "name": "魔法AI跨境营销",
         "description": "前沿的AI技术，赋能跨境电商、外贸等场景",
         "iconUrl": "https://img.amz123.com/image_cloud/202309/1695778392658_iwEcAqNqcGcDAQTRAeoF0QHqBrA2-qHAQEuhhAUGrqD_NVoAB9InDBVoCAAJomltCgAL0T1X.jpg_720x720q90.jpg",
-        "url": "https://www.mofaai.com.cn/login?q=125209&ref=amz123",
+        "url": "https://www.mofaai.com.cn/login?q=125209",
         "category": "跨境AI",
         "tags": [
             "魔法AI",
@@ -18279,7 +18279,7 @@ const websitesDatabase = [
         "name": "AI商品图生成",
         "description": "跨境电商必备作图神器，商品图智能翻译生成",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202404/1713775229814591_iwEeAqNwbmcDAQTRAMgF0QDIBrA-mjqD0P7UkwYS2xGiVEIAB9InDBVoCAAJomltCgAL0XTG.png_720x720q90.jpg",
-        "url": "https://www.hsphoto.cn?utm_source=amz123",
+        "url": "https://www.hsphoto.cn/",
         "category": "跨境AI",
         "tags": [
             "AI商品图生成",
@@ -18293,7 +18293,7 @@ const websitesDatabase = [
         "name": "AI创意商拍",
         "description": "AI电商设计、AI主图、AI智能抠图、AI生成素材",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1720159246154281_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240705140028.png",
-        "url": "https://www.meijian.com/e-commerce?utm_source=dsdhamzdh",
+        "url": "https://www.meijian.com/e-commerce",
         "category": "跨境AI",
         "tags": [
             "AI创意商拍",
@@ -18350,7 +18350,7 @@ const websitesDatabase = [
         "name": "ZMO.AI",
         "description": "AI产品图背景生成，替代拍摄",
         "iconUrl": "https://img.amz123.com/image_cloud/202308/1692753307040_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230823091411.jpg",
-        "url": "https://imgcreator.zmo.ai/background-changer/?ref=amz123",
+        "url": "https://imgcreator.zmo.ai/background-changer/",
         "category": "跨境AI",
         "tags": [
             "ZMO.AI",
@@ -19268,7 +19268,7 @@ const websitesDatabase = [
         "name": "美间AI抠图",
         "description": "美间AI推出的免费智能抠图工具",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202410/1729065746563501_%E7%BE%8E%E9%97%B4AI%E6%8A%A0%E5%9B%BE.png",
-        "url": "https://www.meijian.com/mj-box/ai-pic-matting-intro?subSiteFrom=E-commerce&utm_source=dsdhaibot",
+        "url": "https://www.meijian.com/mj-box/ai-pic-matting-intro?subSiteFrom=E-commerce",
         "category": "背景移除",
         "tags": [
             "背景移除",
@@ -19596,7 +19596,7 @@ const websitesDatabase = [
         "name": "Remini",
         "description": "AI智能将模糊照片变高清的图像修复工具",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721186814307712_Remini.png",
-        "url": "https://remini.ai/?ref=ai-bot.cn",
+        "url": "https://remini.ai/",
         "category": "优化修复",
         "tags": [
             "优化修复",
@@ -20260,7 +20260,7 @@ const websitesDatabase = [
         "name": "Adwrite智能写作工具",
         "description": "交互式中英文写作平台，营销文案/邮件/网站文案/纠错改写/续写/配图",
         "iconUrl": "https://img.amz123.com/image_cloud/202304/1682324926282_0ecef856d396fb7dddbe43fa0c9bffe.jpg",
-        "url": "https://aigcdeep.com/?utm-source=AMZ123&utm-keyword=?02",
+        "url": "https://aigcdeep.com/",
         "category": "写作AI",
         "tags": [
             "写作AI",
@@ -20832,7 +20832,7 @@ const websitesDatabase = [
         "name": "燕雀光年AiLogo设计",
         "description": "国内最好用的品牌LOGO在线设计平台，线上线下可商用",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202506/1750671987526235_%E7%87%95%E9%9B%80%E5%85%89%E5%B9%B4AILOGO%E8%AE%BE%E8%AE%A1.png",
-        "url": "https://www.yanqueai.com/?source=amz123&keyword=amz123",
+        "url": "https://www.yanqueai.com/?keyword=amz123",
         "category": "设计AI",
         "tags": [
             "设计AI",
@@ -20988,7 +20988,7 @@ const websitesDatabase = [
         "name": "美间AI",
         "description": "免费AI设计工具助手，智能海报、提案和商品图生成",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721197448317674_%E7%BE%8E%E9%97%B4ai.png",
-        "url": "https://www.meijian.com/e-commerce?utm_source=dsdhaibot",
+        "url": "https://www.meijian.com/e-commerce",
         "category": "设计AI",
         "tags": [
             "设计AI",
@@ -21298,7 +21298,7 @@ const websitesDatabase = [
         "name": "Fabrie Al",
         "description": "可帮助设计师管理所有文档、客户对话、创建情绪板并随时随地审查设计",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202408/1725005954305068_FabrieAl.png",
-        "url": "https://www.fabrie.cn/ai/imagine?utm_source=AI%E5%B7%A5%E5%85%B7%E9%9B%86&utm_content=fabrie%20Ai%20%E8%90%BD%E5%9C%B0%E9%A1%B5&_channel_track_key=uQ6fKV6j",
+        "url": "https://www.fabrie.cn/ai/imagine?_channel_track_key=uQ6fKV6j",
         "category": "设计AI",
         "tags": [
             "设计AI",
@@ -21358,7 +21358,7 @@ const websitesDatabase = [
         "name": "PhotoMagic",
         "description": "AI快速生成商拍图片",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202409/1726821363666403_PhotoMagic.png",
-        "url": "https://www.photomagic.cn/?utm_source=aigongjuji",
+        "url": "https://www.photomagic.cn/",
         "category": "设计AI",
         "tags": [
             "设计AI",
@@ -21718,7 +21718,7 @@ const websitesDatabase = [
         "name": "AI Song Maker",
         "description": "AI音乐生成器轻松生成歌曲和创作音乐",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202507/1751615171424352_AISongMaker.png",
-        "url": "https://www.aisongmaker.io/?utm_source=amz123.com",
+        "url": "https://www.aisongmaker.io/",
         "category": "音频AI",
         "tags": [
             "音频AI",
@@ -22628,7 +22628,7 @@ const websitesDatabase = [
         "name": "万兴播爆（AI数字人）",
         "description": "3分钟完成一条出海营销视频",
         "iconUrl": "https://img.amz123.com/image_cloud/202308/1691129179591_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230804140538.jpg",
-        "url": "https://virbo.wondershare.cn/?channeltype=bd&utm_source=other_media_sites&utm_medium=referral&utm_campaign=amzai&utm_content=link_21038719_2023-08-04",
+        "url": "https://virbo.wondershare.cn/?channeltype=bd",
         "category": "视频AI",
         "tags": [
             "视频AI",
@@ -22673,7 +22673,7 @@ const websitesDatabase = [
         "name": "万彩AI-短视频",
         "description": "只需文案，自动生成动画短视频",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202505/1747815313262742_%E4%B8%87%E5%BD%A9AI-%E7%9F%AD%E8%A7%86%E9%A2%91.png",
-        "url": "https://ai.kezhan365.com/?utm_code=zmz123-zjc-dhl-062",
+        "url": "https://ai.kezhan365.com/",
         "category": "视频AI",
         "tags": [
             "视频AI",
@@ -23061,7 +23061,7 @@ const websitesDatabase = [
         "name": "Spikes Studio",
         "description": "AI自动将长视频切片剪辑为短视频",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721272429170661_SpikesStudio.png",
-        "url": "https://www.spikes.studio/?ref=uS3c5lzVrr",
+        "url": "https://www.spikes.studio/",
         "category": "视频AI",
         "tags": [
             "视频AI",
@@ -23880,7 +23880,7 @@ const websitesDatabase = [
         "name": "Medeo",
         "description": "AI视频创作平台，一句话生成完整视频",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202505/1748310419333342_Medeo-logo.jpg",
-        "url": "https://www.medeo.app/?utm_source",
+        "url": "https://www.medeo.app/",
         "category": "视频AI",
         "tags": [
             "视频AI",
@@ -23971,7 +23971,7 @@ const websitesDatabase = [
         "name": "ProcessOn",
         "description": "AI一站式绘图平台，轻松创建思维导图流程图",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202312/1702367171222970_a4bdeef55ba72e1aed44fa0896cb470.png",
-        "url": "https://www.processon.com/?utm_source=amz123",
+        "url": "https://www.processon.com/",
         "category": "办公AI",
         "tags": [
             "办公AI",
@@ -24524,7 +24524,7 @@ const websitesDatabase = [
         "name": "PMAI",
         "description": "面向产品经理的AI助手",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721285651334090_PMAI.png",
-        "url": "https://www.pm-ai.cn/?utm_source=NoKVb4O",
+        "url": "https://www.pm-ai.cn/",
         "category": "办公AI",
         "tags": [
             "办公AI",
@@ -24668,7 +24668,7 @@ const websitesDatabase = [
         "name": "妙办AI画图工具",
         "description": "免费一键生成流程图、思维导图",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721287595505291_%E5%A6%99%E5%8A%9EAI%E7%94%BB%E5%9B%BE%E5%B7%A5%E5%85%B7.png",
-        "url": "https://imiaoban.com/work/AIht?source=35261",
+        "url": "https://imiaoban.com/work/AIht",
         "category": "办公AI",
         "tags": [
             "办公AI",
@@ -25281,7 +25281,7 @@ const websitesDatabase = [
         "name": "Zion",
         "description": "内置大语言模型，可视化创建属于自己的AI应用",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202312/1701410567738217_fdc85f173a6c18257d2489399fd384d.jpeg",
-        "url": "https://functorz.com/?utm_source=ad&utm_medium=AMZ123business",
+        "url": "https://functorz.com/",
         "category": "编程AI",
         "tags": [
             "编程AI",
@@ -25708,7 +25708,7 @@ const websitesDatabase = [
         "name": "代码小浣熊Raccoon",
         "description": "商汤科技推出的免费AI编程助手",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721291170938677_%E4%BB%A3%E7%A0%81%E5%B0%8F%E6%B5%A3%E7%86%8ARaccoon.png",
-        "url": "https://raccoon.sensetime.com/code?utm_source=bljuly01",
+        "url": "https://raccoon.sensetime.com/code",
         "category": "编程AI",
         "tags": [
             "编程AI",
@@ -26029,7 +26029,7 @@ const websitesDatabase = [
         "name": "Kiro",
         "description": "亚马逊公司推出的 AI IDE",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202507/1752629595015504_Kiro-logo.webp",
-        "url": "https://kiro.dev/?utm_source",
+        "url": "https://kiro.dev/",
         "category": "编程AI",
         "tags": [
             "编程AI",
@@ -26363,7 +26363,7 @@ const websitesDatabase = [
         "name": "Vercel AI SDK",
         "description": "SDK Vercel开源的搭建AI聊天机器人的开发套件，支持React/Svelte/Vue等框 架",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721206333574276_Vercel.png",
-        "url": "https://sdk.vercel.ai/docs/introduction?utm_source",
+        "url": "https://sdk.vercel.ai/docs/introduction",
         "category": "AI开发框架",
         "tags": [
             "AI开发框架",
@@ -26406,7 +26406,7 @@ const websitesDatabase = [
         "name": "Leap",
         "description": "将AI快速集成到你自己的应用中",
         "iconUrl": "https://img.amz123.com/upload/image_cloud/202407/1721296222358956_Leap.png",
-        "url": "https://www.tryleap.ai/?utm_source",
+        "url": "https://www.tryleap.ai/",
         "category": "AI开发框架",
         "tags": [
             "AI开发框架",
@@ -26512,6 +26512,3462 @@ const websitesDatabase = [
             "AI开发框架",
             "智能"
         ]
+    },
+    
+    // 货源与电子商务网站
+    {
+        "name": "网商园",
+        "description": "全国最早最专业的服装服饰类货源分销平台，提供一键上传、一件代发、15天可退等服务",
+        "url": "https://www.wsy.com/",
+        "category": "货源平台",
+        "tags": ["服装服饰", "分销", "一件代发", "货源", "电商"]
+    },
+    {
+        "name": "赛盈",
+        "description": "主打欧美中大件海外仓精品一件代发分销服务",
+        "url": "https://www.saleyee.cn/",
+        "category": "货源平台",
+        "tags": ["海外仓", "欧美", "一件代发", "分销", "中大件"]
+    },
+    {
+        "name": "美适分销",
+        "description": "致力于为跨境卖家解决货源问题，降低跨境起步门槛",
+        "url": "https://www.mixsss.com/",
+        "category": "货源平台",
+        "tags": ["跨境电商", "分销", "货源", "卖家", "电商"]
+    },
+    {
+        "name": "大健云仓",
+        "description": "为全球家居供应商及零售商提供线上/线下的综合交易及交付服务",
+        "url": "https://www.gigacloudtech.cn/",
+        "category": "货源平台",
+        "tags": ["家居", "供应链", "交易", "交付", "云仓"]
+    },
+    {
+        "name": "指纹科技",
+        "description": "跨境热销品类齐全，无限SKU，1件起订",
+        "url": "https://www.hicustom.com/pages/amz123-3",
+        "category": "货源平台",
+        "tags": ["跨境电商", "热销品", "SKU", "定制", "批发"]
+    },
+    {
+        "name": "飞飞鱼定制",
+        "description": "全球性的S2B2C柔性供应链赋能平台",
+        "url": "http://feifeiyu.com/",
+        "category": "货源平台",
+        "tags": ["定制", "供应链", "S2B2C", "电商", "赋能"]
+    },
+    {
+        "name": "青创网",
+        "description": "B2B鞋服供应链数智平台，汇聚全国鞋服产业带优质供应商",
+        "url": "https://www.17qcc.com/",
+        "category": "货源平台",
+        "tags": ["B2B", "鞋服", "供应链", "产业带", "供应商"]
+    },
+    {
+        "name": "CJdropshipping",
+        "description": "官方合作分销服务商，提供一站式代发货解决方案",
+        "url": "https://www.cjdropshipping.com/",
+        "category": "货源平台",
+        "tags": ["代发货", "Dropshipping", "分销", "跨境电商", "供应链"]
+    },
+    {
+        "name": "DOBA",
+        "description": "国外知名分销平台，提供产品采购和发货服务",
+        "url": "https://www.doba.com/",
+        "category": "货源平台",
+        "tags": ["国外分销", "产品采购", "发货", "跨境电商", "美国"]
+    },
+    {
+        "name": "Oberlo",
+        "description": "国外一件代发平台，与Shopify紧密集成",
+        "url": "https://www.oberlo.com/",
+        "category": "货源平台",
+        "tags": ["一件代发", "Shopify", "Dropshipping", "跨境电商", "产品导入"]
+    },
+    {
+        "name": "拖尼斯",
+        "description": "国内知名分销平台，提供多品类货源",
+        "url": "https://www.toonies.cn/",
+        "category": "货源平台",
+        "tags": ["分销", "电商", "货源", "批发", "代发"]
+    },
+    {
+        "name": "搜款网",
+        "description": "全国著名服装批发平台，聚集广州、杭州等服装批发市场资源",
+        "url": "https://www.vvic.com/",
+        "category": "货源平台",
+        "tags": ["服装批发", "服饰", "批发市场", "服装", "电商"]
+    },
+    {
+        "name": "17货源",
+        "description": "全国知名服装批发、分销平台，提供一站式货源解决方案",
+        "url": "https://www.17zwd.com/",
+        "category": "货源平台",
+        "tags": ["服装批发", "分销", "货源", "一站式", "电商"]
+    },
+    {
+        "name": "找工厂",
+        "description": "找跨境源头工厂的专业服务平台",
+        "url": "https://www.amz123.com/f",
+        "category": "货源平台",
+        "tags": ["跨境电商", "工厂", "源头", "供应商", "采购"]
+    },
+    {
+        "name": "阿里国际",
+        "description": "全球专业的国际外贸出口、海外B2B跨境贸易平台",
+        "url": "https://www.alibaba.com/",
+        "category": "货源平台",
+        "tags": ["跨境电商", "B2B", "外贸", "出口", "贸易"]
+    },
+    
+    // 墨西哥电商网站
+    {
+        "name": "亚马逊墨西哥站",
+        "description": "亚马逊墨西哥官方网站，拉丁美洲重要的线上购物平台",
+        "url": "https://www.amazon.com.mx/",
+        "category": "拉美电商",
+        "tags": ["亚马逊", "墨西哥", "拉美", "跨境电商", "Amazon"]
+    },
+    {
+        "name": "Mercado Libre México",
+        "description": "墨西哥最大的线上购物网站，拉丁美洲领先的电商平台",
+        "url": "https://www.mercadolibre.com.mx/",
+        "category": "拉美电商",
+        "tags": ["墨西哥", "拉美", "电商", "Mercado Libre", "跨境电商"]
+    },
+    {
+        "name": "Walmart México",
+        "description": "沃尔玛墨西哥官方网站，提供线上购物服务",
+        "url": "https://www.walmart.com.mx/",
+        "category": "拉美电商",
+        "tags": ["沃尔玛", "墨西哥", "拉美", "跨境电商", "零售", "Walmart"]
+    },
+    {
+        "name": "Coppel",
+        "description": "墨西哥知名连锁百货公司的线上商城，提供各类生活商品",
+        "url": "https://www.coppel.com/",
+        "category": "拉美电商",
+        "tags": ["墨西哥", "拉美", "百货", "电商", "跨境电商"]
+    },
+    {
+        "name": "Liverpool México",
+        "description": "墨西哥高端百货公司的线上购物平台",
+        "url": "https://www.liverpool.com.mx/",
+        "category": "拉美电商",
+        "tags": ["墨西哥", "拉美", "奢侈品", "百货", "跨境电商"]
+    },
+    {
+        "name": "SHEIN México",
+        "description": "SHEIN墨西哥站，提供时尚服饰和配饰",
+        "url": "https://mx.shein.com/",
+        "category": "拉美电商",
+        "tags": ["SHEIN", "墨西哥", "拉美", "服饰", "跨境电商", "时尚"]
+    },
+    {
+        "name": "Linio México",
+        "description": "墨西哥知名电子商务平台，提供多种类别商品",
+        "url": "https://www.linio.com.mx/",
+        "category": "拉美电商",
+        "tags": ["墨西哥", "拉美", "电子商务", "跨境电商"]
+    },
+    {
+        "name": "Claro Shop",
+        "description": "墨西哥大型电子商务平台，提供电子产品及家居商品",
+        "url": "https://www.claroshop.com/",
+        "category": "拉美电商",
+        "tags": ["墨西哥", "拉美", "电子产品", "家居", "跨境电商"]
+    },
+    {
+        "name": "Elektra",
+        "description": "墨西哥知名电器和家居用品零售商的线上商城",
+        "url": "https://www.elektra.com.mx/",
+        "category": "拉美电商",
+        "tags": ["墨西哥", "拉美", "电器", "家居", "跨境电商"]
+    },
+    {
+        "name": "Soriana",
+        "description": "墨西哥大型连锁超市的线上购物平台",
+        "url": "https://www.soriana.com/",
+        "category": "拉美电商",
+        "tags": ["墨西哥", "拉美", "超市", "生活用品", "跨境电商"]
+    },
+    
+    // 智利电商网站
+    {
+        "name": "Mercado Libre Chile",
+        "description": "智利最大的线上购物平台，拉丁美洲领先的电商平台",
+        "url": "https://www.mercadolibre.cl/",
+        "category": "拉美电商",
+        "tags": ["智利", "拉美", "电商", "Mercado Libre", "跨境电商"]
+    },
+    {
+        "name": "Falabella Chile",
+        "description": "智利领先的百货零售商线上购物平台",
+        "url": "https://www.falabella.com/falabella-cl/",
+        "category": "拉美电商",
+        "tags": ["智利", "拉美", "百货", "零售", "跨境电商"]
+    },
+    {
+        "name": "Paris.cl",
+        "description": "智利知名百货公司的线上购物平台",
+        "url": "https://www.paris.cl/",
+        "category": "拉美电商",
+        "tags": ["智利", "拉美", "百货", "时尚", "跨境电商"]
+    },
+    {
+        "name": "Ripley Chile",
+        "description": "智利知名连锁百货公司的线上购物网站",
+        "url": "https://simple.ripley.cl/",
+        "category": "拉美电商",
+        "tags": ["智利", "拉美", "百货", "电商", "跨境电商"]
+    },
+    {
+        "name": "Linio Chile",
+        "description": "智利大型电子商务平台，提供多种类别商品",
+        "url": "https://www.linio.cl/",
+        "category": "拉美电商",
+        "tags": ["智利", "拉美", "电子商务", "跨境电商"]
+    },
+    {
+        "name": "Sodimac Chile",
+        "description": "智利领先的家居装修和建材零售商的线上平台",
+        "url": "https://www.sodimac.cl/",
+        "category": "拉美电商",
+        "tags": ["智利", "拉美", "家居", "装修", "建材", "跨境电商"]
+    },
+
+    // 秘鲁电商网站
+    {
+        "name": "Mercado Libre Perú",
+        "description": "秘鲁最大的线上购物平台，拉丁美洲领先的电商平台",
+        "url": "https://www.mercadolibre.com.pe/",
+        "category": "拉美电商",
+        "tags": ["秘鲁", "拉美", "电商", "Mercado Libre", "跨境电商"]
+    },
+    {
+        "name": "Falabella Perú",
+        "description": "秘鲁知名百货公司的线上购物平台",
+        "url": "https://www.falabella.com.pe/",
+        "category": "拉美电商",
+        "tags": ["秘鲁", "拉美", "百货", "电商", "跨境电商"]
+    },
+    {
+        "name": "Linio Perú",
+        "description": "秘鲁大型电子商务平台，提供多种类别商品",
+        "url": "https://www.linio.com.pe/",
+        "category": "拉美电商",
+        "tags": ["秘鲁", "拉美", "电子商务", "跨境电商"]
+    },
+    {
+        "name": "Ripley Perú",
+        "description": "秘鲁知名连锁百货公司的线上购物网站",
+        "url": "https://simple.ripley.com.pe/",
+        "category": "拉美电商",
+        "tags": ["秘鲁", "拉美", "百货", "电商", "跨境电商"]
+    },
+    {
+        "name": "Plaza Vea",
+        "description": "秘鲁大型超市连锁的线上购物平台",
+        "url": "https://www.plazavea.com.pe/",
+        "category": "拉美电商",
+        "tags": ["秘鲁", "拉美", "超市", "生活用品", "跨境电商"]
+    },
+    {
+        "name": "Oechsle",
+        "description": "秘鲁知名百货公司的线上购物网站",
+        "url": "https://www.oechsle.pe/",
+        "category": "拉美电商",
+        "tags": ["秘鲁", "拉美", "百货", "电商", "跨境电商"]
+    },
+    {
+        "name": "Wong Peru",
+        "description": "秘鲁高端超市连锁的线上购物平台",
+        "url": "https://www.wong.pe/",
+        "category": "拉美电商",
+        "tags": ["秘鲁", "拉美", "超市", "高端", "跨境电商"]
+    },
+    
+    // 巴西电商网站
+    {
+        "name": "亚马逊巴西站",
+        "description": "亚马逊巴西官方网站，南美洲重要的线上购物平台",
+        "url": "https://www.amazon.com.br/",
+        "category": "拉美电商",
+        "tags": ["亚马逊", "巴西", "拉美", "跨境电商", "Amazon"]
+    },
+    {
+        "name": "Mercado Livre Brasil",
+        "description": "巴西最大的线上购物平台，拉丁美洲领先的电商平台",
+        "url": "https://www.mercadolivre.com.br/",
+        "category": "拉美电商",
+        "tags": ["巴西", "拉美", "电商", "Mercado Livre", "跨境电商"]
+    },
+    {
+        "name": "Magazine Luiza",
+        "description": "巴西领先的电子产品和家居用品零售商的线上平台",
+        "url": "https://www.magazineluiza.com.br/",
+        "category": "拉美电商",
+        "tags": ["巴西", "拉美", "电子产品", "家居", "跨境电商"]
+    },
+    {
+        "name": "Casas Bahia",
+        "description": "巴西知名的家居用品和电器零售商的线上平台",
+        "url": "https://www.casasbahia.com.br/",
+        "category": "拉美电商",
+        "tags": ["巴西", "拉美", "家居", "电器", "跨境电商"]
+    },
+    {
+        "name": "Americanas.com",
+        "description": "巴西大型电子商务平台，提供多种类别商品",
+        "url": "https://www.americanas.com.br/",
+        "category": "拉美电商",
+        "tags": ["巴西", "拉美", "电子商务", "跨境电商"]
+    },
+    {
+        "name": "Shopee Brasil",
+        "description": "Shopee巴西站，提供各类消费品和电子产品",
+        "url": "https://shopee.com.br/",
+        "category": "拉美电商",
+        "tags": ["Shopee", "巴西", "拉美", "电商", "跨境电商"]
+    },
+    {
+        "name": "OLX Brasil",
+        "description": "巴西最大的二手商品交易平台",
+        "url": "https://www.olx.com.br/",
+        "category": "拉美电商",
+        "tags": ["巴西", "拉美", "二手", "交易", "跨境电商"]
+    },
+    {
+        "name": "Submarino",
+        "description": "巴西知名的电子商务平台，专注于电子产品",
+        "url": "https://www.submarino.com.br/",
+        "category": "拉美电商",
+        "tags": ["巴西", "拉美", "电子产品", "跨境电商"]
+    },
+    {
+        "name": "Extra",
+        "description": "巴西大型零售商的线上购物平台",
+        "url": "https://www.extra.com.br/",
+        "category": "拉美电商",
+        "tags": ["巴西", "拉美", "零售", "跨境电商"]
+    },
+    {
+        "name": "Ponto Frio",
+        "description": "巴西知名电器和电子产品零售商的线上平台",
+        "url": "https://www.pontofrio.com.br/",
+        "category": "拉美电商",
+        "tags": ["巴西", "拉美", "电器", "电子产品", "跨境电商"]
+    },
+    {
+        "name": "AliExpress Brasil",
+        "description": "阿里巴巴旗下AliExpress针对巴西市场的平台",
+        "url": "https://pt.aliexpress.com/",
+        "category": "拉美电商",
+        "tags": ["阿里巴巴", "巴西", "拉美", "跨境电商", "AliExpress"]
+    },
+    
+    // 哥伦比亚电商网站
+    {
+        "name": "Mercado Libre Colombia",
+        "description": "美客多哥伦比亚站，提供了手机、时尚、家居、园艺、汽车配件、体育用品等",
+        "url": "https://www.mercadolibre.com.co/",
+        "category": "拉美电商",
+        "tags": ["哥伦比亚", "拉美", "电商", "Mercado Libre", "跨境电商"]
+    },
+    {
+        "name": "Falabella Colombia",
+        "description": "Falabella哥伦比亚站，提供了男女装、童装、家居用品、潮流配饰等品类",
+        "url": "https://www.falabella.com.co/",
+        "category": "拉美电商",
+        "tags": ["哥伦比亚", "拉美", "百货", "电商", "跨境电商"]
+    },
+    {
+        "name": "Shopee Colombia",
+        "description": "Shopee哥伦比亚站，为所有用户提供简单、安全、快速的在线买卖体验",
+        "url": "https://shopee.com.co/",
+        "category": "拉美电商",
+        "tags": ["Shopee", "哥伦比亚", "拉美", "电商", "跨境电商"]
+    },
+    {
+        "name": "Tiendamia Colombia",
+        "description": "Tiendamia哥伦比亚站，为当地消费者提供了优质的购物体验和丰富多样的商品选择",
+        "url": "https://tiendamia.co/",
+        "category": "拉美电商",
+        "tags": ["哥伦比亚", "拉美", "电商", "跨境电商"]
+    },
+    {
+        "name": "Homecenter Colombia",
+        "description": "Homecenter哥伦比亚站，比较受当地民众欢迎的电商平台",
+        "url": "https://www.homecenter.com.co/",
+        "category": "拉美电商",
+        "tags": ["哥伦比亚", "拉美", "家居", "装修", "电商", "跨境电商"]
+    },
+    
+    // 阿根廷电商网站
+    {
+        "name": "Mercado Libre Argentina",
+        "description": "美客多阿根廷站，阿根廷第一家本土电商平台",
+        "url": "https://www.mercadolibre.com.ar/",
+        "category": "拉美电商",
+        "tags": ["阿根廷", "拉美", "电商", "Mercado Libre", "跨境电商"]
+    },
+    {
+        "name": "Easy Argentina",
+        "description": "Easy阿根廷站，为阿根廷的消费者提供方便、快捷的购物体验",
+        "url": "https://www.easy.com.ar/",
+        "category": "拉美电商",
+        "tags": ["阿根廷", "拉美", "家居", "装修", "电商", "跨境电商"]
+    },
+    {
+        "name": "Carrefour Argentina",
+        "description": "Carrefour阿根廷站，阿根廷人喜爱的购物平台之一",
+        "url": "https://www.carrefour.com.ar/",
+        "category": "拉美电商",
+        "tags": ["阿根廷", "拉美", "超市", "零售", "电商", "跨境电商"]
+    },
+    {
+        "name": "Tiendamia Argentina",
+        "description": "Tiendamia阿根廷站，提供了鞋类、手表、珠宝、背包、钱包、儿童服装等产品",
+        "url": "https://tiendamia.com/ar/",
+        "category": "拉美电商",
+        "tags": ["阿根廷", "拉美", "电商", "跨境电商", "时尚"]
+    },
+    {
+        "name": "Fravega",
+        "description": "阿根廷最受欢迎和最受认可的电子商务平台之一",
+        "url": "https://www.fravega.com/",
+        "category": "拉美电商",
+        "tags": ["阿根廷", "拉美", "电子商务", "电子产品", "跨境电商"]
+    },
+    
+    // 其他拉美电商网站
+    {
+        "name": "Mercado Libre Ecuador",
+        "description": "厄瓜多尔站是一个自由交易的门户网站，用户可以在平台自由发布商品，自由进行买卖",
+        "url": "https://www.mercadolibre.com.ec/",
+        "category": "拉美电商",
+        "tags": ["厄瓜多尔", "拉美", "电商", "Mercado Libre", "跨境电商"]
+    },
+    {
+        "name": "Mercado Libre Dominicana",
+        "description": "多米尼加站是美客多的18个站点之一",
+        "url": "https://www.mercadolibre.com.do/",
+        "category": "拉美电商",
+        "tags": ["多米尼加", "拉美", "电商", "Mercado Libre", "跨境电商"]
+    },
+    {
+        "name": "Mercado Libre Costa Rica",
+        "description": "哥斯达黎加站提供了丰富的商品种类，包括电子产品、家居用品、服装、珠宝、美食等",
+        "url": "https://www.mercadolibre.co.cr/",
+        "category": "拉美电商",
+        "tags": ["哥斯达黎加", "拉美", "电商", "Mercado Libre", "跨境电商"]
+    },
+    {
+        "name": "Mercado Libre Bolivia",
+        "description": "玻利维亚站拥有完善的仓储和物流系统，确保商品能够快速、准确地送达消费者手中",
+        "url": "https://www.mercadolibre.com.bo/",
+        "category": "拉美电商",
+        "tags": ["玻利维亚", "拉美", "电商", "Mercado Libre", "跨境电商"]
+    },
+    {
+        "name": "Mercado Libre Panamá",
+        "description": "巴拿马站点是拉丁美洲最大的电商平台之一，也是全球电商市场的重要参与者",
+        "url": "https://www.mercadolibre.com.pa/",
+        "category": "拉美电商",
+        "tags": ["巴拿马", "拉美", "电商", "Mercado Libre", "跨境电商"]
+    },
+    {
+        "name": "Mercado Libre Guatemala",
+        "description": "危地马拉站为当地消费者提供更丰富的商品选择和更便捷的购物体验",
+        "url": "https://www.mercadolibre.com.gt/",
+        "category": "拉美电商",
+        "tags": ["危地马拉", "拉美", "电商", "Mercado Libre", "跨境电商"]
+    },
+    {
+        "name": "Mercado Libre Paraguay",
+        "description": "巴拉圭站是美客多集团在南美洲的重要布局之一",
+        "url": "https://www.mercadolibre.com.py/",
+        "category": "拉美电商",
+        "tags": ["巴拉圭", "拉美", "电商", "Mercado Libre", "跨境电商"]
+    },
+    {
+        "name": "Mercado Libre Honduras",
+        "description": "洪都拉斯站为当地消费者提供便捷、安全的购物体验",
+        "url": "https://www.mercadolibre.com.hn/",
+        "category": "拉美电商",
+        "tags": ["洪都拉斯", "拉美", "电商", "Mercado Libre", "跨境电商"]
+    },
+    {
+        "name": "Mercado Libre Nicaragua",
+        "description": "尼加拉瓜站为当地消费者提供了一站式购物体验",
+        "url": "https://www.mercadolibre.com.ni/",
+        "category": "拉美电商",
+        "tags": ["尼加拉瓜", "拉美", "电商", "Mercado Libre", "跨境电商"]
+    },
+    
+    // 东南亚电商网站 - Shopee系列
+    {
+        "name": "Shopee Malaysia",
+        "description": "虾皮马来西亚站，东南亚领先的电商平台",
+        "url": "https://shopee.com.my/",
+        "category": "东南亚电商",
+        "tags": ["Shopee", "虾皮", "马来西亚", "东南亚", "跨境电商"]
+    },
+    {
+        "name": "Shopee Thailand",
+        "description": "虾皮泰国站，东南亚领先的电商平台",
+        "url": "https://shopee.co.th/",
+        "category": "东南亚电商",
+        "tags": ["Shopee", "虾皮", "泰国", "东南亚", "跨境电商"]
+    },
+    {
+        "name": "Shopee Philippines",
+        "description": "虾皮菲律宾站，东南亚领先的电商平台",
+        "url": "https://shopee.ph/",
+        "category": "东南亚电商",
+        "tags": ["Shopee", "虾皮", "菲律宾", "东南亚", "跨境电商"]
+    },
+    {
+        "name": "Shopee Indonesia",
+        "description": "虾皮印尼站，东南亚领先的电商平台",
+        "url": "https://shopee.co.id/",
+        "category": "东南亚电商",
+        "tags": ["Shopee", "虾皮", "印尼", "东南亚", "跨境电商"]
+    },
+    {
+        "name": "Shopee Vietnam",
+        "description": "虾皮越南站，东南亚领先的电商平台",
+        "url": "https://shopee.vn/",
+        "category": "东南亚电商",
+        "tags": ["Shopee", "虾皮", "越南", "东南亚", "跨境电商"]
+    },
+    {
+        "name": "Shopee Singapore",
+        "description": "虾皮新加坡站，东南亚领先的电商平台",
+        "url": "https://shopee.sg/",
+        "category": "东南亚电商",
+        "tags": ["Shopee", "虾皮", "新加坡", "东南亚", "跨境电商"]
+    },
+    {
+        "name": "Shopee Taiwan",
+        "description": "虾皮台湾站，东亚领先的电商平台",
+        "url": "https://xiapi.xiapibuy.com/",
+        "category": "东南亚电商",
+        "tags": ["Shopee", "虾皮", "台湾", "东亚", "跨境电商"]
+    },
+    {
+        "name": "Shopee卖家中心",
+        "description": "虾皮全球卖家管理平台",
+        "url": "https://seller.shopee.cn/account/signin",
+        "category": "东南亚电商",
+        "tags": ["Shopee", "虾皮", "卖家中心", "跨境电商", "运营"]
+    },
+    
+    // 东南亚电商网站 - Lazada系列
+    {
+        "name": "Lazada Malaysia",
+        "description": "来赞达马来西亚站，东南亚知名电商平台",
+        "url": "https://www.lazada.com.my/",
+        "category": "东南亚电商",
+        "tags": ["Lazada", "来赞达", "马来西亚", "东南亚", "跨境电商"]
+    },
+    {
+        "name": "Lazada Thailand",
+        "description": "来赞达泰国站，东南亚知名电商平台",
+        "url": "https://www.lazada.co.th/",
+        "category": "东南亚电商",
+        "tags": ["Lazada", "来赞达", "泰国", "东南亚", "跨境电商"]
+    },
+    {
+        "name": "Lazada Philippines",
+        "description": "来赞达菲律宾站，东南亚知名电商平台",
+        "url": "https://www.lazada.com.ph/",
+        "category": "东南亚电商",
+        "tags": ["Lazada", "来赞达", "菲律宾", "东南亚", "跨境电商"]
+    },
+    {
+        "name": "Lazada Indonesia",
+        "description": "来赞达印尼站，东南亚知名电商平台",
+        "url": "https://www.lazada.co.id/",
+        "category": "东南亚电商",
+        "tags": ["Lazada", "来赞达", "印尼", "东南亚", "跨境电商"]
+    },
+    {
+        "name": "Lazada Vietnam",
+        "description": "来赞达越南站，东南亚知名电商平台",
+        "url": "https://www.lazada.vn/",
+        "category": "东南亚电商",
+        "tags": ["Lazada", "来赞达", "越南", "东南亚", "跨境电商"]
+    },
+    {
+        "name": "Lazada Singapore",
+        "description": "来赞达新加坡站，东南亚知名电商平台",
+        "url": "https://www.lazada.sg/",
+        "category": "东南亚电商",
+        "tags": ["Lazada", "来赞达", "新加坡", "东南亚", "跨境电商"]
+    },
+    {
+        "name": "Lazada卖家中心",
+        "description": "来赞达全球卖家管理平台",
+        "url": "https://gsp.lazada-seller.cn/page/login",
+        "category": "东南亚电商",
+        "tags": ["Lazada", "来赞达", "卖家中心", "跨境电商", "运营"]
+    },
+    
+    // 跨境电商工具 - 浏览器与运营工具
+    {
+        "name": "紫鸟浏览器",
+        "description": "账号安全管理系统，全场景AI运营方式升级",
+        "url": "https://www.superbrowser.com/?from=97266",
+        "category": "跨境电商工具",
+        "tags": ["浏览器", "AI", "跨境电商", "运营", "账号管理"]
+    },
+    {
+        "name": "AdsPower",
+        "description": "一站式管理 TikTok 矩阵帐号，安全稳定又流畅",
+        "url": "https://share.adspower.net/TT123com",
+        "category": "跨境电商工具",
+        "tags": ["浏览器", "TikTok", "跨境电商", "账号管理", "营销"]
+    },
+    {
+        "name": "BestProxy",
+        "description": "全球IP代理，覆盖200+国家地区，体验超快速度与高稳定性",
+        "url": "https://bestproxy.com/?keyword=n5v5fcye",
+        "category": "跨境电商工具",
+        "tags": ["代理IP", "网络工具", "跨境电商", "TikTok"]
+    },
+    {
+        "name": "蓝海加速",
+        "description": "TikTok海外专线，高速稳定加速器，跨境必备",
+        "url": "https://lanhai.yhui0g.com/",
+        "category": "跨境电商工具",
+        "tags": ["网络加速", "TikTok", "跨境电商", "出海"]
+    },
+    {
+        "name": "Hubstudio",
+        "description": "安全&高效管理TikTok账号，为您的跨境生意保驾护航",
+        "url": "https://www.hubstudio.com/register/",
+        "category": "跨境电商工具",
+        "tags": ["账号管理", "TikTok", "跨境电商", "运营"]
+    },
+    
+    // 跨境电商工具 - TikTok数据分析与营销
+    {
+        "name": "鲁班跨境通",
+        "description": "FB谷歌TK一级代理，独立站课程培训，蓝标旗下",
+        "url": "https://work.weixin.qq.com/ca/cawcde5ff9d50da9f5",
+        "category": "跨境电商工具",
+        "tags": ["跨境", "广告", "TikTok", "培训", "独立站"]
+    },
+    {
+        "name": "FastMoss",
+        "description": "超260万商家信赖&市占率第一的TikTok数据分析平台",
+        "url": "https://www.fastmoss.com/zh/dashboard?refCode=TT123",
+        "category": "跨境电商工具",
+        "tags": ["数据分析", "TikTok", "跨境电商", "选品"]
+    },
+    {
+        "name": "EchoTik",
+        "description": "性价比最高的TikTok数据分析工具，近40万真实卖家的选择",
+        "url": "https://share.echotik.live/TT123banwei",
+        "category": "跨境电商工具",
+        "tags": ["数据分析", "TikTok", "跨境电商", "工具"]
+    },
+    {
+        "name": "Kalodata",
+        "description": "全球150万+商家选择的TikTok数据分析工具",
+        "url": "https://www.kalodata.com/zh?tc=TT123",
+        "category": "跨境电商工具",
+        "tags": ["数据分析", "TikTok", "跨境电商", "工具"]
+    },
+    {
+        "name": "郑和数据",
+        "description": "TikTok数据准确度 99.9%",
+        "url": "https://tk.zhenghedata.com/inviteCode/Yb7iOMUS",
+        "category": "跨境电商工具",
+        "tags": ["数据分析", "TikTok", "跨境电商", "工具"]
+    },
+    {
+        "name": "出海匠",
+        "description": "TikTok 爆品/投流/直播/达人数据分析+AI 爆款内容创作+ 真实客户触达",
+        "url": "https://www.chuhaijiang.com/share/vvdlvs",
+        "category": "跨境电商工具",
+        "tags": ["数据分析", "AI", "TikTok", "跨境电商", "直播"]
+    },
+    {
+        "name": "Pentos",
+        "description": "领先的 TikTok 分析工具包",
+        "url": "https://pentos.co/",
+        "category": "跨境电商工具",
+        "tags": ["数据分析", "TikTok", "跨境电商", "工具"]
+    },
+    {
+        "name": "Tikstar",
+        "description": "海外短视频分析平台",
+        "url": "https://www.tikstar.com/",
+        "category": "跨境电商工具",
+        "tags": ["数据分析", "TikTok", "跨境电商", "短视频"]
+    },
+    {
+        "name": "Exolyt",
+        "description": "领先的TikTok分析工具，帮助网红、营销人员和内容创作者获得洞察力的报告",
+        "url": "https://exolyt.com/zh-CN",
+        "category": "跨境电商工具",
+        "tags": ["数据分析", "TikTok", "跨境电商", "营销"]
+    },
+    {
+        "name": "AdWins",
+        "description": "TikTok广告营销情报分析就用AdWins",
+        "url": "https://www.adwins.net/zh",
+        "category": "跨境电商工具",
+        "tags": ["数据分析", "TikTok", "跨境电商", "广告"]
+    },
+    {
+        "name": "PiPiADS",
+        "description": "广告间谍工具，可让您监视竞争对手的 TikTok 广告，发现最热门的病毒和趋势产品",
+        "url": "https://www.pipiads.com/",
+        "category": "跨境电商工具",
+        "tags": ["数据分析", "TikTok", "跨境电商", "广告"]
+    },
+    
+    // 跨境电商工具 - 达人合作与营销
+    {
+        "name": "纯佣达人库",
+        "description": "图灵Turing Market是全球首个按效果付费的网红营销平台，0会员费，无成本",
+        "url": "https://www.turingmarket.cn/",
+        "category": "跨境电商工具",
+        "tags": ["达人营销", "TikTok", "跨境电商", "网红"]
+    },
+    {
+        "name": "蜗牛海拍",
+        "description": "行业第一家买家秀视频/ 1000名达人任选/ 29.9美金全场一口价",
+        "url": "https://woniu.video/?channel=SCzWRGdwb9",
+        "category": "跨境电商工具",
+        "tags": ["视频营销", "TikTok", "跨境电商", "达人"]
+    },
+    {
+        "name": "WotoHub",
+        "description": "TikTok达人建联神器，全站点资源，市占率第一",
+        "url": "https://www.wotohub.com/register?channel_id=4bc772&source_id=a557fe",
+        "category": "跨境电商工具",
+        "tags": ["达人营销", "TikTok", "跨境电商", "网红"]
+    },
+    {
+        "name": "Toolsprite",
+        "description": "专注TK卖家建联，极致性价比，私信、商品卡、EDM自动AI批量建联",
+        "url": "https://tk.toolsprite.com/landingpage/tt123",
+        "category": "跨境电商工具",
+        "tags": ["达人营销", "AI", "TikTok", "跨境电商", "自动化"]
+    },
+    {
+        "name": "评大师",
+        "description": "TikTok美区、东南亚测评平台，测评专家，增长伙伴",
+        "url": "https://www.pingdashi.com/",
+        "category": "跨境电商工具",
+        "tags": ["达人营销", "TikTok", "跨境电商", "测评"]
+    },
+    {
+        "name": "达人精灵",
+        "description": "tk免费运营工具，下载无水印视频、爆款素材筛选，无需登录，高效便捷",
+        "url": "https://mjjl.cn/gihClt",
+        "category": "跨境电商工具",
+        "tags": ["达人营销", "TikTok", "跨境电商", "运营", "工具"]
+    },
+    {
+        "name": "达人无界",
+        "description": "批量建联邀约TK达人神器，AI智能匹配达人和生成建联话术",
+        "url": "https://app.influenbase.com/bplanding/#/web?source=40102001",
+        "category": "跨境电商工具",
+        "tags": ["达人营销", "AI", "TikTok", "跨境电商", "智能"]
+    },
+    {
+        "name": "DAMI达秘",
+        "description": "TikTok批量邀约达人带货神器",
+        "url": "https://home.tikclubs.com/?type=1&urlCode=1732262383221",
+        "category": "跨境电商工具",
+        "tags": ["达人营销", "TikTok", "跨境电商", "邀约"]
+    },
+    {
+        "name": "Vikoc",
+        "description": "TikTok达人主动来帮你做视频带货，不再受平台邀约限制",
+        "url": "https://vikoc.cn/",
+        "category": "跨境电商工具",
+        "tags": ["达人营销", "TikTok", "跨境电商", "运营", "视频"]
+    },
+    {
+        "name": "Crevideo红茄",
+        "description": "唯一官方API | AI达人运营官，7x24h自动邀约/跟进达人带货",
+        "url": "https://crevideo.com/",
+        "category": "跨境电商工具",
+        "tags": ["达人营销", "AI", "TikTok", "跨境电商", "运营"]
+    },
+    
+    // 跨境电商工具 - 内容创作和账号管理
+    {
+        "name": "BoomCut爆剪辑",
+        "description": "出海营销一站式本地化解决：一键翻译、换脸、音色克隆、数字人",
+        "url": "https://boomcutai.com/",
+        "category": "跨境电商工具",
+        "tags": ["视频制作", "AI", "TikTok", "跨境电商", "翻译"]
+    },
+    {
+        "name": "TK云大师",
+        "description": "专业的TikTok矩阵系统，自动化管理上万账号",
+        "url": "https://www.tkyds.com/?aff=huangfeng",
+        "category": "跨境电商工具",
+        "tags": ["账号管理", "TikTok", "跨境电商", "运营"]
+    },
+    {
+        "name": "指尖出海TK专线",
+        "description": "TikTok美英、东南亚多国专线网络，上市公司，合规纯净独享",
+        "url": "https://www.zhijianchuhai.com/",
+        "category": "跨境电商工具",
+        "tags": ["网络加速", "TikTok", "跨境电商", "出海"]
+    },
+    {
+        "name": "猎豹TK节点网络",
+        "description": "覆盖50+国家，TK原生、独享、住宅IP，专线加速，网络更稳定",
+        "url": "https://www.tkliebao.com/#/register?market=BB4D48",
+        "category": "跨境电商工具",
+        "tags": ["网络加速", "TikTok", "跨境电商", "IP代理"]
+    },
+    {
+        "name": "GeeLark",
+        "description": "TikTok 账号管理专家，助力出海商家矩阵营销",
+        "url": "https://www.geelark.cn/?invite_code=59cSIr",
+        "category": "跨境电商工具",
+        "tags": ["账号管理", "TikTok", "跨境电商", "矩阵营销"]
+    },
+    {
+        "name": "多客-AI智能客服系统",
+        "description": "店小秘旗下一款与TikTok官方合作的AI智能客服系统",
+        "url": "https://www.duoke.com/register.html?code=SP0001",
+        "category": "跨境电商工具",
+        "tags": ["客服系统", "AI", "TikTok", "跨境电商", "智能"]
+    },
+    {
+        "name": "Ads123广告开户",
+        "description": "TT、FB、谷歌等平台广告开户投放服务，快速通道，极速下户",
+        "url": "https://www.amz123.com/ads",
+        "category": "跨境电商工具",
+        "tags": ["广告投放", "TikTok", "跨境电商", "开户"]
+    },
+    {
+        "name": "Gloda",
+        "description": "TikTok 亚马逊 抖音三合一选品",
+        "url": "https://www.gloda.vip/?promotionCode=UTWPWLU",
+        "category": "跨境电商工具",
+        "tags": ["选品工具", "TikTok", "亚马逊", "跨境电商"]
+    },
+    
+    // 跨境电商工具 - ERP与支付
+    {
+        "name": "妙手",
+        "description": "跨境电商免费ERP，方便快速上品、店铺运营管理等",
+        "url": "https://erp.91miaoshou.com/?ac=aak1r",
+        "category": "跨境电商工具",
+        "tags": ["ERP", "跨境电商", "运营", "管理系统"]
+    },
+    {
+        "name": "领星ERP",
+        "description": "领星ERP 5000单/月免费用！财务、广告、供应链全功能限时开放！",
+        "url": "https://erp.lingxing.com/register?invite=nramztterp",
+        "category": "跨境电商工具",
+        "tags": ["ERP", "跨境电商", "财务", "供应链"]
+    },
+    {
+        "name": "店小秘",
+        "description": "免费跨境电商ERP，超120万跨境卖家的共同选择",
+        "url": "http://www.dianxiaomi.com/index.htm?ucd=31T0",
+        "category": "跨境电商工具",
+        "tags": ["ERP", "跨境电商", "管理系统"]
+    },
+    {
+        "name": "芒果店长",
+        "description": "轻量级跨境ERP，支持速卖通、wish、amazon跨境电商平台的订单管理",
+        "url": "https://www.mangoerp.com/login#/signup?linkCode=Z9OOS7WU9W5IID9&linkType=SEVEN",
+        "category": "跨境电商工具",
+        "tags": ["ERP", "跨境电商", "运营", "订单管理"]
+    },
+    {
+        "name": "BigSeller",
+        "description": "一站式电商管理系统，是东南亚用户量最大的电商SaaS系统",
+        "url": "https://www.bigseller.com/alliance/index.htm?affid=QWGU5Z",
+        "category": "跨境电商工具",
+        "tags": ["ERP", "电商", "东南亚", "SaaS"]
+    },
+    {
+        "name": "Ushop",
+        "description": "专家顾问一对一服务，支持TikTok/Lazada/Shopee等多家电商平台本土及跨境店铺",
+        "url": "http://www.ushopbi.com/?c=ADVDKI",
+        "category": "跨境电商工具",
+        "tags": ["ERP", "跨境电商", "TikTok", "顾问"]
+    },
+    {
+        "name": "客优云",
+        "description": "SaaS切入，服务出口跨境电商卖家、为卖家接入海外电商平台、优化产品选择、降低物流成本",
+        "url": "https://www.keyouyun.com/",
+        "category": "跨境电商工具",
+        "tags": ["ERP", "跨境电商", "SaaS"]
+    },
+    {
+        "name": "斑马",
+        "description": "专注提供跨境电商领域SAAS软件服务的互联网公司",
+        "url": "https://www.banmaerp.com/",
+        "category": "跨境电商工具",
+        "tags": ["ERP", "跨境电商", "SAAS"]
+    },
+    {
+        "name": "海卖通",
+        "description": "提供全球电商平台的开店入驻，ERP自动化系统、仓储物流、培训孵化、代运营、分销及供应链服务",
+        "url": "https://b2csupply.com/default/company-home/user-case",
+        "category": "跨境电商工具",
+        "tags": ["ERP", "跨境电商", "运营", "供应链"]
+    },
+    {
+        "name": "旺销王",
+        "description": "针对中小企业商家打造的云端管理软件",
+        "url": "https://www.wxwerp.com/",
+        "category": "跨境电商工具",
+        "tags": ["ERP", "跨境电商", "管理系统", "中小企业"]
+    },
+    
+    // 跨境电商工具 - 支付
+    {
+        "name": "Airwallex空中云汇",
+        "description": "为TTS商家量身打造120天电商收款提现0费率",
+        "url": "https://www.airwallex.com/cn/2023landingpage/gtpn",
+        "category": "跨境支付",
+        "tags": ["收款", "TikTok", "跨境电商", "支付"]
+    },
+    {
+        "name": "万里汇WorldFirst",
+        "description": "TTS官方服务商，到账快成本低，支持提款支付宝和银行卡",
+        "url": "https://www.worldfirst.com.cn/cn/?affiliate_id=8052",
+        "category": "跨境支付",
+        "tags": ["收款", "TikTok", "跨境电商", "支付"]
+    },
+    {
+        "name": "Payoneer派安盈",
+        "description": "本地账号免汇损，多币种转换，灵活银行提现，采购费随心付",
+        "url": "http://tracking.payoneer.com/SH5JC",
+        "category": "跨境支付",
+        "tags": ["收款", "跨境电商", "支付", "多币种"]
+    },
+    {
+        "name": "连连支付",
+        "description": "TTS收款封顶0.2%，绑店和入账都可享免费提现额度，换汇返现最高5000元",
+        "url": "https://global.lianlianpay.com/signup?bizSource=Y25fY29sbGVjdGlvbg==&invitecode=3B3NV7",
+        "category": "跨境支付",
+        "tags": ["收款", "TikTok", "跨境电商", "支付"]
+    },
+    {
+        "name": "PingPong",
+        "description": "TTS收款费率0.3%封顶，多平台多币种快速到账",
+        "url": "https://www.pingpongx.com/?channel=tt123",
+        "category": "跨境支付",
+        "tags": ["收款", "TikTok", "跨境电商", "支付"]
+    },
+    {
+        "name": "湃沃Pyvio",
+        "description": "涵盖多达 150+ 种支付类型，一键直付到账更快速",
+        "url": "https://pyvio.com/",
+        "category": "跨境支付",
+        "tags": ["收款", "跨境电商", "支付"]
+    },
+    {
+        "name": "Ksher开时支付",
+        "description": "印，菲，泰，马本土店和外贸收款$",
+        "url": "https://www.ksher.cn/register?code=0091",
+        "category": "跨境支付",
+        "tags": ["收款", "东南亚", "跨境电商", "支付"]
+    },
+    {
+        "name": "寻汇SUNRATE",
+        "description": "费率0-0.5%,支持多平台本土店铺,安全合规多牌照",
+        "url": "https://cn.sunrate.com/",
+        "category": "跨境支付",
+        "tags": ["收款", "跨境电商", "支付"]
+    },
+    {
+        "name": "爆单美元融资",
+        "description": "港司港户直开，3分钟申请，2千-1千万美元",
+        "url": "https://www.fundpark.cn/financing/credit/hook?cpid=4f2ba75c-c888-8e6b-b30a-c75192e66838&tpid=2506blue",
+        "category": "跨境支付",
+        "tags": ["融资", "跨境电商", "贷款"]
+    },
+    {
+        "name": "珊瑚跨境CoralGlobal",
+        "description": "美、英、马、菲、印、越、泰等本土店和外贸收款，零汇损；极速到账；安全便捷",
+        "url": "https://www.coralglobal.cn/",
+        "category": "跨境支付",
+        "tags": ["收款", "跨境电商", "支付", "零汇损"]
+    },
+    
+    // 拉美市场分析资源
+    {
+        "name": "巴西市场分析",
+        "description": "巴西市场概况分析",
+        "url": "http://www.dny123.com/thread-60.htm",
+        "category": "跨境市场分析",
+        "tags": ["巴西", "拉美", "市场分析", "跨境电商"]
+    },
+    {
+        "name": "墨西哥市场分析",
+        "description": "墨西哥市场概况分析",
+        "url": "https://www.amz123.com/thread-660398.htm",
+        "category": "跨境市场分析",
+        "tags": ["墨西哥", "拉美", "市场分析", "跨境电商"]
+    },
+    {
+        "name": "智利市场分析",
+        "description": "智利市场概况分析",
+        "url": "https://www.amz123.com/thread-660404.htm",
+        "category": "跨境市场分析",
+        "tags": ["智利", "拉美", "市场分析", "跨境电商"]
+    },
+    {
+        "name": "阿根廷市场分析",
+        "description": "阿根廷市场概况分析",
+        "url": "https://www.amz123.com/thread-660933.htm",
+        "category": "跨境市场分析",
+        "tags": ["阿根廷", "拉美", "市场分析", "跨境电商"]
+    },
+    {
+        "name": "哥伦比亚市场分析",
+        "description": "哥伦比亚市场概况分析",
+        "url": "https://www.amz123.com/thread-660876.htm",
+        "category": "跨境市场分析",
+        "tags": ["哥伦比亚", "拉美", "市场分析", "跨境电商"]
+    },
+    {
+        "name": "秘鲁市场分析",
+        "description": "秘鲁市场概况分析",
+        "url": "https://www.amz123.com/thread-660400.htm",
+        "category": "跨境市场分析",
+        "tags": ["秘鲁", "拉美", "市场分析", "跨境电商"]
+    },
+    {
+        "name": "委内瑞拉市场分析",
+        "description": "委内瑞拉市场概况分析",
+        "url": "https://www.amz123.com/thread-660412.htm",
+        "category": "跨境市场分析",
+        "tags": ["委内瑞拉", "拉美", "市场分析", "跨境电商"]
+    },
+    {
+        "name": "乌拉圭市场分析",
+        "description": "乌拉圭市场概况分析",
+        "url": "https://www.amz123.com/thread-660902.htm",
+        "category": "跨境市场分析",
+        "tags": ["乌拉圭", "拉美", "市场分析", "跨境电商"]
+    },
+    {
+        "name": "玻利维亚市场分析",
+        "description": "玻利维亚市场概况分析",
+        "url": "https://www.amz123.com/thread-660881.htm",
+        "category": "跨境市场分析",
+        "tags": ["玻利维亚", "拉美", "市场分析", "跨境电商"]
+    },
+    {
+        "name": "哥斯达黎加市场分析",
+        "description": "哥斯达黎加市场概况分析",
+        "url": "https://www.amz123.com/thread-660880.htm",
+        "category": "跨境市场分析",
+        "tags": ["哥斯达黎加", "拉美", "市场分析", "跨境电商"]
+    },
+    {
+        "name": "巴拉圭市场分析",
+        "description": "巴拉圭市场概况分析",
+        "url": "https://www.amz123.com/thread-663013.htm",
+        "category": "跨境市场分析",
+        "tags": ["巴拉圭", "拉美", "市场分析", "跨境电商"]
+    },
+    {
+        "name": "巴拿马市场分析",
+        "description": "巴拿马市场概况分析",
+        "url": "https://www.amz123.com/thread-662658.htm",
+        "category": "跨境市场分析",
+        "tags": ["巴拿马", "拉美", "市场分析", "跨境电商"]
+    },
+    {
+        "name": "危地马拉市场分析",
+        "description": "危地马拉市场概况分析",
+        "url": "https://www.amz123.com/thread-662513.htm",
+        "category": "跨境市场分析",
+        "tags": ["危地马拉", "拉美", "市场分析", "跨境电商"]
+    },
+    {
+        "name": "厄瓜多尔市场分析",
+        "description": "厄瓜多尔市场概况分析",
+        "url": "https://www.amz123.com/thread-660569.htm",
+        "category": "跨境市场分析",
+        "tags": ["厄瓜多尔", "拉美", "市场分析", "跨境电商"]
+    },
+    {
+        "name": "多米尼加市场分析",
+        "description": "多米尼加市场概况分析",
+        "url": "https://www.amz123.com/thread-660561.htm",
+        "category": "跨境市场分析",
+        "tags": ["多米尼加", "拉美", "市场分析", "跨境电商"]
+    },
+    {
+        "name": "尼加拉瓜市场分析",
+        "description": "尼加拉瓜市场概况分析",
+        "url": "https://www.amz123.com/thread-662978.htm",
+        "category": "跨境市场分析",
+        "tags": ["尼加拉瓜", "拉美", "市场分析", "跨境电商"]
+    },
+    
+    // 国际知识产权机构
+    {
+        "name": "美国商标局",
+        "description": "美国专利商标局的商标检索系统，用于查询美国商标注册和申请情况",
+        "url": "http://tmsearch.uspto.gov/",
+        "category": "知识产权业务",
+        "tags": ["商标", "美国", "知识产权", "USPTO", "查询"]
+    },
+    {
+        "name": "欧洲商标局",
+        "description": "欧盟知识产权局，负责管理欧盟商标和注册式外观设计",
+        "url": "https://www.euipo.europa.eu/en",
+        "category": "知识产权业务",
+        "tags": ["商标", "欧盟", "知识产权", "EUIPO", "查询"]
+    },
+    {
+        "name": "英国商标局",
+        "description": "英国知识产权局，提供商标注册、专利申请等知识产权服务",
+        "url": "https://www.gov.uk/government/organisations/intellectual-property-office",
+        "category": "知识产权业务",
+        "tags": ["商标", "英国", "知识产权", "IPO", "查询"]
+    },
+    {
+        "name": "日本商标局",
+        "description": "日本专利局官方网站，提供日本商标和专利相关服务",
+        "url": "http://www.jpo.go.jp/",
+        "category": "知识产权业务",
+        "tags": ["商标", "日本", "知识产权", "JPO", "查询"]
+    },
+    {
+        "name": "WIPO商标查询",
+        "description": "世界知识产权组织全球品牌数据库，提供全球范围内的商标查询服务",
+        "url": "https://branddb.wipo.int/zh/",
+        "category": "知识产权业务",
+        "tags": ["商标", "全球", "知识产权", "WIPO", "查询"]
+    },
+    {
+        "name": "TradeMarkia",
+        "description": "全球商标搜索和注册服务平台，提供多国商标查询和注册服务",
+        "url": "http://www.trademarkia.com/",
+        "category": "知识产权业务",
+        "tags": ["商标", "全球", "知识产权", "查询", "注册"]
+    },
+    {
+        "name": "商标分类表",
+        "description": "提供国际商标分类表查询，帮助企业正确选择商标注册类别",
+        "url": "https://www.amz123.com/tools-shangbiao",
+        "category": "知识产权业务",
+        "tags": ["商标", "分类", "查询", "注册", "知识产权"]
+    },
+    {
+        "name": "美国专利局",
+        "description": "美国专利商标局专利检索系统，用于查询美国专利信息",
+        "url": "https://ppubs.uspto.gov/pubwebapp/static/pages/landing.html",
+        "category": "知识产权业务",
+        "tags": ["专利", "美国", "知识产权", "USPTO", "查询"]
+    },
+    {
+        "name": "欧洲专利局",
+        "description": "欧洲专利局提供的专利检索服务，涵盖欧洲及全球专利信息",
+        "url": "https://www.epo.org/en/searching-for-patents",
+        "category": "知识产权业务",
+        "tags": ["专利", "欧洲", "知识产权", "EPO", "查询"]
+    },
+    {
+        "name": "英国专利局",
+        "description": "英国专利检索服务，提供英国及世界范围内的专利信息查询",
+        "url": "https://www.gov.uk/search-for-patent",
+        "category": "知识产权业务",
+        "tags": ["专利", "英国", "知识产权", "查询"]
+    },
+    {
+        "name": "日本专利检索",
+        "description": "日本特许厅提供的专利信息平台，用于检索日本专利数据",
+        "url": "https://www.j-platpat.inpit.go.jp/",
+        "category": "知识产权业务",
+        "tags": ["专利", "日本", "知识产权", "J-PlatPat", "查询"]
+    },
+    {
+        "name": "WIPO专利查询",
+        "description": "世界知识产权组织设计数据库，提供全球外观设计和专利信息查询",
+        "url": "https://designdb.wipo.int/designdb/en/index.jsp",
+        "category": "知识产权业务",
+        "tags": ["专利", "设计", "全球", "知识产权", "WIPO", "查询"]
+    },
+    {
+        "name": "谷歌专利搜索",
+        "description": "谷歌提供的专利搜索引擎，可快速检索全球范围内的专利信息",
+        "url": "https://www.google.com/?tbm=pts&gws_rd=ssl",
+        "category": "知识产权业务",
+        "tags": ["专利", "搜索", "谷歌", "知识产权", "查询"]
+    },
+    {
+        "name": "Espacenet专利搜索",
+        "description": "欧洲专利局提供的全球专利数据库，包含超过1亿项专利文献",
+        "url": "https://worldwide.espacenet.com/",
+        "category": "知识产权业务",
+        "tags": ["专利", "欧洲", "全球", "知识产权", "查询"]
+    },
+    {
+        "name": "专利检索教程",
+        "description": "提供专业的专利检索方法和技巧，帮助用户高效进行专利查询",
+        "url": "https://www.amz123.com/t/ntm1xPQx",
+        "category": "知识产权业务",
+        "tags": ["专利", "教程", "检索", "知识产权", "学习"]
+    },
+    {
+        "name": "商标检索教程",
+        "description": "提供商标检索方法和技巧的专业教程，帮助用户高效进行商标查询",
+        "url": "https://www.amz123.com/t/Vjmf4fIW",
+        "category": "知识产权业务",
+        "tags": ["商标", "教程", "检索", "知识产权", "学习"]
+    },
+    {
+        "name": "世界知识产权组织",
+        "description": "世界知识产权组织(WIPO)官方网站，提供全球知识产权服务和资源",
+        "url": "https://www.wipo.int/portal/zh/",
+        "category": "知识产权业务",
+        "tags": ["WIPO", "国际组织", "知识产权", "专利", "商标", "版权"]
+    },
+    {
+        "name": "美国版权局",
+        "description": "美国版权局官方网站，提供版权登记、政策和法律资源",
+        "url": "https://www.copyright.gov/",
+        "category": "知识产权业务",
+        "tags": ["版权", "美国", "知识产权", "登记", "保护"]
+    },
+    {
+        "name": "中国商标查询",
+        "description": "中国国家知识产权局商标局官方网站，提供中国商标查询和注册服务",
+        "url": "https://sbj.cnipa.gov.cn/sbj/index.html",
+        "category": "知识产权业务",
+        "tags": ["商标", "中国", "知识产权", "查询", "注册"]
+    },
+    {
+        "name": "中国专利检索",
+        "description": "中国国家知识产权局专利检索系统，提供中国专利文献检索服务",
+        "url": "https://pss-system.cponline.cnipa.gov.cn/conventionalSearch",
+        "category": "知识产权业务",
+        "tags": ["专利", "中国", "知识产权", "查询", "检索"]
+    },
+    
+    // 全球电商平台
+    {
+        "name": "美国站",
+        "description": "亚马逊美国站点，美国最大的综合电商平台",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20201226/5fe6ec1428019.png/icon96",
+        "url": "https://www.amazon.com/",
+        "category": "全球电商平台",
+        "tags": ["亚马逊", "电商", "美国", "跨境电商"]
+    },
+    {
+        "name": "英国站",
+        "description": "亚马逊英国站点，英国主要的综合电商平台",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20201226/5fe6ea30957c1.png/icon96",
+        "url": "https://www.amazon.co.uk/",
+        "category": "全球电商平台",
+        "tags": ["亚马逊", "电商", "英国", "跨境电商"]
+    },
+    {
+        "name": "德国站",
+        "description": "亚马逊德国站点，德国主要的综合电商平台",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20201226/5fe6ea17c22a1.png/icon96",
+        "url": "https://www.amazon.de/",
+        "category": "全球电商平台",
+        "tags": ["亚马逊", "电商", "德国", "跨境电商", "欧洲"]
+    },
+    {
+        "name": "法国站",
+        "description": "亚马逊法国站点，法国主要的综合电商平台",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20201226/5fe6e9ef73f40.png/icon96",
+        "url": "https://www.amazon.fr/",
+        "category": "全球电商平台",
+        "tags": ["亚马逊", "电商", "法国", "跨境电商", "欧洲"]
+    },
+    {
+        "name": "意大利站",
+        "description": "亚马逊意大利站点，意大利主要的综合电商平台",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20201226/5fe6e9e4eb24b.png/icon96",
+        "url": "https://www.amazon.it/",
+        "category": "全球电商平台",
+        "tags": ["亚马逊", "电商", "意大利", "跨境电商", "欧洲"]
+    },
+    {
+        "name": "西班牙站",
+        "description": "亚马逊西班牙站点，西班牙主要的综合电商平台",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20201226/5fe6e9da98c58.png/icon96",
+        "url": "https://www.amazon.es/",
+        "category": "全球电商平台",
+        "tags": ["亚马逊", "电商", "西班牙", "跨境电商", "欧洲"]
+    },
+    {
+        "name": "美亚新品榜",
+        "description": "亚马逊美国站新品榜单，展示各类别新上架热门商品",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20201203/5fc8fed0e5c80.jpg",
+        "url": "https://www.amazon.com/gp/new-releases",
+        "category": "全球电商平台",
+        "tags": ["亚马逊", "电商", "美国", "跨境电商", "热销榜单"]
+    },
+    {
+        "name": "Temu",
+        "description": "拼多多旗下面向海外市场的跨境电商平台，主打低价策略",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20221214/63999aadc0407.png/viewthumb",
+        "url": "https://www.temu.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "跨境电商", "中国出海", "拼多多"]
+    },
+    {
+        "name": "SHEIN",
+        "description": "中国跨境快时尚电商平台，主营女装、男装、童装等服饰",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a4a936555b.png/viewthumb",
+        "url": "https://us.shein.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "跨境电商", "中国出海", "服装", "快时尚"]
+    },
+    {
+        "name": "速卖通",
+        "description": "阿里巴巴旗下跨境电商平台，面向全球消费者的零售平台",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a5b9d19c59.png/viewthumb",
+        "url": "https://best.aliexpress.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "跨境电商", "阿里巴巴", "中国出海"]
+    },
+    {
+        "name": "Ozon",
+        "description": "俄罗斯最大的电商平台之一，被称为'俄罗斯亚马逊'",
+        "iconUrl": "https://img.amz123.com/upload/202310/1698393198596103_52D977F8-E419-498E-93DB-8334CF00740F.png",
+        "url": "https://www.ozon.ru/",
+        "category": "全球电商平台",
+        "tags": ["电商", "俄罗斯", "跨境电商", "俄语"]
+    },
+    {
+        "name": "沃尔玛",
+        "description": "美国最大的实体零售商，同时也是重要的电商平台",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a3fab667ad.png/viewthumb",
+        "url": "https://www.walmart.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "美国", "跨境电商", "零售", "沃尔玛"]
+    },
+    {
+        "name": "美客多",
+        "description": "墨西哥及拉丁美洲最大的电商平台，类似拉美版亚马逊",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/lm/202303/1678811099%E5%8D%96%E5%AE%B6%E4%B8%AD%E5%BF%83.png",
+        "url": "https://www.mercadolibre.com.mx/",
+        "category": "全球电商平台",
+        "tags": ["电商", "墨西哥", "拉丁美洲", "跨境电商", "西班牙语"]
+    },
+    {
+        "name": "eBay",
+        "description": "全球知名C2C电商平台，主打二手物品和收藏品交易",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a533761848.jpeg/viewthumb",
+        "url": "https://www.ebay.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "C2C", "拍卖", "跨境电商", "二手交易"]
+    },
+    {
+        "name": "Etsy",
+        "description": "专注于手工、复古和创意产品的全球电商平台",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a3fb6705a5.png/viewthumb",
+        "url": "https://www.etsy.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "手工", "创意", "跨境电商", "艺术品"]
+    },
+    {
+        "name": "日本乐天",
+        "description": "日本最大的电商平台之一，提供多样化的商品和服务",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220331/624531a171f56.png/viewthumb",
+        "url": "https://www.rakuten.co.jp/",
+        "category": "全球电商平台",
+        "tags": ["电商", "日本", "乐天", "跨境电商", "日语"]
+    },
+    {
+        "name": "Wayfair",
+        "description": "美国最大的在线家居和装饰品电商平台之一",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a3fc103e86.png/viewthumb",
+        "url": "https://www.wayfair.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "家居", "装饰", "美国", "跨境电商"]
+    },
+    {
+        "name": "OTTO",
+        "description": "德国最大的在线零售商之一，提供服装、家居等多品类商品",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a35049ae94.jpeg/viewthumb",
+        "url": "https://www.otto.de/",
+        "category": "全球电商平台",
+        "tags": ["电商", "德国", "家居", "服装", "跨境电商", "欧洲"]
+    },
+    {
+        "name": "Coupang",
+        "description": "韩国最大的电商平台之一，提供快速配送服务",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220329/624296753b7cb.png/viewthumb",
+        "url": "https://www.coupang.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "韩国", "跨境电商", "韩语"]
+    },
+    {
+        "name": "Miravia",
+        "description": "阿里巴巴在西班牙推出的电商平台，主打时尚和生活方式产品",
+        "iconUrl": "https://img.amz123.com/image_cloud/202306/1687673920473_miravia.png",
+        "url": "https://www.miravia.es/",
+        "category": "全球电商平台",
+        "tags": ["电商", "西班牙", "阿里巴巴", "跨境电商", "欧洲"]
+    },
+    {
+        "name": "Cdiscount",
+        "description": "法国领先的电商平台，提供多种类商品及服务",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a33d301f66.png/viewthumb",
+        "url": "https://www.cdiscount.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "法国", "跨境电商", "欧洲"]
+    },
+    {
+        "name": "Allegro",
+        "description": "波兰最大的电商平台，提供多种类商品及服务",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a3452cfc72.png/viewthumb",
+        "url": "https://allegro.pl/",
+        "category": "全球电商平台",
+        "tags": ["电商", "波兰", "跨境电商", "欧洲", "东欧"]
+    },
+    {
+        "name": "Wildberries",
+        "description": "俄罗斯最大的电商平台之一，主营服装和生活用品",
+        "iconUrl": "https://cdn.zfty.work/space_5/image_cloud/202502/1738916150043413_lQDPJxBuQvJbMl3NAgDNAgCwyjrYcSo5kn4HiXwOi4VQAA_512_512.jpg",
+        "url": "https://www.wildberries.ru/",
+        "category": "全球电商平台",
+        "tags": ["电商", "俄罗斯", "跨境电商", "俄语", "服装"]
+    },
+    {
+        "name": "Yandex.Market",
+        "description": "俄罗斯搜索引擎Yandex旗下电商平台，类似俄罗斯版Google Shopping",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202404/1712828483001640_Yandex.Market.png",
+        "url": "https://market.yandex.ru/",
+        "category": "全球电商平台",
+        "tags": ["电商", "俄罗斯", "跨境电商", "俄语", "比价"]
+    },
+    {
+        "name": "eMAG",
+        "description": "罗马尼亚最大的电商平台，同时覆盖多个东欧国家",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a345e2546c.png/viewthumb",
+        "url": "https://www.emag.ro/",
+        "category": "全球电商平台",
+        "tags": ["电商", "罗马尼亚", "东欧", "跨境电商", "欧洲"]
+    },
+    {
+        "name": "Fruugo",
+        "description": "跨国电商平台，支持全球31个国家和地区的在线购物",
+        "iconUrl": "https://img.amz123.com/image_cloud/202304/1681907937838_fruugo.png",
+        "url": "https://www.amz123.com/eu#fruugo",
+        "category": "全球电商平台",
+        "tags": ["电商", "跨境电商", "欧洲", "全球销售"]
+    },
+    {
+        "name": "Kaufland",
+        "description": "德国连锁超市Kaufland的电商平台，提供食品和日用品",
+        "iconUrl": "https://img.amz123.com/image_cloud/202304/1682041985448_Kaufland.jpg",
+        "url": "https://www.kaufland.de/",
+        "category": "全球电商平台",
+        "tags": ["电商", "德国", "超市", "跨境电商", "欧洲"]
+    },
+    {
+        "name": "法国乐天",
+        "description": "乐天集团在法国的电商平台，提供多种类商品",
+        "iconUrl": "https://img.amz123.com/image_cloud/202302/1677046347372_Rakuten.png",
+        "url": "https://fr.shopping.rakuten.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "法国", "乐天", "跨境电商", "欧洲"]
+    },
+    {
+        "name": "ManoMano",
+        "description": "法国领先的DIY和家居装修在线平台",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202311/1701134073980151_mano.png",
+        "url": "https://www.manomano.fr/",
+        "category": "全球电商平台",
+        "tags": ["电商", "法国", "DIY", "家居", "装修", "跨境电商", "欧洲"]
+    },
+    {
+        "name": "Zalando",
+        "description": "欧洲领先的在线时尚零售商，主营服装鞋帽等时尚品类",
+        "iconUrl": "https://img.amz123.com/upload/202311/1698904439032115_zalando2.png",
+        "url": "https://www.amz123.com/eu#zalando",
+        "category": "全球电商平台",
+        "tags": ["电商", "欧洲", "服装", "时尚", "跨境电商"]
+    },
+    {
+        "name": "FNAC",
+        "description": "法国大型文化及电子产品零售商的电商平台",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a34c784f9c.png/viewthumb",
+        "url": "https://www.fnac.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "法国", "电子产品", "文化", "跨境电商", "欧洲"]
+    },
+    {
+        "name": "Darty",
+        "description": "法国著名家电和电子产品零售商的电商平台",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a34fa2f2b3.png/viewthumb",
+        "url": "https://www.darty.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "法国", "家电", "电子产品", "跨境电商", "欧洲"]
+    },
+    {
+        "name": "Joom",
+        "description": "俄罗斯跨境电商平台，主打低价商品直邮服务",
+        "iconUrl": "https://img.amz123.com/image_cloud/202302/1677219777531_joom.png",
+        "url": "https://www.joom.com/ru",
+        "category": "全球电商平台",
+        "tags": ["电商", "俄罗斯", "跨境电商", "俄语", "直邮"]
+    },
+    {
+        "name": "Worten",
+        "description": "葡萄牙最大的电子产品零售商的电商平台",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a34eb4161b.png/viewthumb",
+        "url": "https://www.worten.pt/",
+        "category": "全球电商平台",
+        "tags": ["电商", "葡萄牙", "电子产品", "跨境电商", "欧洲"]
+    },
+    {
+        "name": "BOL",
+        "description": "荷兰最大的在线零售商之一，提供书籍、电子产品等多品类商品",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a35105126c.png/viewthumb",
+        "url": "https://www.bol.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "荷兰", "跨境电商", "欧洲", "书籍"]
+    },
+    {
+        "name": "Wish",
+        "description": "美国跨境电商平台，主打低价策略",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a5df88120a.png/viewthumb",
+        "url": "https://www.wish.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "美国", "跨境电商", "低价"]
+    },
+    {
+        "name": "HomeDepot",
+        "description": "美国最大的家居装修连锁零售商的电商平台",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a401f029cc.png/viewthumb",
+        "url": "https://www.homedepot.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "美国", "家居", "DIY", "装修", "跨境电商"]
+    },
+    {
+        "name": "BBB",
+        "description": "Bed Bath & Beyond，美国家居和生活用品零售商的电商平台",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a403f17899.jpeg/viewthumb",
+        "url": "https://www.bedbathandbeyond.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "美国", "家居", "生活用品", "跨境电商"]
+    },
+    {
+        "name": "Lowes",
+        "description": "美国第二大家居装修零售商的电商平台",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a57cea480d.png/viewthumb",
+        "url": "https://www.lowes.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "美国", "家居", "DIY", "装修", "跨境电商"]
+    },
+    {
+        "name": "Mercari",
+        "description": "美国二手交易电商平台，类似于eBay的C2C模式",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a5b68765b8.png/viewthumb",
+        "url": "https://www.mercari.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "美国", "二手", "C2C", "跨境电商"]
+    },
+    {
+        "name": "Poshmark",
+        "description": "美国时尚二手交易电商平台，主打服装和配饰品类",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220416/625a5303b85c3.png/viewthumb",
+        "url": "https://poshmark.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "美国", "二手", "时尚", "服装", "跨境电商"]
+    },
+    {
+        "name": "Vinted",
+        "description": "欧洲领先的二手时尚交易平台，主打可持续时尚理念",
+        "iconUrl": "https://img.amz123.com/image_cloud/202309/1695982534625_vinted.png",
+        "url": "https://www.amz123.com/eu#vinted",
+        "category": "全球电商平台",
+        "tags": ["电商", "欧洲", "二手", "时尚", "服装", "跨境电商"]
+    },
+    {
+        "name": "日本煤炉",
+        "description": "Mercari日本站，日本最大的二手交易平台之一",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220331/6245317b866cb.png/viewthumb",
+        "url": "https://jp.mercari.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "日本", "二手", "C2C", "跨境电商"]
+    },
+    {
+        "name": "敦煌网",
+        "description": "中国B2B跨境电商平台，主要面向小批量批发和零售",
+        "iconUrl": "https://img.amz123.com/upload/diy_page/wm/202303/1678799122%E6%95%A6%E7%85%8C%E7%BD%91.png",
+        "url": "https://www.dhgate.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "B2B", "批发", "中国出海", "跨境电商"]
+    },
+    {
+        "name": "阿里巴巴",
+        "description": "全球最大的B2B电商平台之一，连接全球买家和中国供应商",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202311/1701096518901095_%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4.png",
+        "url": "https://www.alibaba.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "B2B", "批发", "中国出海", "跨境电商"]
+    },
+    {
+        "name": "Trendyol",
+        "description": "土耳其最大的电商平台，提供时尚、电子产品等多品类商品",
+        "iconUrl": "https://img.amz123.com/image_cloud/202302/1677032195796_Trendyol.jpg",
+        "url": "https://www.trendyol.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "土耳其", "时尚", "跨境电商", "中东"]
+    },
+    {
+        "name": "Hepsiburada",
+        "description": "土耳其领先的电商平台之一，被称为'土耳其亚马逊'",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202404/1712828569494464_Hepsiburada.png",
+        "url": "https://www.hepsiburada.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "土耳其", "跨境电商", "中东"]
+    },
+    {
+        "name": "Daraz",
+        "description": "阿里巴巴旗下在南亚地区的电商平台，覆盖巴基斯坦等国家",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202404/1712829544511610_1712829518188.jpg",
+        "url": "https://www.daraz.pk/",
+        "category": "全球电商平台",
+        "tags": ["电商", "巴基斯坦", "南亚", "阿里巴巴", "跨境电商"]
+    },
+    {
+        "name": "Shopee",
+        "description": "东南亚和拉美地区领先的电商平台，提供多样化的商品和服务",
+        "iconUrl": "https://img.amz123.com/image_cloud/202310/1697012293892_60f043f7d3c8b.png",
+        "url": "https://shopee.ph/",
+        "category": "全球电商平台",
+        "tags": ["电商", "东南亚", "菲律宾", "跨境电商"]
+    },
+    {
+        "name": "Lazada",
+        "description": "阿里巴巴旗下东南亚地区电商平台，覆盖多个东南亚国家",
+        "iconUrl": "https://img.amz123.com/image_cloud/202303/1679580461014_Lazada.png",
+        "url": "https://www.lazada.com.ph/",
+        "category": "全球电商平台",
+        "tags": ["电商", "东南亚", "菲律宾", "阿里巴巴", "跨境电商"]
+    },
+    {
+        "name": "Tokopedia",
+        "description": "印尼最大的电商平台之一，提供多样化的商品和服务",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202404/1712827466106527_Tokopedia.png",
+        "url": "https://www.tokopedia.com/",
+        "category": "全球电商平台",
+        "tags": ["电商", "印尼", "东南亚", "跨境电商"]
+    },
+    {
+        "name": "Gmarket",
+        "description": "韩国最大的电商平台之一，提供多样化的商品和服务",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220329/6242968a53bee.png/viewthumb",
+        "url": "https://www.gmarket.co.kr/",
+        "category": "全球电商平台",
+        "tags": ["电商", "韩国", "跨境电商", "亚洲"]
+    },
+    {
+        "name": "Auction",
+        "description": "韩国电商平台，提供拍卖和固定价格销售模式",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220329/6242969bdf89e.png/viewthumb",
+        "url": "https://www.auction.co.kr/",
+        "category": "全球电商平台",
+        "tags": ["电商", "韩国", "拍卖", "跨境电商", "亚洲"]
+    },
+    {
+        "name": "11Street",
+        "description": "韩国领先的电商平台之一，提供多样化的商品和服务",
+        "iconUrl": "https://img.amz123.com/upload/index_icon/20220329/6242967e220cd.png/viewthumb",
+        "url": "https://www.11st.co.kr/",
+        "category": "全球电商平台",
+        "tags": ["电商", "韩国", "跨境电商", "亚洲"]
+    },
+    {
+        "name": "Qoo10日本",
+        "description": "新加坡电商平台在日本的站点，覆盖日本市场的商品和服务",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202401/1706087496827250_Qoo10.png",
+        "url": "https://www.qoo10.jp/",
+        "category": "全球电商平台",
+        "tags": ["电商", "日本", "跨境电商", "亚洲"]
+    },
+    {
+        "name": "Falabella",
+        "description": "拉丁美洲领先的百货零售商和电商平台，总部位于智利",
+        "iconUrl": "https://img.amz123.com/upload/202310/1698486688389653_falabella.png",
+        "url": "https://www.falabella.cl/",
+        "category": "全球电商平台",
+        "tags": ["电商", "智利", "拉美", "跨境电商", "百货"]
+    },
+    {
+        "name": "Americanas",
+        "description": "巴西领先的电商平台之一，提供多样化的商品和服务",
+        "iconUrl": "https://img.amz123.com/upload/202311/1698810388548996_Americanas.png",
+        "url": "https://www.americanas.com.br/",
+        "category": "全球电商平台",
+        "tags": ["电商", "巴西", "拉美", "跨境电商"]
+    },
+    {
+        "name": "Jumia",
+        "description": "非洲领先的电商平台，被称为'非洲亚马逊'",
+        "iconUrl": "https://img.amz123.com/upload/202310/1698487980418998_jumia.png",
+        "url": "https://www.jumia.com.ng/",
+        "category": "全球电商平台",
+        "tags": ["电商", "尼日利亚", "非洲", "跨境电商"]
+    },
+    {
+        "name": "Noon",
+        "description": "中东地区领先的电商平台，主要覆盖阿联酋和沙特阿拉伯市场",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202404/1712828836702371_noon1.png",
+        "url": "https://www.noon.com/uae-en/",
+        "category": "全球电商平台",
+        "tags": ["电商", "阿联酋", "中东", "跨境电商", "阿拉伯"]
+    },
+    {
+        "name": "Fordeal",
+        "description": "中国跨境电商平台，主要面向中东和北非市场",
+        "iconUrl": "https://img.amz123.com/upload/image_cloud/202404/1712828908061311_Fordeal.png",
+        "url": "https://www.fordeal.com/en-AE/",
+        "category": "全球电商平台",
+        "tags": ["电商", "中东", "阿联酋", "中国出海", "跨境电商"]
+    },
+    {
+        "name": "WeareSellers",
+        "description": "知无不言跨境电商社区，专注亚马逊、沃尔玛、Wayfair、Shein、Wish、Temu、独立站等平台的销售运营与内容营销",
+        "url": "https://wearesellers.com",
+        "category": "全球电商平台",
+        "tags": ["跨境电商", "社区", "亚马逊", "独立站", "电商运营"]
+    },
+    {
+        "name": "卖家之家",
+        "description": "国内领先的出口跨境电商卖家服务平台，提供最新跨境电商资讯、运营工具及测评",
+        "url": "https://mjzj.com",
+        "category": "全球电商平台",
+        "tags": ["跨境电商", "卖家服务", "电商资讯", "运营工具", "测评"]
+    },
+    {
+        "name": "易仓科技",
+        "description": "跨境电商ERP系统，连接60+电商平台，助力卖家多平台多订单处理和多海外仓比价",
+        "url": "https://eccang.com",
+        "category": "全球电商平台",
+        "tags": ["跨境电商", "ERP", "订单处理", "海外仓", "电商系统"]
+    },
+    {
+        "name": "跨境知道",
+        "description": "跨境电商领域知名媒体平台，提供跨境早知道、电商报告、导航等资源及服务",
+        "url": "https://ikjzd.com",
+        "category": "全球电商平台",
+        "tags": ["跨境电商", "媒体", "资讯", "电商报告", "导航"]
+    },
+    {
+        "name": "外贸网站导航",
+        "description": "外贸和跨境电商从业人员常用网站导航",
+        "url": "https://chwang.com",
+        "category": "全球电商平台",
+        "tags": ["外贸", "跨境电商", "网站导航", "电商工具"]
+    },
+    {
+        "name": "邦阅网",
+        "description": "致力于为外贸人寻找真实可信的服务商，提供外贸知识分享、案例分析和营销技巧",
+        "url": "https://52by.com",
+        "category": "全球电商平台",
+        "tags": ["外贸", "服务商", "知识分享", "营销技巧", "案例分析"]
+    },
+    {
+        "name": "Seller Sprite",
+        "description": "亚马逊卖家产品研究、市场分析、关键词推荐和产品跟踪的综合工具",
+        "url": "https://sellersprite.com",
+        "category": "全球电商平台",
+        "tags": ["亚马逊", "卖家工具", "市场分析", "关键词", "产品研究"]
+    },
+    {
+        "name": "17TRACK",
+        "description": "全球包裹跟踪平台，支持2500多家物流公司的包裹追踪",
+        "url": "https://17track.net",
+        "category": "全球电商平台",
+        "tags": ["物流", "包裹跟踪", "跨境电商", "物流追踪"]
+    },
+    {
+        "name": "UPS",
+        "description": "全球领先的物流和供应链解决方案提供商",
+        "url": "https://ups.com",
+        "category": "全球电商平台",
+        "tags": ["物流", "快递", "供应链", "国际运输"]
+    },
+    {
+        "name": "马帮ERP",
+        "description": "专业团队打造的跨境电商ERP软件，帮卖家接入海外电商平台、降低物流成本",
+        "url": "https://mabangerp.com",
+        "category": "全球电商平台",
+        "tags": ["ERP", "跨境电商", "物流", "海外电商", "卖家工具"]
+    },
+    
+    // AI聊天助手
+    {
+        "name": "豆包",
+        "description": "免费全能AI助手，生成图片/视频、写作、编程",
+        "url": "https://ai-w3cschool.com",
+        "category": "AI聊天助手",
+        "tags": ["AI", "助手", "多模态", "免费", "国产"]
+    },
+    {
+        "name": "ChatGPT",
+        "description": "OpenAI推出的AI聊天机器人，全球最流行的AI助手",
+        "url": "https://chatgpt.com",
+        "category": "AI聊天助手",
+        "tags": ["AI", "聊天", "GPT", "OpenAI"]
+    },
+    {
+        "name": "Claude",
+        "description": "Anthropic公司推出的对话式AI智能助手",
+        "url": "https://claude.ai",
+        "category": "AI聊天助手",
+        "tags": ["AI", "智能", "助手", "对话"]
+    },
+    {
+        "name": "Gemini",
+        "description": "Google推出的AI聊天对话机器人",
+        "url": "https://deepmind.google/technologies/gemini",
+        "category": "AI聊天助手",
+        "tags": ["AI", "聊天", "谷歌"]
+    },
+    {
+        "name": "讯飞星火",
+        "description": "AI智能助手，免费PPT生成、深度研究",
+        "url": "https://xinghuo.xfyun.cn",
+        "category": "AI聊天助手",
+        "tags": ["AI", "智能", "助手", "科大讯飞", "国产"]
+    },
+    {
+        "name": "腾讯元宝",
+        "description": "腾讯推出的免费AI智能助手",
+        "url": "https://hunyuan.tencent.com",
+        "category": "AI聊天助手",
+        "tags": ["AI", "智能", "助手", "腾讯", "国产"]
+    },
+    {
+        "name": "通义千问",
+        "description": "阿里推出的自研大模型，通情、达义的全能AI助手",
+        "url": "https://qianwen.aliyun.com",
+        "category": "AI聊天助手",
+        "tags": ["AI", "助手", "阿里", "国产"]
+    },
+    {
+        "name": "文心一言",
+        "description": "百度推出的基于文心大模型的AI智能助手",
+        "url": "https://yiyan.baidu.com",
+        "category": "AI聊天助手",
+        "tags": ["AI", "智能", "助手", "百度", "国产"]
+    },
+    {
+        "name": "Copilot",
+        "description": "微软推出的网页版Copilot助手",
+        "url": "https://copilot.microsoft.com",
+        "category": "AI聊天助手",
+        "tags": ["助手", "微软", "AI"]
+    },
+    {
+        "name": "Kimi智能助手",
+        "description": "月之暗面推出的AI智能助手",
+        "url": "https://kimi.moonshot.cn",
+        "category": "AI聊天助手",
+        "tags": ["AI", "智能", "助手", "国产"]
+    },
+    {
+        "name": "MiniMax",
+        "description": "MiniMax推出的AI智能问答助手",
+        "url": "https://api.minimax.chat",
+        "category": "AI聊天助手",
+        "tags": ["AI", "智能", "助手", "国产"]
+    },
+    {
+        "name": "智谱清言",
+        "description": "智谱推出的全能AI助手",
+        "url": "https://chatglm.cn",
+        "category": "AI聊天助手",
+        "tags": ["AI", "助手", "国产"]
+    },
+    {
+        "name": "DeepSeek",
+        "description": "幻方量化推出的AI智能助手和开源大模型",
+        "url": "https://www.deepseek.com",
+        "category": "AI聊天助手",
+        "tags": ["AI", "智能", "助手", "国产"]
+    },
+    
+    // AI图像创作
+    {
+        "name": "绘蛙",
+        "description": "AI电商营销工具，免费生成商品图",
+        "url": "https://ihuiwa.paluai.com",
+        "category": "AI图像创作",
+        "tags": ["AI", "工具", "电商", "营销"]
+    },
+    {
+        "name": "美图设计室",
+        "description": "AI图像创作和设计平台",
+        "url": "https://www.designkit.com",
+        "category": "AI图像创作",
+        "tags": ["AI", "设计", "图像", "创作"]
+    },
+    {
+        "name": "堆友AI",
+        "description": "免费AI绘画和生图神器",
+        "url": "https://d.design",
+        "category": "AI图像创作",
+        "tags": ["AI", "绘画", "设计", "图像"]
+    },
+    {
+        "name": "Midjourney",
+        "description": "AI图像和插画生成工具",
+        "url": "https://www.midjourney.com",
+        "category": "AI图像创作",
+        "tags": ["AI", "工具", "图像", "生成", "艺术"]
+    },
+    {
+        "name": "Stable Diffusion",
+        "description": "StabilityAI推出的文本到图像生成AI",
+        "url": "https://stability.ai",
+        "category": "AI图像创作",
+        "tags": ["AI", "图像", "生成", "开源"]
+    },
+    {
+        "name": "LiblibAI·哩布哩布AI",
+        "description": "国内领先的AI图像创作平台和模型分享社区",
+        "url": "https://www.liblib.art",
+        "category": "AI图像创作",
+        "tags": ["AI", "图像", "社区", "模型", "国产"]
+    },
+    {
+        "name": "Civitai",
+        "description": "免费的AI图像绘画作品和模型分享平台和社区",
+        "url": "https://civitai.com",
+        "category": "AI图像创作",
+        "tags": ["AI", "模型", "社区", "分享"]
+    },
+    {
+        "name": "即梦",
+        "description": "抖音旗下免费AI图片创作工具",
+        "url": "https://jimengart.com",
+        "category": "AI图像创作",
+        "tags": ["AI", "工具", "图片", "字节跳动", "国产"]
+    },
+    {
+        "name": "通义万相",
+        "description": "阿里推出的AI创意内容生成平台",
+        "url": "https://wanxiang.aliyun.com",
+        "category": "AI图像创作",
+        "tags": ["AI", "创意", "内容", "阿里", "国产"]
+    },
+    {
+        "name": "秒画",
+        "description": "商汤科技推出的免费AI作画和图片生成平台",
+        "url": "https://miaohua.sensetime.com",
+        "category": "AI图像创作",
+        "tags": ["AI", "作画", "图片", "商汤", "国产"]
+    },
+    {
+        "name": "稿定AI",
+        "description": "一站式AI设计工具集，免费AI绘图、图片转AI绘画、AI抠图消除",
+        "url": "https://www.gaoding.com",
+        "category": "AI图像创作",
+        "tags": ["AI", "工具", "设计", "绘图", "国产"]
+    },
+    {
+        "name": "DALL·E",
+        "description": "OpenAI推出的AI图像生成系统",
+        "url": "https://openai.com/dall-e",
+        "category": "AI图像创作",
+        "tags": ["AI", "图像", "生成", "OpenAI"]
+    },
+    {
+        "name": "Leonardo.AI",
+        "description": "高质量AI图像生成平台",
+        "url": "https://leonardo.ai",
+        "category": "AI图像创作",
+        "tags": ["AI", "图像", "生成", "高质量"]
+    },
+    {
+        "name": "Playground AI",
+        "description": "免费易用的AI图像生成工具",
+        "url": "https://playgroundai.com",
+        "category": "AI图像创作",
+        "tags": ["AI", "图像", "生成", "免费"]
+    },
+    {
+        "name": "Runway",
+        "description": "创意AI工具，支持图像、视频和编辑",
+        "url": "https://runwayml.com",
+        "category": "AI图像创作",
+        "tags": ["AI", "创意", "图像", "编辑"]
+    },
+    {
+        "name": "Adobe Firefly",
+        "description": "Adobe推出的AI创意图像生成工具",
+        "url": "https://www.adobe.com/products/firefly",
+        "category": "AI图像创作",
+        "tags": ["AI", "Adobe", "图像", "创意"]
+    },
+    
+    // AI视频创作
+    {
+        "name": "绘蛙AI视频",
+        "description": "绘蛙推出的AI图生视频工具",
+        "url": "https://www.ihuiwa.com",
+        "category": "AI视频创作",
+        "tags": ["AI", "工具", "视频"]
+    },
+    {
+        "name": "有言",
+        "description": "一站式AI视频创作和3D数字人生成平台",
+        "url": "https://www.youyan3d.com",
+        "category": "AI视频创作",
+        "tags": ["AI", "视频", "数字人", "3D"]
+    },
+    {
+        "name": "Keevx",
+        "description": "开箱即用的AI数字人视频创作工具",
+        "url": "https://www.keevx.com",
+        "category": "AI视频创作",
+        "tags": ["AI", "工具", "数字人", "视频"]
+    },
+    {
+        "name": "白日梦",
+        "description": "领先AI创作平台，可生成最长50分钟的视频",
+        "url": "https://bairimeng.ai",
+        "category": "AI视频创作",
+        "tags": ["AI", "视频", "创作"]
+    },
+    {
+        "name": "堆友AI视频",
+        "description": "堆友AI推出的免费AI视频生成工具",
+        "url": "https://d.design/ai/video",
+        "category": "AI视频创作",
+        "tags": ["AI", "工具", "视频", "免费"]
+    },
+    {
+        "name": "Sora",
+        "description": "OpenAI推出的AI视频生成模型",
+        "url": "https://sora.chatgpt.com",
+        "category": "AI视频创作",
+        "tags": ["AI", "视频", "OpenAI"]
+    },
+    {
+        "name": "HeyGen",
+        "description": "专业的AI数字人视频创作平台",
+        "url": "https://heygen.com",
+        "category": "AI视频创作",
+        "tags": ["AI", "数字人", "视频"]
+    },
+    {
+        "name": "智谱清影",
+        "description": "智谱推出的免费AI视频生成工具",
+        "url": "https://video.zhipuai.cn",
+        "category": "AI视频创作",
+        "tags": ["AI", "工具", "视频", "免费", "国产"]
+    },
+    {
+        "name": "Pika",
+        "description": "Pika Labs推出的AI视频生成和编辑工具",
+        "url": "https://pika.art",
+        "category": "AI视频创作",
+        "tags": ["AI", "工具", "视频", "编辑"]
+    },
+    {
+        "name": "Runway",
+        "description": "AI视频工具，绿幕抠除、视频生成、动态捕捉等功能",
+        "url": "https://runwayml.com",
+        "category": "AI视频创作",
+        "tags": ["AI", "工具", "视频", "编辑"]
+    },
+    
+    // AI写作助手
+    {
+        "name": "讯飞绘文",
+        "description": "免费AI写作工具，5分钟生成一篇原创稿！",
+        "url": "https://turbodesk.xfyun.cn",
+        "category": "AI写作助手",
+        "tags": ["AI", "工具", "写作", "科大讯飞", "国产"]
+    },
+    {
+        "name": "笔灵AI写作",
+        "description": "面向专业写作领域的AI写作工具",
+        "url": "https://ibiling.cn",
+        "category": "AI写作助手",
+        "tags": ["AI", "工具", "写作", "专业"]
+    },
+    {
+        "name": "笔灵AI小说",
+        "description": "笔灵推出的AI小说生成和创作工具",
+        "url": "https://ibiling.cn/novel-workbench",
+        "category": "AI写作助手",
+        "tags": ["AI", "工具", "小说", "创作"]
+    },
+    {
+        "name": "稿定AI文案",
+        "description": "小红书、公众号、短视频AI文案生成工具",
+        "url": "https://www.gaoding.com",
+        "category": "AI写作助手",
+        "tags": ["AI", "工具", "文案", "营销"]
+    },
+    {
+        "name": "蛙蛙写作",
+        "description": "AI小说和内容创作工具",
+        "url": "https://wawawriter.com",
+        "category": "AI写作助手",
+        "tags": ["AI", "工具", "小说", "创作"]
+    },
+    {
+        "name": "秘塔写作猫",
+        "description": "AI写作，文章自成",
+        "url": "https://xiezuocat.com",
+        "category": "AI写作助手",
+        "tags": ["AI", "写作", "文章", "国产"]
+    },
+    {
+        "name": "蛙蛙写作",
+        "description": "AI写小说、剧本，一键成文",
+        "url": "https://wawawriter.com/app",
+        "category": "AI写作助手",
+        "tags": ["AI", "写作", "小说", "剧本", "创作"]
+    },
+    {
+        "name": "讯飞文书",
+        "description": "国产大模型AI公文写作工具，依托星火大模型技术，专为公文材料撰稿人打造",
+        "url": "https://gw.iflydocs.com",
+        "category": "AI写作助手", 
+        "tags": ["AI", "公文", "写作", "星火", "国产"]
+    },
+    {
+        "name": "稿定AI文案",
+        "description": "基于DeepSeek驱动，将设计从专业技能转化为语言表达，可用、可改、可商用的视觉内容",
+        "url": "https://www.gaoding.com",
+        "category": "AI写作助手",
+        "tags": ["AI", "文案", "设计", "DeepSeek", "国产"]
+    },
+    {
+        "name": "笔灵AI写作",
+        "description": "全能型AI写作工具，支持AI文章撰写、论文写作、小说写作、文章降重降AI等",
+        "url": "https://ibiling.cn",
+        "category": "AI写作助手",
+        "tags": ["AI", "写作", "论文", "小说", "降重"]
+    },
+    {
+        "name": "小鱼AI写作",
+        "description": "智能AI写作平台，可用AI自动生成高质量原创内容，满足不同场景、人群的创作需求",
+        "url": "https://www.xiaoyuxiezuo.com",
+        "category": "AI写作助手",
+        "tags": ["AI", "写作", "原创", "内容", "智能"]
+    },
+    {
+        "name": "AI内容管家",
+        "description": "AI驱动的SEO挖词、写作、发布工具",
+        "url": "https://guanjia.seowhy.com",
+        "category": "AI写作助手",
+        "tags": ["AI", "SEO", "内容", "写作", "发布"]
+    },
+    {
+        "name": "豆包AI写作助手",
+        "description": "抖音旗下的多功能人工智能工具和免费AI聊天机器人，基于云雀模型构建",
+        "url": "https://www.doubao.com",
+        "category": "AI写作助手",
+        "tags": ["AI", "写作", "抖音", "免费", "国产"]
+    },
+    {
+        "name": "迅捷AI写作",
+        "description": "AI智能文字处理软件，提高写作效率和质量",
+        "url": "https://www.aichat1234.com/app",
+        "category": "AI写作助手",
+        "tags": ["AI", "写作", "智能", "文字处理", "效率"]
+    },
+    {
+        "name": "酷宣AI",
+        "description": "快速生成高颜值文章，支持多平台同步",
+        "url": "https://kuxuanai.com",
+        "category": "AI写作助手",
+        "tags": ["AI", "文章", "多平台", "高颜值"]
+    },
+    {
+        "name": "新华妙笔AI",
+        "description": "新华社出品的体制内办公学习平台",
+        "url": "https://miaobi.xinhuaskl.com",
+        "category": "AI写作助手",
+        "tags": ["AI", "办公", "新华社", "体制内", "国产"]
+    },
+    
+    // AI学术写作
+    {
+        "name": "Paperpal",
+        "description": "英文论文写作助手",
+        "url": "https://www.editage.cn/paperpal",
+        "category": "AI学术写作",
+        "tags": ["助手", "论文", "英文", "学术"]
+    },
+    {
+        "name": "笔目鱼",
+        "description": "专业英文论文写作器",
+        "url": "https://www.bmysci.com",
+        "category": "AI学术写作",
+        "tags": ["论文", "英文", "学术", "写作"]
+    },
+    {
+        "name": "稿易AI论文",
+        "description": "AI论文写作助手，免费生成2000字大纲",
+        "url": "https://gaoyiai.com",
+        "category": "AI学术写作",
+        "tags": ["AI", "助手", "论文", "学术"]
+    },
+    {
+        "name": "千笔AI论文",
+        "description": "全网首家论文无限改稿平台",
+        "url": "https://www.qianbixiezuo.com",
+        "category": "AI学术写作",
+        "tags": ["AI", "论文", "改稿", "学术"]
+    },
+    {
+        "name": "66AI论文",
+        "description": "高质量、低查重、低AIGC率的AI论文写作工具",
+        "url": "https://www.66paper.cn",
+        "category": "AI学术写作",
+        "tags": ["AI", "工具", "论文", "查重"]
+    },
+    {
+        "name": "维普科创助手",
+        "description": "维普的一站式AI科研服务平台",
+        "url": "https://super.cqvip.com",
+        "category": "AI学术写作",
+        "tags": ["AI", "助手", "科研", "维普"]
+    },
+    {
+        "name": "茅茅虫",
+        "description": "一站式AI论文写作助手",
+        "url": "https://mymmc.cn",
+        "category": "AI学术写作",
+        "tags": ["AI", "助手", "论文", "学术"]
+    },
+    {
+        "name": "QuillBot",
+        "description": "AI英/德语写作润色和改进工具",
+        "url": "https://quillbot.com",
+        "category": "AI学术写作",
+        "tags": ["AI", "工具", "润色", "外语"]
+    },
+    {
+        "name": "AI论文",
+        "description": "免费专业论文写作和学术润色工具",
+        "url": "https://ai-lunwen.com",
+        "category": "AI学术写作",
+        "tags": ["论文", "学术", "写作", "润色"]
+    },
+    {
+        "name": "千笔AI论文",
+        "description": "AI辅助学术论文写作平台",
+        "url": "https://qianbi.com",
+        "category": "AI学术写作",
+        "tags": ["论文", "学术", "写作", "AI"]
+    },
+    {
+        "name": "Scholarcy",
+        "description": "学术论文摘要和关键信息提取工具",
+        "url": "https://www.scholarcy.com",
+        "category": "AI学术写作",
+        "tags": ["论文", "摘要", "学术", "信息提取"]
+    },
+    {
+        "name": "LaTeX Base",
+        "description": "在线LaTeX编辑与协作平台",
+        "url": "https://latexbase.com",
+        "category": "AI学术写作",
+        "tags": ["LaTeX", "编辑", "协作", "论文"]
+    },
+    {
+        "name": "Writefull",
+        "description": "学术英语写作改进工具",
+        "url": "https://writefull.com",
+        "category": "AI学术写作",
+        "tags": ["学术", "英语", "写作", "修改"]
+    },
+    {
+        "name": "Research Rabbit",
+        "description": "学术文献发现和可视化工具",
+        "url": "https://researchrabbit.ai",
+        "category": "AI学术写作",
+        "tags": ["文献", "研究", "可视化", "发现"]
+    },
+    
+    // AI办公工具
+    {
+        "name": "扣子PPT",
+        "description": "免费一键生成精美PPT",
+        "url": "https://www.coze.cn",
+        "category": "AI办公工具",
+        "tags": ["PPT", "生成", "办公", "免费"]
+    },
+    {
+        "name": "AiPPT",
+        "description": "AI快速生成高质量PPT",
+        "url": "https://www.aippt.cn",
+        "category": "AI办公工具",
+        "tags": ["AI", "PPT", "生成", "办公"]
+    },
+    {
+        "name": "办公小浣熊",
+        "description": "最强AI数据分析助手",
+        "url": "https://www.xiaohuanxiong.com",
+        "category": "AI办公工具",
+        "tags": ["AI", "助手", "分析", "数据", "办公"]
+    },
+    {
+        "name": "咔片PPT",
+        "description": "AI PPT制作工具，设计美化全流程自动化",
+        "url": "https://www.cappt.cc",
+        "category": "AI办公工具",
+        "tags": ["AI", "工具", "设计", "PPT", "办公"]
+    },
+    {
+        "name": "文多多AiPPT",
+        "description": "AI一键生成PPT，支持AI配图和智能资料整合",
+        "url": "https://docmee.cn",
+        "category": "AI办公工具",
+        "tags": ["AI", "智能", "PPT", "办公", "资料"]
+    },
+    {
+        "name": "博思AIPPT",
+        "description": "PPT效率神器，AI一键生成PPT",
+        "url": "https://pptgo.cn",
+        "category": "AI办公工具",
+        "tags": ["AI", "效率", "PPT", "办公"]
+    },
+    {
+        "name": "iSlide AIPPT",
+        "description": "AI一键设计精美PPT，只需一句标题",
+        "url": "https://www.islide.cc",
+        "category": "AI办公工具",
+        "tags": ["AI", "设计", "PPT", "办公"]
+    },
+    {
+        "name": "笔格AIPPT",
+        "description": "高效的AI PPT生成工具",
+        "url": "https://www.bigppt.cn",
+        "category": "AI办公工具",
+        "tags": ["AI", "工具", "PPT", "办公"]
+    },
+    {
+        "name": "Gamma",
+        "description": "AI驱动的演示文稿和文档创建工具",
+        "url": "https://gamma.app",
+        "category": "AI办公工具",
+        "tags": ["AI", "演示", "文档", "办公"]
+    },
+    {
+        "name": "Notion AI",
+        "description": "集成于Notion的AI写作和内容生成助手",
+        "url": "https://www.notion.so/ai",
+        "category": "AI办公工具",
+        "tags": ["AI", "写作", "笔记", "内容生成"]
+    },
+    {
+        "name": "协同AI",
+        "description": "多模态AI办公协作平台",
+        "url": "https://xietongai.com",
+        "category": "AI办公工具",
+        "tags": ["AI", "协作", "办公", "多模态"]
+    },
+    {
+        "name": "讯飞智文",
+        "description": "科大讯飞推出的AI文档和办公助手",
+        "url": "https://zhiwen.xunfei.cn",
+        "category": "AI办公工具",
+        "tags": ["AI", "办公", "文档", "讯飞"]
+    },
+    {
+        "name": "智谱文档",
+        "description": "智谱AI推出的文档生成和处理工具",
+        "url": "https://doc.zhipuai.cn",
+        "category": "AI办公工具",
+        "tags": ["AI", "文档", "生成", "处理"]
+    },
+    
+    // AI编程助手
+    {
+        "name": "TRAE编程",
+        "description": "字节跳动推出的免费AI编程工具，基于Claude模型",
+        "url": "https://www.trae.cn",
+        "category": "AI编程助手",
+        "tags": ["AI", "工具", "编程", "字节跳动", "国产"]
+    },
+    {
+        "name": "码上飞",
+        "description": "一句话生成微信小程序、APP、H5网页",
+        "url": "https://www.codeflying.net",
+        "category": "AI编程助手",
+        "tags": ["AI", "小程序", "应用", "代码生成"]
+    },
+    {
+        "name": "文心快码",
+        "description": "百度推出的AI编程助手，基于文心大模型",
+        "url": "https://comate.baidu.com",
+        "category": "AI编程助手",
+        "tags": ["AI", "助手", "编程", "百度", "国产"]
+    },
+    {
+        "name": "Qoder",
+        "description": "阿里巴巴推出的AI Agentic编程工具",
+        "url": "https://qoder.ai",
+        "category": "AI编程助手",
+        "tags": ["AI", "工具", "编程", "阿里", "国产"]
+    },
+    {
+        "name": "Cursor",
+        "description": "AI代码编辑器，快速进行编程和软件开发",
+        "url": "https://cursor.sh",
+        "category": "AI编程助手",
+        "tags": ["AI", "代码", "编辑器", "开发"]
+    },
+    {
+        "name": "通义灵码",
+        "description": "阿里推出的免费AI编程工具，基于通义大模型",
+        "url": "https://lingma.aliyun.com",
+        "category": "AI编程助手",
+        "tags": ["AI", "工具", "编程", "阿里", "国产"]
+    },
+    {
+        "name": "GitHub Copilot",
+        "description": "GitHub推出的AI编程工具",
+        "url": "https://github.com/features/copilot",
+        "category": "AI编程助手",
+        "tags": ["AI", "工具", "编程", "GitHub"]
+    },
+    {
+        "name": "CodeGeeX",
+        "description": "智谱AI推出的免费AI编程助手",
+        "url": "https://codegeex.cn",
+        "category": "AI编程助手",
+        "tags": ["AI", "助手", "编程", "智谱", "国产"]
+    },
+    {
+        "name": "Replit",
+        "description": "AI驱动的云端编程环境和协作平台",
+        "url": "https://replit.com",
+        "category": "AI编程助手",
+        "tags": ["AI", "云端", "编程", "协作"]
+    },
+    {
+        "name": "DeepSeek Coder",
+        "description": "专注于编程领域的开源AI助手",
+        "url": "https://deepseekcoder.github.io",
+        "category": "AI编程助手",
+        "tags": ["AI", "开源", "编程", "代码生成"]
+    },
+    {
+        "name": "CodeWhisperer",
+        "description": "亚马逊推出的AI编程助手",
+        "url": "https://aws.amazon.com/codewhisperer",
+        "category": "AI编程助手",
+        "tags": ["AI", "亚马逊", "编程", "代码补全"]
+    },
+    {
+        "name": "TabNine",
+        "description": "基于AI的智能代码补全工具",
+        "url": "https://www.tabnine.com",
+        "category": "AI编程助手",
+        "tags": ["AI", "代码补全", "编程", "开发"]
+    },
+    {
+        "name": "Cursor",
+        "description": "基于AI的新一代代码编辑器",
+        "url": "https://cursor.sh",
+        "category": "AI编程助手",
+        "tags": ["AI", "编辑器", "编程", "工具"]
+    },
+    
+    // AI搜索
+    {
+        "name": "秘塔AI搜索",
+        "description": "最好用的AI搜索工具，没有广告，直达结果",
+        "url": "https://metaso.cn",
+        "category": "AI搜索工具",
+        "tags": ["AI", "工具", "搜索", "无广告", "国产"]
+    },
+    {
+        "name": "WisPaper",
+        "description": "复旦团队推出的AI学术搜索工具",
+        "url": "https://www.wispaper.ai",
+        "category": "AI搜索工具",
+        "tags": ["AI", "工具", "学术", "搜索", "国产"]
+    },
+    {
+        "name": "Perplexity",
+        "description": "强大的对话式AI搜索引擎",
+        "url": "https://www.perplexity.ai",
+        "category": "AI搜索工具",
+        "tags": ["AI", "搜索", "对话式", "引擎"]
+    },
+    {
+        "name": "心流",
+        "description": "阿里旗下推出的AI搜索助手",
+        "url": "https://iflow.cn",
+        "category": "AI搜索工具",
+        "tags": ["AI", "助手", "搜索", "阿里", "国产"]
+    },
+    {
+        "name": "AMiner",
+        "description": "智谱AI推出的大模型学术平台",
+        "url": "https://www.aminer.cn",
+        "category": "AI搜索工具",
+        "tags": ["AI", "学术", "搜索", "智谱", "国产"]
+    },
+    {
+        "name": "博查AI搜索",
+        "description": "支持多模型的AI搜索引擎",
+        "url": "https://bochaai.com",
+        "category": "AI搜索工具",
+        "tags": ["AI", "搜索引擎", "多模型", "国产"]
+    },
+    {
+        "name": "Perplexity",
+        "description": "AI驱动的问答搜索引擎",
+        "url": "https://perplexity.ai",
+        "category": "AI搜索工具",
+        "tags": ["AI", "搜索", "问答", "实时"]
+    },
+    {
+        "name": "Kagi",
+        "description": "注重隐私的AI增强搜索引擎",
+        "url": "https://kagi.com",
+        "category": "AI搜索工具",
+        "tags": ["AI", "搜索", "隐私", "付费"]
+    },
+    {
+        "name": "HuggingChat",
+        "description": "Hugging Face开源的AI对话和搜索工具",
+        "url": "https://huggingface.co/chat",
+        "category": "AI搜索工具",
+        "tags": ["AI", "对话", "搜索", "开源"]
+    },
+    {
+        "name": "Claude搜索",
+        "description": "Anthropic推出的基于Claude的AI搜索功能",
+        "url": "https://claude.ai/search",
+        "category": "AI搜索工具",
+        "tags": ["AI", "搜索", "Claude", "Anthropic"]
+    },
+    {
+        "name": "You.com",
+        "description": "带网页摘要和生成式AI回答的搜索引擎",
+        "url": "https://you.com",
+        "category": "AI搜索工具",
+        "tags": ["AI", "搜索", "摘要", "生成式AI"]
+    },
+    
+    // AI音频工具
+    {
+        "name": "魔音工坊",
+        "description": "AI配音工具，轻松配出媲美真人的声音",
+        "url": "https://www.moyin.com",
+        "category": "AI音频工具",
+        "tags": ["AI", "工具", "配音", "音频", "国产"]
+    },
+    {
+        "name": "讯飞智作",
+        "description": "科大讯飞推出的AI转语音和配音工具",
+        "url": "https://peiyin.xunfei.cn",
+        "category": "AI音频工具",
+        "tags": ["AI", "工具", "配音", "语音", "科大讯飞", "国产"]
+    },
+    {
+        "name": "听脑AI",
+        "description": "AI语音录音记录助手",
+        "url": "https://itingnao.com",
+        "category": "AI音频工具",
+        "tags": ["AI", "助手", "语音", "记录", "国产"]
+    },
+    {
+        "name": "Suno",
+        "description": "高质量的AI音乐创作平台",
+        "url": "https://suno.ai",
+        "category": "AI音频工具",
+        "tags": ["AI", "音乐", "创作"]
+    },
+    {
+        "name": "ElevenLabs",
+        "description": "AI文本转语音，支持包含中文在内的28种语言",
+        "url": "https://elevenlabs.io",
+        "category": "AI音频工具",
+        "tags": ["AI", "文本转语音", "多语言"]
+    },
+    {
+        "name": "琅琅配音",
+        "description": "智能文本转语音工具",
+        "url": "https://lang123.top",
+        "category": "AI音频工具",
+        "tags": ["工具", "智能", "配音", "文本转语音", "国产"]
+    },
+    {
+        "name": "Tunee",
+        "description": "首个对话式音乐创作AI智能体",
+        "url": "https://tunee.ai",
+        "category": "AI音频工具",
+        "tags": ["AI", "智能", "音乐", "创作", "对话式"]
+    },
+    {
+        "name": "Suno",
+        "description": "AI音乐创作平台，可用文本生成歌曲",
+        "url": "https://suno.ai",
+        "category": "AI音频工具",
+        "tags": ["AI", "音乐", "生成", "创作"]
+    },
+    {
+        "name": "ElevenLabs",
+        "description": "AI语音合成和克隆工具",
+        "url": "https://elevenlabs.io",
+        "category": "AI音频工具",
+        "tags": ["AI", "语音", "合成", "克隆"]
+    },
+    {
+        "name": "Mubert",
+        "description": "AI音乐创作和背景音乐生成工具",
+        "url": "https://mubert.com",
+        "category": "AI音频工具",
+        "tags": ["AI", "音乐", "背景", "生成"]
+    },
+    {
+        "name": "Soundraw",
+        "description": "AI作曲平台，为视频创作背景音乐",
+        "url": "https://soundraw.io",
+        "category": "AI音频工具",
+        "tags": ["AI", "作曲", "背景音乐", "视频"]
+    },
+    {
+        "name": "FakeTTS",
+        "description": "中文AI语音克隆工具",
+        "url": "https://faketts.com",
+        "category": "AI音频工具",
+        "tags": ["AI", "语音", "克隆", "中文"]
+    },
+    
+    // AI设计工具
+    {
+        "name": "堆友AI",
+        "description": "专为设计师打造的AI设计服务平台",
+        "url": "https://d.design",
+        "category": "AI设计工具",
+        "tags": ["AI", "设计", "设计师", "服务", "国产"]
+    },
+    {
+        "name": "绘蛙",
+        "description": "AI电商设计工具",
+        "url": "https://www.ihuiwa.com",
+        "category": "AI设计工具",
+        "tags": ["AI", "工具", "电商", "设计", "国产"]
+    },
+    {
+        "name": "稿定AI",
+        "description": "一站式AI创作和设计平台",
+        "url": "https://www.gaoding.com",
+        "category": "AI设计工具",
+        "tags": ["AI", "设计", "创作", "平台", "国产"]
+    },
+    {
+        "name": "墨刀AI",
+        "description": "AI秒生原型稿",
+        "url": "https://modao.cc",
+        "category": "AI设计工具",
+        "tags": ["AI", "原型", "设计", "国产"]
+    },
+    {
+        "name": "Pic Copilot",
+        "description": "阿里国际推出的AI电商设计工具",
+        "url": "https://www.piccopilot.com",
+        "category": "AI设计工具",
+        "tags": ["AI", "工具", "电商", "设计", "阿里", "国产"]
+    },
+    {
+        "name": "Figma AI",
+        "description": "Figma推出的原生AI设计工具",
+        "url": "https://www.figma.com",
+        "category": "AI设计工具",
+        "tags": ["AI", "工具", "设计", "Figma"]
+    },
+    {
+        "name": "Recraft AI",
+        "description": "免费无限AI画板，生成高质量矢量艺术画、图标、3D图片和插画",
+        "url": "https://www.recraft.ai",
+        "category": "AI设计工具",
+        "tags": ["AI", "矢量", "插画", "设计", "免费"]
+    },
+    {
+        "name": "创客贴AI",
+        "description": "AI辅助的智能在线设计工具",
+        "url": "https://aiart.chuangkit.com",
+        "category": "AI设计工具",
+        "tags": ["AI", "工具", "智能", "设计", "在线", "辅助", "国产"]
+    },
+    {
+        "name": "Canva AI",
+        "description": "智能设计助手和图像生成工具",
+        "url": "https://www.canva.com/ai",
+        "category": "AI设计工具",
+        "tags": ["AI", "设计", "图像", "生成", "辅助"]
+    },
+    {
+        "name": "Uizard",
+        "description": "AI驱动的UI/UX设计平台",
+        "url": "https://uizard.io",
+        "category": "AI设计工具",
+        "tags": ["AI", "UI", "UX", "设计", "平台"]
+    },
+    {
+        "name": "Vizcom",
+        "description": "将简单草图转换为专业设计",
+        "url": "https://www.vizcom.ai",
+        "category": "AI设计工具",
+        "tags": ["AI", "草图", "设计", "转换"]
+    },
+    {
+        "name": "Diagram",
+        "description": "专业AI产品设计工具",
+        "url": "https://diagram.com",
+        "category": "AI设计工具",
+        "tags": ["AI", "产品", "设计", "专业"]
+    },
+    {
+        "name": "Galileo AI",
+        "description": "AI驱动的UI设计工具",
+        "url": "https://www.usegalileo.ai",
+        "category": "AI设计工具",
+        "tags": ["AI", "UI", "设计", "工具"]
+    },
+    
+    // AI平台与市场
+    {
+        "name": "Coze",
+        "description": "字节跳动推出的AI智能体开放平台",
+        "url": "https://www.coze.com",
+        "category": "AI平台与市场",
+        "tags": ["AI", "平台", "智能体", "字节跳动", "国产"]
+    },
+    {
+        "name": "讯飞星火移动应用",
+        "description": "科大讯飞推出的移动端AI应用",
+        "url": "https://xinghuo.xfyun.cn/sparkapp",
+        "category": "AI平台与市场",
+        "tags": ["AI", "应用", "移动", "科大讯飞", "国产"]
+    },
+    {
+        "name": "豆包应用市场",
+        "description": "百度推出的AI工具平台和应用市场",
+        "url": "https://www.doubao.com",
+        "category": "AI平台与市场",
+        "tags": ["AI", "平台", "应用", "市场", "百度", "国产"]
+    },
+    {
+        "name": "Hugging Face",
+        "description": "全球最大的AI开源模型和应用社区",
+        "url": "https://huggingface.co",
+        "category": "AI平台与市场",
+        "tags": ["AI", "开源", "社区", "模型"]
+    },
+    {
+        "name": "通义千问开放平台",
+        "description": "阿里通义千问推出的AI开放平台",
+        "url": "https://dashscope.aliyun.com",
+        "category": "AI平台与市场",
+        "tags": ["AI", "平台", "开放", "阿里", "国产"]
+    },
+    {
+        "name": "讯飞开放平台",
+        "description": "科大讯飞推出的AI能力开放平台",
+        "url": "https://www.xfyun.cn",
+        "category": "AI平台与市场",
+        "tags": ["AI", "平台", "开放", "科大讯飞", "国产"]
+    },
+    {
+        "name": "OpenAI平台",
+        "description": "OpenAI官方API和开放平台",
+        "url": "https://platform.openai.com",
+        "category": "AI平台与市场",
+        "tags": ["AI", "平台", "API", "OpenAI"]
+    },
+    {
+        "name": "文心千帆",
+        "description": "百度推出的AI开发者服务平台",
+        "url": "https://cloud.baidu.com/product/wenxinworkshop",
+        "category": "AI平台与市场",
+        "tags": ["AI", "开发者", "服务", "百度", "国产"]
+    },
+    {
+        "name": "腾讯AI开发平台",
+        "description": "腾讯推出的AI开发者平台",
+        "url": "https://cloud.tencent.com/product/ai",
+        "category": "AI平台与市场",
+        "tags": ["AI", "开发者", "平台", "腾讯", "国产"]
+    },
+    {
+        "name": "OpenAI",
+        "description": "ChatGPT和GPT模型开发商",
+        "url": "https://openai.com",
+        "category": "AI平台与市场",
+        "tags": ["AI", "模型", "平台", "GPT"]
+    },
+    {
+        "name": "Anthropic",
+        "description": "Claude AI模型开发商",
+        "url": "https://www.anthropic.com",
+        "category": "AI平台与市场",
+        "tags": ["AI", "模型", "平台", "Claude"]
+    },
+    {
+        "name": "HuggingFace",
+        "description": "AI模型和应用开源社区",
+        "url": "https://huggingface.co",
+        "category": "AI平台与市场",
+        "tags": ["AI", "开源", "模型", "社区"]
+    },
+    {
+        "name": "Poe",
+        "description": "Quora推出的AI聊天平台，集成多种模型",
+        "url": "https://poe.com",
+        "category": "AI平台与市场",
+        "tags": ["AI", "聊天", "平台", "多模型"]
+    },
+    {
+        "name": "Replicate",
+        "description": "云端运行和部署AI模型的平台",
+        "url": "https://replicate.com",
+        "category": "AI平台与市场",
+        "tags": ["AI", "部署", "云端", "平台"]
+    },
+    
+    // AI工具推荐
+    {
+        "name": "AI工具集",
+        "description": "提供优质AI工具推荐和AI导航",
+        "url": "https://ai-bot.cn",
+        "category": "AI工具推荐",
+        "tags": ["AI", "导航", "工具", "推荐", "国产"]
+    },
+    {
+        "name": "AI导航",
+        "description": "500+精选AI工具导航平台",
+        "url": "https://www.ainavw.com",
+        "category": "AI工具推荐",
+        "tags": ["AI", "导航", "工具", "平台", "国产"]
+    },
+    {
+        "name": "夸克AI导航",
+        "description": "阿里旗下夸克推出的AI工具导航",
+        "url": "https://aitool.quark.cn",
+        "category": "AI工具推荐",
+        "tags": ["AI", "工具", "导航", "夸克", "阿里", "国产"]
+    },
+    {
+        "name": "FlowGPT",
+        "description": "AI提示词和智能体工具平台",
+        "url": "https://flowgpt.com",
+        "category": "AI工具推荐",
+        "tags": ["AI", "提示词", "平台", "智能体"]
+    },
+    {
+        "name": "爱作AI",
+        "description": "免费的AI工具导航网站",
+        "url": "https://www.aizuoai.com",
+        "category": "AI工具推荐",
+        "tags": ["AI", "工具", "导航", "免费", "国产"]
+    },
+    {
+        "name": "AI玩家",
+        "description": "AI应用导航，从入门到精通",
+        "url": "https://www.aiplayer.cn",
+        "category": "AI工具推荐",
+        "tags": ["AI", "导航", "应用", "入门", "国产"]
+    },
+    {
+        "name": "AI百科",
+        "description": "一站式AI工具导航",
+        "url": "https://www.aibaike.cn",
+        "category": "AI工具推荐",
+        "tags": ["AI", "工具", "导航", "百科", "国产"]
+    },
+    {
+        "name": "FutureTools",
+        "description": "收录最新AI工具的导航站",
+        "url": "https://www.futuretools.io",
+        "category": "AI工具推荐",
+        "tags": ["AI", "工具", "导航", "最新"]
+    },
+    {
+        "name": "AI Depot",
+        "description": "精选AI工具资源库",
+        "url": "https://aidepot.co",
+        "category": "AI工具推荐",
+        "tags": ["AI", "工具", "资源", "精选"]
+    },
+    {
+        "name": "There's An AI For That",
+        "description": "根据需求推荐AI工具的搜索引擎",
+        "url": "https://theresanaiforthat.com",
+        "category": "AI工具推荐",
+        "tags": ["AI", "工具", "推荐", "搜索"]
+    },
+    {
+        "name": "TopAI.tools",
+        "description": "按排名展示最优质的AI工具",
+        "url": "https://topai.tools",
+        "category": "AI工具推荐",
+        "tags": ["AI", "工具", "排名", "推荐"]
+    },
+    
+    // AI教育与学习
+    {
+        "name": "万兴爱思AI学习",
+        "description": "万兴科技推出的AI学习助手",
+        "url": "https://ai.aiistudy.com",
+        "category": "AI教育与学习",
+        "tags": ["AI", "助手", "学习", "万兴", "国产"]
+    },
+    {
+        "name": "李志平ChatGPT教程",
+        "description": "李志平老师的ChatGPT高质量教程",
+        "url": "https://chatgpt.lizhiping.net",
+        "category": "AI教育与学习",
+        "tags": ["教程", "ChatGPT", "学习", "高质量", "国产"]
+    },
+    {
+        "name": "AI教程网",
+        "description": "专注于AI学习和教程的网站",
+        "url": "https://www.aijcw.com",
+        "category": "AI教育与学习",
+        "tags": ["AI", "教程", "学习", "网站", "国产"]
+    },
+    {
+        "name": "吴恩达AI课程",
+        "description": "AI大师吴恩达的机器学习课程",
+        "url": "https://www.deeplearning.ai",
+        "category": "AI教育与学习",
+        "tags": ["AI", "课程", "机器学习", "吴恩达"]
+    },
+    {
+        "name": "李沐AI课程",
+        "description": "李沐老师的AI和深度学习课程",
+        "url": "https://space.bilibili.com/1567748478",
+        "category": "AI教育与学习",
+        "tags": ["AI", "课程", "深度学习", "李沐", "国产"]
+    },
+    {
+        "name": "AI研习社",
+        "description": "极客邦AI学习社区",
+        "url": "https://ai.geekbang.org",
+        "category": "AI教育与学习",
+        "tags": ["AI", "学习", "社区", "极客邦", "国产"]
+    },
+    {
+        "name": "Khan Academy",
+        "description": "提供免费AI和计算机科学教育资源",
+        "url": "https://www.khanacademy.org",
+        "category": "AI教育与学习",
+        "tags": ["教育", "免费", "课程", "学习"]
+    },
+    {
+        "name": "AI For Everyone",
+        "description": "Andrew Ng在Coursera上的AI入门课程",
+        "url": "https://www.coursera.org/learn/ai-for-everyone",
+        "category": "AI教育与学习",
+        "tags": ["AI", "课程", "入门", "Andrew Ng"]
+    },
+    {
+        "name": "Elements of AI",
+        "description": "芬兰赫尔辛基大学免费AI基础课程",
+        "url": "https://www.elementsofai.com",
+        "category": "AI教育与学习",
+        "tags": ["AI", "免费", "基础", "课程"]
+    },
+    {
+        "name": "Fast.ai",
+        "description": "免费实用的深度学习课程",
+        "url": "https://www.fast.ai",
+        "category": "AI教育与学习",
+        "tags": ["深度学习", "课程", "实用", "免费"]
+    },
+    {
+        "name": "DeepLearning.AI",
+        "description": "Andrew Ng创办的AI教育平台",
+        "url": "https://www.deeplearning.ai",
+        "category": "AI教育与学习",
+        "tags": ["AI", "深度学习", "教育", "课程"]
+    },
+    
+    // AI营销工具
+    {
+        "name": "QR爱生成",
+        "description": "AI二维码生成器，艺术二维码设计神器",
+        "url": "https://www.qraishengcheng.cn",
+        "category": "AI营销工具",
+        "tags": ["AI", "二维码", "生成器", "设计", "国产"]
+    },
+    {
+        "name": "AI子弹短信",
+        "description": "短视频营销文案助手",
+        "url": "https://www.zidanduanxin.com",
+        "category": "AI营销工具",
+        "tags": ["AI", "助手", "短视频", "营销", "文案", "国产"]
+    },
+    {
+        "name": "文案狗",
+        "description": "AI快速写出爆款营销文案",
+        "url": "https://www.wenangou.com",
+        "category": "AI营销工具",
+        "tags": ["AI", "文案", "营销", "爆款", "国产"]
+    },
+    {
+        "name": "Copymatic",
+        "description": "AI营销文案和内容创作平台",
+        "url": "https://copymatic.ai",
+        "category": "AI营销工具",
+        "tags": ["AI", "营销", "文案", "内容", "创作"]
+    },
+    {
+        "name": "AI广告狮",
+        "description": "AI智能广告创意生成工具",
+        "url": "https://guanggaoshi.com",
+        "category": "AI营销工具",
+        "tags": ["AI", "广告", "创意", "生成", "智能", "国产"]
+    },
+    {
+        "name": "SmartCopy",
+        "description": "AI驱动的营销文案和广告复制工具",
+        "url": "https://unbounce.com/smart-copy",
+        "category": "AI营销工具",
+        "tags": ["AI", "驱动", "营销", "文案", "广告"]
+    },
+    {
+        "name": "Jasper",
+        "description": "AI营销文案和内容创作平台",
+        "url": "https://www.jasper.ai",
+        "category": "AI营销工具",
+        "tags": ["AI", "营销", "文案", "内容", "创作"]
+    },
+    {
+        "name": "Copy.ai",
+        "description": "AI营销文案生成工具",
+        "url": "https://www.copy.ai",
+        "category": "AI营销工具",
+        "tags": ["AI", "营销", "文案", "生成"]
+    },
+    {
+        "name": "Anyword",
+        "description": "AI驱动的文案生成和优化平台",
+        "url": "https://anyword.com",
+        "category": "AI营销工具",
+        "tags": ["AI", "文案", "优化", "生成"]
+    },
+    {
+        "name": "MarketMuse",
+        "description": "AI驱动的内容规划和优化工具",
+        "url": "https://www.marketmuse.com",
+        "category": "AI营销工具",
+        "tags": ["AI", "内容", "规划", "优化"]
+    },
+    {
+        "name": "Frase",
+        "description": "AI驱动的SEO内容创作和优化平台",
+        "url": "https://www.frase.io",
+        "category": "AI营销工具",
+        "tags": ["AI", "SEO", "内容", "优化"]
+    },
+    
+    // AI翻译工具
+    {
+        "name": "百度翻译",
+        "description": "支持200多种语言的在线翻译平台",
+        "url": "https://fanyi.baidu.com",
+        "category": "AI翻译工具",
+        "tags": ["翻译", "百度", "在线", "多语言", "国产"]
+    },
+    {
+        "name": "DeepL",
+        "description": "全球顶尖的AI翻译工具",
+        "url": "https://www.deepl.com",
+        "category": "AI翻译工具",
+        "tags": ["AI", "翻译", "顶尖", "工具"]
+    },
+    {
+        "name": "有道翻译",
+        "description": "网易旗下智能翻译工具",
+        "url": "https://fanyi.youdao.com",
+        "category": "AI翻译工具",
+        "tags": ["翻译", "智能", "网易", "工具", "国产"]
+    },
+    {
+        "name": "腾讯翻译",
+        "description": "腾讯AI翻译平台",
+        "url": "https://fanyi.qq.com",
+        "category": "AI翻译工具",
+        "tags": ["AI", "翻译", "腾讯", "平台", "国产"]
+    },
+    {
+        "name": "彩云小译",
+        "description": "实时翻译和AI字幕工具",
+        "url": "https://fanyi.caiyunapp.com",
+        "category": "AI翻译工具",
+        "tags": ["翻译", "实时", "字幕", "AI", "国产"]
+    },
+    {
+        "name": "火山翻译",
+        "description": "字节旗下全球领先翻译引擎",
+        "url": "https://translate.volcengine.com",
+        "category": "AI翻译工具",
+        "tags": ["翻译", "引擎", "字节", "全球", "国产"]
+    },
+    {
+        "name": "ChatPaper",
+        "description": "科研利器，AI论文翻译和总结工具",
+        "url": "https://www.chatpaper.org",
+        "category": "AI翻译工具",
+        "tags": ["AI", "论文", "翻译", "总结", "科研", "国产"]
+    },
+    {
+        "name": "Lingvanex",
+        "description": "支持178种语言的AI翻译工具",
+        "url": "https://lingvanex.com",
+        "category": "AI翻译工具",
+        "tags": ["翻译", "多语言", "AI", "语言"]
+    },
+    {
+        "name": "Translate.com",
+        "description": "提供人工和AI翻译服务",
+        "url": "https://www.translate.com",
+        "category": "AI翻译工具",
+        "tags": ["翻译", "服务", "人工", "AI"]
+    },
+    {
+        "name": "SYSTRAN",
+        "description": "专业的AI翻译解决方案",
+        "url": "https://www.systransoft.com",
+        "category": "AI翻译工具",
+        "tags": ["翻译", "解决方案", "专业", "AI"]
+    },
+    {
+        "name": "Wordfast",
+        "description": "专业译者使用的翻译记忆工具",
+        "url": "https://www.wordfast.com",
+        "category": "AI翻译工具",
+        "tags": ["翻译", "记忆", "专业", "工具"]
+    },
+    {
+        "name": "Language Reactor",
+        "description": "通过视频内容学习语言的翻译工具",
+        "url": "https://www.languagereactor.com",
+        "category": "AI翻译工具",
+        "tags": ["翻译", "学习", "视频", "语言"]
+    },
+    
+    // AI法律工具
+    {
+        "name": "智海律大模型",
+        "description": "法院最高院用的法律大模型",
+        "url": "https://zhihai.court.gov.cn",
+        "category": "AI法律工具",
+        "tags": ["大模型", "法律", "法院", "最高院", "国产"]
+    },
+    {
+        "name": "法道GPT",
+        "description": "专注于法律场景的AI助手",
+        "url": "https://www.fadaogpt.com",
+        "category": "AI法律工具",
+        "tags": ["AI", "助手", "法律", "场景", "国产"]
+    },
+    {
+        "name": "宜搜律师函",
+        "description": "专业律师函一键生成平台",
+        "url": "https://www.lshlawyer.com",
+        "category": "AI法律工具",
+        "tags": ["专业", "律师函", "生成", "平台", "国产"]
+    },
+    {
+        "name": "智能法律助手",
+        "description": "高效在线法律咨询和服务平台",
+        "url": "https://www.66law.cn",
+        "category": "AI法律工具",
+        "tags": ["智能", "法律", "助手", "咨询", "服务", "国产"]
+    },
+    {
+        "name": "觅律",
+        "description": "一站式AI法律服务平台",
+        "url": "https://milvs.com",
+        "category": "AI法律工具",
+        "tags": ["AI", "法律", "服务", "平台", "国产"]
+    },
+    {
+        "name": "墨丘利",
+        "description": "专为律师打造的AI研究和法律创新平台",
+        "url": "https://mercurieslaw.com",
+        "category": "AI法律工具",
+        "tags": ["AI", "律师", "研究", "创新", "国产"]
+    },
+    {
+        "name": "LawGeex",
+        "description": "AI合同审查和法律自动化平台",
+        "url": "https://www.lawgeex.com",
+        "category": "AI法律工具",
+        "tags": ["AI", "合同", "审查", "法律", "自动化"]
+    },
+    {
+        "name": "CaseText",
+        "description": "AI驱动的法律研究工具",
+        "url": "https://casetext.com",
+        "category": "AI法律工具",
+        "tags": ["AI", "法律", "研究", "工具"]
+    },
+    {
+        "name": "DoNotPay",
+        "description": "世界首个AI律师机器人",
+        "url": "https://donotpay.com",
+        "category": "AI法律工具",
+        "tags": ["AI", "律师", "机器人", "法律"]
+    },
+    {
+        "name": "Harvey",
+        "description": "专为律所设计的生成式AI助手",
+        "url": "https://harvey.ai",
+        "category": "AI法律工具",
+        "tags": ["AI", "生成式", "助手", "律所"]
+    },
+    {
+        "name": "Spellbook",
+        "description": "专为律师设计的AI合同起草工具",
+        "url": "https://spellbook.legal",
+        "category": "AI法律工具",
+        "tags": ["AI", "合同", "起草", "律师"]
+    },
+    
+    // AI医疗健康
+    {
+        "name": "腾讯觅影",
+        "description": "腾讯推出的医疗AI辅助诊断产品",
+        "url": "https://miying.qq.com",
+        "category": "AI医疗健康",
+        "tags": ["腾讯", "医疗", "AI", "辅助", "诊断", "国产"]
+    },
+    {
+        "name": "阿里健康AI",
+        "description": "阿里健康推出的AI医疗服务",
+        "url": "https://www.alihealth.cn",
+        "category": "AI医疗健康",
+        "tags": ["阿里", "健康", "AI", "医疗", "服务", "国产"]
+    },
+    {
+        "name": "讯飞医疗",
+        "description": "科大讯飞旗下AI医疗产品",
+        "url": "https://medical.xfyun.cn",
+        "category": "AI医疗健康",
+        "tags": ["讯飞", "医疗", "AI", "产品", "科大讯飞", "国产"]
+    },
+    {
+        "name": "健问智能",
+        "description": "医疗人工智能问诊平台",
+        "url": "https://www.jianwen.com.cn",
+        "category": "AI医疗健康",
+        "tags": ["医疗", "人工智能", "问诊", "平台", "国产"]
+    },
+    {
+        "name": "百度健康AI",
+        "description": "百度旗下AI医疗健康服务",
+        "url": "https://health.baidu.com",
+        "category": "AI医疗健康",
+        "tags": ["百度", "健康", "AI", "医疗", "服务", "国产"]
+    },
+    {
+        "name": "Nabla",
+        "description": "AI医生助手和临床自动化平台",
+        "url": "https://www.nabla.com",
+        "category": "AI医疗健康",
+        "tags": ["AI", "医生", "助手", "临床", "自动化"]
+    },
+    {
+        "name": "Ada Health",
+        "description": "AI驱动的健康评估和咨询平台",
+        "url": "https://ada.com",
+        "category": "AI医疗健康",
+        "tags": ["AI", "健康", "评估", "咨询"]
+    },
+    {
+        "name": "BenevolentAI",
+        "description": "利用AI加速药物发现的平台",
+        "url": "https://www.benevolent.com",
+        "category": "AI医疗健康",
+        "tags": ["AI", "药物", "发现", "研究"]
+    },
+    {
+        "name": "Tempus",
+        "description": "利用AI分析临床和分子数据的精准医疗平台",
+        "url": "https://www.tempus.com",
+        "category": "AI医疗健康",
+        "tags": ["AI", "精准医疗", "数据", "分析"]
+    },
+    {
+        "name": "Atomwise",
+        "description": "AI驱动的药物发现平台",
+        "url": "https://www.atomwise.com",
+        "category": "AI医疗健康",
+        "tags": ["AI", "药物", "发现", "研究"]
+    },
+    
+    // AI数据分析
+    {
+        "name": "Tableau",
+        "description": "领先的可视化分析平台",
+        "url": "https://www.tableau.com",
+        "category": "AI数据分析",
+        "tags": ["分析", "可视化", "平台", "数据"]
+    },
+    {
+        "name": "腾讯云数据分析",
+        "description": "腾讯云推出的AI驱动的数据分析平台",
+        "url": "https://cloud.tencent.com/product/cdwpg",
+        "category": "AI数据分析",
+        "tags": ["腾讯", "云", "数据", "分析", "AI", "国产"]
+    },
+    {
+        "name": "阿里云DataWorks",
+        "description": "阿里云推出的一站式大数据开发治理平台",
+        "url": "https://www.aliyun.com/product/bigdata/ide",
+        "category": "AI数据分析",
+        "tags": ["阿里", "云", "大数据", "开发", "治理", "国产"]
+    },
+    {
+        "name": "Microsoft Power BI",
+        "description": "微软推出的商业智能分析服务",
+        "url": "https://powerbi.microsoft.com",
+        "category": "AI数据分析",
+        "tags": ["微软", "商业", "智能", "分析", "服务"]
+    },
+    {
+        "name": "TensorFlow",
+        "description": "Google推出的开源机器学习框架",
+        "url": "https://www.tensorflow.org",
+        "category": "AI数据分析",
+        "tags": ["Google", "开源", "机器学习", "框架"]
+    },
+    {
+        "name": "百度智能云数据分析",
+        "description": "百度智能云推出的AI数据分析平台",
+        "url": "https://cloud.baidu.com/product/biee.html",
+        "category": "AI数据分析",
+        "tags": ["百度", "智能云", "数据", "分析", "平台", "国产"]
+    },
+    
+    // AI安全与隐私
+    {
+        "name": "奇安信",
+        "description": "领先的网络安全服务提供商",
+        "url": "https://www.qianxin.com",
+        "category": "AI安全与隐私",
+        "tags": ["网络安全", "服务", "提供商", "国产"]
+    },
+    {
+        "name": "360企业安全",
+        "description": "360推出的企业级安全解决方案",
+        "url": "https://b.360.cn",
+        "category": "AI安全与隐私",
+        "tags": ["企业", "安全", "解决方案", "360", "国产"]
+    },
+    {
+        "name": "腾讯安全",
+        "description": "腾讯推出的安全防护平台",
+        "url": "https://security.tencent.com",
+        "category": "AI安全与隐私",
+        "tags": ["腾讯", "安全", "防护", "平台", "国产"]
+    },
+    {
+        "name": "阿里云安全",
+        "description": "阿里云推出的安全服务",
+        "url": "https://www.aliyun.com/product/security",
+        "category": "AI安全与隐私",
+        "tags": ["阿里", "云", "安全", "服务", "国产"]
+    },
+    {
+        "name": "IBM Security",
+        "description": "IBM推出的企业安全解决方案",
+        "url": "https://www.ibm.com/security",
+        "category": "AI安全与隐私",
+        "tags": ["IBM", "企业", "安全", "解决方案"]
+    },
+    
+    // AI企业服务
+    {
+        "name": "百度云智",
+        "description": "百度云智能推出的企业AI解决方案",
+        "url": "https://cloud.baidu.com",
+        "category": "AI企业服务",
+        "tags": ["百度", "云", "智能", "企业", "解决方案", "国产"]
+    },
+    {
+        "name": "阿里云",
+        "description": "阿里巴巴集团旗下云计算服务平台",
+        "url": "https://www.aliyun.com",
+        "category": "AI企业服务",
+        "tags": ["阿里", "云", "计算", "服务", "平台", "国产"]
+    },
+    {
+        "name": "腾讯云",
+        "description": "腾讯推出的云计算服务平台",
+        "url": "https://cloud.tencent.com",
+        "category": "AI企业服务",
+        "tags": ["腾讯", "云", "计算", "服务", "平台", "国产"]
+    },
+    {
+        "name": "华为云",
+        "description": "华为推出的云服务平台",
+        "url": "https://www.huaweicloud.com",
+        "category": "AI企业服务",
+        "tags": ["华为", "云", "服务", "平台", "国产"]
+    },
+    {
+        "name": "Microsoft Azure",
+        "description": "微软推出的云计算服务平台",
+        "url": "https://azure.microsoft.com",
+        "category": "AI企业服务",
+        "tags": ["微软", "云", "计算", "服务", "平台"]
+    },
+    {
+        "name": "Amazon AWS",
+        "description": "亚马逊推出的云计算服务平台",
+        "url": "https://aws.amazon.com",
+        "category": "AI企业服务",
+        "tags": ["亚马逊", "云", "计算", "服务", "平台"]
+    },
+    {
+        "name": "Google Cloud",
+        "description": "谷歌推出的云计算服务平台",
+        "url": "https://cloud.google.com",
+        "category": "AI企业服务",
+        "tags": ["谷歌", "云", "计算", "服务", "平台"]
+    },
+    {
+        "name": "Salesforce Einstein",
+        "description": "Salesforce推出的AI客户关系管理平台",
+        "url": "https://www.salesforce.com/products/einstein/overview",
+        "category": "AI企业服务",
+        "tags": ["AI", "客户关系", "管理", "平台", "Salesforce"]
+    },
+    {
+        "name": "Adobe Sensei",
+        "description": "Adobe推出的AI和机器学习技术框架",
+        "url": "https://www.adobe.com/sensei.html",
+        "category": "AI企业服务",
+        "tags": ["Adobe", "AI", "机器学习", "技术", "框架"]
     }
 ]
 
@@ -26520,11 +29976,22 @@ const websitesDatabase = [
 const hotWebsites = [
     "ChatGPT",
     "Claude",
+    "Gemini",
+    "文心一言",
+    "通义千问",
+    "讯飞星火",
     "Midjourney",
-    "Suno AI",
+    "堆友AI",
+    "绘蛙",
+    "Hugging Face",
+    "Perplexity",
     "HeyGen",
-    "Runway",
-    "Google Analytics 4",
-    "Ahrefs",
-
+    "Suno",
+    "GitHub Copilot"
 ];
+
+// 导出变量
+module.exports = {
+    websitesDatabase,
+    hotWebsites
+};

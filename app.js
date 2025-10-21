@@ -22,6 +22,61 @@ let currentAIIndex = 0;       // AI结果当前加载位置
 let totalAIResults = 0;       // AI总结果数（用于判断是否加载完成）
 let aiSearchComplete = false; // AI搜索是否完成
 
+// 分类颜色映射缓存
+const categoryColorCache = new Map();
+
+// 预定义的颜色方案（渐变色）
+const colorSchemes = [
+    { bg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', text: '#fff' },  // 紫色
+    { bg: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)', text: '#fff' },  // 粉红
+    { bg: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)', text: '#fff' },  // 青色
+    { bg: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)', text: '#fff' },  // 绿色
+    { bg: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)', text: '#fff' },  // 橙粉
+    { bg: 'linear-gradient(135deg, #30cfd0 0%, #330867 100%)', text: '#fff' },  // 蓝紫
+    { bg: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)', text: '#333' },  // 浅色
+    { bg: 'linear-gradient(135deg, #ff9a56 0%, #ff6a88 100%)', text: '#fff' },  // 珊瑚
+    { bg: 'linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)', text: '#333' },  // 桃色
+    { bg: 'linear-gradient(135deg, #ff6e7f 0%, #bfe9ff 100%)', text: '#fff' },  // 红蓝
+    { bg: 'linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)', text: '#333' },  // 淡紫蓝
+    { bg: 'linear-gradient(135deg, #f77062 0%, #fe5196 100%)', text: '#fff' },  // 红粉
+    { bg: 'linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%)', text: '#333', border: '#999' },  // 浅灰
+    { bg: 'linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)', text: '#fff' },  // 天蓝
+    { bg: 'linear-gradient(135deg, #fddb92 0%, #d1fdff 100%)', text: '#333' },  // 暖黄
+    { bg: 'linear-gradient(135deg, #9890e3 0%, #b1f4cf 100%)', text: '#333' },  // 紫绿
+    { bg: 'linear-gradient(135deg, #ebc0fd 0%, #d9ded8 100%)', text: '#333' },  // 淡紫灰
+    { bg: 'linear-gradient(135deg, #96fbc4 0%, #f9f586 100%)', text: '#333' },  // 绿黄
+    { bg: 'linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%)', text: '#333' },  // 金黄
+    { bg: 'linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%)', text: '#fff' },  // 薄荷紫
+];
+
+// 为分类生成颜色
+function getCategoryColor(category) {
+    // AI推荐使用固定颜色
+    if (category === 'AI推荐') {
+        return { bg: 'linear-gradient(135deg, #FF9500 0%, #FF6B00 100%)', text: '#fff' };
+    }
+    
+    // 检查缓存
+    if (categoryColorCache.has(category)) {
+        return categoryColorCache.get(category);
+    }
+    
+    // 使用分类名称的哈希值来分配颜色（确保相同分类总是相同颜色）
+    let hash = 0;
+    for (let i = 0; i < category.length; i++) {
+        hash = ((hash << 5) - hash) + category.charCodeAt(i);
+        hash = hash & hash;
+    }
+    
+    const colorIndex = Math.abs(hash) % colorSchemes.length;
+    const color = colorSchemes[colorIndex];
+    
+    // 缓存结果
+    categoryColorCache.set(category, color);
+    
+    return color;
+}
+
 // 计算每行显示的列数
 function getColumnsPerRow() {
     const width = window.innerWidth;
@@ -943,11 +998,17 @@ function createResultElement(site) {
     const div = document.createElement('div');
     div.className = 'result-item';
     
-    const tagClass = site.source === 'ai' ? 'tag ai-recommend' : 'tag';
-    const tagText = site.source === 'ai' ? 'AI推荐' : site.category;
+    const isAI = site.source === 'ai';
+    const tagText = isAI ? 'AI推荐' : site.category;
+    
+    // 获取分类颜色
+    const colorScheme = getCategoryColor(tagText);
+    
+    // 创建标签样式
+    const tagStyle = `background: ${colorScheme.bg}; color: ${colorScheme.text};`;
     
     div.innerHTML = `
-        <span class="${tagClass}">${tagText}</span>
+        <span class="tag category-tag" style="${tagStyle}">${tagText}</span>
         <h3>${site.name}</h3>
         <div class="url">${site.url}</div>
         <p>${site.description}</p>

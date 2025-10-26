@@ -19354,16 +19354,61 @@ const websitesDatabase = [
         "url": "https://www.flowkey.com/zh",
         "category": "AI教育与学习",
         "tags": ["设计","在线","钢琴"]
+    },
+    {
+        "name": "Deepseek",
+        "description": "Deepseek AI",
+        "url": "https://deepseek.com",
+        "category": "AI聊天助手",
+        "tags": ["AI", "Deepseek"]
+    },
+    {
+        "name": "即梦AI",
+        "description": "即梦AI",
+        "url": "https://jimeng.jianying.com/",
+        "category": "AI图像生成",
+        "tags": ["AI", "图像生成"]
+    },
+    {
+        "name": "Google",
+        "description": "Google Search",
+        "url": "https://google.com",
+        "category": "搜索引擎",
+        "tags": ["Search", "Google"]
+    },
+    {
+        "name": "Bing",
+        "description": "Microsoft Bing",
+        "url": "https://www.bing.com",
+        "category": "搜索引擎",
+        "tags": ["Search", "Bing"]
+    },
+    {
+        "name": "牛马工具库",
+        "description": "牛马工具库",
+        "url": "https://www.niumaku.top/",
+        "category": "工具",
+        "tags": ["工具"]
+    },
+    {
+        "name": "豆包",
+        "description": "字节跳动推出的免费AI对话助手和个人助理",
+        "url": "https://www.doubao.com/chat/",
+        "category": "AI聊天助手",
+        "tags": ["字节跳动", "AI对话", "豆包"]
     }
 ];
 
 // 热门推荐
 const hotWebsites = [
-    "https://www.baidu.com",
-    "https://www.google.com",
-    "https://www.zhihu.com",
-    "https://github.com",
-    "https://stackoverflow.com"
+    "https://deepseek.com",
+    "https://chat.openai.com",
+    "https://gemini.google.com",
+    "https://www.doubao.com/chat/",
+    "https://jimeng.jianying.com/",
+    "https://www.midjourney.com",
+    "https://google.com",
+    "https://www.bing.com"
 ];
 
 module.exports = {

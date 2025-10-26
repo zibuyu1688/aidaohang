@@ -154,18 +154,20 @@ document.addEventListener('DOMContentLoaded', () => {
 function loadHotSites() {
     hotList.innerHTML = '';
     
-    // 最多显示6个热门网站
-    const maxHotSites = 6;
+    // 最多显示8个热门网站
+    const maxHotSites = 8;
     let count = 0;
     
-    hotWebsites.forEach(siteName => {
+    hotWebsites.forEach(siteUrl => {
         if (count >= maxHotSites) return;
         
-        const site = websitesDatabase.find(s => s.name === siteName);
+        const site = websitesDatabase.find(s => s.url === siteUrl);
         if (site) {
             const item = createHotSiteElement(site);
             hotList.appendChild(item);
             count++;
+        } else {
+            console.warn(`Hot site with URL ${siteUrl} not found in database.`);
         }
     });
 }

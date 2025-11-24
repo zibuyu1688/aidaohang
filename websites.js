@@ -1,6 +1,370 @@
 // 网站数据库
 const websitesDatabase = [
     {
+        "name": "无忧考网",
+        "description": "专业提供考试资讯、真题题库、作文范文、求职招聘、留学移民等最新学习资源",
+        "url": "https://www.51test.net",
+        "category": "学习",
+        "tags": ["考试","题库","学习","资源"]
+    },
+    {
+        "name": "中公教育",
+        "description": "中公教育为各类考试提供培训、资讯、题库等全方位服务。",
+        "url": "http://www.offcn.com",
+        "category": "学习",
+        "tags": ["考试","培训","教育"]
+    },
+    {
+        "name": "中国教育在线",
+        "description": "中国教育在线，权威教育资讯与服务平台，涵盖高考、考研、留学等。",
+        "url": "https://www.eol.cn",
+        "category": "学习",
+        "tags": ["教育","资讯","高考","考研"]
+    },
+    {
+        "name": "菜鸟教程",
+        "description": "提供各类编程语言、前端后端开发等在线教程，适合初学者和进阶者。",
+        "url": "https://www.runoob.com",
+        "category": "学习",
+        "tags": ["编程","教程","开发"]
+    },
+    {
+        "name": "中国大学慕课",
+        "description": "中国大学MOOC，海量优质大学课程在线学习平台。",
+        "url": "https://www.icourse163.org/",
+        "category": "学习",
+        "tags": ["慕课","大学","课程"]
+    },
+    {
+        "name": "中国教育考试",
+        "description": "中国教育考试网，官方考试报名、成绩查询及政策发布平台。",
+        "url": "https://www.neea.edu.cn",
+        "category": "学习",
+        "tags": ["考试","官方","成绩"]
+    },
+    {
+        "name": "新浪教育",
+        "description": "新浪教育频道，提供最新教育资讯、考试动态、留学信息等。",
+        "url": "http://edu.sina.com.cn",
+        "category": "学习",
+        "tags": ["教育","资讯","考试"]
+    },
+    {
+        "name": "腾讯课堂",
+        "description": "腾讯课堂，专业的在线教育平台，涵盖IT、设计、语言等多领域课程。",
+        "url": "https://ke.qq.com",
+        "category": "学习",
+        "tags": ["在线课程","IT","设计"]
+    },
+    {
+        "name": "豆丁网",
+        "description": "豆丁网，海量文档资源分享与下载平台，涵盖学习、办公、生活等领域。",
+        "url": "https://www.docin.com",
+        "category": "学习",
+        "tags": ["文档","资源","下载"]
+    },
+    {
+        "name": "语雀",
+        "description": "语雀，专业的知识管理与文档协作平台，适合团队和个人学习笔记。",
+        "url": "https://www.yuque.com",
+        "category": "学习",
+        "tags": ["知识库","文档","协作"]
+    },
+    {
+        "name": "阳光高考",
+        "description": "阳光高考信息平台，权威发布高考政策、招生信息、志愿填报等。",
+        "url": "https://gaokao.chsi.com.cn",
+        "category": "学习",
+        "tags": ["高考","招生","政策"]
+    },
+    {
+        "name": "简书",
+        "description": "简书，优质内容创作与分享社区，涵盖写作、学习、成长等主题。",
+        "url": "https://www.jianshu.com",
+        "category": "学习",
+        "tags": ["写作","内容","成长"]
+    },
+    {
+        "name": "网易公开课",
+        "description": "网易公开课，免费优质课程资源，覆盖各类学科与兴趣领域。",
+        "url": "https://open.163.com",
+        "category": "学习",
+        "tags": ["公开课","课程","免费"]
+    },
+    {
+        "name": "学习强国",
+        "description": "学习强国，权威学习平台，提供丰富的学习资源和知识内容。",
+        "url": "https://www.xuexi.cn",
+        "category": "学习",
+        "tags": ["学习","知识","平台"]
+    },
+    {
+        "name": "有道翻译",
+        "description": "有道翻译，支持多语种在线翻译，学习外语好帮手。",
+        "url": "https://fanyi.youdao.com",
+        "category": "学习",
+        "tags": ["翻译","外语","工具"]
+    },
+    {
+        "name": "学信网",
+        "description": "学信网，学历查询、学籍认证、考试报名等官方服务平台。",
+        "url": "https://www.chsi.com.cn",
+        "category": "学习",
+        "tags": ["学历","学籍","认证"]
+    },
+    {
+        "name": "网易- TED",
+        "description": "网易公开课TED，精选TED演讲视频，启发思维，提升视野。",
+        "url": "https://open.163.com/ted/",
+        "category": "学习",
+        "tags": ["TED","演讲","公开课"]
+    },
+    {
+        "name": "万方数据",
+        "description": "万方数据，专业学术资源数据库，论文、期刊、学位论文等一站式查询。",
+        "url": "https://www.wanfangdata.com.cn",
+        "category": "学习",
+        "tags": ["学术","论文","数据库"]
+    },
+    {
+        "name": "中国知网",
+        "description": "中国知网，权威学术资源平台，论文、期刊、学位论文等查询。",
+        "url": "https://www.cnki.net",
+        "category": "学习",
+        "tags": ["学术","论文","期刊"]
+    },
+    {
+        "name": "学堂在线",
+        "description": "学堂在线，优质大学课程学习平台，支持慕课、在线学习。",
+        "url": "https://www.xuetangx.com",
+        "category": "学习",
+        "tags": ["慕课","大学","课程"]
+    },
+    {
+        "name": "淘大象 – 淘宝宝贝排名在线查询",
+        "description": "淘宝宝贝排名在线查询，淘宝卖家的必备工具箱",
+        "url": "https://taodaxiang.com",
+        "category": "购物",
+        "tags": ["购物","工具","排名查询","淘宝","卖家"]
+    },
+    {
+        "name": "商品历史价格查询",
+        "description": "商品历史价格查询工具，支持淘宝、天猫、京东历史价格趋势分析",
+        "url": "http://www.hisprice.cn",
+        "category": "购物",
+        "tags": ["购物","价格","历史价格","比价","电商"]
+    },
+    {
+        "name": "至尊宝工具箱",
+        "description": "至尊宝免费提供一键多平台选品、详情分析与运营管理工具",
+        "url": "https://tool.zzbtool.com",
+        "category": "购物",
+        "tags": ["购物","选品","运营工具","分析","电商工具"]
+    },
+    {
+        "name": "权重池",
+        "description": "权重池 - 淘宝宝贝关键词排名查询与标题优化工具",
+        "url": "http://www.quanzhongchi365.com",
+        "category": "购物",
+        "tags": ["购物","关键词","排名","标题优化","SEO"]
+    },
+    {
+        "name": "宝贝累计销量查询",
+        "description": "查询商品从上架到现在的累计销量",
+        "url": "https://www.91tool.com/volumes",
+        "category": "购物",
+        "tags": ["购物","销量","查询","统计","电商"]
+    },
+    {
+        "name": "店铺上新查询",
+        "description": "淘宝商品上新查询，分析同行上新情况",
+        "url": "https://taodaxiang.com/shop/news",
+        "category": "购物",
+        "tags": ["购物","上新","新品","竞争分析"]
+    },
+    {
+        "name": "隐形降权查询",
+        "description": "隐形降权原因查询与分析工具，帮助排查降权风险",
+        "url": "https://taodaxiang.com/weight",
+        "category": "购物",
+        "tags": ["购物","降权","违规检测","风险排查"]
+    },
+    {
+        "name": "淘大猫 – 淘宝信誉查询",
+        "description": "淘大猫 - 淘宝信誉查询与验号工具箱",
+        "url": "http://www.taodamao.com",
+        "category": "购物",
+        "tags": ["购物","信誉","账号","验号","卖家工具"]
+    },
+    {
+        "name": "掌柜查查",
+        "description": "掌柜查查，一站式反‘恶’专家，电商店铺账号与订单风险排查",
+        "url": "https://www.zgchacha.com",
+        "category": "购物",
+        "tags": ["购物","反恶","风险","店铺安全","检测"]
+    },
+    {
+        "name": "京查号",
+        "description": "京查号 - 买家信誉查询与风险排查工具",
+        "url": "http://www.jingchahao.com",
+        "category": "购物",
+        "tags": ["购物","信誉","买家","风险排查"]
+    },
+    {
+        "name": "V兔卖家工具箱",
+        "description": "V兔卖家工具箱，为卖家提供买家信誉查询、关键词排名等运营工具",
+        "url": "https://www.vv-tool.com/elTool",
+        "category": "购物",
+        "tags": ["购物","卖家工具","关键词","运营","工具"]
+    },
+    {
+        "name": "店帮查",
+        "description": "店帮查 - 电商数据查询与运营服务一站式平台",
+        "url": "https://www.dianbangcha.com",
+        "category": "购物",
+        "tags": ["购物","数据","分析","运营"]
+    },
+    {
+        "name": "电商雷达",
+        "description": "电商雷达 - 一键查询淘宝骗子、举报与风险提示",
+        "url": "http://www.dianshangleida.com",
+        "category": "购物",
+        "tags": ["购物","反欺诈","检测","安全"]
+    },
+    {
+        "name": "58图 – 电商历史图库",
+        "description": "58图 - 电商历史图库，提供店铺图片历史快照与竞品参考",
+        "url": "https://www.58tu.com",
+        "category": "购物",
+        "tags": ["购物","图库","历史快照","竞品分析"]
+    },
+    {
+        "name": "淘测测淘宝信誉查询",
+        "description": "淘测测 - 淘宝信誉查询与账号检测工具",
+        "url": "http://www.taoyanhao.com",
+        "category": "购物",
+        "tags": ["购物","信誉","检测","账号"]
+    },
+    {
+        "name": "THunt选品工具",
+        "description": "THunt - AI 选品工具，为卖家智能选品并做行业分析",
+        "url": "https://thunt.ai",
+        "category": "购物",
+        "tags": ["购物","选品","AI","智能选品","数据分析"]
+    },
+    {
+        "name": "阿明查查",
+        "description": "阿明工具，电商数据分析与生意参谋指数一键转换与可视化",
+        "url": "https://www.amingchacha.com",
+        "category": "购物",
+        "tags": ["购物","数据分析","生意参谋","插件","卖家工具"]
+    },
+    {
+        "name": "小旺神插件",
+        "description": "小旺神 - 生意参谋指数一键还原插件，帮助卖家查看历史数据",
+        "url": "https://xiaowangshen.com",
+        "category": "购物",
+        "tags": ["购物","插件","生意参谋","数据还原","卖家"]
+    },
+    {
+        "name": "旺参谋 – 1688生意参谋指数还原",
+        "description": "旺参谋提供1688生意参谋指数还原与数据下载，便于选品与竞店分析",
+        "url": "https://wangcanmou.com",
+        "category": "购物",
+        "tags": ["购物","1688","生意参谋","数据","选品"]
+    },
+    {
+        "name": "癞蛤蟆工具箱",
+        "description": "癞蛤蟆电商工具箱，帮助卖家进行流量与数据分析",
+        "url": "http://www.91laihama.com/Tool/Plug",
+        "category": "购物",
+        "tags": ["购物","工具箱","运营","数据分析"]
+    },
+    {
+        "name": "老司机电商工具",
+        "description": "老司机直通车与电商运营工具集合，提供多种卖家辅助工具",
+        "url": "https://www.lsjztc.com",
+        "category": "购物",
+        "tags": ["购物","工具","运营","选品"]
+    },
+    {
+        "name": "店透视 - 生意参谋指数转换",
+        "description": "店透视插件，在线转换与分析店铺生意参谋指数",
+        "url": "https://www.diantoushi.com",
+        "category": "购物",
+        "tags": ["购物","插件","生意参谋","店铺分析"]
+    },
+    {
+        "name": "店查查",
+        "description": "店查查 - 淘宝数据统计、标题优化与销售分析工具",
+        "url": "https://www.dianchacha.com",
+        "category": "购物",
+        "tags": ["购物","数据","标题优化","销售分析"]
+    },
+    {
+        "name": "幕思城将军令 – 插件下载中心",
+        "description": "幕思城将军令插件集合，电商运营插件与数据分析工具下载",
+        "url": "https://tool.musicheng.com/chajian",
+        "category": "购物",
+        "tags": ["购物","插件","运营工具","下载"]
+    },
+    {
+        "name": "哈士奇电商插件",
+        "description": "哈士奇电商插件，多平台支持的运营插件，覆盖淘宝、天猫、京东等",
+        "url": "https://hsq.dangxun.com",
+        "category": "购物",
+        "tags": ["购物","插件","运营","多平台"]
+    },
+    {
+        "name": "至尊宝找货助手 – 插件",
+        "description": "至尊宝找货助手，提供一键多平台搜图/搜词、选品与数据分析",
+        "url": "https://zzb.3351r.com/update/index.html",
+        "category": "购物",
+        "tags": ["购物","选品","搜图","数据分析","插件"]
+    },
+    {
+        "name": "谋臣界电商工具箱",
+        "description": "谋臣界电商工具箱，为电商提供数据采集、图像下载与标题采集等功能",
+        "url": "https://www.mouchenjie.com",
+        "category": "购物",
+        "tags": ["购物","数据采集","运营工具","选品"]
+    },
+    {
+        "name": "实选抖音选品检测工具",
+        "description": "为抖音/短视频平台提供选品检测与匹配度分析的工具",
+        "url": "https://plugindy.shixuan.com",
+        "category": "购物",
+        "tags": ["购物","抖音","选品","检测","短视频"]
+    },
+    {
+        "name": "店雷达 – 1688选品运营插件",
+        "description": "店雷达插件，支持导出商品交易数据与店铺分析，帮助快速选品",
+        "url": "https://dianleida.net/download",
+        "category": "购物",
+        "tags": ["购物","1688","选品","插件","数据"]
+    },
+    {
+        "name": "多兔淘客插件",
+        "description": "多兔淘客插件，淘客推广与推广数据查询一体化工具",
+        "url": "https://duotu.pro/plugs",
+        "category": "购物",
+        "tags": ["购物","淘客","插件","推广","数据"]
+    },
+    {
+        "name": "淘客易插件",
+        "description": "淘客易插件，查看推广数据与招商信息的浏览器插件",
+        "url": "http://cj.tky.com",
+        "category": "购物",
+        "tags": ["购物","淘客","推广","插件"]
+    },
+    {
+        "name": "XHSPlus AI创作助手插件",
+        "description": "为小红书内容创作提供文案生成、标题优化与敏感词检测的创作插件",
+        "url": "https://xhsplus.io/cn/ai-editor",
+        "category": "购物",
+        "tags": ["购物","内容创作","小红书","文案","插件"]
+    },
+    {
         "name": "ChatGPT",
         "description": "OpenAI开发的强大AI对话助手，可以回答问题、写作、编程等",
         "url": "https://chat.openai.com",

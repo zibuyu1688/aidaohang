@@ -18,9 +18,11 @@ let currentDisplayedCount = 0;
 let columnsPerRow = 3;
 let localResults = [];        // 本地搜索结果
 let aiResults = [];           // AI搜索结果
-let currentAIIndex = 0;       // AI结果当前加载位置
-let totalAIResults = 0;       // AI总结果数（用于判断是否加载完成）
 let aiSearchComplete = false; // AI搜索是否完成
+let isFetchingAI = false;     // 是否正在拉取AI结果
+let currentQuery = '';
+let analyzedIntent = null;
+const AI_BATCH_LIMIT = 9;     // 每次AI仅返回最多9条
 
 // 分类颜色映射缓存
 const categoryColorCache = new Map();
@@ -216,14 +218,15 @@ async function handleSearch() {
             }
         }
         
-        console.log('🌐 开始搜索（先本地后AI）...');
+        console.log('🌐 开始搜索（先本地，AI按需加载）...');
         
         // 重置全局搜索状态
         localResults = [];
         aiResults = [];
-        currentAIIndex = 0;
-        totalAIResults = 0;
         aiSearchComplete = false;
+        isFetchingAI = false;
+        currentQuery = query;
+        analyzedIntent = null;
         
         const apiKey = getApiKey();
         const provider = getCurrentProvider();
@@ -237,20 +240,21 @@ async function handleSearch() {
         loading.classList.add('hidden');
         results.classList.remove('hidden');
         resultsTitle.textContent = '';
-        allSearchResults = localResults.map(r => ({...r, source: 'local'}));
+        allSearchResults = [...localResults];
         currentDisplayedCount = 0;
         resultsList.innerHTML = '';
         displayMore();
         
-        // 3️⃣ 后台异步获取 AI 推荐（如果有 API Key）
+        // 3️⃣ 记录 AI 状态（首次点击“更多推荐”时才调用）
         console.log(`🔑 API Key 检查 - 提供商: ${provider}, Key 存在: ${!!apiKey}, Key 前缀: ${apiKey ? apiKey.substring(0, 10) : '无'}`);
-        if (apiKey && apiKey.trim() && localResults.length < 20) {
-            console.log('🌐 后台加载 AI 推荐...');
-            loadAIRecommendationsAsync(query, apiKey);
-        } else {
-            console.log('⏭️  跳过 AI 搜索（无 API 或本地结果充足）', {hasKey: !!apiKey, keyValid: apiKey && apiKey.trim().length > 0, localCount: localResults.length});
+        if (!apiKey || !apiKey.trim()) {
+            console.log('⏭️  跳过 AI 搜索（未配置 API Key）');
             aiSearchComplete = true;
+        } else {
+            console.log('🤖 AI 将在用户点击“更多推荐”后再触发');
         }
+        
+        updateLoadMoreButton();
         
     } catch (error) {
         console.error('❌ 搜索错误:', error);
@@ -269,111 +273,178 @@ async function handleSearch() {
     }
 }
 
-// 后台异步加载 AI 推荐
-async function loadAIRecommendationsAsync(query, apiKey) {
+// 用户点击后按需加载 AI 推荐
+async function loadNextAIBatch() {
+    if (isFetchingAI) {
+        console.log('⚠️ AI 搜索正在进行中，忽略重复请求');
+        return;
+    }
+    
+    if (aiSearchComplete) {
+        console.log('ℹ️ AI 搜索已完成，无需再次请求');
+        return;
+    }
+    
+    const apiKey = getApiKey();
+    if (!apiKey || !apiKey.trim()) {
+        console.log('❌ 未检测到 API Key，无法进行 AI 搜索');
+        aiSearchComplete = true;
+        return;
+    }
+    
+    isFetchingAI = true;
+    updateLoadMoreButton();
+    
     try {
-        console.log('🔍 后台分析意图...');
-        const intent = await analyzeIntent(query, apiKey);
-        console.log('✅ 意图分析完成');
-        
-        console.log('📡 后台获取 AI 推荐...');
-        const recommendations = await getAIRecommendations(intent, query, localResults, apiKey);
-        console.log('✅ AI 推荐获取完成，共:', recommendations.length, '个');
-        console.log('📊 AI 推荐长度:', recommendations.length, '个');
-        
-        // 保存所有 AI 结果
-        aiResults = recommendations;
-        totalAIResults = recommendations.length;
-        currentAIIndex = 0;
-        aiSearchComplete = true;
-        
-        // 流式推荐：立即显示第一批 AI 结果（5-10 个）
-        if (aiResults.length > 0) {
-            console.log('⚡ 流式推荐：立即显示第一批 AI 结果...');
-            
-            // 一次加 7 个 AI 结果
-            const itemsPerBatch = 7;
-            const endIndex = Math.min(currentAIIndex + itemsPerBatch, aiResults.length);
-            
-            for (let i = currentAIIndex; i < endIndex; i++) {
-                const site = {...aiResults[i], source: 'ai'};
-                allSearchResults.push(site);
-            }
-            currentAIIndex = endIndex;
-            
-            console.log(`✨ 已添加第一批 ${endIndex} 个 AI 结果到 allSearchResults，现在共 ${allSearchResults.length} 个`);
-            
-            // 立即显示这些结果，无需等待用户点击
-            displayMore();
-            
-            // 继续推荐后续批次（如果有）
-            if (currentAIIndex < aiResults.length) {
-                console.log(`⏳ 后续还有 ${aiResults.length - currentAIIndex} 个 AI 结果，准备自动加载...`);
-                // 延迟 1 秒后自动加载下一批，给用户时间查看当前结果
-                setTimeout(() => {
-                    continuouslyLoadAIResults();
-                }, 1000);
-            }
-        } else {
-            console.log('❌ AI 没有返回推荐 (aiResults.length = 0)');
-            // AI 也没有结果，检查本地是否为空
-            if (localResults.length === 0) {
-                console.log('💔 本地和 AI 都没有结果');
-                resultsTitle.textContent = '😢 没有找到相关网站';
-                resultsList.innerHTML = '<p style="text-align:center;color:#666;padding:40px;">试试其他关键词吧<br><br>💡 试试搜索："抠图"、"去水印"、"AI绘画"</p>';
-            }
+        if (!analyzedIntent) {
+            console.log('🔍 开始分析用户意图...');
+            analyzedIntent = await analyzeIntent(currentQuery, apiKey);
+            console.log('✅ 意图分析完成');
         }
         
-        // 更新"更多推荐"按钮
-        console.log('🔄 更新按钮状态（AI 加载完成）');
-        updateLoadMoreButton();
+        console.log('📡 请求 AI 推荐...');
+        const existingResults = [...localResults, ...aiResults];
+        const recommendations = await getAIRecommendations(
+            analyzedIntent,
+            currentQuery,
+            existingResults,
+            apiKey,
+            AI_BATCH_LIMIT
+        );
+        const rawCount = Array.isArray(recommendations) ? recommendations.length : 0;
+        console.log('✅ AI 推荐获取完成:', rawCount, '个原始结果');
         
+        const prepared = prepareAIRecommendations(
+            recommendations,
+            analyzedIntent,
+            currentQuery,
+            existingResults
+        );
+        console.log('✅ 过滤后保留:', prepared.length, '个推荐');
+        
+        if (prepared.length === 0) {
+            aiSearchComplete = true;
+            console.log('ℹ️ 本轮 AI 未返回可用结果，标记为完成');
+            return;
+        }
+        
+        aiResults = aiResults.concat(prepared);
+        allSearchResults = allSearchResults.concat(prepared);
+        
+        if (prepared.length < AI_BATCH_LIMIT) {
+            aiSearchComplete = true;
+            console.log('ℹ️ AI 返回结果不足上限，视为已无更多推荐');
+        }
+        
+        displayMore();
     } catch (error) {
-        console.error('❌ AI 推荐加载失败:', error.message);
+        console.error('❌ AI 推荐加载失败:', error);
         aiSearchComplete = true;
-        
-        // 如果本地也没有结果，显示没有找到
-        if (localResults.length === 0) {
-            console.log('💔 本地和 AI 都没有结果（AI 出错）');
-            resultsTitle.textContent = '😢 没有找到相关网站';
-            resultsList.innerHTML = '<p style="text-align:center;color:#666;padding:40px;">试试其他关键词吧<br><br>💡 试试搜索："抠图"、"去水印"、"AI绘画"</p>';
-        }
-        
+    } finally {
+        isFetchingAI = false;
         updateLoadMoreButton();
     }
 }
 
-// 持续加载 AI 结果（流式推荐）
-function continuouslyLoadAIResults() {
-    if (currentAIIndex >= aiResults.length) {
-        console.log('✅ 所有 AI 结果已加载完成');
-        return;
+// 过滤并标准化 AI 推荐结果
+function prepareAIRecommendations(recommendations, intent, query, existingResults) {
+    if (!Array.isArray(recommendations)) {
+        return [];
     }
     
-    const itemsPerBatch = 7;
-    const endIndex = Math.min(currentAIIndex + itemsPerBatch, aiResults.length);
+    const normalized = [];
+    const existingUrls = new Set();
+    const existingNames = new Set();
     
-    console.log(`🌊 流式加载下一批: 第 ${currentAIIndex + 1} 到 ${endIndex} 个（共 ${aiResults.length} 个 AI 结果）`);
+    [...(existingResults || []), ...(allSearchResults || [])].forEach(item => {
+        if (item?.url) {
+            existingUrls.add(item.url.toLowerCase());
+        }
+        if (item?.name) {
+            existingNames.add(item.name.toLowerCase());
+        }
+    });
     
-    for (let i = currentAIIndex; i < endIndex; i++) {
-        const site = {...aiResults[i], source: 'ai'};
-        allSearchResults.push(site);
+    const keywords = buildKeywordList(query, intent);
+    const fallbackCategory = intent?.category || 'AI推荐';
+    
+    for (const rec of recommendations) {
+        if (!rec || typeof rec !== 'object') {
+            continue;
+        }
+        
+        const name = (rec.name || '').trim();
+        const url = (rec.url || '').trim();
+        const description = (rec.description || '').trim();
+        
+        if (!name || !url || !isHttpUrl(url)) {
+            console.log('� 跳过字段缺失或URL非法的推荐:', rec);
+            continue;
+        }
+        
+        const matchText = `${name} ${description}`.toLowerCase();
+        const isRelevant = keywords.some(keyword => keyword && matchText.includes(keyword));
+        if (!isRelevant) {
+            console.log('🚫 跳过与关键词无关的推荐:', name);
+            continue;
+        }
+        
+        const lowerUrl = url.toLowerCase();
+        const lowerName = name.toLowerCase();
+        if (existingUrls.has(lowerUrl) || existingNames.has(lowerName)) {
+            console.log('🚫 跳过重复推荐:', name);
+            continue;
+        }
+        
+        existingUrls.add(lowerUrl);
+        existingNames.add(lowerName);
+        
+        normalized.push({
+            name,
+            url,
+            description,
+            category: rec.category || fallbackCategory,
+            type: rec.type || '其他',
+            source: 'ai'
+        });
+        
+        if (normalized.length >= AI_BATCH_LIMIT) {
+            break;
+        }
     }
-    currentAIIndex = endIndex;
     
-    console.log(`✨ 已添加到 allSearchResults，现在共 ${allSearchResults.length} 个`);
-    
-    // 立即显示新加载的结果
-    displayMore();
-    
-    // 继续加载下一批（递归）
-    if (currentAIIndex < aiResults.length) {
-        setTimeout(() => {
-            continuouslyLoadAIResults();
-        }, 800);  // 每 800ms 加载一批，给用户时间适应
-    } else {
-        console.log('✅ 所有 AI 结果已完成流式推荐');
+    return normalized;
+}
+
+function buildKeywordList(query, intent) {
+    const keywordSet = new Set();
+    if (typeof query === 'string') {
+        const lower = query.trim().toLowerCase();
+        if (lower) {
+            keywordSet.add(lower);
+        }
+        lower.split(/[\s,，、]+/).forEach(part => {
+            const token = part.trim();
+            if (token) {
+                keywordSet.add(token.toLowerCase());
+            }
+        });
     }
+    
+    if (intent?.keywords && Array.isArray(intent.keywords)) {
+        intent.keywords.forEach(keyword => {
+            const token = (keyword || '').trim().toLowerCase();
+            if (token) {
+                keywordSet.add(token);
+            }
+        });
+    }
+    
+    return Array.from(keywordSet).filter(Boolean);
+}
+
+function isHttpUrl(url) {
+    return /^https?:\/\//i.test(url || '');
 }
 
 // 智能搜索主函数
@@ -541,11 +612,35 @@ function matchLocalDatabase(intent, originalQuery) {
 }
 
 // AI推荐补充网站
-async function getAIRecommendations(intent, query, existingResults, apiKey) {
-    const existingNames = existingResults.map(r => r.name).join('、');
-    const isBrandSearch = intent.isBrandSearch === true;
+async function getAIRecommendations(intent, query, existingResults, apiKey, limit = AI_BATCH_LIMIT) {
+    const names = (existingResults || []).map(r => r && r.name).filter(Boolean);
+    const urls = (existingResults || []).map(r => r && r.url).filter(Boolean);
+    const existingNames = names.join('、');
+    const existingUrls = urls.join('、');
+    const isBrandSearch = intent?.isBrandSearch === true;
     const apiConfig = getAPIConfig();
-    
+
+    const systemPrompt = `你是一个专业的网站推荐助手。严格遵循以下规则：
+1. 仅推荐与用户搜索主题高度相关的网站，不得推荐无关内容。
+2. 每次返回的网站数量最多 ${limit} 个，不足则返回更少。
+3. 每条推荐的“name”或“description”字段必须包含至少一个用户搜索关键字。
+4. 不要推荐已经提供过的网站（名称或链接重复都视为重复）。
+5. 输出必须为 JSON 数组，每项包含 name、url、description、category、type 字段。
+6. category 使用 ${intent?.category || 'AI推荐'}，type 从 ["官方","工具","资讯","社区","教程","数据","其他"] 中选择最合适的一个。
+7. JSON 外不允许出现任何额外文本。`;
+
+    const keywordLine = Array.isArray(intent?.keywords) && intent.keywords.length > 0
+        ? intent.keywords.join('、')
+        : query;
+    const userPrompt = `用户搜索词：${query}
+意图说明：${intent?.intent || '未知'}
+推荐分类：${intent?.category || 'AI推荐'}
+关键词集合：${keywordLine}
+已存在网站名称：${existingNames || '无'}
+已存在网站链接：${existingUrls || '无'}
+请推荐最多 ${limit} 个未出现过、与搜索需求强相关的网站。
+请确保每条推荐的标题或描述中包含至少一个上述关键词，并严格使用 JSON 数组格式返回。`;
+
     const response = await fetch(apiConfig.apiUrl, {
         method: 'POST',
         headers: {
@@ -556,101 +651,13 @@ async function getAIRecommendations(intent, query, existingResults, apiKey) {
             model: apiConfig.model,
             messages: [{
                 role: "system",
-                content: `你是一个全面的网站推荐专家。你的核心职责是：
-1. **深入理解用户需求** - 分析用户搜索背后的真实意图和全面需求
-2. **全面推荐相关网站** - 推荐所有可能对用户有帮助的网站和平台，不设数量限制
-3. **多维度思考** - 从不同角度（官方、第三方工具、资讯、社区、教程等）推荐
-4. **质量和多样性平衡** - 既要高质量，也要覆盖广泛的相关领域
-
-【推荐原则】
-1. **全面性优先** - 推荐尽可能多的相关优质网站，用户可以选择
-2. **不限制数量** - 没有数量上限，推荐所有你认为相关的网站
-3. **多维度覆盖** - 包括官方网站、工具平台、资讯媒体、社区论坛、教程网站等
-4. **高质量标准** - 只推荐业界公认的、用户众多的优质网站
-5. **避免重复** - 不推荐已经在本地数据库中的网站
-6. **相关性优先** - 推荐与用户搜索主题密切相关的网站
-
-【搜索主题深度分析】
-对于用户搜索的主题，应该从多个维度推荐：
-- **官方和一级渠道** - 该领域的官方网站和主要平台
-- **专业工具和应用** - 针对该领域的专业工具和SaaS应用
-- **信息和资讯** - 该领域的新闻、资讯、研究报告网站
-- **社区和论坛** - 该领域的用户社区、讨论论坛
-- **学习和培训** - 该领域的教程、课程、培训网站
-- **数据和分析** - 该领域的数据查询、分析工具
-- **辅助工具** - 帮助用户完成该领域任务的相关工具
-
-【示例：用户搜索"亚马逊"时应推荐】
-1. 官方网站：各国Amazon站点（美国、英国、日本等）
-2. 卖家工具：Jungle Scout、Helium10、卖家精灵等
-3. 买家服务：Amazon买家服务中心、退货政策等
-4. 资讯媒体：Amazon相关新闻、政策更新
-5. 社区论坛：Amazon卖家论坛、买家评价社区
-6. 学习资源：Amazon销售教程、FBA指南
-7. 相关平台：eBay、Wish等其他电商平台（作为对比选项）
-
-【返回格式】
-返回JSON数组格式（不要markdown代码块），每项包含：
-{
-    "name": "网站名称",
-    "url": "网站完整URL（必须以http或https开头）",
-    "description": "网站功能描述（30-60字）",
-    "category": "${intent.category}",
-    "type": "官方|工具|资讯|社区|教程|数据|其他"
-}
-
-【具体要求】
-1. 推荐尽可能多的相关网站 - 没有数量上限
-2. 不推荐已有的网站：${existingNames}
-3. URL必须真实有效、完整可访问
-4. 描述要专业、简洁、突出核心价值
-5. 避免重复，但可以推荐不同类型的同一领域网站
-6. 返回纯JSON数组，不要其他文字
-7. 如果知道该领域有其他优质网站，都应该推荐
-8. 宁可多推荐，不要遗漏重要的相关网站
-
-【质量检查清单】
-✓ 每个推荐都是该领域的相关网站
-✓ 没有明显不相关的网站
-✓ URL格式正确且来自官方或权威渠道
-✓ 描述准确反映网站功能
-✓ 推荐了足够多的相关网站（至少5个以上）
-✓ 覆盖了多个维度（官方、工具、资讯、社区等）
-
-【用户意图信息】
-- 意图类型：${intent.userIntent}
-- 主题分类：${intent.category}
-- 真实需求：${intent.intent}
-- 关键词：${intent.keywords.join('、')}
-
-${isBrandSearch ? `【品牌搜索策略】
-这是一个品牌搜索查询：${query}
-- 优先推荐该品牌的官方网站和官方平台
-- 推荐该品牌的专业工具和相关服务
-- 可以推荐该品牌的竞争对手或替代品作为对比选项
-- 推荐与该品牌相关的资讯、论坛、教程等` : ''}
-
-【提示】
-- 这个搜索可能返回10-50个或更多相关网站，这是正常的
-- 用户需要尽可能全面的选项，让他们自己选择
-- 不用担心数量过多，完整性比简洁性更重要`
+                content: systemPrompt
             }, {
                 role: "user",
-                content: `用户搜索：${query}
-意图类型：${intent.userIntent}
-主题分类：${intent.category}
-真实需求：${intent.intent}
-
-请推荐所有你认为与这个搜索相关的优质网站，没有数量限制。
-要么深入分析这个主题，从多个维度（官方、工具、资讯、社区、教程、数据等）推荐相关网站。
-尽可能多地推荐有价值的网站。
-
-已有的网站（不用重复推荐）：${existingNames || '无'}
-
-返回纯JSON数组`
+                content: userPrompt
             }],
-            temperature: isBrandSearch ? 0.4 : 0.8,
-            top_p: 0.95
+            temperature: isBrandSearch ? 0.4 : 0.6,
+            top_p: 0.9
         })
     });
     
@@ -848,8 +855,20 @@ function displayResults(searchResults, query) {
     
     console.log('显示', searchResults.length, '个结果');
     
-    // 保存所有搜索结果
-    allSearchResults = searchResults;
+    // 重置并保存所有搜索结果
+    currentQuery = query;
+    analyzedIntent = null;
+    isFetchingAI = false;
+    localResults = searchResults.filter(item => item && item.source === 'local');
+    aiResults = searchResults.filter(item => item && item.source === 'ai');
+
+    if (localResults.length === 0 && aiResults.length === 0) {
+        localResults = searchResults.map(item => ({...item, source: item?.source || 'local'}));
+        aiResults = [];
+    }
+    
+    allSearchResults = [...localResults, ...aiResults];
+    aiSearchComplete = false;
     currentDisplayedCount = 0;
     
     // 清空之前的结果
@@ -858,7 +877,7 @@ function displayResults(searchResults, query) {
     // 显示初始结果
     results.classList.remove('hidden');
     resultsTitle.textContent = '';
-    resultsCount.textContent = `${searchResults.length} 个结果`;
+    resultsCount.textContent = `${allSearchResults.length} 个结果`;
     
     // 显示第一批结果
     displayMore();
@@ -873,25 +892,32 @@ function calculateDisplayCount(columnsPerRow) {
 }
 
 // 显示更多结果
-function handleLoadMore() {
+async function handleLoadMore() {
+    if (isFetchingAI) {
+        console.log('⚠️ AI 搜索进行中，请稍候...');
+        return;
+    }
+    
     loadMoreBtn.disabled = true;
-    const originalText = loadMoreText.textContent;
     loadMoreText.textContent = '加载中...';
     
-    // 模拟异步加载
-    setTimeout(() => {
-        // 首先检查是否需要添加 AI 结果
-        if (currentAIIndex < aiResults.length) {
-            console.log('⬇️ 加载更多 AI 推荐...');
-            addMoreAIResults();
-        } else {
-            // 否则加载本地或已有的 allSearchResults
-            console.log('⬇️ 加载更多结果...');
+    try {
+        if (currentDisplayedCount < allSearchResults.length) {
+            console.log('⬇️ 展示缓冲中的更多结果');
             displayMore();
+        } else if (currentDisplayedCount < localResults.length) {
+            console.log('⬇️ 还有本地结果待展示');
+            displayMore();
+        } else {
+            console.log('🤖 触发 AI 推荐批次加载');
+            await loadNextAIBatch();
         }
-        
-        loadMoreBtn.disabled = false;
-    }, 300);
+    } finally {
+        if (!isFetchingAI) {
+            loadMoreBtn.disabled = false;
+        }
+        updateLoadMoreButton();
+    }
 }
 
 // 执行显示更多逻辑
@@ -951,48 +977,56 @@ function displayMore() {
     updateLoadMoreButton();
 }
 
-// 添加更多 AI 结果
-// 旧的 addMoreAIResults 函数已被流式推荐替代
-// function addMoreAIResults() { ... }
-
 // 更新"更多推荐"按钮状态
 function updateLoadMoreButton() {
-    const totalCombined = localResults.length + aiResults.length;
-    const hasMoreLocal = currentDisplayedCount < localResults.length;
-    const hasMoreAI = currentAIIndex < aiResults.length;
-    const hasMoreUnloaded = currentDisplayedCount < allSearchResults.length;
+    const remainingBuffered = allSearchResults.length - currentDisplayedCount;
+    const apiKey = getApiKey();
+    const canShowBuffered = remainingBuffered > 0;
+    const providerLabel = getCurrentProvider() === 'deepseek' ? 'DeepSeek' : 'AI';
+    const localRemaining = Math.max(localResults.length - currentDisplayedCount, 0);
+    const canTriggerAI = apiKey && apiKey.trim() && !aiSearchComplete && currentDisplayedCount >= localResults.length;
     
     console.log('📍 按钮状态检查:', {
         currentDisplayed: currentDisplayedCount,
-        allResults: allSearchResults.length,
-        hasMoreLocal,
-        hasMoreAI,
-        hasMoreUnloaded,
-        aiComplete: aiSearchComplete
+        totalResultsCached: allSearchResults.length,
+        localRemaining,
+        remainingBuffered,
+        aiComplete: aiSearchComplete,
+        isFetchingAI,
+        canTriggerAI
     });
     
-    // 如果还有未加载的本地或 AI 结果
-    if (hasMoreLocal || hasMoreUnloaded) {
+    if (canShowBuffered) {
         loadMoreContainer.classList.remove('hidden');
-        const remainingCount = allSearchResults.length - currentDisplayedCount + (aiResults.length - currentAIIndex);
-        loadMoreText.textContent = `更多推荐 (剩余 ${remainingCount} 个)`;
-        console.log(`⬇️ 显示"更多推荐"按钮，剩余: ${remainingCount}`);
-    } else if (hasMoreAI && aiSearchComplete) {
-        // AI 搜索完成，还有 AI 结果未加载
-        loadMoreContainer.classList.remove('hidden');
-        const remainingAI = aiResults.length - currentAIIndex;
-        loadMoreText.textContent = `更多推荐 (剩余 ${remainingAI} 个 AI 推荐)`;
-        console.log(`⬇️ 显示"更多推荐"按钮（AI），剩余: ${remainingAI}`);
-    } else if (!aiSearchComplete) {
-        // AI 仍在加载中
-        loadMoreContainer.classList.remove('hidden');
-        loadMoreText.textContent = `更多推荐 (加载中...)`;
-        console.log(`⏳ AI 仍在加载中`);
-    } else {
-        // 所有结果都已显示
-        loadMoreContainer.classList.add('hidden');
-        console.log(`✅ 所有结果已显示`);
+        loadMoreBtn.disabled = false;
+        loadMoreText.textContent = `更多推荐 (剩余 ${remainingBuffered} 个)`;
+        return;
     }
+    
+    if (isFetchingAI) {
+        loadMoreContainer.classList.remove('hidden');
+        loadMoreBtn.disabled = true;
+        loadMoreText.textContent = `${providerLabel} 搜索中...`;
+        return;
+    }
+    
+    if (canTriggerAI) {
+        loadMoreContainer.classList.remove('hidden');
+        loadMoreBtn.disabled = false;
+        loadMoreText.textContent = '更多推荐 (AI推荐)';
+        return;
+    }
+    
+    if (localRemaining > 0) {
+        loadMoreContainer.classList.remove('hidden');
+        loadMoreBtn.disabled = false;
+        loadMoreText.textContent = `更多推荐 (剩余 ${localRemaining} 个)`;
+        return;
+    }
+    
+    loadMoreContainer.classList.add('hidden');
+    loadMoreBtn.disabled = true;
+    console.log('✅ 没有更多结果，隐藏按钮');
 }
 
 // 创建结果元素

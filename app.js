@@ -122,20 +122,24 @@ document.addEventListener('DOMContentLoaded', () => {
     // 模型选择器事件
     const deepseekBtn = document.getElementById('deepseekBtn');
     const qwenBtn = document.getElementById('qwenBtn');
-    
-    deepseekBtn.addEventListener('click', () => {
-        switchAIProvider('deepseek');
-        deepseekBtn.classList.add('active');
-        qwenBtn.classList.remove('active');
-        console.log('✅ 已切换到 DeepSeek 模型');
-    });
-    
-    qwenBtn.addEventListener('click', () => {
-        switchAIProvider('qwen');
-        qwenBtn.classList.add('active');
+
+    if (deepseekBtn) {
+        deepseekBtn.disabled = true;
+        deepseekBtn.title = '当前版本已停用浏览器直连模型';
         deepseekBtn.classList.remove('active');
-        console.log('✅ 已切换到 Qwen 模型');
-    });
+    }
+
+    if (qwenBtn) {
+        qwenBtn.classList.add('active');
+        qwenBtn.addEventListener('click', () => {
+            switchAIProvider('qwen');
+            qwenBtn.classList.add('active');
+            if (deepseekBtn) {
+                deepseekBtn.classList.remove('active');
+            }
+            console.log('✅ 已切换到 Qwen 3.5 Plus 模型');
+        });
+    }
     
     // 下载按钮事件
     const downloadBtn = document.getElementById('downloadBtn');
@@ -228,7 +232,6 @@ async function handleSearch() {
         currentQuery = query;
         analyzedIntent = null;
         
-        const apiKey = getApiKey();
         const provider = getCurrentProvider();
         
         // 1️⃣ 立即执行本地搜索
@@ -246,13 +249,8 @@ async function handleSearch() {
         displayMore();
         
         // 3️⃣ 记录 AI 状态（首次点击“更多推荐”时才调用）
-        console.log(`🔑 API Key 检查 - 提供商: ${provider}, Key 存在: ${!!apiKey}, Key 前缀: ${apiKey ? apiKey.substring(0, 10) : '无'}`);
-        if (!apiKey || !apiKey.trim()) {
-            console.log('⏭️  跳过 AI 搜索（未配置 API Key）');
-            aiSearchComplete = true;
-        } else {
-            console.log('🤖 AI 将在用户点击“更多推荐”后再触发');
-        }
+        console.log(`🔑 AI 代理检查 - 提供商: ${provider}`);
+        console.log('🤖 AI 将在用户点击“更多推荐”后通过本地代理触发');
         
         updateLoadMoreButton();
         
@@ -285,20 +283,13 @@ async function loadNextAIBatch() {
         return;
     }
     
-    const apiKey = getApiKey();
-    if (!apiKey || !apiKey.trim()) {
-        console.log('❌ 未检测到 API Key，无法进行 AI 搜索');
-        aiSearchComplete = true;
-        return;
-    }
-    
     isFetchingAI = true;
     updateLoadMoreButton();
     
     try {
         if (!analyzedIntent) {
             console.log('🔍 开始分析用户意图...');
-            analyzedIntent = await analyzeIntent(currentQuery, apiKey);
+            analyzedIntent = await analyzeIntent(currentQuery);
             console.log('✅ 意图分析完成');
         }
         
@@ -308,7 +299,6 @@ async function loadNextAIBatch() {
             analyzedIntent,
             currentQuery,
             existingResults,
-            apiKey,
             AI_BATCH_LIMIT
         );
         const rawCount = Array.isArray(recommendations) ? recommendations.length : 0;
@@ -340,6 +330,11 @@ async function loadNextAIBatch() {
     } catch (error) {
         console.error('❌ AI 推荐加载失败:', error);
         aiSearchComplete = true;
+        if (currentDisplayedCount <= localResults.length) {
+            results.classList.remove('hidden');
+            resultsCount.textContent = `${localResults.length} 个本地结果`;
+        }
+        alert(`AI 推荐加载失败：${error.message || '请检查本地服务和控制台日志'}`);
     } finally {
         isFetchingAI = false;
         updateLoadMoreButton();
@@ -449,22 +444,12 @@ function isHttpUrl(url) {
 
 // 智能搜索主函数
 async function intelligentSearch(query) {
-    const apiKey = getApiKey();
-    
-    // 如果没有API Key，只搜索本地
-    if (!apiKey) {
-        console.log('❌ 无API Key，仅搜索本地数据库');
-        const localResults = searchLocalDatabase(query);
-        console.log('✓ 本地搜索结果:', localResults.length, '个');
-        return localResults;
-    }
-    
     try {
         console.log('🔍 智能搜索开始，查询词:', query);
         
         // 1. 调用AI理解用户意图
         console.log('1️⃣ 分析用户意图...');
-        const intent = await analyzeIntent(query, apiKey);
+    const intent = await analyzeIntent(query);
         console.log('✅ AI理解的意图:', intent);
         
         // 2. 根据意图匹配本地数据库
@@ -474,7 +459,7 @@ async function intelligentSearch(query) {
         
         // 3. 总是调用AI推荐，补充更多相关网站
         console.log('3️⃣ 获取AI推荐...');
-        const aiRecommendations = await getAIRecommendations(intent, query, localResults, apiKey);
+    const aiRecommendations = await getAIRecommendations(intent, query, localResults);
         console.log('✅ AI推荐结果:', aiRecommendations.length, '个');
         
         // 4. 合并结果：本地优先，然后AI推荐
@@ -510,7 +495,7 @@ function searchLocalDatabase(query) {
 }
 
 // AI理解用户意图
-async function analyzeIntent(query, apiKey) {
+async function analyzeIntent(query) {
     try {
         const apiConfig = getAPIConfig();
         console.log(`📡 调用 ${apiConfig.provider.toUpperCase()} API 分析意图...`);
@@ -520,32 +505,29 @@ async function analyzeIntent(query, apiKey) {
         const response = await fetch(apiConfig.apiUrl, {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${apiKey}`
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify({
+                task: 'analyze-intent',
                 model: apiConfig.model,
-                messages: [{
-                    role: "system",
-                    content: systemPrompt
-                }, {
-                    role: "user",
-                    content: `分析用户搜索意图："${query}"，返回JSON格式`
-                }],
-                temperature: 0.3,
-                max_tokens: 500
+                query,
+                systemPrompt
             })
         });
         
         console.log(`✅ Fetch 已完成加载：${apiConfig.provider.toUpperCase()} API`);
         
         if (!response.ok) {
-            throw new Error(`API 状态错误: ${response.status}`);
+            const errorText = await response.text();
+            throw new Error(`API 状态错误: ${response.status} ${errorText}`.trim());
         }
         
         const data = await response.json();
-        const content = data.choices[0].message.content;
+        const content = data.content || '';
         const jsonStr = content.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+        if (!jsonStr) {
+            throw new Error('意图分析响应为空');
+        }
         const intent = JSON.parse(jsonStr);
         
         console.log('✅ 意图分析成功:', intent);
@@ -612,7 +594,7 @@ function matchLocalDatabase(intent, originalQuery) {
 }
 
 // AI推荐补充网站
-async function getAIRecommendations(intent, query, existingResults, apiKey, limit = AI_BATCH_LIMIT) {
+async function getAIRecommendations(intent, query, existingResults, limit = AI_BATCH_LIMIT) {
     const names = (existingResults || []).map(r => r && r.name).filter(Boolean);
     const urls = (existingResults || []).map(r => r && r.url).filter(Boolean);
     const existingNames = names.join('、');
@@ -644,18 +626,17 @@ async function getAIRecommendations(intent, query, existingResults, apiKey, limi
     const response = await fetch(apiConfig.apiUrl, {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${apiKey}`
+            'Content-Type': 'application/json'
         },
         body: JSON.stringify({
             model: apiConfig.model,
-            messages: [{
-                role: "system",
-                content: systemPrompt
-            }, {
-                role: "user",
-                content: userPrompt
-            }],
+            task: 'recommend-sites',
+            query,
+            limit,
+            intent,
+            existingResults,
+            systemPrompt,
+            userPrompt,
             temperature: isBrandSearch ? 0.4 : 0.6,
             top_p: 0.9
         })
@@ -664,7 +645,8 @@ async function getAIRecommendations(intent, query, existingResults, apiKey, limi
     console.log('🔄 AI 推荐 API 响应状态:', response.status);
     
     if (!response.ok) {
-        throw new Error(`AI推荐 API 状态错误: ${response.status} ${response.statusText}`);
+        const errorText = await response.text();
+        throw new Error(`AI推荐 API 状态错误: ${response.status} ${response.statusText} ${errorText}`.trim());
     }
     
     let data;
@@ -683,12 +665,12 @@ async function getAIRecommendations(intent, query, existingResults, apiKey, limi
         messageKeys: data.choices?.[0]?.message ? Object.keys(data.choices[0].message) : 'N/A'
     });
     
-    if (!data.choices || !data.choices[0] || !data.choices[0].message) {
+    if (!data.content) {
         console.error('❌ API 响应格式错误，完整响应:', JSON.stringify(data).substring(0, 500));
-        throw new Error('AI 推荐响应格式错误：缺少必需字段');
+        throw new Error('AI 推荐响应格式错误：缺少 content 字段');
     }
     
-    const content = data.choices[0].message.content;
+    const content = data.content;
     console.log('📝 AI 推荐原始响应长度:', content.length);
     console.log('📝 AI 推荐原始响应内容:', content.substring(0, 500));
     
@@ -980,11 +962,10 @@ function displayMore() {
 // 更新"更多推荐"按钮状态
 function updateLoadMoreButton() {
     const remainingBuffered = allSearchResults.length - currentDisplayedCount;
-    const apiKey = getApiKey();
     const canShowBuffered = remainingBuffered > 0;
-    const providerLabel = getCurrentProvider() === 'deepseek' ? 'DeepSeek' : 'AI';
+    const providerLabel = 'Qwen';
     const localRemaining = Math.max(localResults.length - currentDisplayedCount, 0);
-    const canTriggerAI = apiKey && apiKey.trim() && !aiSearchComplete && currentDisplayedCount >= localResults.length;
+    const canTriggerAI = !aiSearchComplete && currentDisplayedCount >= localResults.length;
     
     console.log('📍 按钮状态检查:', {
         currentDisplayed: currentDisplayedCount,
@@ -1006,7 +987,7 @@ function updateLoadMoreButton() {
     if (isFetchingAI) {
         loadMoreContainer.classList.remove('hidden');
         loadMoreBtn.disabled = true;
-        loadMoreText.textContent = `${providerLabel} 搜索中...`;
+        loadMoreText.textContent = 'AI 搜索中...';
         return;
     }
     

@@ -1,0 +1,11 @@
+{
+  "name": "aidaohang",
+  "version": "1.0.0",
+  "private": true,
+  "description": "爱搜导航站，接入阿里云 DashScope qwen3.5-plus，部署到 Vercel",
+  "scripts": {
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check app.js && node --check config.js"
+  },
+  "dependencies": {}
+}

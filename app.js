@@ -22,7 +22,7 @@ let aiResults = [];           // AI搜索结果
 let aiSearchComplete = false; // AI搜索是否完成
 let isFetchingAI = false;     // 是否正在拉取AI结果
 let currentQuery = '';
-const AI_BATCH_LIMIT = 3;     // 每次AI仅返回最多3条
+const AI_BATCH_LIMIT = 6;     // 每次AI仅返回最多6条
 
 // 分类颜色映射缓存
 const categoryColorCache = new Map();

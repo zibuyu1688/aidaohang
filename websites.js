@@ -22,6 +22,328 @@ const websitesDatabase = [
         "tags": ["教育","资讯","高考","考研"]
     },
     {
+        "name": "Minea",
+        "description": "跨平台广告监控工具，覆盖 TikTok、Facebook 和 Pinterest 选品情报。",
+        "url": "https://www.minea.com",
+        "category": "跨境电商工具",
+        "tags": ["选品","广告监控","TikTok","Facebook","跨境电商"]
+    },
+    {
+        "name": "BigSpy",
+        "description": "大型广告素材数据库，支持多平台爆款广告与创意追踪。",
+        "url": "https://bigspy.com",
+        "category": "跨境电商工具",
+        "tags": ["选品","广告监控","社媒营销","跨境电商","创意"]
+    },
+    {
+        "name": "TikTok Creative Center",
+        "description": "TikTok 官方创意中心，可查看热门广告、趋势话题和创意素材。",
+        "url": "https://ads.tiktok.com/business/creativecenter",
+        "category": "跨境电商工具",
+        "tags": ["TikTok","广告创意","选品","趋势","官方工具"]
+    },
+    {
+        "name": "AdSpy",
+        "description": "老牌 Facebook 广告查询工具，用于挖掘高转化广告和爆品。",
+        "url": "https://adspy.com",
+        "category": "跨境电商工具",
+        "tags": ["Facebook","广告监控","选品","跨境电商","爆款"]
+    },
+    {
+        "name": "Dropispy",
+        "description": "聚焦 Facebook dropshipping 爆款广告的监控与选品工具。",
+        "url": "https://dropispy.com",
+        "category": "跨境电商工具",
+        "tags": ["Facebook","广告监控","Dropshipping","选品","爆款"]
+    },
+    {
+        "name": "WinningHunter",
+        "description": "实时追踪 TikTok 和 Facebook 广告，帮助发现跨境爆款商品。",
+        "url": "https://winninghunter.com",
+        "category": "跨境电商工具",
+        "tags": ["广告监控","TikTok","Facebook","选品","跨境电商"]
+    },
+    {
+        "name": "PowerAdSpy",
+        "description": "多平台社交媒体广告情报工具，可跟踪创意、受众和竞品投放。",
+        "url": "https://poweradspy.com",
+        "category": "跨境电商工具",
+        "tags": ["广告监控","社交媒体","选品","跨境电商","竞品"]
+    },
+    {
+        "name": "Pinterest Trends",
+        "description": "Pinterest 官方趋势工具，适合发现视觉趋势和热门搜索。",
+        "url": "https://trends.pinterest.com",
+        "category": "跨境电商工具",
+        "tags": ["Pinterest","趋势","选品","视觉创意","关键词"]
+    },
+    {
+        "name": "Commerce Inspector",
+        "description": "追踪 Shopify 店铺动态、热销品与上新情况的竞品情报工具。",
+        "url": "https://www.commerceinspector.com",
+        "category": "跨境电商工具",
+        "tags": ["Shopify","竞品分析","店铺监控","选品","跨境电商"]
+    },
+    {
+        "name": "Koala Inspector",
+        "description": "Shopify 店铺分析插件，可查看主题、应用和热销产品。",
+        "url": "https://koala-apps.io/koala-inspector/",
+        "category": "跨境电商工具",
+        "tags": ["Shopify","竞品分析","插件","选品","店铺分析"]
+    },
+    {
+        "name": "BuiltWith",
+        "description": "分析网站技术栈与建站工具，辅助判断竞品独立站实力。",
+        "url": "https://builtwith.com",
+        "category": "跨境电商工具",
+        "tags": ["建站分析","技术栈","竞品分析","独立站","选品"]
+    },
+    {
+        "name": "XPareto",
+        "description": "Shopify 店铺数据库与热销产品分析工具。",
+        "url": "https://xpareto.com",
+        "category": "跨境电商工具",
+        "tags": ["Shopify","店铺数据","热销品","竞品分析","选品"]
+    },
+    {
+        "name": "Sell The Trend",
+        "description": "AI 驱动的 dropshipping 选品平台，整合趋势、店铺和广告情报。",
+        "url": "https://www.sellthetrend.com",
+        "category": "跨境电商工具",
+        "tags": ["AI选品","Dropshipping","趋势分析","跨境电商","爆款"]
+    },
+    {
+        "name": "Niche Scraper",
+        "description": "抓取 Shopify 和 AliExpress 热门产品，帮助发现细分爆款市场。",
+        "url": "https://nichescraper.com",
+        "category": "跨境电商工具",
+        "tags": ["Shopify","AliExpress","选品","细分市场","跨境电商"]
+    },
+    {
+        "name": "Ecomhunt",
+        "description": "每日更新潜力产品与广告案例的选品平台。",
+        "url": "https://ecomhunt.com",
+        "category": "跨境电商工具",
+        "tags": ["选品","爆款","广告案例","Dropshipping","跨境电商"]
+    },
+    {
+        "name": "Dropship.io",
+        "description": "跟踪 Shopify 销量变化并挖掘潜力爆品的 dropshipping 工具。",
+        "url": "https://dropship.io",
+        "category": "跨境电商工具",
+        "tags": ["Shopify","Dropshipping","销量跟踪","选品","跨境电商"]
+    },
+    {
+        "name": "Pexda",
+        "description": "提供产品利润率、受众建议和广告思路的选品平台。",
+        "url": "https://pexda.com",
+        "category": "跨境电商工具",
+        "tags": ["选品","利润分析","广告策略","Dropshipping","跨境电商"]
+    },
+    {
+        "name": "Thieve",
+        "description": "设计感强的 AliExpress 精选产品策展站，适合发现有潜力的独立站商品。",
+        "url": "https://thieve.co",
+        "category": "跨境电商工具",
+        "tags": ["AliExpress","选品","独立站","策展","跨境电商"]
+    },
+    {
+        "name": "FindNiche",
+        "description": "重点分析 AliExpress 和 Shopify 产品数据的大数据选品工具。",
+        "url": "https://findniche.com",
+        "category": "跨境电商工具",
+        "tags": ["AliExpress","Shopify","大数据","选品","跨境电商"]
+    },
+    {
+        "name": "Peeksta",
+        "description": "结合产品趋势、广告素材和视频生成的独立站选品工具。",
+        "url": "https://peeksta.com",
+        "category": "跨境电商工具",
+        "tags": ["独立站","选品","广告创意","视频生成","跨境电商"]
+    },
+    {
+        "name": "Exploding Topics",
+        "description": "发现处于爆发前夕的新趋势关键词和新兴市场方向。",
+        "url": "https://explodingtopics.com",
+        "category": "跨境电商工具",
+        "tags": ["趋势分析","关键词","新兴市场","选品","增长"]
+    },
+    {
+        "name": "Trend Hunter",
+        "description": "全球趋势社区，适合发现新品类方向和创意趋势。",
+        "url": "https://www.trendhunter.com",
+        "category": "跨境电商工具",
+        "tags": ["趋势分析","创意","新品类","选品","社区"]
+    },
+    {
+        "name": "DSers",
+        "description": "Shopify 官方推荐的 AliExpress 代发货与订单管理工具。",
+        "url": "https://www.dsers.com",
+        "category": "跨境电商工具",
+        "tags": ["Shopify","AliExpress","代发货","订单管理","跨境电商"]
+    },
+    {
+        "name": "Spocket",
+        "description": "专注欧美本土供应商的 dropshipping 选品与发货平台。",
+        "url": "https://www.spocket.co",
+        "category": "跨境电商工具",
+        "tags": ["供应链","欧美供应商","Dropshipping","选品","跨境电商"]
+    },
+    {
+        "name": "Zendrop",
+        "description": "高时效代发货平台，提供选品、履约与自动化支持。",
+        "url": "https://www.zendrop.com",
+        "category": "跨境电商工具",
+        "tags": ["代发货","供应链","自动化","选品","跨境电商"]
+    },
+    {
+        "name": "SaleHoo",
+        "description": "精选批发商和供应商目录，适合筛选可靠货源。",
+        "url": "https://www.salehoo.com",
+        "category": "跨境电商工具",
+        "tags": ["供应商","批发","货源","选品","跨境电商"]
+    },
+    {
+        "name": "Syncee",
+        "description": "全球 B2B 选品与商品同步平台，适合独立站供应链管理。",
+        "url": "https://syncee.co",
+        "category": "跨境电商工具",
+        "tags": ["B2B","供应链","商品同步","独立站","跨境电商"]
+    },
+    {
+        "name": "Printful",
+        "description": "POD 按需打印平台，可用于设计类产品选品和履约。",
+        "url": "https://www.printful.com",
+        "category": "跨境电商工具",
+        "tags": ["POD","按需打印","供应链","独立站","跨境电商"]
+    },
+    {
+        "name": "Printify",
+        "description": "聚合多家 POD 供应商的按需打印平台。",
+        "url": "https://printify.com",
+        "category": "跨境电商工具",
+        "tags": ["POD","按需打印","供应链","设计产品","跨境电商"]
+    },
+    {
+        "name": "CamelCamelCamel",
+        "description": "亚马逊价格追踪工具，用于判断产品价格波动和竞争程度。",
+        "url": "https://camelcamelcamel.com",
+        "category": "跨境电商工具",
+        "tags": ["亚马逊","价格追踪","选品","市场分析","Amazon"]
+    },
+    {
+        "name": "AnswerThePublic",
+        "description": "通过用户搜索问题挖掘需求和产品痛点。",
+        "url": "https://answerthepublic.com",
+        "category": "跨境电商工具",
+        "tags": ["关键词","需求分析","用户痛点","选品","SEO"]
+    },
+    {
+        "name": "Marketplace Pulse",
+        "description": "专注电商平台生态、卖家趋势和市场研究的行业情报站。",
+        "url": "https://www.marketplacepulse.com",
+        "category": "跨境电商工具",
+        "tags": ["市场研究","电商趋势","平台生态","行业分析","跨境电商"]
+    },
+    {
+        "name": "Google Keyword Planner",
+        "description": "Google 官方关键词规划工具，可评估关键词热度和商业价值。",
+        "url": "https://ads.google.com/home/tools/keyword-planner/",
+        "category": "跨境电商工具",
+        "tags": ["Google Ads","关键词","流量分析","SEO","选品"]
+    },
+    {
+        "name": "Long Tail Pro",
+        "description": "适合长尾关键词挖掘和竞争难度评估的 SEO 工具。",
+        "url": "https://longtailpro.com",
+        "category": "跨境电商工具",
+        "tags": ["长尾关键词","SEO","竞争分析","流量","选品"]
+    },
+    {
+        "name": "Soovle",
+        "description": "聚合多个搜索引擎联想词，适合快速寻找用户需求方向。",
+        "url": "https://soovle.com",
+        "category": "跨境电商工具",
+        "tags": ["关键词","联想词","需求挖掘","SEO","选品"]
+    },
+    {
+        "name": "KWFinder",
+        "description": "界面友好的关键词工具，适合分析搜索量和竞争难度。",
+        "url": "https://kwfinder.com",
+        "category": "跨境电商工具",
+        "tags": ["关键词","SEO","竞争难度","搜索量","选品"]
+    },
+    {
+        "name": "Surfer SEO",
+        "description": "分析热门页面结构与内容策略，帮助判断内容型选品机会。",
+        "url": "https://surferseo.com",
+        "category": "跨境电商工具",
+        "tags": ["SEO","内容分析","关键词","流量","选品"]
+    },
+    {
+        "name": "Mangools",
+        "description": "SEO 全能工具包，包含关键词研究和竞争分析能力。",
+        "url": "https://mangools.com",
+        "category": "跨境电商工具",
+        "tags": ["SEO","关键词","竞争分析","工具包","选品"]
+    },
+    {
+        "name": "Keyword Surfer",
+        "description": "浏览器插件，可直接在搜索结果页查看关键词搜索量。",
+        "url": "https://surferseo.com/keyword-surfer-extension/",
+        "category": "跨境电商工具",
+        "tags": ["浏览器插件","关键词","SEO","搜索量","选品"]
+    },
+    {
+        "name": "BeProfit",
+        "description": "电商利润监控工具，帮助评估产品和店铺真实盈利能力。",
+        "url": "https://www.beprofit.co",
+        "category": "跨境电商工具",
+        "tags": ["利润分析","成本核算","Shopify","运营","跨境电商"]
+    },
+    {
+        "name": "TrueProfit",
+        "description": "利润追踪与成本分析平台，可用于判断产品是否真正赚钱。",
+        "url": "https://trueprofit.io",
+        "category": "跨境电商工具",
+        "tags": ["利润分析","成本分析","店铺经营","运营","跨境电商"]
+    },
+    {
+        "name": "ZonGuru",
+        "description": "亚马逊卖家工具，支持利基市场分析和利润预测。",
+        "url": "https://www.zonguru.com",
+        "category": "亚马逊卖家工具",
+        "tags": ["亚马逊","利基分析","利润预测","选品","Amazon"]
+    },
+    {
+        "name": "Shopify Business Name Generator",
+        "description": "Shopify 官方店铺命名工具，适合为新产品方向快速命名。",
+        "url": "https://www.shopify.com/tools/business-name-generator",
+        "category": "跨境电商工具",
+        "tags": ["Shopify","命名工具","品牌","独立站","辅助工具"]
+    },
+    {
+        "name": "SourceLow",
+        "description": "免费的 dropshipping 供应商搜索工具库。",
+        "url": "https://www.sourcelow.com",
+        "category": "跨境电商工具",
+        "tags": ["供应商","Dropshipping","货源","选品","跨境电商"]
+    },
+    {
+        "name": "Importify",
+        "description": "支持从其他独立站和平台导入商品到店铺的工具。",
+        "url": "https://www.importify.com",
+        "category": "跨境电商工具",
+        "tags": ["商品采集","独立站","Shopify","导入工具","跨境电商"]
+    },
+    {
+        "name": "AutoDS",
+        "description": "全自动 dropshipping 管理工具，支持库存与价格监控。",
+        "url": "https://www.autods.com",
+        "category": "跨境电商工具",
+        "tags": ["自动化","库存监控","价格监控","Dropshipping","跨境电商"]
+    },
+    {
         "name": "菜鸟教程",
         "description": "提供各类编程语言、前端后端开发等在线教程，适合初学者和进阶者。",
         "url": "https://www.runoob.com",

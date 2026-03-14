@@ -11,6 +11,7 @@ const hotList = document.getElementById('hotList');
 const loadMoreContainer = document.getElementById('loadMoreContainer');
 const loadMoreBtn = document.getElementById('loadMoreBtn');
 const loadMoreText = document.getElementById('loadMoreText');
+let resultsHintTimer = null;
 
 // 全局状态
 let allSearchResults = [];
@@ -743,6 +744,28 @@ async function handleLoadMore() {
     }
 }
 
+function showResultsHint(message, duration = 2600) {
+    let hint = document.getElementById('resultsHint');
+
+    if (!hint) {
+        hint = document.createElement('div');
+        hint.id = 'resultsHint';
+        hint.className = 'results-hint';
+        results.insertBefore(hint, resultsList);
+    }
+
+    hint.textContent = message;
+    hint.classList.add('visible');
+
+    if (resultsHintTimer) {
+        clearTimeout(resultsHintTimer);
+    }
+
+    resultsHintTimer = setTimeout(() => {
+        hint.classList.remove('visible');
+    }, duration);
+}
+
 // 执行显示更多逻辑
 function displayMore() {
     // 防御性检查
@@ -753,9 +776,10 @@ function displayMore() {
     
     // 如果本地结果为空，显示加载提示
     if (allSearchResults.length === 0) {
-        console.log('⏳ 本地无结果，等待 AI 搜索...');
-        resultsCount.textContent = '正在搜索中...';
-        resultsList.innerHTML = '<p style="text-align:center;color:#999;padding:40px;">🔍 正在为您搜索中，请稍候...</p>';
+        console.log('⏳ 当前无结果，提示用户点击 AI 推荐...');
+        resultsCount.textContent = '暂无结果';
+        resultsList.innerHTML = '';
+        showResultsHint('暂无匹配结果，可点击下方“更多推荐（AI推荐）”获取网站建议');
         updateLoadMoreButton();
         return;
     }

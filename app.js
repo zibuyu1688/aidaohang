@@ -448,6 +448,54 @@ function buildKeywordList(query, intent) {
     return Array.from(keywordSet).filter(Boolean);
 }
 
+function normalizeSearchText(value) {
+    return String(value || '').trim().toLowerCase();
+}
+
+function getSiteSearchFields(site) {
+    return {
+        name: normalizeSearchText(site?.name),
+        description: normalizeSearchText(site?.description),
+        category: normalizeSearchText(site?.category),
+        subtype: normalizeSearchText(site?.subtype),
+        tags: Array.isArray(site?.tags) ? site.tags.map(tag => normalizeSearchText(tag)).filter(Boolean) : []
+    };
+}
+
+function calculateSiteSearchScore(site, keywords, exactQuery, options = {}) {
+    const { isBrandSearch = false, intentCategory = '' } = options;
+    const fields = getSiteSearchFields(site);
+    let score = 0;
+
+    if (intentCategory && fields.category === normalizeSearchText(intentCategory)) {
+        score += 12;
+    }
+
+    const applyKeywordScore = (keyword, multiplier = 1) => {
+        if (!keyword) {
+            return;
+        }
+
+        if (fields.tags.some(tag => tag.includes(keyword))) score += 12 * multiplier;
+        if (fields.subtype.includes(keyword)) score += 10 * multiplier;
+        if (fields.name.includes(keyword)) score += 8 * multiplier;
+        if (fields.category.includes(keyword)) score += 5 * multiplier;
+        if (fields.description.includes(keyword)) score += 2 * multiplier;
+    };
+
+    if (isBrandSearch) {
+        applyKeywordScore(exactQuery, 3);
+    }
+
+    keywords.forEach(keyword => applyKeywordScore(keyword, 1));
+
+    if (exactQuery) {
+        applyKeywordScore(exactQuery, 1.5);
+    }
+
+    return score;
+}
+
 function isHttpUrl(url) {
     return /^https?:\/\//i.test(url || '');
 }
@@ -497,55 +545,40 @@ async function intelligentSearch(query) {
 
 // 本地数据库简单搜索（无AI时使用）
 function searchLocalDatabase(query) {
-    const lowerQuery = query.toLowerCase();
-    
-    return websitesDatabase.filter(site => {
-        return site.name.toLowerCase().includes(lowerQuery) ||
-               site.description.toLowerCase().includes(lowerQuery) ||
-               site.category.toLowerCase().includes(lowerQuery) ||
-               site.tags.some(tag => tag.toLowerCase().includes(lowerQuery));
-    }).map(r => ({...r, source: 'local'}));
+    const lowerQuery = normalizeSearchText(query);
+    const keywords = buildKeywordList(query, { keywords: [query] });
+
+    return websitesDatabase
+        .map(site => {
+            const score = calculateSiteSearchScore(site, keywords, lowerQuery, {
+                isBrandSearch: false,
+                intentCategory: ''
+            });
+
+            return score > 0 ? { ...site, score, source: 'local' } : null;
+        })
+        .filter(Boolean)
+        .sort((a, b) => b.score - a.score);
 }
 
 // 根据意图匹配本地数据库
 function matchLocalDatabase(intent, originalQuery) {
-    const results = new Set();
-    const lowerQuery = originalQuery.toLowerCase();
+    const results = [];
+    const lowerQuery = normalizeSearchText(originalQuery);
     const isBrandSearch = intent.isBrandSearch === true;
+    const keywords = Array.isArray(intent?.keywords) && intent.keywords.length > 0
+        ? buildKeywordList(originalQuery, intent)
+        : buildKeywordList(originalQuery, { keywords: [originalQuery] });
     
     websitesDatabase.forEach(site => {
-        let score = 0;
-        
-        // 1. 完全匹配分类（高权重）
-        if (site.category === intent.category) {
-            score += 10;
-        }
-        
-        // 2. 品牌名搜索 - 增强权重
-        if (isBrandSearch) {
-            // 品牌名精确匹配获得极高权重
-            if (site.name.toLowerCase().includes(lowerQuery)) score += 50;
-            if (site.tags.some(tag => tag.toLowerCase().includes(lowerQuery))) score += 30;
-            if (site.description.toLowerCase().includes(lowerQuery)) score += 20;
-        } else {
-            // 3. 关键词匹配（非品牌搜索）
-            intent.keywords.forEach(keyword => {
-                const lowerKeyword = keyword.toLowerCase();
-                
-                if (site.name.toLowerCase().includes(lowerKeyword)) score += 5;
-                if (site.description.toLowerCase().includes(lowerKeyword)) score += 3;
-                if (site.tags.some(tag => tag.toLowerCase().includes(lowerKeyword))) score += 4;
-            });
-            
-            // 4. 原始查询匹配
-            if (site.name.toLowerCase().includes(lowerQuery)) score += 6;
-            if (site.description.toLowerCase().includes(lowerQuery)) score += 2;
-            if (site.tags.some(tag => tag.toLowerCase().includes(lowerQuery))) score += 3;
-        }
+        const score = calculateSiteSearchScore(site, keywords, lowerQuery, {
+            isBrandSearch,
+            intentCategory: intent?.category || ''
+        });
         
         // 添加到结果集
         if (score > 0) {
-            results.add({...site, score});
+            results.push({...site, score});
         }
     });
     
@@ -882,16 +915,24 @@ function createResultElement(site) {
     
     const isAI = site.source === 'ai';
     const tagText = isAI ? 'AI推荐' : site.category;
+    const subtypeText = !isAI && site.subtype ? site.subtype : '';
     
     // 获取分类颜色
     const colorScheme = getCategoryColor(tagText);
     
     // 创建标签样式
     const tagStyle = `background: ${colorScheme.bg}; color: ${colorScheme.text};`;
+    const subtypeStyle = 'background: rgba(102, 126, 234, 0.12); color: #4c51bf;';
+    const subtypeHtml = subtypeText
+        ? `<span class="tag subtype-tag" style="${subtypeStyle}">${subtypeText}</span>`
+        : '';
     
     div.innerHTML = `
+        <div class="result-header">
         <span class="tag category-tag" style="${tagStyle}">${tagText}</span>
+        ${subtypeHtml}
         <h3>${site.name}</h3>
+        </div>
         <div class="url">${site.url}</div>
         <p>${site.description}</p>
     `;

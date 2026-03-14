@@ -5,343 +5,456 @@ const websitesDatabase = [
         "description": "专业提供考试资讯、真题题库、作文范文、求职招聘、留学移民等最新学习资源",
         "url": "https://www.51test.net",
         "category": "学习",
-        "tags": ["考试","题库","学习","资源"]
+        "subtype": "考试学习",
+        "tags": ["考试","题库","学习资源","备考","教育"]
     },
     {
         "name": "中公教育",
         "description": "中公教育为各类考试提供培训、资讯、题库等全方位服务。",
         "url": "http://www.offcn.com",
         "category": "学习",
-        "tags": ["考试","培训","教育"]
+        "subtype": "考试学习",
+        "tags": ["考试培训","备考","题库","教育","公考"]
     },
     {
         "name": "中国教育在线",
         "description": "中国教育在线，权威教育资讯与服务平台，涵盖高考、考研、留学等。",
         "url": "https://www.eol.cn",
         "category": "学习",
-        "tags": ["教育","资讯","高考","考研"]
+        "subtype": "教育资讯",
+        "tags": ["教育资讯","高考","考研","留学","学习"]
     },
     {
         "name": "Minea",
         "description": "跨平台广告监控工具，覆盖 TikTok、Facebook 和 Pinterest 选品情报。",
         "url": "https://www.minea.com",
         "category": "跨境电商工具",
-        "tags": ["选品","广告监控","TikTok","Facebook","跨境电商"]
+        "subtype": "广告情报",
+        "tags": ["选品","广告情报","TikTok","Facebook","Pinterest"]
     },
     {
         "name": "BigSpy",
         "description": "大型广告素材数据库，支持多平台爆款广告与创意追踪。",
         "url": "https://bigspy.com",
         "category": "跨境电商工具",
-        "tags": ["选品","广告监控","社媒营销","跨境电商","创意"]
+        "subtype": "广告情报",
+        "tags": ["选品","广告情报","社媒营销","创意素材","多平台"]
     },
     {
         "name": "TikTok Creative Center",
         "description": "TikTok 官方创意中心，可查看热门广告、趋势话题和创意素材。",
         "url": "https://ads.tiktok.com/business/creativecenter",
         "category": "跨境电商工具",
-        "tags": ["TikTok","广告创意","选品","趋势","官方工具"]
+        "subtype": "趋势洞察",
+        "tags": ["TikTok","广告创意","趋势洞察","官方工具","短视频"]
     },
     {
         "name": "AdSpy",
         "description": "老牌 Facebook 广告查询工具，用于挖掘高转化广告和爆品。",
         "url": "https://adspy.com",
         "category": "跨境电商工具",
-        "tags": ["Facebook","广告监控","选品","跨境电商","爆款"]
+        "subtype": "广告情报",
+        "tags": ["Facebook","广告情报","选品","爆款挖掘","素材分析"]
     },
     {
         "name": "Dropispy",
         "description": "聚焦 Facebook dropshipping 爆款广告的监控与选品工具。",
         "url": "https://dropispy.com",
         "category": "跨境电商工具",
-        "tags": ["Facebook","广告监控","Dropshipping","选品","爆款"]
+        "subtype": "广告情报",
+        "tags": ["Facebook","广告情报","Dropshipping","选品","爆款挖掘"]
     },
     {
         "name": "WinningHunter",
         "description": "实时追踪 TikTok 和 Facebook 广告，帮助发现跨境爆款商品。",
         "url": "https://winninghunter.com",
         "category": "跨境电商工具",
-        "tags": ["广告监控","TikTok","Facebook","选品","跨境电商"]
+        "subtype": "广告情报",
+        "tags": ["广告情报","TikTok","Facebook","选品","爆款挖掘"]
     },
     {
         "name": "PowerAdSpy",
         "description": "多平台社交媒体广告情报工具，可跟踪创意、受众和竞品投放。",
         "url": "https://poweradspy.com",
         "category": "跨境电商工具",
-        "tags": ["广告监控","社交媒体","选品","跨境电商","竞品"]
+        "subtype": "广告情报",
+        "tags": ["广告情报","社交媒体","竞品分析","受众洞察","创意素材"]
     },
     {
         "name": "Pinterest Trends",
         "description": "Pinterest 官方趋势工具，适合发现视觉趋势和热门搜索。",
         "url": "https://trends.pinterest.com",
         "category": "跨境电商工具",
-        "tags": ["Pinterest","趋势","选品","视觉创意","关键词"]
+        "subtype": "趋势洞察",
+        "tags": ["Pinterest","趋势洞察","视觉创意","关键词","官方工具"]
     },
     {
         "name": "Commerce Inspector",
         "description": "追踪 Shopify 店铺动态、热销品与上新情况的竞品情报工具。",
         "url": "https://www.commerceinspector.com",
         "category": "跨境电商工具",
-        "tags": ["Shopify","竞品分析","店铺监控","选品","跨境电商"]
+        "subtype": "竞品分析",
+        "tags": ["Shopify","竞品分析","店铺监控","热销商品","独立站"]
     },
     {
         "name": "Koala Inspector",
         "description": "Shopify 店铺分析插件，可查看主题、应用和热销产品。",
         "url": "https://koala-apps.io/koala-inspector/",
         "category": "跨境电商工具",
-        "tags": ["Shopify","竞品分析","插件","选品","店铺分析"]
+        "subtype": "竞品分析",
+        "tags": ["Shopify","竞品分析","浏览器插件","店铺分析","独立站"]
     },
     {
         "name": "BuiltWith",
         "description": "分析网站技术栈与建站工具，辅助判断竞品独立站实力。",
         "url": "https://builtwith.com",
         "category": "跨境电商工具",
-        "tags": ["建站分析","技术栈","竞品分析","独立站","选品"]
+        "subtype": "竞品分析",
+        "tags": ["建站分析","技术栈","竞品分析","独立站","网站情报"]
     },
     {
         "name": "XPareto",
         "description": "Shopify 店铺数据库与热销产品分析工具。",
         "url": "https://xpareto.com",
         "category": "跨境电商工具",
-        "tags": ["Shopify","店铺数据","热销品","竞品分析","选品"]
+        "subtype": "竞品分析",
+        "tags": ["Shopify","店铺数据","热销商品","竞品分析","独立站"]
     },
     {
         "name": "Sell The Trend",
         "description": "AI 驱动的 dropshipping 选品平台，整合趋势、店铺和广告情报。",
         "url": "https://www.sellthetrend.com",
         "category": "跨境电商工具",
-        "tags": ["AI选品","Dropshipping","趋势分析","跨境电商","爆款"]
+        "subtype": "选品平台",
+        "tags": ["AI选品","Dropshipping","趋势洞察","广告情报","爆款挖掘"]
     },
     {
         "name": "Niche Scraper",
         "description": "抓取 Shopify 和 AliExpress 热门产品，帮助发现细分爆款市场。",
         "url": "https://nichescraper.com",
         "category": "跨境电商工具",
-        "tags": ["Shopify","AliExpress","选品","细分市场","跨境电商"]
+        "subtype": "选品平台",
+        "tags": ["Shopify","AliExpress","选品","细分市场","爆款挖掘"]
     },
     {
         "name": "Ecomhunt",
         "description": "每日更新潜力产品与广告案例的选品平台。",
         "url": "https://ecomhunt.com",
         "category": "跨境电商工具",
-        "tags": ["选品","爆款","广告案例","Dropshipping","跨境电商"]
+        "subtype": "选品平台",
+        "tags": ["选品","爆款挖掘","广告案例","Dropshipping","每日更新"]
     },
     {
         "name": "Dropship.io",
         "description": "跟踪 Shopify 销量变化并挖掘潜力爆品的 dropshipping 工具。",
         "url": "https://dropship.io",
         "category": "跨境电商工具",
-        "tags": ["Shopify","Dropshipping","销量跟踪","选品","跨境电商"]
+        "subtype": "选品平台",
+        "tags": ["Shopify","Dropshipping","销量跟踪","选品","独立站"]
     },
     {
         "name": "Pexda",
         "description": "提供产品利润率、受众建议和广告思路的选品平台。",
         "url": "https://pexda.com",
         "category": "跨境电商工具",
-        "tags": ["选品","利润分析","广告策略","Dropshipping","跨境电商"]
+        "subtype": "选品平台",
+        "tags": ["选品","利润分析","广告策略","Dropshipping","受众洞察"]
     },
     {
         "name": "Thieve",
         "description": "设计感强的 AliExpress 精选产品策展站，适合发现有潜力的独立站商品。",
         "url": "https://thieve.co",
         "category": "跨境电商工具",
-        "tags": ["AliExpress","选品","独立站","策展","跨境电商"]
+        "subtype": "选品平台",
+        "tags": ["AliExpress","选品","独立站","产品策展","设计灵感"]
     },
     {
         "name": "FindNiche",
         "description": "重点分析 AliExpress 和 Shopify 产品数据的大数据选品工具。",
         "url": "https://findniche.com",
         "category": "跨境电商工具",
-        "tags": ["AliExpress","Shopify","大数据","选品","跨境电商"]
+        "subtype": "选品平台",
+        "tags": ["AliExpress","Shopify","大数据","选品","数据分析"]
     },
     {
         "name": "Peeksta",
         "description": "结合产品趋势、广告素材和视频生成的独立站选品工具。",
         "url": "https://peeksta.com",
         "category": "跨境电商工具",
-        "tags": ["独立站","选品","广告创意","视频生成","跨境电商"]
+        "subtype": "选品平台",
+        "tags": ["独立站","选品","广告创意","视频素材","趋势洞察"]
     },
     {
         "name": "Exploding Topics",
         "description": "发现处于爆发前夕的新趋势关键词和新兴市场方向。",
         "url": "https://explodingtopics.com",
         "category": "跨境电商工具",
-        "tags": ["趋势分析","关键词","新兴市场","选品","增长"]
+        "subtype": "趋势洞察",
+        "tags": ["趋势洞察","关键词","新兴市场","选品","增长"]
     },
     {
         "name": "Trend Hunter",
         "description": "全球趋势社区，适合发现新品类方向和创意趋势。",
         "url": "https://www.trendhunter.com",
         "category": "跨境电商工具",
-        "tags": ["趋势分析","创意","新品类","选品","社区"]
+        "subtype": "趋势洞察",
+        "tags": ["趋势洞察","创意灵感","新品类","选品","社区"]
     },
     {
         "name": "DSers",
         "description": "Shopify 官方推荐的 AliExpress 代发货与订单管理工具。",
         "url": "https://www.dsers.com",
         "category": "跨境电商工具",
-        "tags": ["Shopify","AliExpress","代发货","订单管理","跨境电商"]
+        "subtype": "供应链",
+        "tags": ["Shopify","AliExpress","代发货","订单管理","供应链"]
     },
     {
         "name": "Spocket",
         "description": "专注欧美本土供应商的 dropshipping 选品与发货平台。",
         "url": "https://www.spocket.co",
         "category": "跨境电商工具",
-        "tags": ["供应链","欧美供应商","Dropshipping","选品","跨境电商"]
+        "subtype": "供应链",
+        "tags": ["供应链","欧美供应商","Dropshipping","选品","货源平台"]
     },
     {
         "name": "Zendrop",
         "description": "高时效代发货平台，提供选品、履约与自动化支持。",
         "url": "https://www.zendrop.com",
         "category": "跨境电商工具",
-        "tags": ["代发货","供应链","自动化","选品","跨境电商"]
+        "subtype": "供应链",
+        "tags": ["代发货","供应链","自动化","选品","履约"]
     },
     {
         "name": "SaleHoo",
         "description": "精选批发商和供应商目录，适合筛选可靠货源。",
         "url": "https://www.salehoo.com",
         "category": "跨境电商工具",
-        "tags": ["供应商","批发","货源","选品","跨境电商"]
+        "subtype": "供应链",
+        "tags": ["供应商","批发","货源","选品","目录平台"]
     },
     {
         "name": "Syncee",
         "description": "全球 B2B 选品与商品同步平台，适合独立站供应链管理。",
         "url": "https://syncee.co",
         "category": "跨境电商工具",
-        "tags": ["B2B","供应链","商品同步","独立站","跨境电商"]
+        "subtype": "供应链",
+        "tags": ["B2B","供应链","商品同步","独立站","货源平台"]
     },
     {
         "name": "Printful",
         "description": "POD 按需打印平台，可用于设计类产品选品和履约。",
         "url": "https://www.printful.com",
         "category": "跨境电商工具",
-        "tags": ["POD","按需打印","供应链","独立站","跨境电商"]
+        "subtype": "供应链",
+        "tags": ["POD","按需打印","供应链","独立站","定制商品"]
     },
     {
         "name": "Printify",
         "description": "聚合多家 POD 供应商的按需打印平台。",
         "url": "https://printify.com",
         "category": "跨境电商工具",
-        "tags": ["POD","按需打印","供应链","设计产品","跨境电商"]
+        "subtype": "供应链",
+        "tags": ["POD","按需打印","供应链","设计产品","定制商品"]
     },
     {
         "name": "CamelCamelCamel",
         "description": "亚马逊价格追踪工具，用于判断产品价格波动和竞争程度。",
         "url": "https://camelcamelcamel.com",
         "category": "跨境电商工具",
-        "tags": ["亚马逊","价格追踪","选品","市场分析","Amazon"]
+        "subtype": "市场调研",
+        "tags": ["亚马逊","价格追踪","选品","市场分析","价格监控"]
     },
     {
         "name": "AnswerThePublic",
         "description": "通过用户搜索问题挖掘需求和产品痛点。",
         "url": "https://answerthepublic.com",
         "category": "跨境电商工具",
-        "tags": ["关键词","需求分析","用户痛点","选品","SEO"]
+        "subtype": "关键词研究",
+        "tags": ["关键词研究","需求分析","用户痛点","选品","SEO"]
     },
     {
         "name": "Marketplace Pulse",
         "description": "专注电商平台生态、卖家趋势和市场研究的行业情报站。",
         "url": "https://www.marketplacepulse.com",
         "category": "跨境电商工具",
-        "tags": ["市场研究","电商趋势","平台生态","行业分析","跨境电商"]
+        "subtype": "市场调研",
+        "tags": ["市场研究","电商趋势","平台生态","行业分析","平台情报"]
     },
     {
         "name": "Google Keyword Planner",
         "description": "Google 官方关键词规划工具，可评估关键词热度和商业价值。",
         "url": "https://ads.google.com/home/tools/keyword-planner/",
         "category": "跨境电商工具",
-        "tags": ["Google Ads","关键词","流量分析","SEO","选品"]
+        "subtype": "关键词研究",
+        "tags": ["Google Ads","关键词研究","流量分析","SEO","选品"]
     },
     {
         "name": "Long Tail Pro",
         "description": "适合长尾关键词挖掘和竞争难度评估的 SEO 工具。",
         "url": "https://longtailpro.com",
         "category": "跨境电商工具",
-        "tags": ["长尾关键词","SEO","竞争分析","流量","选品"]
+        "subtype": "关键词研究",
+        "tags": ["长尾关键词","SEO","竞争分析","搜索流量","选品"]
     },
     {
         "name": "Soovle",
         "description": "聚合多个搜索引擎联想词，适合快速寻找用户需求方向。",
         "url": "https://soovle.com",
         "category": "跨境电商工具",
-        "tags": ["关键词","联想词","需求挖掘","SEO","选品"]
+        "subtype": "关键词研究",
+        "tags": ["关键词研究","联想词","需求挖掘","SEO","选品"]
     },
     {
         "name": "KWFinder",
         "description": "界面友好的关键词工具，适合分析搜索量和竞争难度。",
         "url": "https://kwfinder.com",
         "category": "跨境电商工具",
-        "tags": ["关键词","SEO","竞争难度","搜索量","选品"]
+        "subtype": "关键词研究",
+        "tags": ["关键词研究","SEO","竞争难度","搜索量","选品"]
     },
     {
         "name": "Surfer SEO",
         "description": "分析热门页面结构与内容策略，帮助判断内容型选品机会。",
         "url": "https://surferseo.com",
         "category": "跨境电商工具",
-        "tags": ["SEO","内容分析","关键词","流量","选品"]
+        "subtype": "关键词研究",
+        "tags": ["SEO","内容分析","关键词研究","搜索流量","选品"]
     },
     {
         "name": "Mangools",
         "description": "SEO 全能工具包，包含关键词研究和竞争分析能力。",
         "url": "https://mangools.com",
         "category": "跨境电商工具",
-        "tags": ["SEO","关键词","竞争分析","工具包","选品"]
+        "subtype": "关键词研究",
+        "tags": ["SEO","关键词研究","竞争分析","工具包","选品"]
     },
     {
         "name": "Keyword Surfer",
         "description": "浏览器插件，可直接在搜索结果页查看关键词搜索量。",
         "url": "https://surferseo.com/keyword-surfer-extension/",
         "category": "跨境电商工具",
-        "tags": ["浏览器插件","关键词","SEO","搜索量","选品"]
+        "subtype": "关键词研究",
+        "tags": ["浏览器插件","关键词研究","SEO","搜索量","选品"]
     },
     {
         "name": "BeProfit",
         "description": "电商利润监控工具，帮助评估产品和店铺真实盈利能力。",
         "url": "https://www.beprofit.co",
         "category": "跨境电商工具",
-        "tags": ["利润分析","成本核算","Shopify","运营","跨境电商"]
+        "subtype": "利润分析",
+        "tags": ["利润分析","成本核算","Shopify","店铺运营","财务分析"]
     },
     {
         "name": "TrueProfit",
         "description": "利润追踪与成本分析平台，可用于判断产品是否真正赚钱。",
         "url": "https://trueprofit.io",
         "category": "跨境电商工具",
-        "tags": ["利润分析","成本分析","店铺经营","运营","跨境电商"]
+        "subtype": "利润分析",
+        "tags": ["利润分析","成本分析","店铺经营","财务分析","运营复盘"]
     },
     {
         "name": "ZonGuru",
         "description": "亚马逊卖家工具，支持利基市场分析和利润预测。",
         "url": "https://www.zonguru.com",
         "category": "亚马逊卖家工具",
-        "tags": ["亚马逊","利基分析","利润预测","选品","Amazon"]
+        "subtype": "选品平台",
+        "tags": ["亚马逊","利基分析","利润预测","选品","卖家工具"]
     },
     {
         "name": "Shopify Business Name Generator",
         "description": "Shopify 官方店铺命名工具，适合为新产品方向快速命名。",
         "url": "https://www.shopify.com/tools/business-name-generator",
         "category": "跨境电商工具",
-        "tags": ["Shopify","命名工具","品牌","独立站","辅助工具"]
+        "subtype": "品牌工具",
+        "tags": ["Shopify","命名工具","品牌灵感","独立站","辅助工具"]
     },
     {
         "name": "SourceLow",
         "description": "免费的 dropshipping 供应商搜索工具库。",
         "url": "https://www.sourcelow.com",
         "category": "跨境电商工具",
-        "tags": ["供应商","Dropshipping","货源","选品","跨境电商"]
+        "subtype": "供应链",
+        "tags": ["供应商","Dropshipping","货源","选品","资源库"]
     },
     {
         "name": "Importify",
         "description": "支持从其他独立站和平台导入商品到店铺的工具。",
         "url": "https://www.importify.com",
         "category": "跨境电商工具",
-        "tags": ["商品采集","独立站","Shopify","导入工具","跨境电商"]
+        "subtype": "店铺运营",
+        "tags": ["商品采集","独立站","Shopify","导入工具","商品同步"]
     },
     {
         "name": "AutoDS",
         "description": "全自动 dropshipping 管理工具，支持库存与价格监控。",
         "url": "https://www.autods.com",
         "category": "跨境电商工具",
-        "tags": ["自动化","库存监控","价格监控","Dropshipping","跨境电商"]
+        "subtype": "店铺运营",
+        "tags": ["自动化","库存监控","价格监控","Dropshipping","店铺运营"]
+    },
+    {
+        "name": "ZIK Analytics",
+        "description": "eBay 与 Shopify 卖家的产品研究、竞品分析和趋势挖掘工具。",
+        "url": "https://www.zikanalytics.com",
+        "category": "跨境电商工具",
+        "subtype": "竞品分析",
+        "tags": ["eBay","Shopify","选品","竞品分析","趋势洞察"]
+    },
+    {
+        "name": "Statista",
+        "description": "全球行业数据与市场研究平台，可用于宏观趋势和消费市场分析。",
+        "url": "https://www.statista.com",
+        "category": "跨境电商工具",
+        "subtype": "市场调研",
+        "tags": ["市场研究","行业数据","趋势洞察","消费洞察","商业分析"]
+    },
+    {
+        "name": "Glimpse",
+        "description": "增强版趋势研究平台，可发现搜索趋势、增长轨迹和新兴市场机会。",
+        "url": "https://meetglimpse.com",
+        "category": "跨境电商工具",
+        "subtype": "趋势洞察",
+        "tags": ["趋势洞察","搜索数据","新兴市场","选品","增长"]
+    },
+    {
+        "name": "eBay Terapeak",
+        "description": "eBay 官方市场调研工具，适合分析热销品、价格区间和需求趋势。",
+        "url": "https://www.ebay.com/sh/research",
+        "category": "跨境电商工具",
+        "subtype": "市场调研",
+        "tags": ["eBay","官方工具","市场调研","选品","价格分析"]
+    },
+    {
+        "name": "Amazon Movers & Shakers",
+        "description": "亚马逊销量上升最快商品榜单，可用于捕捉短期爆款趋势。",
+        "url": "https://www.amazon.com/gp/movers-and-shakers",
+        "category": "亚马逊卖家工具",
+        "subtype": "官方榜单",
+        "tags": ["亚马逊","榜单","爆款趋势","选品","官方榜单"]
+    },
+    {
+        "name": "Amazon Best Sellers",
+        "description": "亚马逊官方畅销榜入口，可查看各类目实时畅销商品。",
+        "url": "https://www.amazon.com/Best-Sellers/zgbs",
+        "category": "亚马逊卖家工具",
+        "subtype": "官方榜单",
+        "tags": ["亚马逊","畅销榜","选品","官方榜单","热销商品"]
+    },
+    {
+        "name": "BuzzSumo",
+        "description": "分析社交平台高传播内容，帮助发现高热度话题和产品切入点。",
+        "url": "https://buzzsumo.com",
+        "category": "跨境电商工具",
+        "subtype": "趋势洞察",
+        "tags": ["内容分析","社媒传播","趋势洞察","营销选题","选品"]
+    },
+    {
+        "name": "Influence.co",
+        "description": "红人营销平台，可用于观察达人合作内容与带货方向。",
+        "url": "https://influence.co",
+        "category": "跨境电商工具",
+        "subtype": "红人营销",
+        "tags": ["红人营销","达人合作","社交媒体","带货","KOL"]
     },
     {
         "name": "菜鸟教程",
@@ -467,217 +580,248 @@ const websitesDatabase = [
         "description": "淘宝宝贝排名在线查询，淘宝卖家的必备工具箱",
         "url": "https://taodaxiang.com",
         "category": "购物",
-        "tags": ["购物","工具","排名查询","淘宝","卖家"]
+        "subtype": "关键词优化",
+        "tags": ["淘宝","排名查询","关键词优化","卖家工具","搜索排名"]
     },
     {
         "name": "商品历史价格查询",
         "description": "商品历史价格查询工具，支持淘宝、天猫、京东历史价格趋势分析",
         "url": "http://www.hisprice.cn",
         "category": "购物",
-        "tags": ["购物","价格","历史价格","比价","电商"]
+        "subtype": "价格监控",
+        "tags": ["历史价格","比价","价格监控","淘宝","京东"]
     },
     {
         "name": "至尊宝工具箱",
         "description": "至尊宝免费提供一键多平台选品、详情分析与运营管理工具",
         "url": "https://tool.zzbtool.com",
         "category": "购物",
-        "tags": ["购物","选品","运营工具","分析","电商工具"]
+        "subtype": "工具箱",
+        "tags": ["选品","运营工具","详情分析","多平台","卖家工具"]
     },
     {
         "name": "权重池",
         "description": "权重池 - 淘宝宝贝关键词排名查询与标题优化工具",
         "url": "http://www.quanzhongchi365.com",
         "category": "购物",
-        "tags": ["购物","关键词","排名","标题优化","SEO"]
+        "subtype": "关键词优化",
+        "tags": ["关键词优化","排名查询","标题优化","淘宝SEO","搜索排名"]
     },
     {
         "name": "宝贝累计销量查询",
         "description": "查询商品从上架到现在的累计销量",
         "url": "https://www.91tool.com/volumes",
         "category": "购物",
-        "tags": ["购物","销量","查询","统计","电商"]
+        "subtype": "销量分析",
+        "tags": ["销量分析","销量查询","数据统计","商品分析","卖家工具"]
     },
     {
         "name": "店铺上新查询",
         "description": "淘宝商品上新查询，分析同行上新情况",
         "url": "https://taodaxiang.com/shop/news",
         "category": "购物",
-        "tags": ["购物","上新","新品","竞争分析"]
+        "subtype": "竞品分析",
+        "tags": ["上新监控","新品分析","竞品分析","淘宝店铺","店铺监控"]
     },
     {
         "name": "隐形降权查询",
         "description": "隐形降权原因查询与分析工具，帮助排查降权风险",
         "url": "https://taodaxiang.com/weight",
         "category": "购物",
-        "tags": ["购物","降权","违规检测","风险排查"]
+        "subtype": "店铺风控",
+        "tags": ["降权检测","违规检测","风险排查","店铺风控","淘宝"]
     },
     {
         "name": "淘大猫 – 淘宝信誉查询",
         "description": "淘大猫 - 淘宝信誉查询与验号工具箱",
         "url": "http://www.taodamao.com",
         "category": "购物",
-        "tags": ["购物","信誉","账号","验号","卖家工具"]
+        "subtype": "店铺风控",
+        "tags": ["信誉查询","账号检测","验号","店铺风控","卖家工具"]
     },
     {
         "name": "掌柜查查",
         "description": "掌柜查查，一站式反‘恶’专家，电商店铺账号与订单风险排查",
         "url": "https://www.zgchacha.com",
         "category": "购物",
-        "tags": ["购物","反恶","风险","店铺安全","检测"]
+        "subtype": "店铺风控",
+        "tags": ["反恶","风险排查","店铺安全","账号检测","订单风险"]
     },
     {
         "name": "京查号",
         "description": "京查号 - 买家信誉查询与风险排查工具",
         "url": "http://www.jingchahao.com",
         "category": "购物",
-        "tags": ["购物","信誉","买家","风险排查"]
+        "subtype": "店铺风控",
+        "tags": ["买家信誉","风险排查","账号检测","京东","店铺风控"]
     },
     {
         "name": "V兔卖家工具箱",
         "description": "V兔卖家工具箱，为卖家提供买家信誉查询、关键词排名等运营工具",
         "url": "https://www.vv-tool.com/elTool",
         "category": "购物",
-        "tags": ["购物","卖家工具","关键词","运营","工具"]
+        "subtype": "工具箱",
+        "tags": ["卖家工具","关键词优化","信誉查询","运营工具","工具箱"]
     },
     {
         "name": "店帮查",
         "description": "店帮查 - 电商数据查询与运营服务一站式平台",
         "url": "https://www.dianbangcha.com",
         "category": "购物",
-        "tags": ["购物","数据","分析","运营"]
+        "subtype": "数据分析",
+        "tags": ["数据分析","运营分析","店铺数据","电商工具","卖家工具"]
     },
     {
         "name": "电商雷达",
         "description": "电商雷达 - 一键查询淘宝骗子、举报与风险提示",
         "url": "http://www.dianshangleida.com",
         "category": "购物",
-        "tags": ["购物","反欺诈","检测","安全"]
+        "subtype": "店铺风控",
+        "tags": ["反欺诈","风险提示","安全检测","淘宝","店铺风控"]
     },
     {
         "name": "58图 – 电商历史图库",
         "description": "58图 - 电商历史图库，提供店铺图片历史快照与竞品参考",
         "url": "https://www.58tu.com",
         "category": "购物",
-        "tags": ["购物","图库","历史快照","竞品分析"]
+        "subtype": "竞品分析",
+        "tags": ["历史快照","图库分析","竞品分析","店铺图片","卖家工具"]
     },
     {
         "name": "淘测测淘宝信誉查询",
         "description": "淘测测 - 淘宝信誉查询与账号检测工具",
         "url": "http://www.taoyanhao.com",
         "category": "购物",
-        "tags": ["购物","信誉","检测","账号"]
+        "subtype": "店铺风控",
+        "tags": ["信誉查询","账号检测","店铺风控","淘宝","卖家工具"]
     },
     {
         "name": "THunt选品工具",
         "description": "THunt - AI 选品工具，为卖家智能选品并做行业分析",
         "url": "https://thunt.ai",
         "category": "购物",
-        "tags": ["购物","选品","AI","智能选品","数据分析"]
+        "subtype": "选品平台",
+        "tags": ["AI选品","智能选品","数据分析","行业分析","卖家工具"]
     },
     {
         "name": "阿明查查",
         "description": "阿明工具，电商数据分析与生意参谋指数一键转换与可视化",
         "url": "https://www.amingchacha.com",
         "category": "购物",
-        "tags": ["购物","数据分析","生意参谋","插件","卖家工具"]
+        "subtype": "数据分析",
+        "tags": ["数据分析","生意参谋","指数还原","可视化","卖家工具"]
     },
     {
         "name": "小旺神插件",
         "description": "小旺神 - 生意参谋指数一键还原插件，帮助卖家查看历史数据",
         "url": "https://xiaowangshen.com",
         "category": "购物",
-        "tags": ["购物","插件","生意参谋","数据还原","卖家"]
+        "subtype": "数据分析",
+        "tags": ["插件","生意参谋","数据还原","历史数据","卖家工具"]
     },
     {
         "name": "旺参谋 – 1688生意参谋指数还原",
         "description": "旺参谋提供1688生意参谋指数还原与数据下载，便于选品与竞店分析",
         "url": "https://wangcanmou.com",
         "category": "购物",
-        "tags": ["购物","1688","生意参谋","数据","选品"]
+        "subtype": "数据分析",
+        "tags": ["1688","生意参谋","数据还原","选品","竞店分析"]
     },
     {
         "name": "癞蛤蟆工具箱",
         "description": "癞蛤蟆电商工具箱，帮助卖家进行流量与数据分析",
         "url": "http://www.91laihama.com/Tool/Plug",
         "category": "购物",
-        "tags": ["购物","工具箱","运营","数据分析"]
+        "subtype": "工具箱",
+        "tags": ["工具箱","流量分析","数据分析","运营工具","卖家工具"]
     },
     {
         "name": "老司机电商工具",
         "description": "老司机直通车与电商运营工具集合，提供多种卖家辅助工具",
         "url": "https://www.lsjztc.com",
         "category": "购物",
-        "tags": ["购物","工具","运营","选品"]
+        "subtype": "工具箱",
+        "tags": ["工具箱","运营工具","选品","直通车","卖家工具"]
     },
     {
         "name": "店透视 - 生意参谋指数转换",
         "description": "店透视插件，在线转换与分析店铺生意参谋指数",
         "url": "https://www.diantoushi.com",
         "category": "购物",
-        "tags": ["购物","插件","生意参谋","店铺分析"]
+        "subtype": "店铺分析",
+        "tags": ["插件","生意参谋","店铺分析","指数转换","卖家工具"]
     },
     {
         "name": "店查查",
         "description": "店查查 - 淘宝数据统计、标题优化与销售分析工具",
         "url": "https://www.dianchacha.com",
         "category": "购物",
-        "tags": ["购物","数据","标题优化","销售分析"]
+        "subtype": "数据分析",
+        "tags": ["数据统计","标题优化","销售分析","淘宝","卖家工具"]
     },
     {
         "name": "幕思城将军令 – 插件下载中心",
         "description": "幕思城将军令插件集合，电商运营插件与数据分析工具下载",
         "url": "https://tool.musicheng.com/chajian",
         "category": "购物",
-        "tags": ["购物","插件","运营工具","下载"]
+        "subtype": "工具箱",
+        "tags": ["插件下载","运营工具","数据分析","卖家工具","工具箱"]
     },
     {
         "name": "哈士奇电商插件",
         "description": "哈士奇电商插件，多平台支持的运营插件，覆盖淘宝、天猫、京东等",
         "url": "https://hsq.dangxun.com",
         "category": "购物",
-        "tags": ["购物","插件","运营","多平台"]
+        "subtype": "工具箱",
+        "tags": ["插件","运营工具","多平台","淘宝","卖家工具"]
     },
     {
         "name": "至尊宝找货助手 – 插件",
         "description": "至尊宝找货助手，提供一键多平台搜图/搜词、选品与数据分析",
         "url": "https://zzb.3351r.com/update/index.html",
         "category": "购物",
-        "tags": ["购物","选品","搜图","数据分析","插件"]
+        "subtype": "选品平台",
+        "tags": ["选品","搜图搜词","数据分析","插件","多平台"]
     },
     {
         "name": "谋臣界电商工具箱",
         "description": "谋臣界电商工具箱，为电商提供数据采集、图像下载与标题采集等功能",
         "url": "https://www.mouchenjie.com",
         "category": "购物",
-        "tags": ["购物","数据采集","运营工具","选品"]
+        "subtype": "工具箱",
+        "tags": ["数据采集","运营工具","标题采集","选品","工具箱"]
     },
     {
         "name": "实选抖音选品检测工具",
         "description": "为抖音/短视频平台提供选品检测与匹配度分析的工具",
         "url": "https://plugindy.shixuan.com",
         "category": "购物",
-        "tags": ["购物","抖音","选品","检测","短视频"]
+        "subtype": "选品平台",
+        "tags": ["抖音选品","匹配度分析","短视频","选品检测","电商工具"]
     },
     {
         "name": "店雷达 – 1688选品运营插件",
         "description": "店雷达插件，支持导出商品交易数据与店铺分析，帮助快速选品",
         "url": "https://dianleida.net/download",
         "category": "购物",
-        "tags": ["购物","1688","选品","插件","数据"]
+        "subtype": "选品平台",
+        "tags": ["1688","选品","店铺分析","交易数据","插件"]
     },
     {
         "name": "多兔淘客插件",
         "description": "多兔淘客插件，淘客推广与推广数据查询一体化工具",
         "url": "https://duotu.pro/plugs",
         "category": "购物",
-        "tags": ["购物","淘客","插件","推广","数据"]
+        "subtype": "淘客推广",
+        "tags": ["淘客","推广数据","插件","联盟推广","数据查询"]
     },
     {
         "name": "淘客易插件",
         "description": "淘客易插件，查看推广数据与招商信息的浏览器插件",
         "url": "http://cj.tky.com",
         "category": "购物",
-        "tags": ["购物","淘客","推广","插件"]
+        "subtype": "淘客推广",
+        "tags": ["淘客","推广数据","招商信息","浏览器插件","联盟推广"]
     },
     {
         "name": "XHSPlus AI创作助手插件",
@@ -1069,91 +1213,104 @@ const websitesDatabase = [
         "description": "WPS内置AI助手，智能文档处理",
         "url": "https://www.wps.cn",
         "category": "AI办公工具",
-        "tags": ["AI","办公","文档","WPS"]
+        "subtype": "文档办公",
+        "tags": ["AI办公","文档处理","WPS","写作助手","办公"]
     },
     {
         "name": "ChatPPT",
         "description": "AI生成PPT，一键创建演示文稿",
         "url": "https://chat-ppt.com",
         "category": "AI办公工具",
-        "tags": ["AI","PPT","演示","自动生成"]
+        "subtype": "演示文稿",
+        "tags": ["AI办公","PPT生成","演示文稿","自动生成","汇报"]
     },
     {
         "name": "ChatExcel",
         "description": "AI表格处理助手，自然语言操作Excel",
         "url": "https://chatexcel.com",
         "category": "AI办公工具",
-        "tags": ["AI","Excel","表格","数据处理"]
+        "subtype": "表格处理",
+        "tags": ["AI办公","Excel","表格处理","数据分析","自动化"]
     },
     {
         "name": "讯飞听见",
         "description": "AI会议转写工具，实时语音转文字",
         "url": "https://www.iflyrec.com",
         "category": "AI办公工具",
-        "tags": ["AI","转写","会议","语音识别"]
+        "subtype": "会议转写",
+        "tags": ["AI办公","会议转写","语音识别","录音转文字","效率工具"]
     },
     {
         "name": "DeepL",
         "description": "AI翻译工具，翻译质量高",
         "url": "https://www.deepl.com",
         "category": "AI办公工具",
-        "tags": ["AI","翻译","多语言","准确"]
+        "subtype": "AI翻译",
+        "tags": ["AI翻译","多语言","翻译工具","文档翻译","办公"]
     },
     {
         "name": "彩云小译",
         "description": "AI翻译工具，支持网页实时翻译",
         "url": "https://fanyi.caiyunapp.com",
         "category": "AI办公工具",
-        "tags": ["AI","翻译","网页翻译","实时"]
+        "subtype": "AI翻译",
+        "tags": ["AI翻译","网页翻译","实时翻译","多语言","效率工具"]
     },
     {
         "name": "Perplexity",
         "description": "AI搜索引擎，智能问答和信息检索",
         "url": "https://www.perplexity.ai",
         "category": "AI搜索引擎",
-        "tags": ["AI","搜索","问答","智能"]
+        "subtype": "问答检索",
+        "tags": ["AI搜索","问答检索","信息检索","搜索问答","知识搜索"]
     },
     {
         "name": "秘塔AI搜索",
         "description": "国产AI搜索引擎，无广告纯净搜索",
         "url": "https://metaso.cn",
         "category": "AI搜索引擎",
-        "tags": ["AI","搜索","无广告","国产"]
+        "subtype": "问答检索",
+        "tags": ["AI搜索","无广告","国产搜索","问答检索","纯净搜索"]
     },
     {
         "name": "天工AI",
         "description": "昆仑万维AI搜索和对话",
         "url": "https://www.tiangong.cn",
         "category": "AI搜索引擎",
-        "tags": ["AI","搜索","对话","国产"]
+        "subtype": "问答检索",
+        "tags": ["AI搜索","AI对话","国产搜索","问答检索","智能助手"]
     },
     {
         "name": "百度",
         "description": "中国最大的搜索引擎",
         "url": "https://www.baidu.com",
         "category": "搜索引擎",
-        "tags": ["搜索","百度","查找"]
+        "subtype": "综合搜索",
+        "tags": ["综合搜索","百度","网页搜索","信息查询","搜索引擎"]
     },
     {
         "name": "Google",
         "description": "全球最大的搜索引擎",
         "url": "https://www.google.com",
         "category": "搜索引擎",
-        "tags": ["搜索","谷歌","Google"]
+        "subtype": "综合搜索",
+        "tags": ["综合搜索","Google","谷歌","网页搜索","搜索引擎"]
     },
     {
         "name": "必应",
         "description": "微软搜索引擎",
         "url": "https://www.bing.com",
         "category": "搜索引擎",
-        "tags": ["搜索","必应","Bing"]
+        "subtype": "综合搜索",
+        "tags": ["综合搜索","必应","Bing","微软搜索","搜索引擎"]
     },
     {
         "name": "搜狗搜索",
         "description": "搜狗搜索引擎，擅长微信搜索",
         "url": "https://www.sogou.com",
         "category": "搜索引擎",
-        "tags": ["搜索","搜狗","微信"]
+        "subtype": "综合搜索",
+        "tags": ["综合搜索","搜狗","微信搜索","网页搜索","搜索引擎"]
     },
     {
         "name": "石墨文档",
@@ -1188,98 +1345,112 @@ const websitesDatabase = [
         "description": "微信官方企业办公平台",
         "url": "https://work.weixin.qq.com",
         "category": "AI办公工具",
-        "tags": ["办公","企业微信","协作","微信"]
+        "subtype": "团队协作",
+        "tags": ["企业微信","团队协作","办公平台","企业沟通","微信生态"]
     },
     {
         "name": "创客贴",
         "description": "国内优秀的平面设计工具，丰富模板",
         "url": "https://www.chuangkit.com",
         "category": "设计与创意",
-        "tags": ["设计","海报","模板","作图"]
+        "subtype": "平面设计",
+        "tags": ["平面设计","海报设计","模板设计","作图","创意工具"]
     },
     {
         "name": "Unsplash",
         "description": "高质量免费图片素材库",
         "url": "https://unsplash.com",
         "category": "设计与创意",
-        "tags": ["图片","素材","免费","高清"]
+        "subtype": "图片素材",
+        "tags": ["图片素材","免费图片","高清图片","设计素材","摄影"]
     },
     {
         "name": "Pexels",
         "description": "免费高清图片和视频素材",
         "url": "https://www.pexels.com",
         "category": "设计与创意",
-        "tags": ["图片","视频","素材","免费"]
+        "subtype": "图片素材",
+        "tags": ["图片素材","视频素材","免费素材","高清资源","设计素材"]
     },
     {
         "name": "站酷",
         "description": "中国设计师互动平台，作品展示与交流",
         "url": "https://www.zcool.com.cn",
         "category": "设计与创意",
-        "tags": ["设计","作品","灵感","素材"]
+        "subtype": "设计社区",
+        "tags": ["设计社区","作品展示","设计灵感","创意交流","设计师"]
     },
     {
         "name": "Dribbble",
         "description": "全球设计师作品展示平台，寻找灵感",
         "url": "https://dribbble.com",
         "category": "设计与创意",
-        "tags": ["设计","灵感","UI","作品"]
+        "subtype": "设计社区",
+        "tags": ["设计社区","UI设计","作品展示","设计灵感","创意平台"]
     },
     {
         "name": "Behance",
         "description": "Adobe旗下创意作品展示平台",
         "url": "https://www.behance.net",
         "category": "设计与创意",
-        "tags": ["设计","作品","创意","Adobe"]
+        "subtype": "设计社区",
+        "tags": ["设计社区","创意作品","作品展示","Adobe","设计灵感"]
     },
     {
         "name": "花瓣网",
         "description": "图片采集工具，设计师灵感库",
         "url": "https://huaban.com",
         "category": "设计与创意",
-        "tags": ["设计","采集","灵感","素材"]
+        "subtype": "灵感采集",
+        "tags": ["灵感采集","设计灵感","素材收藏","图片采集","设计师工具"]
     },
     {
         "name": "Stack Overflow",
         "description": "程序员问答社区",
         "url": "https://stackoverflow.com",
         "category": "程序开发",
-        "tags": ["编程","问答","开发"]
+        "subtype": "开发社区",
+        "tags": ["编程问答","开发社区","技术问答","程序员","开发"]
     },
     {
         "name": "CodePen",
         "description": "在线前端代码编辑器和社区",
         "url": "https://codepen.io",
         "category": "AI编程工具",
-        "tags": ["前端","代码","在线编辑"]
+        "subtype": "在线IDE",
+        "tags": ["前端开发","在线IDE","代码编辑","代码演示","开发工具"]
     },
     {
         "name": "Gitee",
         "description": "国内代码托管平台，访问速度快",
         "url": "https://gitee.com",
         "category": "AI编程工具",
-        "tags": ["代码","Git","开源","国内"]
+        "subtype": "代码托管",
+        "tags": ["代码托管","Git","开源平台","国内开发","协作开发"]
     },
     {
         "name": "掘金",
         "description": "技术社区，开发者成长平台",
         "url": "https://juejin.cn",
         "category": "AI编程工具",
-        "tags": ["技术","社区","文章","前端"]
+        "subtype": "开发社区",
+        "tags": ["技术社区","开发者","技术文章","前端","成长平台"]
     },
     {
         "name": "CSDN",
         "description": "中国最大的IT技术社区",
         "url": "https://www.csdn.net",
         "category": "程序开发",
-        "tags": ["技术","博客","编程","问答"]
+        "subtype": "开发社区",
+        "tags": ["技术社区","博客","编程问答","开发者","中文社区"]
     },
     {
         "name": "LeetCode",
         "description": "算法题库，程序员刷题平台",
         "url": "https://leetcode.cn",
         "category": "AI编程工具",
-        "tags": ["算法","刷题","面试","编程"]
+        "subtype": "刷题面试",
+        "tags": ["算法刷题","面试准备","编程题库","技术面试","开发成长"]
     },
     {
         "name": "人人都是产品经理",
@@ -1433,91 +1604,104 @@ const websitesDatabase = [
         "description": "亚马逊日本官网，亚洲主要电商平台",
         "url": "https://www.amazon.co.jp",
         "category": "亚马逊官方平台",
-        "tags": ["亚马逊","日本","亚洲","购物","Amazon"]
+        "subtype": "官方站点",
+        "tags": ["亚马逊","日本站","亚洲","官方站点","Amazon"]
     },
     {
         "name": "Amazon德国站",
         "description": "亚马逊德国官网，欧洲主要电商平台",
         "url": "https://www.amazon.de",
         "category": "亚马逊官方平台",
-        "tags": ["亚马逊","德国","欧洲","购物","Amazon"]
+        "subtype": "官方站点",
+        "tags": ["亚马逊","德国站","欧洲","官方站点","Amazon"]
     },
     {
         "name": "Amazon法国站",
         "description": "亚马逊法国官网，欧洲主要电商平台",
         "url": "https://www.amazon.fr",
         "category": "亚马逊官方平台",
-        "tags": ["亚马逊","法国","欧洲","购物","Amazon"]
+        "subtype": "官方站点",
+        "tags": ["亚马逊","法国站","欧洲","官方站点","Amazon"]
     },
     {
         "name": "Amazon加拿大站",
         "description": "亚马逊加拿大官网，北美电商平台",
         "url": "https://www.amazon.ca",
         "category": "亚马逊官方平台",
-        "tags": ["亚马逊","加拿大","北美","购物","Amazon"]
+        "subtype": "官方站点",
+        "tags": ["亚马逊","加拿大站","北美","官方站点","Amazon"]
     },
     {
         "name": "亚马逊全球开店",
         "description": "亚马逊跨境电商卖家平台，中国卖家进入全球市场",
         "url": "https://gs.amazon.cn",
         "category": "亚马逊官方平台",
-        "tags": ["亚马逊","卖家","跨境电商","全球开店","Amazon"]
+        "subtype": "招商入驻",
+        "tags": ["亚马逊","全球开店","跨境电商","卖家入驻","Amazon"]
     },
     {
         "name": "Amazon卖家中央",
         "description": "亚马逊官方卖家后台，管理产品、订单和店铺",
         "url": "https://sellercentral.amazon.com",
         "category": "亚马逊官方平台",
-        "tags": ["亚马逊","卖家","后台","店铺","Amazon"]
+        "subtype": "卖家后台",
+        "tags": ["亚马逊","卖家后台","订单管理","店铺管理","Amazon"]
     },
     {
         "name": "Amazon品牌备案",
         "description": "亚马逊品牌备案和商标保护平台",
         "url": "https://brandservices.amazon.com",
         "category": "亚马逊官方平台",
-        "tags": ["亚马逊","品牌","备案","商标","Amazon"]
+        "subtype": "品牌保护",
+        "tags": ["亚马逊","品牌备案","商标保护","品牌保护","Amazon"]
     },
     {
         "name": "Jungle Scout",
         "description": "亚马逊选品神器，销量预估和产品研究工具",
         "url": "https://www.junglescout.com",
         "category": "亚马逊卖家工具",
-        "tags": ["亚马逊","选品","数据分析","卖家工具","Amazon"]
+        "subtype": "选品平台",
+        "tags": ["亚马逊","选品","产品研究","销量预估","卖家工具"]
     },
     {
         "name": "Helium 10",
         "description": "亚马逊卖家全能工具，选品、关键词、运营一体化",
         "url": "https://www.helium10.com",
         "category": "亚马逊卖家工具",
-        "tags": ["亚马逊","选品","关键词","运营","Amazon"]
+        "subtype": "工具箱",
+        "tags": ["亚马逊","选品","关键词研究","运营工具","卖家工具"]
     },
     {
         "name": "卖家精灵",
         "description": "亚马逊大数据选品工具，中文界面友好",
         "url": "https://www.sellersprite.com",
         "category": "亚马逊卖家工具",
-        "tags": ["亚马逊","选品","数据","中文","Amazon"]
+        "subtype": "选品平台",
+        "tags": ["亚马逊","选品","大数据","中文工具","卖家工具"]
     },
     {
         "name": "AMZScout",
         "description": "亚马逊产品研究和销量追踪工具",
         "url": "https://amzscout.net",
         "category": "亚马逊卖家工具",
-        "tags": ["亚马逊","选品","销量","追踪","Amazon"]
+        "subtype": "选品平台",
+        "tags": ["亚马逊","选品","销量追踪","产品研究","卖家工具"]
     },
     {
         "name": "AMZ520",
         "description": "亚马逊工具导航网站，汇集各类卖家工具",
         "url": "https://amz520.com",
         "category": "亚马逊卖家工具",
-        "tags": ["亚马逊","导航","工具","Amazon"]
+        "subtype": "工具导航",
+        "tags": ["亚马逊","工具导航","卖家工具","资源导航","工具集合"]
     },
     {
         "name": "Amalyze",
         "description": "亚马逊竞品分析和关键词研究工具",
         "url": "https://www.amalyze.com",
         "category": "亚马逊卖家工具",
-        "tags": ["亚马逊","竞品","关键词","分析","Amazon"]
+        "subtype": "关键词研究",
+        "tags": ["亚马逊","竞品分析","关键词研究","市场分析","卖家工具"]
     },
     {
         "name": "速卖通",

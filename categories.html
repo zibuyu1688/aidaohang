@@ -133,6 +133,8 @@
             font-weight: 600;
             box-shadow: 0 4px 12px rgba(255,255,255,0.3);
             transition: all 0.3s;
+        }
+
         .back-link a:hover {
             transform: translateY(-3px);
             box-shadow: 0 8px 20px rgba(255,255,255,0.4);
@@ -162,6 +164,46 @@
             font-size: 12px;
             font-weight: 600;
             margin-left: 10px;
+        }
+
+        .category-subtypes {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        .subtype-title {
+            font-size: 12px;
+            color: #999;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+
+        .subtype-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .subtype-tag {
+            border: none;
+            background: rgba(102, 126, 234, 0.12);
+            color: #4c51bf;
+            padding: 5px 10px;
+            border-radius: 999px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .subtype-tag:hover {
+            background: rgba(102, 126, 234, 0.2);
+            transform: translateY(-1px);
+        }
+
+        .subtype-empty {
+            font-size: 12px;
+            color: #999;
         }
     </style>
 </head>
@@ -311,11 +353,42 @@
         const designerCategories = [
             '设计灵感网站', '设计素材下载', '设计配色工具', '在线设计工具',
             '设计字体资源', '设计软件工具', '设计学习平台'
-        ];        // 统计每个分类的网站数量
+        ];
+
+        // 统计每个分类的网站数量和 subtype 分布
         const categoryCounts = {};
+        const categorySubtypeStats = {};
         websitesDatabase.forEach(site => {
             categoryCounts[site.category] = (categoryCounts[site.category] || 0) + 1;
+
+            if (!categorySubtypeStats[site.category]) {
+                categorySubtypeStats[site.category] = {};
+            }
+
+            if (site.subtype) {
+                categorySubtypeStats[site.category][site.subtype] = (categorySubtypeStats[site.category][site.subtype] || 0) + 1;
+            }
         });
+
+        function buildAllSitesUrl(query = '') {
+            if (!query) return '/all-sites.html';
+            return `/all-sites.html?search=${encodeURIComponent(query)}`;
+        }
+
+        function escapeHtml(text = '') {
+            return String(text)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function getTopSubtypes(category, limit = 4) {
+            return Object.entries(categorySubtypeStats[category] || {})
+                .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'zh-CN'))
+                .slice(0, limit);
+        }
         
         // 渲染分类卡片
         function renderCategories() {
@@ -348,6 +421,27 @@
                 .filter(site => site.category === category)
                 .slice(0, 3)
                 .map(site => site.name);
+
+            const topSubtypes = getTopSubtypes(category);
+            const subtypeHtml = topSubtypes.length
+                ? `
+                    <div class="category-subtypes">
+                        <div class="subtype-title">高频子类型</div>
+                        <div class="subtype-list">
+                            ${topSubtypes.map(([name, subtypeCount]) => `
+                                <button class="subtype-tag" type="button" data-subtype="${escapeHtml(name)}">
+                                    ${escapeHtml(name)} · ${subtypeCount}
+                                </button>
+                            `).join('')}
+                        </div>
+                    </div>
+                `
+                : `
+                    <div class="category-subtypes">
+                        <div class="subtype-title">高频子类型</div>
+                        <div class="subtype-empty">该分类正在持续细分中</div>
+                    </div>
+                `;
             
             card.innerHTML = `
                 <div class="category-header">
@@ -359,12 +453,21 @@
                 </div>
                 <div class="category-desc">${categoryDescriptions[category] || '精选优质网站推荐'}</div>
                 <div class="category-tags">
-                    ${examples.map(name => `<span class="tag">${name}</span>`).join('')}
+                    ${examples.map(name => `<span class="tag">${escapeHtml(name)}</span>`).join('')}
                 </div>
+                ${subtypeHtml}
             `;
             
             card.addEventListener('click', () => {
-                window.location.href = `/all-sites.html#${category}`;
+                window.location.href = buildAllSitesUrl(category);
+            });
+
+            card.querySelectorAll('.subtype-tag').forEach(button => {
+                button.addEventListener('click', (event) => {
+                    event.stopPropagation();
+                    const subtype = button.dataset.subtype || '';
+                    window.location.href = buildAllSitesUrl(subtype);
+                });
             });
             
             return card;

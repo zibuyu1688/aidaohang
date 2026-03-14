@@ -13000,21 +13000,24 @@ const websitesDatabase = [
         "description": "AI视频生成平台，支持数字人克隆和实时对话",
         "url": "https://www.tavus.io",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人克隆","实时对话","数字人视频","个性化视频"]
     },
     {
         "name": "SkyReels",
         "description": "昆仑万维推出的全球首个AI短剧创作平台",
         "url": "https://skyreels.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","短剧创作","剧情视频","视频生成","SkyReels"]
     },
     {
         "name": "Vizard",
         "description": "将长视频转换为社交短视频片段的AI视频工具",
         "url": "https://vizard.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","长视频切片","社交短视频","自动剪辑","内容分发"]
     },
     {
         "name": "Hotshot",
@@ -13042,322 +13045,368 @@ const websitesDatabase = [
         "description": "一站式动画故事AI视频生成平台",
         "url": "https://pixfun.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "动画视频",
+        "tags": ["AI视频","动画故事","动画生成","剧情视频","创意内容"]
     },
     {
         "name": "Opus Clip",
         "description": "人工智能视频剪辑工具",
         "url": "https://www.opus.pro",
         "category": "AI视频工具",
-        "tags": ["视频AI","工具","智能"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","视频剪辑","短视频二创","自动剪辑","爆款切片"]
     },
     {
         "name": "Filmora",
         "description": "一款简单的视频编辑器，可让您在 Windows 和 Mac 上编辑视频和音频",
         "url": "https://filmora.wondershare.com",
         "category": "AI视频工具",
-        "tags": ["视频AI"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","视频剪辑","视频编辑器","音视频编辑","Filmora"]
     },
     {
         "name": "巨日禄",
         "description": "一款强大的文本转视频生成神器，帮助用户将文字内容快速转换为令人惊艳的视频",
         "url": "https://ai.jurilu.com",
         "category": "AI视频工具",
-        "tags": ["视频AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","文本转视频","文生视频","内容生成","自动出片"]
     },
     {
         "name": "Descript",
         "description": "一款由人工智能驱动、功能齐全的端到端视频编辑器",
         "url": "https://www.descript.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","智能"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","视频剪辑","字幕编辑","播客剪辑","端到端编辑"]
     },
     {
         "name": "开拍",
         "description": "用AI制作口播视频的生产力工具",
         "url": "https://www.kaipai.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","口播视频","数字人口播","短视频制作","效率工具"]
     },
     {
         "name": "场辞",
         "description": "新片场推出的AI视频字幕制作工具",
         "url": "https://trans.xinpianchang.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频处理",
+        "tags": ["AI视频","字幕制作","自动字幕","视频处理","内容后期"]
     },
     {
         "name": "一起剪",
         "description": "AI短视频创作平台，图文一键成片",
         "url": "https://www.yiqijian.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","图文成片","短视频创作","自动出片","内容生产"]
     },
     {
         "name": "LTX Studio",
         "description": "AI电影制作和视频短片生成平台",
         "url": "https://ltx.studio",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","电影制作","短片生成","剧情视频","创意制作"]
     },
     {
         "name": "Clipfly",
         "description": "一站式AI长视频制作和编辑平台",
         "url": "https://www.clipfly.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","长视频制作","视频剪辑","一站式编辑","内容创作"]
     },
     {
         "name": "Captions",
         "description": "AI驱动的视频剪辑和制作平台",
         "url": "https://www.captions.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","视频剪辑","字幕生成","内容制作","社媒视频"]
     },
     {
         "name": "Capsule",
         "description": "A驱动的在线视频剪辑工具，个人和小团队免费",
         "url": "https://capsule.video",
         "category": "AI视频工具",
-        "tags": ["视频AI","工具"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","在线视频剪辑","团队制作","自动编辑","内容发布"]
     },
     {
         "name": "EbSynth",
         "description": "A将真人视频转化为油画风动画",
         "url": "https://ebsynth.com",
         "category": "AI视频工具",
-        "tags": ["视频AI"]
+        "subtype": "动画视频",
+        "tags": ["AI视频","风格化视频","油画动画","真人转动画","视觉特效"]
     },
     {
         "name": "InVideo Al",
         "description": "人工智能视频创作和剪辑工具",
         "url": "https://invideo.io",
         "category": "AI视频工具",
-        "tags": ["视频AI","工具","智能"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","视频创作","视频剪辑","营销视频","模板出片"]
     },
     {
         "name": "GoEnhance",
         "description": "A1视频风格转换和画质增强工具",
         "url": "https://www.goenhance.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","工具"]
+        "subtype": "视频处理",
+        "tags": ["AI视频","画质增强","风格转换","视频增强","后期处理"]
     },
     {
         "name": "Artflow",
         "description": "AI创建生成视频动画",
         "url": "https://app.artflow.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "动画视频",
+        "tags": ["AI视频","动画生成","角色故事","创意动画","内容制作"]
     },
     {
         "name": "Gencraft",
         "description": "AI艺术画视频生成工具",
         "url": "https://gencraft.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "动画视频",
+        "tags": ["AI视频","艺术视频","视觉生成","动画创作","风格化内容"]
     },
     {
         "name": "模力视频",
         "description": "AI驱动的视频编辑平台",
         "url": "https://www.mooliv.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","视频编辑","内容制作","自动剪辑","视频平台"]
     },
     {
         "name": "团队快剪",
         "description": "闪剪智能专为团队带货打造的AI视频工具",
         "url": "https://teamcut.shanjian.tv",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具","智能"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","团队剪辑","带货视频","短视频运营","电商内容"]
     },
     {
         "name": "录咖",
         "description": "一站式AI音视频总结和转录处理工具",
         "url": "https://reccloud.cn",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具","总结"]
+        "subtype": "视频总结",
+        "tags": ["AI视频","音视频总结","转录处理","内容提炼","会议摘要"]
     },
     {
         "name": "Kaiber",
         "description": "图片文字转视频的AI引擎",
         "url": "https://kaiber.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","图片转视频","文字转视频","创意视频","视觉生成"]
     },
     {
         "name": "Typeframes",
         "description": "AI快速生成高质量的产品介绍视频",
         "url": "https://www.typeframes.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","产品介绍视频","营销视频","快速生成","展示视频"]
     },
     {
         "name": "Mootion",
         "description": "AI原生3D动画创作平台",
         "url": "https://mootion.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "3D动画",
+        "tags": ["AI视频","3D动画","原生动画","角色动画","三维创作"]
     },
     {
         "name": "来画",
         "description": "动画和数字人智能生成平台",
         "url": "https://www.laihua.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","智能"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人视频","动画生成","视频创作","来画"]
     },
     {
         "name": "奇妙元",
         "description": "AI数字人视频生成平台，由出门问问推出",
         "url": "https://weta365.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人视频","出门问问","虚拟人口播","内容生成"]
     },
     {
         "name": "绘影字幕",
         "description": "一键智能在线自动为视频加字幕",
         "url": "https://huiyingzimu.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","智能"]
+        "subtype": "视频处理",
+        "tags": ["AI视频","自动字幕","视频字幕","在线处理","内容后期"]
     },
     {
         "name": "Genmo",
         "description": "更具创造性！使用文本指令编辑图像和视频",
         "url": "https://www.genmo.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","文本编辑视频","创意生成","图像视频联动","内容实验"]
     },
     {
         "name": "白日梦",
         "description": "AI视频创作平台，最长可生成六分钟的视频",
         "url": "https://aibrm.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","长视频生成","视频创作","内容生成","创意平台"]
     },
     {
         "name": "神笔马良",
         "description": "首个面向长剧本解析的动态故事板AI生成工具",
         "url": "https://shenbi.maoyan.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "动画视频",
+        "tags": ["AI视频","动态故事板","剧本解析","分镜生成","影视创作"]
     },
     {
         "name": "Video Ocean",
         "description": "潞晨科技推出的多功能AI视频生成平台",
         "url": "https://video.luchentech.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","多功能视频生成","创意视频","自动出片","Video Ocean"]
     },
     {
         "name": "LensGo",
         "description": "AI视频创作工具，支持视频转动漫，替换3D人物",
         "url": "https://lensgo.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "动画视频",
+        "tags": ["AI视频","视频转动漫","3D人物替换","风格转换","创意视频"]
     },
     {
         "name": "讯飞虚拟人",
         "description": "科大讯飞推出的全栈式AI虚拟人应用服务平台",
         "url": "https://virtual-man.xfyun.cn",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","讯飞虚拟人","数字人视频","虚拟主播","企业应用"]
     },
     {
         "name": "Video Studio",
         "description": "在线AI视频制作工具，零编辑技能制作专业视频内容",
         "url": "https://www.vidustudio.net",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","在线视频制作","零门槛出片","专业视频","内容生成"]
     },
     {
         "name": "Decohere",
         "description": "AI视频生成平台，支持音频同步功能",
         "url": "https://www.decohere.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","视频生成","音频同步","创意视频","视觉生成"]
     },
     {
         "name": "万彩微影",
         "description": "AI智能自动生成动画短视频",
         "url": "https://www.animiz.cn",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","智能"]
+        "subtype": "动画视频",
+        "tags": ["AI视频","动画短视频","自动生成","万彩微影","动画创作"]
     },
     {
         "name": "飞影数字人",
         "description": "AI数字人创作平台，支持免费定制数字人",
         "url": "https://www.flyworks.live",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人视频","免费定制数字人","虚拟人口播","视频创作"]
     },
     {
         "name": "艺映AI",
         "description": "AI视频创作工具，支持文生视频、因图生视频及视频转浸画功能",
         "url": "https://www.artink.art",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","文生视频","图生视频","视频创作","创意生成"]
     },
     {
         "name": "OneStory",
         "description": "AI故事生成助手，创作故事和视频变得像说话一样简单",
         "url": "https://onestory.art",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","助手"]
+        "subtype": "动画视频",
+        "tags": ["AI视频","故事生成","剧情创作","动画视频","创作助手"]
     },
     {
         "name": "Etna",
         "description": "七火山科技推出的AI文生视频工具",
         "url": "https://etna.7volcanoes.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","文生视频","视频生成","七火山科技","自动出片"]
     },
     {
         "name": "VMagic",
         "description": "AI视频处理平台，提供视频风格转换、换脸、照片舞蹈等功能",
         "url": "https://www.vmagic.app",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频处理",
+        "tags": ["AI视频","视频风格转换","视频换脸","照片舞蹈","特效处理"]
     },
     {
         "name": "腾讯混元文生视频",
         "description": "腾讯推出的AI视频生成模型，能根据文本提示生成相应的视频内容",
         "url": "https://video.hunyuan.tencent.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","文生视频","腾讯混元","视频生成模型","生成式视频"]
     },
     {
         "name": "SoundView",
         "description": "AI视频本地化工具，支持视频配音和翻译",
         "url": "https://soundviewai.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具","翻译"]
+        "subtype": "视频翻译",
+        "tags": ["AI视频","视频本地化","视频配音","视频翻译","多语言处理"]
     },
     {
         "name": "元镜",
         "description": "AI视频生成工具，支持从创意灵感到成品视频实现高效创作",
         "url": "https://yuanjing.zeelin.cn",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","视频生成","创意到成片","高效创作","元镜"]
     },
     {
         "name": "JoyPix",
         "description": "AI数字人创作工具，支持声音克隆",
         "url": "https://www.joypix.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人视频","声音克隆","虚拟人口播","视频创作"]
     },
     {
         "name": "Medeo",
         "description": "AI视频创作平台，一句话生成完整视频",
         "url": "https://www.medeo.app",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","一句话生成视频","自动出片","内容生成","创意平台"]
     },
     {
         "name": "Boba",
         "description": "AI动漫视频创作工具",
         "url": "https://www.boba.video",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "动画视频",
+        "tags": ["AI视频","动漫视频","动画创作","角色视频","创意内容"]
     },
     {
         "name": "Microsoft 365 Copilot",

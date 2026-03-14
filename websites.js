@@ -1585,7 +1585,8 @@ const websitesDatabase = [
         "description": "阿里巴巴出品的文档与知识库工具",
         "url": "https://www.yuque.com",
         "category": "AI办公工具",
-        "tags": ["文档","知识库","笔记"]
+        "subtype": "知识库协作",
+        "tags": ["知识库","文档协作","团队知识库","笔记管理","语雀"]
     },
     {
         "name": "PDF.ai",
@@ -12495,441 +12496,504 @@ const websitesDatabase = [
         "description": "AI视频生成平台",
         "url": "https://www.synthesia.io",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人视频","AI主持人","视频生成","企业视频"]
     },
     {
         "name": "SoraBox",
         "description": "创意视频和提示词，每日更新官方和用户生成的视频&提示词",
         "url": "https://sorabox.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","视频生成","提示词灵感","创意视频","文生视频"]
     },
     {
         "name": "Lumen5",
         "description": "AI将博客文章转换成视频",
         "url": "https://lumen5.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","图文转视频","内容转视频","营销视频","视频生成"]
     },
     {
         "name": "Pictory",
         "description": "AI视频制作工具",
         "url": "https://pictory.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","视频剪辑","视频制作","自动剪辑","内容创作"]
     },
     {
         "name": "Fliki",
         "description": "高效帮用户创建视频，具有文本转语音功能",
         "url": "https://fliki.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","文本转视频","文字配音","快速出片","内容创作"]
     },
     {
         "name": "DeepBrain",
         "description": "AI视频生成工具",
         "url": "https://www.deepbrain.io",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人视频","虚拟人","视频生成","AI主播"]
     },
     {
         "name": "腾讯智影",
         "description": "腾讯推出的在线智能视频创作平台",
         "url": "https://zenvideo.qq.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","智能"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","视频剪辑","腾讯智影","字幕配音","在线创作"]
     },
     {
         "name": "闪剪AI数字人",
         "description": "AI数字人短视频营销创作工具",
         "url": "https://shanjian.tv",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人视频","短视频营销","虚拟主播","内容生成"]
     },
     {
         "name": "AIGC工具一帧秒创",
         "description": "一键图文转视频，生成AI数字人，零门槛创作",
         "url": "https://aigc.yizhentv.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","图文转视频","数字人视频","零门槛创作","短视频生成"]
     },
     {
         "name": "VidAU AI",
         "description": "视频换脸、视频翻译、AI数字人、字幕翻译",
         "url": "https://www.vidau.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","翻译"]
+        "subtype": "视频翻译",
+        "tags": ["AI视频","视频翻译","字幕翻译","数字人视频","换脸处理"]
     },
     {
         "name": "AIMIX智剪",
         "description": "AIGC电商内容生成平台，集混剪、文案、字幕、语音合成等功能，助力短电商运营",
         "url": "https://www.aimix.pro",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","电商","运营"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","视频剪辑","电商视频","混剪工具","短视频运营"]
     },
     {
         "name": "怪兽AI数字人",
         "description": "实时交互数字人直播，数字人短视频创作",
         "url": "https://www.guaishouai.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人直播","数字人视频","互动视频","虚拟主播"]
     },
     {
         "name": "快创3D秀",
         "description": "高效易用的AI三维动画制作平台",
         "url": "https://www.quick3dshow.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "3D动画",
+        "tags": ["AI视频","3D动画","三维视频","动画制作","视觉展示"]
     },
     {
         "name": "万兴播爆（AI数字人）",
         "description": "3分钟完成一条出海营销视频",
         "url": "https://virbo.wondershare.cn",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人视频","出海营销","营销视频","万兴播爆"]
     },
     {
         "name": "Unscreen",
         "description": "AI智能视频背景移除工具",
         "url": "https://www.unscreen.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具","智能"]
+        "subtype": "视频处理",
+        "tags": ["AI视频","视频背景移除","抠像工具","视频处理","绿幕替代"]
     },
     {
         "name": "有言3D视频",
         "description": "一站式AI视频创作和3D数字人生成平台",
         "url": "https://youyan.xyz",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","3D数字人","视频创作","数字人视频","内容生成"]
     },
     {
         "name": "千面视频动捕",
         "description": "上传一段视频生成3D动作数据",
         "url": "https://www.qmai.vip",
         "category": "AI视频工具",
-        "tags": ["视频AI"]
+        "subtype": "视频处理",
+        "tags": ["AI视频","动作捕捉","视频动捕","3D动作数据","动画制作"]
     },
     {
         "name": "DreamFace",
         "description": "让图片动起来的AI工具",
         "url": "https://dreamfaceapp.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","照片动效","图片转视频","数字人视频","口播生成"]
     },
     {
         "name": "Rephrase.ai",
         "description": "AI文字到视频生成",
         "url": "https://www.rephrase.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","文字转视频","文生视频","营销视频","自动生成"]
     },
     {
         "name": "Synthesys",
         "description": "AI虚拟人出镜讲解",
         "url": "https://synthesys.io",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","虚拟人讲解","数字人视频","口播视频","内容生成"]
     },
     {
         "name": "Hour One",
         "description": "人工智能文字到视频生成",
         "url": "https://hourone.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","智能"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","文字转视频","数字人视频","企业培训视频","虚拟主持"]
     },
     {
         "name": "BgRem",
         "description": "无水印AI视频背景移除",
         "url": "https://bgrem.deelvin.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频处理",
+        "tags": ["AI视频","背景移除","视频抠像","视频处理","无水印工具"]
     },
     {
         "name": "Colourlab.ai",
         "description": "好莱坞也在用的AI视频颜色分级工具",
         "url": "https://colourlab.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频处理",
+        "tags": ["AI视频","视频调色","颜色分级","后期处理","影视制作"]
     },
     {
         "name": "Colossyan",
         "description": "AI虚拟人出镜视频生成",
         "url": "https://www.colossyan.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","虚拟人视频","数字人讲解","培训视频","出镜生成"]
     },
     {
         "name": "AVCLabs",
         "description": "AI自动移除视频背景",
         "url": "https://app.avclabs.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频处理",
+        "tags": ["AI视频","视频背景移除","视频抠像","自动处理","后期工具"]
     },
     {
         "name": "Movio",
         "description": "AI真人出镜视频讲解",
         "url": "https://www.movio.la",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","真人出镜","数字人讲解","营销视频","内容生成"]
     },
     {
         "name": "Elai.io",
         "description": "AI文本到视频生成工具",
         "url": "https://elai.io",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","文本转视频","数字人视频","课程视频","自动出片"]
     },
     {
         "name": "SteveAI",
         "description": "Animaker旗下AI在线视频制作工具",
         "url": "https://www.steve.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","在线视频制作","动画视频","文案转视频","内容创作"]
     },
     {
         "name": "Wonder Studio",
         "description": "真人表演自动转换为CG",
         "url": "https://wonderdynamics.com",
         "category": "AI视频工具",
-        "tags": ["视频AI"]
+        "subtype": "视频处理",
+        "tags": ["AI视频","真人转CG","特效制作","影视后期","角色替换"]
     },
     {
         "name": "Chat YouTube",
         "description": "Chat with anyYouTube video",
         "url": "https://chatyoutube.com",
         "category": "AI视频工具",
-        "tags": ["视频AI"]
+        "subtype": "视频总结",
+        "tags": ["AI视频","视频问答","YouTube总结","内容理解","视频检索"]
     },
     {
         "name": "BibiGPT",
         "description": "一键总结B站音视频内容",
         "url": "https://b.jimmylv.cn",
         "category": "AI视频工具",
-        "tags": ["视频AI","总结"]
+        "subtype": "视频总结",
+        "tags": ["AI视频","视频总结","B站总结","音视频摘要","内容提炼"]
     },
     {
         "name": "鬼手剪辑GhostCut",
         "description": "AI视频翻译&字幕擦除工具",
         "url": "https://cn.jollytoday.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具","翻译"]
+        "subtype": "视频翻译",
+        "tags": ["AI视频","视频翻译","字幕擦除","本地化处理","跨境视频"]
     },
     {
         "name": "Noisee Al",
         "description": "月之暗面旗下推出的AI音乐视频MV生成工具",
         "url": "https://noisee.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","MV生成","音乐视频","创意视频","自动生成"]
     },
     {
         "name": "Hedra",
         "description": "AI对口型视频生成工具，单次可免费生成30秒的视频",
         "url": "https://www.hedra.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","对口型视频","数字人视频","口播生成","短视频创作"]
     },
     {
         "name": "KreadoAl",
         "description": "AI数字人视频营销创作平台",
         "url": "https://kreadoai.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人视频","营销视频","虚拟主播","内容创作"]
     },
     {
         "name": "WinkStudio",
         "description": "美图推出的桌面端AI视频剪辑工具",
         "url": "https://wink.meitu.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","视频剪辑","桌面剪辑","美图工具","内容创作"]
     },
     {
         "name": "快剪辑",
         "description": "360旗下的AI视频剪辑工具，AI成片、AI数字人、智能添加字幕、去水印",
         "url": "https://www.kuaijianji.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具","智能"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","视频剪辑","智能字幕","去水印","数字人成片"]
     },
     {
         "name": "Stable Video",
         "description": "Stability Al上线的AI视频生成工具",
         "url": "https://www.stablevideo.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","视频生成","生成模型","文生视频","Stability AI"]
     },
     {
         "name": "即创",
         "description": "抖音推出的一站式智能创作平台，支持视频、图文和直播创作",
         "url": "https://aic.oceanengine.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","智能"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","短视频创作","直播创作","图文成片","抖音工具"]
     },
     {
         "name": "度加创作工具",
         "description": "百度官方出品的AIGC创作平台",
         "url": "https://aigc.baidu.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","AIGC创作","视频生成","百度工具","内容创作"]
     },
     {
         "name": "可灵大模型",
         "description": "快手推出的视频生成大模型，可生成2分钟的视频",
         "url": "https://kling.kuaishou.com",
         "category": "AI视频工具",
-        "tags": ["视频AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","视频生成大模型","可灵","文生视频","快手AI"]
     },
     {
         "name": "Viva",
         "description": "免费的AI视频生成和图像创作平台",
         "url": "https://vivago.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","视频生成","图像创作","创意视频","免费工具"]
     },
     {
         "name": "曦灵",
         "description": "百度推出的AI数字人和视频创作平台",
         "url": "https://xiling.cloud.baidu.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人视频","百度数字人","视频创作","虚拟人"]
     },
     {
         "name": "寻光",
         "description": "阿里达摩院推出的全流程AI视频创作平台",
         "url": "https://xunguang.damo-vision.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","视频创作","全流程生成","阿里达摩院","创意视频"]
     },
     {
         "name": "Duix",
         "description": "硅基智能推出的AI数字人生成平台",
         "url": "https://www.duix.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","智能"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人视频","虚拟人生成","硅基智能","口播视频"]
     },
     {
         "name": "MOKI",
         "description": "美图推出的AI视频短片创作工具",
         "url": "https://www.moki.cn",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","短片创作","视频生成","美图工具","创意短片"]
     },
     {
         "name": "Vimi",
         "description": "商汤科技推出的可控人物视频生成AI模型",
         "url": "https://www.sensetime.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","人物视频生成","数字人视频","可控生成","商汤科技"]
     },
     {
         "name": "Viggle",
         "description": "AI生成角色动态视频的工具",
         "url": "https://viggle.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "动画视频",
+        "tags": ["AI视频","角色动画","动态视频","人物动效","动画生成"]
     },
     {
         "name": "Spikes Studio",
         "description": "AI自动将长视频切片剪辑为短视频",
         "url": "https://www.spikes.studio",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","长视频切片","短视频剪辑","自动剪辑","内容分发"]
     },
     {
         "name": "Google Vids",
         "description": "谷歌推出的AI视频创作工具",
         "url": "https://workspace.google.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","视频创作","Google Workspace","演示视频","生成工具"]
     },
     {
         "name": "DomoAl",
         "description": "一键将照片和视频动漫化的AI工具",
         "url": "https://domoai.app",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "动画视频",
+        "tags": ["AI视频","动漫化视频","照片转动漫","视频风格化","动画生成"]
     },
     {
         "name": "Gatekeep",
         "description": "AI教学视频生成工具，可生成数学物理问题解释视频",
         "url": "https://gatekeep.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","教学视频","知识讲解","教育视频生成","内容生成"]
     },
     {
         "name": "Morph Studio",
         "description": "高质量的AI文本到视频生成工具",
         "url": "https://www.morphstudio.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","文本转视频","高质量生成","文生视频","创意制作"]
     },
     {
         "name": "Haiper",
         "description": "AI视频生成和重绘工具，支持文本/图像转视频",
         "url": "https://haiper.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","文本转视频","图像转视频","视频重绘","创意生成"]
     },
     {
         "name": "星火绘镜",
         "description": "科大讯飞推出的AI短视频创作平台",
         "url": "https://typemovie.art",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","短视频创作","科大讯飞","内容生成","创意视频"]
     },
     {
         "name": "Showrunner",
         "description": "AI动画视频剧集生成工具",
         "url": "https://www.showrunner.xyz",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "动画视频",
+        "tags": ["AI视频","动画剧集","故事生成","动画视频","角色叙事"]
     },
     {
         "name": "即构数智人",
         "description": "即构科技推出的AI数字人创作平台",
         "url": "https://aigc.zego.im",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人视频","数智人","即构科技","虚拟人创作"]
     },
     {
         "name": "蝉镜",
         "description": "AI数字人视频生成平台",
         "url": "https://www.chanjing.cc",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人视频","虚拟人口播","内容生成","蝉镜"]
     },
     {
         "name": "Magicam",
         "description": "实时的AI直播/视频换脸工具",
         "url": "https://magicam.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频处理",
+        "tags": ["AI视频","直播换脸","视频换脸","实时处理","特效工具"]
     },
     {
         "name": "即梦AI",
         "description": "一站式AI创作平台，支持AI图片和视频生成",
         "url": "https://jimeng.jianying.com",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","视频生成","图片生成","一站式创作","即梦AI"]
     },
     {
         "name": "PixVerse",
         "description": "爱诗科技推出的AI视频生成工具",
         "url": "https://pixverse.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","视频生成","文生视频","创意短片","PixVerse"]
     },
     {
         "name": "Vidu",
         "description": "生数科技与清华大学联合发布的AI视频大模型",
         "url": "https://www.vidu.studio",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","视频大模型","文生视频","生成模型","Vidu"]
     },
     {
         "name": "Vozo",
         "description": "集一键重写脚本、配音、对口型、翻译于一体的AI视频编辑工具",
         "url": "https://www.vozo.ai",
         "category": "AI视频工具",
-        "tags": ["视频AI","AI","工具","翻译"]
+        "subtype": "视频翻译",
+        "tags": ["AI视频","视频翻译","对口型","脚本重写","视频编辑"]
     },
     {
         "name": "Tavus",

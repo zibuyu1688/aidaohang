@@ -21,7 +21,6 @@ let aiResults = [];           // AI搜索结果
 let aiSearchComplete = false; // AI搜索是否完成
 let isFetchingAI = false;     // 是否正在拉取AI结果
 let currentQuery = '';
-let analyzedIntent = null;
 const AI_BATCH_LIMIT = 9;     // 每次AI仅返回最多9条
 
 // 分类颜色映射缓存
@@ -230,7 +229,6 @@ async function handleSearch() {
         aiSearchComplete = false;
         isFetchingAI = false;
         currentQuery = query;
-        analyzedIntent = null;
         
         const provider = getCurrentProvider();
         
@@ -287,26 +285,27 @@ async function loadNextAIBatch() {
     updateLoadMoreButton();
     
     try {
-        if (!analyzedIntent) {
-            console.log('🔍 开始分析用户意图...');
-            analyzedIntent = await analyzeIntent(currentQuery);
-            console.log('✅ 意图分析完成');
-        }
-        
         console.log('📡 请求 AI 推荐...');
         const existingResults = [...localResults, ...aiResults];
-        const recommendations = await getAIRecommendations(
-            analyzedIntent,
+        const aiPayload = await getAIRecommendations(
             currentQuery,
             existingResults,
             AI_BATCH_LIMIT
         );
+        const intent = aiPayload?.intent || {
+            userIntent: '其他',
+            category: 'AI推荐',
+            keywords: [currentQuery],
+            intent: `搜索${currentQuery}相关内容`,
+            isBrandSearch: false
+        };
+        const recommendations = aiPayload?.recommendations || [];
         const rawCount = Array.isArray(recommendations) ? recommendations.length : 0;
         console.log('✅ AI 推荐获取完成:', rawCount, '个原始结果');
         
         const prepared = prepareAIRecommendations(
             recommendations,
-            analyzedIntent,
+            intent,
             currentQuery,
             existingResults
         );
@@ -447,19 +446,22 @@ async function intelligentSearch(query) {
     try {
         console.log('🔍 智能搜索开始，查询词:', query);
         
-        // 1. 调用AI理解用户意图
-        console.log('1️⃣ 分析用户意图...');
-    const intent = await analyzeIntent(query);
-        console.log('✅ AI理解的意图:', intent);
-        
-        // 2. 根据意图匹配本地数据库
-        console.log('2️⃣ 匹配本地数据库...');
-        const localResults = matchLocalDatabase(intent, query);
+        // 1. 先本地搜索
+        console.log('1️⃣ 匹配本地数据库...');
+        const localResults = searchLocalDatabase(query);
         console.log('✅ 本地匹配结果:', localResults.length, '个');
         
-        // 3. 总是调用AI推荐，补充更多相关网站
-        console.log('3️⃣ 获取AI推荐...');
-    const aiRecommendations = await getAIRecommendations(intent, query, localResults);
+        // 2. 单次 AI 调用补充推荐
+        console.log('2️⃣ 获取AI推荐...');
+        const aiPayload = await getAIRecommendations(query, localResults);
+        const intent = aiPayload?.intent || {
+            userIntent: '其他',
+            category: 'AI推荐',
+            keywords: [query],
+            intent: `搜索${query}相关内容`,
+            isBrandSearch: false
+        };
+        const aiRecommendations = prepareAIRecommendations(aiPayload?.recommendations || [], intent, query, localResults);
         console.log('✅ AI推荐结果:', aiRecommendations.length, '个');
         
         // 4. 合并结果：本地优先，然后AI推荐
@@ -492,57 +494,6 @@ function searchLocalDatabase(query) {
                site.category.toLowerCase().includes(lowerQuery) ||
                site.tags.some(tag => tag.toLowerCase().includes(lowerQuery));
     }).map(r => ({...r, source: 'local'}));
-}
-
-// AI理解用户意图
-async function analyzeIntent(query) {
-    try {
-        const apiConfig = getAPIConfig();
-        console.log(`📡 调用 ${apiConfig.provider.toUpperCase()} API 分析意图...`);
-        
-        const systemPrompt = '你是网站导航助手，分析用户意图。返回JSON格式：{userIntent, category, keywords[], intent, isBrandSearch}';
-        
-        const response = await fetch(apiConfig.apiUrl, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                task: 'analyze-intent',
-                model: apiConfig.model,
-                query,
-                systemPrompt
-            })
-        });
-        
-        console.log(`✅ Fetch 已完成加载：${apiConfig.provider.toUpperCase()} API`);
-        
-        if (!response.ok) {
-            const errorText = await response.text();
-            throw new Error(`API 状态错误: ${response.status} ${errorText}`.trim());
-        }
-        
-        const data = await response.json();
-        const content = data.content || '';
-        const jsonStr = content.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
-        if (!jsonStr) {
-            throw new Error('意图分析响应为空');
-        }
-        const intent = JSON.parse(jsonStr);
-        
-        console.log('✅ 意图分析成功:', intent);
-        return intent;
-        
-    } catch (error) {
-        console.error('❌ 意图分析失败:', error.message);
-        return {
-            userIntent: '其他',
-            category: '常用工具',
-            keywords: [query],
-            intent: `搜索${query}相关内容`,
-            isBrandSearch: false
-        };
-    }
 }
 
 // 根据意图匹配本地数据库
@@ -593,35 +544,48 @@ function matchLocalDatabase(intent, originalQuery) {
         .slice(0, isBrandSearch ? 15 : 10);  // 品牌搜索时取更多结果
 }
 
-// AI推荐补充网站
-async function getAIRecommendations(intent, query, existingResults, limit = AI_BATCH_LIMIT) {
+// AI推荐补充网站（单次调用，同时返回意图和推荐）
+async function getAIRecommendations(query, existingResults, limit = AI_BATCH_LIMIT) {
     const names = (existingResults || []).map(r => r && r.name).filter(Boolean);
     const urls = (existingResults || []).map(r => r && r.url).filter(Boolean);
     const existingNames = names.join('、');
     const existingUrls = urls.join('、');
-    const isBrandSearch = intent?.isBrandSearch === true;
     const apiConfig = getAPIConfig();
 
-    const systemPrompt = `你是一个专业的网站推荐助手。严格遵循以下规则：
-1. 仅推荐与用户搜索主题高度相关的网站，不得推荐无关内容。
-2. 每次返回的网站数量最多 ${limit} 个，不足则返回更少。
-3. 每条推荐的“name”或“description”字段必须包含至少一个用户搜索关键字。
-4. 不要推荐已经提供过的网站（名称或链接重复都视为重复）。
-5. 输出必须为 JSON 数组，每项包含 name、url、description、category、type 字段。
-6. category 使用 ${intent?.category || 'AI推荐'}，type 从 ["官方","工具","资讯","社区","教程","数据","其他"] 中选择最合适的一个。
-7. JSON 外不允许出现任何额外文本。`;
+        const systemPrompt = `你是一个专业的网站推荐助手。
+请一次性完成“用户意图分析 + 网站推荐”，并且必须严格返回 JSON 对象。
+禁止 Markdown、禁止解释、禁止代码块、禁止多余前后缀。
+JSON 格式固定为：
+{
+    "intent": {
+        "userIntent": "",
+        "category": "",
+        "keywords": [""],
+        "intent": "",
+        "isBrandSearch": false
+    },
+    "recommendations": [
+        {
+            "name": "",
+            "url": "https://...",
+            "description": "不超过28个字",
+            "category": "",
+            "type": "官方|工具|资讯|社区|教程|数据|其他"
+        }
+    ]
+}
+规则：
+1. 仅推荐高度相关的网站；
+2. 最多返回 ${limit} 个网站；
+3. 不要返回已出现的网站；
+4. description 必须简短，不超过 28 个字；
+5. 如果拿不准，就少返回，不要编造。`;
 
-    const keywordLine = Array.isArray(intent?.keywords) && intent.keywords.length > 0
-        ? intent.keywords.join('、')
-        : query;
     const userPrompt = `用户搜索词：${query}
-意图说明：${intent?.intent || '未知'}
-推荐分类：${intent?.category || 'AI推荐'}
-关键词集合：${keywordLine}
 已存在网站名称：${existingNames || '无'}
 已存在网站链接：${existingUrls || '无'}
-请推荐最多 ${limit} 个未出现过、与搜索需求强相关的网站。
-请确保每条推荐的标题或描述中包含至少一个上述关键词，并严格使用 JSON 数组格式返回。`;
+请识别用户意图，并推荐最多 ${limit} 个未出现过、与搜索需求强相关的网站。
+返回严格 JSON 对象，不要任何解释。`;
 
     const response = await fetch(apiConfig.apiUrl, {
         method: 'POST',
@@ -630,14 +594,13 @@ async function getAIRecommendations(intent, query, existingResults, limit = AI_B
         },
         body: JSON.stringify({
             model: apiConfig.model,
-            task: 'recommend-sites',
+            task: 'search-assistant',
             query,
             limit,
-            intent,
             existingResults,
             systemPrompt,
             userPrompt,
-            temperature: isBrandSearch ? 0.4 : 0.6,
+            temperature: 0.2,
             top_p: 0.9
         })
     });
@@ -658,157 +621,26 @@ async function getAIRecommendations(intent, query, existingResults, limit = AI_B
         throw parseError;
     }
     
-    console.log('📦 API 响应数据结构:', {
-        hasChoices: !!data.choices,
-        choicesLength: data.choices?.length,
-        firstChoiceKeys: data.choices?.[0] ? Object.keys(data.choices[0]) : 'N/A',
-        messageKeys: data.choices?.[0]?.message ? Object.keys(data.choices[0].message) : 'N/A'
-    });
-    
-    if (!data.content) {
+    if (!data.data || typeof data.data !== 'object') {
         console.error('❌ API 响应格式错误，完整响应:', JSON.stringify(data).substring(0, 500));
-        throw new Error('AI 推荐响应格式错误：缺少 content 字段');
+        throw new Error('AI 推荐响应格式错误：缺少 data 字段');
     }
-    
-    const content = data.content;
-    console.log('📝 AI 推荐原始响应长度:', content.length);
-    console.log('📝 AI 推荐原始响应内容:', content.substring(0, 500));
-    
-    // 清理可能的markdown代码块
-    const jsonStr = content.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
-    console.log('📌 清理后的 JSON 字符串:', jsonStr.substring(0, 500));
-    
-    let recommendations;
-    try {
-        recommendations = JSON.parse(jsonStr);
-        console.log('✅ JSON 解析成功，类型:', typeof recommendations, '是否数组:', Array.isArray(recommendations));
-        
-        // 确保返回数组
-        if (Array.isArray(recommendations)) {
-            console.log(`✅ AI 为"${query}"推荐了 ${recommendations.length} 个网站`);
-            if (recommendations.length > 0) {
-                console.log('🎯 第一个推荐:', JSON.stringify(recommendations[0]).substring(0, 200));
-            }
-            return recommendations;
-        } else {
-            console.warn('⚠️  AI 推荐不是数组，类型为:', typeof recommendations);
-            // 如果返回的是对象，尝试提取数组
-            if (recommendations.websites && Array.isArray(recommendations.websites)) {
-                console.log('✅ 从 recommendations.websites 提取数组，共', recommendations.websites.length, '个');
-                return recommendations.websites;
-            }
-            if (recommendations.data && Array.isArray(recommendations.data)) {
-                console.log('✅ 从 recommendations.data 提取数组，共', recommendations.data.length, '个');
-                return recommendations.data;
-            }
-            console.warn('⚠️  无法从推荐对象中提取数组，返回空数组');
-            return [];
-        }
-    } catch (e) {
-        console.error('❌ 第一次 JSON 解析失败:', e.message);
-        
-        // 尝试修复策略 1：逐个提取有效的 JSON 对象
-        try {
-            console.log('🔧 尝试修复策略 1：逐个提取对象...');
-            const results = [];
-            let depth = 0;
-            let currentObj = '';
-            
-            for (let i = 0; i < jsonStr.length; i++) {
-                const char = jsonStr[i];
-                
-                if (char === '{') {
-                    if (depth === 0) currentObj = '';
-                    depth++;
-                }
-                
-                currentObj += char;
-                
-                if (char === '}') {
-                    depth--;
-                    if (depth === 0 && currentObj.trim()) {
-                        try {
-                            const obj = JSON.parse(currentObj);
-                            if (obj && typeof obj === 'object' && obj.name && obj.url) {
-                                results.push(obj);
-                            }
-                        } catch (objError) {
-                            // 忽略单个对象解析失败，继续
-                        }
-                        currentObj = '';
-                    }
-                }
-            }
-            
-            if (results.length > 0) {
-                console.log(`✅ 修复策略 1 成功：提取了 ${results.length} 个完整对象`);
-                return results;
-            }
-        } catch (fixError) {
-            console.error('❌ 修复策略 1 失败:', fixError.message);
-        }
-        
-        // 尝试修复策略 2：查找所有类似 URL 的字段，推断对象边界
-        try {
-            console.log('🔧 尝试修复策略 2：通过 URL 推断对象边界...');
-            const urlPattern = /"url"\s*:\s*"(https?:\/\/[^"]+)"/g;
-            const matches = [...jsonStr.matchAll(urlPattern)];
-            
-            if (matches.length > 0) {
-                const results = [];
-                for (let i = 0; i < matches.length; i++) {
-                    const match = matches[i];
-                    const urlStart = match.index;
-                    
-                    // 从 URL 位置向后查找，找到下一个 URL 或字符串结尾
-                    const nextUrlStart = matches[i + 1]?.index || jsonStr.length;
-                    
-                    // 向前查找 { 的开始位置
-                    let objStart = urlStart;
-                    let braceCount = 0;
-                    for (let j = urlStart - 1; j >= 0; j--) {
-                        if (jsonStr[j] === '{') braceCount++;
-                        if (jsonStr[j] === '}') braceCount--;
-                        if (braceCount === 1) {
-                            objStart = j;
-                            break;
-                        }
-                    }
-                    
-                    // 向后查找 } 的结束位置
-                    let objEnd = urlStart;
-                    braceCount = 0;
-                    for (let j = nextUrlStart - 1; j >= urlStart; j--) {
-                        if (jsonStr[j] === '}') {
-                            objEnd = j;
-                            braceCount++;
-                            if (braceCount === 1) break;
-                        }
-                    }
-                    
-                    const objStr = jsonStr.substring(objStart, objEnd + 1);
-                    try {
-                        const obj = JSON.parse(objStr);
-                        if (obj && obj.name && obj.url) {
-                            results.push(obj);
-                        }
-                    } catch (objError) {
-                        // 继续
-                    }
-                }
-                
-                if (results.length > 0) {
-                    console.log(`✅ 修复策略 2 成功：通过 URL 推断提取了 ${results.length} 个对象`);
-                    return results;
-                }
-            }
-        } catch (fixError) {
-            console.error('❌ 修复策略 2 失败:', fixError.message);
-        }
-        
-        console.error('📌 所有修复策略均失败，返回空数组');
-        return [];
-    }
+
+    const intent = data.data.intent && typeof data.data.intent === 'object'
+        ? data.data.intent
+        : {
+            userIntent: '其他',
+            category: 'AI推荐',
+            keywords: [query],
+            intent: `搜索${query}相关内容`,
+            isBrandSearch: false
+        };
+    const recommendations = Array.isArray(data.data.recommendations)
+        ? data.data.recommendations
+        : [];
+
+    console.log(`✅ AI 为"${query}"推荐了 ${recommendations.length} 个网站`);
+    return { intent, recommendations };
 }
 
 // 显示搜索结果
@@ -839,7 +671,6 @@ function displayResults(searchResults, query) {
     
     // 重置并保存所有搜索结果
     currentQuery = query;
-    analyzedIntent = null;
     isFetchingAI = false;
     localResults = searchResults.filter(item => item && item.source === 'local');
     aiResults = searchResults.filter(item => item && item.source === 'ai');

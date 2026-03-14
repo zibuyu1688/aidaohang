@@ -1010,98 +1010,112 @@ const websitesDatabase = [
         "description": "智能AI抠图工具，支持批量处理",
         "url": "https://www.gaoding.com",
         "category": "AI图像工具",
-        "tags": ["抠图","去背景","批量处理","AI"]
+        "subtype": "抠图修复",
+        "tags": ["AI图像","抠图","去背景","批量处理","图片处理"]
     },
     {
         "name": "Cleanup.pictures",
         "description": "AI智能去除图片中不需要的物体和水印",
         "url": "https://cleanup.pictures",
         "category": "AI图像工具",
-        "tags": ["去水印","物体擦除","图片修复","AI"]
+        "subtype": "抠图修复",
+        "tags": ["AI图像","去水印","物体擦除","图片修复","照片修复"]
     },
     {
         "name": "Bigjpg",
         "description": "AI图片无损放大工具，提升图片分辨率",
         "url": "https://bigjpg.com",
         "category": "AI图像工具",
-        "tags": ["图片放大","无损","AI","高清"]
+        "subtype": "图像增强",
+        "tags": ["AI图像","图片放大","无损放大","分辨率提升","高清修复"]
     },
     {
         "name": "Photopea",
         "description": "在线版Photoshop，功能强大的图片编辑器",
         "url": "https://www.photopea.com",
         "category": "AI图像工具",
-        "tags": ["图片编辑","PS","在线编辑"]
+        "subtype": "在线修图",
+        "tags": ["图片编辑","在线修图","PS替代","图层编辑","设计工具"]
     },
     {
         "name": "Leonardo AI",
         "description": "专业AI图像生成工具，游戏和设计资产创作",
         "url": "https://leonardo.ai",
         "category": "AI图像工具",
-        "tags": ["AI","绘画","游戏设计","图片生成"]
+        "subtype": "图像生成",
+        "tags": ["AI图像","图像生成","AI绘画","设计资产","游戏美术"]
     },
     {
         "name": "Ideogram",
         "description": "AI图像生成，特别擅长文字渲染",
         "url": "https://ideogram.ai",
         "category": "AI图像工具",
-        "tags": ["AI","绘画","文字生成","海报"]
+        "subtype": "图像生成",
+        "tags": ["AI图像","图像生成","文字渲染","海报设计","AI绘画"]
     },
     {
         "name": "Flux AI",
         "description": "Black Forest Labs开发的新一代AI图像生成模型",
         "url": "https://flux1.ai",
         "category": "AI图像工具",
-        "tags": ["AI","绘画","图片生成","开源"]
+        "subtype": "图像生成",
+        "tags": ["AI图像","图像生成","AI绘画","生成模型","开源模型"]
     },
     {
         "name": "剪映",
         "description": "抖音官方视频剪辑工具，AI智能剪辑",
         "url": "https://www.capcut.cn",
         "category": "AI视频工具",
-        "tags": ["视频剪辑","AI","抖音","短视频"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","视频剪辑","短视频制作","抖音工具","智能剪辑"]
     },
     {
         "name": "Runway",
         "description": "AI视频编辑平台，文字生成视频",
         "url": "https://runwayml.com",
         "category": "AI视频工具",
-        "tags": ["AI","视频生成","视频编辑","创作"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","视频生成","文生视频","视频编辑","创意制作"]
     },
     {
         "name": "Sora",
         "description": "OpenAI文生视频模型，AI视频生成",
         "url": "https://openai.com",
         "category": "AI视频工具",
-        "tags": ["AI","视频生成","OpenAI","文生视频"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","视频生成","文生视频","OpenAI","生成模型"]
     },
     {
         "name": "必剪",
         "description": "B站官方剪辑工具，智能字幕识别",
         "url": "https://bcut.bilibili.cn",
         "category": "AI视频工具",
-        "tags": ["视频剪辑","字幕","B站"]
+        "subtype": "视频剪辑",
+        "tags": ["AI视频","视频剪辑","字幕识别","B站工具","内容创作"]
     },
     {
         "name": "HeyGen",
         "description": "AI数字人视频生成平台，多语言配音",
         "url": "https://www.heygen.com",
         "category": "AI视频工具",
-        "tags": ["AI","数字人","视频生成","配音"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人","视频生成","AI配音","多语言视频"]
     },
     {
         "name": "D-ID",
         "description": "AI数字人视频制作，照片说话",
         "url": "https://www.d-id.com",
         "category": "AI视频工具",
-        "tags": ["AI","数字人","视频生成","照片说话"]
+        "subtype": "数字人视频",
+        "tags": ["AI视频","数字人","照片说话","视频生成","虚拟人"]
     },
     {
         "name": "Pika Labs",
         "description": "AI视频生成和编辑工具",
         "url": "https://pika.art",
         "category": "AI视频工具",
-        "tags": ["AI","视频生成","视频编辑"]
+        "subtype": "视频生成",
+        "tags": ["AI视频","视频生成","视频编辑","创意视频","文生视频"]
     },
     {
         "name": "Suno AI",
@@ -1192,21 +1206,24 @@ const websitesDatabase = [
         "description": "AI设计工具，智能设计模板生成",
         "url": "https://www.canva.com",
         "category": "AI设计工具",
-        "tags": ["AI","设计","海报","模板"]
+        "subtype": "平面设计",
+        "tags": ["AI设计","平面设计","海报设计","模板生成","在线设计"]
     },
     {
         "name": "Figma AI",
         "description": "专业UI设计工具，AI辅助设计",
         "url": "https://www.figma.com",
         "category": "AI设计工具",
-        "tags": ["AI","UI设计","原型","协作"]
+        "subtype": "UI设计",
+        "tags": ["AI设计","UI设计","原型设计","团队协作","界面设计"]
     },
     {
         "name": "即时设计",
         "description": "国产UI设计工具，AI设计助手",
         "url": "https://js.design",
         "category": "AI设计工具",
-        "tags": ["AI","UI设计","原型","协作","国产"]
+        "subtype": "UI设计",
+        "tags": ["AI设计","UI设计","原型设计","团队协作","国产设计"]
     },
     {
         "name": "WPS AI",
@@ -1317,28 +1334,32 @@ const websitesDatabase = [
         "description": "国内领先的在线协作文档工具",
         "url": "https://shimo.im",
         "category": "AI办公工具",
-        "tags": ["文档","协作","办公"]
+        "subtype": "文档协作",
+        "tags": ["文档协作","在线文档","团队协作","多人编辑","办公工具"]
     },
     {
         "name": "腾讯文档",
         "description": "腾讯出品的在线文档，支持多人协作",
         "url": "https://docs.qq.com",
         "category": "AI办公工具",
-        "tags": ["文档","协作","办公","表格"]
+        "subtype": "文档协作",
+        "tags": ["文档协作","在线文档","多人编辑","在线表格","腾讯办公"]
     },
     {
         "name": "飞书文档",
         "description": "字节跳动的协作平台，功能强大",
         "url": "https://www.feishu.cn",
         "category": "AI办公工具",
-        "tags": ["文档","协作","办公","团队"]
+        "subtype": "文档协作",
+        "tags": ["文档协作","飞书","团队协作","在线办公","知识协同"]
     },
     {
         "name": "钉钉",
         "description": "阿里巴巴企业协作平台，智能办公",
         "url": "https://www.dingtalk.com",
         "category": "AI办公工具",
-        "tags": ["办公","协作","企业","钉钉"]
+        "subtype": "团队协作",
+        "tags": ["团队协作","企业办公","即时沟通","组织管理","钉钉"]
     },
     {
         "name": "企业微信",
@@ -1457,35 +1478,39 @@ const websitesDatabase = [
         "description": "产品经理学习社区，行业资讯与经验分享",
         "url": "https://www.woshipm.com",
         "category": "AI教育与学习",
-        "tags": ["产品","运营","社区","学习"]
+        "tags": ["产品经理","运营学习","社区","经验分享","成长学习"]
     },
     {
         "name": "36氪",
         "description": "科技创投媒体，关注创业与创新",
         "url": "https://36kr.com",
         "category": "产品与运营",
-        "tags": ["科技","创业","资讯","投资"]
+        "subtype": "科技媒体",
+        "tags": ["科技媒体","创业资讯","创投新闻","产品资讯","行业观察"]
     },
     {
         "name": "虎嗅",
         "description": "商业资讯平台，深度科技报道",
         "url": "https://www.huxiu.com",
         "category": "产品与运营",
-        "tags": ["商业","科技","资讯","分析"]
+        "subtype": "科技媒体",
+        "tags": ["商业资讯","科技媒体","行业分析","深度报道","产品观察"]
     },
     {
         "name": "Product Hunt",
         "description": "发现全球最新产品和工具",
         "url": "https://www.producthunt.com",
         "category": "产品与运营",
-        "tags": ["产品","工具","发现","国际"]
+        "subtype": "产品社区",
+        "tags": ["产品社区","产品发现","新产品","海外工具","产品灵感"]
     },
     {
         "name": "增长黑客",
         "description": "用户增长策略与案例分享",
         "url": "https://growthhackers.com",
         "category": "产品与运营",
-        "tags": ["增长","运营","营销","策略"]
+        "subtype": "增长运营",
+        "tags": ["增长运营","用户增长","营销策略","案例分析","运营方法"]
     },
     {
         "name": "Coursera",
@@ -1506,14 +1531,16 @@ const websitesDatabase = [
         "description": "中文互联网高质量问答社区",
         "url": "https://www.zhihu.com",
         "category": "学习与知识",
-        "tags": ["问答","知识","社区","学习"]
+        "subtype": "知识社区",
+        "tags": ["知识社区","问答社区","经验分享","中文知识","学习交流"]
     },
     {
         "name": "维基百科",
         "description": "自由的百科全书，全球知识库",
         "url": "https://zh.wikipedia.org",
         "category": "学习与知识",
-        "tags": ["百科","知识","查询","学习"]
+        "subtype": "百科知识",
+        "tags": ["百科知识","知识查询","全球知识库","词条检索","学习资料"]
     },
     {
         "name": "中国大学MOOC",
@@ -1527,21 +1554,24 @@ const websitesDatabase = [
         "description": "罗振宇创办的知识服务平台",
         "url": "https://www.igetget.com",
         "category": "学习与知识",
-        "tags": ["知识","课程","听书","学习"]
+        "subtype": "知识课程",
+        "tags": ["知识课程","听书学习","知识服务","成长学习","内容订阅"]
     },
     {
         "name": "网易公开课",
         "description": "免费的国内外名校公开课",
         "url": "https://open.163.com",
         "category": "学习与知识",
-        "tags": ["公开课","大学","免费","学习"]
+        "subtype": "在线课程",
+        "tags": ["在线课程","公开课","大学课程","免费学习","名校课程"]
     },
     {
         "name": "豆瓣",
         "description": "书影音记录与评分平台",
         "url": "https://www.douban.com",
         "category": "学习与知识",
-        "tags": ["读书","电影","音乐","评分"]
+        "subtype": "文化评论",
+        "tags": ["图书评分","电影评分","音乐评论","文化社区","内容发现"]
     },
     {
         "name": "Notion",
@@ -3892,63 +3922,72 @@ const websitesDatabase = [
         "description": "生成矢量、3D和图标的智能设计工具，提供多样化创意素材",
         "url": "https://www.recraft.ai",
         "category": "AI设计工具",
-        "tags": ["矢量生成","3D设计","图标创作"]
+        "subtype": "图标设计",
+        "tags": ["AI设计","图标设计","矢量生成","3D设计","创意素材"]
     },
     {
         "name": "Ilus AI",
         "description": "风格化插画生成工具，创建独特艺术风格的插图",
         "url": "https://ilus.ai",
         "category": "AI设计工具",
-        "tags": ["风格化","插画生成","艺术风格"]
+        "subtype": "插画生成",
+        "tags": ["AI设计","插画生成","风格插画","艺术风格","创意绘制"]
     },
     {
         "name": "Pictographic",
         "description": "AI插图资源库，提供多样化的插画和图形素材",
         "url": "https://pictographic.ai",
         "category": "AI设计工具",
-        "tags": ["资源库","插画素材","多样化"]
+        "subtype": "插画生成",
+        "tags": ["AI设计","插画素材","图形素材","资源库","设计资源"]
     },
     {
         "name": "Illustroke",
         "description": "SVG矢量插画生成工具，创建可缩放的矢量图形",
         "url": "https://illustroke.com",
         "category": "AI设计工具",
-        "tags": ["SVG","矢量插画","可缩放"]
+        "subtype": "插画生成",
+        "tags": ["AI设计","SVG插画","矢量插画","可缩放图形","插图生成"]
     },
     {
         "name": "illostrationAI",
         "description": "多风格插画生成平台，支持各种艺术风格的创作",
         "url": "https://illostration.com",
         "category": "AI设计工具",
-        "tags": ["多风格","插画生成","艺术创作"]
+        "subtype": "插画生成",
+        "tags": ["AI设计","插画生成","多风格创作","艺术插图","创意设计"]
     },
     {
         "name": "Vectorizer.AI",
         "description": "位图转矢量工具，将像素图像转换为可缩放的矢量格式",
         "url": "https://vectorizer.ai",
         "category": "AI设计工具",
-        "tags": ["位图转矢量","图像转换","可缩放"]
+        "subtype": "图标设计",
+        "tags": ["AI设计","位图转矢量","图像转换","矢量化","可缩放图形"]
     },
     {
         "name": "IconifyAI",
         "description": "App图标生成工具，创建一致风格的应用图标集",
         "url": "https://iconify.ai",
         "category": "AI设计工具",
-        "tags": ["App图标","风格一致","图标集"]
+        "subtype": "图标设计",
+        "tags": ["AI设计","App图标","图标生成","设计系统","图标集"]
     },
     {
         "name": "Appicons AI",
         "description": "精美图标设计工具，为应用和网站创建专业图标",
         "url": "https://appicons.ai",
         "category": "AI设计工具",
-        "tags": ["精美图标","应用设计","专业图标"]
+        "subtype": "图标设计",
+        "tags": ["AI设计","图标设计","应用图标","网站图标","专业图标"]
     },
     {
         "name": "Magician",
         "description": "Figma图标插件，自动生成符合设计系统的图标",
         "url": "https://magician.design",
         "category": "AI设计工具",
-        "tags": ["Figma插件","图标生成","设计系统"]
+        "subtype": "图标设计",
+        "tags": ["AI设计","Figma插件","图标生成","设计系统","界面设计"]
     },
     {
         "name": "VoxCraft",
@@ -3976,49 +4015,56 @@ const websitesDatabase = [
         "description": "智能家居设计平台，提供一站式室内设计解决方案",
         "url": "https://www.kujiale.com",
         "category": "AI设计工具",
-        "tags": ["家居设计","室内设计","一站式"]
+        "subtype": "空间设计",
+        "tags": ["AI设计","家居设计","室内设计","空间规划","装修设计"]
     },
     {
         "name": "模袋云AI",
         "description": "建筑和景观设计平台，提供专业的设计辅助工具",
         "url": "https://www.modaiyun.com",
         "category": "AI设计工具",
-        "tags": ["建筑设计","景观设计","专业工具"]
+        "subtype": "空间设计",
+        "tags": ["AI设计","建筑设计","景观设计","空间设计","专业辅助"]
     },
     {
         "name": "Collov AI",
         "description": "室内家居设计生成工具，创建个性化家居空间",
         "url": "https://collov.com",
         "category": "AI设计工具",
-        "tags": ["室内设计","家居生成","个性化"]
+        "subtype": "空间设计",
+        "tags": ["AI设计","室内设计","家居设计","空间生成","个性化方案"]
     },
     {
         "name": "Vizcom",
         "description": "手绘图转产品设计图工具，将概念草图转为精细渲染",
         "url": "https://www.vizcom.ai",
         "category": "AI设计工具",
-        "tags": ["手绘转换","产品设计","精细渲染"]
+        "subtype": "产品设计",
+        "tags": ["AI设计","产品设计","草图渲染","手绘转效果图","工业设计"]
     },
     {
         "name": "笔魂AI",
         "description": "智能抠图和无损放大工具，提升图片编辑效率",
         "url": "https://bishen.ink",
         "category": "AI图像工具",
-        "tags": ["抠图","无损放大","图片编辑"]
+        "subtype": "图像增强",
+        "tags": ["AI图像","抠图","无损放大","图片增强","图像编辑"]
     },
     {
         "name": "简单设计",
         "description": "在线图片处理工具，提供多种图像编辑和优化功能",
         "url": "https://www.ijiantu.com",
         "category": "AI图像工具",
-        "tags": ["在线处理","图片编辑","多功能"]
+        "subtype": "在线修图",
+        "tags": ["AI图像","在线修图","图片编辑","图像优化","多功能处理"]
     },
     {
         "name": "笔格设计",
         "description": "智能消除和文生图工具，简化图像编辑流程",
         "url": "https://bigesj.com",
         "category": "AI图像工具",
-        "tags": ["智能消除","文生图","编辑流程"]
+        "subtype": "图像生成",
+        "tags": ["AI图像","文生图","智能消除","图像编辑","设计出图"]
     },
     {
         "name": "Eva Design System",
@@ -4032,14 +4078,16 @@ const websitesDatabase = [
         "description": "AI调色盘工具，学习用户偏好生成个性化配色",
         "url": "https://www.khroma.co",
         "category": "AI设计工具",
-        "tags": ["AI调色","个性化","用户偏好"]
+        "subtype": "配色工具",
+        "tags": ["AI设计","配色工具","AI调色","调色板","个性化配色"]
     },
     {
         "name": "ColorMagic",
         "description": "调色板生成工具，创建协调一致的色彩组合",
         "url": "https://colormagic.app",
         "category": "AI设计工具",
-        "tags": ["调色板","色彩组合","协调一致"]
+        "subtype": "配色工具",
+        "tags": ["AI设计","配色工具","调色板","色彩组合","视觉设计"]
     },
     {
         "name": "135 AI排版",
@@ -4053,7 +4101,8 @@ const websitesDatabase = [
         "description": "AI调色工具，学习用户偏好生成个性化配色",
         "url": "https://colorhunter.ai",
         "category": "AI设计工具",
-        "tags": ["AI调色","个性化","用户偏好"]
+        "subtype": "配色工具",
+        "tags": ["AI设计","配色工具","AI调色","个性化配色","设计灵感"]
     },
     {
         "name": "千图网",

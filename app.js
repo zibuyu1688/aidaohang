@@ -21,7 +21,7 @@ let aiResults = [];           // AI搜索结果
 let aiSearchComplete = false; // AI搜索是否完成
 let isFetchingAI = false;     // 是否正在拉取AI结果
 let currentQuery = '';
-const AI_BATCH_LIMIT = 9;     // 每次AI仅返回最多9条
+const AI_BATCH_LIMIT = 3;     // 每次AI仅返回最多3条
 
 // 分类颜色映射缓存
 const categoryColorCache = new Map();
@@ -123,13 +123,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const qwenBtn = document.getElementById('qwenBtn');
 
     if (deepseekBtn) {
-        deepseekBtn.disabled = true;
-        deepseekBtn.title = '当前版本已停用浏览器直连模型';
-        deepseekBtn.classList.remove('active');
+        if (getCurrentProvider() === 'deepseek') {
+            deepseekBtn.classList.add('active');
+        }
+        deepseekBtn.addEventListener('click', () => {
+            switchAIProvider('deepseek');
+            deepseekBtn.classList.add('active');
+            if (qwenBtn) {
+                qwenBtn.classList.remove('active');
+            }
+            console.log('✅ 已切换到 DeepSeek 模型');
+        });
     }
 
     if (qwenBtn) {
-        qwenBtn.classList.add('active');
+        if (getCurrentProvider() === 'qwen') {
+            qwenBtn.classList.add('active');
+        }
         qwenBtn.addEventListener('click', () => {
             switchAIProvider('qwen');
             qwenBtn.classList.add('active');
@@ -794,7 +804,7 @@ function displayMore() {
 function updateLoadMoreButton() {
     const remainingBuffered = allSearchResults.length - currentDisplayedCount;
     const canShowBuffered = remainingBuffered > 0;
-    const providerLabel = 'Qwen';
+    const providerLabel = getCurrentProvider() === 'deepseek' ? 'DeepSeek' : 'Qwen';
     const localRemaining = Math.max(localResults.length - currentDisplayedCount, 0);
     const canTriggerAI = !aiSearchComplete && currentDisplayedCount >= localResults.length;
     

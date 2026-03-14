@@ -117,27 +117,17 @@
 </head>
 <body>
     <div class="container">
-        <h1>🚀 快速配置</h1>
-        <p class="subtitle">一键配置API Key，立即体验智能搜索</p>
+    <h1>🚀 快速开始</h1>
+    <p class="subtitle">当前版本由服务端环境变量统一管理 API，无需在浏览器手动配置密钥</p>
         
         <div class="step">
-            <h3>📋 步骤1: 你的API Key</h3>
-            <p>DeepSeek API Key已为你准备好：</p>
-            <div class="api-key" id="apiKeyDisplay">sk-996f4ede1cc449f9a0380ec3f17e563f</div>
+            <h3>📋 步骤1: 服务端已接管密钥</h3>
+            <p>DeepSeek API Key 不会再显示在页面中，也不会保存到浏览器本地。</p>
+            <div class="api-key" id="apiKeyDisplay">server-managed</div>
         </div>
         
         <div class="step">
-            <h3>⚡ 步骤2: 一键配置</h3>
-            <p>点击下方按钮自动保存API Key并清除缓存：</p>
-            <button onclick="quickSetup()">🎯 一键配置</button>
-            <div id="success" class="success">
-                ✅ <strong>配置成功！</strong><br>
-                API Key已保存，缓存已清除。
-            </div>
-        </div>
-        
-        <div class="step">
-            <h3>🎉 步骤3: 开始使用</h3>
+            <h3>🎉 步骤2: 开始使用</h3>
             <p>配置完成后，点击下方按钮开始使用：</p>
             <button onclick="goToHomepage()">🏠 进入首页</button>
             <button onclick="testSearch()">🧪 测试搜索</button>
@@ -145,32 +135,13 @@
         
         <div class="note">
             💡 <strong>提示：</strong>
-            <br>• API Key会保存在浏览器本地存储中
-            <br>• 你也可以在首页右下角的⚙️设置按钮中修改
+            <br>• API Key 现在只保存在服务端环境变量中
+            <br>• 浏览器端不会保存也不会显示任何真实密钥
             <br>• 试试搜索："抠图"、"去水印"、"AI绘画"
         </div>
     </div>
     
-    <script src="config.js"></script>
     <script>
-        function quickSetup() {
-            const apiKey = 'sk-996f4ede1cc449f9a0380ec3f17e563f';
-            
-            // 保存API Key
-            saveApiKey(apiKey);
-            
-            // 清除所有缓存
-            clearOldCache();
-            
-            // 显示成功消息
-            document.getElementById('success').style.display = 'block';
-            
-            // 3秒后自动跳转
-            setTimeout(() => {
-                window.location.href = '/';
-            }, 2000);
-        }
-        
         function goToHomepage() {
             window.location.href = '/';
         }

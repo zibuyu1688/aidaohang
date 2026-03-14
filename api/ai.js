@@ -1,8 +1,20 @@
-// Vercel Serverless Function — 代理浏览器请求到 DashScope
-// 环境变量 DASHSCOPE_API_KEY 在 Vercel 控制台配置，不会暴露给浏览器
+// Vercel Serverless Function — 代理浏览器请求到 AI Provider
+// 环境变量在 Vercel 控制台配置，不会暴露给浏览器
 
-const DASHSCOPE_API_URL = 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions';
-const MODEL = process.env.DASHSCOPE_MODEL || 'qwen3.5-plus';
+const PROVIDERS = {
+    deepseek: {
+        apiUrl: 'https://api.deepseek.com/chat/completions',
+        apiKey: () => process.env.DEEPSEEK_API_KEY,
+        model: () => process.env.DEEPSEEK_MODEL || 'deepseek-chat',
+        missingKeyMessage: 'DEEPSEEK_API_KEY 未配置，请在 Vercel 控制台添加环境变量'
+    },
+    qwen: {
+        apiUrl: 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions',
+        apiKey: () => process.env.DASHSCOPE_API_KEY,
+        model: () => process.env.DASHSCOPE_MODEL || 'qwen3.5-plus',
+        missingKeyMessage: 'DASHSCOPE_API_KEY 未配置，请在 Vercel 控制台添加环境变量'
+    }
+};
 
 function extractJson(content) {
     const text = String(content || '').replace(/```json\n?/gi, '').replace(/```\n?/g, '').trim();
@@ -33,21 +45,25 @@ export default async function handler(req, res) {
         return res.status(405).json({ error: '只支持 POST 请求' });
     }
 
-    const API_KEY = process.env.DASHSCOPE_API_KEY;
-    if (!API_KEY) {
-        return res.status(500).json({ error: 'DASHSCOPE_API_KEY 未配置，请在 Vercel 控制台添加环境变量' });
-    }
-
     try {
-    const { task, query, systemPrompt, userPrompt, temperature, top_p, limit } = req.body || {};
+        const { task, query, systemPrompt, userPrompt, temperature, top_p, limit, provider } = req.body || {};
 
         if (!task || !query) {
             return res.status(400).json({ error: '缺少 task 或 query 参数' });
         }
 
-                const finalTask = task || 'search-assistant';
-                const normalizedLimit = Math.min(Math.max(Number(limit) || 6, 1), 10);
-                const mergedSystemPrompt = systemPrompt || `你是网站导航助手，请根据用户搜索词识别意图并推荐网站。
+        const providerName = provider && PROVIDERS[provider] ? provider : 'deepseek';
+        const activeProvider = PROVIDERS[providerName];
+        const API_KEY = activeProvider.apiKey();
+        const MODEL = activeProvider.model();
+
+        if (!API_KEY) {
+            return res.status(500).json({ error: activeProvider.missingKeyMessage });
+        }
+
+        const finalTask = task || 'search-assistant';
+        const normalizedLimit = Math.min(Math.max(Number(limit) || 6, 1), 10);
+        const mergedSystemPrompt = systemPrompt || `你是网站导航助手，请根据用户搜索词识别意图并推荐网站。
 必须严格返回 JSON 对象，不允许 Markdown，不允许额外解释，不允许代码块。
 返回格式固定为：
 {
@@ -74,14 +90,14 @@ export default async function handler(req, res) {
 3. 只返回与搜索词高度相关的网站；
 4. URL 必须是完整 https/http 地址；
 5. 如果不确定，就少返回，不要凑数。`;
-                const mergedUserPrompt = userPrompt || `用户搜索词：${query}\n请直接完成意图分析和网站推荐，一次性返回 JSON。`;
+    const mergedUserPrompt = userPrompt || `用户搜索词：${query}\n请直接完成意图分析和网站推荐，一次性返回 JSON。`;
 
-                const messages = [
-                        { role: 'system', content: mergedSystemPrompt },
-                        { role: 'user', content: mergedUserPrompt }
-                ];
+    const messages = [
+        { role: 'system', content: mergedSystemPrompt },
+        { role: 'user', content: mergedUserPrompt }
+    ];
 
-        const dashRes = await fetch(DASHSCOPE_API_URL, {
+    const aiRes = await fetch(activeProvider.apiUrl, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -95,16 +111,16 @@ export default async function handler(req, res) {
             })
         });
 
-        if (!dashRes.ok) {
-            const errorText = await dashRes.text();
-            return res.status(dashRes.status).json({ error: `DashScope 请求失败: ${dashRes.status} ${errorText}` });
+        if (!aiRes.ok) {
+            const errorText = await aiRes.text();
+            return res.status(aiRes.status).json({ error: `${providerName} 请求失败: ${aiRes.status} ${errorText}` });
         }
 
-        const data = await dashRes.json();
+        const data = await aiRes.json();
         const content = data?.choices?.[0]?.message?.content || '';
         const parsed = extractJson(content);
 
-        return res.status(200).json({ task: finalTask, model: MODEL, data: parsed });
+        return res.status(200).json({ task: finalTask, provider: providerName, model: MODEL, data: parsed });
     } catch (error) {
         return res.status(500).json({ error: error.message || 'AI 代理请求失败' });
     }

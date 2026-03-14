@@ -3,11 +3,14 @@ const CONFIG = {
     // AI 代理配置（浏览器仅调用本地代理，避免暴露真实 API Key）
     AI_PROXY_URL: '/api/ai',
 
+    // DeepSeek 配置
+    DEEPSEEK_MODEL: 'deepseek-chat',
+
     // Qwen（阿里云 DashScope）配置
     QWEN_MODEL: 'qwen3.5-plus',
 
-    // 当前选择的 AI 提供商（当前默认使用 qwen）
-    CURRENT_PROVIDER: 'qwen',
+    // 当前选择的 AI 提供商（当前默认使用 deepseek）
+    CURRENT_PROVIDER: 'deepseek',
     
     CACHE_DURATION: 3600000, // 缓存1小时
     MIN_LOCAL_RESULTS: 3 // 本地结果少于3个时才调用AI
@@ -20,7 +23,7 @@ function getCurrentProvider() {
 
 // 切换 AI 提供商
 function switchAIProvider(provider) {
-    if (!['qwen'].includes(provider)) {
+    if (!['deepseek', 'qwen'].includes(provider)) {
         console.error('❌ 无效的 AI 提供商:', provider);
         return false;
     }
@@ -41,11 +44,12 @@ function saveApiKey(key, provider) {
 
 // 获取当前 API 配置
 function getAPIConfig() {
+    const provider = getCurrentProvider();
     return {
         apiUrl: CONFIG.AI_PROXY_URL,
-        model: CONFIG.QWEN_MODEL,
+        model: provider === 'deepseek' ? CONFIG.DEEPSEEK_MODEL : CONFIG.QWEN_MODEL,
         apiKey: getApiKey(),
-        provider: 'qwen'
+        provider
     };
 }
 
@@ -122,7 +126,8 @@ function checkConfig() {
     console.log(`  • Model: ${apiConfig.model}`);
     console.log('');
     console.log('💡 快速切换命令:');
-    console.log("  • switchAIProvider('qwen'); // 当前默认模型 qwen3.5-plus");
+    console.log("  • switchAIProvider('deepseek'); // 默认模型 deepseek-chat");
+    console.log("  • switchAIProvider('qwen'); // 可切换到 qwen3.5-plus");
     
     return {provider, apiKey, apiConfig};
 }

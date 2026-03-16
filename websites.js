@@ -249,22 +249,6 @@ const websitesDatabase = [
         "tags": ["关键词研究","需求分析","用户痛点","选品","SEO"]
     },
     {
-        "name": "Google Keyword Planner",
-        "description": "Google 官方关键词规划工具，可评估关键词热度和商业价值。",
-        "url": "https://ads.google.com/home/tools/keyword-planner/",
-        "category": "跨境电商工具",
-        "subtype": "关键词研究",
-        "tags": ["Google Ads","关键词研究","流量分析","SEO","选品"]
-    },
-    {
-        "name": "Soovle",
-        "description": "聚合多个搜索引擎联想词，适合快速寻找用户需求方向。",
-        "url": "https://soovle.com",
-        "category": "跨境电商工具",
-        "subtype": "关键词研究",
-        "tags": ["关键词研究","联想词","需求挖掘","SEO","选品"]
-    },
-    {
         "name": "KWFinder",
         "description": "界面友好的关键词工具，适合分析搜索量和竞争难度。",
         "url": "https://kwfinder.com",
@@ -327,14 +311,6 @@ const websitesDatabase = [
         "category": "跨境电商工具",
         "subtype": "店铺运营",
         "tags": ["自动化","库存监控","价格监控","Dropshipping","店铺运营"]
-    },
-    {
-        "name": "ZIK Analytics",
-        "description": "eBay 与 Shopify 卖家的产品研究、竞品分析和趋势挖掘工具。",
-        "url": "https://www.zikanalytics.com",
-        "category": "跨境电商工具",
-        "subtype": "竞品分析",
-        "tags": ["eBay","Shopify","选品","竞品分析","趋势洞察"]
     },
     {
         "name": "Statista",
@@ -2583,14 +2559,6 @@ const websitesDatabase = [
         "tags": ["视频","影视","创作","社区"]
     },
     {
-        "name": "开眼",
-        "description": "每日精选创意视频",
-        "url": "https://www.kaiyanapp.com",
-        "category": "创意视频平台",
-        "tags": ["视频","创意","精选","短片"]
-    },
-    {
-        "name": "戛纳国际创意节",
         "description": "广告界的奥斯卡，全球最高创意奖项",
         "url": "https://www.canneslions.com",
         "category": "广告创意奖项",
@@ -4112,14 +4080,6 @@ const websitesDatabase = [
         "url": "https://www.aixcoder.com",
         "category": "AI编程工具",
         "tags": ["代码生成","自然语言","多语言支持"]
-    },
-    {
-        "name": "豆包 MarsCode",
-        "description": "字节跳动推出的AI编程助手，提供代码生成与补全功能",
-        "url": "https://www.doubao.com",
-        "category": "AI编程工具",
-        "subtype": "AI编程助手",
-        "tags": ["AI编程工具","AI编程助手","代码生成","代码补全","豆包 MarsCode"]
     },
     {
         "name": "Devin",
@@ -19703,12 +19663,12 @@ const websitesDatabase = [
         "tags": ["AI办公工具","AI办公","知识管理","文档助手","Notion AI"]
     },
     {
-        "name": "天工AI助手",
+        "name": "天工AI",
         "description": "",
         "url": "https://www.tiangong.cn/",
         "category": "人工智能",
         "subtype": "AI聊天",
-        "tags": ["人工智能","AI聊天","智能问答","搜索助手","天工AI助手"]
+        "tags": ["人工智能","AI聊天","智能问答","搜索助手","天工AI"]
     },
     {
         "name": "智谱AI",

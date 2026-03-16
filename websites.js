@@ -361,30 +361,6 @@ const websitesDatabase = [
         "tags": ["亚马逊","利基分析","利润预测","选品","卖家工具"]
     },
     {
-        "name": "Shopify Business Name Generator",
-        "description": "Shopify 官方店铺命名工具，适合为新产品方向快速命名。",
-        "url": "https://www.shopify.com/tools/business-name-generator",
-        "category": "跨境电商工具",
-        "subtype": "品牌工具",
-        "tags": ["Shopify","命名工具","品牌灵感","独立站","辅助工具"]
-    },
-    {
-        "name": "SourceLow",
-        "description": "免费的 dropshipping 供应商搜索工具库。",
-        "url": "https://www.sourcelow.com",
-        "category": "跨境电商工具",
-        "subtype": "供应链",
-        "tags": ["供应商","Dropshipping","货源","选品","资源库"]
-    },
-    {
-        "name": "Importify",
-        "description": "支持从其他独立站和平台导入商品到店铺的工具。",
-        "url": "https://www.importify.com",
-        "category": "跨境电商工具",
-        "subtype": "店铺运营",
-        "tags": ["商品采集","独立站","Shopify","导入工具","商品同步"]
-    },
-    {
         "name": "AutoDS",
         "description": "全自动 dropshipping 管理工具，支持库存与价格监控。",
         "url": "https://www.autods.com",
@@ -841,7 +817,7 @@ const websitesDatabase = [
     {
         "name": "Claude",
         "description": "Anthropic开发的AI助手，擅长长文本分析和深度对话",
-        "url": "https://learning.google.com",
+        "url": "https://claude.ai",
         "category": "AI聊天助手",
         "subtype": "长文本对话",
         "tags": ["AI聊天助手","长文本对话","内容分析","智能问答","Claude"]
@@ -890,9 +866,9 @@ const websitesDatabase = [
         "name": "AI教师助手",
         "description": "AI教师助手是北京外研在线数字科技有限公司推出的一款多功能教学辅助工具，它通过智能化技术帮助教师提高教学效率，同时也为学生提供个性化的学习体验。",
         "url": "https://aigc.unipus.cn",
-        "category": "AI聊天助手",
+        "category": "AI教育与学习",
         "subtype": "教学助手",
-        "tags": ["AI聊天助手","教学助手","教师备课","课堂辅助","AI教师助手"]
+        "tags": ["AI教育与学习","教学助手","教师备课","课堂辅助","AI教师助手"]
     },
     {
         "name": "英语教练",
@@ -946,9 +922,9 @@ const websitesDatabase = [
         "name": "Khanmigo",
         "description": "Khanmigo是由知名非营利教育组织Khan Academy开发的人工智能个人辅导和教学助手。它提供引人入胜、主题相关且有效的学习体验，并且在设计上将安全性和学习效果作为首要考虑。",
         "url": "https://www.khanmigo.ai",
-        "category": "AI聊天助手",
+        "category": "AI教育与学习",
         "subtype": "学习辅导",
-        "tags": ["AI聊天助手","学习辅导","可汗学院","教学助手","Khanmigo"]
+        "tags": ["AI教育与学习","学习辅导","可汗学院","教学助手","Khanmigo"]
     },
     {
         "name": "DataCamp",
@@ -1251,14 +1227,6 @@ const websitesDatabase = [
         "tags": ["AI设计","UI设计","原型设计","团队协作","国产设计"]
     },
     {
-        "name": "WPS AI",
-        "description": "WPS内置AI助手，智能文档处理",
-        "url": "https://www.wps.cn",
-        "category": "AI办公工具",
-        "subtype": "文档办公",
-        "tags": ["AI办公","文档处理","WPS","写作助手","办公"]
-    },
-    {
         "name": "ChatPPT",
         "description": "AI生成PPT，一键创建演示文稿",
         "url": "https://chat-ppt.com",
@@ -1313,14 +1281,6 @@ const websitesDatabase = [
         "category": "AI搜索引擎",
         "subtype": "问答检索",
         "tags": ["AI搜索","无广告","国产搜索","问答检索","纯净搜索"]
-    },
-    {
-        "name": "天工AI",
-        "description": "昆仑万维AI搜索和对话",
-        "url": "https://www.tiangong.cn",
-        "category": "AI搜索引擎",
-        "subtype": "问答检索",
-        "tags": ["AI搜索","AI对话","国产搜索","问答检索","智能助手"]
     },
     {
         "name": "百度",
@@ -1579,7 +1539,7 @@ const websitesDatabase = [
         "description": "罗振宇创办的知识服务平台",
         "url": "https://www.igetget.com",
         "category": "学习与知识",
-        "subtype": "知识课程",
+    "subtype": "在线课程",
         "tags": ["知识课程","听书学习","知识服务","成长学习","内容订阅"]
     },
     {
@@ -4194,11 +4154,12 @@ const websitesDatabase = [
         "tags": ["代码生成","自然语言","多语言支持"]
     },
     {
-        "name": "豆包MarsCode",
+        "name": "豆包 MarsCode",
         "description": "字节跳动推出的AI编程助手，提供代码生成与补全功能",
         "url": "https://www.doubao.com",
         "category": "AI编程工具",
-        "tags": ["字节跳动","代码生成","AI编程"]
+        "subtype": "AI编程助手",
+        "tags": ["AI编程工具","AI编程助手","代码生成","代码补全","豆包 MarsCode"]
     },
     {
         "name": "Devin",
@@ -16071,13 +16032,6 @@ const websitesDatabase = [
         "tags": ["ERP","跨境电商","物流","海外电商","卖家工具"]
     },
     {
-        "name": "豆包",
-        "description": "免费全能AI助手，生成图片/视频、写作、编程",
-        "url": "https://ai-w3cschool.com",
-        "category": "AI聊天助手",
-        "tags": ["AI","助手","多模态","免费","国产"]
-    },
-    {
         "name": "通义千问",
         "description": "阿里推出的自研大模型，通情、达义的全能AI助手",
         "url": "https://qianwen.aliyun.com",
@@ -16356,13 +16310,6 @@ const websitesDatabase = [
         "url": "https://kagi.com",
         "category": "AI搜索工具",
         "tags": ["AI","搜索","隐私","付费"]
-    },
-    {
-        "name": "Claude搜索",
-        "description": "Anthropic推出的基于Claude的AI搜索功能",
-        "url": "https://claude.ai",
-        "category": "AI搜索工具",
-        "tags": ["AI","搜索","Claude","Anthropic"]
     },
     {
         "name": "Tunee",
@@ -19612,7 +19559,7 @@ const websitesDatabase = [
         "tags": ["搜索引擎","百科知识","词条查询","知识检索","搜狗百科"]
     },
     {
-        "name": "deepseek",
+        "name": "DeepSeek",
         "description": "",
         "url": "https://www.deepseek.com/",
         "category": "人工智能",
@@ -19879,17 +19826,9 @@ const websitesDatabase = [
         "name": "Notion AI",
         "description": "",
         "url": "https://www.notion.so/",
-        "category": "人工智能",
+        "category": "AI办公工具",
         "subtype": "AI办公",
-        "tags": ["人工智能","AI办公","知识管理","文档助手","Notion AI"]
-    },
-    {
-        "name": "百度文库AI",
-        "description": "",
-        "url": "https://wenku.baidu.com/",
-        "category": "人工智能",
-        "subtype": "AI办公",
-        "tags": ["人工智能","AI办公","文档生成","文库助手","百度文库AI"]
+        "tags": ["AI办公工具","AI办公","知识管理","文档助手","Notion AI"]
     },
     {
         "name": "天工AI助手",
@@ -19906,14 +19845,6 @@ const websitesDatabase = [
         "category": "人工智能",
         "subtype": "大模型平台",
         "tags": ["人工智能","大模型平台","GLM","模型服务","智谱AI"]
-    },
-    {
-        "name": "文心助手",
-        "description": "",
-        "url": "https://yiyan.baidu.com/",
-        "category": "人工智能",
-        "subtype": "AI聊天",
-        "tags": ["人工智能","AI聊天","文心一言","智能问答","文心助手"]
     },
     {
         "name": "西瓜视频",
@@ -20905,13 +20836,6 @@ const websitesDatabase = [
         "tags": ["设计","在线","钢琴"]
     },
     {
-        "name": "Deepseek",
-        "description": "Deepseek AI",
-        "url": "https://deepseek.com",
-        "category": "AI聊天助手",
-        "tags": ["AI", "Deepseek"]
-    },
-    {
         "name": "即梦AI",
         "description": "即梦AI",
         "url": "https://jimeng.jianying.com/",
@@ -20945,13 +20869,14 @@ const websitesDatabase = [
         "description": "字节跳动推出的免费AI对话助手和个人助理",
         "url": "https://www.doubao.com/chat/",
         "category": "AI聊天助手",
-        "tags": ["字节跳动", "AI对话", "豆包"]
+        "subtype": "通用对话",
+        "tags": ["AI聊天助手", "通用对话", "字节跳动", "智能问答", "豆包"]
     }
 ];
 
 // 热门推荐
 const hotWebsites = [
-    "https://deepseek.com",
+    "https://chat.deepseek.com",
     "https://chat.openai.com",
     "https://gemini.google.com",
     "https://www.doubao.com/chat/",

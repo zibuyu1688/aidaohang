@@ -13413,721 +13413,824 @@ const websitesDatabase = [
         "description": "暂未开放！内置GPT-4的微软Office",
         "url": "https://blogs.microsoft.com",
         "category": "AI办公工具",
-        "tags": ["办公AI"]
+        "subtype": "AI助手",
+        "tags": ["办公AI","AI助手","微软Office","Copilot","文档办公"]
     },
     {
         "name": "Decktopus AI",
         "description": "高质量AI演示文稿生成工具",
         "url": "https://www.decktopus.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","幻灯片制作","Decktopus"]
     },
     {
         "name": "Powerpresent AI",
         "description": "AI创建精美的演示稿",
         "url": "https://present.yaara.ai",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","演示稿","Powerpresent"]
     },
     {
         "name": "Beautiful.ai",
         "description": "AI创建展示幻灯片",
         "url": "https://www.beautiful.ai",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","幻灯片设计","PPT生成","Beautiful.ai"]
     },
     {
         "name": "Presentations.AI",
         "description": "演示文档版的ChatGPT",
         "url": "https://www.presentations.ai",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","文档"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","幻灯片","AI演示"]
     },
     {
         "name": "ProcessOn",
         "description": "AI一站式绘图平台，轻松创建思维导图流程图",
         "url": "https://www.processon.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","流程图","在线绘图","ProcessOn"]
     },
     {
         "name": "Tome",
         "description": "先进的AI智能PPT制作工具",
         "url": "https://beta.tome.app",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具","智能"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","智能排版","Tome"]
     },
     {
         "name": "Glimmer Ai",
         "description": "热门！基于GPT-3和DALL·E2的AI PPT知名工具",
         "url": "https://glimmerai.tech",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","智能设计","Glimmer AI"]
     },
     {
         "name": "WordAi",
         "description": "10倍速AI内容输出！创建读者喜爱的优质内容",
         "url": "https://wordai.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "文档处理",
+        "tags": ["办公AI","文档处理","AI写作","内容改写","WordAi"]
     },
     {
         "name": "Timely",
         "description": "一款AI时间管理工具！可以帮助你更有效地管理时间",
         "url": "https://timelyapp.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "效率管理",
+        "tags": ["办公AI","效率管理","时间管理","日程规划","Timely"]
     },
     {
         "name": "ChatBA",
         "description": "AI幻灯片生成工具",
         "url": "https://www.chatba.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","幻灯片","ChatBA"]
     },
     {
         "name": "Whimsical",
         "description": "Whimsical推出的AI思维导图工具",
         "url": "https://whimsical.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","白板协作","流程图","Whimsical"]
     },
     {
         "name": "Ajelix",
         "description": "处理Excel和GoogleSheets表格的AI工具",
         "url": "https://ajelix.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "表格处理",
+        "tags": ["办公AI","表格处理","Excel","Google Sheets","公式生成"]
     },
     {
         "name": "Sheet+",
         "description": "Excel和GoogleSheets表格AI处理工具",
         "url": "https://sheetplus.ai",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "表格处理",
+        "tags": ["办公AI","表格处理","Excel公式","Google Sheets","Sheet+"]
     },
     {
         "name": "ExcelFormulaBot",
         "description": "AI将指令转换成Excel的函数公式",
         "url": "https://excelformulabot.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "表格处理",
+        "tags": ["办公AI","表格处理","Excel公式","函数生成","FormulaBot"]
     },
     {
         "name": "Fireflies.ai",
         "description": "AI会议转录和会议纪要生成工具",
         "url": "https://fireflies.ai",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "会议转写",
+        "tags": ["办公AI","会议转写","会议纪要","语音转文字","Fireflies"]
     },
     {
         "name": "Otter.ai",
         "description": "AI会议内容生成和实时转录",
         "url": "https://otter.ai",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "会议转写",
+        "tags": ["办公AI","会议转写","实时转录","会议纪要","Otter.ai"]
     },
     {
         "name": "Taskade",
         "description": "高颜值AI大纲和思维导图生成",
         "url": "https://www.taskade.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","大纲生成","任务协作","Taskade"]
     },
     {
         "name": "FormX.ai",
         "description": "AI自动从表格和文档中提取数据",
         "url": "https://www.formx.ai",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","文档"]
+        "subtype": "文档处理",
+        "tags": ["办公AI","文档处理","数据提取","OCR识别","表单识别"]
     },
     {
         "name": "Rossum.ai",
         "description": "现代化的AI文档处理工具",
         "url": "https://rossum.ai",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","文档","工具"]
+        "subtype": "文档处理",
+        "tags": ["办公AI","文档处理","票据识别","数据提取","Rossum"]
     },
     {
         "name": "百度AI创作工具箱",
         "description": "百度大脑智能创作平台",
         "url": "https://ai.baidu.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具","智能"]
+        "subtype": "文档处理",
+        "tags": ["办公AI","文档处理","AI写作","智能创作","百度AI"]
     },
     {
         "name": "万兴智演",
         "description": "万兴智演是AIGC软件A股上市公司万兴科技旗下泛知识AI视频演示工具",
         "url": "https://zhiyan.wondershare.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","视频演示","万兴智演"]
     },
     {
         "name": "Zapier AI",
         "description": "赞！Zapier推出的AI自动化集成功能",
         "url": "https://zapier.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "自动化办公",
+        "tags": ["办公AI","自动化办公","工作流自动化","集成平台","Zapier"]
     },
     {
         "name": "Noty AI",
         "description": "推荐！ChatGPT驱动的AI会议转录工具",
         "url": "https://noty.ai",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "会议转写",
+        "tags": ["办公AI","会议转写","会议纪要","语音转文字","Noty AI"]
     },
     {
         "name": "AiPPT",
         "description": "AI快速生成高质量PPT",
         "url": "https://www.aippt.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","智能排版","AiPPT"]
     },
     {
         "name": "Coda Al",
         "description": "在线协作平台Coda推出的AI写作和文档助手",
         "url": "https://coda.io",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","文档","助手"]
+        "subtype": "文档处理",
+        "tags": ["办公AI","文档处理","在线协作","AI写作","Coda"]
     },
     {
         "name": "灵办AI",
         "description": "全能型AI浏览器扩展插件，集成了AI对话、翻译、写作、阅读、搜索和绘图等多功能",
         "url": "https://ilingban.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","阅读","翻译"]
+        "subtype": "AI助手",
+        "tags": ["办公AI","AI助手","浏览器助手","翻译写作","效率插件"]
     },
     {
         "name": "Zoom Workplace",
         "description": "Zoom推出的AI办公协作和交流沟通平台",
         "url": "https://www.zoom.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "团队协作",
+        "tags": ["办公AI","团队协作","会议协作","办公沟通","Zoom"]
     },
     {
         "name": "iSlide Al",
         "description": "PPT一键生成+AI个性化编辑",
         "url": "https://www.islide.cc",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","PPT美化","iSlide"]
     },
     {
         "name": "美图AI PPT",
         "description": "美图秀秀推出的免费在线AI生成PPT设计工具",
         "url": "https://www.designkit.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT设计","在线PPT","美图AI PPT"]
     },
     {
         "name": "博思AI PPT",
         "description": "博思云创推出的在线AI生成PPT工具",
         "url": "https://pptgo.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","在线PPT","博思AI PPT"]
     },
     {
         "name": "Gamma App",
         "description": "AI幻灯片演示生成工具",
         "url": "https://gamma.app",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","幻灯片生成","PPT制作","Gamma"]
     },
     {
         "name": "讯飞智文",
         "description": "科大讯飞推出的免费AIPPT生成工具",
         "url": "https://zhiwen.xfyun.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","讯飞","智文"]
     },
     {
         "name": "轻竹办公",
         "description": "在线智能生成和设计PPT的AI工具",
         "url": "https://www.qzoffice.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具","智能"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT设计","智能生成","轻竹办公"]
     },
     {
         "name": "Chronicle",
         "description": "AI高颜值演示文稿创建",
         "url": "https://chroniclehq.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","内容展示","Chronicle"]
     },
     {
         "name": "万知",
         "description": "零一万物推出的一站式AI文档阅读和PPT创作工作台",
         "url": "https://www.wanzhi.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","阅读","文档"]
+        "subtype": "文档处理",
+        "tags": ["办公AI","文档处理","文档阅读","PPT创作","万知"]
     },
     {
         "name": "Slides Al",
         "description": "AI快速创建演示幻灯片",
         "url": "https://www.slidesai.io",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","幻灯片生成","PPT制作","Slides AI"]
     },
     {
         "name": "歌者AI",
         "description": "彩漩PPT推出的AIPPT生成工具",
         "url": "https://gezhe.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","彩漩PPT","歌者AI"]
     },
     {
         "name": "Auxi",
         "description": "功能强大的PowerPoint Al插件",
         "url": "https://www.auxi.ai",
         "category": "AI办公工具",
-        "tags": ["办公AI"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PowerPoint插件","PPT增强","Auxi"]
     },
     {
         "name": "MindShow",
         "description": "国内独立开发者开发的输入内容自动生成演示工具",
         "url": "https://www.mindshow.fun",
         "category": "AI办公工具",
-        "tags": ["办公AI","工具"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","自动生成PPT","内容转演示","MindShow"]
     },
     {
         "name": "Vika维格云",
         "description": "智能多维表格和数据生产力平台",
         "url": "https://vika.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","智能"]
+        "subtype": "表格处理",
+        "tags": ["办公AI","表格处理","多维表格","数据协作","维格云"]
     },
     {
         "name": "Rows",
         "description": "集成了AI功能的在线表格处理工具",
         "url": "https://rows.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "表格处理",
+        "tags": ["办公AI","表格处理","在线表格","数据分析","Rows"]
     },
     {
         "name": "SheetGod",
         "description": "BoloForms推出的AI Excel公式生成工具",
         "url": "https://www.boloforms.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "表格处理",
+        "tags": ["办公AI","表格处理","Excel公式","公式生成","SheetGod"]
     },
     {
         "name": "Excel Formularizer",
         "description": "AI将文本输入转换为Excel公式处理",
         "url": "https://formularizer.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "表格处理",
+        "tags": ["办公AI","表格处理","Excel公式","文本转公式","Formularizer"]
     },
     {
         "name": "百度文库AI助手",
         "description": "基于文心一言的一站式智能文档助手",
         "url": "https://wenku.baidu.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","文档","智能","助手"]
+        "subtype": "文档处理",
+        "tags": ["办公AI","文档处理","文档助手","百度文库","知识问答"]
     },
     {
         "name": "星火文档问答",
         "description": "基于讯飞星火大模型的AI文档和知识库问答助手",
         "url": "https://chatdoc.xfyun.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","文档","助手"]
+        "subtype": "文档处理",
+        "tags": ["办公AI","文档处理","知识库问答","文档助手","讯飞星火"]
     },
     {
         "name": "PMAI",
         "description": "面向产品经理的AI助手",
         "url": "https://www.pm-ai.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","助手"]
+        "subtype": "AI助手",
+        "tags": ["办公AI","AI助手","产品经理","需求分析","PMAI"]
     },
     {
         "name": "知我AI",
         "description": "智能阅读机器人，AI总结文档、网页、视频、播客等",
         "url": "https://knowme.xiaoduoai.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","阅读","文档","智能","总结"]
+        "subtype": "文档处理",
+        "tags": ["办公AI","文档处理","内容总结","阅读总结","知我AI"]
     },
     {
         "name": "星火科研助手",
         "description": "提供文献成果调研、论文研读和学术 写作等科学研究助手功能",
         "url": "https://paperlogin.iflytek.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","助手"]
+        "subtype": "AI助手",
+        "tags": ["办公AI","AI助手","科研写作","论文阅读","星火科研"]
     },
     {
         "name": "印象AI",
         "description": "印象笔记推出的AI知识和信息管理功能",
         "url": "https://www.yinxiang.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "知识管理",
+        "tags": ["办公AI","知识管理","笔记整理","信息管理","印象AI"]
     },
     {
         "name": "Craft Al Assistant",
         "description": "在线文档工县Craft推出的AI文档和创作助手",
         "url": "https://www.craft.do",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","文档","助手"]
+        "subtype": "文档处理",
+        "tags": ["办公AI","文档处理","在线文档","创作助手","Craft"]
     },
     {
         "name": "Super Al",
         "description": "AI复杂文档自动识别处理转换",
         "url": "https://super.ai",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","文档"]
+        "subtype": "文档处理",
+        "tags": ["办公AI","文档处理","自动识别","文档转换","Super AI"]
     },
     {
         "name": "亿图脑图",
         "description": "亿图脑图AI思维导图助手",
         "url": "https://www.edrawsoft.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","助手"]
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","脑图制作","知识梳理","亿图脑图"]
     },
     {
         "name": "Mapify",
         "description": "Xmind推出的AI思维导图生成工具",
         "url": "https://mapify.so",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","脑图生成","Xmind","Mapify"]
     },
     {
         "name": "小画桌",
         "description": "在线协作白板工具，内置AIGC功能",
         "url": "https://www.xiaohuazhuo.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "白板协作",
+        "tags": ["办公AI","白板协作","在线白板","团队共创","小画桌"]
     },
     {
         "name": "知犀AI",
         "description": "知犀推出的AI思维导图生成工具",
         "url": "https://www.swdt.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","脑图生成","知犀AI","知识整理"]
     },
     {
         "name": "Xmind Copilot",
         "description": "Xmind Al思维导图助手",
         "url": "https://xmind.ai",
         "category": "AI办公工具",
-        "tags": ["办公AI","助手"]
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","Xmind","脑图助手","Copilot"]
     },
     {
         "name": "妙办AI画图工具",
         "description": "免费一键生成流程图、思维导图",
         "url": "https://imiaoban.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","流程图","自动生成","妙办AI"]
     },
     {
         "name": "GitMind思乎",
         "description": "免费思维导图工具",
         "url": "https://gitmind.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","工具"]
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","脑图工具","GitMind","知识梳理"]
     },
     {
         "name": "AmyMind",
         "description": "开箱即用的在线AI思维导图工具",
         "url": "https://amymind.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","在线脑图","AI脑图","AmyMind"]
     },
     {
         "name": "Miro Al",
         "description": "在线白板协作工具推出的AI功能",
         "url": "https://miro.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "白板协作",
+        "tags": ["办公AI","白板协作","在线白板","团队协作","Miro"]
     },
     {
         "name": "博思AI白板",
         "description": "AI自动生成文字和思维导图",
         "url": "https://boardmix.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "白板协作",
+        "tags": ["办公AI","白板协作","思维导图","内容生成","boardmix"]
     },
     {
         "name": "腾讯会议AI小助手",
         "description": "腾讯会议推出的AI会议内容助理",
         "url": "https://meeting.tencent.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","助手"]
+        "subtype": "会议转写",
+        "tags": ["办公AI","会议转写","会议助手","会议纪要","腾讯会议"]
     },
     {
         "name": "麦耳会记",
         "description": "思必驰推出的AI会议助手，语音转文字、字幕同传、AI摘要",
         "url": "https://work.duiopen.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","助手"]
+        "subtype": "会议转写",
+        "tags": ["办公AI","会议转写","语音转文字","同声传译","AI摘要"]
     },
     {
         "name": "Glif",
         "description": "无代码的AI小工具构建平台",
         "url": "https://glif.app",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "自动化办公",
+        "tags": ["办公AI","自动化办公","无代码工具","工作流构建","Glif"]
     },
     {
         "name": "BetterYeah Al",
         "description": "企业AI应用和助手构建平台",
         "url": "https://www.betteryeah.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","助手"]
+        "subtype": "自动化办公",
+        "tags": ["办公AI","自动化办公","企业AI应用","助手搭建","BetterYeah"]
     },
     {
         "name": "影刀AI Power",
         "description": "面向企业的无代码AI开发和集成平台",
         "url": "https://www.yingdao.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "自动化办公",
+        "tags": ["办公AI","自动化办公","无代码平台","企业集成","影刀AI"]
     },
     {
         "name": "Anakin.ai",
         "description": "一站式无代码AI应用构建平台",
         "url": "https://anakin.ai",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "自动化办公",
+        "tags": ["办公AI","自动化办公","AI应用搭建","无代码平台","Anakin"]
     },
     {
         "name": "Merlin",
         "description": "基于ChatGPT的Chrome浏览器扩展，浏览任意网页时利用GPT",
         "url": "https://www.getmerlin.in",
         "category": "AI办公工具",
-        "tags": ["办公AI"]
+        "subtype": "AI助手",
+        "tags": ["办公AI","AI助手","浏览器助手","网页总结","Merlin"]
     },
     {
         "name": "Raycast Al",
         "description": "Raycast推出的Mac AI助手，智能写作、编程、回答问题等",
         "url": "https://www.raycast.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","智能","助手"]
+        "subtype": "AI助手",
+        "tags": ["办公AI","AI助手","Mac效率","智能写作","Raycast"]
     },
     {
         "name": "靠谱AI",
         "description": "无代码AI机器人创建平台",
         "url": "https://www.kaopuai.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "自动化办公",
+        "tags": ["办公AI","自动化办公","AI机器人","无代码平台","靠谱AI"]
     },
     {
         "name": "通答AI",
         "description": "企业AI数字员工生成平台",
         "url": "https://www.tongdaai.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "自动化办公",
+        "tags": ["办公AI","自动化办公","数字员工","企业智能体","通答AI"]
     },
     {
         "name": "奇妙问",
         "description": "企业AI数字员工生成平台",
         "url": "https://aiask365.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "自动化办公",
+        "tags": ["办公AI","自动化办公","数字员工","企业智能体","奇妙问"]
     },
     {
         "name": "职徒简历",
         "description": "智能简历制作软件，基于GPT的简历优化和简历代写",
         "url": "https://www.52cv.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","智能"]
+        "subtype": "求职办公",
+        "tags": ["办公AI","求职办公","简历优化","简历生成","职徒简历"]
     },
     {
         "name": "Napkin",
         "description": "将文本内容快速转换成演示图像的AI办公工具",
         "url": "https://www.napkin.ai",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","文本转图示","可视化表达","Napkin"]
     },
     {
         "name": "AI灵感PPT",
         "description": "免费高效的AIPPT生成工具",
         "url": "https://www.lgppt.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","PPT制作","AI灵感PPT"]
     },
     {
         "name": "百度GBI",
         "description": "百度推出的全球商业智能平台",
         "url": "https://gbi.cloud.baidu.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","智能"]
+        "subtype": "数据分析",
+        "tags": ["办公AI","数据分析","商业智能","BI平台","百度GBI"]
     },
     {
         "name": "轻云图",
         "description": "轻量化3D文字词云图在线生成工具",
         "url": "https://cloud.yoo-ai.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","工具"]
+        "subtype": "数据分析",
+        "tags": ["办公AI","数据分析","词云生成","数据可视化","轻云图"]
     },
     {
         "name": "北极九章",
         "description": "新一代AI对话式数据分析平台",
         "url": "https://datarc.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","分析"]
+        "subtype": "数据分析",
+        "tags": ["办公AI","数据分析","对话式分析","BI平台","北极九章"]
     },
     {
         "name": "Ayoa Ultimate",
         "description": "AI思维导图和头脑风暴工具",
         "url": "https://www.ayoa.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","头脑风暴","任务规划","Ayoa"]
     },
     {
         "name": "WPS灵犀",
         "description": "WPS推出的AI智能助手",
         "url": "https://lingxi.wps.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","智能","助手"]
+        "subtype": "AI助手",
+        "tags": ["办公AI","AI助手","WPS","文档办公","智能助手"]
     },
     {
         "name": "奇觅",
         "description": "游戏广告AI制作与投放平台",
         "url": "https://qimi.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "自动化办公",
+        "tags": ["办公AI","自动化办公","广告制作","广告投放","奇觅"]
     },
     {
         "name": "Hoarder",
         "description": "可自托管的书签应用程序",
         "url": "https://hoarder.app",
         "category": "AI办公工具",
-        "tags": ["办公AI"]
+        "subtype": "知识管理",
+        "tags": ["办公AI","知识管理","书签管理","自托管","Hoarder"]
     },
     {
         "name": "司马诸葛",
         "description": "企业级AI数字员工平台",
         "url": "https://smartchoose.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "自动化办公",
+        "tags": ["办公AI","自动化办公","数字员工","企业服务","司马诸葛"]
     },
     {
         "name": "YOO简历",
         "description": "必优科技推出的AI简历生成工具",
         "url": "https://www.yoojober.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "求职办公",
+        "tags": ["办公AI","求职办公","简历生成","简历优化","YOO简历"]
     },
     {
         "name": "文多多AIPPT",
         "description": "AI一键生成PPT，支持AI配图和智能资料整合",
         "url": "https://docmee.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","智能"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","资料整合","文多多AIPPT"]
     },
     {
         "name": "麦当秀Mindshow",
         "description": "AI在线PPT制作工具，支持Markdown等多种格式",
         "url": "https://www.mindshow.vip",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT制作","Markdown转PPT","Mindshow"]
     },
     {
         "name": "熊猫办公",
         "description": "AI办公服务平台，提供PPT模板、Excel模板、Word模板等资源",
         "url": "https://www.tukuppt.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","PPT模板","Excel模板","熊猫办公"]
     },
     {
         "name": "NotebookLM",
         "description": "谷歌推出的AI笔记应用，5分钟生成一段对话播客",
         "url": "https://notebooklm.google",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "知识管理",
+        "tags": ["办公AI","知识管理","笔记整理","内容总结","NotebookLM"]
     },
     {
         "name": "苏打办公",
         "description": "360公司推出的一站式AI办公工具",
         "url": "https://bangong.360.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","办公套件","效率工具","苏打办公"]
     },
     {
         "name": "希沃白板",
         "description": "专为互动教学设计的AI课件生成器",
         "url": "https://easinote.seewo.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "白板协作",
+        "tags": ["办公AI","白板协作","课件生成","教学白板","希沃白板"]
     },
     {
         "name": "GAIPPT",
         "description": "AI智能美化PPT工具，上传PPT一键美化",
         "url": "https://www.gaippt.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具","智能"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT美化","智能排版","GAIPPT"]
     },
     {
         "name": "秒出PPT",
         "description": "一键生成PPT，智能辅助编辑",
         "url": "https://10sppt.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","智能"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT生成","智能编辑","秒出PPT"]
     },
     {
         "name": "蓝字典AI求职",
         "description": "AI求职工具，提供AI简历生成、AI模拟面试服务",
         "url": "https://www.lanzidian.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "求职办公",
+        "tags": ["办公AI","求职办公","简历生成","模拟面试","蓝字典AI求职"]
     },
     {
         "name": "神笔简历",
         "description": "AI简历云平台，专为求职者提供一站式求职服务",
         "url": "https://jianli.jiuyeqiao.cn",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "求职办公",
+        "tags": ["办公AI","求职办公","简历生成","求职服务","神笔简历"]
     },
     {
         "name": "小易AI",
         "description": "易企秀推出的AI办公工具",
         "url": "https://ai.eqxiu.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "AI助手",
+        "tags": ["办公AI","AI助手","易企秀","内容创作","小易AI"]
     },
     {
         "name": "自由画布",
         "description": "百度文库和百度网盘联合推出的AI万能白板",
         "url": "https://wenku.baidu.co",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "白板协作",
+        "tags": ["办公AI","白板协作","万能白板","百度文库","自由画布"]
     },
     {
         "name": "匡优AI",
         "description": "AI出题工具，快速生成各类考试题目",
         "url": "https://ai.kyou.ltd",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "文档处理",
+        "tags": ["办公AI","文档处理","出题工具","题库生成","匡优AI"]
     },
     {
         "name": "咔片PPT",
         "description": "AI PPT制作工具，设计美化全流程自动化",
         "url": "https://www.cappt.cc",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","工具"]
+        "subtype": "演示文稿",
+        "tags": ["办公AI","演示文稿","PPT制作","PPT美化","咔片PPT"]
     },
     {
         "name": "无阶未来",
         "description": "AI应用与弹性算网平台",
         "url": "https://www.aivinla.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "自动化办公",
+        "tags": ["办公AI","自动化办公","AI应用平台","算力平台","无阶未来"]
     },
     {
         "name": "UP简历",
         "description": "AI聊天搞定简历",
         "url": "https://www.upcv.tech",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI"]
+        "subtype": "求职办公",
+        "tags": ["办公AI","求职办公","简历生成","AI简历","UP简历"]
     },
     {
         "name": "爱图表",
         "description": "镝数科技推出的A数据可视化和分析工具",
         "url": "https://aitubiao.com",
         "category": "AI办公工具",
-        "tags": ["办公AI","工具","分析"]
+        "subtype": "数据分析",
+        "tags": ["办公AI","数据分析","数据可视化","图表生成","爱图表"]
     },
     {
         "name": "Shortcut",
         "description": "AI Excel 超级智能体，处理复杂 Excel 任务",
         "url": "https://www.tryshortcut.ai",
         "category": "AI办公工具",
-        "tags": ["办公AI","AI","智能"]
+        "subtype": "表格处理",
+        "tags": ["办公AI","表格处理","Excel智能体","复杂表格","Shortcut"]
     },
     {
         "name": "GitFluence",
@@ -17193,294 +17296,336 @@ const websitesDatabase = [
         "description": "",
         "url": "http://www.nipic.com/index.html",
         "category": "设计资源",
-        "tags": []
+        "subtype": "图片素材",
+        "tags": ["设计资源","图片素材","素材下载","平面设计","昵图网"]
     },
     {
         "name": "天堂图片网",
         "description": "",
         "url": "http://www.ivsky.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "图片素材",
+        "tags": ["设计资源","图片素材","高清图片","壁纸素材","天堂图片网"]
     },
     {
         "name": "大图网",
         "description": "",
         "url": "http://www.daimg.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "图片素材",
+        "tags": ["设计资源","图片素材","设计素材","高清大图","大图网"]
     },
     {
         "name": "123RF",
         "description": "",
         "url": "http://www.123rf.com.cn/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "图片素材",
+        "tags": ["设计资源","图片素材","正版图库","商业图片","123RF"]
     },
     {
         "name": "我图网",
         "description": "",
         "url": "http://www.ooopic.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "图片素材",
+        "tags": ["设计资源","图片素材","模板素材","平面设计","我图网"]
     },
     {
         "name": "搜狗素材",
         "description": "",
         "url": "http://sucai.sogou.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "图片素材",
+        "tags": ["设计资源","图片素材","素材搜索","图片搜索","搜狗素材"]
     },
     {
         "name": "POCO 摄影社区",
         "description": "",
         "url": "http://photo.poco.cn/like",
         "category": "设计资源",
-        "tags": []
+        "subtype": "摄影图库",
+        "tags": ["设计资源","摄影图库","摄影社区","摄影作品","POCO"]
     },
     {
         "name": "苏打苏塔",
         "description": "",
         "url": "http://sudasuta.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "视觉灵感",
+        "tags": ["设计资源","视觉灵感","设计博客","创意灵感","苏打苏塔"]
     },
     {
         "name": "全景",
         "description": "",
         "url": "http://www.quanjing.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "摄影图库",
+        "tags": ["设计资源","摄影图库","正版图库","商业图片","全景"]
     },
     {
         "name": "优美图",
         "description": "",
         "url": "http://www.youmeitu.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "图片素材",
+        "tags": ["设计资源","图片素材","美图分享","高清图片","优美图"]
     },
     {
         "name": "视觉 ME",
         "description": "",
         "url": "http://shijue.me/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "视觉灵感",
+        "tags": ["设计资源","视觉灵感","设计社区","创意作品","视觉ME"]
     },
     {
         "name": "堆糖网",
         "description": "",
         "url": "http://www.duitang.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "视觉灵感",
+        "tags": ["设计资源","视觉灵感","灵感采集","图片收藏","堆糖"]
     },
     {
         "name": "Dreamstime",
         "description": "",
         "url": "https://www.dreamstime.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "摄影图库",
+        "tags": ["设计资源","摄影图库","正版图库","商业图片","Dreamstime"]
     },
     {
         "name": "Life Of Pix",
         "description": "",
         "url": "http://www.lifeofpix.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "摄影图库",
+        "tags": ["设计资源","摄影图库","免费图库","高清摄影","Life Of Pix"]
     },
     {
         "name": "Free Digital Photos",
         "description": "",
         "url": "http://www.freedigitalphotos.net/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "摄影图库",
+        "tags": ["设计资源","摄影图库","免费图片","商业配图","Free Digital Photos"]
     },
     {
         "name": "IM Creator",
         "description": "",
         "url": "http://www.imcreator.com/free",
         "category": "设计资源",
-        "tags": []
+        "subtype": "图片素材",
+        "tags": ["设计资源","图片素材","免费素材","网站素材","IM Creator"]
     },
     {
         "name": "Free Photos Bank",
         "description": "",
         "url": "http://www.freephotosbank.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "摄影图库",
+        "tags": ["设计资源","摄影图库","免费图片","图库资源","Free Photos Bank"]
     },
     {
         "name": "PicJumbo",
         "description": "",
         "url": "https://picjumbo.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "摄影图库",
+        "tags": ["设计资源","摄影图库","免费图库","高清照片","PicJumbo"]
     },
     {
         "name": "Pickupimage",
         "description": "",
         "url": "http://pickupimage.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "摄影图库",
+        "tags": ["设计资源","摄影图库","免费图片","高清照片","Pickupimage"]
     },
     {
         "name": "Illusion Magazine",
         "description": "",
         "url": "http://illusion.scene360.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "视觉灵感",
+        "tags": ["设计资源","视觉灵感","创意杂志","插画摄影","Illusion Magazine"]
     },
     {
         "name": "9GAG",
         "description": "",
         "url": "http://9gag.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "GIF动效",
+        "tags": ["设计资源","GIF动效","梗图灵感","动态内容","9GAG"]
     },
     {
         "name": "GIF 酷",
         "description": "",
         "url": "http://gifcool.lofter.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "GIF动效",
+        "tags": ["设计资源","GIF动效","动态图片","GIF灵感","GIF酷"]
     },
     {
         "name": "Kotaiguchi-gif",
         "description": "",
         "url": "http://kotaiguchi-gif.tumblr.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "GIF动效",
+        "tags": ["设计资源","GIF动效","动态艺术","Tumblr灵感","Kotaiguchi"]
     },
     {
         "name": "Rafael-varona",
         "description": "",
         "url": "http://www.rafael-varona.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "GIF动效",
+        "tags": ["设计资源","GIF动效","动态图形","视觉艺术","Rafael Varona"]
     },
     {
         "name": "Golden Wolf",
         "description": "",
         "url": "http://goldenwolf.tv/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "GIF动效",
+        "tags": ["设计资源","GIF动效","动效工作室","动画灵感","Golden Wolf"]
     },
     {
         "name": "Julian Glander",
         "description": "",
         "url": "http://glander.co/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "GIF动效",
+        "tags": ["设计资源","GIF动效","3D动效","视觉艺术","Julian Glander"]
     },
     {
         "name": "Gifparanoia",
         "description": "",
         "url": "http://www.gifparanoia.org/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "GIF动效",
+        "tags": ["设计资源","GIF动效","动态图站","GIF灵感","Gifparanoia"]
     },
     {
         "name": "秀米微信图文排版工具",
         "description": "",
         "url": "http://xiumi.us/#",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","图文排版","微信排版","秀米"]
     },
     {
         "name": "I排版",
         "description": "",
         "url": "http://www.ipaiban.com/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","公众号排版","图文编辑","I排版"]
     },
     {
         "name": "135微信编辑器",
         "description": "",
         "url": "http://www.135editor.com/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","微信编辑器","公众号排版","135编辑器"]
     },
     {
         "name": "96 微信编辑器",
         "description": "",
         "url": "http://bj.96weixin.com/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","微信编辑器","图文排版","96微信编辑器"]
     },
     {
         "name": "易点微信编辑器",
         "description": "",
         "url": "http://wxedit.yead.net/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","微信编辑器","公众号排版","易点微信编辑器"]
     },
     {
         "name": "小蚂蚁微信编辑器",
         "description": "",
         "url": "http://www.xmyeditor.com/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","微信编辑器","图文编辑","小蚂蚁微信编辑器"]
     },
     {
         "name": "91 微信编辑器",
         "description": "",
         "url": "http://bj.91join.com/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","微信编辑器","公众号排版","91微信编辑器"]
     },
     {
         "name": "微信在线编辑器",
         "description": "",
         "url": "http://wx.bzrw.net/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","微信编辑器","在线排版","公众号编辑"]
     },
     {
         "name": "005 微信编辑器",
         "description": "",
         "url": "http://bj.weixin005.com/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","微信编辑器","图文排版","005微信编辑器"]
     },
     {
         "name": "乐排图文编辑工具",
         "description": "",
         "url": "http://pb.ishangtong.com/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","图文排版","公众号排版","乐排"]
     },
     {
         "name": "爱美编",
         "description": "",
         "url": "http://www.imeibian.com/main.html",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","图文编辑","长图文制作","爱美编"]
     },
     {
         "name": "天行微信编辑器",
         "description": "",
         "url": "http://tx.huceo.com/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","微信编辑器","公众号排版","天行微信编辑器"]
     },
     {
         "name": "秀多多图文编辑器",
         "description": "",
         "url": "http://xiudodo.com/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","图文编辑","公众号排版","秀多多"]
     },
     {
         "name": "小易微信编辑器",
         "description": "",
         "url": "http://xiaoyi.e7wei.cn/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","微信编辑器","图文排版","小易微信编辑器"]
     },
     {
         "name": "微信圈圈排版助手",
         "description": "",
         "url": "http://www.weixinquanquan.com/wxeditor",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "文档办公",
+        "tags": ["办公AI","文档办公","排版助手","公众号排版","微信圈圈"]
     },
     {
         "name": "新浪微博短链接生成器",
@@ -17865,140 +18010,160 @@ const websitesDatabase = [
         "description": "",
         "url": "http://idea.ui.cn/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "设计灵感",
+        "tags": ["创意灵感","设计灵感","UI灵感","界面设计","UI中国灵感库"]
     },
     {
         "name": "设计癖",
         "description": "",
         "url": "http://www.shejipi.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "设计趋势",
+        "tags": ["创意灵感","设计趋势","设计媒体","创意资讯","设计癖"]
     },
     {
         "name": "设计青年",
         "description": "",
         "url": "http://www.design521.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "设计灵感",
+        "tags": ["创意灵感","设计灵感","创意作品","设计社区","设计青年"]
     },
     {
         "name": "Oritive 创意设计",
         "description": "",
         "url": "http://www.oritive.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "创意社区",
+        "tags": ["创意灵感","创意社区","创意设计","作品展示","Oritive"]
     },
     {
         "name": "创意美图小站",
         "description": "",
         "url": "http://www.poboo.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "设计灵感",
+        "tags": ["创意灵感","设计灵感","美图灵感","视觉创意","创意美图小站"]
     },
     {
         "name": "网络广告人社区",
         "description": "",
         "url": "http://iwebad.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "广告案例",
+        "tags": ["创意灵感","广告案例","广告社区","营销创意","网络广告人"]
     },
     {
         "name": "懒人图库",
         "description": "",
         "url": "http://www.lanrentuku.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "设计灵感",
+        "tags": ["创意灵感","设计灵感","素材灵感","网页素材","懒人图库"]
     },
     {
         "name": "中国广告网",
         "description": "",
         "url": "http://www.cnad.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "广告案例",
+        "tags": ["创意灵感","广告案例","广告行业","营销传播","中国广告网"]
     },
     {
         "name": "广告放肆",
         "description": "",
         "url": "http://adfuns.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "广告案例",
+        "tags": ["创意灵感","广告案例","创意广告","营销案例","广告放肆"]
     },
     {
         "name": "创意网",
         "description": "",
         "url": "http://www.fsdpp.cn/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "创意社区",
+        "tags": ["创意灵感","创意社区","创意作品","灵感分享","创意网"]
     },
     {
         "name": "设计 2 点半",
         "description": "",
         "url": "http://www.2dianban.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "设计灵感",
+        "tags": ["创意灵感","设计灵感","创意作品","设计分享","设计2点半"]
     },
     {
         "name": "Inspiration Grid",
         "description": "",
         "url": "http://theinspirationgrid.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "设计灵感",
+        "tags": ["创意灵感","设计灵感","视觉灵感","创意画廊","Inspiration Grid"]
     },
     {
         "name": "siteInspire",
         "description": "",
         "url": "https://www.siteinspire.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "网页灵感",
+        "tags": ["创意灵感","网页灵感","网站案例","网页设计","siteInspire"]
     },
     {
         "name": "welovead",
         "description": "",
         "url": "http://www.welovead.com/cn",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "广告案例",
+        "tags": ["创意灵感","广告案例","创意广告","广告作品","welovead"]
     },
     {
         "name": "AdSoftheWorld",
         "description": "",
         "url": "http://adsoftheworld.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "广告案例",
+        "tags": ["创意灵感","广告案例","全球广告","广告创意","Ads of the World"]
     },
     {
         "name": "Framelab Design Direction",
         "description": "",
         "url": "http://www.frmlb.de/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "设计灵感",
+        "tags": ["创意灵感","设计灵感","设计方向","视觉创意","Framelab"]
     },
     {
         "name": "Cargo",
         "description": "",
         "url": "http://cargocollective.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "创意社区",
+        "tags": ["创意灵感","创意社区","作品集平台","创意作品","Cargo"]
     },
     {
         "name": "boredpanda",
         "description": "",
         "url": "http://www.boredpanda.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "创意社区",
+        "tags": ["创意灵感","创意社区","创意内容","视觉故事","Bored Panda"]
     },
     {
         "name": "Creativebloq",
         "description": "",
         "url": "http://www.creativebloq.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "设计趋势",
+        "tags": ["创意灵感","设计趋势","设计媒体","创意资讯","Creative Bloq"]
     },
     {
         "name": "Creative Guerrilla Marketing",
         "description": "",
         "url": "http://www.creativeguerrillamarketing.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "广告案例",
+        "tags": ["创意灵感","广告案例","游击营销","营销创意","Guerrilla Marketing"]
     },
     {
         "name": "Yin liuzhangfen",
@@ -18012,490 +18177,560 @@ const websitesDatabase = [
         "description": "",
         "url": "http://www.xmindchina.net/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","脑图工具","XMind","知识梳理"]
     },
     {
         "name": "Mindjet 思维导图软件",
         "description": "",
         "url": "http://www.mindmanager.cc/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","脑图工具","MindManager","项目规划"]
     },
     {
         "name": "FreeMind 思维导图",
         "description": "",
         "url": "http://freemind.en.softonic.com/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","开源脑图","知识管理","FreeMind"]
     },
     {
         "name": "iMindMap 思维导图软件",
         "description": "",
         "url": "http://www.imindmap.cc/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","脑图工具","头脑风暴","iMindMap"]
     },
     {
         "name": "百度脑图",
         "description": "",
         "url": "http://naotu.baidu.com/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","在线脑图","百度脑图","知识梳理"]
     },
     {
         "name": "MINDPINTEAM",
         "description": "",
         "url": "http://mindmap.4ye.me/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","在线脑图","团队协作","MINDPINTEAM"]
     },
     {
         "name": "Mindomo",
         "description": "",
         "url": "https://www.mindomo.com/zh",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "思维导图",
+        "tags": ["办公AI","思维导图","在线脑图","头脑风暴","Mindomo"]
     },
     {
         "name": "LOGO 圈",
         "description": "",
         "url": "http://www.logoquan.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","标志灵感","品牌设计","LOGO圈"]
     },
     {
         "name": "LOGO 之家",
         "description": "",
         "url": "http://www.logozj.com/index.html",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","标志案例","品牌标识","LOGO之家"]
     },
     {
         "name": "字体中国",
         "description": "",
         "url": "http://www.zitichina.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "字体资源",
+        "tags": ["设计资源","字体资源","中文字体","字体下载","字体中国"]
     },
     {
         "name": "logo 社",
         "description": "",
         "url": "http://www.logoshe.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","标志案例","品牌设计","logo社"]
     },
     {
         "name": "钙网",
         "description": "",
         "url": "http://www.uugai.com/logoa/logojz.php",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","Logo生成","标志制作","钙网"]
     },
     {
         "name": "LogoDesignLove",
         "description": "",
         "url": "http://www.logodesignlove.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","品牌设计","标志理论","LogoDesignLove"]
     },
     {
         "name": "identity view",
         "description": "",
         "url": "http://identityview.net/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","品牌识别","标志案例","identity view"]
     },
     {
         "name": "Logo Talks",
         "description": "",
         "url": "http://www.logotalkz.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","品牌标志","设计案例","Logo Talks"]
     },
     {
         "name": "Logospire",
         "description": "",
         "url": "http://logospire.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","标志灵感","品牌设计","Logospire"]
     },
     {
         "name": "Logooftheday",
         "description": "",
         "url": "http://logooftheday.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","每日Logo","标志灵感","Logooftheday"]
     },
     {
         "name": "LogoGalleria",
         "description": "",
         "url": "http://www.logogalleria.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","标志案例","品牌灵感","LogoGalleria"]
     },
     {
         "name": "LogoFi",
         "description": "",
         "url": "http://logofi.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","标志库","品牌设计","LogoFi"]
     },
     {
         "name": "Logo Faves",
         "description": "",
         "url": "http://logofaves.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","标志收藏","设计灵感","Logo Faves"]
     },
     {
         "name": "Logolicia",
         "description": "",
         "url": "http://www.logolicia.com.br/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","品牌标识","标志灵感","Logolicia"]
     },
     {
         "name": "Logolog",
         "description": "",
         "url": "http://www.logolog.info/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","标志案例","品牌灵感","Logolog"]
     },
     {
         "name": "Logoed",
         "description": "",
         "url": "http://www.logoed.co.uk/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","标志收藏","品牌案例","Logoed"]
     },
     {
         "name": "Brands of the world",
         "description": "",
         "url": "https://www.brandsoftheworld.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "Logo设计",
+        "tags": ["设计资源","Logo设计","品牌标志库","矢量Logo","Brands of the World"]
     },
     {
         "name": "The Design Inspiration",
         "description": "",
         "url": "http://thedesigninspiration.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "设计灵感",
+        "tags": ["设计资源","设计灵感","创意画廊","视觉灵感","The Design Inspiration"]
     },
     {
         "name": "kuler",
         "description": "",
         "url": "https://color.adobe.com/zh/create/color-wheel",
         "category": "设计资源",
-        "tags": []
+        "subtype": "配色工具",
+        "tags": ["设计资源","配色工具","色板生成","Adobe Color","kuler"]
     },
     {
         "name": "NIPPON COLORS",
         "description": "",
         "url": "http://nipponcolors.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "配色工具",
+        "tags": ["设计资源","配色工具","日本传统色","色彩灵感","NIPPON COLORS"]
     },
     {
         "name": "Colourlovers",
         "description": "",
         "url": "http://www.colourlovers.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "配色工具",
+        "tags": ["设计资源","配色工具","色彩社区","调色灵感","Colourlovers"]
     },
     {
         "name": "uiGradients",
         "description": "",
         "url": "http://uigradients.com/#",
         "category": "设计资源",
-        "tags": []
+        "subtype": "配色工具",
+        "tags": ["设计资源","配色工具","渐变色","UI配色","uiGradients"]
     },
     {
         "name": "CSS Winner",
         "description": "",
         "url": "http://www.csswinner.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "设计灵感",
+        "tags": ["设计资源","设计灵感","网页设计","获奖网站","CSS Winner"]
     },
     {
         "name": "Material-UI",
         "description": "",
         "url": "https://www.materialui.co/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "设计灵感",
+        "tags": ["设计资源","设计灵感","Material Design","UI组件","Material-UI"]
     },
     {
         "name": "Peise（配色网）",
         "description": "",
         "url": "http://www.peise.net/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "配色工具",
+        "tags": ["设计资源","配色工具","颜色搭配","配色方案","配色网"]
     },
     {
         "name": "ColorSchemeDesigner",
         "description": "",
         "url": "http://www.peise.net/tools/web",
         "category": "设计资源",
-        "tags": []
+        "subtype": "配色工具",
+        "tags": ["设计资源","配色工具","配色生成","色轮工具","ColorSchemeDesigner"]
     },
     {
         "name": "配色展示",
         "description": "",
         "url": "http://www.e754.com/color",
         "category": "设计资源",
-        "tags": []
+        "subtype": "配色工具",
+        "tags": ["设计资源","配色工具","色卡展示","颜色搭配","配色展示"]
     },
     {
         "name": "中国色",
         "description": "",
         "url": "http://color.uisdc.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "配色工具",
+        "tags": ["设计资源","配色工具","中国色彩","传统配色","中国色"]
     },
     {
         "name": "中国传统色彩",
         "description": "",
         "url": "http://chinese.traditionalcolors.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "配色工具",
+        "tags": ["设计资源","配色工具","传统色彩","中国传统色","色彩灵感"]
     },
     {
         "name": "创意人",
         "description": "",
         "url": "http://chuangyiren.cn/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "插画社区",
+        "tags": ["插画与漫画","插画社区","原创插画","创意作品","创意人"]
     },
     {
         "name": "绘世界网",
         "description": "",
         "url": "http://www.huisj.com/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "插画社区",
+        "tags": ["插画与漫画","插画社区","插画作品","绘画分享","绘世界网"]
     },
     {
         "name": "798 手绘网",
         "description": "",
         "url": "http://www.qijiuba.com/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "插画社区",
+        "tags": ["插画与漫画","插画社区","手绘作品","绘画交流","798手绘网"]
     },
     {
         "name": "漫悠悠",
         "description": "",
         "url": "http://www.muu.com.cn/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "漫画平台",
+        "tags": ["插画与漫画","漫画平台","漫画阅读","原创漫画","漫悠悠"]
     },
     {
         "name": "CCIUP（中国动漫插画）",
         "description": "",
         "url": "http://cciup.com/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "插画社区",
+        "tags": ["插画与漫画","插画社区","动漫插画","作品交流","CCIUP"]
     },
     {
         "name": "CG 部落",
         "description": "",
         "url": "http://www.cgbolo.com/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "插画社区",
+        "tags": ["插画与漫画","插画社区","CG作品","数字绘画","CG部落"]
     },
     {
         "name": "插画家园",
         "description": "",
         "url": "http://www.13cg.com/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "插画社区",
+        "tags": ["插画与漫画","插画社区","插画师","作品展示","插画家园"]
     },
     {
         "name": "动漫之家",
         "description": "",
         "url": "http://www.dmzj.com/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "漫画平台",
+        "tags": ["插画与漫画","漫画平台","动漫资讯","漫画阅读","动漫之家"]
     },
     {
         "name": "布卡漫画",
         "description": "",
         "url": "http://www.buka.cn/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "漫画平台",
+        "tags": ["插画与漫画","漫画平台","漫画阅读","移动漫画","布卡漫画"]
     },
     {
         "name": "笨狗漫画",
         "description": "",
         "url": "http://www.51bengou.com/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "漫画平台",
+        "tags": ["插画与漫画","漫画平台","漫画阅读","原创漫画","笨狗漫画"]
     },
     {
         "name": "Nate Williams",
         "description": "",
         "url": "http://www.n8w.com/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "画师作品",
+        "tags": ["插画与漫画","画师作品","插画艺术家","个人作品","Nate Williams"]
     },
     {
         "name": "Sakiroo",
         "description": "",
         "url": "http://sakiroo.com/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "画师作品",
+        "tags": ["插画与漫画","画师作品","插画艺术家","个人作品","Sakiroo"]
     },
     {
         "name": "Illustrationweb",
         "description": "",
         "url": "http://www.illustrationweb.com.cn/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "插画机构",
+        "tags": ["插画与漫画","插画机构","插画代理","商业插画","Illustrationweb"]
     },
     {
         "name": "Howtoons",
         "description": "",
         "url": "http://www.howtoons.com/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "漫画平台",
+        "tags": ["插画与漫画","漫画平台","科普漫画","漫画阅读","Howtoons"]
     },
     {
         "name": "Drawr",
         "description": "",
         "url": "http://drawr.net/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "插画社区",
+        "tags": ["插画与漫画","插画社区","绘画交流","同人创作","Drawr"]
     },
     {
         "name": "Fredo and Pidjin",
         "description": "",
         "url": "http://www.pidjin.net/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "漫画平台",
+        "tags": ["插画与漫画","漫画平台","网络漫画","英文漫画","Fredo and Pidjin"]
     },
     {
         "name": "Pixiv（P 站）",
         "description": "",
         "url": "http://www.pixiv.net/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "插画社区",
+        "tags": ["插画与漫画","插画社区","画师平台","同人创作","Pixiv"]
     },
     {
         "name": "CartoonStock",
         "description": "",
         "url": "http://www.cartoonstock.com/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "漫画平台",
+        "tags": ["插画与漫画","漫画平台","卡通图库","插画素材","CartoonStock"]
     },
     {
         "name": "Central IllustrationAgency",
         "description": "",
         "url": "http://www.directoryofillustration.com/",
         "category": "插画与漫画",
-        "tags": []
+        "subtype": "插画机构",
+        "tags": ["插画与漫画","插画机构","画师经纪","商业插画","Directory of Illustration"]
     },
     {
         "name": "CorelDRAW",
         "description": "",
         "url": "http://www.coreldrawchina.com/",
         "category": "AI设计工具",
-        "tags": []
+        "subtype": "平面设计",
+        "tags": ["AI设计工具","平面设计","矢量设计","图形编辑","CorelDRAW"]
     },
     {
         "name": "海报工厂",
         "description": "",
         "url": "http://www.posterlabs.com/",
         "category": "AI设计工具",
-        "tags": []
+        "subtype": "海报设计",
+        "tags": ["AI设计工具","海报设计","海报制作","图片排版","海报工厂"]
     },
     {
         "name": "WebsiteTemplates",
         "description": "",
         "url": "http://www.templatemonster.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "网页模板",
+        "tags": ["设计资源","网页模板","网站模板","建站资源","TemplateMonster"]
     },
     {
         "name": "One Page Love",
         "description": "",
         "url": "https://onepagelove.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "落地页灵感",
+        "tags": ["设计资源","落地页灵感","单页网站","网页设计","One Page Love"]
     },
     {
         "name": "Landingfolio",
         "description": "",
         "url": "http://www.landingfolio.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "落地页灵感",
+        "tags": ["设计资源","落地页灵感","Landing Page","页面案例","Landingfolio"]
     },
     {
         "name": "DreamTemplate",
         "description": "",
         "url": "http://www.dreamtemplate.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "网页模板",
+        "tags": ["设计资源","网页模板","网站模板","页面模板","DreamTemplate"]
     },
     {
         "name": "EntheosWeb",
         "description": "",
         "url": "http://templates.entheosweb.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "网页模板",
+        "tags": ["设计资源","网页模板","免费模板","网页设计","EntheosWeb"]
     },
     {
         "name": "FreeWeb",
         "description": "",
         "url": "http://www.freewebtemplates.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "网页模板",
+        "tags": ["设计资源","网页模板","免费模板","网站模板","FreeWeb"]
     },
     {
         "name": "TEMPLATED",
         "description": "",
         "url": "https://templated.co/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "网页模板",
+        "tags": ["设计资源","网页模板","响应式模板","网站模板","TEMPLATED"]
     },
     {
         "name": "模板之家",
         "description": "",
         "url": "http://www.cssmoban.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "网页模板",
+        "tags": ["设计资源","网页模板","网站模板","前端模板","模板之家"]
     },
     {
         "name": "Free Fonts",
         "description": "",
         "url": "http://www.fontex.org/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "字体资源",
+        "tags": ["设计资源","字体资源","英文字体","字体下载","Free Fonts"]
     },
     {
         "name": "Get Comic Neue",
         "description": "",
         "url": "http://comicneue.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "字体资源",
+        "tags": ["设计资源","字体资源","Comic Neue","英文字体","免费字体"]
     },
     {
         "name": "Fontfabric™",
         "description": "",
         "url": "http://www.fontfabric.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "字体资源",
+        "tags": ["设计资源","字体资源","字体设计","商用字体","Fontfabric"]
     },
     {
         "name": "Font Font",
         "description": "",
         "url": "https://www.fontfont.com/fonts",
         "category": "设计资源",
-        "tags": []
+        "subtype": "字体资源",
+        "tags": ["设计资源","字体资源","字体家族","字体购买","Font Font"]
     },
     {
         "name": "Lost Type",
         "description": "",
         "url": "http://www.losttype.com/browse",
         "category": "设计资源",
-        "tags": []
+        "subtype": "字体资源",
+        "tags": ["设计资源","字体资源","独立字体","英文字体","Lost Type"]
     },
     {
         "name": "1001Free Fonts",

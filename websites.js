@@ -9,30 +9,6 @@ const websitesDatabase = [
         "tags": ["考试","题库","学习资源","备考","教育"]
     },
     {
-        "name": "中公教育",
-        "description": "中公教育为各类考试提供培训、资讯、题库等全方位服务。",
-        "url": "http://www.offcn.com",
-        "category": "学习",
-        "subtype": "考试学习",
-        "tags": ["考试培训","备考","题库","教育","公考"]
-    },
-    {
-        "name": "中国教育在线",
-        "description": "中国教育在线，权威教育资讯与服务平台，涵盖高考、考研、留学等。",
-        "url": "https://www.eol.cn",
-        "category": "学习",
-        "subtype": "教育资讯",
-        "tags": ["教育资讯","高考","考研","留学","学习"]
-    },
-    {
-        "name": "Minea",
-        "description": "跨平台广告监控工具，覆盖 TikTok、Facebook 和 Pinterest 选品情报。",
-        "url": "https://www.minea.com",
-        "category": "跨境电商工具",
-        "subtype": "广告情报",
-        "tags": ["选品","广告情报","TikTok","Facebook","Pinterest"]
-    },
-    {
         "name": "BigSpy",
         "description": "大型广告素材数据库，支持多平台爆款广告与创意追踪。",
         "url": "https://bigspy.com",
@@ -273,28 +249,12 @@ const websitesDatabase = [
         "tags": ["关键词研究","需求分析","用户痛点","选品","SEO"]
     },
     {
-        "name": "Marketplace Pulse",
-        "description": "专注电商平台生态、卖家趋势和市场研究的行业情报站。",
-        "url": "https://www.marketplacepulse.com",
-        "category": "跨境电商工具",
-        "subtype": "市场调研",
-        "tags": ["市场研究","电商趋势","平台生态","行业分析","平台情报"]
-    },
-    {
         "name": "Google Keyword Planner",
         "description": "Google 官方关键词规划工具，可评估关键词热度和商业价值。",
         "url": "https://ads.google.com/home/tools/keyword-planner/",
         "category": "跨境电商工具",
         "subtype": "关键词研究",
         "tags": ["Google Ads","关键词研究","流量分析","SEO","选品"]
-    },
-    {
-        "name": "Long Tail Pro",
-        "description": "适合长尾关键词挖掘和竞争难度评估的 SEO 工具。",
-        "url": "https://longtailpro.com",
-        "category": "跨境电商工具",
-        "subtype": "关键词研究",
-        "tags": ["长尾关键词","SEO","竞争分析","搜索流量","选品"]
     },
     {
         "name": "Soovle",
@@ -17175,14 +17135,6 @@ const websitesDatabase = [
         "tags": ["资讯与媒体","新闻聚合","个性化推荐","资讯阅读","一点资讯"]
     },
     {
-        "name": "数英网",
-        "description": "",
-        "url": "http://www.digitaling.com/",
-        "category": "营销推广",
-        "subtype": "营销案例",
-        "tags": ["营销推广","营销案例","广告创意","品牌营销","数英网"]
-    },
-    {
         "name": "A5 站长网",
         "description": "",
         "url": "http://www.admin5.com/",
@@ -17229,14 +17181,6 @@ const websitesDatabase = [
         "category": "资讯与媒体",
         "subtype": "行业资讯",
         "tags": ["资讯与媒体","行业资讯","互联网研究","数据报告","艾瑞网"]
-    },
-    {
-        "name": "36 氪",
-        "description": "",
-        "url": "http://36kr.com/",
-        "category": "资讯与媒体",
-        "subtype": "科技媒体",
-        "tags": ["资讯与媒体","科技媒体","创业资讯","商业新闻","36氪"]
     },
     {
         "name": "i 黑马",
@@ -17461,14 +17405,6 @@ const websitesDatabase = [
         "category": "设计资源",
         "subtype": "摄影图库",
         "tags": ["设计资源","摄影图库","免费图片","图库资源","Free Photos Bank"]
-    },
-    {
-        "name": "PicJumbo",
-        "description": "",
-        "url": "https://picjumbo.com/",
-        "category": "设计资源",
-        "subtype": "摄影图库",
-        "tags": ["设计资源","摄影图库","免费图库","高清照片","PicJumbo"]
     },
     {
         "name": "Pickupimage",
@@ -18189,14 +18125,6 @@ const websitesDatabase = [
         "category": "创意灵感",
         "subtype": "设计灵感",
         "tags": ["创意灵感","设计灵感","视觉灵感","创意画廊","Inspiration Grid"]
-    },
-    {
-        "name": "siteInspire",
-        "description": "",
-        "url": "https://www.siteinspire.com/",
-        "category": "创意灵感",
-        "subtype": "网页灵感",
-        "tags": ["创意灵感","网页灵感","网站案例","网页设计","siteInspire"]
     },
     {
         "name": "welovead",
@@ -18983,14 +18911,6 @@ const websitesDatabase = [
         "tags": ["旅游与出行","酒店预订","旅行预订","住宿预订","艺龙旅行"]
     },
     {
-        "name": "中国知网",
-        "description": "",
-        "url": "https://www.cnki.net/",
-        "category": "知识学习",
-        "subtype": "学术论文",
-        "tags": ["知识学习","学术论文","论文检索","中文期刊","中国知网"]
-    },
-    {
         "name": "学堂在线",
         "description": "",
         "url": "https://www.xuetangx.com/",
@@ -19029,14 +18949,6 @@ const websitesDatabase = [
         "category": "知识学习",
         "subtype": "学术论文",
         "tags": ["知识学习","学术论文","文献数据库","论文检索","万方数据"]
-    },
-    {
-        "name": "中国大学MOOC(慕课)",
-        "description": "",
-        "url": "https://www.icourse163.org/",
-        "category": "知识学习",
-        "subtype": "在线课程",
-        "tags": ["知识学习","在线课程","大学慕课","网易课程","中国大学MOOC"]
     },
     {
         "name": "英语四六级",
@@ -19125,14 +19037,6 @@ const websitesDatabase = [
         "category": "社交娱乐",
         "subtype": "婚恋交友",
         "tags": ["社交娱乐","婚恋交友","相亲平台","交友社区","珍爱网"]
-    },
-    {
-        "name": "网易邮箱",
-        "description": "",
-        "url": "https://mail.163.com/",
-        "category": "邮箱服务",
-        "subtype": "电子邮箱",
-        "tags": ["邮箱服务","电子邮箱","邮箱登录","邮件服务","网易邮箱"]
     },
     {
         "name": "新浪博客",
@@ -19487,14 +19391,6 @@ const websitesDatabase = [
         "tags": ["新闻资讯","官方媒体","央视新闻","视频新闻","央视网"]
     },
     {
-        "name": "观察者网",
-        "description": "",
-        "url": "https://www.guancha.cn/",
-        "category": "新闻资讯",
-        "subtype": "时政评论",
-        "tags": ["新闻资讯","时政评论","热点观察","国际评论","观察者网"]
-    },
-    {
         "name": "央广网",
         "description": "",
         "url": "http://www.cnr.cn/",
@@ -19605,14 +19501,6 @@ const websitesDatabase = [
         "category": "电商购物",
         "subtype": "导购平台",
         "tags": ["电商购物","导购平台","淘宝导购","优惠推荐","爱淘宝"]
-    },
-    {
-        "name": "贝壳找房",
-        "description": "",
-        "url": "https://www.ke.com/",
-        "category": "房产家居",
-        "subtype": "房产交易",
-        "tags": ["房产家居","房产交易","二手房","租房平台","贝壳找房"]
     },
     {
         "name": "链家",
@@ -19751,14 +19639,6 @@ const websitesDatabase = [
         "tags": ["阅读文学","小说阅读","免费小说","网络文学","七猫免费小说"]
     },
     {
-        "name": "纵横中文网",
-        "description": "",
-        "url": "https://www.zongheng.com/",
-        "category": "阅读文学",
-        "subtype": "小说阅读",
-        "tags": ["阅读文学","小说阅读","原创文学","网络小说","纵横中文网"]
-    },
-    {
         "name": "晋江文学城",
         "description": "",
         "url": "https://www.jjwxc.net/",
@@ -19773,14 +19653,6 @@ const websitesDatabase = [
         "category": "阅读文学",
         "subtype": "小说阅读",
         "tags": ["阅读文学","小说阅读","女频小说","原创文学","潇湘书院"]
-    },
-    {
-        "name": "17k小说网",
-        "description": "",
-        "url": "https://www.17k.com/",
-        "category": "阅读文学",
-        "subtype": "小说阅读",
-        "tags": ["阅读文学","小说阅读","原创小说","网络文学","17K小说网"]
     },
     {
         "name": "懒人听书",
@@ -19863,14 +19735,6 @@ const websitesDatabase = [
         "tags": ["影音娱乐","影视平台","电影资讯","电影在线观看","1905电影网"]
     },
     {
-        "name": "虎牙",
-        "description": "",
-        "url": "https://www.huya.com/",
-        "category": "影音娱乐",
-        "subtype": "直播平台",
-        "tags": ["影音娱乐","直播平台","游戏直播","娱乐直播","虎牙"]
-    },
-    {
         "name": "电视猫",
         "description": "",
         "url": "https://www.tvmao.com/",
@@ -19893,14 +19757,6 @@ const websitesDatabase = [
         "category": "影音娱乐",
         "subtype": "视频社区",
         "tags": ["影音娱乐","视频社区","弹幕视频","二次元社区","哔哩哔哩"]
-    },
-    {
-        "name": "斗鱼",
-        "description": "",
-        "url": "https://www.douyu.com/",
-        "category": "影音娱乐",
-        "subtype": "直播平台",
-        "tags": ["影音娱乐","直播平台","游戏直播","互动直播","斗鱼"]
     },
     {
         "name": "迅雷",
@@ -20106,13 +19962,6 @@ const websitesDatabase = [
         "url": "https://www.aibiye.com/?code=ZrW9Dy",
         "category": "AI办公工具",
         "tags": ["AI","论文写作"]
-    },
-    {
-        "name": "知网",
-        "description": "中国最大的学术信息检索与服务平台",
-        "url": "https://www.cnki.net",
-        "category": "AI教育与学习",
-        "tags": ["学术检索","服务平台"]
     },
     {
         "name": "青泥学术",

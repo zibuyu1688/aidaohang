@@ -835,175 +835,200 @@ const websitesDatabase = [
         "description": "OpenAI开发的强大AI对话助手，可以回答问题、写作、编程等",
         "url": "https://chat.openai.com",
         "category": "AI聊天助手",
-        "tags": ["AI","对话","聊天","写作","编程"]
+        "subtype": "通用对话",
+        "tags": ["AI聊天助手","通用对话","写作辅助","编程问答","ChatGPT"]
     },
     {
         "name": "Claude",
         "description": "Anthropic开发的AI助手，擅长长文本分析和深度对话",
         "url": "https://learning.google.com",
         "category": "AI聊天助手",
-        "tags": ["智能"]
+        "subtype": "长文本对话",
+        "tags": ["AI聊天助手","长文本对话","内容分析","智能问答","Claude"]
     },
     {
         "name": "To Teach AI",
         "description": "在人工智能的帮助下，在几秒...",
         "url": "https://www.to-teach.ai",
         "category": "AI教育与学习",
-        "tags": ["AI","智能"]
+        "subtype": "教学备课",
+        "tags": ["AI教育与学习","教学备课","课堂活动","教学设计","To Teach AI"]
     },
     {
         "name": "明思灵境",
         "description": "结合了最新AI和自然语言处理技术的智慧教育平台，它通过i+1教学模式、数字人AI助教和实时语音互动等功能",
         "url": "https://www.meansedu.com",
         "category": "AI教育与学习",
-        "tags": ["AI"]
+        "subtype": "智慧教育",
+        "tags": ["AI教育与学习","智慧教育","数字人助教","课堂互动","明思灵境"]
     },
     {
         "name": "波波熊学伴",
         "description": "波波熊学伴作为一款AI学习辅助工具，通过智能化的方式帮助孩子更有效地学习和理解新知识。它不仅激发孩子的好奇心和自驱力，还为家长提供了一个安心的解决方案，以支持孩子在AI时代的学习需求。",
         "url": "https://bearbobo.com",
         "category": "AI教育与学习",
-        "tags": ["AI","工具","智能","辅助"]
+        "subtype": "学习辅导",
+        "tags": ["AI教育与学习","学习辅导","儿童学习","家庭教育","波波熊学伴"]
     },
     {
         "name": "AI面试高分训练",
         "description": "AI面试一对一训练，轻轻松松找工作。",
         "url": "https://www.aigfms.com",
         "category": "AI职业发展",
-        "tags": ["AI"]
+        "subtype": "面试训练",
+        "tags": ["AI职业发展","面试训练","求职辅导","模拟面试","AI面试高分训练"]
     },
     {
         "name": "善利AI高考备考系统",
         "description": "善利AI高考备考系统的独特之处在于其智能化教学模式，系统通过运用先进的人工智能算法，能够根据学生的学习进度和能力水平进行个性化的学习指导，当学生在解答数学题目时遇到困难，系统会智能分析错误的根源，并提供相应的解题建议，这种个性化的辅导方式有利于帮助学生充分理解和掌握数学知识。",
         "url": "https://www.sunrayai.cn",
         "category": "AI教育与学习",
-        "tags": ["AI","智能","分析"]
+        "subtype": "高考备考",
+        "tags": ["AI教育与学习","高考备考","个性化辅导","数学辅导","善利AI"]
     },
     {
         "name": "AI教师助手",
         "description": "AI教师助手是北京外研在线数字科技有限公司推出的一款多功能教学辅助工具，它通过智能化技术帮助教师提高教学效率，同时也为学生提供个性化的学习体验。",
         "url": "https://aigc.unipus.cn",
         "category": "AI聊天助手",
-        "tags": ["AI","工具","效率","智能","助手","在线","辅助"]
+        "subtype": "教学助手",
+        "tags": ["AI聊天助手","教学助手","教师备课","课堂辅助","AI教师助手"]
     },
     {
         "name": "英语教练",
         "description": "English Coach 是一个个性化的英语学习辅导应用，旨在帮助用户提高英语能力。",
         "url": "https://www.englishcoach.ai",
         "category": "AI教育与学习",
-        "tags": []
+        "subtype": "语言学习",
+        "tags": ["AI教育与学习","语言学习","英语学习","口语练习","English Coach"]
     },
     {
         "name": "识典古籍",
         "description": "识典古籍是抖音公益与北大合作共建的古籍阅读平台。致力于为用户提供免费公开、稳定、快速、方便的...",
         "url": "https://www.shidianguji.com",
         "category": "AI文化传承",
-        "tags": ["阅读"]
+        "subtype": "古籍阅读",
+        "tags": ["AI文化传承","古籍阅读","古籍整理","传统文化","识典古籍"]
     },
     {
         "name": "Talk To Books",
         "description": "一种探索想法和发现书籍的新...",
         "url": "https://books.google.com",
         "category": "AI知识工具",
-        "tags": []
+        "subtype": "书籍探索",
+        "tags": ["AI知识工具","书籍探索","语义搜索","图书发现","Talk To Books"]
     },
     {
         "name": "Lablab.ai",
         "description": "创客社区，使用最先进的现代...",
         "url": "https://lablab.ai",
         "category": "AI开发社区",
-        "tags": []
+        "subtype": "黑客松社区",
+        "tags": ["AI开发社区","黑客松社区","开发者社区","AI项目实践","Lablab.ai"]
     },
     {
         "name": "CheggMate",
         "description": "CheggMate作为一个基于人工智能的学习伴侣，通过结合GPT-4的智能技术和Chegg丰富的知识库，为学生提供了一个高效、个性化的学习辅导平台。",
         "url": "https://www.chegg.com",
         "category": "AI教育与学习",
-        "tags": ["智能"]
+        "subtype": "学习辅导",
+        "tags": ["AI教育与学习","学习辅导","作业辅导","个性化学习","CheggMate"]
     },
     {
         "name": "Liner",
         "description": "Liner是一个强大的AI工具，它通过集成到用户的工作环境中，提供了一系列功能，以提高工作效率和学习速度。",
         "url": "https://getliner.com",
         "category": "AI教育与学习",
-        "tags": ["AI","工具","效率"]
+        "subtype": "知识检索",
+        "tags": ["AI教育与学习","知识检索","网页摘要","学习搜索","Liner"]
     },
     {
         "name": "Khanmigo",
         "description": "Khanmigo是由知名非营利教育组织Khan Academy开发的人工智能个人辅导和教学助手。它提供引人入胜、主题相关且有效的学习体验，并且在设计上将安全性和学习效果作为首要考虑。",
         "url": "https://www.khanmigo.ai",
         "category": "AI聊天助手",
-        "tags": ["智能","助手","设计"]
+        "subtype": "学习辅导",
+        "tags": ["AI聊天助手","学习辅导","可汗学院","教学助手","Khanmigo"]
     },
     {
         "name": "DataCamp",
         "description": "一个全球性的在线教育平台，服务于超过1500万的学习者，提供从基础到高级的数据科学和分析技能培训",
         "url": "https://www.datacamp.com",
         "category": "AI教育与学习",
-        "tags": ["分析","在线"]
+        "subtype": "数据科学学习",
+        "tags": ["AI教育与学习","数据科学学习","编程课程","数据分析","DataCamp"]
     },
     {
         "name": "WolframAlpha",
         "description": "一个强大的计算知识引擎，它通过自然语言处理和广泛的数据知识库，为用户提供快速、准确的计算和信息查询服务",
         "url": "https://zh.wolframalpha.com",
         "category": "AI知识工具",
-        "tags": []
+        "subtype": "计算知识引擎",
+        "tags": ["AI知识工具","计算知识引擎","公式计算","知识查询","WolframAlpha"]
     },
     {
         "name": "Q-Chat",
         "description": "QChat 是一个创新的AI辅导工具，通过个性化的学习体验帮助学习者更有效地掌握知识。它利用人工智能技术提供智能问答、学习计划定制、进度跟踪和资源推荐等功能，使学习过程更加高效和有趣。",
         "url": "https://quizlet.com",
         "category": "AI聊天助手",
-        "tags": ["AI","工具","智能"]
+        "subtype": "学习问答",
+        "tags": ["AI聊天助手","学习问答","Quizlet","学习计划","Q-Chat"]
     },
     {
         "name": "Study Buddy",
         "description": "Study Buddy 旨在帮助学生提高学习效率，通过即时提供答案和解释，支持他们在学习过程中遇到的各种挑战。",
         "url": "https://studybuddy.gg",
         "category": "AI教育与学习",
-        "tags": ["效率"]
+        "subtype": "学习辅导",
+        "tags": ["AI教育与学习","学习辅导","答疑助手","学习效率","Study Buddy"]
     },
     {
         "name": "Homeworkifyy",
         "description": "作业轻松完成是一个利用人工智能技术的在线学习辅助工具，旨在帮助学生高效地完成作业。",
         "url": "https://homeworkifyy.net",
         "category": "AI教育与学习",
-        "tags": ["工具","智能","在线","辅助"]
+        "subtype": "作业辅导",
+        "tags": ["AI教育与学习","作业辅导","学生答疑","学习辅助","Homeworkifyy"]
     },
     {
         "name": "Teacher AI",
         "description": "Teacher AI 是一个创新的在线语言学习平台，它利用人工智能技术提供个性化的语言学习体验。",
         "url": "https://yourteacher.ai",
         "category": "AI教育与学习",
-        "tags": ["AI","智能","在线"]
+        "subtype": "语言学习",
+        "tags": ["AI教育与学习","语言学习","口语练习","个性化教学","Teacher AI"]
     },
     {
         "name": "MagicSchool.ai",
         "description": "MagicSchool.ai 是一个面向教师和教育工作者的在线平台，利用人工智能技术来提升教学效率和质量。它被设计成一个教师的魔法助手，帮助教师节省时间和精力，使他们能够更加专注于教学本身。",
         "url": "https://www.magicschool.ai",
         "category": "AI教育与学习",
-        "tags": ["效率","智能","助手","设计","在线"]
+        "subtype": "教学助手",
+        "tags": ["AI教育与学习","教学助手","教师工具","备课提效","MagicSchool.ai"]
     },
     {
         "name": "智慧手语",
         "description": "智慧手语是一个基于高质量多类型手语语料库、全链路高精度手语翻译算法及跨模态拟人生成技术的平台。该平台致力于打造高逼真的手语播报数字人生成模型，目的是为了使听障人群能够无障碍地共享世界。",
         "url": "https://vip.aminer.cn",
         "category": "AI无障碍辅助",
-        "tags": ["翻译"]
+        "subtype": "手语翻译",
+        "tags": ["AI无障碍辅助","手语翻译","听障辅助","数字人播报","智慧手语"]
     },
     {
         "name": "在问",
         "description": "在问|全能又免费的人工智能网站。宗旨：让知识无界,智能触手可及",
         "url": "https://www.zaiwen.top",
         "category": "AI问答工具",
-        "tags": ["智能"]
+        "subtype": "智能问答",
+        "tags": ["AI问答工具","智能问答","知识问答","免费AI","在问"]
     },
     {
         "name": "Be My Eyes虚拟志愿者",
         "description": "可以替代或补充人类志愿者的工作",
         "url": "https://www.bemyeyes.com",
         "category": "AI无障碍辅助",
-        "tags": []
+        "subtype": "视觉辅助",
+        "tags": ["AI无障碍辅助","视觉辅助","视障帮助","志愿者服务","Be My Eyes"]
     },
     {
         "name": "稿定抠图",
@@ -16820,280 +16845,319 @@ const websitesDatabase = [
         "description": "谷歌推出的云计算服务平台",
         "url": "https://cloud.google.com",
         "category": "AI企业服务",
-        "tags": ["谷歌","云","计算","服务","平台"]
+        "subtype": "云计算平台",
+        "tags": ["AI企业服务","云计算平台","云基础设施","企业云服务","Google Cloud"]
     },
     {
         "name": "算了么AI",
         "description": "卦解心声的AI易经占卜师",
         "url": "https://suanleme.gebagi.com",
         "category": "AI娱乐工具",
-        "tags": ["AI"]
+        "subtype": "AI占卜",
+        "tags": ["AI娱乐工具","AI占卜","易经解读","娱乐互动","算了么AI"]
     },
     {
         "name": "AI游戏素材生成器",
         "description": "AI游戏素材生成器是一个创新的游戏开发辅助工具，它通过AI技术简化了游戏美术资源的创作过程。这个平台不仅为独立开发者和小团队节省了成本，也为大型团队提高了工作效率，使得游戏开发变得更加高效和便捷。",
         "url": "https://game-generator.com",
         "category": "AI游戏工具",
-        "tags": ["AI","工具","效率","辅助"]
+        "subtype": "游戏素材生成",
+        "tags": ["AI游戏工具","游戏素材生成","游戏美术","资源生成","AI游戏素材生成器"]
     },
     {
         "name": "启元世界",
         "description": "暂无描述",
         "url": "https://www.inspirai.com",
         "category": "AI世界构建",
-        "tags": []
+        "subtype": "世界构建",
+        "tags": ["AI世界构建","世界构建","虚拟世界","叙事设定","启元世界"]
     },
     {
         "name": "Promethean AI",
         "description": "Promethean AI是一个强大的AI助手，为创意团队提供了一个无需上传资产和更换编辑器即可使用的平台。它通过企业级的数据安全和工作流定制功能，帮助团队提高生产效率，同时保持创意流程的完整性。",
         "url": "https://www.prometheanai.com",
         "category": "AI聊天助手",
-        "tags": ["AI","效率","助手"]
+        "subtype": "创作助手",
+        "tags": ["AI聊天助手","创作助手","场景搭建","团队协作","Promethean AI"]
     },
     {
         "name": "Inworld AI",
         "description": "Inworld AI是一个综合性的AI游戏开发平台，它通过提供先进的NPC逻辑、互动剧情设计工具、实时AI反应和自然语音生成等功能，极大地增强了游戏的沉浸感和互动性。",
         "url": "https://inworld.ai",
         "category": "AI游戏工具",
-        "tags": ["AI","工具","设计"]
+        "subtype": "NPC交互",
+        "tags": ["AI游戏工具","NPC交互","剧情设计","实时对话","Inworld AI"]
     },
     {
         "name": "Layer AI",
         "description": "Layer AI是一个强大的工具，它通过AI技术帮助游戏工作室在保持艺术风格一致性的同时，提高生产效率和创造力。",
         "url": "https://www.layer.ai",
         "category": "AI游戏工具",
-        "tags": ["AI","工具","效率"]
+        "subtype": "游戏美术生成",
+        "tags": ["AI游戏工具","游戏美术生成","风格一致性","素材生产","Layer AI"]
     },
     {
         "name": "Rosebud AI",
         "description": "Rosebud AI是一个创新的游戏开发工具，它通过AI技术简化了游戏创作的复杂性，使得从初学者到经验丰富的开发者都能够快速地将想法转化为游戏。",
         "url": "https://www.rosebud.ai",
         "category": "AI游戏工具",
-        "tags": ["AI","工具"]
+        "subtype": "游戏生成",
+        "tags": ["AI游戏工具","游戏生成","创意原型","独立游戏开发","Rosebud AI"]
     },
     {
         "name": "Scenario",
         "description": "Scenario是一个强大的工具，它通过AI技术帮助游戏开发者和设计师创建和定制游戏资产。用户可以根据自己的需求训练AI模型，并通过高级控制功能精确调整生成的资产。",
         "url": "https://www.scenario.com",
         "category": "AI游戏工具",
-        "tags": ["AI","工具","设计"]
+        "subtype": "游戏资产生成",
+        "tags": ["AI游戏工具","游戏资产生成","模型训练","美术资源","Scenario"]
     },
     {
         "name": "DefinityLegend",
         "description": "DefinityLegend是一个创新的游戏平台，它通过提供无代码的游戏构建工具，降低了游戏开发的门槛，使得任何有创意的人都可以成为游戏开发者",
         "url": "https://www.definitylegend.com",
         "category": "AI游戏工具",
-        "tags": ["工具"]
+        "subtype": "无代码开发",
+        "tags": ["AI游戏工具","无代码开发","游戏创作","低代码工具","DefinityLegend"]
     },
     {
         "name": "Octokit",
         "description": "Octokit是一个多功能的无代码游戏创作工具，它通过提供丰富的模板和资产，简化了游戏开发和部署流程，使得任何用户都能轻松创建游戏化产品。",
         "url": "https://octokit.co",
         "category": "AI游戏工具",
-        "tags": ["工具"]
+        "subtype": "无代码开发",
+        "tags": ["AI游戏工具","无代码开发","模板建站","游戏化产品","Octokit"]
     },
     {
         "name": "Charmed AI",
         "description": "Charmed AI是一个强大的3D创作工具，它通过AI技术简化了3D建模和动画制作的流程。无论是生成3D几何体、应用纹理、还是动画绑定，Charmed AI都提供了高效的解决方案，使用户能够快速将创意转化为现实，同时保持对细节的精确控制。",
         "url": "https://charmed.ai",
         "category": "AI工具",
-        "tags": ["AI","工具"]
+        "subtype": "3D创作",
+        "tags": ["AI工具","3D创作","建模动画","纹理生成","Charmed AI"]
     },
     {
         "name": "Biomes",
         "description": "暂无描述",
         "url": "https://www.biomes.gg",
         "category": "AI工具",
-        "tags": []
+        "subtype": "游戏世界",
+        "tags": ["AI工具","游戏世界","开放世界","多人互动","Biomes"]
     },
     {
         "name": "The Simulation",
         "description": "仿真是一个人工intelligence-...",
         "url": "https://fablesimulation.com",
         "category": "AI工具",
-        "tags": []
+        "subtype": "角色模拟",
+        "tags": ["AI工具","角色模拟","行为仿真","智能体","The Simulation"]
     },
     {
         "name": "GGPredict",
         "description": "提高你的CS:技能的力量AI-gen...",
         "url": "https://ggpredict.io",
         "category": "AI工具",
-        "tags": ["AI"]
+        "subtype": "电竞训练",
+        "tags": ["AI工具","电竞训练","FPS训练","游戏数据分析","GGPredict"]
     },
     {
         "name": "LitRPG Adventures",
         "description": "先进的桌面RPG发电机内容库D",
         "url": "https://litrpgadventures.com",
         "category": "AI工具",
-        "tags": []
+        "subtype": "RPG内容生成",
+        "tags": ["AI工具","RPG内容生成","桌游辅助","剧情生成","LitRPG Adventures"]
     },
     {
         "name": "Convai Technologies Inc.",
         "description": "Convai Technologies Inc.为...",
         "url": "https://convai.com",
         "category": "AI工具",
-        "tags": []
+        "subtype": "NPC交互",
+        "tags": ["AI工具","NPC交互","实时对话","游戏角色","Convai"]
     },
     {
         "name": "Orbofi",
         "description": "Orbofi允许用户为web3、游戏...",
         "url": "https://www.orbofi.com",
         "category": "AI游戏工具",
-        "tags": []
+        "subtype": "游戏资产生成",
+        "tags": ["AI游戏工具","游戏资产生成","Web3","虚拟资产","Orbofi"]
     },
     {
         "name": "AI Roguelite",
         "description": "【付费】AI Roguelite是一款...",
         "url": "https://store.steampowered.com",
         "category": "AI工具",
-        "tags": ["AI"]
+        "subtype": "AI游戏",
+        "tags": ["AI工具","AI游戏","Roguelite","Steam游戏","AI Roguelite"]
     },
     {
         "name": "rct AI",
         "description": "生活有无限可能。我们相信我...",
         "url": "https://rct.ai",
         "category": "AI工具",
-        "tags": ["AI"]
+        "subtype": "游戏AI服务",
+        "tags": ["AI工具","游戏AI服务","智能体平台","游戏开发","rct AI"]
     },
     {
         "name": "Pixela.ai",
         "description": "Pixela.ai允许用户上传稳定扩散算法生成的图像与社区共享。该工具还允许用户找到随机纹理。",
         "url": "https://pixela.ai",
         "category": "AI开发社区",
-        "tags": ["工具"]
+        "subtype": "图像社区",
+        "tags": ["AI开发社区","图像社区","纹理分享","生成图社区","Pixela.ai"]
     },
     {
         "name": "Postme",
         "description": "快速生成高质量外贸营销文案",
         "url": "https://www.postme.cn",
         "category": "AI写作工具",
-        "tags": []
+        "subtype": "营销文案",
+        "tags": ["AI写作工具","营销文案","外贸文案","内容生成","Postme"]
     },
     {
         "name": "无痕AI",
         "description": "一键无痕去除视频中的水印与字幕",
         "url": "https://www.wuhenai.com",
         "category": "AI工具",
-        "tags": ["AI"]
+        "subtype": "视频去水印",
+        "tags": ["AI工具","视频去水印","字幕去除","视频处理","无痕AI"]
     },
     {
         "name": "易可图",
         "description": "电商人都在用的AI设计平台",
         "url": "https://www.yiketu.com",
         "category": "AI工具",
-        "tags": ["AI","电商","设计"]
+        "subtype": "电商设计",
+        "tags": ["AI工具","电商设计","商品主图","营销素材","易可图"]
     },
     {
         "name": "及时语",
         "description": "跨境出海企业智能客服平台，提供强大的AI多轮交互能力，智能高效的客服工作台，多平台/多渠道集中统一管理等服务。",
         "url": "https://www.jishiyuchat.com",
         "category": "AI工具",
-        "tags": ["AI","智能","跨境"]
+        "subtype": "跨境客服",
+        "tags": ["AI工具","跨境客服","多轮对话","客户服务","及时语"]
     },
     {
         "name": "一拍秀",
         "description": "一拍秀能更低成本、更便捷的帮助用户去生成制作3D模型",
         "url": "https://www.1pxiu.com",
         "category": "AI工具",
-        "tags": []
+        "subtype": "3D建模",
+        "tags": ["AI工具","3D建模","模型生成","商品建模","一拍秀"]
     },
     {
         "name": "Chato AI",
         "description": "帮您快速构建专属机器人",
         "url": "https://chato.cn",
         "category": "AI聊天助手",
-        "tags": ["AI"]
+        "subtype": "机器人构建",
+        "tags": ["AI聊天助手","机器人构建","聊天机器人","专属助手","Chato AI"]
     },
     {
         "name": "跨赋-跨境AI退税",
         "description": "专门针对跨境领域的AI应用服务产品",
         "url": "https://www.aikuafu.com",
         "category": "AI工具",
-        "tags": ["AI","跨境"]
+        "subtype": "跨境退税",
+        "tags": ["AI工具","跨境退税","出口服务","跨境财税","跨赋AI退税"]
     },
     {
         "name": "TipRanks",
         "description": "一个为投资者提供股票市场研究、新闻和分析师预测的工具",
         "url": "https://www.tipranks.com",
         "category": "AI数据分析",
-        "tags": ["工具","分析"]
+        "subtype": "投资研究",
+        "tags": ["AI数据分析","投资研究","分析师评级","股票研究","TipRanks"]
     },
     {
         "name": "Finchat",
         "description": "准确地提供了上市公司的验证数据。",
         "url": "https://finchat.io",
         "category": "AI聊天助手",
-        "tags": []
+        "tags": ["AI聊天助手","金融问答","公司数据","投资研究","Finchat"]
     },
     {
         "name": "Morphlin",
         "description": "Morphlin 是一款基于人工智能的工具，旨在通过为交易者提供有效的借贷策略、网格策略以及跨市场和交易所的实时信号推送通知来增强交易者的能力。",
         "url": "https://www.morphlin.com",
         "category": "AI工具",
-        "tags": ["工具","智能"]
+        "subtype": "交易策略",
+        "tags": ["AI工具","交易策略","量化信号","加密交易","Morphlin"]
     },
     {
         "name": "Paymefy",
         "description": "Paymefy是一款人工智能催收工具，通过自动通知和促进一键支付，帮助企业优化催收流程。它有助于降低运营成本和恢复时间，根据用户的视觉识别定制通知，并从拒绝偿还债务的客户那里接收可操作的反馈。该工具还可以与erp和crm集成，并提供多发票和分期付款选项。",
         "url": "https://www.paymefy.com",
         "category": "AI工具",
-        "tags": ["工具","智能","运营"]
+        "subtype": "催收自动化",
+        "tags": ["AI工具","催收自动化","账款管理","支付提醒","Paymefy"]
     },
     {
         "name": "Truewind",
         "description": "Truewind是一款人工智能记账和财务工具，旨在让创业公司的后台财务更简单、更高效。它提供人工智能和礼宾服务的结合，通过准确的簿记、详细的财务模型和更快的月度结帐，提供令人愉快的财务后台体验。Truewind还提供世界级的支持和模板风格指南。",
         "url": "https://www.truewind.ai",
-        "category": "AI世界构建",
-        "tags": ["工具","智能"]
+        "category": "AI数据分析",
+        "subtype": "财务自动化",
+        "tags": ["AI数据分析","财务自动化","智能记账","创业财务","Truewind"]
     },
     {
         "name": "AlphaResearch",
         "description": "AlphaResearch是一个提供人工智能搜索引擎的平台，帮助投资者从非结构化文本、文件、业绩电话记录等中提取信息。它提供了一系列功能，包括文件搜索、文件警报和文件筛选、趋势话题和情绪分析、新闻观察、内幕交易和机构所有权分析、ETF和共同基金持股、笔记记录以及全球基本面和估计。",
         "url": "https://alpharesearch.io",
         "category": "AI数据分析",
-        "tags": ["智能","分析"]
+        "subtype": "投资研究",
+        "tags": ["AI数据分析","投资研究","财报检索","情绪分析","AlphaResearch"]
     },
     {
         "name": "AI Competence",
         "description": "AI Competence一个在10秒左右为用户提供免费ai (GPT-3驱动)公司价值增值报告的工具。用户可以输入他们感兴趣的公司名称，然后将收到一份概述该公司重要信息的报告。该网站还为人工智能社区提供资源和灵感。",
         "url": "https://freshly.ai",
         "category": "AI开发社区",
-        "tags": ["AI","工具","智能"]
+        "subtype": "AI资源社区",
+        "tags": ["AI开发社区","AI资源社区","公司分析","开发者资源","AI Competence"]
     },
     {
         "name": "ChainGPT",
         "description": "ChainGPT是一个基于区块链的人工智能模型，旨在帮助个人和企业完成所有加密和区块链相关的任务。它使用变压器网络等深度学习技术来生成类似人类的文本，并回答有关加密和区块链的问题。它可以帮助编程和开发任务，区块链分析，风险管理，人工智能交易等。",
         "url": "https://www.chaingpt.org",
         "category": "AI教育与学习",
-        "tags": ["智能","分析"]
+        "subtype": "区块链学习",
+        "tags": ["AI教育与学习","区块链学习","加密问答","Web3助手","ChainGPT"]
     },
     {
         "name": "Finalle.ai",
         "description": "Finalle.ai是一个基于新媒体数据和Gen. ai技术的金融智能平台。该平台汇总并分析大量金融资源，为投资者提供实时、全面的市场及其驱动力视图。",
         "url": "https://finalle.ai",
         "category": "AI数据分析",
-        "tags": ["智能","分析"]
+        "subtype": "金融情报",
+        "tags": ["AI数据分析","金融情报","市场监测","金融数据","Finalle.ai"]
     },
     {
         "name": "Rose.ai",
         "description": "Rose是一个云数据平台，旨在帮助用户查找、参与、可视化和共享数据。它支持外部和内部数据的集成，并能够为内部团队或第三方授予数据权限。",
         "url": "https://rose.ai",
         "category": "AI数据分析",
-        "tags": []
+        "subtype": "数据平台",
+        "tags": ["AI数据分析","数据平台","数据可视化","数据共享","Rose.ai"]
     },
     {
         "name": "AiTax",
         "description": "AiTax是一款基于人工智能的报税软件，可以帮助企业家准确高效地报税，同时避免错误，增加潜在的退款，避免不必要的审计。",
         "url": "https://www.aitax.com",
         "category": "AI工具",
-        "tags": ["智能"]
+        "subtype": "智能报税",
+        "tags": ["AI工具","智能报税","税务申报","财税工具","AiTax"]
     },
     {
         "name": "Tendi",
         "description": "Tendi是您的个人AI财务顾问，旨在帮助用户设定财务目标、制定预算、减少债务、积累储蓄、明智投资并实现退休。通过分析支出、储蓄和投资行为，提供可操作的见解。",
         "url": "https://tendi.ai",
         "category": "AI数据分析",
-        "tags": ["AI","分析"]
+        "subtype": "个人理财",
+        "tags": ["AI数据分析","个人理财","预算规划","财务顾问","Tendi"]
     },
     {
         "name": "投搜AI",
@@ -17128,168 +17192,192 @@ const websitesDatabase = [
         "description": "一键检查并修正所有的英语语法错误、拼写错误和标点符号错误",
         "url": "https://manfenyufa.com",
         "category": "AI语言学习",
-        "tags": []
+        "subtype": "英语语法",
+        "tags": ["AI语言学习","英语语法","拼写检查","写作纠错","满分语法"]
     },
     {
         "name": "PhET",
         "description": "PhET 是一个由科罗拉多大学开发的互动仿真程序平台，旨在通过互动模拟帮助学生更好地理解科学和数学概念。提供丰富的仿真程序，覆盖物理、化学、生物、数学等多个学科，支持多语言，完全免费。",
         "url": "https://phet.colorado.edu",
         "category": "AI教育与学习",
-        "tags": []
+        "subtype": "学科教育",
+        "tags": ["AI教育与学习","学科教育","互动仿真","科学学习","PhET"]
     },
     {
         "name": "搜狐公众平台",
         "description": "",
         "url": "http://mp.sohu.com/",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "自媒体平台",
+        "tags": ["资讯与媒体","自媒体平台","内容发布","搜狐号","搜狐公众平台"]
     },
     {
         "name": "百度百家",
         "description": "",
         "url": "http://baijia.baidu.com/",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "自媒体平台",
+        "tags": ["资讯与媒体","自媒体平台","内容发布","百家号","百度百家"]
     },
     {
         "name": "一点资讯",
         "description": "",
         "url": "http://www.yidianzixun.com/",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "新闻聚合",
+        "tags": ["资讯与媒体","新闻聚合","个性化推荐","资讯阅读","一点资讯"]
     },
     {
         "name": "数英网",
         "description": "",
         "url": "http://www.digitaling.com/",
         "category": "营销推广",
-        "tags": []
+        "subtype": "营销案例",
+        "tags": ["营销推广","营销案例","广告创意","品牌营销","数英网"]
     },
     {
         "name": "A5 站长网",
         "description": "",
         "url": "http://www.admin5.com/",
         "category": "营销推广",
-        "tags": []
+        "subtype": "站长运营",
+        "tags": ["营销推广","站长运营","网站运营","SEO","A5站长网"]
     },
     {
         "name": "站长之家",
         "description": "",
         "url": "http://www.chinaz.com/",
         "category": "营销推广",
-        "tags": []
+        "subtype": "站长运营",
+        "tags": ["营销推广","站长运营","SEO","流量分析","站长之家"]
     },
     {
         "name": "涨粉圈",
         "description": "",
         "url": "https://t.zsxq.com/mYn6iEm",
         "category": "营销推广",
-        "tags": []
+        "subtype": "增长社区",
+        "tags": ["营销推广","增长社区","私域增长","流量运营","涨粉圈"]
     },
     {
         "name": "派代网",
         "description": "",
         "url": "http://www.paidai.com/",
         "category": "营销推广",
-        "tags": []
+        "subtype": "电商运营",
+        "tags": ["营销推广","电商运营","运营干货","电商社区","派代网"]
     },
     {
         "name": "搜我们",
         "description": "",
         "url": "http://sowm.cn/",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "自媒体导航",
+        "tags": ["资讯与媒体","自媒体导航","媒体平台","内容分发","搜我们"]
     },
     {
         "name": "艾瑞网",
         "description": "",
         "url": "http://www.iresearch.cn/",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "行业资讯",
+        "tags": ["资讯与媒体","行业资讯","互联网研究","数据报告","艾瑞网"]
     },
     {
         "name": "36 氪",
         "description": "",
         "url": "http://36kr.com/",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "科技媒体",
+        "tags": ["资讯与媒体","科技媒体","创业资讯","商业新闻","36氪"]
     },
     {
         "name": "i 黑马",
         "description": "",
         "url": "http://www.iheima.com/",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "创业媒体",
+        "tags": ["资讯与媒体","创业媒体","创业案例","商业资讯","i黑马"]
     },
     {
         "name": "虎嗅网",
         "description": "",
         "url": "http://www.huxiu.com/",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "商业媒体",
+        "tags": ["资讯与媒体","商业媒体","科技评论","产业观察","虎嗅网"]
     },
     {
         "name": "创见",
         "description": "",
         "url": "http://tech2ipo.com/",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "创业媒体",
+        "tags": ["资讯与媒体","创业媒体","科技创投","创新资讯","创见"]
     },
     {
         "name": "裂变星球",
         "description": "",
         "url": "https://t.zsxq.com/6EUNnyJ",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "增长社区",
+        "tags": ["资讯与媒体","增长社区","裂变营销","私域运营","裂变星球"]
     },
     {
         "name": "国际热点新闻语义式拓展网",
         "description": "",
         "url": "http://hithot.cc/zh_CN",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "热点追踪",
+        "tags": ["资讯与媒体","热点追踪","新闻发现","国际热点","语义拓展"]
     },
     {
         "name": "品读价值书籍阅读推荐网",
         "description": "",
         "url": "http://www.pento.cn/",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "阅读推荐",
+        "tags": ["资讯与媒体","阅读推荐","书籍推荐","知识阅读","Pento"]
     },
     {
         "name": "自媒体引流汇总",
         "description": "",
         "url": "https://hdk125.lanzous.com/b00n5qrhe",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "引流资源",
+        "tags": ["资讯与媒体","引流资源","自媒体运营","流量获取","资源汇总"]
     },
     {
         "name": "壹读传媒",
         "description": "",
         "url": "http://yidu.im/",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "内容媒体",
+        "tags": ["资讯与媒体","内容媒体","深度阅读","图文内容","壹读传媒"]
     },
     {
         "name": "理想生活实验室",
         "description": "",
         "url": "http://www.toodaylab.com/",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "生活方式媒体",
+        "tags": ["资讯与媒体","生活方式媒体","消费趋势","品牌观察","理想生活实验室"]
     },
     {
         "name": "画旅途",
         "description": "",
         "url": "http://www.hualvtu.com/",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "旅行内容",
+        "tags": ["资讯与媒体","旅行内容","旅行灵感","图文分享","画旅途"]
     },
     {
         "name": "妞新闻",
         "description": "",
         "url": "http://www.niusnews.com/",
         "category": "资讯与媒体",
-        "tags": []
+        "subtype": "生活资讯",
+        "tags": ["资讯与媒体","生活资讯","女性内容","轻阅读","妞新闻"]
     },
     {
         "name": "昵图网",
@@ -17632,378 +17720,432 @@ const websitesDatabase = [
         "description": "",
         "url": "http://www.surl.sinaapp.com/",
         "category": "工具",
-        "tags": []
+        "subtype": "短链接",
+        "tags": ["工具","短链接","短网址生成","链接缩短","新浪微博短链接生成器"]
     },
     {
         "name": "T.IM 短网址/短链接生成器",
         "description": "",
         "url": "http://t.im/",
         "category": "工具",
-        "tags": []
+        "subtype": "短链接",
+        "tags": ["工具","短链接","短网址生成","链接缩短","T.IM"]
     },
     {
         "name": "百度短网址",
         "description": "",
         "url": "http://www.dwz.cn/",
         "category": "工具",
-        "tags": []
+        "subtype": "短链接",
+        "tags": ["工具","短链接","短网址生成","链接缩短","百度短网址"]
     },
     {
         "name": "I 排版短链接生成器",
         "description": "",
         "url": "http://xhr.so/",
         "category": "工具",
-        "tags": []
+        "subtype": "短链接",
+        "tags": ["工具","短链接","短网址生成","排版工具","I排版短链接生成器"]
     },
     {
         "name": "易企秀",
         "description": "",
         "url": "http://www.eqxiu.com/show",
         "category": "H5制作工具",
-        "tags": []
+        "subtype": "H5页面制作",
+        "tags": ["H5制作工具","H5页面制作","海报制作","营销页面","易企秀"]
     },
     {
         "name": "兔展",
         "description": "",
         "url": "http://www.rabbitpre.com/store",
         "category": "H5制作工具",
-        "tags": []
+        "subtype": "H5页面制作",
+        "tags": ["H5制作工具","H5页面制作","营销页面","互动页面","兔展"]
     },
     {
         "name": "秀制作",
         "description": "",
         "url": "http://xiumi.us/studio/booklet#/for/new",
         "category": "H5制作工具",
-        "tags": []
+        "subtype": "H5内容制作",
+        "tags": ["H5制作工具","H5内容制作","图文制作","秀米","秀制作"]
     },
     {
         "name": "Maka",
         "description": "",
         "url": "http://maka.im/store",
         "category": "H5制作工具",
-        "tags": []
+        "subtype": "H5页面制作",
+        "tags": ["H5制作工具","H5页面制作","海报模板","品牌营销","Maka"]
     },
     {
         "name": "咫尺微页",
         "description": "",
         "url": "http://www.zhichiwangluo.com/",
         "category": "H5制作工具",
-        "tags": []
+        "subtype": "微页制作",
+        "tags": ["H5制作工具","微页制作","营销页面","H5建站","咫尺微页"]
     },
     {
         "name": "初页",
         "description": "",
         "url": "http://www.ichuye.cn/",
         "category": "H5制作工具",
-        "tags": []
+        "subtype": "H5页面制作",
+        "tags": ["H5制作工具","H5页面制作","电子画册","创意页面","初页"]
     },
     {
         "name": "Epub360 意派",
         "description": "",
         "url": "http://www.epub360.com/",
         "category": "H5制作工具",
-        "tags": []
+        "subtype": "互动内容制作",
+        "tags": ["H5制作工具","互动内容制作","H5营销","互动设计","Epub360"]
     },
     {
         "name": "Vxplo",
         "description": "",
         "url": "http://www.ih5.cn/not-logged-in",
         "category": "H5制作工具",
-        "tags": []
+        "subtype": "H5页面制作",
+        "tags": ["H5制作工具","H5页面制作","互动页面","在线制作","Vxplo"]
     },
     {
         "name": "搜狐快站",
         "description": "",
         "url": "http://www.kuaizhan.com/",
         "category": "H5制作工具",
-        "tags": []
+        "subtype": "移动建站",
+        "tags": ["H5制作工具","移动建站","H5页面","快速建站","搜狐快站"]
     },
     {
         "name": "易传单",
         "description": "",
         "url": "http://echuandan.com/",
         "category": "H5制作工具",
-        "tags": []
+        "subtype": "电子传单",
+        "tags": ["H5制作工具","电子传单","宣传页制作","营销素材","易传单"]
     },
     {
         "name": "Liveapp 场景应用/云来",
         "description": "",
         "url": "http://www.liveapp.cn/",
         "category": "H5制作工具",
-        "tags": []
+        "subtype": "场景营销",
+        "tags": ["H5制作工具","场景营销","互动页面","品牌传播","Liveapp"]
     },
     {
         "name": "草料",
         "description": "",
         "url": "http://cli.im/",
         "category": "工具",
-        "tags": []
+        "subtype": "二维码生成",
+        "tags": ["工具","二维码生成","二维码美化","活码工具","草料"]
     },
     {
         "name": "联图网",
         "description": "",
         "url": "http://www.liantu.com/",
         "category": "工具",
-        "tags": []
+        "subtype": "二维码生成",
+        "tags": ["工具","二维码生成","二维码制作","在线工具","联图网"]
     },
     {
         "name": "鑫码",
         "description": "",
         "url": "http://www.xmesm.cn/",
         "category": "工具",
-        "tags": []
+        "subtype": "二维码生成",
+        "tags": ["工具","二维码生成","活码管理","扫码营销","鑫码"]
     },
     {
         "name": "59na",
         "description": "",
         "url": "http://qr.59na.com/",
         "category": "工具",
-        "tags": []
+        "subtype": "二维码生成",
+        "tags": ["工具","二维码生成","二维码制作","在线生成","59na"]
     },
     {
         "name": "仍赞",
         "description": "",
         "url": "http://ewm.rengzan.com/",
         "category": "工具",
-        "tags": []
+        "subtype": "二维码生成",
+        "tags": ["工具","二维码生成","活码工具","扫码引流","仍赞"]
     },
     {
         "name": "wwei 微微",
         "description": "",
         "url": "http://www.wwei.cn/",
         "category": "工具",
-        "tags": []
+        "subtype": "二维码生成",
+        "tags": ["工具","二维码生成","二维码美化","海报二维码","wwei"]
     },
     {
         "name": "Q码",
         "description": "",
         "url": "http://www.qmacode.com/",
         "category": "工具",
-        "tags": []
+        "subtype": "二维码生成",
+        "tags": ["工具","二维码生成","二维码管理","营销二维码","Q码"]
     },
     {
         "name": "QR Stuff",
         "description": "",
         "url": "http://www.qrstuff.com/",
         "category": "工具",
-        "tags": []
+        "subtype": "二维码生成",
+        "tags": ["工具","二维码生成","国际工具","二维码制作","QR Stuff"]
     },
     {
         "name": "Visualead",
         "description": "",
         "url": "http://www.visualead.com/",
         "category": "工具",
-        "tags": []
+        "subtype": "二维码美化",
+        "tags": ["工具","二维码美化","视觉二维码","营销工具","Visualead"]
     },
     {
         "name": "Littleidiot",
         "description": "",
         "url": "https://qrcode.littleidiot.be/",
         "category": "工具",
-        "tags": []
+        "subtype": "二维码生成",
+        "tags": ["工具","二维码生成","在线工具","二维码制作","Littleidiot"]
     },
     {
         "name": "TalkingData",
         "description": "",
         "url": "http://www.talkingdata.com/",
         "category": "AI数据分析",
-        "tags": []
+        "subtype": "数据平台",
+        "tags": ["AI数据分析","数据平台","移动数据","用户分析","TalkingData"]
     },
     {
         "name": "CNZZ",
         "description": "",
         "url": "http://www.cnzz.com/",
         "category": "AI数据分析",
-        "tags": []
+        "subtype": "网站分析",
+        "tags": ["AI数据分析","网站分析","流量统计","站长工具","CNZZ"]
     },
     {
         "name": "百度指数",
         "description": "",
         "url": "http://index.baidu.com/",
         "category": "AI数据分析",
-        "tags": []
+        "subtype": "指数趋势",
+        "tags": ["AI数据分析","指数趋势","搜索趋势","关键词热度","百度指数"]
     },
     {
         "name": "Datahoop 大数据分析平台",
         "description": "",
         "url": "http://www.datahoop.cn/",
         "category": "AI数据分析",
-        "tags": []
+        "subtype": "数据平台",
+        "tags": ["AI数据分析","数据平台","大数据分析","数据建模","Datahoop"]
     },
     {
         "name": "前瞻网",
         "description": "",
         "url": "http://www.qianzhan.com/qzdata/list/147.html",
         "category": "AI数据分析",
-        "tags": []
+        "subtype": "行业数据",
+        "tags": ["AI数据分析","行业数据","产业研究","数据报告","前瞻网"]
     },
     {
         "name": "数据观",
         "description": "",
         "url": "http://www.cbdio.com/",
         "category": "AI数据分析",
-        "tags": []
+        "subtype": "行业数据",
+        "tags": ["AI数据分析","行业数据","大数据资讯","数据观察","数据观"]
     },
     {
         "name": "易观",
         "description": "",
         "url": "http://www.analysys.cn/",
         "category": "AI数据分析",
-        "tags": []
+        "subtype": "行业数据",
+        "tags": ["AI数据分析","行业数据","行业研究","数据报告","易观"]
     },
     {
         "name": "中国统计网",
         "description": "",
         "url": "http://www.itongji.cn/cms/article/index",
         "category": "AI数据分析",
-        "tags": []
+        "subtype": "行业数据",
+        "tags": ["AI数据分析","行业数据","统计数据","数据资讯","中国统计网"]
     },
     {
         "name": "网站数据分析",
         "description": "",
         "url": "http://webdataanalysis.net/",
         "category": "AI数据分析",
-        "tags": []
+        "subtype": "网站分析",
+        "tags": ["AI数据分析","网站分析","流量分析","Web Analytics","网站数据分析"]
     },
     {
         "name": "阿里指数",
         "description": "",
         "url": "http://index.1688.com/",
         "category": "AI数据分析",
-        "tags": []
+        "subtype": "指数趋势",
+        "tags": ["AI数据分析","指数趋势","电商趋势","行业热度","阿里指数"]
     },
     {
         "name": "199IT",
         "description": "",
         "url": "http://www.199it.com/",
         "category": "AI数据分析",
-        "tags": []
+        "subtype": "行业数据",
+        "tags": ["AI数据分析","行业数据","互联网数据","数据报告","199IT"]
     },
     {
         "name": "网站分析在中国",
         "description": "",
         "url": "http://www.chinawebanalytics.cn/",
         "category": "AI数据分析",
-        "tags": []
+        "subtype": "网站分析",
+        "tags": ["AI数据分析","网站分析","数据运营","流量分析","网站分析在中国"]
     },
     {
         "name": "DCCI 互联网数据中心",
         "description": "",
         "url": "http://www.dcci.com.cn/",
         "category": "AI数据分析",
-        "tags": []
+        "subtype": "行业数据",
+        "tags": ["AI数据分析","行业数据","互联网研究","数据报告","DCCI"]
     },
     {
         "name": "36大数据",
         "description": "",
         "url": "http://www.36dsj.com/",
         "category": "AI数据分析",
-        "tags": []
+        "subtype": "行业数据",
+        "tags": ["AI数据分析","行业数据","大数据资讯","行业洞察","36大数据"]
     },
     {
         "name": "暴走漫画制作器",
         "description": "",
         "url": "http://baozoumanhua.com/makers",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "表情包创作",
+        "tags": ["创意灵感","表情包创作","漫画制作","梗图创作","暴走漫画制作器"]
     },
     {
         "name": "豆饼软件网",
         "description": "",
         "url": "http://www.doubean.com/",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "创意工具",
+        "tags": ["创意灵感","创意工具","趣味应用","创意软件","豆饼软件网"]
     },
     {
         "name": "爱斗图（斗图神器）",
         "description": "",
         "url": "http://www.adoutu.com/pages/index.php",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "表情包创作",
+        "tags": ["创意灵感","表情包创作","斗图素材","梗图工具","爱斗图"]
     },
     {
         "name": "起点学院",
         "description": "",
         "url": "http://www.qidianla.com/",
         "category": "AI教育与学习",
-        "tags": []
+        "subtype": "产品运营学习",
+        "tags": ["AI教育与学习","产品运营学习","产品经理","运营课程","起点学院"]
     },
     {
         "name": "三节课",
         "description": "",
         "url": "http://www.sanjieke.cn/",
         "category": "AI教育与学习",
-        "tags": []
+        "subtype": "职业教育",
+        "tags": ["AI教育与学习","职业教育","互联网课程","运营学习","三节课"]
     },
     {
         "name": "馒头商学院",
         "description": "",
         "url": "http://www.mtedu.com/",
         "category": "AI教育与学习",
-        "tags": []
+        "subtype": "职业教育",
+        "tags": ["AI教育与学习","职业教育","商业课程","营销学习","馒头商学院"]
     },
     {
         "name": "插座学院",
         "description": "",
         "url": "http://www.chazuomba.com/",
         "category": "AI教育与学习",
-        "tags": []
+        "subtype": "职业教育",
+        "tags": ["AI教育与学习","职业教育","互联网学习","职场提升","插座学院"]
     },
     {
         "name": "黑马学院",
         "description": "",
         "url": "http://xueyuan.iheima.com/",
         "category": "AI教育与学习",
-        "tags": []
+        "subtype": "编程学习",
+        "tags": ["AI教育与学习","编程学习","开发课程","IT培训","黑马学院"]
     },
     {
         "name": "91 运营网",
         "description": "",
         "url": "http://www.yunying.com/",
         "category": "AI教育与学习",
-        "tags": []
+        "subtype": "产品运营学习",
+        "tags": ["AI教育与学习","产品运营学习","运营干货","增长运营","91运营网"]
     },
     {
         "name": "慕课网 (IMOOC)",
         "description": "",
         "url": "http://www.imooc.com/",
         "category": "AI教育与学习",
-        "tags": []
+        "subtype": "编程学习",
+        "tags": ["AI教育与学习","编程学习","开发课程","在线编程","慕课网"]
     },
     {
         "name": "极客学院",
         "description": "",
         "url": "http://www.jikexueyuan.com/",
         "category": "AI教育与学习",
-        "tags": []
+        "subtype": "编程学习",
+        "tags": ["AI教育与学习","编程学习","开发课程","技术学习","极客学院"]
     },
     {
         "name": "25 学堂",
         "description": "",
         "url": "http://www.25xt.com/",
         "category": "AI教育与学习",
-        "tags": []
+        "subtype": "产品运营学习",
+        "tags": ["AI教育与学习","产品运营学习","新媒体运营","营销学习","25学堂"]
     },
     {
         "name": "MOOC 学院",
         "description": "",
         "url": "http://mooc.guokr.com/",
         "category": "AI教育与学习",
-        "tags": []
+        "subtype": "在线课程",
+        "tags": ["AI教育与学习","在线课程","MOOC","公开课","MOOC学院"]
     },
     {
         "name": "网易云课堂",
         "description": "",
         "url": "http://study.163.com/",
         "category": "AI教育与学习",
-        "tags": []
+        "subtype": "在线课程",
+        "tags": ["AI教育与学习","在线课程","职业学习","公开课","网易云课堂"]
     },
     {
         "name": "腾讯课堂",
         "description": "",
         "url": "https://ke.qq.com/",
         "category": "AI教育与学习",
-        "tags": []
+        "subtype": "在线课程",
+        "tags": ["AI教育与学习","在线课程","技能学习","职业教育","腾讯课堂"]
     },
     {
         "name": "UI 中国灵感库",
@@ -18170,7 +18312,8 @@ const websitesDatabase = [
         "description": "",
         "url": "https://jinshuju.net/f/tQjCgL",
         "category": "创意灵感",
-        "tags": []
+        "subtype": "创意社区",
+        "tags": ["创意灵感","创意社区","灵感收集","创意表单","Yin liuzhangfen"]
     },
     {
         "name": "XMind 思维导图软件",
@@ -18737,973 +18880,1112 @@ const websitesDatabase = [
         "description": "",
         "url": "http://www.1001freefonts.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "字体资源",
+        "tags": ["设计资源","字体资源","免费字体","英文字体","1001Free Fonts"]
     },
     {
         "name": "求字体网",
         "description": "",
         "url": "http://www.qiuziti.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "字体识别",
+        "tags": ["设计资源","字体识别","找字体","字体查询","求字体网"]
     },
     {
         "name": "叶根友字体",
         "description": "",
         "url": "http://www.yegenyou.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "字体资源",
+        "tags": ["设计资源","字体资源","中文字体","商用字体","叶根友字体"]
     },
     {
         "name": "字客网",
         "description": "",
         "url": "http://www.fontke.com/",
         "category": "设计资源",
-        "tags": []
+        "subtype": "字体资源",
+        "tags": ["设计资源","字体资源","字体下载","字体识别","字客网"]
     },
     {
         "name": "会声会影",
         "description": "",
         "url": "http://www.huishenghuiying.com.cn/",
         "category": "AI视频工具",
-        "tags": []
+        "subtype": "视频剪辑",
+        "tags": ["AI视频工具","视频剪辑","视频编辑","剪辑软件","会声会影"]
     },
     {
         "name": "爱剪辑",
         "description": "",
         "url": "http://www.aijianji.com/",
         "category": "AI视频工具",
-        "tags": []
+        "subtype": "视频剪辑",
+        "tags": ["AI视频工具","视频剪辑","剪辑软件","字幕制作","爱剪辑"]
     },
     {
         "name": "腾讯地图",
         "description": "",
         "url": "https://map.qq.com/",
         "category": "地图导航",
-        "tags": []
+        "subtype": "在线地图",
+        "tags": ["地图导航","在线地图","路线规划","位置查询","腾讯地图"]
     },
     {
         "name": "飞猪",
         "description": "",
         "url": "https://www.fliggy.com/",
         "category": "旅游与出行",
-        "tags": []
+        "subtype": "旅行预订",
+        "tags": ["旅游与出行","旅行预订","酒店预订","机票预订","飞猪"]
     },
     {
         "name": "同程旅行",
         "description": "",
         "url": "https://www.ly.com/",
         "category": "旅游与出行",
-        "tags": []
+        "subtype": "旅行预订",
+        "tags": ["旅游与出行","旅行预订","酒店预订","车票预订","同程旅行"]
     },
     {
         "name": "途牛旅游",
         "description": "",
         "url": "https://www.tuniu.com/",
         "category": "旅游与出行",
-        "tags": []
+        "subtype": "跟团旅游",
+        "tags": ["旅游与出行","跟团旅游","自由行","度假产品","途牛旅游"]
     },
     {
         "name": "中国航空",
         "description": "",
         "url": "https://www.airchina.com.cn/",
         "category": "旅游与出行",
-        "tags": []
+        "subtype": "航空公司",
+        "tags": ["旅游与出行","航空公司","机票预订","国航","中国航空"]
     },
     {
         "name": "稻草人旅行",
         "description": "",
         "url": "https://www.daocaorentravel.com/",
         "category": "旅游与出行",
-        "tags": []
+        "subtype": "深度旅行",
+        "tags": ["旅游与出行","深度旅行","小团旅行","目的地体验","稻草人旅行"]
     },
     {
         "name": "春秋航空",
         "description": "",
         "url": "https://www.ch.com/",
         "category": "旅游与出行",
-        "tags": []
+        "subtype": "航空公司",
+        "tags": ["旅游与出行","航空公司","低成本航空","机票预订","春秋航空"]
     },
     {
         "name": "去哪儿",
         "description": "",
         "url": "https://www.qunar.com/",
         "category": "旅游与出行",
-        "tags": []
+        "subtype": "旅行预订",
+        "tags": ["旅游与出行","旅行预订","酒店预订","机票比价","去哪儿"]
     },
     {
         "name": "穷游",
         "description": "",
         "url": "https://www.qyer.com/",
         "category": "旅游与出行",
-        "tags": []
+        "subtype": "旅行社区",
+        "tags": ["旅游与出行","旅行社区","攻略游记","自由行","穷游"]
     },
     {
         "name": "蚂蜂窝",
         "description": "",
         "url": "https://www.mafengwo.cn/",
         "category": "旅游与出行",
-        "tags": []
+        "subtype": "旅行攻略",
+        "tags": ["旅游与出行","旅行攻略","游记分享","目的地指南","蚂蜂窝"]
     },
     {
         "name": "智行火车票",
         "description": "",
         "url": "https://www.zhixing.com/",
         "category": "旅游与出行",
-        "tags": []
+        "subtype": "票务预订",
+        "tags": ["旅游与出行","票务预订","火车票","出行服务","智行火车票"]
     },
     {
         "name": "东方航空",
         "description": "",
         "url": "https://www.ceair.com/",
         "category": "旅游与出行",
-        "tags": []
+        "subtype": "航空公司",
+        "tags": ["旅游与出行","航空公司","机票预订","东航","东方航空"]
     },
     {
         "name": "天巡网",
         "description": "",
         "url": "https://www.skyscanner.com.cn/",
         "category": "旅游与出行",
-        "tags": []
+        "subtype": "机票比价",
+        "tags": ["旅游与出行","机票比价","酒店比价","旅行搜索","天巡网"]
     },
     {
         "name": "艺龙旅行",
         "description": "",
         "url": "https://www.elong.com/",
         "category": "旅游与出行",
-        "tags": []
+        "subtype": "酒店预订",
+        "tags": ["旅游与出行","酒店预订","旅行预订","住宿预订","艺龙旅行"]
     },
     {
         "name": "中国知网",
         "description": "",
         "url": "https://www.cnki.net/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "学术论文",
+        "tags": ["知识学习","学术论文","论文检索","中文期刊","中国知网"]
     },
     {
         "name": "学堂在线",
         "description": "",
         "url": "https://www.xuetangx.com/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "在线课程",
+        "tags": ["知识学习","在线课程","高校课程","慕课","学堂在线"]
     },
     {
         "name": "扇贝单词",
         "description": "",
         "url": "https://www.shanbay.com/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "英语学习",
+        "tags": ["知识学习","英语学习","背单词","词汇记忆","扇贝单词"]
     },
     {
         "name": "超星尔雅",
         "description": "",
         "url": "https://www.chaoxing.com/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "在线课程",
+        "tags": ["知识学习","在线课程","通识课程","学习平台","超星尔雅"]
     },
     {
         "name": "百度学术",
         "description": "",
         "url": "https://xueshu.baidu.com/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "学术检索",
+        "tags": ["知识学习","学术检索","论文搜索","文献查询","百度学术"]
     },
     {
         "name": "万方数据",
         "description": "",
         "url": "https://www.wanfangdata.com.cn/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "学术论文",
+        "tags": ["知识学习","学术论文","文献数据库","论文检索","万方数据"]
     },
     {
         "name": "中国大学MOOC(慕课)",
         "description": "",
         "url": "https://www.icourse163.org/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "在线课程",
+        "tags": ["知识学习","在线课程","大学慕课","网易课程","中国大学MOOC"]
     },
     {
         "name": "英语四六级",
         "description": "",
         "url": "https://cet.neea.edu.cn/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "考试服务",
+        "tags": ["知识学习","考试服务","英语四六级","考试报名","成绩查询"]
     },
     {
         "name": "学科网",
         "description": "",
         "url": "https://www.zxxk.com/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "教学资源",
+        "tags": ["知识学习","教学资源","试题资料","教案课件","学科网"]
     },
     {
         "name": "国图公开课",
         "description": "",
         "url": "http://open.nlc.cn/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "公开课",
+        "tags": ["知识学习","公开课","文化讲座","图书馆资源","国图公开课"]
     },
     {
         "name": "TED",
         "description": "",
         "url": "https://www.ted.com/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "演讲学习",
+        "tags": ["知识学习","演讲学习","公开演讲","英语听力","TED"]
     },
     {
         "name": "粉笔网",
         "description": "",
         "url": "https://www.fenbi.com/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "考试培训",
+        "tags": ["知识学习","考试培训","公考培训","题库练习","粉笔网"]
     },
     {
         "name": "EnglishClub",
         "description": "",
         "url": "https://www.englishclub.com/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "英语学习",
+        "tags": ["知识学习","英语学习","英语语法","听说读写","EnglishClub"]
     },
     {
         "name": "牛客网",
         "description": "",
         "url": "https://www.nowcoder.com/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "编程学习",
+        "tags": ["知识学习","编程学习","面试题库","求职笔试","牛客网"]
     },
     {
         "name": "LOFTER",
         "description": "",
         "url": "https://www.lofter.com/",
         "category": "社交娱乐",
-        "tags": []
+        "subtype": "兴趣社区",
+        "tags": ["社交娱乐","兴趣社区","图文创作","同人社区","LOFTER"]
     },
     {
         "name": "最右",
         "description": "",
         "url": "https://www.zuiyou.com/",
         "category": "社交娱乐",
-        "tags": []
+        "subtype": "兴趣社区",
+        "tags": ["社交娱乐","兴趣社区","搞笑内容","年轻社区","最右"]
     },
     {
         "name": "QQ空间",
         "description": "",
         "url": "https://qzone.qq.com/",
         "category": "社交娱乐",
-        "tags": []
+        "subtype": "社交平台",
+        "tags": ["社交娱乐","社交平台","个人空间","日志分享","QQ空间"]
     },
     {
         "name": "珍爱网",
         "description": "",
         "url": "https://www.zhenai.com/",
         "category": "社交娱乐",
-        "tags": []
+        "subtype": "婚恋交友",
+        "tags": ["社交娱乐","婚恋交友","相亲平台","交友社区","珍爱网"]
     },
     {
         "name": "网易邮箱",
         "description": "",
         "url": "https://mail.163.com/",
         "category": "邮箱服务",
-        "tags": []
+        "subtype": "电子邮箱",
+        "tags": ["邮箱服务","电子邮箱","邮箱登录","邮件服务","网易邮箱"]
     },
     {
         "name": "新浪博客",
         "description": "",
         "url": "https://blog.sina.com.cn/",
         "category": "社交娱乐",
-        "tags": []
+        "subtype": "博客平台",
+        "tags": ["社交娱乐","博客平台","文章发布","个人博客","新浪博客"]
     },
     {
         "name": "新浪微博",
         "description": "",
         "url": "https://weibo.com/",
         "category": "社交娱乐",
-        "tags": []
+        "subtype": "社交平台",
+        "tags": ["社交娱乐","社交平台","微博热搜","内容分享","新浪微博"]
     },
     {
         "name": "虎扑社区",
         "description": "",
         "url": "https://www.hupu.com/",
         "category": "社交娱乐",
-        "tags": []
+        "subtype": "社区论坛",
+        "tags": ["社交娱乐","社区论坛","体育社区","兴趣讨论","虎扑社区"]
     },
     {
         "name": "微信公众号",
         "description": "",
         "url": "https://mp.weixin.qq.com/",
         "category": "社交娱乐",
-        "tags": []
+        "subtype": "内容平台",
+        "tags": ["社交娱乐","内容平台","公众号运营","图文发布","微信公众号"]
     },
     {
         "name": "世纪佳缘",
         "description": "",
         "url": "https://www.jiayuan.com/",
         "category": "社交娱乐",
-        "tags": []
+        "subtype": "婚恋交友",
+        "tags": ["社交娱乐","婚恋交友","相亲平台","交友服务","世纪佳缘"]
     },
     {
         "name": "facebook",
         "description": "",
         "url": "https://www.facebook.com/",
         "category": "社交娱乐",
-        "tags": []
+        "subtype": "社交平台",
+        "tags": ["社交娱乐","社交平台","海外社交","社交网络","Facebook"]
     },
     {
         "name": "百度贴吧",
         "description": "",
         "url": "https://tieba.baidu.com/",
         "category": "社交娱乐",
-        "tags": []
+        "subtype": "兴趣社区",
+        "tags": ["社交娱乐","兴趣社区","话题讨论","贴吧社区","百度贴吧"]
     },
     {
         "name": "职友集",
         "description": "",
         "url": "https://www.jobui.com/",
         "category": "求职招聘",
-        "tags": []
+        "subtype": "职位查询",
+        "tags": ["求职招聘","职位查询","公司点评","薪资查询","职友集"]
     },
     {
         "name": "强国论坛",
         "description": "",
         "url": "http://bbs1.people.com.cn/",
         "category": "社交娱乐",
-        "tags": []
+        "subtype": "论坛社区",
+        "tags": ["社交娱乐","论坛社区","时事讨论","人民网论坛","强国论坛"]
     },
     {
         "name": "爱奇艺体育",
         "description": "",
         "url": "https://sports.iqiyi.com/",
         "category": "体育运动",
-        "tags": []
+        "subtype": "体育直播",
+        "tags": ["体育运动","体育直播","赛事视频","体育内容","爱奇艺体育"]
     },
     {
         "name": "懂球帝",
         "description": "",
         "url": "https://www.dongqiudi.com/",
         "category": "体育运动",
-        "tags": []
+        "subtype": "体育资讯",
+        "tags": ["体育运动","体育资讯","足球资讯","赛事讨论","懂球帝"]
     },
     {
         "name": "企鹅体育",
         "description": "",
         "url": "https://sports.qq.com/",
         "category": "体育运动",
-        "tags": []
+        "subtype": "体育资讯",
+        "tags": ["体育运动","体育资讯","赛事直播","腾讯体育","企鹅体育"]
     },
     {
         "name": "CCTV5",
         "description": "",
         "url": "https://sports.cctv.com/",
         "category": "体育运动",
-        "tags": []
+        "subtype": "体育直播",
+        "tags": ["体育运动","体育直播","央视体育","赛事转播","CCTV5"]
     },
     {
         "name": "凤凰体育",
         "description": "",
         "url": "https://sports.ifeng.com/",
         "category": "体育运动",
-        "tags": []
+        "subtype": "体育资讯",
+        "tags": ["体育运动","体育资讯","赛事新闻","凤凰体育","体育报道"]
     },
     {
         "name": "咪咕体育",
         "description": "",
         "url": "https://www.migu.cn/",
         "category": "体育运动",
-        "tags": []
+        "subtype": "体育直播",
+        "tags": ["体育运动","体育直播","赛事转播","视频直播","咪咕体育"]
     },
     {
         "name": "优酷体育",
         "description": "",
         "url": "https://sports.youku.com/",
         "category": "体育运动",
-        "tags": []
+        "subtype": "体育视频",
+        "tags": ["体育运动","体育视频","赛事回放","体育内容","优酷体育"]
     },
     {
         "name": "新华网体育",
         "description": "",
         "url": "http://sports.xinhuanet.com/",
         "category": "体育运动",
-        "tags": []
+        "subtype": "体育资讯",
+        "tags": ["体育运动","体育资讯","官方媒体","赛事新闻","新华网体育"]
     },
     {
         "name": "中国网体育",
         "description": "",
         "url": "http://sports.china.com.cn/",
         "category": "体育运动",
-        "tags": []
+        "subtype": "体育资讯",
+        "tags": ["体育运动","体育资讯","官方媒体","综合体育","中国网体育"]
     },
     {
         "name": "东方体育",
         "description": "",
         "url": "http://sports.eastday.com/",
         "category": "体育运动",
-        "tags": []
+        "subtype": "体育资讯",
+        "tags": ["体育运动","体育资讯","赛事新闻","东方体育","综合体育"]
     },
     {
         "name": "腾讯汽车",
         "description": "",
         "url": "https://auto.qq.com/",
         "category": "汽车资讯",
-        "tags": []
+        "subtype": "汽车媒体",
+        "tags": ["汽车资讯","汽车媒体","新车资讯","评测导购","腾讯汽车"]
     },
     {
         "name": "搜狐汽车",
         "description": "",
         "url": "https://auto.sohu.com/",
         "category": "汽车资讯",
-        "tags": []
+        "subtype": "汽车媒体",
+        "tags": ["汽车资讯","汽车媒体","汽车新闻","评测导购","搜狐汽车"]
     },
     {
         "name": "观沧海",
         "description": "",
         "url": "https://www.gchai.com/",
         "category": "新闻资讯",
-        "tags": []
+        "subtype": "时事评论",
+        "tags": ["新闻资讯","时事评论","热点观察","内容平台","观沧海"]
     },
     {
         "name": "百度招聘",
         "description": "",
         "url": "https://zhaopin.baidu.com/",
         "category": "求职招聘",
-        "tags": []
+        "subtype": "招聘平台",
+        "tags": ["求职招聘","招聘平台","企业招聘","职位搜索","百度招聘"]
     },
     {
         "name": "中国移动",
         "description": "",
         "url": "https://www.10086.cn/",
         "category": "通信服务",
-        "tags": []
+        "subtype": "运营商服务",
+        "tags": ["通信服务","运营商服务","话费办理","宽带服务","中国移动"]
     },
     {
         "name": "汇博招聘",
         "description": "",
         "url": "https://www.hbjob.com/",
         "category": "求职招聘",
-        "tags": []
+        "subtype": "招聘平台",
+        "tags": ["求职招聘","招聘平台","职位搜索","本地招聘","汇博招聘"]
     },
     {
         "name": "新浪汽车",
         "description": "",
         "url": "https://auto.sina.com.cn/",
         "category": "汽车资讯",
-        "tags": []
+        "subtype": "汽车媒体",
+        "tags": ["汽车资讯","汽车媒体","新车资讯","汽车新闻","新浪汽车"]
     },
     {
         "name": "丁香园",
         "description": "",
         "url": "https://www.dxy.cn/",
         "category": "医疗健康",
-        "tags": []
+        "subtype": "医学社区",
+        "tags": ["医疗健康","医学社区","医生平台","健康科普","丁香园"]
     },
     {
         "name": "中国福利彩票",
         "description": "",
         "url": "https://www.cwl.gov.cn/",
         "category": "生活服务",
-        "tags": []
+        "subtype": "公益彩票",
+        "tags": ["生活服务","公益彩票","开奖信息","福利彩票","中国福利彩票"]
     },
     {
         "name": "猎聘",
         "description": "",
         "url": "https://www.liepin.com/",
         "category": "求职招聘",
-        "tags": []
+        "subtype": "招聘平台",
+        "tags": ["求职招聘","招聘平台","高端招聘","猎头服务","猎聘"]
     },
     {
         "name": "Booking",
         "description": "",
         "url": "https://www.booking.com/",
         "category": "旅游与出行",
-        "tags": []
+        "subtype": "酒店预订",
+        "tags": ["旅游与出行","酒店预订","住宿预订","国际旅行","Booking"]
     },
     {
         "name": "新华英才",
         "description": "",
         "url": "https://www.xinhuayingcai.com/",
         "category": "求职招聘",
-        "tags": []
+        "subtype": "招聘平台",
+        "tags": ["求职招聘","招聘平台","职位搜索","人才服务","新华英才"]
     },
     {
         "name": "中国证券网",
         "description": "",
         "url": "https://www.cnstock.com/",
         "category": "金融投资",
-        "tags": []
+        "subtype": "证券资讯",
+        "tags": ["金融投资","证券资讯","股市新闻","投资资讯","中国证券网"]
     },
     {
         "name": "中国财经信息网",
         "description": "",
         "url": "https://www.cfi.cn/",
         "category": "金融投资",
-        "tags": []
+        "subtype": "财经资讯",
+        "tags": ["金融投资","财经资讯","市场数据","财经新闻","中国财经信息网"]
     },
     {
         "name": "中金在线",
         "description": "",
         "url": "https://www.cnfol.com/",
         "category": "金融投资",
-        "tags": []
+        "subtype": "财经资讯",
+        "tags": ["金融投资","财经资讯","外汇黄金","股票行情","中金在线"]
     },
     {
         "name": "萝卜投研",
         "description": "",
         "url": "https://www.luobotouyan.com/",
         "category": "金融投资",
-        "tags": []
+        "subtype": "投资研究",
+        "tags": ["金融投资","投资研究","研报平台","股票分析","萝卜投研"]
     },
     {
         "name": "证券之星",
         "description": "",
         "url": "https://www.stockstar.com/",
         "category": "金融投资",
-        "tags": []
+        "subtype": "证券资讯",
+        "tags": ["金融投资","证券资讯","股市行情","股票新闻","证券之星"]
     },
     {
         "name": "中国经济网",
         "description": "",
         "url": "http://www.ce.cn/",
         "category": "金融投资",
-        "tags": []
+        "subtype": "财经资讯",
+        "tags": ["金融投资","财经资讯","宏观经济","经济新闻","中国经济网"]
     },
     {
         "name": "南方财富网",
         "description": "",
         "url": "https://www.southmoney.com/",
         "category": "金融投资",
-        "tags": []
+        "subtype": "财经资讯",
+        "tags": ["金融投资","财经资讯","股票理财","市场观察","南方财富网"]
     },
     {
         "name": "金投网",
         "description": "",
         "url": "https://www.cngold.org/",
         "category": "金融投资",
-        "tags": []
+        "subtype": "投资资讯",
+        "tags": ["金融投资","投资资讯","黄金外汇","理财资讯","金投网"]
     },
     {
         "name": "中国新闻网",
         "description": "",
         "url": "https://www.chinanews.com/",
         "category": "新闻资讯",
-        "tags": []
+        "subtype": "综合新闻",
+        "tags": ["新闻资讯","综合新闻","时事要闻","中新网","中国新闻网"]
     },
     {
         "name": "中华网",
         "description": "",
         "url": "https://www.china.com/",
         "category": "新闻资讯",
-        "tags": []
+        "subtype": "综合门户",
+        "tags": ["新闻资讯","综合门户","热点资讯","综合内容","中华网"]
     },
     {
         "name": "光明军事",
         "description": "",
         "url": "http://military.gmw.cn/",
         "category": "新闻资讯",
-        "tags": []
+        "subtype": "军事资讯",
+        "tags": ["新闻资讯","军事资讯","军事新闻","国防观察","光明军事"]
     },
     {
         "name": "参考消息",
         "description": "",
         "url": "http://www.cankaoxiaoxi.com/",
         "category": "新闻资讯",
-        "tags": []
+        "subtype": "国际新闻",
+        "tags": ["新闻资讯","国际新闻","参考消息","环球资讯","外媒编译"]
     },
     {
         "name": "央视网",
         "description": "",
         "url": "https://www.cctv.com/",
         "category": "新闻资讯",
-        "tags": []
+        "subtype": "官方媒体",
+        "tags": ["新闻资讯","官方媒体","央视新闻","视频新闻","央视网"]
     },
     {
         "name": "观察者网",
         "description": "",
         "url": "https://www.guancha.cn/",
         "category": "新闻资讯",
-        "tags": []
+        "subtype": "时政评论",
+        "tags": ["新闻资讯","时政评论","热点观察","国际评论","观察者网"]
     },
     {
         "name": "央广网",
         "description": "",
         "url": "http://www.cnr.cn/",
         "category": "新闻资讯",
-        "tags": []
+        "subtype": "官方媒体",
+        "tags": ["新闻资讯","官方媒体","广播新闻","时事资讯","央广网"]
     },
     {
         "name": "中国教育在线",
         "description": "",
         "url": "https://www.eol.cn/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "教育资讯",
+        "tags": ["知识学习","教育资讯","升学信息","高考资讯","中国教育在线"]
     },
     {
         "name": "米尔军情",
         "description": "",
         "url": "http://www.miercn.com/",
         "category": "新闻资讯",
-        "tags": []
+        "subtype": "军事资讯",
+        "tags": ["新闻资讯","军事资讯","军事评论","军情观察","米尔军情"]
     },
     {
         "name": "中国网",
         "description": "",
         "url": "http://www.china.com.cn/",
         "category": "新闻资讯",
-        "tags": []
+        "subtype": "官方媒体",
+        "tags": ["新闻资讯","官方媒体","时政新闻","中国网","综合新闻"]
     },
     {
         "name": "新京报",
         "description": "",
         "url": "https://www.bjnews.com.cn/",
         "category": "新闻资讯",
-        "tags": []
+        "subtype": "新闻媒体",
+        "tags": ["新闻资讯","新闻媒体","深度报道","时事新闻","新京报"]
     },
     {
         "name": "PPT之家",
         "description": "",
         "url": "https://www.pptjia.com/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "PPT模板",
+        "tags": ["AI办公工具","PPT模板","演示资源","办公设计","PPT之家"]
     },
     {
         "name": "AI思维导图",
         "description": "",
         "url": "https://www.zhixi.com/",
         "category": "AI办公工具",
-        "tags": []
+        "subtype": "思维导图",
+        "tags": ["AI办公工具","思维导图","知识整理","脑图工具","AI思维导图"]
     },
     {
         "name": "搜狗百科",
         "description": "",
         "url": "https://baike.sogou.com/",
         "category": "搜索引擎",
-        "tags": []
+        "subtype": "百科知识",
+        "tags": ["搜索引擎","百科知识","词条查询","知识检索","搜狗百科"]
     },
     {
         "name": "deepseek",
         "description": "",
         "url": "https://www.deepseek.com/",
         "category": "人工智能",
-        "tags": []
+        "subtype": "AI聊天",
+        "tags": ["人工智能","AI聊天","大语言模型","智能问答","DeepSeek"]
     },
     {
         "name": "电脑管家",
         "description": "",
         "url": "https://guanjia.qq.com/",
         "category": "系统工具",
-        "tags": []
+        "subtype": "安全防护",
+        "tags": ["系统工具","安全防护","电脑优化","杀毒软件","电脑管家"]
     },
     {
         "name": "拉米工具",
         "description": "",
         "url": "https://www.lami.la/",
         "category": "工具",
-        "tags": []
+    "subtype": "工具箱",
+        "tags": ["工具","在线工具箱","效率工具","实用工具","拉米工具"]
     },
     {
         "name": "谷歌翻译",
         "description": "",
         "url": "https://translate.google.com/",
         "category": "翻译工具",
-        "tags": []
+        "subtype": "在线翻译",
+        "tags": ["翻译工具","在线翻译","多语言翻译","Google Translate","谷歌翻译"]
     },
     {
         "name": "阿里1688",
         "description": "",
         "url": "https://www.1688.com/",
         "category": "电商购物",
-        "tags": []
+        "subtype": "批发采购",
+        "tags": ["电商购物","批发采购","源头工厂","B2B电商","1688"]
     },
     {
         "name": "爱淘宝",
         "description": "",
         "url": "https://ai.taobao.com/",
         "category": "电商购物",
-        "tags": []
+        "subtype": "导购平台",
+        "tags": ["电商购物","导购平台","淘宝导购","优惠推荐","爱淘宝"]
     },
     {
         "name": "贝壳找房",
         "description": "",
         "url": "https://www.ke.com/",
         "category": "房产家居",
-        "tags": []
+        "subtype": "房产交易",
+        "tags": ["房产家居","房产交易","二手房","租房平台","贝壳找房"]
     },
     {
         "name": "链家",
         "description": "",
         "url": "https://www.lianjia.com/",
         "category": "房产家居",
-        "tags": []
+        "subtype": "房产交易",
+        "tags": ["房产家居","房产交易","租房买房","房源信息","链家"]
     },
     {
         "name": "天气网",
         "description": "",
         "url": "https://www.tianqi.com/",
         "category": "生活服务",
-        "tags": []
+        "subtype": "天气服务",
+        "tags": ["生活服务","天气服务","天气预报","气象查询","天气网"]
     },
     {
         "name": "薄荷健身",
         "description": "",
         "url": "https://www.boohee.com/",
         "category": "健康医疗",
-        "tags": []
+        "subtype": "健康管理",
+        "tags": ["健康医疗","健康管理","减脂健身","饮食记录","薄荷健康"]
     },
     {
         "name": "聚划算",
         "description": "",
         "url": "https://ju.taobao.com/",
         "category": "电商购物",
-        "tags": []
+        "subtype": "促销特卖",
+        "tags": ["电商购物","促销特卖","限时优惠","淘宝活动","聚划算"]
     },
     {
         "name": "淘宝网",
         "description": "",
         "url": "https://www.taobao.com/",
         "category": "电商购物",
-        "tags": []
+        "subtype": "综合电商",
+        "tags": ["电商购物","综合电商","网购平台","消费者购物","淘宝网"]
     },
     {
         "name": "搜房网",
         "description": "",
         "url": "https://www.soufun.com/",
         "category": "房产家居",
-        "tags": []
+        "subtype": "房产门户",
+        "tags": ["房产家居","房产门户","楼盘资讯","买房租房","搜房网"]
     },
     {
         "name": "天猫商城",
         "description": "",
         "url": "https://www.tmall.com/",
         "category": "电商购物",
-        "tags": []
+        "subtype": "品牌电商",
+        "tags": ["电商购物","品牌电商","官方旗舰店","品质购物","天猫商城"]
     },
     {
         "name": "苏宁易购",
         "description": "",
         "url": "https://www.suning.com/",
         "category": "电商购物",
-        "tags": []
+        "subtype": "综合电商",
+        "tags": ["电商购物","综合电商","家电购物","零售平台","苏宁易购"]
     },
     {
         "name": "天猫超市",
         "description": "",
         "url": "https://chaoshi.tmall.com/",
         "category": "电商购物",
-        "tags": []
+        "subtype": "商超零售",
+        "tags": ["电商购物","商超零售","生鲜百货","线上超市","天猫超市"]
     },
     {
         "name": "番茄小说",
         "description": "",
         "url": "https://www.fqnovels.com/",
         "category": "阅读文学",
-        "tags": []
+        "subtype": "小说阅读",
+        "tags": ["阅读文学","小说阅读","网络文学","免费小说","番茄小说"]
     },
     {
         "name": "微信读书",
         "description": "",
         "url": "https://weread.qq.com/",
         "category": "阅读文学",
-        "tags": []
+        "subtype": "电子阅读",
+        "tags": ["阅读文学","电子阅读","图书阅读","阅读社区","微信读书"]
     },
     {
         "name": "小说阅读网",
         "description": "",
         "url": "https://www.readnovel.com/",
         "category": "阅读文学",
-        "tags": []
+        "subtype": "小说阅读",
+        "tags": ["阅读文学","小说阅读","网络小说","原创文学","小说阅读网"]
     },
     {
         "name": "QQ阅读",
         "description": "",
         "url": "https://www.qq.com/",
         "category": "阅读文学",
-        "tags": []
+        "subtype": "电子阅读",
+        "tags": ["阅读文学","电子阅读","小说书城","数字阅读","QQ阅读"]
     },
     {
         "name": "中国国家图书馆",
         "description": "",
         "url": "http://www.nlc.cn/",
         "category": "阅读文学",
-        "tags": []
+        "subtype": "图书馆资源",
+        "tags": ["阅读文学","图书馆资源","国家图书馆","数字资源","中国国家图书馆"]
     },
     {
         "name": "全历史",
         "description": "",
         "url": "https://www.allhistory.com/",
         "category": "知识学习",
-        "tags": []
+        "subtype": "历史学习",
+        "tags": ["知识学习","历史学习","历史可视化","知识图谱","全历史"]
     },
     {
         "name": "起点女生网",
         "description": "",
         "url": "https://www.qidian.com/",
         "category": "阅读文学",
-        "tags": []
+        "subtype": "小说阅读",
+        "tags": ["阅读文学","小说阅读","女频小说","网络文学","起点女生网"]
     },
     {
         "name": "七猫免费小说",
         "description": "",
         "url": "https://www.qimao.com/",
         "category": "阅读文学",
-        "tags": []
+        "subtype": "小说阅读",
+        "tags": ["阅读文学","小说阅读","免费小说","网络文学","七猫免费小说"]
     },
     {
         "name": "纵横中文网",
         "description": "",
         "url": "https://www.zongheng.com/",
         "category": "阅读文学",
-        "tags": []
+        "subtype": "小说阅读",
+        "tags": ["阅读文学","小说阅读","原创文学","网络小说","纵横中文网"]
     },
     {
         "name": "晋江文学城",
         "description": "",
         "url": "https://www.jjwxc.net/",
         "category": "阅读文学",
-        "tags": []
+        "subtype": "小说阅读",
+        "tags": ["阅读文学","小说阅读","女频文学","原创小说","晋江文学城"]
     },
     {
         "name": "潇湘书院",
         "description": "",
         "url": "https://www.xxsy.net/",
         "category": "阅读文学",
-        "tags": []
+        "subtype": "小说阅读",
+        "tags": ["阅读文学","小说阅读","女频小说","原创文学","潇湘书院"]
     },
     {
         "name": "17k小说网",
         "description": "",
         "url": "https://www.17k.com/",
         "category": "阅读文学",
-        "tags": []
+        "subtype": "小说阅读",
+        "tags": ["阅读文学","小说阅读","原创小说","网络文学","17K小说网"]
     },
     {
         "name": "懒人听书",
         "description": "",
         "url": "https://www.lrts.me/",
         "category": "阅读文学",
-        "tags": []
+        "subtype": "有声阅读",
+        "tags": ["阅读文学","有声阅读","听书平台","有声书","懒人听书"]
     },
     {
         "name": "ima",
         "description": "",
         "url": "https://ima.cool/",
         "category": "人工智能",
-        "tags": []
+        "subtype": "AI创作",
+        "tags": ["人工智能","AI创作","内容生成","创意工具","ima"]
     },
     {
         "name": "稿定AI",
         "description": "",
         "url": "https://www.gaoding.com/",
         "category": "人工智能",
-        "tags": []
+        "subtype": "AI设计",
+        "tags": ["人工智能","AI设计","海报生成","设计创作","稿定AI"]
     },
     {
         "name": "腾讯元器",
         "description": "",
         "url": "https://yuanqi.tencent.com/",
         "category": "人工智能",
-        "tags": []
+        "subtype": "智能体平台",
+        "tags": ["人工智能","智能体平台","AI应用开发","腾讯元器","Agent平台"]
     },
     {
         "name": "讯飞星火",
         "description": "",
         "url": "https://xinghuo.xfyun.cn/",
         "category": "人工智能",
-        "tags": []
+        "subtype": "AI聊天",
+        "tags": ["人工智能","AI聊天","大模型","智能问答","讯飞星火"]
     },
     {
         "name": "Notion AI",
         "description": "",
         "url": "https://www.notion.so/",
         "category": "人工智能",
-        "tags": []
+        "subtype": "AI办公",
+        "tags": ["人工智能","AI办公","知识管理","文档助手","Notion AI"]
     },
     {
         "name": "百度文库AI",
         "description": "",
         "url": "https://wenku.baidu.com/",
         "category": "人工智能",
-        "tags": []
+        "subtype": "AI办公",
+        "tags": ["人工智能","AI办公","文档生成","文库助手","百度文库AI"]
     },
     {
         "name": "天工AI助手",
         "description": "",
         "url": "https://www.tiangong.cn/",
         "category": "人工智能",
-        "tags": []
+        "subtype": "AI聊天",
+        "tags": ["人工智能","AI聊天","智能问答","搜索助手","天工AI助手"]
     },
     {
         "name": "智谱AI",
         "description": "",
         "url": "https://www.zhipuai.cn/",
         "category": "人工智能",
-        "tags": []
+        "subtype": "大模型平台",
+        "tags": ["人工智能","大模型平台","GLM","模型服务","智谱AI"]
     },
     {
         "name": "文心助手",
         "description": "",
         "url": "https://yiyan.baidu.com/",
         "category": "人工智能",
-        "tags": []
+        "subtype": "AI聊天",
+        "tags": ["人工智能","AI聊天","文心一言","智能问答","文心助手"]
     },
     {
         "name": "西瓜视频",
         "description": "",
         "url": "https://www.ixigua.com/",
         "category": "影音娱乐",
-        "tags": []
+        "subtype": "视频平台",
+        "tags": ["影音娱乐","视频平台","短视频","中长视频","西瓜视频"]
     },
     {
         "name": "1905电影网",
         "description": "",
         "url": "https://www.1905.com/",
         "category": "影音娱乐",
-        "tags": []
+        "subtype": "影视平台",
+        "tags": ["影音娱乐","影视平台","电影资讯","电影在线观看","1905电影网"]
     },
     {
         "name": "虎牙",
         "description": "",
         "url": "https://www.huya.com/",
         "category": "影音娱乐",
-        "tags": []
+        "subtype": "直播平台",
+        "tags": ["影音娱乐","直播平台","游戏直播","娱乐直播","虎牙"]
     },
     {
         "name": "电视猫",
         "description": "",
         "url": "https://www.tvmao.com/",
         "category": "影音娱乐",
-        "tags": []
+        "subtype": "影视资讯",
+        "tags": ["影音娱乐","影视资讯","节目单","电视剧资讯","电视猫"]
     },
     {
         "name": "新浪视频",
         "description": "",
         "url": "https://video.sina.com.cn/",
         "category": "影音娱乐",
-        "tags": []
+        "subtype": "视频平台",
+        "tags": ["影音娱乐","视频平台","新闻视频","娱乐视频","新浪视频"]
     },
     {
         "name": "哔哩哔哩",
         "description": "",
         "url": "https://www.bilibili.com/",
         "category": "影音娱乐",
-        "tags": []
+        "subtype": "视频社区",
+        "tags": ["影音娱乐","视频社区","弹幕视频","二次元社区","哔哩哔哩"]
     },
     {
         "name": "斗鱼",
         "description": "",
         "url": "https://www.douyu.com/",
         "category": "影音娱乐",
-        "tags": []
+        "subtype": "直播平台",
+        "tags": ["影音娱乐","直播平台","游戏直播","互动直播","斗鱼"]
     },
     {
         "name": "迅雷",
         "description": "",
         "url": "https://www.xunlei.com/",
         "category": "下载工具",
-        "tags": []
+        "subtype": "下载管理",
+        "tags": ["下载工具","下载管理","资源下载","网盘下载","迅雷"]
     },
     {
         "name": "网易视频",
         "description": "",
         "url": "https://video.163.com/",
         "category": "影音娱乐",
-        "tags": []
+        "subtype": "视频平台",
+        "tags": ["影音娱乐","视频平台","新闻视频","综合视频","网易视频"]
     },
     {
         "name": "哇学社",
@@ -20655,7 +20937,8 @@ const websitesDatabase = [
         "description": "牛马工具库",
         "url": "https://www.niumaku.top/",
         "category": "工具",
-        "tags": ["工具"]
+    "subtype": "工具箱",
+        "tags": ["工具","在线工具箱","实用工具","聚合工具","牛马工具库"]
     },
     {
         "name": "豆包",

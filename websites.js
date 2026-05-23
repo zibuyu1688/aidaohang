@@ -20680,6 +20680,758 @@ const websitesDatabase = [
         "category": "AI聊天助手",
         "subtype": "通用对话",
         "tags": ["AI聊天助手", "通用对话", "字节跳动", "智能问答", "豆包"]
+    },
+    {
+        "name": "Lex Fridman",
+        "description": "AI 与科技长访谈，关注 AGI、机器人和哲学讨论。",
+        "url": "https://x.com/lexfridman",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "X", "Twitter", "@lexfridman", "深度访谈"]
+    },
+    {
+        "name": "Sam Altman",
+        "description": "OpenAI CEO，分享模型进展、产品发布和 AI 行业观点。",
+        "url": "https://x.com/sama",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "OpenAI", "X", "@sama", "前沿动态"]
+    },
+    {
+        "name": "Kai-Fu Lee",
+        "description": "创新工场与 01.AI 创始人，关注中国 AI 创业和产业趋势。",
+        "url": "https://x.com/kaifulee",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "中国AI", "X", "@kaifulee", "创业"]
+    },
+    {
+        "name": "John Carmack",
+        "description": "传奇工程师，讨论 AGI、系统工程和高效研发实践。",
+        "url": "https://x.com/ID_AA_Carmack",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "AGI", "X", "@ID_AA_Carmack", "工程实践"]
+    },
+    {
+        "name": "Andrew Ng",
+        "description": "机器学习教育者与创业者，分享 AI 教学、产业和应用实践。",
+        "url": "https://x.com/AndrewYNg",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "机器学习", "X", "@AndrewYNg", "教育"]
+    },
+    {
+        "name": "Andrej Karpathy",
+        "description": "深度学习与 LLM 教学内容，擅长把复杂技术讲清楚。",
+        "url": "https://x.com/karpathy",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "LLM", "X", "@karpathy", "深度学习"]
+    },
+    {
+        "name": "Yann LeCun",
+        "description": "图灵奖得主与 Meta 首席 AI 科学家，讨论深度学习和 AI 路线。",
+        "url": "https://x.com/ylecun",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "深度学习", "X", "@ylecun", "MetaAI"]
+    },
+    {
+        "name": "Robert Scoble",
+        "description": "科技观察者，关注 AI 硬件、空间计算和未来趋势。",
+        "url": "https://x.com/Scobleizer",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "科技趋势", "X", "@Scobleizer", "硬件"]
+    },
+    {
+        "name": "Fei-Fei Li",
+        "description": "计算机视觉先驱，分享人本 AI、视觉智能和教育观点。",
+        "url": "https://x.com/drfeifei",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "计算机视觉", "X", "@drfeifei", "人本AI"]
+    },
+    {
+        "name": "Kirk Borne",
+        "description": "数据科学与 AI 资源分享，适合跟进论文、图表和行业综述。",
+        "url": "https://x.com/KirkDBorne",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "数据科学", "X", "@KirkDBorne", "资源"]
+    },
+    {
+        "name": "François Chollet",
+        "description": "Keras 创作者，关注抽象推理、智能评测和 AGI 基准。",
+        "url": "https://x.com/fchollet",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "Keras", "X", "@fchollet", "AGI评测"]
+    },
+    {
+        "name": "Rowan Cheung",
+        "description": "The Rundown AI 主理人，提供高频 AI 新闻与产品动态。",
+        "url": "https://x.com/rowancheung",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "AI新闻", "X", "@rowancheung", "日报"]
+    },
+    {
+        "name": "Demis Hassabis",
+        "description": "Google DeepMind CEO，分享前沿研究、科学智能和产品进展。",
+        "url": "https://x.com/demishassabis",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "DeepMind", "X", "@demishassabis", "研究"]
+    },
+    {
+        "name": "Geoffrey Hinton",
+        "description": "深度学习先驱，关注 AI 风险、认知和神经网络发展。",
+        "url": "https://x.com/geoffreyhinton",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "深度学习", "X", "@geoffreyhinton", "AI安全"]
+    },
+    {
+        "name": "Jeff Dean",
+        "description": "Google DeepMind 首席科学家，分享大规模 AI 系统和研究动态。",
+        "url": "https://x.com/jeffdean",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "Google", "X", "@jeffdean", "大规模系统"]
+    },
+    {
+        "name": "Greg Brockman",
+        "description": "OpenAI 联合创始人，关注模型产品、工程和公司动态。",
+        "url": "https://x.com/gdb",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "OpenAI", "X", "@gdb", "产品动态"]
+    },
+    {
+        "name": "Ian Goodfellow",
+        "description": "GAN 发明者，关注生成模型、研究进展和 AI 安全。",
+        "url": "https://x.com/goodfellow_ian",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "GAN", "X", "@goodfellow_ian", "生成模型"]
+    },
+    {
+        "name": "Gary Marcus",
+        "description": "AI 批评者与认知科学家，关注可靠 AI、推理和产业泡沫。",
+        "url": "https://x.com/GaryMarcus",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "AI批评", "X", "@GaryMarcus", "可靠AI"]
+    },
+    {
+        "name": "Lilian Weng",
+        "description": "OpenAI 研究者，长期输出高质量 LLM、Agent 与 RL 综述。",
+        "url": "https://x.com/lilianweng",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "LLM", "X", "@lilianweng", "研究综述"]
+    },
+    {
+        "name": "Timnit Gebru",
+        "description": "AI 伦理与公平性研究者，关注数据、偏见和负责任 AI。",
+        "url": "https://x.com/timnitgebru",
+        "category": "AI资讯博主",
+        "subtype": "顶级领军人物",
+        "tags": ["AI", "AI伦理", "X", "@timnitgebru", "公平性"]
+    },
+    {
+        "name": "Sebastian Raschka",
+        "description": "机器学习与 LLM 教程作者，分享模型实现、书籍和实战代码。",
+        "url": "https://x.com/rasbt",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "LLM", "X", "@rasbt", "@sebastianraschka"]
+    },
+    {
+        "name": "Soumith Chintala",
+        "description": "PyTorch 核心创建者之一，关注深度学习框架和研究工程。",
+        "url": "https://x.com/soumithchintala",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "PyTorch", "X", "@soumithchintala", "深度学习"]
+    },
+    {
+        "name": "Oriol Vinyals",
+        "description": "Google DeepMind 研究者，关注强化学习、多智能体和大模型研究。",
+        "url": "https://x.com/oriolvinyalsml",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "DeepMind", "X", "@oriolvinyalsml", "研究"]
+    },
+    {
+        "name": "Jeremy Howard",
+        "description": "fast.ai 创始人，强调实用深度学习和 AI 教育。",
+        "url": "https://x.com/jeremyphoward",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "fast.ai", "X", "@jeremyphoward", "实用AI"]
+    },
+    {
+        "name": "Gwern Branwen",
+        "description": "深度长文与研究笔记，覆盖 AI、认知、预测和技术史。",
+        "url": "https://x.com/gwern",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "研究笔记", "X", "@gwern", "长文"]
+    },
+    {
+        "name": "Aravind Srinivas",
+        "description": "Perplexity CEO，分享 AI 搜索、产品和创业动态。",
+        "url": "https://x.com/aravsrinivas",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "Perplexity", "X", "@aravsrinivas", "AI搜索"]
+    },
+    {
+        "name": "AK",
+        "description": "高频分享 arXiv 论文、模型发布和 AI 研究快讯。",
+        "url": "https://x.com/_akhaliq",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "论文", "X", "@_akhaliq", "arXiv"]
+    },
+    {
+        "name": "Jim Fan",
+        "description": "NVIDIA 研究者，关注具身智能、机器人和世界模型。",
+        "url": "https://x.com/drjimfan",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "机器人", "X", "@drjimfan", "NVIDIA"]
+    },
+    {
+        "name": "Tim Dettmers",
+        "description": "高效训练与量化专家，分享大模型训练、显存和优化实践。",
+        "url": "https://x.com/tim_dettmers",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "量化", "X", "@tim_dettmers", "高效训练"]
+    },
+    {
+        "name": "Chip Huyen",
+        "description": "生产级机器学习专家，关注 MLOps、评测和 AI 产品落地。",
+        "url": "https://x.com/chipro",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "MLOps", "X", "@chipro", "生产级ML"]
+    },
+    {
+        "name": "Yannic Kilcher",
+        "description": "AI 论文解读创作者，擅长用视频拆解前沿研究。",
+        "url": "https://x.com/ykilcher",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "论文解读", "X", "@ykilcher", "@yannickilcher"]
+    },
+    {
+        "name": "Maxime Labonne",
+        "description": "LLM 微调与开源实践作者，分享模型训练和实战笔记。",
+        "url": "https://x.com/maximelabonne",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "LLM", "X", "@maximelabonne", "微调"]
+    },
+    {
+        "name": "Pascal Bornet",
+        "description": "智能自动化专家，关注 AI Agent、RPA 和企业自动化。",
+        "url": "https://x.com/pascal_bornet",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "自动化", "X", "@pascal_bornet", "RPA"]
+    },
+    {
+        "name": "Bernard Marr",
+        "description": "商业科技作者，分享企业 AI 应用、数据战略和数字化趋势。",
+        "url": "https://x.com/bernardmarr",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "商业AI", "X", "@bernardmarr", "数据战略"]
+    },
+    {
+        "name": "Sally Eaves",
+        "description": "技术教育与影响力传播者，关注 AI、可持续发展和未来技能。",
+        "url": "https://x.com/sallyeaves",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "科技趋势", "X", "@sallyeaves", "教育"]
+    },
+    {
+        "name": "Varun Mayya",
+        "description": "AI 创业与自动化实验分享，关注 AGI 应用和产品原型。",
+        "url": "https://x.com/waitin4agi_",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "AGI", "X", "@waitin4agi_", "创业"]
+    },
+    {
+        "name": "Vincent Boucher",
+        "description": "Montreal AI 相关内容，分享 AI 新闻、研究与社区动态。",
+        "url": "https://x.com/ceobillionaire",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "MontrealAI", "X", "@ceobillionaire", "社区"]
+    },
+    {
+        "name": "Erik Brynjolfsson",
+        "description": "经济学家，关注 AI 对生产率、就业和商业组织的影响。",
+        "url": "https://x.com/erikbryn",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "经济学", "X", "@erikbryn", "生产率"]
+    },
+    {
+        "name": "Randy Olson",
+        "description": "数据科学与可视化内容创作者，分享分析、图表和 AI 应用。",
+        "url": "https://x.com/randal_olson",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "数据可视化", "X", "@randal_olson", "数据科学"]
+    },
+    {
+        "name": "Rob Lennon",
+        "description": "AI 工具与创业实战内容，关注创作者效率和自动化工作流。",
+        "url": "https://x.com/thatroblennon",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "AI工具", "X", "@thatroblennon", "创业"]
+    },
+    {
+        "name": "Fabio Moioli",
+        "description": "企业 AI 与数字化转型观点，分享商业落地案例和趋势。",
+        "url": "https://x.com/fabiomoioli",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "企业AI", "X", "@fabiomoioli", "数字化"]
+    },
+    {
+        "name": "Antonio Grasso",
+        "description": "科技趋势观察者，聚合 AI、IoT、数据和数字化转型内容。",
+        "url": "https://x.com/antgrasso",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "科技趋势", "X", "@antgrasso", "数字化"]
+    },
+    {
+        "name": "Ronald van Loon",
+        "description": "AI、大数据和数据科学传播者，适合获取行业图解和观点。",
+        "url": "https://x.com/Ronald_vanLoon",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "大数据", "X", "@Ronald_vanLoon", "数据科学"]
+    },
+    {
+        "name": "Tamara McCleary",
+        "description": "技术领导力与 AI 商业趋势内容，关注企业创新和数字化。",
+        "url": "https://x.com/TamaraMcCleary",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "领导力", "X", "@TamaraMcCleary", "商业AI"]
+    },
+    {
+        "name": "Sean Gardner",
+        "description": "技术与社会影响观察者，分享 AI、伦理和数字文化相关内容。",
+        "url": "https://x.com/2morrowknight",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "AI伦理", "X", "@2morrowknight", "趋势"]
+    },
+    {
+        "name": "Allie K. Miller",
+        "description": "AI 商业应用与职业发展内容，适合关注企业用 AI 和个人成长。",
+        "url": "https://x.com/alliekmiller",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "商业AI", "X", "@alliekmiller", "职业发展"]
+    },
+    {
+        "name": "Matt Shumer",
+        "description": "OthersideAI 创始人，分享 AI 工具、Prompt 和产品实验。",
+        "url": "https://x.com/mattshumer_",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "AI工具", "X", "@mattshumer_", "产品"]
+    },
+    {
+        "name": "Logan Kilpatrick",
+        "description": "Google DeepMind 开发者生态相关内容，关注 AI API 和开发工具。",
+        "url": "https://x.com/OfficialLoganK",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "开发者", "X", "@OfficialLoganK", "GoogleDeepMind"]
+    },
+    {
+        "name": "Peter Steinberger",
+        "description": "开发者与开源作者，关注 Agentic AI、工具链和工程体验。",
+        "url": "https://x.com/steipete",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "Agent", "X", "@steipete", "开源"]
+    },
+    {
+        "name": "Alec Radford",
+        "description": "生成式 AI 研究先驱，关注语言、视觉和模型研究。",
+        "url": "https://x.com/AlecRad",
+        "category": "AI资讯博主",
+        "subtype": "研究与技术专家",
+        "tags": ["AI", "生成式AI", "X", "@AlecRad", "研究"]
+    },
+    {
+        "name": "OpenAI",
+        "description": "OpenAI 官方账号，发布模型、产品、研究和安全更新。",
+        "url": "https://x.com/OpenAI",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "OpenAI", "X", "@OpenAI", "官方"]
+    },
+    {
+        "name": "Google AI",
+        "description": "Google AI 官方账号，发布研究、产品和开发者动态。",
+        "url": "https://x.com/GoogleAI",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "GoogleAI", "X", "@GoogleAI", "官方"]
+    },
+    {
+        "name": "Google DeepMind",
+        "description": "Google DeepMind 官方账号，分享前沿研究与模型进展。",
+        "url": "https://x.com/GoogleDeepMind",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "DeepMind", "X", "@GoogleDeepMind", "@DeepMind"]
+    },
+    {
+        "name": "NVIDIA",
+        "description": "NVIDIA 官方账号，覆盖 GPU、AI 计算和开发者生态。",
+        "url": "https://x.com/NVIDIA",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "NVIDIA", "X", "@NVIDIA", "GPU"]
+    },
+    {
+        "name": "NVIDIA AI",
+        "description": "NVIDIA AI 官方账号，聚焦 AI 模型、平台和行业解决方案。",
+        "url": "https://x.com/NVIDIAAI",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "NVIDIAAI", "X", "@NVIDIAAI", "官方"]
+    },
+    {
+        "name": "Anthropic",
+        "description": "Anthropic 官方账号，发布 Claude 模型、产品和安全研究。",
+        "url": "https://x.com/AnthropicAI",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "Claude", "X", "@AnthropicAI", "官方"]
+    },
+    {
+        "name": "Meta AI",
+        "description": "Meta AI 官方账号，关注 Llama、开源模型和基础研究。",
+        "url": "https://x.com/MetaAI",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "MetaAI", "X", "@MetaAI", "Llama"]
+    },
+    {
+        "name": "Groq",
+        "description": "Groq 官方账号，关注高速 LLM 推理芯片和云服务。",
+        "url": "https://x.com/GroqInc",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "Groq", "X", "@GroqInc", "推理"]
+    },
+    {
+        "name": "Midjourney",
+        "description": "Midjourney 官方账号，发布图像生成模型和社区作品动态。",
+        "url": "https://x.com/midjourney",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "图像生成", "X", "@midjourney", "官方"]
+    },
+    {
+        "name": "Stanford HAI",
+        "description": "斯坦福人本 AI 研究所，关注 AI 研究、政策和社会影响。",
+        "url": "https://x.com/StanfordHAI",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "人本AI", "X", "@StanfordHAI", "政策"]
+    },
+    {
+        "name": "MIT CSAIL",
+        "description": "MIT 计算机科学与人工智能实验室，发布研究和项目进展。",
+        "url": "https://x.com/MIT_CSAIL",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "MIT", "X", "@MIT_CSAIL", "研究"]
+    },
+    {
+        "name": "IBM Data & AI",
+        "description": "IBM 数据与 AI 账号，分享企业 AI、自动化和数据平台内容。",
+        "url": "https://x.com/IBMData",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "IBM", "X", "@IBMData", "企业AI"]
+    },
+    {
+        "name": "DAIR.AI",
+        "description": "AI 教育与资源账号，分享论文、提示词工程和学习资料。",
+        "url": "https://x.com/dair_ai",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "论文", "X", "@dair_ai", "提示词"]
+    },
+    {
+        "name": "The Rundown AI",
+        "description": "AI 新闻简报账号，快速跟进模型发布、工具和行业事件。",
+        "url": "https://x.com/therundownai",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "AI新闻", "X", "@therundownai", "日报"]
+    },
+    {
+        "name": "Futurepedia",
+        "description": "AI 工具目录与资讯账号，适合发现新工具和产品更新。",
+        "url": "https://x.com/futurepedia_io",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "AI工具", "X", "@futurepedia_io", "工具目录"]
+    },
+    {
+        "name": "xAI",
+        "description": "xAI 官方账号，发布 Grok、模型研究和产品动态。",
+        "url": "https://x.com/xai",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "xAI", "X", "@xai", "Grok"]
+    },
+    {
+        "name": "Stability AI",
+        "description": "Stability AI 官方账号，关注 Stable Diffusion 和生成式模型。",
+        "url": "https://x.com/StabilityAI",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "StabilityAI", "X", "@StabilityAI", "StableDiffusion"]
+    },
+    {
+        "name": "Hugging Face",
+        "description": "开源 AI 平台官方账号，发布模型、数据集和社区动态。",
+        "url": "https://x.com/HuggingFace",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "开源模型", "X", "@HuggingFace", "社区"]
+    },
+    {
+        "name": "LangChain",
+        "description": "LangChain 官方账号，分享 LLM 应用、Agent 框架和开发者工具。",
+        "url": "https://x.com/LangChain",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "LangChain", "X", "@LangChain", "@LangChainAI"]
+    },
+    {
+        "name": "CrewAI",
+        "description": "多智能体框架相关账号，分享 Agent 协作和自动化应用。",
+        "url": "https://x.com/crewAI",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "Agent", "X", "@crewAI", "多智能体"]
+    },
+    {
+        "name": "Perplexity",
+        "description": "Perplexity 官方账号，发布 AI 搜索、产品和模型能力更新。",
+        "url": "https://x.com/Perplexity_AI",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "AI搜索", "X", "@Perplexity_AI", "官方"]
+    },
+    {
+        "name": "Cohere",
+        "description": "Cohere 官方账号，关注企业级 LLM、检索和模型平台。",
+        "url": "https://x.com/Cohere",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "Cohere", "X", "@Cohere", "企业LLM"]
+    },
+    {
+        "name": "Mistral AI",
+        "description": "Mistral AI 官方账号，发布欧洲开源模型和企业 AI 产品。",
+        "url": "https://x.com/MistralAI",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "Mistral", "X", "@MistralAI", "开源模型"]
+    },
+    {
+        "name": "EleutherAI",
+        "description": "EleutherAI 社区账号，关注开源大模型和独立研究。",
+        "url": "https://x.com/AiEleuther",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "EleutherAI", "X", "@AiEleuther", "@EleutherAI"]
+    },
+    {
+        "name": "AI for Good",
+        "description": "AI for Good 账号，关注 AI 在社会影响和公益领域的应用。",
+        "url": "https://x.com/ai_for_good",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "AI公益", "X", "@ai_for_good", "社会影响"]
+    },
+    {
+        "name": "Women in AI",
+        "description": "女性 AI 社群账号，分享多元化、教育和女性领导者内容。",
+        "url": "https://x.com/WomenInAI",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "WomenInAI", "X", "@WomenInAI", "多元化"]
+    },
+    {
+        "name": "Black in AI",
+        "description": "Black in AI 社群账号，关注 AI 多样性、研究和社区机会。",
+        "url": "https://x.com/BlackInAI",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "BlackInAI", "X", "@BlackInAI", "多元化"]
+    },
+    {
+        "name": "NeurIPS",
+        "description": "NeurIPS 官方账号，发布 AI 顶会论文、会议和征稿信息。",
+        "url": "https://x.com/neuripsconf",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "NeurIPS", "X", "@neuripsconf", "学术会议"]
+    },
+    {
+        "name": "ICML",
+        "description": "ICML 官方账号，发布机器学习顶会会议、论文和通知。",
+        "url": "https://x.com/icmlconf",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "ICML", "X", "@icmlconf", "学术会议"]
+    },
+    {
+        "name": "arXiv",
+        "description": "arXiv 官方账号，适合跟进 AI 与机器学习预印本论文。",
+        "url": "https://x.com/arxiv",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "arXiv", "X", "@arxiv", "论文"]
+    },
+    {
+        "name": "Smol AI",
+        "description": "AI 新闻与开发者内容账号，关注小而实用的 AI 工具和动态。",
+        "url": "https://x.com/smol_ai",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "AI新闻", "X", "@smol_ai", "开发者"]
+    },
+    {
+        "name": "Latent Space",
+        "description": "AI Engineer 与 Latent Space 播客账号，分享开发者访谈和行业讨论。",
+        "url": "https://x.com/latent_space",
+        "category": "AI资讯博主",
+        "subtype": "组织媒体官方",
+        "tags": ["AI", "播客", "X", "@latent_space", "开发者"]
+    },
+    {
+        "name": "01.AI / Yi 动态",
+        "description": "关注 01.AI、Yi 模型与中国 AI 生态相关讨论。",
+        "url": "https://x.com/01Yian",
+        "category": "AI资讯博主",
+        "subtype": "中国与新兴实战",
+        "tags": ["AI", "中国AI", "X", "@01Yian", "Yi"]
+    },
+    {
+        "name": "Shane Gu",
+        "description": "Google DeepMind 研究者，关注机器人、强化学习和智能体研究。",
+        "url": "https://x.com/shaneguML",
+        "category": "AI资讯博主",
+        "subtype": "中国与新兴实战",
+        "tags": ["AI", "DeepMind", "X", "@shaneguML", "机器人"]
+    },
+    {
+        "name": "Jeff Clune",
+        "description": "AI 研究者，关注开放式进化、自动课程和生成算法。",
+        "url": "https://x.com/jeffclune",
+        "category": "AI资讯博主",
+        "subtype": "中国与新兴实战",
+        "tags": ["AI", "生成算法", "X", "@jeffclune", "研究"]
+    },
+    {
+        "name": "Dean W. Ball",
+        "description": "AI 政策与前沿观察，关注监管、国家竞争和产业格局。",
+        "url": "https://x.com/deanwball",
+        "category": "AI资讯博主",
+        "subtype": "中国与新兴实战",
+        "tags": ["AI", "AI政策", "X", "@deanwball", "前沿"]
+    },
+    {
+        "name": "Rahul Maddy",
+        "description": "Google DeepMind 相关研究与 AI 技术内容分享。",
+        "url": "https://x.com/imrahulmaddy",
+        "category": "AI资讯博主",
+        "subtype": "中国与新兴实战",
+        "tags": ["AI", "DeepMind", "X", "@imrahulmaddy", "研究"]
+    },
+    {
+        "name": "Crypto Keji",
+        "description": "AI 应用落地与工具内容，兼顾 Web3 和实战案例。",
+        "url": "https://x.com/CryptoKeji",
+        "category": "AI资讯博主",
+        "subtype": "中国与新兴实战",
+        "tags": ["AI", "AI工具", "X", "@CryptoKeji", "应用落地"]
+    },
+    {
+        "name": "Prompt Quest",
+        "description": "提示词与 AI 创作内容，适合关注 Prompt 和工具玩法。",
+        "url": "https://x.com/promptquest",
+        "category": "AI资讯博主",
+        "subtype": "中国与新兴实战",
+        "tags": ["AI", "提示词", "X", "@promptquest", "AI创作"]
+    },
+    {
+        "name": "AI Highlight",
+        "description": "AI 新闻与亮点聚合账号，适合快速浏览热门模型和工具。",
+        "url": "https://x.com/AIHighlight",
+        "category": "AI资讯博主",
+        "subtype": "中国与新兴实战",
+        "tags": ["AI", "AI新闻", "X", "@AIHighlight", "热点"]
+    },
+    {
+        "name": "Greg Isenberg",
+        "description": "创业者与社区产品顾问，分享 AI 创业、增长和产品思路。",
+        "url": "https://x.com/gregisenberg",
+        "category": "AI资讯博主",
+        "subtype": "中国与新兴实战",
+        "tags": ["AI", "AI创业", "X", "@gregisenberg", "增长"]
+    },
+    {
+        "name": "Riley Brown",
+        "description": "AI 工具和自动化工作流创作者，分享实战教程与案例。",
+        "url": "https://x.com/rileybrown",
+        "category": "AI资讯博主",
+        "subtype": "中国与新兴实战",
+        "tags": ["AI", "AI工具", "X", "@rileybrown", "自动化"]
+    },
+    {
+        "name": "Future Stacked",
+        "description": "AI 工具与未来趋势内容账号，关注新产品和应用场景。",
+        "url": "https://x.com/FutureStacked",
+        "category": "AI资讯博主",
+        "subtype": "中国与新兴实战",
+        "tags": ["AI", "AI工具", "X", "@FutureStacked", "趋势"]
+    },
+    {
+        "name": "Cameron R. Wolfe",
+        "description": "深度学习和 LLM 技术解析，输出研究笔记与工程教程。",
+        "url": "https://x.com/cameronrwolfe",
+        "category": "AI资讯博主",
+        "subtype": "中国与新兴实战",
+        "tags": ["AI", "LLM", "X", "@cameronrwolfe", "技术解析"]
     }
 ];
 

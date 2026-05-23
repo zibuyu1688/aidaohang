@@ -151,10 +151,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
     
-    // 下载按钮事件
-    const downloadBtn = document.getElementById('downloadBtn');
-    downloadBtn.addEventListener('click', downloadAsExcel);
-    
     // 加载更多按钮事件
     loadMoreBtn.addEventListener('click', handleLoadMore);
     
@@ -944,75 +940,3 @@ function createResultElement(site) {
     return div;
 }
 
-// 下载搜索结果为 Excel
-function downloadAsExcel() {
-    if (allSearchResults.length === 0) {
-        alert('没有搜索结果可下载！');
-        return;
-    }
-    
-    // 检查 XLSX 库是否已加载
-    if (typeof XLSX === 'undefined') {
-        console.warn('⚠️  XLSX 库尚未加载，正在重新加载...');
-        // 动态加载 XLSX
-        const script = document.createElement('script');
-        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';
-        script.onload = () => {
-            console.log('✅ XLSX 库加载成功，重试下载...');
-            downloadAsExcelInternal();
-        };
-        script.onerror = () => {
-            console.error('❌ 无法加载 XLSX 库');
-            alert('下载库加载失败，请检查网络连接后重试！');
-        };
-        document.head.appendChild(script);
-        return;
-    }
-    
-    downloadAsExcelInternal();
-}
-
-// 实际的下载逻辑
-function downloadAsExcelInternal() {
-    try {
-        // 准备数据
-        const data = allSearchResults.map((site, index) => ({
-            '序号': index + 1,
-            '网站名称': site.name || '',
-            '网站链接': site.url || '',
-            '描述': site.description || '',
-            '分类': site.category || '',
-            '来源': site.source === 'ai' ? 'AI 推荐' : '本地结果'
-        }));
-        
-        // 创建工作簿
-        const ws = XLSX.utils.json_to_sheet(data);
-        const wb = XLSX.utils.book_new();
-        XLSX.utils.book_append_sheet(wb, ws, '搜索结果');
-        
-        // 设置列宽
-        const colWidths = [
-            { wch: 8 },      // 序号
-            { wch: 20 },     // 网站名称
-            { wch: 40 },     // 网站链接
-            { wch: 30 },     // 描述
-            { wch: 15 },     // 分类
-            { wch: 12 }      // 来源
-        ];
-        ws['!cols'] = colWidths;
-        
-        // 生成文件名（包含搜索词和时间戳）
-        const timestamp = new Date().toLocaleString('zh-CN').replace(/[/:]/g, '-');
-        const query = searchInput.value || '搜索结果';
-        const fileName = `${query}_${timestamp}.xlsx`;
-        
-        // 下载文件
-        XLSX.writeFile(wb, fileName);
-        
-        console.log(`✅ 已下载 Excel 文件: ${fileName}，共 ${allSearchResults.length} 条结果`);
-        
-    } catch (error) {
-        console.error('❌ 下载失败:', error);
-        alert('下载失败，请重试！');
-    }
-}

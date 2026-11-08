@@ -38293,6 +38293,20 @@ const websitesDatabase = [
                 "XHunt Top100 2026-05-23",
                 "华语榜"
             ]
+        },
+        {
+            "name": "agent-qa",
+            "description": "自然语言网页与移动端QA，持久记忆与经验证的自我改进，附步骤及截图。",
+            "url": "https://vostride.com",
+            "category": "测试自动化",
+            "tags": [
+                "QA",
+                "网页测试",
+                "移动端测试",
+                "持久记忆",
+                "自我改进",
+                "MCP"
+            ]
         }
     ];
 
